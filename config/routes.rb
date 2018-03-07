@@ -17,7 +17,7 @@ Rails.application.routes.draw do
     resources :styles, only: [:index]
   end
 
-  #styles interface routes
+  #styles%products interface routes
   resources :styles do
     resources :products, only: [:index]
   end
