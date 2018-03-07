@@ -21,5 +21,8 @@ Rails.application.routes.draw do
   resources :styles do
     resources :products, only: [:index]
   end
+
+  #link to product::id not style/style:id/products
+  resources :products, only: [:show]
   
 end

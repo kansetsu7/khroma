@@ -6,6 +6,11 @@
 <h1>推薦商品</h1>
 <% @genders.each do |gender| %>
   <% gender.categories.each do |category| %>
-    <li><%= category.types.first.styles.first.products.first.name %></li>
+    <%= category.name %>
+    <% category.types.each do |type| %>
+      <% type.styles.each do |style| %>
+        <li><%= link_to style.products.first.name, product_path(style.products.first) %></li>
+      <% end %>
+    <% end %>
   <% end %>
 <% end %>

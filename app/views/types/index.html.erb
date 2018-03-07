@@ -7,6 +7,6 @@
 <% @types.each do |type| %>
   <h3><%= type.name %></h3>
   <% type.styles.each do |style| %>
-    <%= style.products.first.name %>
+    <li><%= link_to style.products.first.name , product_path(style.products.first) %></li>
   <% end %>
 <% end %>
