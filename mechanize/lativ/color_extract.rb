@@ -25,10 +25,10 @@ def get_color(api_key, api_secret)
   
   # puts in_arr[0][2]
 
-  writer = CSV.open("./color.txt", "wt")
+  writer = CSV.open("./color2.txt", "wt")
   writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    if i > 0 && i <= 2000  # skip first row
+    if i > 1999  # skip first row
       puts "get color of product #{i} "
       result_arr = call_api(product[2], api_key, api_secret)
       unless result_arr.nil?
