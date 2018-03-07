@@ -38,6 +38,27 @@ namespace :dev do
     puts "fake products done!"
   end
 
+  task fake_hue_levels: :environment do
+    HueLevel.destroy_all
+    for i in 1..12 do 
+      HueLevel.create(
+        name: "hue_level #{i}"
+      )
+    end
+    puts "have created #{HueLevel.count} hue_levels."
+  end
+
+  task fake_colors: :environment do
+    Color.destroy_all
+    50.times do
+      Color.create(
+        product: Product.all.sample,
+        hue_level: HueLevel.all.sample
+      )
+    end
+    puts "have created #{Color.count} colors"
+  end
+
   task test: :environment do
   end
 
@@ -48,5 +69,7 @@ namespace :dev do
     Rake::Task['dev:fake_types'].execute
     Rake::Task['dev:fake_styles'].execute
     Rake::Task['dev:fake_products'].execute
+    Rake::Task['dev:fake_hue_levels'].execute
+    Rake::Task['dev:fake_colors'].execute
   end
 end
