@@ -28,8 +28,10 @@ Rails.application.routes.draw do
   resources :products, only: [:show]
 
   resources :khroma, only: [:index] do
-    get :pop_choices
-    get :match
+    collection do
+      get :pop_choices
+      get :match
+    end
   end
   
 end

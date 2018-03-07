@@ -1,0 +1,37 @@
+<h2>khroma match搜尋大法</h2>
+
+
+<div class="match-choice-panel">
+  <!-- 使用者先選擇男女 -->
+  <h3>Gender choice</h3>
+  <div id="gender-choice">
+    <%= collection_select(:gender, :gender_id, Gender.all, :id, :name, prompt: 'choose gender') %>
+  </div>
+  <!-- 使用者於此區選擇上身type 與 顏色hue -->
+  <div id="top-choice-panel">
+    <h3>Top choice</h3>
+    <span id="top-type-choice">
+    </span>
+    <span id="top-hue-choice">
+      <%= select_tag(:rough_color, options_for_select([[1,1],[2,2],[3,3]]), { include_blank: 'choose color' }) %>
+    </span>
+  </div>
+  <div id="bottom-choice-panel">
+    <h3>Bottom choice</h3>
+    <span id="bottom-type-choice"></span>
+    <span id="bottom-hue-choice">
+      <%= select_tag(:rough_color, options_for_select([[1,1],[2,2],[3,3]]), { include_blank: 'choose color' }) %>
+    </span>
+  </div>
+</div>
+<br />
+<button id="match-btn">Khroma Match</button>
+
+<hr />
+<!-- match 結果 -->
+<div id="match-result-panel">
+  <h3>Top Result</h3>
+  <div id="top-result"></div>
+  <h3>Bottm Result</h3>
+  <div id="bottom-result"></div>
+</div>
