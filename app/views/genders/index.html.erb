@@ -1,0 +1,11 @@
+<h1>Link</h1>
+<% @genders.each do |gender| %>
+  <li><%= link_to gender.name, gender_categories_path(gender.id) %></li>
+<% end %>
+
+<h1>推薦商品</h1>
+<% @genders.each do |gender| %>
+  <% gender.categories.each do |category| %>
+    <li><%= category.types.first.styles.first.products.first.name %></li>
+  <% end %>
+<% end %>
