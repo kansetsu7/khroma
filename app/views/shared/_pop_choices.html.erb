@@ -1,1 +1,1 @@
-<%= collection_select(:type, :type_id, types_category , :id, :name, prompt: 'choose type') %>
+<%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, prompt: "choose type") %>

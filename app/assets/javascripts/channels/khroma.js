@@ -6,8 +6,8 @@ $(document).ready(function(){
       dataType: 'json',
       data: { gender_id: $(this).val()},
       success: function(data){
-        $('#top-type-choice').html(data['typesTopHtml']);
-        $('#bottom-type-choice').html(data['typesBottomHtml']);
+        $('#up-type-choice').html(data['typesUpHtml']);
+        $('#down-type-choice').html(data['typesDownHtml']);
       }
     });
   });
@@ -18,14 +18,14 @@ $(document).ready(function(){
       method: 'get',
       dataType: 'json',
       data: { 
-        top_type_id: $('#top-type-choice #type_type_id').val(),
-        top_rough_color: $('#top-hue-choice #rough_color').val(),
-        bottom_type_id: $('#bottom-type-choice #type_type_id').val(),
-        bottom_rough_color: $('#bottom-hue-choice #rough_color').val()
+        up_type_id: $('#up-type-choice #type_type_id').val(),
+        up_hue_level: $('#up-hue-choice #hue_level_id').val(),
+        down_type_id: $('#down-type-choice #type_type_id').val(),
+        down_hue_level: $('#down-hue-choice #hue_level_id').val()
       },
       success: function(data){
-        $('#top-result').html(data['productsTopMatchHtml']);
-        $('#bottom-result').html(data['productsBottomMatchHtml']);
+        $('#up-result').html(data['productsUpMatchHtml']);
+        $('#down-result').html(data['productsDownMatchHtml']);
       }
     });
   });

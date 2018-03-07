@@ -8,19 +8,20 @@
     <%= collection_select(:gender, :gender_id, Gender.all, :id, :name, prompt: 'choose gender') %>
   </div>
   <!-- 使用者於此區選擇上身type 與 顏色hue -->
-  <div id="top-choice-panel">
-    <h3>Top choice</h3>
-    <span id="top-type-choice">
+  <div id="up-choice-panel">
+    <h3>上身 choice</h3>
+    <span id="up-type-choice">
     </span>
-    <span id="top-hue-choice">
-      <%= select_tag(:rough_color, options_for_select([[1,1],[2,2],[3,3]]), { include_blank: 'choose color' }) %>
+    <span id="up-hue-choice">
+      <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, prompt: 'choose color') %>
     </span>
   </div>
-  <div id="bottom-choice-panel">
-    <h3>Bottom choice</h3>
-    <span id="bottom-type-choice"></span>
-    <span id="bottom-hue-choice">
-      <%= select_tag(:rough_color, options_for_select([[1,1],[2,2],[3,3]]), { include_blank: 'choose color' }) %>
+  <div id="down-choice-panel">
+    <h3>下身 choice</h3>
+    <span id="down-type-choice"></span>
+    <span id="down-hue-choice">
+      <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, prompt: 'choose color') %>
+    </span>
     </span>
   </div>
 </div>
@@ -30,8 +31,8 @@
 <hr />
 <!-- match 結果 -->
 <div id="match-result-panel">
-  <h3>Top Result</h3>
-  <div id="top-result"></div>
-  <h3>Bottm Result</h3>
-  <div id="bottom-result"></div>
+  <h3>上身 Result</h3>
+  <div id="Up-result"></div>
+  <h3>下身 Result</h3>
+  <div id="down-result"></div>
 </div>
