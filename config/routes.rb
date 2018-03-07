@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   
+  root "khroma#index"
+
   #genders interface routes
   resources :genders do
     resources :categories, only: [:index]
@@ -24,5 +26,10 @@ Rails.application.routes.draw do
 
   #link to product::id not style/style:id/products
   resources :products, only: [:show]
+
+  resources :khroma, only: [:index] do
+    get :pop_choices
+    get :match
+  end
   
 end
