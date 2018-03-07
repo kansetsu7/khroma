@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'devise'
+gem 'csv'
 
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails
 gem 'jquery-rails'

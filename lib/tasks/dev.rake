@@ -1,40 +1,70 @@
 namespace :dev do
   task fake_types: :environment do
+    puts "start fake_types..."
     Type.destroy_all
-    for i in 1..Category.all.count do  #each categories
-      for j in 1..3 do  # have 3 types
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/types.txt")
+    in_arr.each_with_index do |type, i|
+      if type[3] == '0'  # read men only, 如果要男女都讀, 記得跳過第一行!
+        # ----------------------------------------------------------------------
+        # in_arr[i][4] == 2 時，所屬category為bottom, id應為2. 其他為top, id應為1  
+        # ----------------------------------------------------------------------    
+        category_id = type[4].to_i == 2 ? 2 : 1
         Type.create(
-          category_id: i,
-          name: "#{Category.find(i).gender.name} > #{Category.find(i).name} > type #{j}"
+          category_id: category_id,
+          name: type[1]
         )
-      end
+      end      
     end
-    puts "fake types done!"
+    puts "#{Type.count} fake types done!"
   end
 
   task fake_styles: :environment do
+    puts "start fake_styles..."
     Style.destroy_all
-    for i in 1..Type.all.count do  #each types
-      for j in 1..3 do  # have 3 styles
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
+    in_arr.each_with_index do |style, i|
+      if i > 0
         Style.create(
-          type_id: i,
-          name: "#{Type.find(i).name} > style #{j}"
+          type_id: style[0].to_i+1,
+          name: style[1]
         )
-      end
+      end      
     end
-    puts "fake styles done!"
+    puts "#{Style.count} fake styles done!"
   end
 
   task fake_products: :environment do
-    Product.destroy_all
-    for i in 1..Style.all.count do  #each Styles
-      for j in 1..3 do  # have 3 Products
-        Product.create(
-          style_id: i,
-          name: "#{Style.find(i).name} > product #{j}"
-        )
-      end
+    puts "start fake_products..."  
+
+    def get_product_link(style_link, product_img_link)
+      style_link.sub! style_link.split('/').last, product_img_link.split('/')[5]
     end
+
+    Product.destroy_all
+    styles_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0.txt")
+    in_arr.each_with_index do |product, i|
+      if i > 0
+        # puts "#{product[0]}, #{product[1]}, #{product[2]}, price:#{styles_arr[product[0].to_i+1][2]}"
+        Product.create(
+          style_id: product[0].to_i+1,
+          name: product[1],
+          brand: 'lativ',
+          image: product[2],
+          link: get_product_link(styles_arr[product[0].to_i+1][3], product[2]),
+        #   price: ,
+        )
+      end      
+    end
+    
+    # for i in 1..Style.all.count do  #each Styles
+    #   for j in 1..3 do  # have 3 Products
+    #     Product.create(
+    #       style_id: i,
+    #       name: "#{Style.find(i).name} > product #{j}"
+    #     )
+    #   end
+    # end    # 
     puts "fake products done!"
   end
 
