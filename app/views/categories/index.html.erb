@@ -1,0 +1,14 @@
+<% @categories.each do |category| %>
+  <li><%= link_to category.name, category_types_path(category) %></li>
+<% end %>
+
+
+<h1>推薦商品</h1>
+<% @categories.each do |category| %>
+  <% category.types.each do |type| %>
+    <h3><%= type.name %>
+    <% type.styles.each do |style| %>
+      <li><%= style.name %></li>
+    <% end %>
+  <% end %>
+<% end %>
