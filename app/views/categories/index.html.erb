@@ -8,7 +8,7 @@
   <% category.types.each do |type| %>
     <h3><%= type.name %>
     <% type.styles.each do |style| %>
-      <li><%= style.name %></li>
+      <li><%= style.products.first.name %></li>
     <% end %>
   <% end %>
 <% end %>

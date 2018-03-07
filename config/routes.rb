@@ -11,5 +11,9 @@ Rails.application.routes.draw do
   resources :categories do
     resources :types, only: [:index]
   end
+
+  resources :types do 
+    resources :styles, only: [:index]
+  end
   
 end

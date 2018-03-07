@@ -1,0 +1,12 @@
+<% @types.each do |type| %>
+  <li><%= link_to type.name, type_styles_path(type) %></li>
+<% end %>
+
+
+<h1>推薦商品</h1>
+<% @types.each do |type| %>
+  <h3><%= type.name %></h3>
+  <% type.styles.each do |style| %>
+    <%= style.products.first.name %>
+  <% end %>
+<% end %>
