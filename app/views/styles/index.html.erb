@@ -1,0 +1,6 @@
+<% @styles.each do |style| %>
+  <li><%= link_to style.name, style_products_path(style) %></li>
+<% end %>
+
+<h1>熱門商品</h1>
+<h3>之後可能利用like 或是購買次數來排序</h3>

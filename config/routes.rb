@@ -12,8 +12,14 @@ Rails.application.routes.draw do
     resources :types, only: [:index]
   end
 
+  #types interface routes
   resources :types do 
     resources :styles, only: [:index]
+  end
+
+  #styles interface routes
+  resources :styles do
+    resources :products, only: [:index]
   end
   
 end
