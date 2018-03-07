@@ -213,7 +213,7 @@ def write_products(product_arr, gender_id)
   puts "==== writing products#{gender_id}.txt ====" 
   product_id = 0
   writer = CSV.open("./products#{gender_id}.txt", "wt")
-  writer << ["product_id", "name", "link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["type_id", "name", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
   product_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
       puts "write styles for gender#{i}'s category#{j}..."
@@ -238,7 +238,7 @@ def write_styles(styles_arr)
   puts "==== writing styles.txt ====" 
   style_id = 0
   writer = CSV.open("./styles.txt", "wt")
-  writer << ["style_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"]
+  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"]
   styles_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
       puts "write styles for gender#{i}'s category#{j}..."

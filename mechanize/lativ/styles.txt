@@ -1,4 +1,4 @@
-style_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
+type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,迪士尼系列印花T恤-21-男,290,http://www.lativ.com.tw/Detail/35199011,0,0,0
 0,迪士尼系列印花T恤-F03-男,290,http://www.lativ.com.tw/Detail/34704011,0,0,0
 0,迪士尼系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34393011,0,0,0
