@@ -2,33 +2,16 @@ class KhromaController < ApplicationController
   before_action :set_category_list, only: [:pop_choices]
 
   def match
-    styles_up = Style.where(type_id: params[:up_type_id])
-    colors_up = Color.where(hue_level_id: params[:up_hue_level])
+    type_up = Type.find(params[:up_type_id])
+    hue_level_up = HueLevel.find(params[:up_hue_level])
 
-    styles_down = Style.where(type_id: params[:down_type_id])
-    colors_down = Color.where(hue_level_id: params[:down_hue_level])    
+    type_down = Type.find(params[:down_type_id])
+    hue_level_down = HueLevel.find(params[:down_hue_level])    
 
-    # styles_top = Style.where(type_id: params[:top_type_id])
-    # styles_top_id = []
-    # styles_top.each do |style_top|
-    #   styles_top_id << style_top.id
-    # end
-    
-    # colors
-    # @top_products = Product.where(style_id: styles_top_id, rough_color: params[:top_rough_color])
-
-    # styles_bottom = Style.where(type_id: params[:bottom_type_id])
-    # styles_bottom_id = []
-    # styles_bottom.each do |style_bottom|
-    #   styles_bottom_id << style_bottom.id
-    # end
-    # @bottom_products = Product.where(style_id: styles_bottom_id, rough_color: params[:bottom_rough_color])
- 
     render json: {
-      productsUpMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_up, colors: colors_up}),
-      productsDownMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_down, colors: colors_down})
+      productsUpMatchHtml: render_to_string(partial: 'shared/match_result', locals: {type: type_up, hue_level: hue_level_up}),
+      productsDownMatchHtml: render_to_string(partial: 'shared/match_result', locals: {type: type_down, hue_level: hue_level_down})
     }
-
   end
 
   def pop_choices

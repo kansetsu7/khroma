@@ -1,12 +1,8 @@
-<% styles.each do |style|%> 
-  <% style.products.each do |product| %>
-    <% colors.each do |color_each| %>
-      <% if product.color.hue_level_id = color_each.hue_level_id %>
-        <span>
-          <div>Name: <%= product.name %></div>
-          <div>Color: <%= product.color.hue_level_id %>%></div>
-        </span>
-      <% end %>
+<% type.products.each do |product|%> 
+  <% if product.color.hue_level_id == hue_level.id %>
+    <span>
+      <div>Name: <%= product.name %></div>
+      <div>Color: <%= product.color.hue_level_id %></div>
+      </span>
     <% end %>
-  <% end %>
 <% end %>

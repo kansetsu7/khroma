@@ -24,8 +24,11 @@ $(document).ready(function(){
         down_hue_level: $('#down-hue-choice #hue_level_id').val()
       },
       success: function(data){
+
         $('#up-result').html(data['productsUpMatchHtml']);
+        console.log(data['productsUpMatchHtml']);
         $('#down-result').html(data['productsDownMatchHtml']);
+        console.log(data['productsDownMatchHtml']);
       }
     });
   });
