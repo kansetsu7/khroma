@@ -50,10 +50,10 @@ namespace :dev do
 
   task fake_colors: :environment do
     Color.destroy_all
-    50.times do
+    for i in 1..Product.all.count do
       Color.create(
-        product: Product.all.sample,
-        hue_level: HueLevel.all.sample
+        product: Product.find(i),
+        hue_level: HueLevel.first
       )
     end
     puts "have created #{Color.count} colors"

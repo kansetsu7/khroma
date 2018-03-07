@@ -25,8 +25,8 @@ class KhromaController < ApplicationController
     # @bottom_products = Product.where(style_id: styles_bottom_id, rough_color: params[:bottom_rough_color])
  
     render json: {
-      productsTopMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_up, colors: colors_up}),
-      productsBottomMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_down, colors: colors_down})
+      productsUpMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_up, colors: colors_up}),
+      productsDownMatchHtml: render_to_string(partial: 'shared/match_result', locals: {styles: styles_down, colors: colors_down})
     }
 
   end
