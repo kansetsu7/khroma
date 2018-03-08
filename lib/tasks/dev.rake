@@ -15,7 +15,7 @@ namespace :dev do
         )
       end      
     end
-    puts "#{Type.count} fake types done!"
+    puts "have created #{Type.count} fake types!"
   end
 
   task fake_styles: :environment do
@@ -23,14 +23,13 @@ namespace :dev do
     Style.destroy_all
     in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
     in_arr.each_with_index do |style, i|
-      if i > 0
-        Style.create(
-          type_id: style[0].to_i+1,
-          name: style[1]
-        )
-      end      
+      next if i == 0  # skip first row
+      Style.create(
+        type_id: style[0].to_i+1,
+        name: style[1]
+      )     
     end
-    puts "#{Style.count} fake styles done!"
+    puts "have created #{Style.count} fake styles!"
   end
 
   task fake_products: :environment do
@@ -44,52 +43,38 @@ namespace :dev do
     styles_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
     in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0.txt")
     in_arr.each_with_index do |product, i|
-      if i > 0
-        # puts "#{product[0]}, #{product[1]}, #{product[2]}, price:#{styles_arr[product[0].to_i+1][2]}"
-        Product.create(
-          style_id: product[0].to_i+1,
-          name: product[1],
-          brand: 'lativ',
-          image: product[2],
-          link: get_product_link(styles_arr[product[0].to_i+1][3], product[2]),
-        #   price: ,
-        )
-      end      
+      next if i == 0  # skip first row
+      Product.create(
+        style_id: product[0].to_i+1,
+        name: product[1],
+        brand: 'lativ',
+        image: product[2],
+        link: get_product_link(styles_arr[product[0].to_i+1][3], product[2]),
+        price: styles_arr[product[0].to_i+1][2],
+      )      
     end
-    
-    # for i in 1..Style.all.count do  #each Styles
-    #   for j in 1..3 do  # have 3 Products
-    #     Product.create(
-    #       style_id: i,
-    #       name: "#{Style.find(i).name} > product #{j}"
-    #     )
-    #   end
-    # end    # 
-    puts "fake products done!"
-  end
-
-  task fake_hue_levels: :environment do
-    HueLevel.destroy_all
-    for i in 1..12 do 
-      HueLevel.create(
-        name: "hue_level #{i}"
-      )
-    end
-    puts "have created #{HueLevel.count} hue_levels."
+    puts "have created #{Product.count} fake products!"
   end
 
   task fake_colors: :environment do
+    puts "start fake_colors..."  
     Color.destroy_all
-    for i in 1..Product.all.count do
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/clothes_color.txt")
+    in_arr.each_with_index do |color, i|
+      next if i == 0  # skip first row
       Color.create(
         product: Product.find(i),
-        hue_level: HueLevel.first
+        hue_level_id: color.last,
+        hex: color[1]
       )
     end
+    # puts "#{Product.find(65).name}, #{in_arr[65]}"
     puts "have created #{Color.count} colors"
   end
 
   task test: :environment do
+    p = Product.first
+    puts p.color.hue_level.id
   end
 
   task fake_all: :environment do
@@ -99,7 +84,7 @@ namespace :dev do
     Rake::Task['dev:fake_types'].execute
     Rake::Task['dev:fake_styles'].execute
     Rake::Task['dev:fake_products'].execute
-    Rake::Task['dev:fake_hue_levels'].execute
     Rake::Task['dev:fake_colors'].execute
+    # Rake::Task['dev:test'].execute
   end
 end
