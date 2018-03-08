@@ -5,8 +5,7 @@ require 'csv'
 
 def read_color
   in_arr = CSV.read("./color.txt")
-  # puts in_arr.last.first
-  # puts in_arr.last.last.nil?
+
 end
 
 def get_color(api_key, api_secret)
@@ -62,7 +61,7 @@ def call_api(image_url, api_key, api_secret)
     background_colors = info["background_colors"]
     for i in 0..2 do
       unless background_colors[i].nil?  # 有值
-        result_arr[i*4+1] = background_colors[i]['html_code']                       # i = 1, 5, 9
+        result_arr[i*4+1] = background_colors[i]['html_code']                         # i = 1, 5, 9
         result_arr[i*4+2] = background_colors[i]['closest_palette_color_html_code']   # i = 2, 6, 10
         result_arr[i*4+3] = background_colors[i]['closest_palette_color']             # i = 3, 7, 11
         result_arr[i*4+4] = background_colors[i]['percentage']                        # i = 4, 8, 12

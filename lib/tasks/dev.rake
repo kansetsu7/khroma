@@ -61,12 +61,17 @@ namespace :dev do
 
   task fake_colors: :environment do
     Color.destroy_all
-    for i in 1..Product.all.count do
-      Color.create(
-        product: Product.find(i),
-        hue_level: HueLevel.first
-      )
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/color.txt")
+    in_arr.each_with_index do |color, i|
+      
     end
+    
+    # for i in 1..Product.all.count do
+    #   Color.create(
+    #     product: Product.find(i),
+    #     hue_level: HueLevel.first
+    #   )
+    # end
     puts "have created #{Color.count} colors"
   end
 
