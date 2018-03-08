@@ -38,6 +38,12 @@ gem 'csv'
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails
 gem 'jquery-rails'
 
+# Use bootstrap with rails https://rubygems.org/gems/bootstrap
+gem 'bootstrap', '~> 4.0'
+
+# Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
