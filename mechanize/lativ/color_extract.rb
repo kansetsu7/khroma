@@ -5,8 +5,8 @@ require 'csv'
 
 def read_color
   in_arr = CSV.read("./color.txt")
-  writer = CSV.open("./background.txt", "wt")
-  writer <<['yooo']
+  writer = CSV.open("./clothes_color.txt", "wt")
+  writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', '']
 
   # remove first color in image color
   less = 0
@@ -32,7 +32,7 @@ def read_color
       clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
     end
 
-    writer << [i, clothes_color, color[17], color[name_id], clothes_main_percentage.to_i]
+    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i]
   end
 end
 
@@ -124,7 +124,7 @@ end
 
 class Color
 
-  attr_reader :r, :g, :b, :h, :s, :l, :hsv
+  attr_reader :r, :g, :b, :h, :s, :l, :v, :hsv
 
   def initialize(hex)
     @r = hex[1, 2].to_i(16)
@@ -182,6 +182,7 @@ class Color
 
     # Value calculation
     @hsv << cmax
+    @v = (cmax * 100).round(2)
 
     @hsv = [@hsv[0].round(2), (@hsv[1] * 100).round(2), (@hsv[2] * 100).round(2)]
   end
@@ -215,6 +216,30 @@ def hex2ints(hex)
   [hex[1, 2].to_i(16), hex[3, 2].to_i(16), hex[5, 2].to_i(16)]
 end
 
+def get_hue_level(color_hex)
+  c = Color.new(color_hex)
+  puts c.hsv
+  puts "hsv: #{c.h}, #{c.s}, #{c.v}"
+  # is achromatic 無色彩
+  return 13 if c.hsv[2] <= 20
+  return 13 if (c.hsv[2] > 20 && c.hsv[2] < 80) && c.hsv[1] < 5
+  return 13 if (c.hsv[2] >= 80 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2]-130.0)/(-10.0)
+  puts "white? #{c.s}, #{(c.hsv[2]-130.0)/(-10.0)}"
+  # ---- chromatic ----
+  # hue_level,  hue range
+  # 1,          hue < 15 || hue >= 345
+  # 2,          15 <= hue < 45
+  # 3,          45 <= hue < 75
+  # ...
+  # 11,         285 <= hue < 315
+  # 12,         315 <= hue < 345
+  for hue_level in 2..12 do
+    return hue_level if c.hsv[0] >= 15 + 30 * (hue_level - 2) && c.hsv[0] < 45 + 30 * (hue_level - 2)
+  end
+
+  return 1
+end
+
 def test1
   arr = ['1', '2', '3', '4', '5']
   arr.each.with_index(1) do |num, i|
@@ -225,5 +250,5 @@ end
 api_key = ''
 api_secret = ''
 # get_color(api_key, api_secret)
-read_color
-# test1
+# read_color
+puts "hue_level: #{get_hue_level('#f4f5f0')}"
