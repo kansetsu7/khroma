@@ -1,0 +1,15 @@
+<h1>分類新增</h1>
+<% @genders.each do |gender| %>
+  <li>
+    <%= link_to gender.name, admin_categories_path  %>
+    <%= link_to "編輯", edit_admin_gender_path(gender) %>
+    <%= link_to "刪除", admin_gender_path(gender), method: :delete %>
+ 
+  </li>
+<% end %>
+
+<%= form_for [:admin,@gender] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>
