@@ -1,134 +1,134 @@
 product_id,color in hex,color name,percentage of clothes,hue_level
 1,#3a3536,graphite,84,13
 2,#3a3536,graphite,89,13
-3,#f4f5f0,white,76,3
-4,#cac5c2,oyster,71,2
+3,#f4f5f0,white,76,13
+4,#cac5c2,oyster,71,13
 5,#3a3536,graphite,94,13
-6,#f4f5f0,white,76,3
-7,#cac5c2,oyster,71,2
+6,#f4f5f0,white,76,13
+7,#cac5c2,oyster,71,13
 8,#3a3536,graphite,94,13
-9,#f4f5f0,white,76,3
-10,#cac5c2,oyster,71,2
+9,#f4f5f0,white,76,13
+10,#cac5c2,oyster,71,13
 11,#3a3536,graphite,94,13
 12,#3a3536,graphite,89,13
-13,#cac5c2,oyster,57,2
-14,#c1b7b0,sand,69,2
-15,#c1b7b0,sand,54,2
-16,#f2f0eb,snow white,98,2
-17,#c1b7b0,sand,54,2
-18,#f2f0eb,snow white,98,2
+13,#cac5c2,oyster,57,13
+14,#c1b7b0,sand,69,13
+15,#c1b7b0,sand,54,13
+16,#f2f0eb,snow white,98,13
+17,#c1b7b0,sand,54,13
+18,#f2f0eb,snow white,98,13
 19,#3a3536,graphite,93,13
 20,#2a3244,midnight,93,8
-21,#f4f5f0,white,91,3
+21,#f4f5f0,white,91,13
 22,#525f48,moss,84,4
-23,#a5b2aa,celadon,54,6
-24,#cac5c2,oyster,75,2
-25,#f4f5f0,white,80,3
-26,#f4f5f0,white,93,3
-27,#e7e9e7,star light,84,5
+23,#a5b2aa,celadon,54,13
+24,#cac5c2,oyster,75,13
+25,#f4f5f0,white,80,13
+26,#f4f5f0,white,93,13
+27,#e7e9e7,star light,84,13
 28,#2a3244,midnight,89,8
-29,#41424a,ebony,89,9
+29,#41424a,ebony,89,13
 30,#2a3244,midnight,92,8
-31,#f4f5f0,white,78,3
+31,#f4f5f0,white,78,13
 32,#3a3536,graphite,90,13
 33,#3a3536,graphite,78,13
-34,#41424a,ebony,73,9
+34,#41424a,ebony,73,13
 35,#3a3536,graphite,85,13
 36,#3a3536,graphite,79,13
 37,#2a3244,midnight,93,8
-38,#c1b7b0,sand,92,2
-39,#41424a,ebony,81,9
+38,#c1b7b0,sand,92,13
+39,#41424a,ebony,81,13
 40,#3a3536,graphite,93,13
-41,#f2f0eb,snow white,99,2
-42,#41424a,ebony,59,9
-43,#aeb2b5,frost,59,8
+41,#f2f0eb,snow white,99,13
+42,#41424a,ebony,59,13
+43,#aeb2b5,frost,59,13
 44,#3a3536,graphite,92,13
 45,#2a3244,midnight,84,8
 46,#2b2e43,navy blue,75,9
-47,#f0eee9,marshmallow,90,2
-48,#aeb2b5,frost,65,8
+47,#f0eee9,marshmallow,90,13
+48,#aeb2b5,frost,65,13
 49,#2a3244,midnight,90,8
-50,#41424a,ebony,54,9
+50,#41424a,ebony,54,13
 51,#3a3536,graphite,93,13
-52,#84898c,pewter,75,8
+52,#84898c,pewter,75,13
 53,#3a3536,graphite,88,13
 54,#3a3536,graphite,78,13
-55,#80817d,charcoal gray,85,4
-56,#41424a,ebony,84,9
+55,#80817d,charcoal gray,85,13
+56,#41424a,ebony,84,13
 57,#2a3244,midnight,83,8
-58,#80817d,charcoal gray,91,4
-59,#cac5c2,oyster,45,2
-60,#f4f5f0,white,94,3
+58,#80817d,charcoal gray,91,13
+59,#cac5c2,oyster,45,13
+60,#f4f5f0,white,94,13
 61,#3a3536,graphite,45,13
-62,#39373b,black,91,10
+62,#39373b,black,91,13
 63,#3a3536,graphite,90,13
-64,#f4f5f0,white,82,3
-65,#41424a,ebony,91,9
-66,#c1b7b0,sand,94,2
+64,#f4f5f0,white,82,13
+65,#41424a,ebony,91,13
+66,#c1b7b0,sand,94,13
 67,#3a3536,graphite,91,13
-68,#f4f5f0,white,82,3
-69,#c5c6c7,sterling,66,8
+68,#f4f5f0,white,82,13
+69,#c5c6c7,sterling,66,13
 70,#2a3244,midnight,72,8
-71,#f4f5f0,white,77,3
-72,#cac5c2,oyster,88,2
-73,#c1b7b0,sand,95,2
-74,#41424a,ebony,76,9
+71,#f4f5f0,white,77,13
+72,#cac5c2,oyster,88,13
+73,#c1b7b0,sand,95,13
+74,#41424a,ebony,76,13
 75,#3a3536,graphite,92,13
-76,#e7e9e7,star light,89,5
-77,#c1b7b0,sand,89,2
-78,#f4f5f0,white,75,3
+76,#e7e9e7,star light,89,13
+77,#c1b7b0,sand,89,13
+78,#f4f5f0,white,75,13
 79,#3a3536,graphite,91,13
-80,#f4f5f0,white,91,3
-81,#f4f5f0,white,79,3
-82,#c1b7b0,sand,75,2
-83,#a5b2aa,celadon,92,6
-84,#80817d,charcoal gray,79,4
-85,#a5b2aa,celadon,49,6
-86,#f4f5f0,white,77,3
+80,#f4f5f0,white,91,13
+81,#f4f5f0,white,79,13
+82,#c1b7b0,sand,75,13
+83,#a5b2aa,celadon,92,13
+84,#80817d,charcoal gray,79,13
+85,#a5b2aa,celadon,49,13
+86,#f4f5f0,white,77,13
 87,#3a3536,graphite,89,13
 88,#3a3536,graphite,92,13
 89,#2a3244,midnight,90,8
 90,#3a3536,graphite,90,13
 91,#2d3359,blueberry,72,9
 92,#dec05f,marigold,75,3
-93,#c1b7b0,sand,90,2
-94,#c1b7b0,sand,82,2
+93,#c1b7b0,sand,90,13
+94,#c1b7b0,sand,82,13
 95,#3a3536,graphite,89,13
-96,#80817d,charcoal gray,70,4
+96,#80817d,charcoal gray,70,13
 97,#3a3536,graphite,84,13
-98,#c1b7b0,sand,78,2
+98,#c1b7b0,sand,78,13
 99,#2a3244,midnight,83,8
-100,#c1b7b0,sand,96,2
+100,#c1b7b0,sand,96,13
 101,#3a3536,graphite,86,13
-102,#cac5c2,oyster,88,2
+102,#cac5c2,oyster,88,13
 103,#3a3536,graphite,74,13
 104,#525f48,moss,57,4
-105,#cac5c2,oyster,61,2
-106,#cac5c2,oyster,77,2
+105,#cac5c2,oyster,61,13
+106,#cac5c2,oyster,77,13
 107,#325b74,marine,79,8
-108,#cac5c2,oyster,87,2
-109,#41424a,ebony,93,9
+108,#cac5c2,oyster,87,13
+109,#41424a,ebony,93,13
 110,#2a3244,midnight,60,8
 111,#3a3536,graphite,91,13
 112,#3a3536,graphite,93,13
-113,#c1b7b0,sand,78,2
+113,#c1b7b0,sand,78,13
 114,#3a3536,graphite,85,13
-115,#f0eee9,marshmallow,76,2
+115,#f0eee9,marshmallow,76,13
 116,#3a3536,graphite,85,13
-117,#f0eee9,marshmallow,76,2
-118,#f4f5f0,white,78,3
-119,#80817d,charcoal gray,85,4
+117,#f0eee9,marshmallow,76,13
+118,#f4f5f0,white,78,13
+119,#80817d,charcoal gray,85,13
 120,#2a3244,midnight,92,8
-121,#41424a,ebony,65,9
+121,#41424a,ebony,65,13
 122,#525f48,moss,68,4
 123,#525f48,moss,87,4
 124,#3a3536,graphite,87,13
 125,#525f48,moss,87,4
 126,#3a3536,graphite,87,13
-127,#c1b7b0,sand,50,2
+127,#c1b7b0,sand,50,13
 128,#3a3536,graphite,90,13
-129,#f4f5f0,white,80,3
-130,#f0eee9,marshmallow,79,2
+129,#f4f5f0,white,80,13
+130,#f0eee9,marshmallow,79,13
 131,#2b2e43,navy blue,53,9
 132,#525f48,moss,86,4
 133,#532d3b,bordeaux,84,12
@@ -137,10 +137,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 136,#7bb5a3,meadow,94,6
 137,#0074a8,cerulean,69,8
 138,#dc5b62,firecracker,86,1
-139,#f4f5f0,white,82,3
-140,#cac5c2,oyster,64,2
-141,#41424a,ebony,89,9
-142,#f4f5f0,white,92,3
+139,#f4f5f0,white,82,13
+140,#cac5c2,oyster,64,13
+141,#41424a,ebony,89,13
+142,#f4f5f0,white,92,13
 143,#2b2e43,navy blue,53,9
 144,#525f48,moss,86,4
 145,#532d3b,bordeaux,84,12
@@ -149,10 +149,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 148,#7bb5a3,meadow,94,6
 149,#0074a8,cerulean,69,8
 150,#dc5b62,firecracker,86,1
-151,#f4f5f0,white,82,3
-152,#cac5c2,oyster,64,2
-153,#41424a,ebony,89,9
-154,#f4f5f0,white,92,3
+151,#f4f5f0,white,82,13
+152,#cac5c2,oyster,64,13
+153,#41424a,ebony,89,13
+154,#f4f5f0,white,92,13
 155,#2b2e43,navy blue,53,9
 156,#525f48,moss,86,4
 157,#532d3b,bordeaux,84,12
@@ -161,10 +161,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 160,#7bb5a3,meadow,94,6
 161,#0074a8,cerulean,69,8
 162,#dc5b62,firecracker,86,1
-163,#f4f5f0,white,82,3
-164,#cac5c2,oyster,64,2
-165,#41424a,ebony,89,9
-166,#f4f5f0,white,92,3
+163,#f4f5f0,white,82,13
+164,#cac5c2,oyster,64,13
+165,#41424a,ebony,89,13
+166,#f4f5f0,white,92,13
 167,#2b2e43,navy blue,53,9
 168,#525f48,moss,86,4
 169,#532d3b,bordeaux,84,12
@@ -173,10 +173,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 172,#7bb5a3,meadow,94,6
 173,#0074a8,cerulean,69,8
 174,#dc5b62,firecracker,86,1
-175,#f4f5f0,white,82,3
-176,#cac5c2,oyster,64,2
-177,#41424a,ebony,89,9
-178,#f4f5f0,white,92,3
+175,#f4f5f0,white,82,13
+176,#cac5c2,oyster,64,13
+177,#41424a,ebony,89,13
+178,#f4f5f0,white,92,13
 179,#2b2e43,navy blue,53,9
 180,#525f48,moss,86,4
 181,#532d3b,bordeaux,84,12
@@ -185,10 +185,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 184,#7bb5a3,meadow,94,6
 185,#0074a8,cerulean,69,8
 186,#dc5b62,firecracker,86,1
-187,#f4f5f0,white,82,3
-188,#cac5c2,oyster,64,2
-189,#41424a,ebony,89,9
-190,#f4f5f0,white,92,3
+187,#f4f5f0,white,82,13
+188,#cac5c2,oyster,64,13
+189,#41424a,ebony,89,13
+190,#f4f5f0,white,92,13
 191,#2b2e43,navy blue,53,9
 192,#525f48,moss,86,4
 193,#532d3b,bordeaux,84,12
@@ -197,10 +197,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 196,#7bb5a3,meadow,94,6
 197,#0074a8,cerulean,69,8
 198,#dc5b62,firecracker,86,1
-199,#f4f5f0,white,82,3
-200,#cac5c2,oyster,64,2
-201,#41424a,ebony,89,9
-202,#f4f5f0,white,92,3
+199,#f4f5f0,white,82,13
+200,#cac5c2,oyster,64,13
+201,#41424a,ebony,89,13
+202,#f4f5f0,white,92,13
 203,#2b2e43,navy blue,53,9
 204,#525f48,moss,86,4
 205,#532d3b,bordeaux,84,12
@@ -209,10 +209,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 208,#7bb5a3,meadow,94,6
 209,#0074a8,cerulean,69,8
 210,#dc5b62,firecracker,86,1
-211,#f4f5f0,white,82,3
-212,#cac5c2,oyster,64,2
-213,#41424a,ebony,89,9
-214,#f4f5f0,white,92,3
+211,#f4f5f0,white,82,13
+212,#cac5c2,oyster,64,13
+213,#41424a,ebony,89,13
+214,#f4f5f0,white,92,13
 215,#2b2e43,navy blue,53,9
 216,#525f48,moss,86,4
 217,#532d3b,bordeaux,84,12
@@ -221,10 +221,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 220,#7bb5a3,meadow,94,6
 221,#0074a8,cerulean,69,8
 222,#dc5b62,firecracker,86,1
-223,#f4f5f0,white,82,3
-224,#cac5c2,oyster,64,2
-225,#41424a,ebony,89,9
-226,#f4f5f0,white,92,3
+223,#f4f5f0,white,82,13
+224,#cac5c2,oyster,64,13
+225,#41424a,ebony,89,13
+226,#f4f5f0,white,92,13
 227,#2b2e43,navy blue,53,9
 228,#525f48,moss,86,4
 229,#532d3b,bordeaux,84,12
@@ -233,10 +233,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 232,#7bb5a3,meadow,94,6
 233,#0074a8,cerulean,69,8
 234,#dc5b62,firecracker,86,1
-235,#f4f5f0,white,82,3
-236,#cac5c2,oyster,64,2
-237,#41424a,ebony,89,9
-238,#f4f5f0,white,92,3
+235,#f4f5f0,white,82,13
+236,#cac5c2,oyster,64,13
+237,#41424a,ebony,89,13
+238,#f4f5f0,white,92,13
 239,#2b2e43,navy blue,53,9
 240,#525f48,moss,86,4
 241,#532d3b,bordeaux,84,12
@@ -245,10 +245,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 244,#7bb5a3,meadow,94,6
 245,#0074a8,cerulean,69,8
 246,#dc5b62,firecracker,86,1
-247,#f4f5f0,white,82,3
-248,#cac5c2,oyster,64,2
-249,#41424a,ebony,89,9
-250,#f4f5f0,white,92,3
+247,#f4f5f0,white,82,13
+248,#cac5c2,oyster,64,13
+249,#41424a,ebony,89,13
+250,#f4f5f0,white,92,13
 251,#2b2e43,navy blue,53,9
 252,#525f48,moss,86,4
 253,#532d3b,bordeaux,84,12
@@ -257,10 +257,10 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 256,#7bb5a3,meadow,94,6
 257,#0074a8,cerulean,69,8
 258,#dc5b62,firecracker,86,1
-259,#f4f5f0,white,82,3
-260,#cac5c2,oyster,64,2
-261,#41424a,ebony,89,9
-262,#f4f5f0,white,92,3
+259,#f4f5f0,white,82,13
+260,#cac5c2,oyster,64,13
+261,#41424a,ebony,89,13
+262,#f4f5f0,white,92,13
 263,#2b2e43,navy blue,53,9
 264,#525f48,moss,86,4
 265,#532d3b,bordeaux,84,12
@@ -269,19 +269,19 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 268,#7bb5a3,meadow,94,6
 269,#0074a8,cerulean,69,8
 270,#dc5b62,firecracker,86,1
-271,#f4f5f0,white,82,3
-272,#cac5c2,oyster,64,2
-273,#41424a,ebony,89,9
-274,#f4f5f0,white,92,3
+271,#f4f5f0,white,82,13
+272,#cac5c2,oyster,64,13
+273,#41424a,ebony,89,13
+274,#f4f5f0,white,92,13
 275,#2a3244,midnight,45,8
 276,#11574a,hunter,80,7
 277,#8a2232,claret,83,1
 278,#ac8a64,light brown,82,2
 279,#a2b9c2,surf spray,57,8
 280,#dfb8b6,rose,42,1
-281,#e7e9e7,star light,99,5
-282,#aeb2b5,frost,48,8
-283,#41424a,ebony,65,9
+281,#e7e9e7,star light,99,13
+282,#aeb2b5,frost,48,13
+283,#41424a,ebony,65,13
 284,#3a3536,graphite,92,13
 285,#2a3244,midnight,45,8
 286,#11574a,hunter,80,7
@@ -289,9 +289,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 288,#ac8a64,light brown,82,2
 289,#a2b9c2,surf spray,57,8
 290,#dfb8b6,rose,42,1
-291,#e7e9e7,star light,99,5
-292,#aeb2b5,frost,48,8
-293,#41424a,ebony,65,9
+291,#e7e9e7,star light,99,13
+292,#aeb2b5,frost,48,13
+293,#41424a,ebony,65,13
 294,#3a3536,graphite,92,13
 295,#2a3244,midnight,45,8
 296,#11574a,hunter,80,7
@@ -299,9 +299,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 298,#ac8a64,light brown,82,2
 299,#a2b9c2,surf spray,57,8
 300,#dfb8b6,rose,42,1
-301,#e7e9e7,star light,99,5
-302,#aeb2b5,frost,48,8
-303,#41424a,ebony,65,9
+301,#e7e9e7,star light,99,13
+302,#aeb2b5,frost,48,13
+303,#41424a,ebony,65,13
 304,#3a3536,graphite,92,13
 305,#2a3244,midnight,45,8
 306,#11574a,hunter,80,7
@@ -309,9 +309,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 308,#ac8a64,light brown,82,2
 309,#a2b9c2,surf spray,57,8
 310,#dfb8b6,rose,42,1
-311,#e7e9e7,star light,99,5
-312,#aeb2b5,frost,48,8
-313,#41424a,ebony,65,9
+311,#e7e9e7,star light,99,13
+312,#aeb2b5,frost,48,13
+313,#41424a,ebony,65,13
 314,#3a3536,graphite,92,13
 315,#2a3244,midnight,45,8
 316,#11574a,hunter,80,7
@@ -319,9 +319,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 318,#ac8a64,light brown,82,2
 319,#a2b9c2,surf spray,57,8
 320,#dfb8b6,rose,42,1
-321,#e7e9e7,star light,99,5
-322,#aeb2b5,frost,48,8
-323,#41424a,ebony,65,9
+321,#e7e9e7,star light,99,13
+322,#aeb2b5,frost,48,13
+323,#41424a,ebony,65,13
 324,#3a3536,graphite,92,13
 325,#2a3244,midnight,45,8
 326,#11574a,hunter,80,7
@@ -329,9 +329,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 328,#ac8a64,light brown,82,2
 329,#a2b9c2,surf spray,57,8
 330,#dfb8b6,rose,42,1
-331,#e7e9e7,star light,99,5
-332,#aeb2b5,frost,48,8
-333,#41424a,ebony,65,9
+331,#e7e9e7,star light,99,13
+332,#aeb2b5,frost,48,13
+333,#41424a,ebony,65,13
 334,#3a3536,graphite,92,13
 335,#2a3244,midnight,45,8
 336,#11574a,hunter,80,7
@@ -339,9 +339,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 338,#ac8a64,light brown,82,2
 339,#a2b9c2,surf spray,57,8
 340,#dfb8b6,rose,42,1
-341,#e7e9e7,star light,99,5
-342,#aeb2b5,frost,48,8
-343,#41424a,ebony,65,9
+341,#e7e9e7,star light,99,13
+342,#aeb2b5,frost,48,13
+343,#41424a,ebony,65,13
 344,#3a3536,graphite,92,13
 345,#2a3244,midnight,45,8
 346,#11574a,hunter,80,7
@@ -349,9 +349,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 348,#ac8a64,light brown,82,2
 349,#a2b9c2,surf spray,57,8
 350,#dfb8b6,rose,42,1
-351,#e7e9e7,star light,99,5
-352,#aeb2b5,frost,48,8
-353,#41424a,ebony,65,9
+351,#e7e9e7,star light,99,13
+352,#aeb2b5,frost,48,13
+353,#41424a,ebony,65,13
 354,#3a3536,graphite,92,13
 355,#2a3244,midnight,45,8
 356,#11574a,hunter,80,7
@@ -359,9 +359,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 358,#ac8a64,light brown,82,2
 359,#a2b9c2,surf spray,57,8
 360,#dfb8b6,rose,42,1
-361,#e7e9e7,star light,99,5
-362,#aeb2b5,frost,48,8
-363,#41424a,ebony,65,9
+361,#e7e9e7,star light,99,13
+362,#aeb2b5,frost,48,13
+363,#41424a,ebony,65,13
 364,#3a3536,graphite,92,13
 365,#2a3244,midnight,45,8
 366,#11574a,hunter,80,7
@@ -369,259 +369,259 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 368,#ac8a64,light brown,82,2
 369,#a2b9c2,surf spray,57,8
 370,#dfb8b6,rose,42,1
-371,#e7e9e7,star light,99,5
-372,#aeb2b5,frost,48,8
-373,#41424a,ebony,65,9
+371,#e7e9e7,star light,99,13
+372,#aeb2b5,frost,48,13
+373,#41424a,ebony,65,13
 374,#3a3536,graphite,92,13
-375,#f4f5f0,white,72,3
-376,#e7e9e7,star light,98,5
+375,#f4f5f0,white,72,13
+376,#e7e9e7,star light,98,13
 377,#3a3536,graphite,92,13
 378,#203c7f,sapphire,82,8
 379,#4f3f3b,chocolate,59,1
 380,#8a2232,claret,59,1
-381,#e7e9e7,star light,98,5
+381,#e7e9e7,star light,98,13
 382,#3a3536,graphite,92,13
 383,#203c7f,sapphire,82,8
 384,#4f3f3b,chocolate,59,1
 385,#8a2232,claret,59,1
-386,#e7e9e7,star light,98,5
+386,#e7e9e7,star light,98,13
 387,#3a3536,graphite,92,13
 388,#203c7f,sapphire,82,8
 389,#4f3f3b,chocolate,59,1
 390,#8a2232,claret,59,1
-391,#e7e9e7,star light,98,5
+391,#e7e9e7,star light,98,13
 392,#3a3536,graphite,92,13
 393,#203c7f,sapphire,82,8
 394,#4f3f3b,chocolate,59,1
 395,#8a2232,claret,59,1
-396,#e7e9e7,star light,98,5
+396,#e7e9e7,star light,98,13
 397,#3a3536,graphite,92,13
 398,#203c7f,sapphire,82,8
 399,#4f3f3b,chocolate,59,1
 400,#8a2232,claret,59,1
-401,#9f9c99,cathedral,52,2
-402,#e7e9e7,star light,92,5
+401,#9f9c99,cathedral,52,13
+402,#e7e9e7,star light,92,13
 403,#40312f,espresso,86,1
 404,#3a3536,graphite,87,13
-405,#9f9c99,cathedral,52,2
-406,#e7e9e7,star light,92,5
+405,#9f9c99,cathedral,52,13
+406,#e7e9e7,star light,92,13
 407,#40312f,espresso,86,1
 408,#3a3536,graphite,87,13
-409,#9f9c99,cathedral,52,2
-410,#e7e9e7,star light,92,5
+409,#9f9c99,cathedral,52,13
+410,#e7e9e7,star light,92,13
 411,#40312f,espresso,86,1
 412,#3a3536,graphite,87,13
-413,#9f9c99,cathedral,52,2
-414,#e7e9e7,star light,92,5
+413,#9f9c99,cathedral,52,13
+414,#e7e9e7,star light,92,13
 415,#40312f,espresso,86,1
 416,#3a3536,graphite,87,13
 417,#3a3536,graphite,52,13
-418,#cac5c2,oyster,38,2
-419,#c1b7b0,sand,47,2
-420,#f4f5f0,white,98,3
+418,#cac5c2,oyster,38,13
+419,#c1b7b0,sand,47,13
+420,#f4f5f0,white,98,13
 421,#3a3536,graphite,52,13
-422,#cac5c2,oyster,38,2
-423,#c1b7b0,sand,47,2
-424,#f4f5f0,white,98,3
+422,#cac5c2,oyster,38,13
+423,#c1b7b0,sand,47,13
+424,#f4f5f0,white,98,13
 425,#3a3536,graphite,52,13
-426,#cac5c2,oyster,38,2
-427,#c1b7b0,sand,47,2
-428,#f4f5f0,white,98,3
+426,#cac5c2,oyster,38,13
+427,#c1b7b0,sand,47,13
+428,#f4f5f0,white,98,13
 429,#3a3536,graphite,52,13
-430,#cac5c2,oyster,38,2
-431,#c1b7b0,sand,47,2
-432,#f4f5f0,white,98,3
-433,#f4f5f0,white,98,3
-434,#cac5c2,oyster,56,2
+430,#cac5c2,oyster,38,13
+431,#c1b7b0,sand,47,13
+432,#f4f5f0,white,98,13
+433,#f4f5f0,white,98,13
+434,#cac5c2,oyster,56,13
 435,#3a3536,graphite,72,13
 436,#3a3536,graphite,59,13
-437,#f4f5f0,white,98,3
-438,#cac5c2,oyster,56,2
+437,#f4f5f0,white,98,13
+438,#cac5c2,oyster,56,13
 439,#3a3536,graphite,72,13
 440,#3a3536,graphite,59,13
-441,#f4f5f0,white,98,3
-442,#cac5c2,oyster,56,2
+441,#f4f5f0,white,98,13
+442,#cac5c2,oyster,56,13
 443,#3a3536,graphite,72,13
 444,#3a3536,graphite,59,13
-445,#f4f5f0,white,98,3
-446,#cac5c2,oyster,56,2
+445,#f4f5f0,white,98,13
+446,#cac5c2,oyster,56,13
 447,#3a3536,graphite,72,13
 448,#3a3536,graphite,59,13
-449,#e7e9e7,star light,41,5
+449,#e7e9e7,star light,41,13
 450,#384883,sailor,48,9
 451,#baaa91,champagne,61,2
 452,#2b2e43,navy blue,44,9
-453,#e7e9e7,star light,41,5
+453,#e7e9e7,star light,41,13
 454,#384883,sailor,48,9
 455,#baaa91,champagne,61,2
 456,#2b2e43,navy blue,44,9
-457,#e7e9e7,star light,41,5
+457,#e7e9e7,star light,41,13
 458,#384883,sailor,48,9
 459,#baaa91,champagne,61,2
 460,#2b2e43,navy blue,44,9
-461,#e7e9e7,star light,41,5
+461,#e7e9e7,star light,41,13
 462,#384883,sailor,48,9
 463,#baaa91,champagne,61,2
 464,#2b2e43,navy blue,44,9
 465,#2b2e43,navy blue,74,9
-466,#e7e9e7,star light,67,5
+466,#e7e9e7,star light,67,13
 467,#3a3536,graphite,72,13
 468,#2b2e43,navy blue,74,9
-469,#e7e9e7,star light,67,5
+469,#e7e9e7,star light,67,13
 470,#3a3536,graphite,72,13
 471,#2b2e43,navy blue,74,9
-472,#e7e9e7,star light,67,5
+472,#e7e9e7,star light,67,13
 473,#3a3536,graphite,72,13
-474,#80817d,charcoal gray,53,4
+474,#80817d,charcoal gray,53,13
 475,#2a3244,midnight,93,8
-476,#a5b2aa,celadon,52,6
+476,#a5b2aa,celadon,52,13
 477,#3a3536,graphite,87,13
-478,#80817d,charcoal gray,53,4
+478,#80817d,charcoal gray,53,13
 479,#2a3244,midnight,93,8
-480,#a5b2aa,celadon,52,6
+480,#a5b2aa,celadon,52,13
 481,#3a3536,graphite,87,13
-482,#80817d,charcoal gray,53,4
+482,#80817d,charcoal gray,53,13
 483,#2a3244,midnight,93,8
-484,#a5b2aa,celadon,52,6
+484,#a5b2aa,celadon,52,13
 485,#3a3536,graphite,87,13
-486,#80817d,charcoal gray,53,4
+486,#80817d,charcoal gray,53,13
 487,#2a3244,midnight,93,8
-488,#a5b2aa,celadon,52,6
+488,#a5b2aa,celadon,52,13
 489,#3a3536,graphite,87,13
 490,#525f48,moss,75,4
-491,#f4f5f0,white,51,3
-492,#a5b2aa,celadon,61,6
-493,#39373b,black,68,10
+491,#f4f5f0,white,51,13
+492,#a5b2aa,celadon,61,13
+493,#39373b,black,68,13
 494,#525f48,moss,75,4
-495,#f4f5f0,white,51,3
-496,#a5b2aa,celadon,61,6
-497,#39373b,black,68,10
+495,#f4f5f0,white,51,13
+496,#a5b2aa,celadon,61,13
+497,#39373b,black,68,13
 498,#525f48,moss,75,4
-499,#f4f5f0,white,51,3
-500,#a5b2aa,celadon,61,6
-501,#39373b,black,68,10
+499,#f4f5f0,white,51,13
+500,#a5b2aa,celadon,61,13
+501,#39373b,black,68,13
 502,#525f48,moss,75,4
-503,#f4f5f0,white,51,3
-504,#a5b2aa,celadon,61,6
-505,#39373b,black,68,10
+503,#f4f5f0,white,51,13
+504,#a5b2aa,celadon,61,13
+505,#39373b,black,68,13
 506,#525f48,moss,87,4
 507,#8c5e37,light bronze,77,2
 508,#626879,blue steel,66,8
-509,#f2f0eb,snow white,79,2
-510,#cac5c2,oyster,87,2
+509,#f2f0eb,snow white,79,13
+510,#cac5c2,oyster,87,13
 511,#3a3536,graphite,94,13
 512,#525f48,moss,87,4
 513,#8c5e37,light bronze,77,2
 514,#626879,blue steel,66,8
-515,#f2f0eb,snow white,79,2
-516,#cac5c2,oyster,87,2
+515,#f2f0eb,snow white,79,13
+516,#cac5c2,oyster,87,13
 517,#3a3536,graphite,94,13
 518,#525f48,moss,87,4
 519,#8c5e37,light bronze,77,2
 520,#626879,blue steel,66,8
-521,#f2f0eb,snow white,79,2
-522,#cac5c2,oyster,87,2
+521,#f2f0eb,snow white,79,13
+522,#cac5c2,oyster,87,13
 523,#3a3536,graphite,94,13
 524,#525f48,moss,87,4
 525,#8c5e37,light bronze,77,2
 526,#626879,blue steel,66,8
-527,#f2f0eb,snow white,79,2
-528,#cac5c2,oyster,87,2
+527,#f2f0eb,snow white,79,13
+528,#cac5c2,oyster,87,13
 529,#3a3536,graphite,94,13
 530,#525f48,moss,87,4
 531,#8c5e37,light bronze,77,2
 532,#626879,blue steel,66,8
-533,#f2f0eb,snow white,79,2
-534,#cac5c2,oyster,87,2
+533,#f2f0eb,snow white,79,13
+534,#cac5c2,oyster,87,13
 535,#3a3536,graphite,94,13
 536,#525f48,moss,87,4
 537,#8c5e37,light bronze,77,2
 538,#626879,blue steel,66,8
-539,#f2f0eb,snow white,79,2
-540,#cac5c2,oyster,87,2
+539,#f2f0eb,snow white,79,13
+540,#cac5c2,oyster,87,13
 541,#3a3536,graphite,94,13
 542,#2b2e43,navy blue,94,9
-543,#f4f5f0,white,78,3
-544,#b5acab,pebble beach,54,1
+543,#f4f5f0,white,78,13
+544,#b5acab,pebble beach,54,13
 545,#3a3536,graphite,94,13
 546,#2b2e43,navy blue,94,9
-547,#f4f5f0,white,78,3
-548,#b5acab,pebble beach,54,1
+547,#f4f5f0,white,78,13
+548,#b5acab,pebble beach,54,13
 549,#3a3536,graphite,94,13
 550,#2b2e43,navy blue,94,9
-551,#f4f5f0,white,78,3
-552,#b5acab,pebble beach,54,1
+551,#f4f5f0,white,78,13
+552,#b5acab,pebble beach,54,13
 553,#3a3536,graphite,94,13
 554,#2b2e43,navy blue,94,9
-555,#f4f5f0,white,78,3
-556,#b5acab,pebble beach,54,1
+555,#f4f5f0,white,78,13
+556,#b5acab,pebble beach,54,13
 557,#3a3536,graphite,94,13
-558,#c1b7b0,sand,48,2
+558,#c1b7b0,sand,48,13
 559,#3a3536,graphite,61,13
-560,#c1b7b0,sand,48,2
+560,#c1b7b0,sand,48,13
 561,#3a3536,graphite,61,13
 562,#4f3f3b,chocolate,73,1
 563,#2a3244,midnight,47,8
 564,#782a39,burgundy,95,1
 565,#626879,blue steel,86,8
-566,#f0eee9,marshmallow,52,2
-567,#c1b7b0,sand,54,2
+566,#f0eee9,marshmallow,52,13
+567,#c1b7b0,sand,54,13
 568,#3a3536,graphite,92,13
 569,#3a3536,graphite,92,13
 570,#4f3f3b,chocolate,73,1
 571,#2a3244,midnight,47,8
 572,#782a39,burgundy,95,1
 573,#626879,blue steel,86,8
-574,#f0eee9,marshmallow,52,2
-575,#c1b7b0,sand,54,2
+574,#f0eee9,marshmallow,52,13
+575,#c1b7b0,sand,54,13
 576,#3a3536,graphite,92,13
 577,#3a3536,graphite,92,13
 578,#4f3f3b,chocolate,73,1
 579,#2a3244,midnight,47,8
 580,#782a39,burgundy,95,1
 581,#626879,blue steel,86,8
-582,#f0eee9,marshmallow,52,2
-583,#c1b7b0,sand,54,2
+582,#f0eee9,marshmallow,52,13
+583,#c1b7b0,sand,54,13
 584,#3a3536,graphite,92,13
 585,#3a3536,graphite,92,13
 586,#4f3f3b,chocolate,73,1
 587,#2a3244,midnight,47,8
 588,#782a39,burgundy,95,1
 589,#626879,blue steel,86,8
-590,#f0eee9,marshmallow,52,2
-591,#c1b7b0,sand,54,2
+590,#f0eee9,marshmallow,52,13
+591,#c1b7b0,sand,54,13
 592,#3a3536,graphite,92,13
 593,#3a3536,graphite,92,13
 594,#4f3f3b,chocolate,73,1
 595,#2a3244,midnight,47,8
 596,#782a39,burgundy,95,1
 597,#626879,blue steel,86,8
-598,#f0eee9,marshmallow,52,2
-599,#c1b7b0,sand,54,2
+598,#f0eee9,marshmallow,52,13
+599,#c1b7b0,sand,54,13
 600,#3a3536,graphite,92,13
 601,#3a3536,graphite,92,13
 602,#4f3f3b,chocolate,73,1
 603,#2a3244,midnight,47,8
 604,#782a39,burgundy,95,1
 605,#626879,blue steel,86,8
-606,#f0eee9,marshmallow,52,2
-607,#c1b7b0,sand,54,2
+606,#f0eee9,marshmallow,52,13
+607,#c1b7b0,sand,54,13
 608,#3a3536,graphite,92,13
 609,#3a3536,graphite,92,13
 610,#4f3f3b,chocolate,73,1
 611,#2a3244,midnight,47,8
 612,#782a39,burgundy,95,1
 613,#626879,blue steel,86,8
-614,#f0eee9,marshmallow,52,2
-615,#c1b7b0,sand,54,2
+614,#f0eee9,marshmallow,52,13
+615,#c1b7b0,sand,54,13
 616,#3a3536,graphite,92,13
 617,#3a3536,graphite,92,13
 618,#4f3f3b,chocolate,73,1
 619,#2a3244,midnight,47,8
 620,#782a39,burgundy,95,1
 621,#626879,blue steel,86,8
-622,#f0eee9,marshmallow,52,2
-623,#c1b7b0,sand,54,2
+622,#f0eee9,marshmallow,52,13
+623,#c1b7b0,sand,54,13
 624,#3a3536,graphite,92,13
 625,#3a3536,graphite,92,13
 626,#782a39,burgundy,56,1
@@ -632,9 +632,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 631,#fce6ac,light olive,74,2
 632,#dacbbe,cameo,60,2
 633,#2b2e43,navy blue,48,9
-634,#f4f5f0,white,91,3
-635,#c5c6c7,sterling,85,8
-636,#39373b,black,48,10
+634,#f4f5f0,white,91,13
+635,#c5c6c7,sterling,85,13
+636,#39373b,black,48,13
 637,#3a3536,graphite,93,13
 638,#782a39,burgundy,56,1
 639,#8c5e37,light bronze,63,2
@@ -644,9 +644,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 643,#fce6ac,light olive,74,2
 644,#dacbbe,cameo,60,2
 645,#2b2e43,navy blue,48,9
-646,#f4f5f0,white,91,3
-647,#c5c6c7,sterling,85,8
-648,#39373b,black,48,10
+646,#f4f5f0,white,91,13
+647,#c5c6c7,sterling,85,13
+648,#39373b,black,48,13
 649,#3a3536,graphite,93,13
 650,#782a39,burgundy,56,1
 651,#8c5e37,light bronze,63,2
@@ -656,9 +656,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 655,#fce6ac,light olive,74,2
 656,#dacbbe,cameo,60,2
 657,#2b2e43,navy blue,48,9
-658,#f4f5f0,white,91,3
-659,#c5c6c7,sterling,85,8
-660,#39373b,black,48,10
+658,#f4f5f0,white,91,13
+659,#c5c6c7,sterling,85,13
+660,#39373b,black,48,13
 661,#3a3536,graphite,93,13
 662,#782a39,burgundy,56,1
 663,#8c5e37,light bronze,63,2
@@ -668,9 +668,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 667,#fce6ac,light olive,74,2
 668,#dacbbe,cameo,60,2
 669,#2b2e43,navy blue,48,9
-670,#f4f5f0,white,91,3
-671,#c5c6c7,sterling,85,8
-672,#39373b,black,48,10
+670,#f4f5f0,white,91,13
+671,#c5c6c7,sterling,85,13
+672,#39373b,black,48,13
 673,#3a3536,graphite,93,13
 674,#782a39,burgundy,56,1
 675,#8c5e37,light bronze,63,2
@@ -680,9 +680,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 679,#fce6ac,light olive,74,2
 680,#dacbbe,cameo,60,2
 681,#2b2e43,navy blue,48,9
-682,#f4f5f0,white,91,3
-683,#c5c6c7,sterling,85,8
-684,#39373b,black,48,10
+682,#f4f5f0,white,91,13
+683,#c5c6c7,sterling,85,13
+684,#39373b,black,48,13
 685,#3a3536,graphite,93,13
 686,#782a39,burgundy,56,1
 687,#8c5e37,light bronze,63,2
@@ -692,9 +692,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 691,#fce6ac,light olive,74,2
 692,#dacbbe,cameo,60,2
 693,#2b2e43,navy blue,48,9
-694,#f4f5f0,white,91,3
-695,#c5c6c7,sterling,85,8
-696,#39373b,black,48,10
+694,#f4f5f0,white,91,13
+695,#c5c6c7,sterling,85,13
+696,#39373b,black,48,13
 697,#3a3536,graphite,93,13
 698,#782a39,burgundy,56,1
 699,#8c5e37,light bronze,63,2
@@ -704,9 +704,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 703,#fce6ac,light olive,74,2
 704,#dacbbe,cameo,60,2
 705,#2b2e43,navy blue,48,9
-706,#f4f5f0,white,91,3
-707,#c5c6c7,sterling,85,8
-708,#39373b,black,48,10
+706,#f4f5f0,white,91,13
+707,#c5c6c7,sterling,85,13
+708,#39373b,black,48,13
 709,#3a3536,graphite,93,13
 710,#782a39,burgundy,56,1
 711,#8c5e37,light bronze,63,2
@@ -716,9 +716,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 715,#fce6ac,light olive,74,2
 716,#dacbbe,cameo,60,2
 717,#2b2e43,navy blue,48,9
-718,#f4f5f0,white,91,3
-719,#c5c6c7,sterling,85,8
-720,#39373b,black,48,10
+718,#f4f5f0,white,91,13
+719,#c5c6c7,sterling,85,13
+720,#39373b,black,48,13
 721,#3a3536,graphite,93,13
 722,#782a39,burgundy,56,1
 723,#8c5e37,light bronze,63,2
@@ -728,9 +728,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 727,#fce6ac,light olive,74,2
 728,#dacbbe,cameo,60,2
 729,#2b2e43,navy blue,48,9
-730,#f4f5f0,white,91,3
-731,#c5c6c7,sterling,85,8
-732,#39373b,black,48,10
+730,#f4f5f0,white,91,13
+731,#c5c6c7,sterling,85,13
+732,#39373b,black,48,13
 733,#3a3536,graphite,93,13
 734,#782a39,burgundy,56,1
 735,#8c5e37,light bronze,63,2
@@ -740,9 +740,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 739,#fce6ac,light olive,74,2
 740,#dacbbe,cameo,60,2
 741,#2b2e43,navy blue,48,9
-742,#f4f5f0,white,91,3
-743,#c5c6c7,sterling,85,8
-744,#39373b,black,48,10
+742,#f4f5f0,white,91,13
+743,#c5c6c7,sterling,85,13
+744,#39373b,black,48,13
 745,#3a3536,graphite,93,13
 746,#782a39,burgundy,56,1
 747,#8c5e37,light bronze,63,2
@@ -752,9 +752,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 751,#fce6ac,light olive,74,2
 752,#dacbbe,cameo,60,2
 753,#2b2e43,navy blue,48,9
-754,#f4f5f0,white,91,3
-755,#c5c6c7,sterling,85,8
-756,#39373b,black,48,10
+754,#f4f5f0,white,91,13
+755,#c5c6c7,sterling,85,13
+756,#39373b,black,48,13
 757,#3a3536,graphite,93,13
 758,#782a39,burgundy,56,1
 759,#8c5e37,light bronze,63,2
@@ -764,44 +764,44 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 763,#fce6ac,light olive,74,2
 764,#dacbbe,cameo,60,2
 765,#2b2e43,navy blue,48,9
-766,#f4f5f0,white,91,3
-767,#c5c6c7,sterling,85,8
-768,#39373b,black,48,10
+766,#f4f5f0,white,91,13
+767,#c5c6c7,sterling,85,13
+768,#39373b,black,48,13
 769,#3a3536,graphite,93,13
 770,#363b7c,electric blue,96,9
 771,#11574a,hunter,89,7
-772,#f2f0eb,snow white,44,2
+772,#f2f0eb,snow white,44,13
 773,#3a3536,graphite,93,13
 774,#782a39,burgundy,58,1
 775,#363b7c,electric blue,96,9
 776,#11574a,hunter,89,7
-777,#f2f0eb,snow white,44,2
+777,#f2f0eb,snow white,44,13
 778,#3a3536,graphite,93,13
 779,#782a39,burgundy,58,1
 780,#363b7c,electric blue,96,9
 781,#11574a,hunter,89,7
-782,#f2f0eb,snow white,44,2
+782,#f2f0eb,snow white,44,13
 783,#3a3536,graphite,93,13
 784,#782a39,burgundy,58,1
 785,#363b7c,electric blue,96,9
 786,#11574a,hunter,89,7
-787,#f2f0eb,snow white,44,2
+787,#f2f0eb,snow white,44,13
 788,#3a3536,graphite,93,13
 789,#782a39,burgundy,58,1
 790,#363b7c,electric blue,96,9
 791,#11574a,hunter,89,7
-792,#f2f0eb,snow white,44,2
+792,#f2f0eb,snow white,44,13
 793,#3a3536,graphite,93,13
 794,#782a39,burgundy,58,1
-795,#f4f5f0,white,58,3
-796,#e7e9e7,star light,73,5
-797,#f4f5f0,white,90,3
-798,#f4f5f0,white,58,3
-799,#e7e9e7,star light,73,5
-800,#f4f5f0,white,90,3
-801,#f4f5f0,white,58,3
-802,#e7e9e7,star light,73,5
-803,#f4f5f0,white,90,3
+795,#f4f5f0,white,58,13
+796,#e7e9e7,star light,73,13
+797,#f4f5f0,white,90,13
+798,#f4f5f0,white,58,13
+799,#e7e9e7,star light,73,13
+800,#f4f5f0,white,90,13
+801,#f4f5f0,white,58,13
+802,#e7e9e7,star light,73,13
+803,#f4f5f0,white,90,13
 804,#782a39,burgundy,78,1
 805,#2d3359,blueberry,67,9
 806,#626879,blue steel,59,8
@@ -811,13 +811,13 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 810,#782a39,burgundy,78,1
 811,#2d3359,blueberry,67,9
 812,#626879,blue steel,59,8
-813,#f2f0eb,snow white,64,2
+813,#f2f0eb,snow white,64,13
 814,#3a3536,graphite,94,13
-815,#f2f0eb,snow white,64,2
+815,#f2f0eb,snow white,64,13
 816,#3a3536,graphite,94,13
-817,#aeb2b5,frost,39,8
+817,#aeb2b5,frost,39,13
 818,#3a3536,graphite,92,13
-819,#aeb2b5,frost,39,8
+819,#aeb2b5,frost,39,13
 820,#3a3536,graphite,92,13
 821,#afcb80,pistachio,95,4
 822,#3a3536,graphite,88,13
@@ -825,311 +825,311 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 824,#3a3536,graphite,88,13
 825,#40312f,espresso,92,1
 826,#2a3244,midnight,93,8
-827,#cac5c2,oyster,88,2
-828,#f2f0eb,snow white,90,2
+827,#cac5c2,oyster,88,13
+828,#f2f0eb,snow white,90,13
 829,#4f3f3b,chocolate,84,1
 830,#3a3536,graphite,52,13
 831,#2a3244,midnight,93,8
-832,#cac5c2,oyster,88,2
-833,#f2f0eb,snow white,90,2
+832,#cac5c2,oyster,88,13
+833,#f2f0eb,snow white,90,13
 834,#4f3f3b,chocolate,84,1
 835,#3a3536,graphite,52,13
 836,#2a3244,midnight,93,8
-837,#cac5c2,oyster,88,2
-838,#f2f0eb,snow white,90,2
+837,#cac5c2,oyster,88,13
+838,#f2f0eb,snow white,90,13
 839,#4f3f3b,chocolate,84,1
 840,#3a3536,graphite,52,13
 841,#2a3244,midnight,93,8
-842,#cac5c2,oyster,88,2
-843,#f2f0eb,snow white,90,2
+842,#cac5c2,oyster,88,13
+843,#f2f0eb,snow white,90,13
 844,#4f3f3b,chocolate,84,1
 845,#3a3536,graphite,52,13
 846,#2a3244,midnight,93,8
-847,#cac5c2,oyster,88,2
-848,#f2f0eb,snow white,90,2
+847,#cac5c2,oyster,88,13
+848,#f2f0eb,snow white,90,13
 849,#4f3f3b,chocolate,84,1
 850,#3a3536,graphite,52,13
-851,#f4f5f0,white,82,3
-852,#e7e9e7,star light,99,5
-853,#e7e9e7,star light,88,5
-854,#e7e9e7,star light,79,5
-855,#f4f5f0,white,83,3
-856,#f4f5f0,white,82,3
-857,#e7e9e7,star light,62,5
-858,#aeb2b5,frost,65,8
+851,#f4f5f0,white,82,13
+852,#e7e9e7,star light,99,13
+853,#e7e9e7,star light,88,13
+854,#e7e9e7,star light,79,13
+855,#f4f5f0,white,83,13
+856,#f4f5f0,white,82,13
+857,#e7e9e7,star light,62,13
+858,#aeb2b5,frost,65,13
 859,#40312f,espresso,46,1
 860,#3a3536,graphite,97,13
-861,#f4f5f0,white,83,3
-862,#f4f5f0,white,82,3
-863,#e7e9e7,star light,62,5
-864,#aeb2b5,frost,65,8
+861,#f4f5f0,white,83,13
+862,#f4f5f0,white,82,13
+863,#e7e9e7,star light,62,13
+864,#aeb2b5,frost,65,13
 865,#40312f,espresso,46,1
 866,#3a3536,graphite,97,13
-867,#f4f5f0,white,83,3
-868,#f4f5f0,white,82,3
-869,#e7e9e7,star light,62,5
-870,#aeb2b5,frost,65,8
+867,#f4f5f0,white,83,13
+868,#f4f5f0,white,82,13
+869,#e7e9e7,star light,62,13
+870,#aeb2b5,frost,65,13
 871,#40312f,espresso,46,1
 872,#3a3536,graphite,97,13
-873,#f4f5f0,white,83,3
-874,#f4f5f0,white,82,3
-875,#e7e9e7,star light,62,5
-876,#aeb2b5,frost,65,8
+873,#f4f5f0,white,83,13
+874,#f4f5f0,white,82,13
+875,#e7e9e7,star light,62,13
+876,#aeb2b5,frost,65,13
 877,#40312f,espresso,46,1
 878,#3a3536,graphite,97,13
-879,#f4f5f0,white,83,3
-880,#f4f5f0,white,82,3
-881,#e7e9e7,star light,62,5
-882,#aeb2b5,frost,65,8
+879,#f4f5f0,white,83,13
+880,#f4f5f0,white,82,13
+881,#e7e9e7,star light,62,13
+882,#aeb2b5,frost,65,13
 883,#40312f,espresso,46,1
 884,#3a3536,graphite,97,13
-885,#f4f5f0,white,83,3
-886,#f4f5f0,white,82,3
-887,#e7e9e7,star light,62,5
-888,#aeb2b5,frost,65,8
+885,#f4f5f0,white,83,13
+886,#f4f5f0,white,82,13
+887,#e7e9e7,star light,62,13
+888,#aeb2b5,frost,65,13
 889,#40312f,espresso,46,1
 890,#3a3536,graphite,97,13
 891,#203c7f,sapphire,54,8
-892,#f4f5f0,white,49,3
+892,#f4f5f0,white,49,13
 893,#203c7f,sapphire,54,8
-894,#f4f5f0,white,49,3
-895,#f2f0eb,snow white,51,2
-896,#f2f0eb,snow white,71,2
+894,#f4f5f0,white,49,13
+895,#f2f0eb,snow white,51,13
+896,#f2f0eb,snow white,71,13
 897,#3a3536,graphite,97,13
-898,#f2f0eb,snow white,71,2
+898,#f2f0eb,snow white,71,13
 899,#3a3536,graphite,97,13
-900,#f4f5f0,white,89,3
+900,#f4f5f0,white,89,13
 901,#2b2e43,navy blue,94,9
 902,#3a3536,graphite,95,13
 903,#2b2e43,navy blue,94,9
 904,#3a3536,graphite,95,13
-905,#39373b,black,36,10
-906,#80817d,charcoal gray,74,4
+905,#39373b,black,36,13
+906,#80817d,charcoal gray,74,13
 907,#3a3536,graphite,97,13
-908,#80817d,charcoal gray,74,4
+908,#80817d,charcoal gray,74,13
 909,#3a3536,graphite,97,13
-910,#f4f5f0,white,62,3
-911,#f4f5f0,white,87,3
-912,#39373b,black,71,10
-913,#f4f5f0,white,83,3
+910,#f4f5f0,white,62,13
+911,#f4f5f0,white,87,13
+912,#39373b,black,71,13
+913,#f4f5f0,white,83,13
 914,#3a3536,graphite,94,13
-915,#39373b,black,71,10
-916,#f4f5f0,white,83,3
+915,#39373b,black,71,13
+916,#f4f5f0,white,83,13
 917,#3a3536,graphite,94,13
-918,#39373b,black,71,10
-919,#f4f5f0,white,83,3
+918,#39373b,black,71,13
+919,#f4f5f0,white,83,13
 920,#3a3536,graphite,94,13
-921,#e7e9e7,star light,98,5
-922,#e7e9e7,star light,99,5
-923,#848283,quarry,45,12
-924,#39373b,black,61,10
+921,#e7e9e7,star light,98,13
+922,#e7e9e7,star light,99,13
+923,#848283,quarry,45,13
+924,#39373b,black,61,13
 925,#40312f,espresso,58,1
-926,#e7e9e7,star light,99,5
-927,#848283,quarry,45,12
-928,#39373b,black,61,10
+926,#e7e9e7,star light,99,13
+927,#848283,quarry,45,13
+928,#39373b,black,61,13
 929,#40312f,espresso,58,1
-930,#e7e9e7,star light,99,5
-931,#848283,quarry,45,12
-932,#39373b,black,61,10
+930,#e7e9e7,star light,99,13
+931,#848283,quarry,45,13
+932,#39373b,black,61,13
 933,#40312f,espresso,58,1
-934,#e7e9e7,star light,99,5
-935,#848283,quarry,45,12
-936,#39373b,black,61,10
+934,#e7e9e7,star light,99,13
+935,#848283,quarry,45,13
+936,#39373b,black,61,13
 937,#40312f,espresso,58,1
-938,#e7e9e7,star light,93,5
-939,#a09998,taupe,48,1
-940,#e7e9e7,star light,93,5
-941,#a09998,taupe,48,1
+938,#e7e9e7,star light,93,13
+939,#a09998,taupe,48,13
+940,#e7e9e7,star light,93,13
+941,#a09998,taupe,48,13
 942,#40312f,espresso,59,1
-943,#d0d0da,dove,47,9
-944,#f0eee9,marshmallow,50,2
-945,#41424a,ebony,72,9
-946,#d0d0da,dove,47,9
-947,#f0eee9,marshmallow,50,2
-948,#41424a,ebony,72,9
-949,#d0d0da,dove,47,9
-950,#f0eee9,marshmallow,50,2
-951,#41424a,ebony,72,9
+943,#d0d0da,dove,47,13
+944,#f0eee9,marshmallow,50,13
+945,#41424a,ebony,72,13
+946,#d0d0da,dove,47,13
+947,#f0eee9,marshmallow,50,13
+948,#41424a,ebony,72,13
+949,#d0d0da,dove,47,13
+950,#f0eee9,marshmallow,50,13
+951,#41424a,ebony,72,13
 952,#8a2232,claret,69,1
 953,#325b74,marine,50,8
 954,#edd59e,buttercup,49,2
-955,#e7e9e7,star light,78,5
-956,#aeb2b5,frost,85,8
+955,#e7e9e7,star light,78,13
+956,#aeb2b5,frost,85,13
 957,#2a3244,midnight,53,8
 958,#8a2232,claret,69,1
 959,#325b74,marine,50,8
 960,#edd59e,buttercup,49,2
-961,#e7e9e7,star light,78,5
-962,#aeb2b5,frost,85,8
+961,#e7e9e7,star light,78,13
+962,#aeb2b5,frost,85,13
 963,#2a3244,midnight,53,8
 964,#8a2232,claret,69,1
 965,#325b74,marine,50,8
 966,#edd59e,buttercup,49,2
-967,#e7e9e7,star light,78,5
-968,#aeb2b5,frost,85,8
+967,#e7e9e7,star light,78,13
+968,#aeb2b5,frost,85,13
 969,#2a3244,midnight,53,8
 970,#8a2232,claret,69,1
 971,#325b74,marine,50,8
 972,#edd59e,buttercup,49,2
-973,#e7e9e7,star light,78,5
-974,#aeb2b5,frost,85,8
+973,#e7e9e7,star light,78,13
+974,#aeb2b5,frost,85,13
 975,#2a3244,midnight,53,8
 976,#8a2232,claret,69,1
 977,#325b74,marine,50,8
 978,#edd59e,buttercup,49,2
-979,#e7e9e7,star light,78,5
-980,#aeb2b5,frost,85,8
+979,#e7e9e7,star light,78,13
+980,#aeb2b5,frost,85,13
 981,#2a3244,midnight,53,8
 982,#8a2232,claret,69,1
 983,#325b74,marine,50,8
 984,#edd59e,buttercup,49,2
-985,#e7e9e7,star light,78,5
-986,#aeb2b5,frost,85,8
+985,#e7e9e7,star light,78,13
+986,#aeb2b5,frost,85,13
 987,#2a3244,midnight,53,8
-988,#f4f5f0,white,90,3
-989,#c5c6c7,sterling,43,8
-990,#41424a,ebony,37,9
+988,#f4f5f0,white,90,13
+989,#c5c6c7,sterling,43,13
+990,#41424a,ebony,37,13
 991,#2b2e43,navy blue,48,9
-992,#98a0a5,mystic,36,8
+992,#98a0a5,mystic,36,13
 993,#2a3244,midnight,82,8
-994,#a5b2aa,celadon,67,6
+994,#a5b2aa,celadon,67,13
 995,#2a3244,midnight,45,8
-996,#e7e9e7,star light,73,5
-997,#41424a,ebony,43,9
+996,#e7e9e7,star light,73,13
+997,#41424a,ebony,43,13
 998,#3a3536,graphite,42,13
-999,#c1b7b0,sand,42,2
-1000,#f4f5f0,white,90,3
-1001,#c5c6c7,sterling,43,8
-1002,#41424a,ebony,37,9
+999,#c1b7b0,sand,42,13
+1000,#f4f5f0,white,90,13
+1001,#c5c6c7,sterling,43,13
+1002,#41424a,ebony,37,13
 1003,#2b2e43,navy blue,48,9
-1004,#98a0a5,mystic,36,8
+1004,#98a0a5,mystic,36,13
 1005,#2a3244,midnight,82,8
-1006,#a5b2aa,celadon,67,6
+1006,#a5b2aa,celadon,67,13
 1007,#2a3244,midnight,45,8
-1008,#e7e9e7,star light,73,5
-1009,#41424a,ebony,43,9
+1008,#e7e9e7,star light,73,13
+1009,#41424a,ebony,43,13
 1010,#3a3536,graphite,42,13
-1011,#c1b7b0,sand,42,2
-1012,#f4f5f0,white,90,3
-1013,#c5c6c7,sterling,43,8
-1014,#41424a,ebony,37,9
+1011,#c1b7b0,sand,42,13
+1012,#f4f5f0,white,90,13
+1013,#c5c6c7,sterling,43,13
+1014,#41424a,ebony,37,13
 1015,#2b2e43,navy blue,48,9
-1016,#98a0a5,mystic,36,8
+1016,#98a0a5,mystic,36,13
 1017,#2a3244,midnight,82,8
-1018,#a5b2aa,celadon,67,6
+1018,#a5b2aa,celadon,67,13
 1019,#2a3244,midnight,45,8
-1020,#e7e9e7,star light,73,5
-1021,#41424a,ebony,43,9
+1020,#e7e9e7,star light,73,13
+1021,#41424a,ebony,43,13
 1022,#3a3536,graphite,42,13
-1023,#c1b7b0,sand,42,2
-1024,#f4f5f0,white,90,3
-1025,#c5c6c7,sterling,43,8
-1026,#41424a,ebony,37,9
+1023,#c1b7b0,sand,42,13
+1024,#f4f5f0,white,90,13
+1025,#c5c6c7,sterling,43,13
+1026,#41424a,ebony,37,13
 1027,#2b2e43,navy blue,48,9
-1028,#98a0a5,mystic,36,8
+1028,#98a0a5,mystic,36,13
 1029,#2a3244,midnight,82,8
-1030,#a5b2aa,celadon,67,6
+1030,#a5b2aa,celadon,67,13
 1031,#2a3244,midnight,45,8
-1032,#e7e9e7,star light,73,5
-1033,#41424a,ebony,43,9
+1032,#e7e9e7,star light,73,13
+1033,#41424a,ebony,43,13
 1034,#3a3536,graphite,42,13
-1035,#c1b7b0,sand,42,2
-1036,#f4f5f0,white,90,3
-1037,#c5c6c7,sterling,43,8
-1038,#41424a,ebony,37,9
+1035,#c1b7b0,sand,42,13
+1036,#f4f5f0,white,90,13
+1037,#c5c6c7,sterling,43,13
+1038,#41424a,ebony,37,13
 1039,#2b2e43,navy blue,48,9
-1040,#98a0a5,mystic,36,8
+1040,#98a0a5,mystic,36,13
 1041,#2a3244,midnight,82,8
-1042,#a5b2aa,celadon,67,6
+1042,#a5b2aa,celadon,67,13
 1043,#2a3244,midnight,45,8
-1044,#e7e9e7,star light,73,5
-1045,#41424a,ebony,43,9
+1044,#e7e9e7,star light,73,13
+1045,#41424a,ebony,43,13
 1046,#3a3536,graphite,42,13
-1047,#c1b7b0,sand,42,2
-1048,#f4f5f0,white,90,3
-1049,#c5c6c7,sterling,43,8
-1050,#41424a,ebony,37,9
+1047,#c1b7b0,sand,42,13
+1048,#f4f5f0,white,90,13
+1049,#c5c6c7,sterling,43,13
+1050,#41424a,ebony,37,13
 1051,#2b2e43,navy blue,48,9
-1052,#98a0a5,mystic,36,8
+1052,#98a0a5,mystic,36,13
 1053,#2a3244,midnight,82,8
-1054,#a5b2aa,celadon,67,6
+1054,#a5b2aa,celadon,67,13
 1055,#2a3244,midnight,45,8
-1056,#e7e9e7,star light,73,5
-1057,#41424a,ebony,43,9
+1056,#e7e9e7,star light,73,13
+1057,#41424a,ebony,43,13
 1058,#3a3536,graphite,42,13
-1059,#c1b7b0,sand,42,2
-1060,#f4f5f0,white,90,3
-1061,#c5c6c7,sterling,43,8
-1062,#41424a,ebony,37,9
+1059,#c1b7b0,sand,42,13
+1060,#f4f5f0,white,90,13
+1061,#c5c6c7,sterling,43,13
+1062,#41424a,ebony,37,13
 1063,#2b2e43,navy blue,48,9
-1064,#98a0a5,mystic,36,8
+1064,#98a0a5,mystic,36,13
 1065,#2a3244,midnight,82,8
-1066,#a5b2aa,celadon,67,6
+1066,#a5b2aa,celadon,67,13
 1067,#2a3244,midnight,45,8
-1068,#e7e9e7,star light,73,5
-1069,#41424a,ebony,43,9
+1068,#e7e9e7,star light,73,13
+1069,#41424a,ebony,43,13
 1070,#3a3536,graphite,42,13
-1071,#c1b7b0,sand,42,2
-1072,#f4f5f0,white,90,3
-1073,#c5c6c7,sterling,43,8
-1074,#41424a,ebony,37,9
+1071,#c1b7b0,sand,42,13
+1072,#f4f5f0,white,90,13
+1073,#c5c6c7,sterling,43,13
+1074,#41424a,ebony,37,13
 1075,#2b2e43,navy blue,48,9
-1076,#98a0a5,mystic,36,8
+1076,#98a0a5,mystic,36,13
 1077,#2a3244,midnight,82,8
-1078,#a5b2aa,celadon,67,6
+1078,#a5b2aa,celadon,67,13
 1079,#2a3244,midnight,45,8
-1080,#e7e9e7,star light,73,5
-1081,#41424a,ebony,43,9
+1080,#e7e9e7,star light,73,13
+1081,#41424a,ebony,43,13
 1082,#3a3536,graphite,42,13
-1083,#c1b7b0,sand,42,2
-1084,#f4f5f0,white,90,3
-1085,#c5c6c7,sterling,43,8
-1086,#41424a,ebony,37,9
+1083,#c1b7b0,sand,42,13
+1084,#f4f5f0,white,90,13
+1085,#c5c6c7,sterling,43,13
+1086,#41424a,ebony,37,13
 1087,#2b2e43,navy blue,48,9
-1088,#98a0a5,mystic,36,8
+1088,#98a0a5,mystic,36,13
 1089,#2a3244,midnight,82,8
-1090,#a5b2aa,celadon,67,6
+1090,#a5b2aa,celadon,67,13
 1091,#2a3244,midnight,45,8
-1092,#e7e9e7,star light,73,5
-1093,#41424a,ebony,43,9
+1092,#e7e9e7,star light,73,13
+1093,#41424a,ebony,43,13
 1094,#3a3536,graphite,42,13
-1095,#c1b7b0,sand,42,2
-1096,#f4f5f0,white,90,3
-1097,#c5c6c7,sterling,43,8
-1098,#41424a,ebony,37,9
+1095,#c1b7b0,sand,42,13
+1096,#f4f5f0,white,90,13
+1097,#c5c6c7,sterling,43,13
+1098,#41424a,ebony,37,13
 1099,#2b2e43,navy blue,48,9
-1100,#98a0a5,mystic,36,8
+1100,#98a0a5,mystic,36,13
 1101,#2a3244,midnight,82,8
-1102,#a5b2aa,celadon,67,6
+1102,#a5b2aa,celadon,67,13
 1103,#2a3244,midnight,45,8
-1104,#e7e9e7,star light,73,5
-1105,#41424a,ebony,43,9
+1104,#e7e9e7,star light,73,13
+1105,#41424a,ebony,43,13
 1106,#3a3536,graphite,42,13
-1107,#c1b7b0,sand,42,2
-1108,#f4f5f0,white,90,3
-1109,#c5c6c7,sterling,43,8
-1110,#41424a,ebony,37,9
+1107,#c1b7b0,sand,42,13
+1108,#f4f5f0,white,90,13
+1109,#c5c6c7,sterling,43,13
+1110,#41424a,ebony,37,13
 1111,#2b2e43,navy blue,48,9
-1112,#98a0a5,mystic,36,8
+1112,#98a0a5,mystic,36,13
 1113,#2a3244,midnight,82,8
-1114,#a5b2aa,celadon,67,6
+1114,#a5b2aa,celadon,67,13
 1115,#2a3244,midnight,45,8
-1116,#e7e9e7,star light,73,5
-1117,#41424a,ebony,43,9
+1116,#e7e9e7,star light,73,13
+1117,#41424a,ebony,43,13
 1118,#3a3536,graphite,42,13
-1119,#c1b7b0,sand,42,2
-1120,#f4f5f0,white,90,3
-1121,#c5c6c7,sterling,43,8
-1122,#41424a,ebony,37,9
+1119,#c1b7b0,sand,42,13
+1120,#f4f5f0,white,90,13
+1121,#c5c6c7,sterling,43,13
+1122,#41424a,ebony,37,13
 1123,#2b2e43,navy blue,48,9
-1124,#98a0a5,mystic,36,8
+1124,#98a0a5,mystic,36,13
 1125,#2a3244,midnight,82,8
-1126,#a5b2aa,celadon,67,6
+1126,#a5b2aa,celadon,67,13
 1127,#2a3244,midnight,45,8
-1128,#e7e9e7,star light,73,5
-1129,#41424a,ebony,43,9
+1128,#e7e9e7,star light,73,13
+1129,#41424a,ebony,43,13
 1130,#3a3536,graphite,42,13
-1131,#c1b7b0,sand,42,2
+1131,#c1b7b0,sand,42,13
 1132,#8a2232,claret,78,1
 1133,#8c7c61,antique gold,40,2
 1134,#3a3536,graphite,87,13
@@ -1137,9 +1137,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1136,#e3cc81,snapdragon,66,3
 1137,#bfa3af,quartz,41,12
 1138,#6e7e99,larkspur,47,8
-1139,#e7e9e7,star light,70,5
-1140,#9f9c99,cathedral,47,2
-1141,#41424a,ebony,57,9
+1139,#e7e9e7,star light,70,13
+1140,#9f9c99,cathedral,47,13
+1141,#41424a,ebony,57,13
 1142,#2b2e43,navy blue,92,9
 1143,#3a3536,graphite,93,13
 1144,#8a2232,claret,78,1
@@ -1149,9 +1149,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1148,#e3cc81,snapdragon,66,3
 1149,#bfa3af,quartz,41,12
 1150,#6e7e99,larkspur,47,8
-1151,#e7e9e7,star light,70,5
-1152,#9f9c99,cathedral,47,2
-1153,#41424a,ebony,57,9
+1151,#e7e9e7,star light,70,13
+1152,#9f9c99,cathedral,47,13
+1153,#41424a,ebony,57,13
 1154,#2b2e43,navy blue,92,9
 1155,#3a3536,graphite,93,13
 1156,#8a2232,claret,78,1
@@ -1161,9 +1161,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1160,#e3cc81,snapdragon,66,3
 1161,#bfa3af,quartz,41,12
 1162,#6e7e99,larkspur,47,8
-1163,#e7e9e7,star light,70,5
-1164,#9f9c99,cathedral,47,2
-1165,#41424a,ebony,57,9
+1163,#e7e9e7,star light,70,13
+1164,#9f9c99,cathedral,47,13
+1165,#41424a,ebony,57,13
 1166,#2b2e43,navy blue,92,9
 1167,#3a3536,graphite,93,13
 1168,#8a2232,claret,78,1
@@ -1173,9 +1173,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1172,#e3cc81,snapdragon,66,3
 1173,#bfa3af,quartz,41,12
 1174,#6e7e99,larkspur,47,8
-1175,#e7e9e7,star light,70,5
-1176,#9f9c99,cathedral,47,2
-1177,#41424a,ebony,57,9
+1175,#e7e9e7,star light,70,13
+1176,#9f9c99,cathedral,47,13
+1177,#41424a,ebony,57,13
 1178,#2b2e43,navy blue,92,9
 1179,#3a3536,graphite,93,13
 1180,#8a2232,claret,78,1
@@ -1185,9 +1185,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1184,#e3cc81,snapdragon,66,3
 1185,#bfa3af,quartz,41,12
 1186,#6e7e99,larkspur,47,8
-1187,#e7e9e7,star light,70,5
-1188,#9f9c99,cathedral,47,2
-1189,#41424a,ebony,57,9
+1187,#e7e9e7,star light,70,13
+1188,#9f9c99,cathedral,47,13
+1189,#41424a,ebony,57,13
 1190,#2b2e43,navy blue,92,9
 1191,#3a3536,graphite,93,13
 1192,#8a2232,claret,78,1
@@ -1197,9 +1197,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1196,#e3cc81,snapdragon,66,3
 1197,#bfa3af,quartz,41,12
 1198,#6e7e99,larkspur,47,8
-1199,#e7e9e7,star light,70,5
-1200,#9f9c99,cathedral,47,2
-1201,#41424a,ebony,57,9
+1199,#e7e9e7,star light,70,13
+1200,#9f9c99,cathedral,47,13
+1201,#41424a,ebony,57,13
 1202,#2b2e43,navy blue,92,9
 1203,#3a3536,graphite,93,13
 1204,#8a2232,claret,78,1
@@ -1209,9 +1209,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1208,#e3cc81,snapdragon,66,3
 1209,#bfa3af,quartz,41,12
 1210,#6e7e99,larkspur,47,8
-1211,#e7e9e7,star light,70,5
-1212,#9f9c99,cathedral,47,2
-1213,#41424a,ebony,57,9
+1211,#e7e9e7,star light,70,13
+1212,#9f9c99,cathedral,47,13
+1213,#41424a,ebony,57,13
 1214,#2b2e43,navy blue,92,9
 1215,#3a3536,graphite,93,13
 1216,#8a2232,claret,78,1
@@ -1221,9 +1221,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1220,#e3cc81,snapdragon,66,3
 1221,#bfa3af,quartz,41,12
 1222,#6e7e99,larkspur,47,8
-1223,#e7e9e7,star light,70,5
-1224,#9f9c99,cathedral,47,2
-1225,#41424a,ebony,57,9
+1223,#e7e9e7,star light,70,13
+1224,#9f9c99,cathedral,47,13
+1225,#41424a,ebony,57,13
 1226,#2b2e43,navy blue,92,9
 1227,#3a3536,graphite,93,13
 1228,#8a2232,claret,78,1
@@ -1233,9 +1233,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1232,#e3cc81,snapdragon,66,3
 1233,#bfa3af,quartz,41,12
 1234,#6e7e99,larkspur,47,8
-1235,#e7e9e7,star light,70,5
-1236,#9f9c99,cathedral,47,2
-1237,#41424a,ebony,57,9
+1235,#e7e9e7,star light,70,13
+1236,#9f9c99,cathedral,47,13
+1237,#41424a,ebony,57,13
 1238,#2b2e43,navy blue,92,9
 1239,#3a3536,graphite,93,13
 1240,#8a2232,claret,78,1
@@ -1245,9 +1245,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1244,#e3cc81,snapdragon,66,3
 1245,#bfa3af,quartz,41,12
 1246,#6e7e99,larkspur,47,8
-1247,#e7e9e7,star light,70,5
-1248,#9f9c99,cathedral,47,2
-1249,#41424a,ebony,57,9
+1247,#e7e9e7,star light,70,13
+1248,#9f9c99,cathedral,47,13
+1249,#41424a,ebony,57,13
 1250,#2b2e43,navy blue,92,9
 1251,#3a3536,graphite,93,13
 1252,#8a2232,claret,78,1
@@ -1257,9 +1257,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1256,#e3cc81,snapdragon,66,3
 1257,#bfa3af,quartz,41,12
 1258,#6e7e99,larkspur,47,8
-1259,#e7e9e7,star light,70,5
-1260,#9f9c99,cathedral,47,2
-1261,#41424a,ebony,57,9
+1259,#e7e9e7,star light,70,13
+1260,#9f9c99,cathedral,47,13
+1261,#41424a,ebony,57,13
 1262,#2b2e43,navy blue,92,9
 1263,#3a3536,graphite,93,13
 1264,#8a2232,claret,78,1
@@ -1269,91 +1269,91 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1268,#e3cc81,snapdragon,66,3
 1269,#bfa3af,quartz,41,12
 1270,#6e7e99,larkspur,47,8
-1271,#e7e9e7,star light,70,5
-1272,#9f9c99,cathedral,47,2
-1273,#41424a,ebony,57,9
+1271,#e7e9e7,star light,70,13
+1272,#9f9c99,cathedral,47,13
+1273,#41424a,ebony,57,13
 1274,#2b2e43,navy blue,92,9
 1275,#3a3536,graphite,93,13
 1276,#dfb8b6,rose,48,1
-1277,#aeb2b5,frost,52,8
-1278,#f4f5f0,white,96,3
+1277,#aeb2b5,frost,52,13
+1278,#f4f5f0,white,96,13
 1279,#2a3244,midnight,44,8
-1280,#f4f5f0,white,99,3
+1280,#f4f5f0,white,99,13
 1281,#2a3244,midnight,62,8
 1282,#384883,sailor,45,9
-1283,#e7e9e7,star light,78,5
+1283,#e7e9e7,star light,78,13
 1284,#2b2e43,navy blue,70,9
 1285,#dc5b62,firecracker,78,1
-1286,#aeb2b5,frost,52,8
-1287,#f4f5f0,white,96,3
+1286,#aeb2b5,frost,52,13
+1287,#f4f5f0,white,96,13
 1288,#2a3244,midnight,44,8
-1289,#f4f5f0,white,99,3
+1289,#f4f5f0,white,99,13
 1290,#2a3244,midnight,62,8
 1291,#384883,sailor,45,9
-1292,#e7e9e7,star light,78,5
+1292,#e7e9e7,star light,78,13
 1293,#2b2e43,navy blue,70,9
 1294,#dc5b62,firecracker,78,1
-1295,#aeb2b5,frost,52,8
-1296,#f4f5f0,white,96,3
+1295,#aeb2b5,frost,52,13
+1296,#f4f5f0,white,96,13
 1297,#2a3244,midnight,44,8
-1298,#f4f5f0,white,99,3
+1298,#f4f5f0,white,99,13
 1299,#2a3244,midnight,62,8
 1300,#384883,sailor,45,9
-1301,#e7e9e7,star light,78,5
+1301,#e7e9e7,star light,78,13
 1302,#2b2e43,navy blue,70,9
 1303,#dc5b62,firecracker,78,1
-1304,#aeb2b5,frost,52,8
-1305,#f4f5f0,white,96,3
+1304,#aeb2b5,frost,52,13
+1305,#f4f5f0,white,96,13
 1306,#2a3244,midnight,44,8
-1307,#f4f5f0,white,99,3
+1307,#f4f5f0,white,99,13
 1308,#2a3244,midnight,62,8
 1309,#384883,sailor,45,9
-1310,#e7e9e7,star light,78,5
+1310,#e7e9e7,star light,78,13
 1311,#2b2e43,navy blue,70,9
 1312,#dc5b62,firecracker,78,1
-1313,#aeb2b5,frost,52,8
-1314,#f4f5f0,white,96,3
+1313,#aeb2b5,frost,52,13
+1314,#f4f5f0,white,96,13
 1315,#2a3244,midnight,44,8
-1316,#f4f5f0,white,99,3
+1316,#f4f5f0,white,99,13
 1317,#2a3244,midnight,62,8
 1318,#384883,sailor,45,9
-1319,#e7e9e7,star light,78,5
+1319,#e7e9e7,star light,78,13
 1320,#2b2e43,navy blue,70,9
 1321,#dc5b62,firecracker,78,1
-1322,#aeb2b5,frost,52,8
-1323,#f4f5f0,white,96,3
+1322,#aeb2b5,frost,52,13
+1323,#f4f5f0,white,96,13
 1324,#2a3244,midnight,44,8
-1325,#f4f5f0,white,99,3
+1325,#f4f5f0,white,99,13
 1326,#2a3244,midnight,62,8
 1327,#384883,sailor,45,9
-1328,#e7e9e7,star light,78,5
+1328,#e7e9e7,star light,78,13
 1329,#2b2e43,navy blue,70,9
 1330,#dc5b62,firecracker,78,1
-1331,#aeb2b5,frost,52,8
-1332,#f4f5f0,white,96,3
+1331,#aeb2b5,frost,52,13
+1332,#f4f5f0,white,96,13
 1333,#2a3244,midnight,44,8
-1334,#f4f5f0,white,99,3
+1334,#f4f5f0,white,99,13
 1335,#2a3244,midnight,62,8
 1336,#384883,sailor,45,9
-1337,#e7e9e7,star light,78,5
+1337,#e7e9e7,star light,78,13
 1338,#2b2e43,navy blue,70,9
 1339,#dc5b62,firecracker,78,1
-1340,#aeb2b5,frost,52,8
-1341,#f4f5f0,white,96,3
+1340,#aeb2b5,frost,52,13
+1341,#f4f5f0,white,96,13
 1342,#2a3244,midnight,44,8
-1343,#f4f5f0,white,99,3
+1343,#f4f5f0,white,99,13
 1344,#2a3244,midnight,62,8
 1345,#384883,sailor,45,9
-1346,#e7e9e7,star light,78,5
+1346,#e7e9e7,star light,78,13
 1347,#2b2e43,navy blue,70,9
 1348,#dc5b62,firecracker,78,1
-1349,#aeb2b5,frost,52,8
-1350,#f4f5f0,white,96,3
+1349,#aeb2b5,frost,52,13
+1350,#f4f5f0,white,96,13
 1351,#2a3244,midnight,44,8
-1352,#f4f5f0,white,99,3
+1352,#f4f5f0,white,99,13
 1353,#2a3244,midnight,62,8
 1354,#384883,sailor,45,9
-1355,#e7e9e7,star light,78,5
+1355,#e7e9e7,star light,78,13
 1356,#2b2e43,navy blue,70,9
 1357,#dc5b62,firecracker,78,1
 1358,#dfb8b6,rose,74,1
@@ -1366,9 +1366,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1365,#532d3b,bordeaux,93,12
 1366,#4f3f3b,chocolate,65,1
 1367,#2b2e43,navy blue,93,9
-1368,#f4f5f0,white,63,3
-1369,#aeb2b5,frost,47,8
-1370,#39373b,black,72,10
+1368,#f4f5f0,white,63,13
+1369,#aeb2b5,frost,47,13
+1370,#39373b,black,72,13
 1371,#3a3536,graphite,93,13
 1372,#dfb8b6,rose,74,1
 1373,#fce6ac,light olive,58,2
@@ -1380,9 +1380,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1379,#532d3b,bordeaux,93,12
 1380,#4f3f3b,chocolate,65,1
 1381,#2b2e43,navy blue,93,9
-1382,#f4f5f0,white,63,3
-1383,#aeb2b5,frost,47,8
-1384,#39373b,black,72,10
+1382,#f4f5f0,white,63,13
+1383,#aeb2b5,frost,47,13
+1384,#39373b,black,72,13
 1385,#3a3536,graphite,93,13
 1386,#dfb8b6,rose,74,1
 1387,#fce6ac,light olive,58,2
@@ -1394,9 +1394,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1393,#532d3b,bordeaux,93,12
 1394,#4f3f3b,chocolate,65,1
 1395,#2b2e43,navy blue,93,9
-1396,#f4f5f0,white,63,3
-1397,#aeb2b5,frost,47,8
-1398,#39373b,black,72,10
+1396,#f4f5f0,white,63,13
+1397,#aeb2b5,frost,47,13
+1398,#39373b,black,72,13
 1399,#3a3536,graphite,93,13
 1400,#dfb8b6,rose,74,1
 1401,#fce6ac,light olive,58,2
@@ -1408,9 +1408,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1407,#532d3b,bordeaux,93,12
 1408,#4f3f3b,chocolate,65,1
 1409,#2b2e43,navy blue,93,9
-1410,#f4f5f0,white,63,3
-1411,#aeb2b5,frost,47,8
-1412,#39373b,black,72,10
+1410,#f4f5f0,white,63,13
+1411,#aeb2b5,frost,47,13
+1412,#39373b,black,72,13
 1413,#3a3536,graphite,93,13
 1414,#dfb8b6,rose,74,1
 1415,#fce6ac,light olive,58,2
@@ -1422,9 +1422,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1421,#532d3b,bordeaux,93,12
 1422,#4f3f3b,chocolate,65,1
 1423,#2b2e43,navy blue,93,9
-1424,#f4f5f0,white,63,3
-1425,#aeb2b5,frost,47,8
-1426,#39373b,black,72,10
+1424,#f4f5f0,white,63,13
+1425,#aeb2b5,frost,47,13
+1426,#39373b,black,72,13
 1427,#3a3536,graphite,93,13
 1428,#dfb8b6,rose,74,1
 1429,#fce6ac,light olive,58,2
@@ -1436,9 +1436,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1435,#532d3b,bordeaux,93,12
 1436,#4f3f3b,chocolate,65,1
 1437,#2b2e43,navy blue,93,9
-1438,#f4f5f0,white,63,3
-1439,#aeb2b5,frost,47,8
-1440,#39373b,black,72,10
+1438,#f4f5f0,white,63,13
+1439,#aeb2b5,frost,47,13
+1440,#39373b,black,72,13
 1441,#3a3536,graphite,93,13
 1442,#dfb8b6,rose,74,1
 1443,#fce6ac,light olive,58,2
@@ -1450,9 +1450,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1449,#532d3b,bordeaux,93,12
 1450,#4f3f3b,chocolate,65,1
 1451,#2b2e43,navy blue,93,9
-1452,#f4f5f0,white,63,3
-1453,#aeb2b5,frost,47,8
-1454,#39373b,black,72,10
+1452,#f4f5f0,white,63,13
+1453,#aeb2b5,frost,47,13
+1454,#39373b,black,72,13
 1455,#3a3536,graphite,93,13
 1456,#dfb8b6,rose,74,1
 1457,#fce6ac,light olive,58,2
@@ -1464,9 +1464,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1463,#532d3b,bordeaux,93,12
 1464,#4f3f3b,chocolate,65,1
 1465,#2b2e43,navy blue,93,9
-1466,#f4f5f0,white,63,3
-1467,#aeb2b5,frost,47,8
-1468,#39373b,black,72,10
+1466,#f4f5f0,white,63,13
+1467,#aeb2b5,frost,47,13
+1468,#39373b,black,72,13
 1469,#3a3536,graphite,93,13
 1470,#dfb8b6,rose,74,1
 1471,#fce6ac,light olive,58,2
@@ -1478,9 +1478,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1477,#532d3b,bordeaux,93,12
 1478,#4f3f3b,chocolate,65,1
 1479,#2b2e43,navy blue,93,9
-1480,#f4f5f0,white,63,3
-1481,#aeb2b5,frost,47,8
-1482,#39373b,black,72,10
+1480,#f4f5f0,white,63,13
+1481,#aeb2b5,frost,47,13
+1482,#39373b,black,72,13
 1483,#3a3536,graphite,93,13
 1484,#dfb8b6,rose,74,1
 1485,#fce6ac,light olive,58,2
@@ -1492,9 +1492,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1491,#532d3b,bordeaux,93,12
 1492,#4f3f3b,chocolate,65,1
 1493,#2b2e43,navy blue,93,9
-1494,#f4f5f0,white,63,3
-1495,#aeb2b5,frost,47,8
-1496,#39373b,black,72,10
+1494,#f4f5f0,white,63,13
+1495,#aeb2b5,frost,47,13
+1496,#39373b,black,72,13
 1497,#3a3536,graphite,93,13
 1498,#dfb8b6,rose,74,1
 1499,#fce6ac,light olive,58,2
@@ -1506,9 +1506,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1505,#532d3b,bordeaux,93,12
 1506,#4f3f3b,chocolate,65,1
 1507,#2b2e43,navy blue,93,9
-1508,#f4f5f0,white,63,3
-1509,#aeb2b5,frost,47,8
-1510,#39373b,black,72,10
+1508,#f4f5f0,white,63,13
+1509,#aeb2b5,frost,47,13
+1510,#39373b,black,72,13
 1511,#3a3536,graphite,93,13
 1512,#dfb8b6,rose,74,1
 1513,#fce6ac,light olive,58,2
@@ -1520,9 +1520,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1519,#532d3b,bordeaux,93,12
 1520,#4f3f3b,chocolate,65,1
 1521,#2b2e43,navy blue,93,9
-1522,#f4f5f0,white,63,3
-1523,#aeb2b5,frost,47,8
-1524,#39373b,black,72,10
+1522,#f4f5f0,white,63,13
+1523,#aeb2b5,frost,47,13
+1524,#39373b,black,72,13
 1525,#3a3536,graphite,93,13
 1526,#dfb8b6,rose,74,1
 1527,#fce6ac,light olive,58,2
@@ -1534,9 +1534,9 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1533,#532d3b,bordeaux,93,12
 1534,#4f3f3b,chocolate,65,1
 1535,#2b2e43,navy blue,93,9
-1536,#f4f5f0,white,63,3
-1537,#aeb2b5,frost,47,8
-1538,#39373b,black,72,10
+1536,#f4f5f0,white,63,13
+1537,#aeb2b5,frost,47,13
+1538,#39373b,black,72,13
 1539,#3a3536,graphite,93,13
 1540,#dfb8b6,rose,74,1
 1541,#fce6ac,light olive,58,2
@@ -1548,61 +1548,61 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1547,#532d3b,bordeaux,93,12
 1548,#4f3f3b,chocolate,65,1
 1549,#2b2e43,navy blue,93,9
-1550,#f4f5f0,white,63,3
-1551,#aeb2b5,frost,47,8
-1552,#39373b,black,72,10
+1550,#f4f5f0,white,63,13
+1551,#aeb2b5,frost,47,13
+1552,#39373b,black,72,13
 1553,#3a3536,graphite,93,13
 1554,#11574a,hunter,70,7
 1555,#5e081e,garnet,91,12
 1556,#626879,blue steel,82,8
-1557,#41424a,ebony,75,9
-1558,#e7e9e7,star light,96,5
+1557,#41424a,ebony,75,13
+1558,#e7e9e7,star light,96,13
 1559,#40312f,espresso,89,1
 1560,#11574a,hunter,70,7
 1561,#5e081e,garnet,91,12
 1562,#626879,blue steel,82,8
-1563,#41424a,ebony,75,9
-1564,#e7e9e7,star light,96,5
+1563,#41424a,ebony,75,13
+1564,#e7e9e7,star light,96,13
 1565,#40312f,espresso,89,1
 1566,#11574a,hunter,70,7
 1567,#5e081e,garnet,91,12
 1568,#626879,blue steel,82,8
-1569,#41424a,ebony,75,9
-1570,#e7e9e7,star light,96,5
+1569,#41424a,ebony,75,13
+1570,#e7e9e7,star light,96,13
 1571,#40312f,espresso,89,1
 1572,#11574a,hunter,70,7
 1573,#5e081e,garnet,91,12
 1574,#626879,blue steel,82,8
-1575,#41424a,ebony,75,9
-1576,#e7e9e7,star light,96,5
+1575,#41424a,ebony,75,13
+1576,#e7e9e7,star light,96,13
 1577,#40312f,espresso,89,1
 1578,#11574a,hunter,70,7
 1579,#5e081e,garnet,91,12
 1580,#626879,blue steel,82,8
-1581,#41424a,ebony,75,9
-1582,#e7e9e7,star light,96,5
+1581,#41424a,ebony,75,13
+1582,#e7e9e7,star light,96,13
 1583,#40312f,espresso,89,1
 1584,#11574a,hunter,70,7
 1585,#5e081e,garnet,91,12
 1586,#626879,blue steel,82,8
-1587,#41424a,ebony,75,9
-1588,#e7e9e7,star light,96,5
+1587,#41424a,ebony,75,13
+1588,#e7e9e7,star light,96,13
 1589,#40312f,espresso,89,1
 1590,#11574a,hunter,70,7
 1591,#2a3244,midnight,50,8
-1592,#98a0a5,mystic,88,8
+1592,#98a0a5,mystic,88,13
 1593,#e290b2,begonia,43,12
 1594,#11574a,hunter,70,7
 1595,#2a3244,midnight,50,8
-1596,#98a0a5,mystic,88,8
+1596,#98a0a5,mystic,88,13
 1597,#e290b2,begonia,43,12
 1598,#11574a,hunter,70,7
 1599,#2a3244,midnight,50,8
-1600,#98a0a5,mystic,88,8
+1600,#98a0a5,mystic,88,13
 1601,#e290b2,begonia,43,12
 1602,#11574a,hunter,70,7
 1603,#2a3244,midnight,50,8
-1604,#98a0a5,mystic,88,8
+1604,#98a0a5,mystic,88,13
 1605,#e290b2,begonia,43,12
 1606,#2a3244,midnight,52,8
 1607,#3a3536,graphite,92,13
@@ -1619,34 +1619,34 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1618,#2b2e43,navy blue,92,9
 1619,#11574a,hunter,65,7
 1620,#3a3536,graphite,70,13
-1621,#948d99,shadow,38,10
-1622,#948d99,shadow,59,10
+1621,#948d99,shadow,38,13
+1622,#948d99,shadow,59,13
 1623,#11574a,hunter,65,7
 1624,#3a3536,graphite,70,13
-1625,#948d99,shadow,38,10
-1626,#948d99,shadow,59,10
+1625,#948d99,shadow,38,13
+1626,#948d99,shadow,59,13
 1627,#11574a,hunter,65,7
 1628,#3a3536,graphite,70,13
-1629,#948d99,shadow,38,10
-1630,#948d99,shadow,59,10
+1629,#948d99,shadow,38,13
+1630,#948d99,shadow,59,13
 1631,#11574a,hunter,65,7
 1632,#3a3536,graphite,70,13
-1633,#948d99,shadow,38,10
-1634,#948d99,shadow,59,10
+1633,#948d99,shadow,38,13
+1634,#948d99,shadow,59,13
 1635,#2b2e43,navy blue,89,9
-1636,#e7e9e7,star light,98,5
+1636,#e7e9e7,star light,98,13
 1637,#626879,blue steel,64,8
 1638,#3a3536,graphite,94,13
 1639,#2b2e43,navy blue,89,9
-1640,#e7e9e7,star light,98,5
+1640,#e7e9e7,star light,98,13
 1641,#626879,blue steel,64,8
 1642,#3a3536,graphite,94,13
 1643,#2b2e43,navy blue,89,9
-1644,#e7e9e7,star light,98,5
+1644,#e7e9e7,star light,98,13
 1645,#626879,blue steel,64,8
 1646,#3a3536,graphite,94,13
 1647,#2b2e43,navy blue,89,9
-1648,#e7e9e7,star light,98,5
+1648,#e7e9e7,star light,98,13
 1649,#626879,blue steel,64,8
 1650,#3a3536,graphite,94,13
 1651,#203c7f,sapphire,47,8
@@ -1657,63 +1657,63 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1656,#203c7f,sapphire,64,8
 1657,#12674a,pine green,60,6
 1658,#2b2e43,navy blue,57,9
-1659,#e7e9e7,star light,85,5
+1659,#e7e9e7,star light,85,13
 1660,#a4292e,ribbon red,80,1
 1661,#203c7f,sapphire,64,8
 1662,#12674a,pine green,60,6
 1663,#2b2e43,navy blue,57,9
-1664,#e7e9e7,star light,85,5
+1664,#e7e9e7,star light,85,13
 1665,#a4292e,ribbon red,80,1
 1666,#203c7f,sapphire,64,8
 1667,#12674a,pine green,60,6
 1668,#2b2e43,navy blue,57,9
-1669,#e7e9e7,star light,85,5
+1669,#e7e9e7,star light,85,13
 1670,#a4292e,ribbon red,80,1
 1671,#203c7f,sapphire,64,8
 1672,#12674a,pine green,60,6
 1673,#2b2e43,navy blue,57,9
-1674,#e7e9e7,star light,85,5
+1674,#e7e9e7,star light,85,13
 1675,#a4292e,ribbon red,80,1
 1676,#203c7f,sapphire,64,8
 1677,#12674a,pine green,60,6
 1678,#2b2e43,navy blue,57,9
-1679,#e7e9e7,star light,85,5
+1679,#e7e9e7,star light,85,13
 1680,#11574a,hunter,56,7
 1681,#2b2e43,navy blue,52,9
-1682,#e7e9e7,star light,50,5
+1682,#e7e9e7,star light,50,13
 1683,#2b2e43,navy blue,52,9
-1684,#e7e9e7,star light,50,5
-1685,#f0eee9,marshmallow,91,2
-1686,#f4f5f0,white,81,3
+1684,#e7e9e7,star light,50,13
+1685,#f0eee9,marshmallow,91,13
+1686,#f4f5f0,white,81,13
 1687,#2a3244,midnight,94,8
-1688,#f4f5f0,white,81,3
+1688,#f4f5f0,white,81,13
 1689,#2a3244,midnight,94,8
 1690,#2b2e43,navy blue,93,9
 1691,#a5b3cc,arctic,42,8
-1692,#d0d0da,dove,55,9
+1692,#d0d0da,dove,55,13
 1693,#a5b3cc,arctic,42,8
-1694,#d0d0da,dove,55,9
-1695,#e7e9e7,star light,58,5
+1694,#d0d0da,dove,55,13
+1695,#e7e9e7,star light,58,13
 1696,#81a0d4,periwinkle,46,8
-1697,#e7e9e7,star light,58,5
+1697,#e7e9e7,star light,58,13
 1698,#81a0d4,periwinkle,46,8
 1699,#2b2e43,navy blue,94,9
-1700,#e7e9e7,star light,98,5
+1700,#e7e9e7,star light,98,13
 1701,#2b2e43,navy blue,94,9
-1702,#e7e9e7,star light,98,5
-1703,#948d99,shadow,65,10
+1702,#e7e9e7,star light,98,13
+1703,#948d99,shadow,65,13
 1704,#a5b8d0,cloudy,46,8
-1705,#948d99,shadow,65,10
+1705,#948d99,shadow,65,13
 1706,#a5b8d0,cloudy,46,8
-1707,#e7e9e7,star light,66,5
+1707,#e7e9e7,star light,66,13
 1708,#a5b8d0,cloudy,45,8
-1709,#e7e9e7,star light,66,5
+1709,#e7e9e7,star light,66,13
 1710,#a5b8d0,cloudy,45,8
 1711,#a5b3cc,arctic,38,8
 1712,#be5141,fiesta,63,1
 1713,#a5b3cc,arctic,38,8
 1714,#be5141,fiesta,63,1
-1715,#e7e9e7,star light,64,5
+1715,#e7e9e7,star light,64,13
 1716,#3a3536,graphite,47,13
 1717,#6e7e99,larkspur,47,8
 1718,#325b74,marine,43,8
@@ -1742,13 +1742,13 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1741,#9bb7d4,ice blue,62,8
 1742,#384883,sailor,45,9
 1743,#6e7e99,larkspur,63,8
-1744,#41424a,ebony,50,9
+1744,#41424a,ebony,50,13
 1745,#e1c6cc,ice pink,95,1
-1746,#d0d0da,dove,55,9
+1746,#d0d0da,dove,55,13
 1747,#e1c6cc,ice pink,95,1
-1748,#d0d0da,dove,55,9
-1749,#d0d0da,dove,93,9
-1750,#c5c6c7,sterling,59,8
+1748,#d0d0da,dove,55,13
+1749,#d0d0da,dove,93,13
+1750,#c5c6c7,sterling,59,13
 1751,#a5b3cc,arctic,48,8
 1752,#2b2e43,navy blue,93,9
 1753,#a5b3cc,arctic,48,8
@@ -1839,36 +1839,36 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1838,#40312f,espresso,71,1
 1839,#2b2e43,navy blue,97,9
 1840,#40312f,espresso,71,1
-1841,#f4f5f0,white,74,3
-1842,#c5c6c7,sterling,69,8
+1841,#f4f5f0,white,74,13
+1842,#c5c6c7,sterling,69,13
 1843,#a5b8d0,cloudy,43,8
-1844,#d0d0da,dove,79,9
-1845,#c5c6c7,sterling,70,8
-1846,#d0d0da,dove,79,9
-1847,#c5c6c7,sterling,70,8
-1848,#d0d0da,dove,66,9
+1844,#d0d0da,dove,79,13
+1845,#c5c6c7,sterling,70,13
+1846,#d0d0da,dove,79,13
+1847,#c5c6c7,sterling,70,13
+1848,#d0d0da,dove,66,13
 1849,#2b2e43,navy blue,92,9
-1850,#d0d0da,dove,66,9
+1850,#d0d0da,dove,66,13
 1851,#2b2e43,navy blue,92,9
 1852,#a5b8d0,cloudy,44,8
-1853,#d0d0da,dove,79,9
-1854,#d0d0da,dove,50,9
-1855,#d0d0da,dove,79,9
-1856,#d0d0da,dove,50,9
-1857,#d0d0da,dove,73,9
-1858,#d0d0da,dove,65,9
+1853,#d0d0da,dove,79,13
+1854,#d0d0da,dove,50,13
+1855,#d0d0da,dove,79,13
+1856,#d0d0da,dove,50,13
+1857,#d0d0da,dove,73,13
+1858,#d0d0da,dove,65,13
 1859,#a5b3cc,arctic,64,8
-1860,#c1b7b0,sand,51,2
+1860,#c1b7b0,sand,51,13
 1861,#a5b3cc,arctic,64,8
-1862,#c1b7b0,sand,51,2
-1863,#d0d0da,dove,67,9
-1864,#e7e9e7,star light,96,5
+1862,#c1b7b0,sand,51,13
+1863,#d0d0da,dove,67,13
+1864,#e7e9e7,star light,96,13
 1865,#3a3536,graphite,94,13
-1866,#d0d0da,dove,67,9
-1867,#e7e9e7,star light,96,5
+1866,#d0d0da,dove,67,13
+1867,#e7e9e7,star light,96,13
 1868,#3a3536,graphite,94,13
-1869,#d0d0da,dove,67,9
-1870,#e7e9e7,star light,96,5
+1869,#d0d0da,dove,67,13
+1870,#e7e9e7,star light,96,13
 1871,#3a3536,graphite,94,13
 1872,#532d3b,bordeaux,30,12
 1873,#6e7e99,larkspur,33,8
@@ -1877,7 +1877,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1876,#40312f,espresso,38,1
 1877,#2b2e43,navy blue,72,9
 1878,#40312f,espresso,49,1
-1879,#98a0a5,mystic,29,8
+1879,#98a0a5,mystic,29,13
 1880,#2a3244,midnight,40,8
 1881,#532d3b,bordeaux,30,12
 1882,#6e7e99,larkspur,33,8
@@ -1886,7 +1886,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1885,#40312f,espresso,38,1
 1886,#2b2e43,navy blue,72,9
 1887,#40312f,espresso,49,1
-1888,#98a0a5,mystic,29,8
+1888,#98a0a5,mystic,29,13
 1889,#2a3244,midnight,40,8
 1890,#532d3b,bordeaux,30,12
 1891,#6e7e99,larkspur,33,8
@@ -1895,7 +1895,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1894,#40312f,espresso,38,1
 1895,#2b2e43,navy blue,72,9
 1896,#40312f,espresso,49,1
-1897,#98a0a5,mystic,29,8
+1897,#98a0a5,mystic,29,13
 1898,#2a3244,midnight,40,8
 1899,#532d3b,bordeaux,30,12
 1900,#6e7e99,larkspur,33,8
@@ -1904,7 +1904,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1903,#40312f,espresso,38,1
 1904,#2b2e43,navy blue,72,9
 1905,#40312f,espresso,49,1
-1906,#98a0a5,mystic,29,8
+1906,#98a0a5,mystic,29,13
 1907,#2a3244,midnight,40,8
 1908,#532d3b,bordeaux,30,12
 1909,#6e7e99,larkspur,33,8
@@ -1913,7 +1913,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1912,#40312f,espresso,38,1
 1913,#2b2e43,navy blue,72,9
 1914,#40312f,espresso,49,1
-1915,#98a0a5,mystic,29,8
+1915,#98a0a5,mystic,29,13
 1916,#2a3244,midnight,40,8
 1917,#532d3b,bordeaux,30,12
 1918,#6e7e99,larkspur,33,8
@@ -1922,7 +1922,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1921,#40312f,espresso,38,1
 1922,#2b2e43,navy blue,72,9
 1923,#40312f,espresso,49,1
-1924,#98a0a5,mystic,29,8
+1924,#98a0a5,mystic,29,13
 1925,#2a3244,midnight,40,8
 1926,#532d3b,bordeaux,30,12
 1927,#6e7e99,larkspur,33,8
@@ -1931,7 +1931,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1930,#40312f,espresso,38,1
 1931,#2b2e43,navy blue,72,9
 1932,#40312f,espresso,49,1
-1933,#98a0a5,mystic,29,8
+1933,#98a0a5,mystic,29,13
 1934,#2a3244,midnight,40,8
 1935,#532d3b,bordeaux,30,12
 1936,#6e7e99,larkspur,33,8
@@ -1940,7 +1940,7 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1939,#40312f,espresso,38,1
 1940,#2b2e43,navy blue,72,9
 1941,#40312f,espresso,49,1
-1942,#98a0a5,mystic,29,8
+1942,#98a0a5,mystic,29,13
 1943,#2a3244,midnight,40,8
 1944,#532d3b,bordeaux,30,12
 1945,#6e7e99,larkspur,33,8
@@ -1949,81 +1949,81 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 1948,#40312f,espresso,38,1
 1949,#2b2e43,navy blue,72,9
 1950,#40312f,espresso,49,1
-1951,#98a0a5,mystic,29,8
+1951,#98a0a5,mystic,29,13
 1952,#2a3244,midnight,40,8
 1953,#0b5369,peacock,39,7
-1954,#948d99,shadow,34,10
-1955,#98a0a5,mystic,28,8
+1954,#948d99,shadow,34,13
+1955,#98a0a5,mystic,28,13
 1956,#2b2e43,navy blue,40,9
 1957,#897f98,wisteria,32,10
-1958,#41424a,ebony,28,9
-1959,#948d99,shadow,32,10
-1960,#41424a,ebony,34,9
+1958,#41424a,ebony,28,13
+1959,#948d99,shadow,32,13
+1960,#41424a,ebony,34,13
 1961,#0b5369,peacock,39,7
-1962,#948d99,shadow,34,10
-1963,#98a0a5,mystic,28,8
+1962,#948d99,shadow,34,13
+1963,#98a0a5,mystic,28,13
 1964,#2b2e43,navy blue,40,9
 1965,#897f98,wisteria,32,10
-1966,#41424a,ebony,28,9
-1967,#948d99,shadow,32,10
-1968,#41424a,ebony,34,9
+1966,#41424a,ebony,28,13
+1967,#948d99,shadow,32,13
+1968,#41424a,ebony,34,13
 1969,#0b5369,peacock,39,7
-1970,#948d99,shadow,34,10
-1971,#98a0a5,mystic,28,8
+1970,#948d99,shadow,34,13
+1971,#98a0a5,mystic,28,13
 1972,#2b2e43,navy blue,40,9
 1973,#897f98,wisteria,32,10
-1974,#41424a,ebony,28,9
-1975,#948d99,shadow,32,10
-1976,#41424a,ebony,34,9
+1974,#41424a,ebony,28,13
+1975,#948d99,shadow,32,13
+1976,#41424a,ebony,34,13
 1977,#0b5369,peacock,39,7
-1978,#948d99,shadow,34,10
-1979,#98a0a5,mystic,28,8
+1978,#948d99,shadow,34,13
+1979,#98a0a5,mystic,28,13
 1980,#2b2e43,navy blue,40,9
 1981,#897f98,wisteria,32,10
-1982,#41424a,ebony,28,9
-1983,#948d99,shadow,32,10
-1984,#41424a,ebony,34,9
+1982,#41424a,ebony,28,13
+1983,#948d99,shadow,32,13
+1984,#41424a,ebony,34,13
 1985,#0b5369,peacock,39,7
-1986,#948d99,shadow,34,10
-1987,#98a0a5,mystic,28,8
+1986,#948d99,shadow,34,13
+1987,#98a0a5,mystic,28,13
 1988,#2b2e43,navy blue,40,9
 1989,#897f98,wisteria,32,10
-1990,#41424a,ebony,28,9
-1991,#948d99,shadow,32,10
-1992,#41424a,ebony,34,9
+1990,#41424a,ebony,28,13
+1991,#948d99,shadow,32,13
+1992,#41424a,ebony,34,13
 1993,#0b5369,peacock,39,7
-1994,#948d99,shadow,34,10
-1995,#98a0a5,mystic,28,8
+1994,#948d99,shadow,34,13
+1995,#98a0a5,mystic,28,13
 1996,#2b2e43,navy blue,40,9
 1997,#897f98,wisteria,32,10
-1998,#41424a,ebony,28,9
-1999,#948d99,shadow,32,10
-2000,#41424a,ebony,34,9
+1998,#41424a,ebony,28,13
+1999,#948d99,shadow,32,13
+2000,#41424a,ebony,34,13
 2001,#0b5369,peacock,39,7
-2002,#948d99,shadow,34,10
-2003,#98a0a5,mystic,28,8
+2002,#948d99,shadow,34,13
+2003,#98a0a5,mystic,28,13
 2004,#2b2e43,navy blue,40,9
 2005,#897f98,wisteria,32,10
-2006,#41424a,ebony,28,9
-2007,#948d99,shadow,32,10
-2008,#41424a,ebony,34,9
+2006,#41424a,ebony,28,13
+2007,#948d99,shadow,32,13
+2008,#41424a,ebony,34,13
 2009,#0b5369,peacock,39,7
-2010,#948d99,shadow,34,10
-2011,#98a0a5,mystic,28,8
+2010,#948d99,shadow,34,13
+2011,#98a0a5,mystic,28,13
 2012,#2b2e43,navy blue,40,9
 2013,#897f98,wisteria,32,10
-2014,#41424a,ebony,28,9
-2015,#948d99,shadow,32,10
-2016,#41424a,ebony,34,9
+2014,#41424a,ebony,28,13
+2015,#948d99,shadow,32,13
+2016,#41424a,ebony,34,13
 2017,#8c7c61,antique gold,44,2
-2018,#41424a,ebony,49,9
-2019,#39373b,black,50,10
+2018,#41424a,ebony,49,13
+2019,#39373b,black,50,13
 2020,#8c7c61,antique gold,44,2
-2021,#41424a,ebony,49,9
-2022,#39373b,black,50,10
+2021,#41424a,ebony,49,13
+2022,#39373b,black,50,13
 2023,#8c7c61,antique gold,44,2
-2024,#41424a,ebony,49,9
-2025,#39373b,black,50,10
+2024,#41424a,ebony,49,13
+2025,#39373b,black,50,13
 2026,#b09080,cappuccino,46,2
 2027,#be5141,fiesta,62,1
 2028,#3a3536,graphite,92,13
@@ -2043,183 +2043,183 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 2042,#81a0d4,periwinkle,68,8
 2043,#7bb5a3,meadow,67,6
 2044,#8c7c61,antique gold,38,2
-2045,#d0d0da,dove,67,9
+2045,#d0d0da,dove,67,13
 2046,#dc5b62,firecracker,61,1
 2047,#ec935e,clementine,43,2
 2048,#baaa91,champagne,42,2
-2049,#41424a,ebony,56,9
+2049,#41424a,ebony,56,13
 2050,#626879,blue steel,44,8
 2051,#363151,amethyst,38,9
 2052,#8c7c61,antique gold,38,2
-2053,#d0d0da,dove,67,9
+2053,#d0d0da,dove,67,13
 2054,#dc5b62,firecracker,61,1
 2055,#ec935e,clementine,43,2
 2056,#baaa91,champagne,42,2
-2057,#41424a,ebony,56,9
+2057,#41424a,ebony,56,13
 2058,#626879,blue steel,44,8
 2059,#363151,amethyst,38,9
 2060,#8c7c61,antique gold,38,2
-2061,#d0d0da,dove,67,9
+2061,#d0d0da,dove,67,13
 2062,#dc5b62,firecracker,61,1
 2063,#ec935e,clementine,43,2
 2064,#baaa91,champagne,42,2
-2065,#41424a,ebony,56,9
+2065,#41424a,ebony,56,13
 2066,#626879,blue steel,44,8
 2067,#363151,amethyst,38,9
 2068,#8c7c61,antique gold,38,2
-2069,#d0d0da,dove,67,9
+2069,#d0d0da,dove,67,13
 2070,#dc5b62,firecracker,61,1
 2071,#ec935e,clementine,43,2
 2072,#baaa91,champagne,42,2
-2073,#41424a,ebony,56,9
+2073,#41424a,ebony,56,13
 2074,#626879,blue steel,44,8
 2075,#363151,amethyst,38,9
 2076,#8c7c61,antique gold,38,2
-2077,#d0d0da,dove,67,9
+2077,#d0d0da,dove,67,13
 2078,#dc5b62,firecracker,61,1
 2079,#ec935e,clementine,43,2
 2080,#baaa91,champagne,42,2
-2081,#41424a,ebony,56,9
+2081,#41424a,ebony,56,13
 2082,#626879,blue steel,44,8
 2083,#363151,amethyst,38,9
 2084,#8c7c61,antique gold,38,2
-2085,#d0d0da,dove,67,9
+2085,#d0d0da,dove,67,13
 2086,#dc5b62,firecracker,61,1
 2087,#ec935e,clementine,43,2
 2088,#baaa91,champagne,42,2
-2089,#41424a,ebony,56,9
+2089,#41424a,ebony,56,13
 2090,#626879,blue steel,44,8
 2091,#363151,amethyst,38,9
 2092,#8c7c61,antique gold,38,2
-2093,#d0d0da,dove,67,9
+2093,#d0d0da,dove,67,13
 2094,#dc5b62,firecracker,61,1
 2095,#ec935e,clementine,43,2
 2096,#baaa91,champagne,42,2
-2097,#41424a,ebony,56,9
+2097,#41424a,ebony,56,13
 2098,#626879,blue steel,44,8
 2099,#363151,amethyst,38,9
 2100,#8c7c61,antique gold,38,2
-2101,#d0d0da,dove,67,9
+2101,#d0d0da,dove,67,13
 2102,#dc5b62,firecracker,61,1
 2103,#ec935e,clementine,43,2
 2104,#baaa91,champagne,42,2
-2105,#41424a,ebony,56,9
+2105,#41424a,ebony,56,13
 2106,#626879,blue steel,44,8
 2107,#363151,amethyst,38,9
-2108,#918c86,mocha,37,2
-2109,#e7e9e7,star light,92,5
+2108,#918c86,mocha,37,13
+2109,#e7e9e7,star light,92,13
 2110,#7ba0c0,windsor blue,53,8
 2111,#525f48,moss,66,4
 2112,#a75d67,spanish rose,50,1
 2113,#384883,sailor,37,9
 2114,#8c5e37,light bronze,46,2
-2115,#918c86,mocha,37,2
-2116,#e7e9e7,star light,92,5
+2115,#918c86,mocha,37,13
+2116,#e7e9e7,star light,92,13
 2117,#7ba0c0,windsor blue,53,8
 2118,#525f48,moss,66,4
 2119,#a75d67,spanish rose,50,1
 2120,#384883,sailor,37,9
 2121,#8c5e37,light bronze,46,2
-2122,#918c86,mocha,37,2
-2123,#e7e9e7,star light,92,5
+2122,#918c86,mocha,37,13
+2123,#e7e9e7,star light,92,13
 2124,#7ba0c0,windsor blue,53,8
 2125,#525f48,moss,66,4
 2126,#a75d67,spanish rose,50,1
 2127,#384883,sailor,37,9
 2128,#8c5e37,light bronze,46,2
-2129,#918c86,mocha,37,2
-2130,#e7e9e7,star light,92,5
+2129,#918c86,mocha,37,13
+2130,#e7e9e7,star light,92,13
 2131,#7ba0c0,windsor blue,53,8
 2132,#525f48,moss,66,4
 2133,#a75d67,spanish rose,50,1
 2134,#384883,sailor,37,9
 2135,#8c5e37,light bronze,46,2
-2136,#918c86,mocha,37,2
-2137,#e7e9e7,star light,92,5
+2136,#918c86,mocha,37,13
+2137,#e7e9e7,star light,92,13
 2138,#7ba0c0,windsor blue,53,8
 2139,#525f48,moss,66,4
 2140,#a75d67,spanish rose,50,1
 2141,#384883,sailor,37,9
 2142,#8c5e37,light bronze,46,2
-2143,#918c86,mocha,37,2
-2144,#e7e9e7,star light,92,5
+2143,#918c86,mocha,37,13
+2144,#e7e9e7,star light,92,13
 2145,#7ba0c0,windsor blue,53,8
 2146,#525f48,moss,66,4
 2147,#a75d67,spanish rose,50,1
 2148,#384883,sailor,37,9
 2149,#8c5e37,light bronze,46,2
-2150,#918c86,mocha,37,2
-2151,#e7e9e7,star light,92,5
+2150,#918c86,mocha,37,13
+2151,#e7e9e7,star light,92,13
 2152,#7ba0c0,windsor blue,53,8
 2153,#525f48,moss,66,4
 2154,#a75d67,spanish rose,50,1
 2155,#384883,sailor,37,9
 2156,#8c5e37,light bronze,46,2
-2157,#b5acab,pebble beach,41,1
-2158,#41424a,ebony,54,9
+2157,#b5acab,pebble beach,41,13
+2158,#41424a,ebony,54,13
 2159,#2b2e43,navy blue,92,9
 2160,#3a3536,graphite,92,13
-2161,#b5acab,pebble beach,41,1
-2162,#41424a,ebony,54,9
+2161,#b5acab,pebble beach,41,13
+2162,#41424a,ebony,54,13
 2163,#2b2e43,navy blue,92,9
 2164,#3a3536,graphite,92,13
-2165,#b5acab,pebble beach,41,1
-2166,#41424a,ebony,54,9
+2165,#b5acab,pebble beach,41,13
+2166,#41424a,ebony,54,13
 2167,#2b2e43,navy blue,92,9
 2168,#3a3536,graphite,92,13
-2169,#b5acab,pebble beach,41,1
-2170,#41424a,ebony,54,9
+2169,#b5acab,pebble beach,41,13
+2170,#41424a,ebony,54,13
 2171,#2b2e43,navy blue,92,9
 2172,#3a3536,graphite,92,13
-2173,#9f9c99,cathedral,53,2
+2173,#9f9c99,cathedral,53,13
 2174,#2a3244,midnight,93,8
 2175,#3a3536,graphite,92,13
-2176,#9f9c99,cathedral,53,2
+2176,#9f9c99,cathedral,53,13
 2177,#2a3244,midnight,93,8
 2178,#3a3536,graphite,92,13
-2179,#9f9c99,cathedral,53,2
+2179,#9f9c99,cathedral,53,13
 2180,#2a3244,midnight,93,8
 2181,#3a3536,graphite,92,13
-2182,#41424a,ebony,57,9
+2182,#41424a,ebony,57,13
 2183,#09577b,ocean blue,49,8
 2184,#2a3244,midnight,93,8
 2185,#3a3536,graphite,93,13
-2186,#41424a,ebony,57,9
+2186,#41424a,ebony,57,13
 2187,#09577b,ocean blue,49,8
 2188,#2a3244,midnight,93,8
 2189,#3a3536,graphite,93,13
-2190,#41424a,ebony,57,9
+2190,#41424a,ebony,57,13
 2191,#09577b,ocean blue,49,8
 2192,#2a3244,midnight,93,8
 2193,#3a3536,graphite,93,13
-2194,#41424a,ebony,57,9
+2194,#41424a,ebony,57,13
 2195,#09577b,ocean blue,49,8
 2196,#2a3244,midnight,93,8
 2197,#3a3536,graphite,93,13
 2198,#626879,blue steel,35,8
-2199,#41424a,ebony,41,9
+2199,#41424a,ebony,41,13
 2200,#626879,blue steel,35,8
-2201,#41424a,ebony,41,9
+2201,#41424a,ebony,41,13
 2202,#2b2e43,navy blue,79,9
 2203,#2b2e43,navy blue,49,9
 2204,#2b2e43,navy blue,79,9
 2205,#2b2e43,navy blue,49,9
 2206,#be5141,fiesta,52,1
 2207,#b09080,cappuccino,37,2
-2208,#41424a,ebony,43,9
+2208,#41424a,ebony,43,13
 2209,#be5141,fiesta,52,1
 2210,#b09080,cappuccino,37,2
-2211,#41424a,ebony,43,9
+2211,#41424a,ebony,43,13
 2212,#be5141,fiesta,52,1
 2213,#b09080,cappuccino,37,2
-2214,#41424a,ebony,43,9
+2214,#41424a,ebony,43,13
 2215,#2a3244,midnight,36,8
 2216,#cbc3b4,palomino,36,2
 2217,#baaa91,champagne,43,2
 2218,#cbc3b4,palomino,36,2
 2219,#baaa91,champagne,43,2
-2220,#f4f5f0,white,96,3
-2221,#41424a,ebony,34,9
+2220,#f4f5f0,white,96,13
+2221,#41424a,ebony,34,13
 2222,#2a3244,midnight,44,8
 2223,#40312f,espresso,84,1
 2224,#8c7c61,antique gold,62,2
@@ -2255,21 +2255,21 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 2254,#baaa91,champagne,40,2
 2255,#525f48,moss,69,4
 2256,#2b2e43,navy blue,44,9
-2257,#cac5c2,oyster,98,2
+2257,#cac5c2,oyster,98,13
 2258,#626879,blue steel,58,8
-2259,#41424a,ebony,63,9
+2259,#41424a,ebony,63,13
 2260,#3a3536,graphite,87,13
-2261,#cac5c2,oyster,98,2
+2261,#cac5c2,oyster,98,13
 2262,#626879,blue steel,58,8
-2263,#41424a,ebony,63,9
+2263,#41424a,ebony,63,13
 2264,#3a3536,graphite,87,13
-2265,#cac5c2,oyster,98,2
+2265,#cac5c2,oyster,98,13
 2266,#626879,blue steel,58,8
-2267,#41424a,ebony,63,9
+2267,#41424a,ebony,63,13
 2268,#3a3536,graphite,87,13
-2269,#cac5c2,oyster,98,2
+2269,#cac5c2,oyster,98,13
 2270,#626879,blue steel,58,8
-2271,#41424a,ebony,63,9
+2271,#41424a,ebony,63,13
 2272,#3a3536,graphite,87,13
 2273,#baaa91,champagne,40,2
 2274,#3a3536,graphite,87,13
@@ -2331,19 +2331,19 @@ product_id,color in hex,color name,percentage of clothes,hue_level
 2330,#3a3536,graphite,87,13
 2331,#3a3536,graphite,61,13
 2332,#8c7c61,antique gold,54,2
-2333,#aeb2b5,frost,51,8
-2334,#41424a,ebony,65,9
+2333,#aeb2b5,frost,51,13
+2334,#41424a,ebony,65,13
 2335,#2a3244,midnight,87,8
 2336,#3a3536,graphite,88,13
-2337,#aeb2b5,frost,51,8
-2338,#41424a,ebony,65,9
+2337,#aeb2b5,frost,51,13
+2338,#41424a,ebony,65,13
 2339,#2a3244,midnight,87,8
 2340,#3a3536,graphite,88,13
-2341,#aeb2b5,frost,51,8
-2342,#41424a,ebony,65,9
+2341,#aeb2b5,frost,51,13
+2342,#41424a,ebony,65,13
 2343,#2a3244,midnight,87,8
 2344,#3a3536,graphite,88,13
-2345,#aeb2b5,frost,51,8
-2346,#41424a,ebony,65,9
+2345,#aeb2b5,frost,51,13
+2346,#41424a,ebony,65,13
 2347,#2a3244,midnight,87,8
 2348,#3a3536,graphite,88,13

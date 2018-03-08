@@ -229,18 +229,17 @@ def get_hue_level(color_hex)
   # s1 = 10.0  # 5
   # s2 = 3.0
   # a = (100 - v2) / (s2 - s1)
-  # b = 100 / (s2 * a)
+  # b = 100 - (s2 * a)
   # return 13 if c.hsv[2] <= v1
   # return 13 if (c.hsv[2] > v1 && c.hsv[2] < v2) && c.hsv[1] < s1
   # return 13 if (c.hsv[2] >= v2 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
   
-  v1 = 23
-  v2 = v1
+  v1 = 23  # lativ藏青的v=23.1
+  v2 = 13  # v1
   s1 = 30
   s2 = 3
   a = (100 - v2) / (s2 - s1)
-  b = 100 / (s2 * a)
-  # puts 100 / a * (s2 * a - 1)
+  b = 100 - (s2 * a)
   return 13 if c.hsv[2] <= v1
   return 13 if (c.hsv[2] >= v1 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
 
