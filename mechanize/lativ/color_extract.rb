@@ -6,8 +6,8 @@ require 'csv'
 def read_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
-  writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', '']
-
+  writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
+  arr_hlv = Array.new(13, 0)
   # remove first color in image color
   less = 0
   clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
@@ -31,8 +31,13 @@ def read_color
       end
       clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
     end
+    hlv = get_hue_level(clothes_color)
+    arr_hlv[hlv-1] += 1 
+    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i, hlv]
+  end
 
-    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i]
+  arr_hlv.each_with_index do |n, i|
+    puts "#{i+1}: #{n}"
   end
 end
 
@@ -218,13 +223,10 @@ end
 
 def get_hue_level(color_hex)
   c = Color.new(color_hex)
-  puts c.hsv
-  puts "hsv: #{c.h}, #{c.s}, #{c.v}"
   # is achromatic 無色彩
-  return 13 if c.hsv[2] <= 20
-  return 13 if (c.hsv[2] > 20 && c.hsv[2] < 80) && c.hsv[1] < 5
+  return 13 if c.hsv[2] <= 25
+  return 13 if (c.hsv[2] > 25 && c.hsv[2] < 80) && c.hsv[1] < 5
   return 13 if (c.hsv[2] >= 80 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2]-130.0)/(-10.0)
-  puts "white? #{c.s}, #{(c.hsv[2]-130.0)/(-10.0)}"
   # ---- chromatic ----
   # hue_level,  hue range
   # 1,          hue < 15 || hue >= 345
@@ -240,15 +242,8 @@ def get_hue_level(color_hex)
   return 1
 end
 
-def test1
-  arr = ['1', '2', '3', '4', '5']
-  arr.each.with_index(1) do |num, i|
-    puts "#{num}, #{i}"
-  end
-end
-
 api_key = ''
 api_secret = ''
 # get_color(api_key, api_secret)
-# read_color
-puts "hue_level: #{get_hue_level('#f4f5f0')}"
+read_color
+# puts "hue_level: #{get_hue_level('#f4f5f0')}"
