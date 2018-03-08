@@ -1,0 +1,11 @@
+<% categories.each do |category| %>
+  <div>
+    <h6><%= link_to category.name, category_types_path(category.id) %></h6>
+    <% category.types.each do |type| %>
+     <p><%= link_to type.name, type_styles_path(type.id) %></p>
+    <% end %>
+  </div>
+<% end %>
+<div>
+  <div class="close-btn"><i class="fa fa-times"></i></div>
+</div>

@@ -30,4 +30,21 @@ $(document).ready(function(){
       }
     });
   });
+
+  $(document).on('click','.gender-btn', function(){
+    $.ajax({
+      url: '/khroma/navbar',
+      method: 'get',
+      dataType: 'json',
+      data: { id: $(this).val() },
+      success: function(data){
+        $('#lower-nav').css('transform', 'translateY(0)');
+        $('#lower-nav .container').html(data['html']);
+      }
+    });
+  });
+
+  $(document).on('click','.close-btn', function(){
+    $('#lower-nav').css('transform', 'translateY(-100%)');
+  });
 });

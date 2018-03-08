@@ -206,7 +206,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.0)
+  bootstrap
   bullet
   byebug
   capybara (~> 2.13)

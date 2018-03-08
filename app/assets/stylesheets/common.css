@@ -11,7 +11,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #F5F5F5;
 }
 
 * {
@@ -47,24 +47,40 @@ button, .btn {
 
 /* common setting */
 
+:root {
+  --lblack: ;
+  --dwhite: #D4D4D4;;
+};
+
 .container {
   width: 85%;
   max-width: 1170px;
   margin: 0 auto;
-  position: relative;
+}
+
+.shadow-box {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px rgba(0, 0, 0, .12);
 }
 
 /* navbar */
 header {
-  margin-bottom:30px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 #nav {
-  background: black;
   height: 30px;
   width: 100%;
+  overflow: hidden;
+  background: black;
   position: fixed;
   top: 0;
-  overflow: hidden;
+  z-index: 1000;
+}
+
+#upper-nav {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px;
+  margin-top: 5px;
 }
 
 #logo {
@@ -74,8 +90,8 @@ header {
   align-items: center;
   justify-items: center;
   position: absolute;
-  top:-50px;
   cursor: pointer;
+  top: -35px;
 }
 
 #logo .logo-img {
@@ -84,7 +100,7 @@ header {
 }
 
 #logo:hover .logo-img{
-  transition: .8s; 
+  transition: 1s; 
   transform: rotate(360deg);
 }
 
@@ -96,5 +112,64 @@ header {
   z-index: 100
 }
 
+#menu {
+  grid-column: 2/-2;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+#upper-nav ul li {
+  display: inline-block;
+  color: var(--dwhite);
+  font-weight: 600;
+  cursor: pointer;
+}
 
+#upper-nav ul li:hover {
+  color: #FFF;
+}
+
+#menu-user {
+  justify-self: end;
+}
+
+#upper-nav ul li a {
+  color: var(--dwhite);
+}
+
+#upper-nav ul li a:hover {
+  color: #FFF;
+}
+
+#lower-nav {
+  background: #FFF;
+  width: 100vw;
+  height: 200px;
+  position: fixed;
+  top: 30px;
+  transform: translateY(-100%);
+  transition: .2s;
+}
+
+#lower-nav .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 30px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+#lower-nav .container a {
+  color: black;
+  text-decoration: none;
+}
+
+#lower-nav .container a:hover {
+  color: var(--red);
+}
+
+#lower-nav .close-btn {
+  color: var(--red);
+  font-size: 25px;
+  cursor: pointer;
+}

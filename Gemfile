@@ -39,7 +39,7 @@ gem 'csv'
 gem 'jquery-rails'
 
 # Use bootstrap with rails https://rubygems.org/gems/bootstrap
-gem 'bootstrap', '~> 4.0'
+gem 'bootstrap'
 
 # Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'

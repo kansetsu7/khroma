@@ -6,27 +6,36 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <header id="header">
-    <nav id="nav">
-      <div class="container">
-        <div id="logo">
-          <%= image_tag("hue-ring-500x-thing.png", class: "logo-img") %>
-          <%= link_to 'Khroma', root_path, class: "" %>          
-        </div>
-        <ul id="menu-toggle">
-          <li>Men</li>
-          <li>Women</li>
-        </ul>
-        <ul id="menu-user">
-          <li>管理者後台</li>
-          <li>會員中心</li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-    </nav> 
-  </header>
   <body>
+    <header id="header">
+      <nav id="nav" class="shadow-box">
+        <div class="container">
+          <div id="upper-nav">
+            <div id="logo">
+              <%= image_tag("hue-ring-500x-thing.png", class: "logo-img") %>
+              <%= link_to 'Khroma', root_path %>
+            </div>
+            <ul id="menu">
+              <li class="gender-btn" value="1">Men</li>
+              <li class="gender-btn" value="2">Women</li>
+            </ul>
+            <ul id="menu-user">
+              <li>管理者後台</li>
+              <% if current_user %>
+                <li>會員中心</li>
+                <li><%= link_to '登出', destroy_user_session_path %></li>
+              <% else %>
+                <li><%= link_to '會員登入', user_session_path %></li>
+              <% end %>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+      <div id="lower-nav" class="shadow-box">
+        <div class="container">
+        </div>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
