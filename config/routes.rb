@@ -27,10 +27,21 @@ Rails.application.routes.draw do
   #link to product::id not style/style:id/products
   resources :products, only: [:show]
 
+
   resources :khroma, only: [:index] do
     collection do
       get :pop_choices
       get :match
+    end
+  end
+  #backstage routes
+  namespace :admin do
+    root "genders#index"
+    resources :genders
+    resources :categories
+    resources :types
+    resources :styles do
+      resources :products
     end
   end
   
