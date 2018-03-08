@@ -1,0 +1,25 @@
+<% @types.each do |type| %>
+  <li>
+    <%= link_to type.name , admin_styles_path %>
+    
+    <%= link_to "編輯", edit_admin_type_path(type) %>
+    <%= link_to "刪除", admin_type_path(type), method: :delete %>
+  </li>
+<% end %>
+
+<h3>可用的category id</h3>
+<% @categories.each do |category| %>
+  <li>
+    <%= category.name %>
+    <%= category.id %>
+  </li>
+<% end %>
+
+<h3>創造新type</h3>
+<%= form_for [:admin,@type] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+  <%= f.label :category_id, "category_id" %>
+  <%= f.text_field :category_id %>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,16 @@
+<h3>可用的category id</h3>
+<% @categories.each do |category| %>
+  <li>
+    <%= category.name %>
+    <%= category.id %>
+  </li>
+<% end %>
+
+<h3>編輯ype</h3>
+<%= form_for [:admin,@type] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+  <%= f.label :category_id, "category_id" %>
+  <%= f.text_field :category_id %>
+  <%= f.submit %>
+<% end %>
