@@ -1,0 +1,9 @@
+<% @categories.each do |category| %>
+  <li>
+    <%= link_to category.name , admin_types_path  %>
+    
+    <%= link_to "編輯", edit_admin_category_path(category) %>
+    <%= link_to "刪除", admin_category_path(category), method: :delete %>
+  </li>
+<% end %>
+
