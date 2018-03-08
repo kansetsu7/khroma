@@ -1,0 +1,7 @@
+<h3>編輯product</h3>
+<%= form_for [:admin,@style,@product] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+
+  <%= f.submit %>
+<% end %>

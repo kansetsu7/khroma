@@ -1,0 +1,18 @@
+<% @products.each do |product| %>
+  <li>
+    <%= product.name%>
+    
+    <%= link_to "編輯", edit_admin_style_product_path(product.style, product) %>
+    <%= link_to "刪除", admin_style_product_path(product.style, product), method: :delete %>
+  </li>
+<% end %>
+
+
+
+<h3>創造新product</h3>
+<%= form_for [:admin,@style,@product] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+
+  <%= f.submit %>
+<% end %>
