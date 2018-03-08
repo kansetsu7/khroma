@@ -3,11 +3,29 @@
   <head>
     <title>Khroma</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
+  <header id="header">
+    <nav id="nav">
+      <div class="container">
+        <div id="logo">
+          <%= image_tag("hue-ring-500x-thing.png", class: "logo-img") %>
+          <%= link_to 'Khroma', root_path, class: "" %>          
+        </div>
+        <ul id="menu-toggle">
+          <li>Men</li>
+          <li>Women</li>
+        </ul>
+        <ul id="menu-user">
+          <li>管理者後台</li>
+          <li>會員中心</li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+    </nav> 
+  </header>
   <body>
     <%= yield %>
   </body>
