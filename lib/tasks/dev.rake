@@ -52,19 +52,10 @@ namespace :dev do
           brand: 'lativ',
           image: product[2],
           link: get_product_link(styles_arr[product[0].to_i+1][3], product[2]),
-        #   price: ,
+          price: styles_arr[product[0].to_i+1][2],
         )
       end      
     end
-    
-    # for i in 1..Style.all.count do  #each Styles
-    #   for j in 1..3 do  # have 3 Products
-    #     Product.create(
-    #       style_id: i,
-    #       name: "#{Style.find(i).name} > product #{j}"
-    #     )
-    #   end
-    # end    # 
     puts "fake products done!"
   end
 
