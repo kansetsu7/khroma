@@ -64,10 +64,11 @@ namespace :dev do
       next if i == 0  # skip first row
       Color.create(
         product: Product.find(i),
-        hue_level_id: in_arr[1].last,
-        hex: in_arr[1][1]
+        hue_level_id: color.last,
+        hex: color[1]
       )
     end
+    # puts "#{Product.find(65).name}, #{in_arr[65]}"
     puts "have created #{Color.count} colors"
   end
 
@@ -77,13 +78,13 @@ namespace :dev do
   end
 
   task fake_all: :environment do
-    # Rake::Task['db:drop'].execute
-    # Rake::Task['db:migrate'].execute
-    # Rake::Task['db:seed'].execute
-    # Rake::Task['dev:fake_types'].execute
-    # Rake::Task['dev:fake_styles'].execute
-    # Rake::Task['dev:fake_products'].execute
-    # Rake::Task['dev:fake_colors'].execute
-    Rake::Task['dev:test'].execute
+    Rake::Task['db:drop'].execute
+    Rake::Task['db:migrate'].execute
+    Rake::Task['db:seed'].execute
+    Rake::Task['dev:fake_types'].execute
+    Rake::Task['dev:fake_styles'].execute
+    Rake::Task['dev:fake_products'].execute
+    Rake::Task['dev:fake_colors'].execute
+    # Rake::Task['dev:test'].execute
   end
 end

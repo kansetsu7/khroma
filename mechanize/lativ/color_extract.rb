@@ -223,17 +223,27 @@ end
 
 def get_hue_level(color_hex)
   c = Color.new(color_hex)
-
-  # is achromatic 無色彩
-  v1 = 23.0  # lativ藏青的v=23.1
-  v2 = 80.0
-  s1 = 10.0  # 5
-  s2 = 3.0
-  a = (100 - v2) / (s2 - s1)
-  return 13 if c.hsv[2] <= v1
-  return 13 if (c.hsv[2] > v1 && c.hsv[2] < v2) && c.hsv[1] < s1
-  return 13 if (c.hsv[2] >= v2 && c.hsv[2] <= 100) && c.hsv[1] <= 100 / a * (s2 * a - 1)
+  # ---- achromatic 無色彩 ----
+  # v1 = 23.0  # lativ藏青的v=23.1
+  # v2 = 80.0
+  # s1 = 10.0  # 5
+  # s2 = 3.0
+  # a = (100 - v2) / (s2 - s1)
+  # b = 100 / (s2 * a)
+  # return 13 if c.hsv[2] <= v1
+  # return 13 if (c.hsv[2] > v1 && c.hsv[2] < v2) && c.hsv[1] < s1
+  # return 13 if (c.hsv[2] >= v2 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
   
+  v1 = 23
+  v2 = v1
+  s1 = 30
+  s2 = 3
+  a = (100 - v2) / (s2 - s1)
+  b = 100 / (s2 * a)
+  # puts 100 / a * (s2 * a - 1)
+  return 13 if c.hsv[2] <= v1
+  return 13 if (c.hsv[2] >= v1 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
+
   # ---- chromatic ----
   # hue_level,  hue range
   # 1,          hue < 15 || hue >= 345
@@ -253,6 +263,6 @@ api_key = ''
 api_secret = ''
 # get_color(api_key, api_secret)
 write_color
-# puts "hue_level: #{get_hue_level('#c1b7b0')}"
+# puts "hue_level: #{get_hue_level('#41424a')}"
 # c = Color.new('#41424a')
 # puts c.hsv
