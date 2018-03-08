@@ -7,3 +7,19 @@
   </li>
 <% end %>
 
+<h3>可用的gender id</h3>
+<% @genders.each do |gender| %>
+  <li>
+    <%= gender.name %>
+    <%= gender.id %>
+  </li>
+<% end %>
+
+<h3>創造新categry</h3>
+<%= form_for [:admin,@category] do |f| %>
+  <%= f.label :name, "Name" %>
+  <%= f.text_field :name %>
+  <%= f.label :gender_id, "gender_id" %>
+  <%= f.text_field :gender_id %>
+  <%= f.submit %>
+<% end %>
