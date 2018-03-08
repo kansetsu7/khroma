@@ -15,7 +15,7 @@ namespace :dev do
         )
       end      
     end
-    puts "#{Type.count} fake types done!"
+    puts "have created #{Type.count} fake types!"
   end
 
   task fake_styles: :environment do
@@ -30,7 +30,7 @@ namespace :dev do
         )
       end      
     end
-    puts "#{Style.count} fake styles done!"
+    puts "have created #{Style.count} fake styles!"
   end
 
   task fake_products: :environment do
@@ -56,17 +56,7 @@ namespace :dev do
         )
       end      
     end
-    puts "fake products done!"
-  end
-
-  task fake_hue_levels: :environment do
-    HueLevel.destroy_all
-    for i in 1..12 do 
-      HueLevel.create(
-        name: "hue_level #{i}"
-      )
-    end
-    puts "have created #{HueLevel.count} hue_levels."
+    puts "have created #{Product.count} fake products!"
   end
 
   task fake_colors: :environment do
@@ -90,7 +80,6 @@ namespace :dev do
     Rake::Task['dev:fake_types'].execute
     Rake::Task['dev:fake_styles'].execute
     Rake::Task['dev:fake_products'].execute
-    Rake::Task['dev:fake_hue_levels'].execute
     Rake::Task['dev:fake_colors'].execute
   end
 end
