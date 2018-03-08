@@ -1,10 +1,8 @@
 <% type.products.each do |product|%> 
   <% if product.color.hue_level_id == hue_level.id %>
     <span>
-      <div>id: <%= product.id %></div>
       <div>Name: <%= product.name %></div>
       <div>Color: <%= product.color.hue_level_id %></div>
-      <div>Color: <%= product.color.hex %></div>
       </span>
     <% end %>
 <% end %>
