@@ -5,7 +5,35 @@ require 'csv'
 
 def read_color
   in_arr = CSV.read("./color.txt")
+  writer = CSV.open("./background.txt", "wt")
+  writer <<['yooo']
 
+  # remove first color in image color
+  less = 0
+  clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
+  in_arr.each_with_index do |color, i| 
+    next if i == 0  # skip first row 
+    pic_main_percentage = color[17].to_f      # 圖片主色佔圖片面積比
+    clothes_main_percentage = color[21].to_f  # 衣服主色佔衣服面積比
+
+    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[15]
+    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[19]
+    if pic_main_percentage >= clothes_percentage  
+      clothes_color = color[15]
+      name_id = 16
+      clothes_main_percentage = clothes_percentage / pic_main_percentage * 100
+    else
+      clothes_color = color[19]
+      name_id = 20
+      # 如果顏色接近，則將佔色比相加
+      for j in 1..3 do
+        clothes_main_percentage += color[21+4*j].to_f if color[19] == color[19+4*j]
+      end
+      clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
+    end
+
+    writer << [i, clothes_color, color[17], color[name_id], clothes_main_percentage.to_i]
+  end
 end
 
 def get_color(api_key, api_secret)
@@ -68,20 +96,7 @@ def call_api(image_url, api_key, api_secret)
       end
     end
 
-    # background_colors.each_with_index do |color, i|
-    #   puts "// ==== #{i} ===="
-    #   puts "percentage: #{color['percentage']}%"
-    #   puts "rgb: [#{color['r']}, #{color['g']}, #{color['b']}]"
-    #   puts "html_code: #{color['html_code']}"
-    #   puts "closest_palette_color_html_code: #{color['closest_palette_color_html_code']}"
-    #   puts "closest_palette_color: #{color['closest_palette_color']}"      
-    # end
-
     result_arr[13] = info['object_percentage']
-
-    # puts "==== color_variance & object_percentage ===="
-    # puts "color_variance: #{info['color_variance']}"
-    # puts "object_percentage: #{info['object_percentage']}"
 
     # ==== image_colors = result_arr[14~33] ====
     image_colors = info["image_colors"]
@@ -97,15 +112,6 @@ def call_api(image_url, api_key, api_secret)
         result_arr[i*4+17] = image_colors[i]['percent']                           # i = 17, 21, 25, 29, 33
       end
     end
-    
-    # image_colors.each_with_index do |color, i|
-    #   puts "// ==== #{i} ===="
-    #   puts "percent: #{color['percent']}%"
-    #   puts "rgb: [#{color['r']}, #{color['g']}, #{color['b']}]"
-    #   puts "html_code: #{color['html_code']}"
-    #   puts "closest_palette_color_html_code: #{color['closest_palette_color_html_code']}"
-    #   puts "closest_palette_color: #{color['closest_palette_color']}"
-    # end
   else
     puts "fail to call imagga API!"
     puts data["unsuccessful"]
@@ -116,6 +122,108 @@ def call_api(image_url, api_key, api_secret)
   
 end
 
+class Color
+
+  attr_reader :r, :g, :b, :h, :s, :l, :hsv
+
+  def initialize(hex)
+    @r = hex[1, 2].to_i(16)
+    @g = hex[3, 2].to_i(16)
+    @b = hex[5, 2].to_i(16)
+
+    ri = @r / 255.0
+    gi = @g / 255.0
+    bi = @b / 255.0
+
+    cmax = [ri, gi, bi].max
+    cmin = [ri, gi, bi].min
+    delta = cmax - cmin
+
+    @l = (cmax + cmin) / 2.0
+
+    if delta == 0
+      @h = 0
+    elsif cmax == ri
+      @h = 60 * (((gi - bi) / delta) % 6)
+    elsif cmax == gi
+      @h = 60 * (((bi - ri)/ delta) + 2)
+    elsif cmax == bi
+      @h = 60 * (((ri - gi)/ delta) + 4)
+    end
+
+    if (delta == 0)
+      @s = 0
+    else
+      @s = delta / ( 1 - (2*@l -1).abs )
+    end
+
+    @h = @h.round(2)
+    @s = (@s * 100).round(2)
+    @l = (@l * 100).round(2)
+
+    # HSV Calculation
+    # Hue calculation
+    if delta == 0
+      @hsv = [0]
+    elsif cmax == ri
+      @hsv = [60 * (((gi - bi) / delta) % 6)]
+    elsif cmax == gi
+      @hsv = [60 * (((bi - ri)/ delta) + 2)]
+    elsif cmax == bi
+      @hsv = [60 * (((ri - gi)/ delta) + 4)]
+    end
+
+    # Saturation calculation
+    if (cmax == 0)
+      @hsv  << 0
+    else
+      @hsv << delta / cmax
+    end
+
+    # Value calculation
+    @hsv << cmax
+
+    @hsv = [@hsv[0].round(2), (@hsv[1] * 100).round(2), (@hsv[2] * 100).round(2)]
+  end
+
+  def to_s
+    "red=#{r} green=#{g} blue=#{b} hue=#{h} saturation=#{s} lightness=#{l}"
+  end
+
+  def to_hex
+    "##{r.to_s(16).rjust(2, '0')}#{g.to_s(16).rjust(2, '0')}#{b.to_s(16).rjust(2, '0')}"
+  end
+
+  def distance(color)
+    [(self.h - color.h) % 360, (color.h - self.h) % 360].min
+  end
+
+  def extract_rgb(color_hash)
+    color_hash = color_hash[0..6]
+    color_hash = color_hash[1..6] if color_hash[0] == '#'
+    r = color_hash[0..1].to_i(16)
+    g = color_hash[2..3].to_i(16)
+    b = color_hash[4..5].to_i(16)
+    [r, g, b]
+  end
+
+end
+
+# turn a color hex string to an array of RGB value
+def hex2ints(hex)
+  # input hex start with hashtag, eg: #ff00ff
+  [hex[1, 2].to_i(16), hex[3, 2].to_i(16), hex[5, 2].to_i(16)]
+end
+
+def test1
+  arr = ['1', '2', '3', '4', '5']
+  arr.each.with_index(1) do |num, i|
+    puts "#{num}, #{i}"
+  end
+end
+
 api_key = ''
 api_secret = ''
-get_color(api_key, api_secret)
+# get_color(api_key, api_secret)
+read_color
+# test1
