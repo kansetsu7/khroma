@@ -50,20 +50,20 @@ puts "\"Admin\" created!"
 
 # ===== hue_level ===============================
 # 
-# id, hue(deg), hex,      English name,
-# 1,  0,        #FF0000,  Red
-# 2,  30,       #FF8000,  Orange
-# 3,  60,       #FFFF00,  Yellow
-# 4,  90,       #80FF00,  Chartreuse(Lawn Green)
-# 5,  120,      #00FF00,  Green
-# 6,  150,      #00FF80,  Spring Green
-# 7,  180,      #00FFFF,  Cyan
-# 8,  210,      #0080FF,  Azure
-# 9,  240,      #0000FF,  Blue
-# 10, 270,      #8000FF,  Violet
-# 11, 300,      #FF00FF,  Magenta
-# 12, 330,      #FF0080,  Rose
-# 13, 0,        -------,  achromatic(black, gray, white)
+# id, hue(deg), hex,      English name,   Chinese name
+# 1,  0,        #FF0000,  Red             紅色
+# 2,  30,       #FF8000,  Orange          橘色
+# 3,  60,       #FFFF00,  Yellow          黃色
+# 4,  90,       #80FF00,  Chartreuse      黃綠色
+# 5,  120,      #00FF00,  Green           綠色
+# 6,  150,      #00FF80,  Spring Green    春綠色
+# 7,  180,      #00FFFF,  Cyan            青色
+# 8,  210,      #0080FF,  Azure           湛藍
+# 9,  240,      #0000FF,  Blue            藍色
+# 10, 270,      #8000FF,  Violet          紫羅蘭色
+# 11, 300,      #FF00FF,  Magenta         洋紅
+# 12, 330,      #FF0080,  Rose            玫瑰紅
+# 13, 0,        -------,  achromatic      無色彩(黑、白、灰)
 # color name source: https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8
 
 # color_name = ["Red", "Orange", "Yellow", "Chartreuse", "Green", "Spring Green", 
