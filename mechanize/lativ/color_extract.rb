@@ -3,7 +3,7 @@ require 'base64'
 require 'json'
 require 'csv'
 
-def read_color
+def write_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
   writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
@@ -223,10 +223,17 @@ end
 
 def get_hue_level(color_hex)
   c = Color.new(color_hex)
+
   # is achromatic 無色彩
-  return 13 if c.hsv[2] <= 25
-  return 13 if (c.hsv[2] > 25 && c.hsv[2] < 80) && c.hsv[1] < 5
-  return 13 if (c.hsv[2] >= 80 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2]-130.0)/(-10.0)
+  v1 = 23.0  # lativ藏青的v=23.1
+  v2 = 80.0
+  s1 = 10.0  # 5
+  s2 = 3.0
+  a = (100 - v2) / (s2 - s1)
+  return 13 if c.hsv[2] <= v1
+  return 13 if (c.hsv[2] > v1 && c.hsv[2] < v2) && c.hsv[1] < s1
+  return 13 if (c.hsv[2] >= v2 && c.hsv[2] <= 100) && c.hsv[1] <= 100 / a * (s2 * a - 1)
+  
   # ---- chromatic ----
   # hue_level,  hue range
   # 1,          hue < 15 || hue >= 345
@@ -245,5 +252,7 @@ end
 api_key = ''
 api_secret = ''
 # get_color(api_key, api_secret)
-read_color
-# puts "hue_level: #{get_hue_level('#f4f5f0')}"
+write_color
+# puts "hue_level: #{get_hue_level('#c1b7b0')}"
+# c = Color.new('#41424a')
+# puts c.hsv
