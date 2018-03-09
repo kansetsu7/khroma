@@ -14,8 +14,8 @@ puts "Gender created!"
 Category.destroy_all
 # man's Category
 man_categories = [
-  {name: 'top'},
-  {name: 'bottom'}
+  {name: '上衣類'},
+  {name: '下身類'}
 ]
 man_categories.each do |man_category|
   Category.create(
@@ -27,8 +27,8 @@ end
 
 # ===== woman's Category ================
 woman_categories = [
-  {name: 'top'},
-  {name: 'bottom'}
+  {name: '上衣類'},
+  {name: '下身類'}
 ]
 woman_categories.each do |woman_category|
   Category.create(

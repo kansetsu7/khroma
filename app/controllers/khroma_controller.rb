@@ -41,6 +41,6 @@ class KhromaController < ApplicationController
   private
 
   def set_category_list
-    @category_list = [ [{name: 'top'}], [{name: 'bottom'}] ]
+    @category_list = [ [{name: '上衣類'}], [{name: '下身類'}] ]
   end
 end
