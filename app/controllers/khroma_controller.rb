@@ -2,7 +2,7 @@ class KhromaController < ApplicationController
   before_action :set_category_list, only: [:pop_choices]
 
   def navbar
-    categories = Category.where(gender_id: params[:id])
+    categories = Category.includes(:types).where(gender_id: params[:id])
 
     render json: {
       html: render_to_string(partial: 'shared/navbar', locals: {categories: categories})
@@ -10,10 +10,10 @@ class KhromaController < ApplicationController
   end
 
   def match
-    type_up = Type.find(params[:up_type_id])
+    type_up = Type.includes(products: :color).find(params[:up_type_id])
     hue_level_up = HueLevel.find(params[:up_hue_level])
 
-    type_down = Type.find(params[:down_type_id])
+    type_down = Type.includes(products: :color).find(params[:down_type_id])
     hue_level_down = HueLevel.find(params[:down_hue_level])    
 
     render json: {
