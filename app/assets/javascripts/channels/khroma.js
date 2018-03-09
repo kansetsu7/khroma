@@ -26,10 +26,25 @@ $(document).ready(function(){
       success: function(data){
 
         $('#up-result').html(data['productsUpMatchHtml']);
-        console.log(data['productsUpMatchHtml']);
         $('#down-result').html(data['productsDownMatchHtml']);
-        console.log(data['productsDownMatchHtml']);
       }
     });
+  });
+
+  $(document).on('click','.gender-btn', function(){
+    $.ajax({
+      url: '/khroma/navbar',
+      method: 'get',
+      dataType: 'json',
+      data: { id: $(this).val() },
+      success: function(data){
+        $('#lower-nav').css('transform', 'translateY(0)');
+        $('#lower-nav .container').html(data['html']);
+      }
+    });
+  });
+
+  $(document).on('click','.close-btn', function(){
+    $('#lower-nav').css('transform', 'translateY(-100%)');
   });
 });

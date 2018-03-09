@@ -30,6 +30,7 @@ Rails.application.routes.draw do
 
   resources :khroma, only: [:index] do
     collection do
+      get :navbar
       get :pop_choices
       get :match
     end

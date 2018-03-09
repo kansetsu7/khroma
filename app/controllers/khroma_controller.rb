@@ -1,6 +1,14 @@
 class KhromaController < ApplicationController
   before_action :set_category_list, only: [:pop_choices]
 
+  def navbar
+    categories = Category.where(gender_id: params[:id])
+
+    render json: {
+      html: render_to_string(partial: 'shared/navbar', locals: {categories: categories})
+    }
+  end
+
   def match
     type_up = Type.find(params[:up_type_id])
     hue_level_up = HueLevel.find(params[:up_hue_level])
