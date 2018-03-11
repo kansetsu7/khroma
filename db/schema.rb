@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180307062841) do
+ActiveRecord::Schema.define(version: 20180311123209) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
@@ -35,6 +35,22 @@ ActiveRecord::Schema.define(version: 20180307062841) do
 
   create_table "hue_levels", force: :cascade do |t|
     t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "principle_colors", force: :cascade do |t|
+    t.integer "principle_id"
+    t.integer "hue_level_id"
+    t.integer "hue_match1"
+    t.integer "hue_match2", default: -1
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "principles", force: :cascade do |t|
+    t.string "name"
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
