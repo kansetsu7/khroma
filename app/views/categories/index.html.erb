@@ -4,11 +4,4 @@
 
 
 <h1>推薦商品</h1>
-<% @categories.each do |category| %>
-  <% category.types.each do |type| %>
-    <h3><%= type.name %>
-    <% type.styles.each do |style| %>
-      <li><%= link_to style.products.first.name , product_path(style.products.first) %></li>
-    <% end %>
-  <% end %>
-<% end %>
+<%= render partial: "shared/recommend", locals: {objs: @categories} %>
