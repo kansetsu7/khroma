@@ -3,11 +3,20 @@
   <h1>推薦商品 (我不會說是random推薦的)</h1>
   <% objs.each_with_index do |obj, index| %>
     <div class="card">
-      <h5 class="card-header <%= color[index%6] %>  <%= "text-white" if color[index] == "bg-dark"  %> "><%= obj.name %></h5>
+      <h5 class="card-header <%= color[index%6] %> text-white "><%= obj.name %></h5>
       <div class="card-body">
-        <% obj.products.order("RANDOM()").limit(8).each do |recommend_product| %>
-          <%= recommend_product.name %>
-        <% end %>
+        <div class="card-deck">
+          <% obj.products.order("RANDOM()").limit(4).each do |recommend_product| %> 
+            <div class="card">
+              <%= link_to recommend_product.link do %>
+                <img class="card-img-top" src= <%= recommend_product.image %> alt="Card image cap">
+              <% end %>
+              <div class="card-body">
+                <h5 class="card-title"><%= recommend_product.name %></h5>
+              </div>
+            </div>          
+          <% end %>
+        </div>
       </div>
     </div>
   <% end %>
