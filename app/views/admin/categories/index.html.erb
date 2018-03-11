@@ -1,25 +1,47 @@
-<% @categories.each do |category| %>
-  <li>
-    <%= link_to category.name , admin_types_path  %>
-    
-    <%= link_to "編輯", edit_admin_category_path(category) %>
-    <%= link_to "刪除", admin_category_path(category), method: :delete %>
-  </li>
-<% end %>
+<div class = "container">
 
-<h3>可用的gender id</h3>
-<% @genders.each do |gender| %>
-  <li>
-    <%= gender.name %>
-    <%= gender.id %>
-  </li>
-<% end %>
+  <%= render partial: "shared/admin_nav" %>
 
-<h3>創造新categry</h3>
-<%= form_for [:admin,@category] do |f| %>
-  <%= f.label :name, "Name" %>
-  <%= f.text_field :name %>
-  <%= f.label :gender_id, "gender_id" %>
-  <%= f.text_field :gender_id %>
-  <%= f.submit %>
-<% end %>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <% @categories.first.attributes.each do |key,value|  %>
+            <th scope="col"><%= key %></th>
+          <% end %>
+            <th scope="col">edit</th> 
+            <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @categories.each do |category| %>
+          <tr>
+            <% category.attributes.each do |key,value|  %>
+              <td><%= value %></td>
+            <% end %>
+            <td><%= link_to "編輯", edit_admin_category_path(category) %></td>
+            <td><%= link_to "刪除", admin_category_path(category), method: :delete %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+  <h3>可用的gender id</h3>
+  <% @genders.each do |gender| %>
+    <li>
+      <%= gender.name %>
+      <%= gender.id %>
+    </li>
+  <% end %>
+
+  <h3>創造新categry</h3>
+  <%= form_for [:admin,@category] do |f| %>
+    <%= f.label :name, "Name" %>
+    <%= f.text_field :name %>
+    <%= f.label :gender_id, "gender_id" %>
+    <%= f.text_field :gender_id %>
+    <%= f.submit %>
+  <% end %>
+
+    <%= render partial: "shared/admin_table", locals: {objs: @categories} %>
+
+</div>

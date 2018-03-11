@@ -1,25 +1,34 @@
-<% @styles.each do |style| %>
-  <li>
-    <%= link_to style.name, admin_style_products_path(style)  %>
-    <%= link_to "編輯", edit_admin_style_path(style) %>
-    <%= link_to "刪除", admin_style_path(style), method: :delete %>
-  </li>
-<% end %>
+<div class = "container">
+
+  <%= render partial: "shared/admin_nav" %>
 
 
-<h3>可用的type id</h3>
-<% @types.each do |type| %>
-  <li>
-    <%= type.name %>
-    <%= type.id %>
-  </li>
-<% end %>
+  <% @styles.each do |style| %>
+    <li>
+      <%= link_to style.name, admin_style_products_path(style)  %>
+      <%= link_to "編輯", edit_admin_style_path(style) %>
+      <%= link_to "刪除", admin_style_path(style), method: :delete %>
+    </li>
+  <% end %>
 
-<h3>創造新style</h3>
-<%= form_for [:admin,@style] do |f| %>
-  <%= f.label :name, "Name" %>
-  <%= f.text_field :name %>
-  <%= f.label :type_id, "type_id" %>
-  <%= f.text_field :type_id %>
-  <%= f.submit %>
-<% end %>
+
+  <h3>可用的type id</h3>
+  <% @types.each do |type| %>
+    <li>
+      <%= type.name %>
+      <%= type.id %>
+    </li>
+  <% end %>
+
+  <h3>創造新style</h3>
+  <%= form_for [:admin,@style] do |f| %>
+    <%= f.label :name, "Name" %>
+    <%= f.text_field :name %>
+    <%= f.label :type_id, "type_id" %>
+    <%= f.text_field :type_id %>
+    <%= f.submit %>
+  <% end %>
+
+    <%= render partial: "shared/admin_table", locals: {objs: @styles} %>
+
+</div>
