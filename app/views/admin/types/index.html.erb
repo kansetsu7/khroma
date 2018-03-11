@@ -3,14 +3,28 @@
   <%= render partial: "shared/admin_nav" %>
 
 
-  <% @types.each do |type| %>
-    <li>
-      <%= link_to type.name , admin_styles_path %>
-      
-      <%= link_to "編輯", edit_admin_type_path(type) %>
-      <%= link_to "刪除", admin_type_path(type), method: :delete %>
-    </li>
-  <% end %>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <% @types.first.attributes.each do |key,value|  %>
+            <th scope="col"><%= key %></th>
+          <% end %>
+            <th scope="col">edit</th> 
+            <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @types.each do |type| %>
+          <tr>
+            <% type.attributes.each do |key,value|  %>
+              <td><%= value %></td>
+            <% end %>
+            <td><%= link_to "編輯", edit_admin_type_path(type) %></td>
+            <td><%= link_to "刪除", admin_type_path(type), method: :delete %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
 
   <h3>可用的category id</h3>
   <% @categories.each do |category| %>
