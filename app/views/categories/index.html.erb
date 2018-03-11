@@ -1,7 +1,20 @@
-<% @categories.each do |category| %>
-  <li><%= link_to category.name, category_types_path(category) %></li>
-<% end %>
+<div class = "container">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <ul class="nav nav-pills nav-justified">     
+        <% @categories.each do |category| %>
+          <li class="nav-item">
+            <%= link_to category.name, category_types_path(category), class: "nav-link" %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 
 
-<h1>推薦商品</h1>
-<%= render partial: "shared/recommend", locals: {objs: @categories} %>
+
+
+
+
+  <%= render partial: "shared/recommend", locals: {objs: @categories} %>
+</div>

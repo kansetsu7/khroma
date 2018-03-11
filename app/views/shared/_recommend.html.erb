@@ -1,8 +1,8 @@
 
-<h1>必買商品</h1>
-<% objs.each do |obj| %>
-  <h3><%= obj.name %></h3>
-  <% obj.products.order("RANDOM()").limit(10).each do |recommend_product| %>
-    <%= recommend_product.name %>
+  <h1>推薦商品 (我不會說是random推薦的)</h1>
+  <% objs.each do |obj| %>
+    <h3><%= obj.name %></h3>
+    <% obj.products.order("RANDOM()").limit(10).each do |recommend_product| %>
+      <%= recommend_product.name %>
+    <% end %>
   <% end %>
-<% end %>
