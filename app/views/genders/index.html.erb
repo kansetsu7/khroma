@@ -4,13 +4,4 @@
 <% end %>
 
 <h1>推薦商品</h1>
-<% @genders.each do |gender| %>
-  <% gender.categories.limit(2).each do |category| %>
-    <%= category.name %>
-    <% category.types.limit(3).each do |type| %>
-      <% type.styles.limit(2).each do |style| %>
-        <li><%= link_to style.products.first.name, product_path(style.products.first) %></li>
-      <% end %>
-    <% end %>
-  <% end %>
-<% end %>
+<%= render partial: "shared/recommend", locals: {objs: @genders} %>
