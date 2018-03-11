@@ -1,0 +1,2 @@
+class Principle < ApplicationRecord
+end
