@@ -1,5 +1,5 @@
 
-<h1>推薦商品</h1>
+<h1>必買商品</h1>
 <% objs.each do |obj| %>
   <% obj.products.order("RANDOM()").limit(10).each do |recommend_product| %>
     <%= recommend_product.name %>
