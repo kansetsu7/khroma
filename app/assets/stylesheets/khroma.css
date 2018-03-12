@@ -1,0 +1,48 @@
+/* khroma index */
+
+.match-choice-panel {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 500px 1fr;
+}
+
+.left-match-col {
+  width: 100%;
+  text-align: center;
+  justify-self:end;
+}
+
+#up-img-bg, #down-img-bg {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+
+}
+
+#match-btn {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  display: grid;
+  grid-template-areas: "btn";
+  border-radius: 50%;
+  cursor: pointer;
+  justify-self:start;
+}
+
+#match-btn:active {
+  box-shadow: none;
+  transform: translateY(2px);
+} 
+
+.match-btn-img {
+  grid-area: btn;
+}
+
+.match-btn-word {
+  grid-area: btn;
+  align-self: center;
+  justify-self: center;
+  font-weight: 900;
+  font-size: 18px;
+}
