@@ -1,8 +1,7 @@
 <div class = "container">
 
   <%= render partial: "shared/admin_nav" %>
-
-
+  
     <table class="table table-hover table-dark">
       <thead>
         <tr>
@@ -30,23 +29,36 @@
       </tbody>
     </table>
 
-  <h3>可用的category id</h3>
-  <% @categories.each do |category| %>
-    <li>
-      <%= category.name %>
-      <%= category.id %>
-    </li>
-  <% end %>
-
-  <h3>創造新type</h3>
-  <%= form_for [:admin,@type] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.label :category_id, "category_id" %>
-    <%= f.text_field :category_id %>
-    <%= f.submit %>
-  <% end %>
-
-    <%= render partial: "shared/admin_table", locals: {objs: @types} %>
+  <div class = "row">
+    <div class = "col-8">
+      <h3>可用的category id</h3>
+      <br>
+      <div class = "row">
+      <% @categories.each do |category| %>
+        <div class = "col-2">
+          <span class="badge badge-pill badge-success my-badge">
+            <%= category.name %>
+            <%= category.id %>
+          </span>
+        </div>
+      <% end %>
+      </div>
+    </div>
+    <div class = "col-4">
+      <h3>創造新style</h3>
+      <%= form_for [:admin,@type] do |f| %>
+        <div class = "form-group">
+          <%= f.label :name, "Name" %>
+          <%= f.text_field :name, class: "form-control" %>
+        </div>
+        <div class = "form-group">
+          <%= f.label :category_id, "type_id" %>
+          <%= f.text_field :category_id, class: "form-control" %>
+        </div>
+        <%= f.submit %>
+      <% end %>
+    </div>
+  </div>
+  <br>
 
 </div>
