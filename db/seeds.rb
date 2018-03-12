@@ -92,7 +92,7 @@ puts "have created #{HueLevel.count} hue_levels."
 # google sheets : color 內也有
 
 
-principle_names = ["1. 同色系", "2. 相近色", "3. 互補色", "4. 分離互補", "5. 三角法","6. 無色彩"]
+principle_names = ["同色系", "相近色", "互補色", "分離互補", "三角法","無色彩"]
 Principle.destroy_all
 principle_names.each_with_index do |name, i|
   Principle.create(
