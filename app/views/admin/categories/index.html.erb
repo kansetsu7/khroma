@@ -31,7 +31,7 @@
 
   <div class = "row">
     
-    <div class = "col-4 col-offset-2">
+    <div class = "col-4">
       <h3>創造新category</h3>
       <%= form_for [:admin,@category] do |f| %>
         <div class = "form-group">
@@ -45,12 +45,12 @@
         <%= f.submit %>
       <% end %>
     </div>
-    <div class = "col-4">
+    <div class = "col-6">
       <h3>可用的gender id</h3>
       <br>
       <div class = "row">
       <% @genders.each do |gender| %>
-        <div class = "col-2">
+        <div class = "col-3">
           <span class="badge badge-pill badge-success my-badge">
             <%= gender.name %>
             <%= gender.id %>
