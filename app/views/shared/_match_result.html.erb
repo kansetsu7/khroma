@@ -1,8 +1,21 @@
-<% type.products.each do |product|%> 
-  <% if product.color.hue_level_id == hue_level.id %>
-    <span>
-      <div>Name: <%= product.name %></div>
-      <div>Color: <%= product.color.hue_level_id %></div>
-      </span>
-    <% end %>
+<% matches.each do |match| %>
+  <div>
+    <div>-------------------------</div>
+    <div>配色法則: <%= match[0] %> - <%= match[1][0] %> x <%= match[1][1] %></div>
+    <!-- <div>上半身的顏色: <%= match[1][0] %></div> -->
+    <!-- <div>下半身的顏色: <%= match[1][1] %></div> -->
+    <div>上半身的衣服: <%= match[2][0].count %> 件</div>
+    <div>下半身的衣服: <%= match[2][1].count %> 件</div>
+    <% match[2][1].each do |product| %>
+      <div> - 名稱:<%= product.name %> </div>
+    <% end %>    
+  </div>
 <% end %>
+
+<!-- 
+matches[i][0]: 配色法則名稱
+matches[i][1][0]: 上半身的顏色
+matches[i][1][1]: 下半身的顏色
+matches[i][2][0]: 上半身的衣服
+matches[i][2][1]: 下半身的衣服 
+-->
