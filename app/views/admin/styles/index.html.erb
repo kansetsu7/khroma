@@ -2,47 +2,58 @@
 
   <%= render partial: "shared/admin_nav" %>
 
-    <table class="table table-hover table-dark">
-      <thead>
-        <tr>
-          <% @styles.first.attributes.each do |key,value|  %>
-            <th scope="col"><%= key %></th>
-          <% end %>
-            <th scope="col">edit</th> 
-            <th scope="col">delete</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% @styles.each do |style| %>
-          <tr>
-            <% style.attributes.each do |key,value|  %>
-              <td><%= link_to value, admin_style_products_path(style) %></td>
-            <% end %>
-            <td><%= link_to "編輯", edit_admin_style_path(style) %></td>
-            <td><%= link_to "刪除", admin_style_path(style), method: :delete %></td>
-          </tr>
+  <div class = "row">
+    <div class = "col-8">
+      <h3>可用的type id</h3>
+      <br>
+      <div class = "row">
+      <% @types.each do |type| %>
+        <div class = "col-2">
+          <span class="badge badge-pill badge-success my-badge">
+            <%= type.name %>
+            <%= type.id %>
+          </span>
+        </div>
+      <% end %>
+      </div>
+    </div>
+    <div class = "col-4">
+      <h3>創造新style</h3>
+      <%= form_for [:admin,@style] do |f| %>
+        <div class = "form-group">
+          <%= f.label :name, "Name" %>
+          <%= f.text_field :name, class: "form-control" %>
+        </div>
+        <div class = "form-group">
+          <%= f.label :type_id, "type_id" %>
+          <%= f.text_field :type_id, class: "form-control" %>
+        </div>
+        <%= f.submit %>
+      <% end %>
+    </div>
+  </div>
+  <br>
+
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <% @styles.first.attributes.each do |key,value|  %>
+          <th scope="col"><%= key %></th>
         <% end %>
-      </tbody>
-    </table>
-
-
-  <h3>可用的type id</h3>
-  <% @types.each do |type| %>
-    <li>
-      <%= type.name %>
-      <%= type.id %>
-    </li>
-  <% end %>
-
-  <h3>創造新style</h3>
-  <%= form_for [:admin,@style] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.label :type_id, "type_id" %>
-    <%= f.text_field :type_id %>
-    <%= f.submit %>
-  <% end %>
-
-    <%= render partial: "shared/admin_table", locals: {objs: @styles} %>
-
+          <th scope="col">edit</th> 
+          <th scope="col">delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @styles.each do |style| %>
+        <tr>
+          <% style.attributes.each do |key,value|  %>
+            <td><%= link_to value, admin_style_products_path(style) %></td>
+          <% end %>
+          <td><%= link_to "編輯", edit_admin_style_path(style) %></td>
+          <td><%= link_to "刪除", admin_style_path(style), method: :delete %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 </div>
