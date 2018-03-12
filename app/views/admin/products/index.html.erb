@@ -28,11 +28,32 @@
     </tbody>
   </table>
 
-  <h3>創造新product</h3>
+  <h2>New product</h2>
   <%= form_for [:admin,@style,@product] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
+    <div class = "row">
+      <div class = "col-3">
+        <%= f.label :name, "Name" %>
+        <%= f.text_field :name %>
+      </div>
+      <div class = "col-3">
+        <%= f.label :brand, "Brand" %>
+        <%= f.text_field :brand %>
+      </div>
 
+      <div class = "col-3">
+        <%= f.label :price, "Price" %>
+        <%= f.text_field :price %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :image, "Image" %>
+      <%= f.text_field :image, class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.label :link, "Link" %>
+      <%= f.text_field :link, class: "form-control" %>
+    </div>
+    <br>
     <%= f.submit %>
   <% end %>
 </div>
