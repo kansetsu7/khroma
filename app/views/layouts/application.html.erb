@@ -20,12 +20,12 @@
               <li class="gender-btn" value="2">Women</li>
             </ul>
             <ul id="menu-user">
-              <li>管理者後台</li>
+              <li><%= link_to "管理者後台", admin_root_path %></li>
               <% if current_user %>
                 <li>會員中心</li>
-                <li><%= link_to '登出', destroy_user_session_path %></li>
+                <li><%= link_to '登出', destroy_user_session_path, method: :delete %></li>
               <% else %>
-                <li><%= link_to '會員登入', user_session_path %></li>
+                <li><%= link_to '會員登入', user_session_path, method: :post %></li>
               <% end %>
             </ul>
           </div> 

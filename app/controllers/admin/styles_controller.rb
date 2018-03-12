@@ -1,4 +1,4 @@
-class Admin::StylesController < ApplicationController
+class Admin::StylesController < Admin::AdminController
 
   def index
     if params[:type_id].present?

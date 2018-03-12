@@ -1,4 +1,4 @@
-class Admin::GendersController < ApplicationController
+class Admin::GendersController < Admin::AdminController
 
   def index
     @genders = Gender.all
