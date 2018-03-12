@@ -138,8 +138,34 @@ class KhromaController < ApplicationController
         pc = PrincipleColor.arel_table
         @principle_colors = PrincipleColor.where(hue_level_id: params[:up_hue_level]).where(
           pc[:hue_match1].eq(params[:down_hue_level]).or(pc[:hue_match2].eq(params[:down_hue_level])))
+puts "pcs: #{@principle_colors.count == 0}"
+        if @principle_colors.count == 0  # 沒有符合的配色法則
+          result = []
+          # 1.配色法則 -------------
+          # result_arr[0]: 配色法則名稱
+          result.push('沒有符合的配色法則')
 
-        if @principle_colors.nil?  # 沒有符合的配色法則
+          # 2.符合法則的配色顏色 => 用使用者給的顏色-------------
+          # color_names[0] = 上半身的顏色
+          # color_names[1] = 下半身的顏色
+          color_names = [HueLevel.find(params[:up_hue_level]).name, HueLevel.find(params[:down_hue_level]).name]
+          result.push(color_names)  # result_arr[1]: 符合法則的配色顏色
+                                    # result_arr[1][0]: 上半身的顏色, result_arr[1][1]: 下半身的顏色
+          
+          # 3.配色顏色的衣服 -------------
+          # products[0] = 上半身的衣服
+          # products[1] = 下半身的衣服
+          products = []
+          top_products    = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
+          bottom_products = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
+          products = [top_products, bottom_products]
+          result.push(products)   # result_arr[2]: 配色顏色的衣服
+                                  # result_arr[2][0]: 上半身的衣服, result_arr[2][1]: 下半身的衣服
+          matches.push(result) 
+              
+          render json: {
+            productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {matches: matches})
+          }
           # ---- TODO ----------------------------------
           # 1.提供使用者顏色: 
           #   1-1. HueLevel.find(params[:up_hue_level])
