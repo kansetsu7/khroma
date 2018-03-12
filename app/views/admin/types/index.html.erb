@@ -6,18 +6,22 @@
     <table class="table table-hover table-dark">
       <thead>
         <tr>
-          <% @types.first.attributes.each do |key,value|  %>
-            <th scope="col"><%= key %></th>
-          <% end %>
+          <% if @types.count > 0 %>
+            <% @types.first.attributes.each do |key,value|  %>
+              <th scope="col"><%= key %></th>
+            <% end %>
             <th scope="col">edit</th> 
             <th scope="col">delete</th>
+            <% else %>
+              <h1>佔無types</h1>
+          <% end %>
         </tr>
       </thead>
       <tbody>
         <% @types.each do |type| %>
           <tr>
             <% type.attributes.each do |key,value|  %>
-              <td><%= value %></td>
+              <td><%= link_to value , admin_type_styles_path(type) %></td>
             <% end %>
             <td><%= link_to "編輯", edit_admin_type_path(type) %></td>
             <td><%= link_to "刪除", admin_type_path(type), method: :delete %></td>

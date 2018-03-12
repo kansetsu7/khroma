@@ -16,7 +16,7 @@
         <% @styles.each do |style| %>
           <tr>
             <% style.attributes.each do |key,value|  %>
-              <td><%= value %></td>
+              <td><%= link_to value, admin_style_products_path(style) %></td>
             <% end %>
             <td><%= link_to "編輯", edit_admin_style_path(style) %></td>
             <td><%= link_to "刪除", admin_style_path(style), method: :delete %></td>

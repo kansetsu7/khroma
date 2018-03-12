@@ -1,7 +1,11 @@
 class Admin::TypesController < ApplicationController
 
   def index
-    @types = Type.all
+    if params[:category_id].present?
+      @types = Type.where(category_id: params[:category_id])
+    else
+      @types = Type.all
+    end
     @type = Type.new
     @categories = Category.all
   end

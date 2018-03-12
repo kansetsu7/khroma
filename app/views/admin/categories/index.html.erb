@@ -5,18 +5,22 @@
     <table class="table table-hover table-dark">
       <thead>
         <tr>
-          <% @categories.first.attributes.each do |key,value|  %>
-            <th scope="col"><%= key %></th>
-          <% end %>
+          <% if @categories.count >0 %>
+            <% @categories.first.attributes.each do |key,value|  %>
+              <th scope="col"><%= key %></th>
+            <% end %>
             <th scope="col">edit</th> 
             <th scope="col">delete</th>
+            <% else %>
+              <h1>佔無categories</h1>
+            <% end %>
         </tr>
       </thead>
       <tbody>
         <% @categories.each do |category| %>
           <tr>
             <% category.attributes.each do |key,value|  %>
-              <td><%= value %></td>
+              <td><%= link_to value, admin_category_types_path(category) %></td>
             <% end %>
             <td><%= link_to "編輯", edit_admin_category_path(category) %></td>
             <td><%= link_to "刪除", admin_category_path(category), method: :delete %></td>

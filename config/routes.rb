@@ -47,7 +47,9 @@ Rails.application.routes.draw do
       resources :types
     end
 
-    resources :types
+    resources :types do
+      resources :styles
+    end
 
     resources :styles do
       resources :products

@@ -1,7 +1,11 @@
 class Admin::StylesController < ApplicationController
 
   def index
-    @styles = Style.all
+    if params[:type_id].present?
+      @styles = Style.where(type_id: params[:type_id])
+    else
+      @styles = Style.all
+    end
     @style = Style.new
     @types = Type.all
   end
