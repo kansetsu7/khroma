@@ -96,7 +96,8 @@ principle_names = ["同色系", "相近色", "互補色", "分離互補", "三�
 Principle.destroy_all
 principle_names.each_with_index do |name, i|
   Principle.create(
-    name: principle_names[i]
+    name: principle_names[i],
+    image: File.open(File.join(Rails.root, "/public/principle_img/principle#{i+1}.jpeg"))
   )
 end
 puts "have created #{Principle.count} principles."

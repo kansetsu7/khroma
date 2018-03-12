@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
 gem 'devise'
 gem 'csv'
 
@@ -44,7 +45,8 @@ gem 'bootstrap'
 # Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
-
+# Use carrierwave
+gem 'carrierwave'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
