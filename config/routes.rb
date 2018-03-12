@@ -38,9 +38,17 @@ Rails.application.routes.draw do
   #backstage routes
   namespace :admin do
     root "genders#index"
-    resources :genders
-    resources :categories
+
+    resources :genders do
+      resources :categories
+    end
+
+    resources :categories do
+      resources :types
+    end
+
     resources :types
+
     resources :styles do
       resources :products
     end

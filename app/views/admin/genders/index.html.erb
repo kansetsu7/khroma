@@ -16,7 +16,7 @@
         <% @genders.each do |gender| %>
           <tr>
             <% gender.attributes.each do |key,value|  %>
-              <td><%= value %></td>
+              <td><%= link_to value, admin_gender_categories_path(gender) %></td>
             <% end %>
             <td><%= link_to "編輯", edit_admin_gender_path(gender) %></td>
             <td><%= link_to "刪除", admin_gender_path(gender), method: :delete %></td>

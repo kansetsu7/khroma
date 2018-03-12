@@ -1,7 +1,11 @@
 class Admin::CategoriesController < ApplicationController
 
   def index
-    @categories = Category.all
+    if params[:gender_id].present?
+      @categories = Category.where(gender_id: params[:gender_id])
+    else
+      @categories = Category.all
+    end
     @category = Category.new
     @genders = Gender.all
   end

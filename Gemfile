@@ -7,6 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'mysql2', '~> 0.3', :platform => :ruby
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -43,6 +44,8 @@ gem 'bootstrap'
 
 # Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+gem 'thinking-sphinx' , '~> 3.4.2'
 
 
 
