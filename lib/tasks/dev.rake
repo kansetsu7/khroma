@@ -41,7 +41,7 @@ namespace :dev do
 
     Product.destroy_all
     styles_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
-    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0.txt")
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0-1.txt")
     in_arr.each_with_index do |product, i|
       next if i == 0  # skip first row
       Product.create(
