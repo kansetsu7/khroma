@@ -18,6 +18,7 @@ class Admin::CategoriesController < ApplicationController
 
   def edit
     @category = Category.find(params[:id])
+    @categories = Category.all
     @genders = Gender.all
   end
 

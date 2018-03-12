@@ -12,6 +12,7 @@ class Admin::GendersController < ApplicationController
   end
 
   def edit
+    @genders = Gender.all
     @gender = Gender.find(params[:id])
   end
 

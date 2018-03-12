@@ -1,7 +1,57 @@
-<h3>編輯product</h3>
-<%= form_for [:admin,@style,@product] do |f| %>
-  <%= f.label :name, "Name" %>
-  <%= f.text_field :name %>
+<div class = "container">
 
-  <%= f.submit %>
-<% end %>
+  <%= render partial: "shared/admin_nav" %>
+  <h2>編輯項目</h2>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <% @product.attributes.each do |key,value|  %>
+            <th scope="col"><%= key %></th>
+          <% end %>
+          <th scope="col">edit</th> 
+          <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+          <tr>
+            <% @product.attributes.each do |key,value|  %>
+              <td class = "td-width"><%= link_to value, admin_style_products_path(@product) %></td>
+            <% end %>
+            <td><%= link_to "編輯", edit_admin_product_path(@product) %></td>
+            <td><%= link_to "刪除", admin_product_path(@product), method: :delete %></td>
+          </tr>
+     
+      </tbody>
+    </table>
+
+  <h2>編輯區</h2>
+  <%= form_for [:admin,@style,@product] do |f| %>
+    <div class = "row">
+      <div class = "col-3">
+        <%= f.label :name, "Name" %>
+        <%= f.text_field :name %>
+      </div>
+      <div class = "col-3">
+        <%= f.label :brand, "Brand" %>
+        <%= f.text_field :brand %>
+      </div>
+
+      <div class = "col-3">
+        <%= f.label :price, "Price" %>
+        <%= f.text_field :price %>
+      </div>
+    </div>
+    <div class="form-group">
+      <%= f.label :image, "Image" %>
+      <%= f.text_field :image, class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.label :link, "Link" %>
+      <%= f.text_field :link, class: "form-control" %>
+    </div>
+    <br>
+    <%= f.submit %>
+  <% end %>
+
+</div>

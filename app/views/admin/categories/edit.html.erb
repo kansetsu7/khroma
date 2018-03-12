@@ -1,17 +1,37 @@
-<h3>可用的gender id</h3>
-<% @genders.each do |gender| %>
-  <li>
-    <%= gender.name %>
-    <%= gender.id %>
-  </li>
-<% end %>
+<div class = "container">
 
+  <%= render partial: "shared/admin_nav" %>
+  <h2>編輯項目</h2>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <% @categories.first.attributes.each do |key,value|  %>
+            <th scope="col"><%= key %></th>
+          <% end %>
+          <th scope="col">edit</th> 
+          <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+          <tr>
+            <% @category.attributes.each do |key,value|  %>
+              <td><%= link_to value, admin_gender_categories_path(@category) %></td>
+            <% end %>
+            <td><%= link_to "編輯", edit_admin_category_path(@category) %></td>
+            <td><%= link_to "刪除", admin_category_path(@category), method: :delete %></td>
+          </tr>
+     
+      </tbody>
+    </table>
 
-<h3>編輯categry</h3>
-<%= form_for [:admin,@category] do |f| %>
-  <%= f.label :name, "Name" %>
-  <%= f.text_field :name %>
-  <%= f.label :gender_id, "gender_id" %>
-  <%= f.text_field :gender_id %>
-  <%= f.submit %>
-<% end %>
+  <h2>編輯區</h2>
+  <%= form_for [:admin,@category] do |f| %>
+    <%= f.label :name, "Name" %>
+    <%= f.text_field :name %>
+    <%= f.label :gender_id, "Gender_id" %>
+    <%= f.text_field :gender_id %>
+    <%= f.submit %>
+  <% end %>
+
+</div>

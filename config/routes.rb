@@ -54,6 +54,8 @@ Rails.application.routes.draw do
     resources :styles do
       resources :products
     end
+
+    resources :products
   end
   
 end

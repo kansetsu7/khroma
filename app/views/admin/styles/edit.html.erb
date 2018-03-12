@@ -1,16 +1,37 @@
-<h3>可用的type id</h3>
-<% @types.each do |type| %>
-  <li>
-    <%= type.name %>
-    <%= type.id %>
-  </li>
-<% end %>
+<div class = "container">
 
-<h3>創造新style</h3>
-<%= form_for [:admin,@style] do |f| %>
-  <%= f.label :name, "Name" %>
-  <%= f.text_field :name %>
-  <%= f.label :type_id, "type_id" %>
-  <%= f.text_field :type_id %>
-  <%= f.submit %>
-<% end %>
+  <%= render partial: "shared/admin_nav" %>
+  <h2>編輯項目</h2>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <% @styles.first.attributes.each do |key,value|  %>
+            <th scope="col"><%= key %></th>
+          <% end %>
+          <th scope="col">edit</th> 
+          <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+          <tr>
+            <% @style.attributes.each do |key,value|  %>
+              <td><%= link_to value, admin_gender_categories_path(@style) %></td>
+            <% end %>
+            <td><%= link_to "編輯", edit_admin_style_path(@style) %></td>
+            <td><%= link_to "刪除", admin_style_path(@style), method: :delete %></td>
+          </tr>
+     
+      </tbody>
+    </table>
+
+  <h2>編輯區</h2>
+  <%= form_for [:admin,@style] do |f| %>
+    <%= f.label :name, "Name" %>
+    <%= f.text_field :name %>
+    <%= f.label :type_id, "Type_id" %>
+    <%= f.text_field :type_id %>
+    <%= f.submit %>
+  <% end %>
+
+</div>

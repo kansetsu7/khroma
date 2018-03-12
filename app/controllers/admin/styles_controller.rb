@@ -18,6 +18,7 @@ class Admin::StylesController < ApplicationController
 
   def edit
     @style = Style.find(params[:id])
+    @styles = Style.all
     @types = Type.all
   end
 

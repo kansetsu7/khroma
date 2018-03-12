@@ -18,6 +18,7 @@ class Admin::TypesController < ApplicationController
 
   def edit
     @type = Type.find(params[:id])
+    @types = Type.all
     @categories = Category.all
   end
 
