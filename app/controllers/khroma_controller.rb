@@ -10,20 +10,7 @@ class KhromaController < ApplicationController
   end
 
   def match
-    # ---- Original ----------------------------------
-    # type_up = Type.find(params[:up_type_id])
-    # hue_level_up = HueLevel.find(params[:up_hue_level])
 
-    # type_down = Type.find(params[:down_type_id])
-    # hue_level_down = HueLevel.find(params[:down_hue_level])
-    # render json: {
-    #   productsUpMatchHtml: render_to_string(partial: 'shared/match_result', locals: {type: type_up, hue_level: hue_level_up}),
-    #   productsDownMatchHtml: render_to_string(partial: 'shared/match_result', locals: {type: type_down, hue_level: hue_level_down})
-    # }
-    # ---- END Original ------------------------------    
-
-# -------- new match algorithm -----------------------
-    # ==== 開始進行配色 ================================
     # 至少要給一個category的type+hue_level & 另一個category的type才能進行配對
     if (params[:up_type_id].nil? || params[:up_hue_level]=='') && params[:down_hue_level]=='' ||
        (params[:down_type_id].nil? || params[:down_hue_level]=='') && params[:up_hue_level]==''
@@ -62,64 +49,66 @@ class KhromaController < ApplicationController
           # match_colors[1]: 第二個配色match2_hue_level的顏色名稱與id
           # match_colors[i][0]: 顏色名稱
           # match_colors[i][1]: 顏色id
+          # match_colors[i][2]: 此配色法剩下的另一個顏色(如果沒有就是nil)
+          
           match_colors = []
-          match_colors.push([principle_color.match1_hue_level.name, principle_color.match1_hue_level])
-          match_colors.push([principle_color.match2_hue_level.name, principle_color.match2_hue_level]) unless principle_color.match2_hue_level.nil?
+          if principle_color.match2_hue_level.nil?
+            match_colors.push([principle_color.match1_hue_level.name, principle_color.match1_hue_level, nil])
+          else
+            match_colors.push([principle_color.match1_hue_level.name, principle_color.match1_hue_level, principle_color.match2_hue_level.name])
+            match_colors.push([principle_color.match2_hue_level.name, principle_color.match2_hue_level, principle_color.match1_hue_level.name])
+          end          
 
-          match_colors.each_with_index do |color, i|
+          match_colors.each_with_index do |match_color, i|
             result = []
             # 1.配色法則 -------------
-            # result_arr[0]: 配色法則名稱
-            result.push(principle_color.principle.name)
+            # result_arr[0]: 配色法則
+            #  - result_arr[0][0]: 配色法則的名稱
+            #  - result_arr[0][1]: 配色法則的圖片  # 圖片製作中...
+            result.push([principle_color.principle.name, principle_color.principle.image])
 
             # 2.符合法則的配色顏色 -------------
-            # color_names[0] = 上半身的顏色
-            # color_names[1] = 下半身的顏色
+            # result_arr[1] = color_names: 符合法則的配色顏色
+            #  - result_arr[1][0] = 上半身的顏色
+            #  - result_arr[1][1] = 下半身的顏色
+            #  - result_arr[1][2] = 額外可選的顏色
+
             color_names = []
             if params[:up_hue_level] == ''
-              color_names.push(color[0])
-              color_names.push(HueLevel.find(hue_level).name)
+              color_names.push(match_color[0])  # 上半身的顏色
+              color_names.push(HueLevel.find(hue_level).name)  # 下半身的顏色
             else
-              color_names.push(HueLevel.find(hue_level).name)
-              color_names.push(color[0])
+              color_names.push(HueLevel.find(hue_level).name)  # 上半身的顏色
+              color_names.push(match_color[0])  # 下半身的顏色
             end
-            result.push(color_names)  # result_arr[1]: 符合法則的配色顏色
-                                      # result_arr[1][0]: 上半身的顏色, result_arr[1][1]: 下半身的顏色
+            color_names.push(match_color[2])  # 額外可選的顏色
+            result.push(color_names)
             
             # 3.配色顏色的衣服 -------------
-            # products[0] = 上半身的衣服
-            # products[1] = 下半身的衣服
+            # result_arr[2] = products: 配色顏色的衣服
+            #  - result_arr[2][0] = 上半身的衣服
+            #  - result_arr[2][1] = 下半身的衣服
             products = []
             product_of_given_color = Type.find(type_with_hue_level).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
-            product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', color[1])
+            product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1])
             if params[:up_hue_level] == ''
-              products.push(product_of_match_color)
-              products.push(product_of_given_color)
+              products.push(product_of_match_color)  # 上半身的衣服
+              products.push(product_of_given_color)  # 下半身的衣服
             else
-              products.push(product_of_given_color)
-              products.push(product_of_match_color)
+              products.push(product_of_given_color)  # 上半身的衣服
+              products.push(product_of_match_color)  # 下半身的衣服
             end
-            result.push(products)   # result_arr[2]: 配色顏色的衣服
-                                    # result_arr[2][0]: 上半身的衣服, result_arr[2][1]: 下半身的衣服
+            result.push(products)
             matches.push(result)           
           end
         end
-        # matches[i][0]: 配色法則名稱
+        # matches[i][0][0]: 配色法則名稱
+        # matches[i][0][1]: 配色法則圖片
         # matches[i][1][0]: 上半身的顏色
         # matches[i][1][1]: 下半身的顏色
+        # matches[i][1][2]: 額外可選的顏色
         # matches[i][2][0]: 上半身的衣服
         # matches[i][2][1]: 下半身的衣服
-        
-        # puts matches.size.to_s + " results -------"
-        # matches.each_with_index do |match, i|
-        #   puts "===== result #{i} ======="
-        #   puts "配色法則名稱: #{match[0]}"
-        #   puts "上半身的顏色: #{match[1][0]}"
-        #   puts "下半身的顏色: #{match[1][1]}"
-        #   puts "上半身的衣服: #{match[2][0].count} 件"
-        #   puts "下半身的衣服: #{match[2][1].count} 件"
-        # end
-
         render json: {
           productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {matches: matches})
         }
@@ -138,63 +127,86 @@ class KhromaController < ApplicationController
         pc = PrincipleColor.arel_table
         @principle_colors = PrincipleColor.where(hue_level_id: params[:up_hue_level]).where(
           pc[:hue_match1].eq(params[:down_hue_level]).or(pc[:hue_match2].eq(params[:down_hue_level])))
-puts "pcs: #{@principle_colors.count == 0}"
+
         if @principle_colors.count == 0  # 沒有符合的配色法則
           result = []
           # 1.配色法則 -------------
-          # result_arr[0]: 配色法則名稱
-          result.push('沒有符合的配色法則')
+          # result_arr[0]: 配色法則
+          #  - result_arr[0][0]: 配色法則的名稱
+          #  - result_arr[0][1]: 配色法則的圖片  # 圖片製作中...
+          result.push(['沒有符合的配色法則', ''])
 
           # 2.符合法則的配色顏色 => 用使用者給的顏色-------------
-          # color_names[0] = 上半身的顏色
-          # color_names[1] = 下半身的顏色
+          # result_arr[1] = color_names: 符合法則的配色顏色
+          #  - result_arr[1][0] = 上半身的顏色
+          #  - result_arr[1][1] = 下半身的顏色
+          #  - result_arr[1][2] = 額外可選的顏色
           color_names = [HueLevel.find(params[:up_hue_level]).name, HueLevel.find(params[:down_hue_level]).name]
-          result.push(color_names)  # result_arr[1]: 符合法則的配色顏色
-                                    # result_arr[1][0]: 上半身的顏色, result_arr[1][1]: 下半身的顏色
+          result.push(color_names)
           
           # 3.配色顏色的衣服 -------------
-          # products[0] = 上半身的衣服
-          # products[1] = 下半身的衣服
+          # result_arr[2] = products: 配色顏色的衣服
+          #  - result_arr[2][0] = 上半身的衣服
+          #  - result_arr[2][1] = 下半身的衣服
           products = []
           top_products    = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
           bottom_products = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
           products = [top_products, bottom_products]
-          result.push(products)   # result_arr[2]: 配色顏色的衣服
-                                  # result_arr[2][0]: 上半身的衣服, result_arr[2][1]: 下半身的衣服
+          result.push(products)
+
           matches.push(result) 
               
           render json: {
             productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {matches: matches})
           }
-          # ---- TODO ----------------------------------
-          # 1.提供使用者顏色: 
-          #   1-1. HueLevel.find(params[:up_hue_level])
-          #   1-2. HueLevel.find(params[:down_hue_level])
-          # 2.提供使用者該顏色衣服:
-          #   2-1. Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
-          #   2-2. Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
-          #   2-3. 如果沒有該顏色的衣服: 告訴使用者找不到該顏色的衣服
-          # 3.提示沒有符合的配色法則: 可能丟個提示語句之類的？
-          # ---- END TODO -------------------------------
 
         else  # 有符合的法則
+
           @principle_colors.each_with_index do |principle_color, i|
-            # ---- TODO ----------------------------------
-            # 1.提供使用者顏色: 
-            #   1-1. HueLevel.find(params[:up_hue_level])
-            #   1-2. HueLevel.find(params[:down_hue_level])
-            # 2.提供使用者該顏色衣服:
-            #   2-1. Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
-            #   2-2. Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
-            #   2-3. 如果沒有該顏色的衣服: 告訴使用者找不到該顏色的衣服
-            # 3.提供使用者配色法則: principle_color.principle.name
-            #   3-1. principle_color.principle.image  # 圖片製作中...
-            # ---- END TODO -------------------------------
+            if principle_color.match2_hue_level.nil?
+              second_option = nil
+            else
+              second_option = principle_color.match1_hue_level.id == params[:down_hue_level].to_i ? principle_color.match2_hue_level.name : principle_color.match1_hue_level.name
+            end 
+
+            result = []
+            # 1.配色法則 -------------
+            # result_arr[0]: 配色法則
+            #  - result_arr[0][0]: 配色法則的名稱
+            #  - result_arr[0][1]: 配色法則的圖片  # 圖片製作中...
+            result.push([principle_color.principle.name, principle_color.principle.image])
+
+            # 2.符合法則的配色顏色 -------------
+            # result_arr[1] = color_names: 符合法則的配色顏色
+            #  - result_arr[1][0] = 上半身的顏色
+            #  - result_arr[1][1] = 下半身的顏色
+            #  - result_arr[1][2] = 額外可選的顏色
+
+            color_names = []
+            color_names.push(HueLevel.find(params[:up_hue_level]).name)  # 上半身的顏色
+            color_names.push(HueLevel.find(params[:down_hue_level]).name)  # 下半身的顏色 
+            color_names.push(second_option)  # 額外可選的顏色
+            result.push(color_names)
+            
+            # 3.配色顏色的衣服 -------------
+            # result_arr[2] = products: 配色顏色的衣服
+            #  - result_arr[2][0] = 上半身的衣服
+            #  - result_arr[2][1] = 下半身的衣服
+            products = []
+            product_top = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
+            product_of_bottom = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
+            result.push([product_top, product_of_bottom])
+
+            matches.push(result)  
+
+            render json: {
+              productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {matches: matches})
+            }         
           end
         end
       end
     end
-# -------------------- END of new match algorithm ----------------
+
   end
 
   def pop_choices
@@ -218,4 +230,6 @@ puts "pcs: #{@principle_colors.count == 0}"
   def set_category_list
     @category_list = [ [{name: '上衣類'}], [{name: '下身類'}] ]
   end
+
+
 end
