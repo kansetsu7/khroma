@@ -1,7 +1,7 @@
 <div class = "container">
 
   <%= render partial: "shared/admin_nav" %>
-  
+
     <table class="table table-hover table-dark">
       <thead>
         <tr>
@@ -30,6 +30,20 @@
     </table>
 
   <div class = "row">
+    <div class = "col-4">
+      <h3>創造新type</h3>
+      <%= form_for [:admin,@type] do |f| %>
+        <div class = "form-group">
+          <%= f.label :name, "Name" %>
+          <%= f.text_field :name, class: "form-control" %>
+        </div>
+        <div class = "form-group">
+          <%= f.label :category_id, "type_id" %>
+          <%= f.text_field :category_id, class: "form-control" %>
+        </div>
+        <%= f.submit %>
+      <% end %>
+    </div>
     <div class = "col-8">
       <h3>可用的category id</h3>
       <br>
@@ -44,20 +58,7 @@
       <% end %>
       </div>
     </div>
-    <div class = "col-4">
-      <h3>創造新style</h3>
-      <%= form_for [:admin,@type] do |f| %>
-        <div class = "form-group">
-          <%= f.label :name, "Name" %>
-          <%= f.text_field :name, class: "form-control" %>
-        </div>
-        <div class = "form-group">
-          <%= f.label :category_id, "type_id" %>
-          <%= f.text_field :category_id, class: "form-control" %>
-        </div>
-        <%= f.submit %>
-      <% end %>
-    </div>
+
   </div>
   <br>
 

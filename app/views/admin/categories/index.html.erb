@@ -29,23 +29,37 @@
       </tbody>
     </table>
 
-  <h3>可用的gender id</h3>
-  <% @genders.each do |gender| %>
-    <li>
-      <%= gender.name %>
-      <%= gender.id %>
-    </li>
-  <% end %>
-
-  <h3>創造新categry</h3>
-  <%= form_for [:admin,@category] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.label :gender_id, "gender_id" %>
-    <%= f.text_field :gender_id %>
-    <%= f.submit %>
-  <% end %>
-
-    <%= render partial: "shared/admin_table", locals: {objs: @categories} %>
+  <div class = "row">
+    
+    <div class = "col-4 col-offset-2">
+      <h3>創造新category</h3>
+      <%= form_for [:admin,@category] do |f| %>
+        <div class = "form-group">
+          <%= f.label :name, "Name" %>
+          <%= f.text_field :name, class: "form-control" %>
+        </div>
+        <div class = "form-group">
+          <%= f.label :gender_id, "type_id" %>
+          <%= f.text_field :gender_id, class: "form-control" %>
+        </div>
+        <%= f.submit %>
+      <% end %>
+    </div>
+    <div class = "col-4">
+      <h3>可用的gender id</h3>
+      <br>
+      <div class = "row">
+      <% @genders.each do |gender| %>
+        <div class = "col-2">
+          <span class="badge badge-pill badge-success my-badge">
+            <%= gender.name %>
+            <%= gender.id %>
+          </span>
+        </div>
+      <% end %>
+      </div>
+    </div>
+  </div>
+  <br>
 
 </div>

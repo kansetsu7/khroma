@@ -3,20 +3,6 @@
   <%= render partial: "shared/admin_nav" %>
 
   <div class = "row">
-    <div class = "col-8">
-      <h3>可用的type id</h3>
-      <br>
-      <div class = "row">
-      <% @types.each do |type| %>
-        <div class = "col-2">
-          <span class="badge badge-pill badge-success my-badge">
-            <%= type.name %>
-            <%= type.id %>
-          </span>
-        </div>
-      <% end %>
-      </div>
-    </div>
     <div class = "col-4">
       <h3>創造新style</h3>
       <%= form_for [:admin,@style] do |f| %>
@@ -31,6 +17,21 @@
         <%= f.submit %>
       <% end %>
     </div>
+    <div class = "col-8">
+      <h3>可用的type id</h3>
+      <br>
+      <div class = "row">
+      <% @types.each do |type| %>
+        <div class = "col-2">
+          <span class="badge badge-pill badge-success my-badge">
+            <%= type.name %>
+            <%= type.id %>
+          </span>
+        </div>
+      <% end %>
+      </div>
+    </div>
+
   </div>
   <br>
 
