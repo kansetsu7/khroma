@@ -1,8 +1,28 @@
-<% type.products.each do |product|%> 
-  <% if product.color.hue_level_id == hue_level.id %>
-    <span>
-      <div>Name: <%= product.name %></div>
-      <div>Color: <%= product.color.hue_level_id %></div>
-      </span>
+<% matches.each do |match| %>
+  <div>
+    <div>-------------------------</div>
+    <div>配色法則: <%= match[0][0] %> - <%= match[1][0] %> x <%= match[1][1] %></div>
+    <div><%#= image_tag match[0][1] unless match[0][1] == '' %></div><!-- 配色法則圖片尺寸未設定，很大一張 -->
+    <div>上半身的衣服: <%= match[2][0].count %> 件</div>
+    <% match[2][0].each do |product| %>
+      <div> - 名稱:<%= product.name %> </div>
+    <% end %>  
+    <div>下半身的衣服: <%= match[2][1].count %> 件</div>
+    <% match[2][1].each do |product| %>
+      <div> - 名稱:<%= product.name %> </div>
+    <% end %>  
+    <% unless match[1][2].nil? %>
+      <div>對此配色法則，您還可以選擇 <%= match[1][2] %> 作為其他服飾配件顏色來搭配</div>  
     <% end %>
+  </div>
 <% end %>
+
+<!-- 
+matches[i][0][0]: 配色法則名稱
+matches[i][0][1]: 配色法則圖片
+matches[i][1][0]: 上半身的顏色
+matches[i][1][1]: 下半身的顏色
+matches[i][1][2]: 額外可選的顏色
+matches[i][2][0]: 上半身的衣服
+matches[i][2][1]: 下半身的衣服
+-->

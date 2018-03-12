@@ -24,9 +24,12 @@ $(document).ready(function(){
         down_hue_level: $('#down-hue-choice #hue_level_id').val()
       },
       success: function(data){
-
-        $('#up-result').html(data['productsUpMatchHtml']);
-        $('#down-result').html(data['productsDownMatchHtml']);
+        // ==== Original =========================================
+        // $('#up-result').html(data['productsUpMatchHtml']);
+        // $('#down-result').html(data['productsDownMatchHtml']);
+        // ==== END of Original ==================================
+        
+        $('#result').html(data['productsMatchHtml']);
       }
     });
   });
