@@ -230,7 +230,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
-  mysql2 (~> 0.3)
+  mysql2 (~> 0.4.10)
   puma (~> 3.7)
   rails (~> 5.1.5)
   sass-rails (~> 5.0)
