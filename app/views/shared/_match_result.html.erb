@@ -2,6 +2,7 @@
   <div>
     <div>-------------------------</div>
     <div>配色法則: <%= match[0][0] %> - <%= match[1][0] %> x <%= match[1][1] %></div>
+    <div><%#= image_tag match[0][1] unless match[0][1] == '' %></div><!-- 配色法則圖片尺寸未設定，很大一張 -->
     <div>上半身的衣服: <%= match[2][0].count %> 件</div>
     <% match[2][0].each do |product| %>
       <div> - 名稱:<%= product.name %> </div>

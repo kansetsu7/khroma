@@ -66,7 +66,7 @@ class KhromaController < ApplicationController
             #  - result_arr[0][0]: 配色法則的名稱
             #  - result_arr[0][1]: 配色法則的圖片  # 圖片製作中...
             result.push([principle_color.principle.name, principle_color.principle.image])
-
+            
             # 2.符合法則的配色顏色 -------------
             # result_arr[1] = color_names: 符合法則的配色顏色
             #  - result_arr[1][0] = 上半身的顏色
