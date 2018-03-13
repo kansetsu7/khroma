@@ -22,7 +22,7 @@
             <ul id="menu-user">
               <% if current_user %>
                 <% if current_user.is_admin? %> 
-                  <li>管理者後台</li>
+                  <li><%= link_to '管理者後台', admin_root_path %></li>
                 <% end %>
                 <li>會員中心</li>
                 <li><%= link_to '登出', destroy_user_session_path %></li>
