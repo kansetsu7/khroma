@@ -36,6 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'csv'
+gem 'omniauth-facebook'
 
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails
 gem 'jquery-rails'
