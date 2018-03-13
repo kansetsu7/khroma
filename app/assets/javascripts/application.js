@@ -18,3 +18,19 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+$(document).on('turbolinks:load', function() {
+
+  $('#go-top-btn a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
+
+  $('.type-pills-panel a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
+});

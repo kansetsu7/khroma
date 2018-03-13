@@ -1,5 +1,16 @@
 class KhromaController < ApplicationController
-  before_action :set_category_list, only: [:pop_choices]
+  before_action :set_category_list, only: [:index ,:pop_choices]
+
+  def index
+    @categories_init = []
+    for i in 0...@category_list.length do
+      for j in 0...@category_list[i].length
+        type_names = []
+        type_names << @category_list[i][j][:name]          
+      end
+      @categories_init[i] = Category.where(gender_id: 1, name: type_names)
+    end
+  end
 
   def navbar
     categories = Category.includes(:types).where(gender_id: params[:id])

@@ -1,0 +1,64 @@
+.type-pills-panel {
+  background: #FFF;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 60px;
+  justify-items: center;
+}
+
+.type-pill {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.angle-down {
+  display: none;
+  font-size: 18px;
+}
+
+.type-pill:hover .angle-down {
+  display: block
+}
+
+.card-header {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  align-items: center;
+}
+
+.go-more-btn {
+  justify-self: end;
+}
+
+.product-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-buttom-row {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+
+.product-brand {
+  align-self: center;
+  object-fit: fit;
+}
+
+.product-price {
+  font-size: 16px;
+  color: var(--red);
+  justify-self: end;
+}

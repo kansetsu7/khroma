@@ -1,20 +1,21 @@
+<% color = ["var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--cyan)", "var(--blue)", "var(--indigo)"] %>
 <div class = "container">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <ul class="nav nav-pills nav-justified">     
-        <% @types.each do |type| %>
-          <li class="nav-item">
-            <%= link_to type.name, type_styles_path(type), class: "nav-link" %>
-          </li>
+  <div class="type-pills-panel shadow-box">     
+    <% @types.each_with_index do |type, index| %>
+      <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
+        <%= link_to "##{type.name.delete('/')}", data: { turbolinks: false } do %>
+          <p><%= type.name %></p>
+          <div class="angle-down"><i class="fa fa-angle-down"></i></div>
         <% end %>
-      </ul>
-    </div>
+      </div>
+    <% end %>
   </div>
-
-
-
-
-
-<%= render partial: "shared/recommend", locals: {objs: @types} %>
-
 </div>
+<div class="container">
+  <div class="type-styles-panel">
+    <%= render partial: "shared/recommend", locals: {objs: @types} %>
+  </div>
+</div>
+
+
+

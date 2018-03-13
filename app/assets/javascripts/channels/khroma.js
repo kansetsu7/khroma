@@ -1,10 +1,10 @@
-$(document).ready(function(){
-  $('#gender_gender_id').on('change', function(){ 
+$(document).on('turbolinks:load', function(){
+  $('#gender-choice .btn').on('click', function(){ 
     $.ajax({
       url: 'khroma/pop_choices',
       method: 'get',
       dataType: 'json',
-      data: { gender_id: $(this).val()},
+      data: { gender_id: $(this).find('input').val()},
       success: function(data){
         $('#up-type-choice').html(data['typesUpHtml']);
         $('#down-type-choice').html(data['typesDownHtml']);
@@ -13,6 +13,7 @@ $(document).ready(function(){
   });
 
   $('#match-btn').on('click', function(){
+    console.log('hi');
     $.ajax({
       url: 'khroma/match',
       method: 'get',
@@ -24,11 +25,6 @@ $(document).ready(function(){
         down_hue_level: $('#down-hue-choice #hue_level_id').val()
       },
       success: function(data){
-        // ==== Original =========================================
-        // $('#up-result').html(data['productsUpMatchHtml']);
-        // $('#down-result').html(data['productsDownMatchHtml']);
-        // ==== END of Original ==================================
-        
         $('#result').html(data['productsMatchHtml']);
       }
     });

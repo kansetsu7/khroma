@@ -20,8 +20,10 @@
               <li class="gender-btn" value="2">Women</li>
             </ul>
             <ul id="menu-user">
-              <li>管理者後台</li>
               <% if current_user %>
+                <% if current_user.is_admin? %> 
+                  <li>管理者後台</li>
+                <% end %>
                 <li>會員中心</li>
                 <li><%= link_to '登出', destroy_user_session_path %></li>
               <% else %>
@@ -36,6 +38,36 @@
         </div>
       </div>
     </header>
+    <div id="top" class="alert-row">
+      <% if flash[:notice] %>
+        <div class="notice alert alert-success" role="alert">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+            <div class="text-center">
+              <%= flash[:notice] %>
+            </div>
+          </div>
+        </div>
+      <% elsif flash[:alert]%> 
+        <div class="alert alert-danger" role="alert">
+          <div class="container">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+            <div class="text-center">
+              <%= flash[:alert] %>
+            </div>
+          </div>
+        </div>               
+      <% end %>
+    </div>
     <%= yield %>
+    <footer>
+      <p>Copyright © 2018 LET IT CODE.</p>
+    </footer>
+    <div id="go-top-btn" class="shadow-box">
+      <%= link_to "#header", data: { turbolinks: false }  do %>
+        <div style="height: 20px"><i class="fa fa-angle-up"></i></div>
+        <p>TOP</p>
+      <% end %>
+    </div>
   </body>
 </html>
