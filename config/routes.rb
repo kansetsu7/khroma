@@ -22,6 +22,10 @@ Rails.application.routes.draw do
   #styles%products interface routes
   resources :styles do
     resources :products, only: [:index]
+
+    member do
+      get :change_color
+    end
   end
 
   #link to product::id not style/style:id/products

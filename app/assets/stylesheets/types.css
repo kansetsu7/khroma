@@ -36,29 +36,6 @@
   justify-self: end;
 }
 
-.product-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr;
-}
-
-.card-deck {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.product-buttom-row {
-  display: grid;
-  grid-template-columns: 35px 1fr;
-}
-
-.product-brand {
-  align-self: center;
-  object-fit: fit;
-}
-
-.product-price {
-  font-size: 16px;
-  color: var(--red);
-  justify-self: end;
+.card-body {
+  padding-bottom: 0px;
 }

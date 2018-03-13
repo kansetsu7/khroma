@@ -1,0 +1,36 @@
+<div class="style-item">
+  <div class="product-img">
+    <%= link_to product_path(style.products.first.id) do %>
+      <%= image_tag(style.products.first.image) %>
+    <% end %>
+  </div>
+  <div class="product-info">
+    <div class="product-color-panel">
+      <% style.colors.each do |color| %>
+        <%= link_to change_color_style_path(color.id), remote: true do %>
+          <div id="<%= color.id %>" class="product-color" style="background-color: <%= color.hex %>"></div>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="product-title">
+      <%= style.products.first.name %>
+    </div>
+    <div class="product-brand-price-row">
+      <div class="product-brand">
+        <% if style.products.first.brand == "lativ" %>
+          <%= image_tag('lativ-logo.png', class: "product-brand-img") %>
+        <% elsif style.products.first.brand == "uniqlo" %>
+          <%= image_tag('uniqlo-logo.png', class: "product-brand-img") %>
+        <% end %>
+      </div>
+      <div class="product-price">
+        $<%= style.products.first.price.round %>
+      </div>
+    </div> 
+    <div class="product-link">
+      <a href="<%= style.products.first.link %>" target="_blank">
+        <button class="btn btn-sm btn-warning">去購買</button>
+      </a>
+    </div>
+  </div>
+</div>

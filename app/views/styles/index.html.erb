@@ -1,6 +1,7 @@
-<% @styles.each do |style| %>
-  <li><%= link_to style.name, style_products_path(style) %></li>
-<% end %>
+<div class="container">
+  <div id="order-selection"></div>
+  <div class="styles-panel">
+    <%= render partial: "shared/product_sm", collection: @styles, as: :style %>
+  </div>
+</div>
 
-<h1>熱門商品</h1>
-<h3>之後可能利用like 或是購買次數來排序</h3>

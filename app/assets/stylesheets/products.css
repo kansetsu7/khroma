@@ -1,0 +1,46 @@
+.td-width {
+  max-width: 200px;
+  word-wrap: break-word; 
+}
+
+.my-badge {
+  margin: 10px;
+}
+
+/* partial product sm */
+
+.product-info {
+  display: grid;
+  padding: 20px;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 40px 20px 1fr;
+}
+
+.product-color {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+}
+
+.product-brand-price-row {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+
+.product-brand {
+  align-self: center;
+  object-fit: fit;
+}
+
+.product-price {
+  font-size: 16px;
+  color: var(--red);
+  justify-self: end;
+}
+
+.product-link {
+  justify-self: end;
+}
+
+

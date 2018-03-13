@@ -1,8 +1,7 @@
 class TypesController < ApplicationController
 
   def index
-    @category = Category.find(params[:category_id])
-    @types = @category.types
+    @types = Type.where(category_id: params[:category_id])
   end
 
 end

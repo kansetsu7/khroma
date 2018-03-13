@@ -1,0 +1,7 @@
+var url = "/products/<%= @product.id %>"
+var img = "<%= @product.image %>"
+var link = "<%=  @product.link %>"
+
+$('#<%= @color.id %>').parents('.style-item').find('.product-img').find('a').attr('href', url);
+$('#<%= @color.id %>').parents('.style-item').find('.product-img').find('img').attr('src', img);
+$('#<%= @color.id %>').parents('.style-item').find('.product-link').find('a').attr('href', link);

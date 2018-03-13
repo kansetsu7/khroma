@@ -1,38 +1,17 @@
-<% objs.each_with_index do |obj, index| %>
-  <div id="<%= obj.name.delete('/') %>" style="padding-top: 40px">
+<% types.each_with_index do |type, index| %>
+  <div id="<%= type.name.delete('/') %>" style="padding-top: 40px">
     <div class="card shadow-box type-styles-card">
       <div class="card-header">
-        <h5><%= obj.name %></h5>
+        <h5><%= type.name %></h5>
         <div class="go-more-btn">
-          <%= link_to type_styles_path(obj.id) do %>
+          <%= link_to type_styles_path(type.id) do %>
             <button class="btn btn-sm btn-primary">去比較更多</button>
           <% end %>
         </div>
       </div>
       <div class="card-body">
-        <div class="card-deck">
-          <% obj.products.order("RANDOM()").limit(4).each do |recommend_product| %> 
-            <div class="card shadow-box-light">
-              <%= link_to product_path(recommend_product) do %>
-                <img class="card-img-top" src= <%= recommend_product.image %> alt="Card image cap">
-              <% end %>
-              <div class="card-body">
-                <div class="product-info">
-                  <p class="product-name"><%= recommend_product.name %></p>
-                  <div class="product-buttom-row">
-                    <div class="product-brand">
-                      <% if recommend_product.brand == "lativ" %>
-                        <%= image_tag('lativ-logo.png', class: "product-brand-img") %>
-                      <% elsif recommend_product.brand == "uniqlo" %>
-                        <%= image_tag('uniqlo-logo.png', class: "product-brand-img") %>
-                      <% end %>
-                    </div>
-                    <div class="product-price">$<%= recommend_product.price.round %></div>
-                  </div>
-                </div>
-              </div>
-            </div>          
-          <% end %>
+        <div class="card-deck styles-panel">
+            <%= render partial: "shared/product_sm", collection: type.styles.order("RANDOM()").limit(4).includes(:products, :colors), as: :style %>
         </div>
       </div>
     </div>    
