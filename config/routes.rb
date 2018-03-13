@@ -5,22 +5,22 @@ Rails.application.routes.draw do
   root "khroma#index"
 
   #genders interface routes
-  resources :genders do
+  resources :genders, only: [:index]  do
     resources :categories, only: [:index]
   end
 
   #categories interface routes
-  resources :categories do
+  resources :categories, only: [] do
     resources :types, only: [:index]
   end
 
   #types interface routes
-  resources :types do 
+  resources :types, only: [] do 
     resources :styles, only: [:index]
   end
 
   #styles%products interface routes
-  resources :styles do
+  resources :styles, only: [] do
     resources :products, only: [:index]
   end
 
@@ -39,23 +39,22 @@ Rails.application.routes.draw do
   namespace :admin do
     root "genders#index"
 
-    resources :genders do
-      resources :categories
+    resources :genders, except: [:show, :new]  do
+      resources :categories, only: [:index]
     end
 
-    resources :categories do
-      resources :types
+    resources :categories, except: [:show, :new] do
+      resources :types, only: [:index]
     end
 
-    resources :types do
-      resources :styles
+    resources :types, except: [:show, :new] do
+      resources :styles, only: [:index]
     end
 
-    resources :styles do
-      resources :products
+    resources :styles, except: [:show, :new] do
+      resources :products, except: [:show, :new]
     end
-
-    resources :products
+    resources :products, only: [:edit, :update, :delete]
   end
   
 end

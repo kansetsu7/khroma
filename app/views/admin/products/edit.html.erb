@@ -8,18 +8,16 @@
           <% @product.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
-          <th scope="col">edit</th> 
-          <th scope="col">delete</th>
+ 
         </tr>
       </thead>
       <tbody>
        
           <tr>
             <% @product.attributes.each do |key,value|  %>
-              <td class = "td-width"><%= link_to value, admin_style_products_path(@product) %></td>
+              <td class = "td-width"><%= value %></td>
             <% end %>
-            <td><%= link_to "編輯", edit_admin_product_path(@product) %></td>
-            <td><%= link_to "刪除", admin_product_path(@product), method: :delete %></td>
+
           </tr>
      
       </tbody>
