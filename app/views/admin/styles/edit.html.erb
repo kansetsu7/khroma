@@ -8,18 +8,16 @@
           <% @styles.first.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
-          <th scope="col">edit</th> 
-          <th scope="col">delete</th>
+
         </tr>
       </thead>
       <tbody>
        
           <tr>
             <% @style.attributes.each do |key,value|  %>
-              <td><%= link_to value, admin_gender_categories_path(@style) %></td>
+              <td><%= value %></td>
             <% end %>
-            <td><%= link_to "編輯", edit_admin_style_path(@style) %></td>
-            <td><%= link_to "刪除", admin_style_path(@style), method: :delete %></td>
+
           </tr>
      
       </tbody>

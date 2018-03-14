@@ -1,4 +1,4 @@
-class Admin::TypesController < ApplicationController
+class Admin::TypesController < Admin::AdminController
 
   def index
     if params[:category_id].present?

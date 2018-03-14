@@ -8,18 +8,16 @@
           <% @genders.first.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
-          <th scope="col">edit</th> 
-          <th scope="col">delete</th>
+
         </tr>
       </thead>
       <tbody>
        
           <tr>
             <% @gender.attributes.each do |key,value|  %>
-              <td><%= link_to value, admin_gender_categories_path(@gender) %></td>
+              <td><%= value %></td>
             <% end %>
-            <td><%= link_to "編輯", edit_admin_gender_path(@gender) %></td>
-            <td><%= link_to "刪除", admin_gender_path(@gender), method: :delete %></td>
+
           </tr>
      
       </tbody>
