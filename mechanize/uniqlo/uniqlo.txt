@@ -1,6 +1,4 @@
-<div class="set-alias loaded" data-layer="10"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/10">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+<div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404397" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404397/item/00_404397_middles.jpg">
@@ -53,8 +51,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404397">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406427" data-color-code="00" class="l3_alias_color_chip" data-min-size="S" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406427/item/00_406427_middles.jpg">
@@ -97,8 +94,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406427">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400657" data-color-code="00" class="l3_alias_color_chip" data-min-size="S" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400657/item/00_400657_middles.jpg">
@@ -131,8 +127,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400657">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400660" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400660/item/00_400660_middles.jpg">
@@ -165,8 +160,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400660">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="178796" data-color-code="00" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XXL" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/178796/item/00_178796_middles.jpg">
@@ -199,11 +193,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="178796">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="08"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/08">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406588" data-color-code="15" class="l3_alias_color_chip" data-min-size="S" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406588/item/15_406588_middles.jpg">
@@ -236,8 +226,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406588">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406585" data-color-code="12" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406585/item/12_406585_middles.jpg">
@@ -270,8 +259,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406585">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="406586" data-color-code="65" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="M" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406586/item/65_406586_middles.jpg">
                     <img width="22" height="22" alt="65" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/406586/chip/65_406586.gif" onerror="errorColorChip(this)">
@@ -297,8 +285,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406586">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408005" data-color-code="61" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408005/item/61_408005_middles.jpg">
                     <img width="22" height="22" alt="61" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408005/chip/61_408005.gif" onerror="errorColorChip(this)">
@@ -324,11 +311,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408005">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="02"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/02">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404398" data-color-code="03" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404398/item/03_404398_middles.jpg">
@@ -371,8 +354,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404398">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406581" data-color-code="61" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406581/item/61_406581_middles.jpg">
@@ -405,8 +387,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406581">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406582" data-color-code="06" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406582/item/06_406582_middles.jpg">
@@ -439,8 +420,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406582">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406580" data-color-code="01" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406580/item/01_406580_middles.jpg">
@@ -473,8 +453,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406580">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406583" data-color-code="15" class="l3_alias_color_chip" data-min-size="XS" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406583/item/15_406583_middles.jpg">
@@ -507,8 +486,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406583">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406584" data-color-code="01" class="l3_alias_color_chip" data-min-size="XXL" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406584/item/01_406584_middles.jpg">
@@ -541,8 +519,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406584">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="406587" data-color-code="64" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406587/item/64_406587_middles.jpg">
                     <img width="22" height="22" alt="64" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/406587/chip/64_406587.gif" onerror="errorColorChip(this)">
@@ -568,8 +545,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406587">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401819" data-color-code="17" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="M" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401819/item/17_401819_middles.jpg">
                     <img width="22" height="22" alt="17" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401819/chip/17_401819.gif" onerror="errorColorChip(this)">
@@ -595,8 +571,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401819">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401814" data-color-code="67" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401814/item/67_401814_middles.jpg">
                     <img width="22" height="22" alt="67" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401814/chip/67_401814.gif" onerror="errorColorChip(this)">
@@ -622,8 +597,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401814">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401816" data-color-code="57" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401816/item/57_401816_middles.jpg">
                     <img width="22" height="22" alt="57" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401816/chip/57_401816.gif" onerror="errorColorChip(this)">
@@ -649,8 +623,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401816">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="402959" data-color-code="05" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/402959/item/05_402959_middles.jpg">
                     <img width="22" height="22" alt="05" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/402959/chip/05_402959.gif" onerror="errorColorChip(this)">
@@ -676,8 +649,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="402959">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401815" data-color-code="58" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="S" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401815/item/58_401815_middles.jpg">
                     <img width="22" height="22" alt="58" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401815/chip/58_401815.gif" onerror="errorColorChip(this)">
@@ -703,8 +675,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401815">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401817" data-color-code="66" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401817/item/66_401817_middles.jpg">
                     <img width="22" height="22" alt="66" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401817/chip/66_401817.gif" onerror="errorColorChip(this)">
@@ -730,8 +701,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401817">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401818" data-color-code="55" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401818/item/55_401818_middles.jpg">
                     <img width="22" height="22" alt="55" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401818/chip/55_401818.gif" onerror="errorColorChip(this)">
@@ -757,8 +727,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401818">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="402958" data-color-code="68" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/402958/item/68_402958_middles.jpg">
                     <img width="22" height="22" alt="68" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/402958/chip/68_402958.gif" onerror="errorColorChip(this)">
@@ -784,8 +753,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="402958">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400658" data-color-code="06" class="l3_alias_color_chip" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400658/item/06_400658_middles.jpg">
@@ -818,11 +786,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400658">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="09"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/09">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408555" data-color-code="01" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408555/item/01_408555_middles.jpg">
                     <img width="22" height="22" alt="01" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408555/chip/01_408555.gif" onerror="errorColorChip(this)">
@@ -848,8 +812,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408555">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408556" data-color-code="68" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408556/item/68_408556_middles.jpg">
                     <img width="22" height="22" alt="68" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408556/chip/68_408556.gif" onerror="errorColorChip(this)">
@@ -876,8 +839,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408556">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408557" data-color-code="14" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408557/item/14_408557_middles.jpg">
                     <img width="22" height="22" alt="14" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408557/chip/14_408557.gif" onerror="errorColorChip(this)">
@@ -904,8 +866,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408557">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408558" data-color-code="02" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408558/item/02_408558_middles.jpg">
                     <img width="22" height="22" alt="02" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408558/chip/02_408558.gif" onerror="errorColorChip(this)">
@@ -932,8 +893,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408558">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408560" data-color-code="64" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408560/item/64_408560_middles.jpg">
                     <img width="22" height="22" alt="64" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408560/chip/64_408560.gif" onerror="errorColorChip(this)">
@@ -960,11 +920,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408560">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="01"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/01">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404392" data-color-code="01" class="l3_alias_color_chip" data-min-size="S" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404392/item/01_404392_middles.jpg">
@@ -972,7 +928,7 @@
                   </a>
                 </li>
 <li>
-                  <a href="#" data-item-code="404392" data-color-code="06" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404392/item/06_404392_middles.jpg">
+                  <a href="#" data-item-code="404392" data-color-code="06" class="l3_alias_color_chip" data-min-size="XS" data-max-size="M" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404392/item/06_404392_middles.jpg">
                     <img width="22" height="22" alt="06" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/404392/chip/06_404392.gif" onerror="errorColorChip(this)">
                   </a>
                 </li>
@@ -1012,8 +968,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404392">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400652" data-color-code="01" class="l3_alias_color_chip" data-min-size="S" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400652/item/01_400652_middles.jpg">
@@ -1061,11 +1016,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400652">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="04"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/04">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="192182" data-color-code="01" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XL" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/192182/item/01_192182_middles.jpg">
                     <img width="22" height="22" alt="01" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/192182/chip/01_192182.gif" onerror="errorColorChip(this)">
@@ -1092,11 +1043,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="192182">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="17"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/17">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406043" data-color-code="01" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406043/item/01_406043_middles.jpg">
@@ -1149,11 +1096,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406043">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="05"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/05">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406590" data-color-code="62" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406590/item/62_406590_middles.jpg">
@@ -1187,8 +1130,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406590">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404399" data-color-code="05" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404399/item/05_404399_middles.jpg">
@@ -1227,8 +1169,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404399">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="401833" data-color-code="65" class="l3_alias_color_chip" data-min-size="S" data-max-size="XL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401833/item/65_401833_middles.jpg">
@@ -1261,8 +1202,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401833">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="192503" data-color-code="63" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/192503/item/63_192503_middles.jpg">
                     <img width="22" height="22" alt="63" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/192503/chip/63_192503.gif" onerror="errorColorChip(this)">
@@ -1289,8 +1229,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="192503">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400659" data-color-code="06" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400659/item/06_400659_middles.jpg">
@@ -1324,8 +1263,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400659">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="19250300001" data-color-code="04" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/19250300001/item/04_19250300001_middles.jpg">
@@ -1364,11 +1302,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="19250300001">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="06"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/06">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406600" data-color-code="01" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406600/item/01_406600_middles.jpg">
@@ -1402,8 +1336,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406600">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404406" data-color-code="00" class="l3_alias_color_chip" data-min-size="S" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404406/item/00_404406_middles.jpg">
@@ -1569,8 +1502,7 @@
                 </li>
 </ul></div>
 <p class="l3_show_colorchip_collection"><span><a href="#">查看更多</a></span></p>
-</div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+</div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406601" data-color-code="66" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406601/item/66_406601_middles.jpg">
@@ -1604,8 +1536,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406601">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406602" data-color-code="03" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406602/item/03_406602_middles.jpg">
@@ -1639,11 +1570,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406602">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="12"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/12">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404408" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404408/item/00_404408_middles.jpg">
@@ -1701,11 +1628,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404408">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="11"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/11">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="404409" data-color-code="15" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404409/item/15_404409_middles.jpg">
                     <img width="22" height="22" alt="15" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/404409/chip/15_404409.gif" onerror="errorColorChip(this)">
@@ -1731,8 +1654,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404409">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="406603" data-color-code="69" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406603/item/69_406603_middles.jpg">
                     <img width="22" height="22" alt="69" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/406603/chip/69_406603.gif" onerror="errorColorChip(this)">
@@ -1758,8 +1680,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406603">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="406604" data-color-code="04" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406604/item/04_406604_middles.jpg">
                     <img width="22" height="22" alt="04" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/406604/chip/04_406604.gif" onerror="errorColorChip(this)">
@@ -1785,8 +1706,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406604">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="406605" data-color-code="13" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406605/item/13_406605_middles.jpg">
                     <img width="22" height="22" alt="13" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/406605/chip/13_406605.gif" onerror="errorColorChip(this)">
@@ -1812,8 +1732,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406605">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408025" data-color-code="62" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408025/item/62_408025_middles.jpg">
                     <img width="22" height="22" alt="62" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408025/chip/62_408025.gif" onerror="errorColorChip(this)">
@@ -1839,8 +1758,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408025">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408026" data-color-code="52" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408026/item/52_408026_middles.jpg">
                     <img width="22" height="22" alt="52" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408026/chip/52_408026.gif" onerror="errorColorChip(this)">
@@ -1866,8 +1784,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408026">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="408027" data-color-code="38" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408027/item/38_408027_middles.jpg">
                     <img width="22" height="22" alt="38" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/408027/chip/38_408027.gif" onerror="errorColorChip(this)">
@@ -1893,11 +1810,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408027">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="15"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/15">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406428" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406428/item/00_406428_middles.jpg">
@@ -1950,8 +1863,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406428">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406429" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406429/item/00_406429_middles.jpg">
@@ -2004,11 +1916,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406429">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="16"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/16">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401849" data-color-code="01" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401849/item/01_401849_middles.jpg">
                     <img width="22" height="22" alt="01" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401849/chip/01_401849.gif" onerror="errorColorChip(this)">
@@ -2035,8 +1943,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401849">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="407626" data-color-code="68" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="M" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/407626/item/68_407626_middles.jpg">
                     <img width="22" height="22" alt="68" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/407626/chip/68_407626.gif" onerror="errorColorChip(this)">
@@ -2063,8 +1970,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="407626">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="401840" data-color-code="15" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="S" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401840/item/15_401840_middles.jpg">
@@ -2098,8 +2004,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401840">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401845" data-color-code="17" class="l3_alias_color_chip l3_colorchip_active" data-min-size="M" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401845/item/17_401845_middles.jpg">
                     <img width="22" height="22" alt="17" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401845/chip/17_401845.gif" onerror="errorColorChip(this)">
@@ -2126,8 +2031,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401845">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401847" data-color-code="69" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401847/item/69_401847_middles.jpg">
                     <img width="22" height="22" alt="69" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401847/chip/69_401847.gif" onerror="errorColorChip(this)">
@@ -2154,8 +2058,34 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401847">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    <ul class="l3_alias_color_chip_list"><li>
+                  <a href="#" data-item-code="401836" data-color-code="68" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401836/item/68_401836_middles.jpg">
+                    <img width="22" height="22" alt="68" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401836/chip/68_401836.gif" onerror="errorColorChip(this)">
+                  </a>
+                </li></ul>
+<p class="colo_chip_in_size">S</p>
+<dl class="info">
+    <dt class="name">
+    <a href="http://www.uniqlo.com/tw/store/goods/401836" title="男裝 法蘭絨格紋襯衫 (長袖)">男裝 法蘭絨格紋襯衫 (長袖)</a>
+    </dt>
+    <dd class="thumb">
+    <a href="http://www.uniqlo.com/tw/store/goods/401836" title="男裝 法蘭絨格紋襯衫 (長袖)">
+    <img src="http://im.uniqlo.com/images/tw/uq/pc/goods/401836/item/68_401836_middles.jpg" color_chip_image="http://im.uniqlo.com/images/tw/uq/pc/goods/401836/item/68_401836_middles.jpg" title="男裝 法蘭絨格紋襯衫 (長袖)" alt="男裝 法蘭絨格紋襯衫 (長袖)" width="228" height="228" onerror="alterImage(this, 'http://im.uniqlo.com/images/tw/uq/pc/img/material/nopicture_TW.gif')">
+    </a>
+    </dd>
+    <dd class="price fr-alias-primary--color01">
+        NT$390</dd>
+      <dd class="tag">
+    <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/tag/txt_tag_001.gif">
+    <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/tag/txt_tag_sale_TW.gif" alt="特價商品" title="特價商品">
+    <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/tag/txt_tag_special_size_TW.gif" alt="特別尺寸" title="特別尺寸">
+    </dd>
+    <dd class="quickview" style="display: none;">
+    <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401836">
+    </dd>
+    </dl>
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="401837" data-color-code="09" class="l3_alias_color_chip" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401837/item/09_401837_middles.jpg">
@@ -2189,8 +2119,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401837">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="401839" data-color-code="15" class="l3_alias_color_chip" data-min-size="S" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401839/item/15_401839_middles.jpg">
@@ -2224,8 +2153,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401839">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401842" data-color-code="08" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401842/item/08_401842_middles.jpg">
                     <img width="22" height="22" alt="08" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401842/chip/08_401842.gif" onerror="errorColorChip(this)">
@@ -2252,8 +2180,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401842">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="401834" data-color-code="17" class="l3_alias_color_chip" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401834/item/17_401834_middles.jpg">
@@ -2292,8 +2219,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401834">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401841" data-color-code="66" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401841/item/66_401841_middles.jpg">
                     <img width="22" height="22" alt="66" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401841/chip/66_401841.gif" onerror="errorColorChip(this)">
@@ -2320,8 +2246,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401841">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="401848" data-color-code="08" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/401848/item/08_401848_middles.jpg">
                     <img width="22" height="22" alt="08" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/401848/chip/08_401848.gif" onerror="errorColorChip(this)">
@@ -2348,8 +2273,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="401848">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="40184600001" data-color-code="07" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/40184600001/item/07_40184600001_middles.jpg">
                     <img width="22" height="22" alt="07" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/40184600001/chip/07_40184600001.gif" onerror="errorColorChip(this)">
@@ -2376,8 +2300,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="40184600001">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="40183900001" data-color-code="08" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/40183900001/item/08_40183900001_middles.jpg">
                     <img width="22" height="22" alt="08" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/40183900001/chip/08_40183900001.gif" onerror="errorColorChip(this)">
@@ -2404,11 +2327,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="40183900001">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="03"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/03">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="400662" data-color-code="01" class="l3_alias_color_chip" data-min-size="L" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/400662/item/01_400662_middles.jpg">
@@ -2447,13 +2366,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="400662">
     </dd>
     </dl>
-    </div>
-  </div>
-</div></div></div><div class="set-alias loaded" data-layer="18"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/18">
-  <p class="msgNoResult">很抱歉，您所選擇的商品目前已經沒有庫存。</p>
-</div></div></div><div class="set-alias loaded" data-layer="13"><div class="clearfix domCreate"><div class="lineupAlias" data-import-layer="/ftop/uq/men/tops/casual-shirts-long/13">
-  <div id="blkMainItemList" class="blkItemList blkUnitSize01 clearfix">
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406591" data-color-code="01" class="l3_alias_color_chip" data-min-size="S" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406591/item/01_406591_middles.jpg">
@@ -2507,8 +2420,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406591">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404413" data-color-code="00" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404413/item/00_404413_middles.jpg">
@@ -2552,8 +2464,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404413">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="404411" data-color-code="01" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404411/item/01_404411_middles.jpg">
@@ -2587,8 +2498,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404411">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="408363" data-color-code="01" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408363/item/01_408363_middles.jpg">
@@ -2622,8 +2532,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408363">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="408572" data-color-code="08" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408572/item/08_408572_middles.jpg">
@@ -2662,8 +2571,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408572">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="408573" data-color-code="17" class="l3_alias_color_chip l3_colorchip_active" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408573/item/17_408573_middles.jpg">
@@ -2698,8 +2606,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408573">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="408574" data-color-code="08" class="l3_alias_color_chip" data-min-size="XS" data-max-size="XXL" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/408574/item/08_408574_middles.jpg">
@@ -2733,8 +2640,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="408574">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list"><li>
                   <a href="#" data-item-code="404403" data-color-code="35" class="l3_alias_color_chip" data-min-size="S" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/404403/item/35_404403_middles.jpg">
                     <img width="22" height="22" alt="35" src="//im.uniqlo.com/images/tw/uq/pc/img/material/colorchip/chip_placeholder.png" color_chip_image="//im.uniqlo.com/images/tw/uq/pc/goods/404403/chip/35_404403.gif" onerror="errorColorChip(this)">
@@ -2760,8 +2666,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="404403">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="406533" data-color-code="00" class="l3_alias_color_chip" data-min-size="S" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/406533/item/00_406533_middles.jpg">
@@ -2804,8 +2709,7 @@
     <img src="http://im.uniqlo.com/images/tw/uq/pc/img/material/btn-product-quickview_TW.gif" alt="quick view" class="btn L4Mini imgover" l1goodscd="406533">
     </dd>
     </dl>
-    </div>
-  <div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
+    </div><div class="unit l3_alias_color_chip_group alias_initialized color_chip_init" data-sort-no="sorted">
     <ul class="l3_alias_color_chip_list">
 <li>
                   <a href="#" data-item-code="407439" data-color-code="35" class="l3_alias_color_chip l3_colorchip_active" data-min-size="S" data-max-size="L" data-image-path="//im.uniqlo.com/images/tw/uq/pc/goods/407439/item/35_407439_middles.jpg">
@@ -2839,5 +2743,3 @@
     </dd>
     </dl>
     </div>
-  </div>
-</div></div></div>

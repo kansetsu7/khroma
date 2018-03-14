@@ -12,56 +12,76 @@ def get_uniqlo_data(category_from_file)
 
 end
 
+def get_uniqlo_products
+  page = get_page('http://www.uniqlo.com/tw/store/goods/404397')
+  puts page.search("img[title=\"放大\"]").first['src']
+end
+
 def get_uniqlo_styles
-  puts "get_uniqlo_styles"
+  puts "==== get_uniqlo_styles ===="
   types_link_arr = read_type_links
 
-  styles_arr = []     
-  for i in 0...$n_genders do  # styles_arr = [gender0_arr, gender1arr, ...]
+  styles_arr = []
+  types_link_arr.each_with_index do |gender, i|  # types_arr = [gender0_arr, gender1_arr, ...]
     styles_arr.push([])
-    for j in 0...types_link_arr[i].size do # gender_arr = [cate0_arr, cate1_arr, ...]
-      styles_arr[i].push([])
-      for k in 0...types_link_arr[i][j].size do  # cate0_arr = [type0_arr, type1_arr, ...]
-        styles_arr[i][j].push([])  # type0_arr = [] 之後爬到資料會變成[style1, style2]
+    gender.each_with_index do |category, j|  # gender0 = [cate0_arr, cate1_arr, ...]
+      styles_arr[i].push([])  # cate0_arr = [type0_arr, type1_arr, ...]
+      category.each_with_index do |type, k|
+        styles_arr[i][j].push([])  # type0_arr = []
       end
     end
   end
 
-  agent = Mechanize.new { |agent|
-    agent.user_agent_alias = 'Mac Safari'
-  }
-
-  # read styles from file
-  types_link_arr.each_with_index do |categories, i|
-    categories.each_with_index do |types, j|
-      types.each_with_index do |type_link|
-        puts "#{i}, #{j}, #{k}, #{type_link}" 
+  styles_arr.each_with_index do |gender, i|
+    next unless i == 0  # 先抓men (i==0)
+    gender.each_with_index do |category, j|
+      # next unless j == 0
+      puts "get styles for gender#{i}'s category#{j}..."
+      category.each_with_index do |type, k|
+        # next unless k == 0
+        puts "goto #{types_link_arr[i][j][k]}"
+        styles_of_category_arr = get_uniqlo_styles_of_type(types_link_arr[i][j][k])
+        styles_of_category_arr.each_with_index do |style, l|
+          styles_arr[i][j][k].push(style)
+          style[1].slice!('NT$')  # remove NT$ from price
+          # styles_arr[i][j][k][l][2] = "http://www.lativ.com.tw" + styles_arr[i][j][k][l][2]
+        end
+        # sleep(1) 
       end      
-    end    
+    end      
   end
+
+  # puts "product name: #{styles_arr[i][j][k][l][0]}"
+  # puts "price:        #{styles_arr[i][j][k][l][1]}"
+  # puts "link:         #{styles_arr[i][j][k][l][2]}"
+  write_styles(styles_arr)
   
 end
 
-def get_uniqlo_styles_of_one_category
-  page = get_page("http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016")
-  styles = page.search("div.set-alias")
-  File.open("./uniqlo.txt", 'w') { |file| file.write(styles) }
-
-  # .search("div.domCreate").search("div.lineupAlias").search("div.blkItemList").search("div.unit")
+def get_uniqlo_styles_of_type(type_link)
+  styles_arr = []
+  page = get_page(type_link)
+  styles = page.search("div.set-alias").search("div.domCreate").search("div.lineupAlias").search("div.blkItemList").search("div.unit")
+  # File.open("./uniqlo.txt", 'w') { |file| file.write(styles) }
   
-  # styles.each_with_index do |style, i|
-  #   puts style.text
-  # end
+  styles.each_with_index do |style, i|
+    # name, price, link, color1, color2, ..., color_n
+    style_info = [style.search("dt.name").first.text.strip, style.search("dd.price").first.text.strip, style.search("dd.thumb>a").first['href']]
+    style.search("li>a").each_with_index do |color, i|
+      style_info.push(color['data-color-code'])
+    end
+    styles_arr.push(style_info)
+  end
+  styles_arr
 end
 
 def get_page(style_link)
   browser = Watir::Browser.new :safari  # open safari
   browser.goto(style_link)
-  # puts browser.cookies[:my_session]
-  sleep(5)
+  sleep(2)
   page = Nokogiri::HTML.fragment(browser.html)
-  # version = browser.execute_script('return jQuery.fn.jquery')
   browser.close
+  system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
   page
 end
 
@@ -94,6 +114,7 @@ def get_uniqlo_types(category_from_file)
       types.each_with_index do |type, k|
         type_link = type.search('a')[0].nil? ? nil : type.search('a')[0]['href']
         # puts "#{i}, #{j}, #{k}, #{type.text}, #{type_link}" 
+        bottom_type_count = 0      # 下身類專用
         if k == 0
           category_name = type.text  # 第一行是category名稱, 後面才是該category所屬types
         else
@@ -106,10 +127,13 @@ def get_uniqlo_types(category_from_file)
                   pants_types_arr.each do |pants_type|
                     types_arr[i][l].push([pants_type, type.search('a')[0]['href']])
                   end
-                elsif !type.text.include?('褲')  # 不是褲子，要存下來
+                elsif !type.text.include?('褲') || bottom_type_count < 3
+                  # 不是褲子，要存下來; 下身類前三個不會出現在'所有褲裝'裡面，要存下來。
                   types_arr[i][l].push([type.text, type.search('a')[0]['href']])
                 end
+                bottom_type_count += 1
               else
+                # 不是'下身類'
                 types_arr[i][l].push([type.text, type.search('a')[0]['href']])  
               end              
               # puts "--- #{types_arr[i][l]}"
@@ -168,6 +192,30 @@ def get_uniqlo_categories
 
   # ===== write data in files =====
   write_categories(categories_arr)
+end
+
+
+
+def write_styles(styles_arr)
+  puts "==== writing styles.txt ====" 
+  style_id = 0
+  writer = CSV.open("./styles.txt", "wt")
+  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id", "many_colors"]
+  styles_arr.each_with_index do |gender, i|
+    gender.each_with_index do |category, j|
+      puts "write styles for gender#{i}'s category#{j}..."
+      category.each_with_index do |type, k|
+        type.each_with_index do |styles, l|
+          row = [style_id, styles[0], styles[1], styles[2], i, j, k]
+          for m in 3...styles.count
+            row.push(styles[m])
+          end
+          writer << row
+        end
+        style_id += 1
+      end      
+    end    
+  end
 end
 
 def read_type_links
@@ -293,14 +341,13 @@ def puts_genders()
   end
 end
 
-# page = agent.get("http://www.uniqlo.com/tw/").links_with(:text => 'WOMEN')[0]
 
 # get_uniqlo_pants_types("http://www.uniqlo.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016")
 
-get_uniqlo_styles_of_one_category
+# get_uniqlo_styles_of_type("http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016")
+get_uniqlo_styles
 
 # ok!
 # get_uniqlo_data(true)
-
 
 
