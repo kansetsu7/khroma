@@ -21,7 +21,7 @@
             </ul>
             <ul id="menu-user">
               <% if current_user %>
-                <% if current_user.is_admin? %> 
+                <% if current_user.admin? %> 
                   <li><%= link_to '管理者後台', admin_root_path %></li>
                 <% end %>
                 <li>會員中心</li>

@@ -1,7 +1,7 @@
 .type-pills-panel {
   background: #FFF;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   height: 60px;
   justify-items: center;
 }
