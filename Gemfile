@@ -35,7 +35,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
-gem 'csv'
+gem 'csv'               # for web scrabing (save data files)
+gem 'watir'             # for web scrabing
+gem 'mechanize'         # for web scrabing
 gem 'omniauth-facebook'
 
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails

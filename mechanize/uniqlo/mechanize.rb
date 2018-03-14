@@ -57,7 +57,10 @@ end
 def get_page(style_link)
   browser = Watir::Browser.new :safari  # open safari
   browser.goto(style_link)
+  # puts browser.cookies[:my_session]
+  sleep(5)
   page = Nokogiri::HTML.fragment(browser.html)
+  # version = browser.execute_script('return jQuery.fn.jquery')
   browser.close
   page
 end
