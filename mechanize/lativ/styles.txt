@@ -2,13 +2,10 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,迪士尼系列印花T恤-21-男,290,http://www.lativ.com.tw/Detail/35199011,0,0,0
 0,迪士尼系列印花T恤-F03-男,290,http://www.lativ.com.tw/Detail/34704011,0,0,0
 0,迪士尼系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34393011,0,0,0
-0,迪士尼系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34393021,0,0,0
-0,迪士尼系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34393031,0,0,0
 0,迪士尼系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34700011,0,0,0
 0,迪士尼系列羅紋配色印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34540011,0,0,0
 0,迪士尼系列羅紋配色T恤-04-男,260,http://www.lativ.com.tw/Detail/34325011,0,0,0
 0,迪士尼系列印花T恤-F05-男,260,http://www.lativ.com.tw/Detail/34534011,0,0,0
-0,迪士尼系列印花T恤-F05-男,260,http://www.lativ.com.tw/Detail/34534021,0,0,0
 0,迪士尼系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34537011,0,0,0
 0,迪士尼系列口袋印花T恤-06-男,350,http://www.lativ.com.tw/Detail/34539011,0,0,0
 0,迪士尼系列印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34538011,0,0,0
@@ -19,7 +16,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,迪士尼系列印花T-12-男,199,http://www.lativ.com.tw/Detail/30541013,0,0,0
 0,迪士尼系列印花T-11-男,199,http://www.lativ.com.tw/Detail/30540013,0,0,0
 0,皮克斯系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34329011,0,0,0
-0,皮克斯系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34328011,0,0,0
+0,皮克斯系列印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/34328011,0,0,0
 0,皮克斯系列印花T恤-01-男,290,http://www.lativ.com.tw/Detail/34327011,0,0,0
 0,STAR WARS系列印花T恤-F03-男,260,http://www.lativ.com.tw/Detail/34575011,0,0,0
 0,STAR WARS系列印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34555011,0,0,0
@@ -32,10 +29,8 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,STAR WARS系列印花T恤-F04-男,260,http://www.lativ.com.tw/Detail/35201011,0,0,0
 0,STAR WARS系列印花T恤-07-男,260,http://www.lativ.com.tw/Detail/34703011,0,0,0
 0,STAR WARS系列印花T恤-06-男,260,http://www.lativ.com.tw/Detail/34702011,0,0,0
-0,STAR WARS系列印花T恤-03-男,260,http://www.lativ.com.tw/Detail/32469011,0,0,0
-0,STAR WARS系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/32468011,0,0,0
 0,漫威系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34443011,0,0,0
-0,漫威系列印花T恤-06-男,290,http://www.lativ.com.tw/Detail/34444011,0,0,0
+0,漫威系列印花T恤-06-男,260,http://www.lativ.com.tw/Detail/34444011,0,0,0
 0,漫威系列羅紋配色印花T恤-09-男,260,http://www.lativ.com.tw/Detail/34446011,0,0,0
 0,漫威系列羅紋配色印花T恤-08-男,260,http://www.lativ.com.tw/Detail/34350011,0,0,0
 0,漫威系列印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/34354011,0,0,0
@@ -52,10 +47,9 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,Hallmark印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34359011,0,0,0
 0,Hallmark印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34358011,0,0,0
 0,Hallmark印花T恤-F01-男,350,http://www.lativ.com.tw/Detail/34360011,0,0,0
-0,欠妹關注印花T恤-男,145,http://www.lativ.com.tw/Detail/32567011,0,0,0
 0,隨便啦貘印花T恤-男,290,http://www.lativ.com.tw/Detail/34532011,0,0,0
 0,奔跑來貘印花T恤-男,260,http://www.lativ.com.tw/Detail/34525011,0,0,0
-0,Polar Bear Benjamin印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34518011,0,0,0
+0,Polar Bear Benjamin印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/34518011,0,0,0
 0,Polar Bear Benjamin印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34512011,0,0,0
 0,Polar Bear Benjamin印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34516011,0,0,0
 0,billboard印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34651011,0,0,0
@@ -78,452 +72,178 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,Keith Haring印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34508011,0,0,0
 0,Keith Haring印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34502011,0,0,0
 0,Keith Haring印花T恤-07-男,260,http://www.lativ.com.tw/Detail/34505011,0,0,0
+0,Qee口袋印花T恤-05-男,390,http://www.lativ.com.tw/Detail/34572011,0,0,0
 0,Qee印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34570011,0,0,0
 0,Qee印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34490011,0,0,0
 0,Qee印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34489011,0,0,0
 0,Qee印花T恤-04-男,260,http://www.lativ.com.tw/Detail/34571011,0,0,0
 0,小小兵系列印花T恤-F04-男,290,http://www.lativ.com.tw/Detail/34669011,0,0,0
-0,小小兵系列印花T恤-F03-男,260,http://www.lativ.com.tw/Detail/34670011,0,0,0
-0,小小兵系列印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/34668011,0,0,0
+0,小小兵系列印花T恤-F03-男,290,http://www.lativ.com.tw/Detail/34670011,0,0,0
+0,小小兵系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34668011,0,0,0
 0,小小兵系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34664011,0,0,0
 0,小小兵系列印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34672011,0,0,0
 0,小小兵系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34666011,0,0,0
 0,小小兵系列口袋印花T恤-04-男,350,http://www.lativ.com.tw/Detail/34671011,0,0,0
 0,小小兵系列印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34667011,0,0,0
 0,小小兵系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34665011,0,0,0
-0,侏儸紀世界系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34636011,0,0,0
+0,侏儸紀世界系列印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/34636011,0,0,0
 0,侏儸紀世界系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34547011,0,0,0
 0,侏儸紀世界系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34419011,0,0,0
 0,國家地理印花T恤-L02-男,290,http://www.lativ.com.tw/Detail/35172011,0,0,0
-0,國家地理印花T恤-L01-男,290,http://www.lativ.com.tw/Detail/35170011,0,0,0
+0,國家地理印花T恤-L01-男,260,http://www.lativ.com.tw/Detail/35170011,0,0,0
 0,國家地理印花T恤-F03-男,390,http://www.lativ.com.tw/Detail/35187011,0,0,0
 0,國家地理印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/35186011,0,0,0
 0,國家地理印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/35174011,0,0,0
 0,國家地理印花T恤-02-男,260,http://www.lativ.com.tw/Detail/35185011,0,0,0
 0,國家地理印花T恤-01-男,290,http://www.lativ.com.tw/Detail/35176011,0,0,0
-0,國家地理口袋印花T恤-03-男,390,http://www.lativ.com.tw/Detail/35169011,0,0,0
+0,國家地理口袋印花T恤-03-男,350,http://www.lativ.com.tw/Detail/35169011,0,0,0
 0,國家地理印花T恤-F04-男,290,http://www.lativ.com.tw/Detail/35166011,0,0,0
-0,Peppa Pig印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34391011,0,0,0
+0,Peppa Pig印花T恤-01-男,290,http://www.lativ.com.tw/Detail/34391011,0,0,0
 0,璀璨夜景印花T恤-男,260,http://www.lativ.com.tw/Detail/34613011,0,0,0
-0,璀璨夜景印花T恤-男,260,http://www.lativ.com.tw/Detail/34613021,0,0,0
 0,夏日西瓜印花T恤-男,260,http://www.lativ.com.tw/Detail/34568011,0,0,0
 0,文字印花T恤-07-男,260,http://www.lativ.com.tw/Detail/34641011,0,0,0
 0,文字印花T恤-06-男,260,http://www.lativ.com.tw/Detail/34640011,0,0,0
 0,文字印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34584011,0,0,0
 0,文字印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34580011,0,0,0
 0,文字印花T恤-L05-男,260,http://www.lativ.com.tw/Detail/34639011,0,0,0
-0,文字印花T恤-L05-男,260,http://www.lativ.com.tw/Detail/34639021,0,0,0
 0,文字印花T恤-L04-男,260,http://www.lativ.com.tw/Detail/34583011,0,0,0
 0,文字印花T恤-L02-男,260,http://www.lativ.com.tw/Detail/34577011,0,0,0
 0,文字印花T恤-F08-男,290,http://www.lativ.com.tw/Detail/34642011,0,0,0
-0,峽谷印象印花T恤-男,145,http://www.lativ.com.tw/Detail/32563011,0,0,0
 1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014011,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014021,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014031,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014041,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014051,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014061,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014071,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014081,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014091,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014101,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014111,0,0,1
-1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014121,0,0,1
 1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015011,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015021,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015031,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015041,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015051,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015061,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015071,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015081,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015091,0,0,1
-1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015101,0,0,1
 1,Pima 棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/32052054,0,0,1
 1,Pima 棉圓領T恤-男,199,http://www.lativ.com.tw/Detail/30209074,0,0,1
-1,Pima 棉圓領T恤-男,199,http://www.lativ.com.tw/Detail/30209081,0,0,1
-1,Pima 棉圓領T恤-男,199,http://www.lativ.com.tw/Detail/30209101,0,0,1
-1,Pima 棉圓領T恤-男,199,http://www.lativ.com.tw/Detail/30209111,0,0,1
-1,Pima 棉圓領T恤-男,199,http://www.lativ.com.tw/Detail/30209121,0,0,1
-1,圓領背心-男,249,http://www.lativ.com.tw/Detail/34284011,0,0,1
-1,圓領背心-男,249,http://www.lativ.com.tw/Detail/34284021,0,0,1
-1,圓領背心-男,249,http://www.lativ.com.tw/Detail/34284031,0,0,1
-1,圓領背心-男,249,http://www.lativ.com.tw/Detail/34284041,0,0,1
+1,圓領背心-男,220,http://www.lativ.com.tw/Detail/34284011,0,0,1
 1,條紋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34286011,0,0,1
-1,條紋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34286021,0,0,1
-1,條紋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34286031,0,0,1
-1,條紋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34286041,0,0,1
 1,條紋配色短袖T恤-男,290,http://www.lativ.com.tw/Detail/34285011,0,0,1
-1,條紋配色短袖T恤-男,290,http://www.lativ.com.tw/Detail/34285021,0,0,1
-1,條紋配色短袖T恤-男,290,http://www.lativ.com.tw/Detail/34285031,0,0,1
-1,條紋配色短袖T恤-男,290,http://www.lativ.com.tw/Detail/34285041,0,0,1
 1,竹節棉條紋短袖T恤-男,390,http://www.lativ.com.tw/Detail/34287011,0,0,1
-1,竹節棉條紋短袖T恤-男,390,http://www.lativ.com.tw/Detail/34287021,0,0,1
-1,竹節棉條紋短袖T恤-男,390,http://www.lativ.com.tw/Detail/34287031,0,0,1
-1,竹節棉條紋短袖T恤-男,390,http://www.lativ.com.tw/Detail/34287041,0,0,1
 1,竹節棉配色口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34288011,0,0,1
-1,竹節棉配色口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34288021,0,0,1
-1,竹節棉配色口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34288031,0,0,1
 1,竹節棉口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34289011,0,0,1
-1,竹節棉口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34289021,0,0,1
-1,竹節棉口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34289031,0,0,1
-1,竹節棉口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34289041,0,0,1
 1,竹節棉V領短袖T恤-男,290,http://www.lativ.com.tw/Detail/34290011,0,0,1
-1,竹節棉V領短袖T恤-男,290,http://www.lativ.com.tw/Detail/34290021,0,0,1
-1,竹節棉V領短袖T恤-男,290,http://www.lativ.com.tw/Detail/34290031,0,0,1
-1,竹節棉V領短袖T恤-男,290,http://www.lativ.com.tw/Detail/34290041,0,0,1
 1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809011,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809021,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809031,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809041,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809051,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809061,0,0,1
 1,寬版口袋短袖衫-男,260,http://www.lativ.com.tw/Detail/30051013,0,0,1
-1,寬版口袋短袖衫-男,260,http://www.lativ.com.tw/Detail/30051023,0,0,1
-1,寬版口袋短袖衫-男,260,http://www.lativ.com.tw/Detail/30051033,0,0,1
-1,寬版口袋短袖衫-男,260,http://www.lativ.com.tw/Detail/30051042,0,0,1
 1,條紋配色短袖衫-男,199,http://www.lativ.com.tw/Detail/30048031,0,0,1
-1,條紋配色短袖衫-男,199,http://www.lativ.com.tw/Detail/30048041,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024011,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024021,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024031,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024041,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024051,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024061,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024071,0,0,1
-1,快乾棉羅紋背心-男,190,http://www.lativ.com.tw/Detail/35024081,0,0,1
+1,快乾棉羅紋背心-男,179,http://www.lativ.com.tw/Detail/35024011,0,0,1
 1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022011,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022021,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022031,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022041,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022051,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022061,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022071,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022081,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022091,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022101,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022111,0,0,1
-1,快乾棉圓領短袖T恤-男,179,http://www.lativ.com.tw/Detail/35022121,0,0,1
-1,快乾棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30232061,0,0,1
-1,快乾棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30232082,0,0,1
-1,快乾棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30232113,0,0,1
-1,快乾棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30232141,0,0,1
-1,快乾棉圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30232162,0,0,1
 1,快乾棉V領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30233113,0,0,1
-1,快乾棉V領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30233125,0,0,1
-1,快乾棉V領短袖T恤-男,145,http://www.lativ.com.tw/Detail/30233142,0,0,1
+1,吸排條紋V領T恤-男,290,http://www.lativ.com.tw/Detail/34241011,0,0,1
+1,吸排背心-男,290,http://www.lativ.com.tw/Detail/34237011,0,0,1
 1,吸排短袖上衣-男,290,http://www.lativ.com.tw/Detail/35112011,0,0,1
-1,吸排短袖上衣-男,290,http://www.lativ.com.tw/Detail/35112021,0,0,1
-1,吸排短袖上衣-男,290,http://www.lativ.com.tw/Detail/35112031,0,0,1
-1,吸排彈性圓領短袖T恤-男,260,http://www.lativ.com.tw/Detail/32291023,0,0,1
-1,吸排彈性圓領短袖T恤-男,260,http://www.lativ.com.tw/Detail/32291033,0,0,1
+1,吸排彈性圓領短袖T恤-男,249,http://www.lativ.com.tw/Detail/32291023,0,0,1
 1,吸排條紋V領衫-男,199,http://www.lativ.com.tw/Detail/30132032,0,0,1
-1,吸排條紋V領衫-男,199,http://www.lativ.com.tw/Detail/30132041,0,0,1
 1,吸排背心-男,199,http://www.lativ.com.tw/Detail/30129012,0,0,1
-1,吸排背心-男,199,http://www.lativ.com.tw/Detail/30129061,0,0,1
-1,輕涼V領短袖衫-男,260,http://www.lativ.com.tw/Detail/30026062,0,0,1
+1,輕涼V領短袖衫-男,199,http://www.lativ.com.tw/Detail/30026062,0,0,1
 1,保暖V領短袖T恤-男,199,http://www.lativ.com.tw/Detail/32065011,0,0,1
-1,保暖V領短袖T恤-男,199,http://www.lativ.com.tw/Detail/32065021,0,0,1
-1,保暖V領短袖T恤-男,199,http://www.lativ.com.tw/Detail/32065031,0,0,1
-1,保暖V領短袖T恤-男,199,http://www.lativ.com.tw/Detail/32065041,0,0,1
-1,保暖V領短袖T恤-男,199,http://www.lativ.com.tw/Detail/32065051,0,0,1
 1,保暖圓領短袖T恤-男,145,http://www.lativ.com.tw/Detail/32064024,0,0,1
-1,保暖圓領短袖衫-男,168,http://www.lativ.com.tw/Detail/28249034,0,0,1
+1,保暖圓領短袖衫-男,199,http://www.lativ.com.tw/Detail/28249034,0,0,1
 1,保暖V領短袖衫-男,168,http://www.lativ.com.tw/Detail/28250035,0,0,1
 2,Pima 棉圓領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32050044,0,0,2
 2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051021,0,0,2
-2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051031,0,0,2
-2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051045,0,0,2
-2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051055,0,0,2
-2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051071,0,0,2
-2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051081,0,0,2
-2,PIMA 棉圓領長袖衫-男,199,http://www.lativ.com.tw/Detail/28241011,0,0,2
 2,PIMA 棉圓領長袖衫-男,199,http://www.lativ.com.tw/Detail/28241075,0,0,2
 2,PIMA 棉V領長袖衫-男,145,http://www.lativ.com.tw/Detail/28242075,0,0,2
-2,七分袖口袋圓領T恤-男,260,http://www.lativ.com.tw/Detail/32288023,0,0,2
-2,七分袖口袋圓領T恤-男,260,http://www.lativ.com.tw/Detail/32288043,0,0,2
+2,七分袖口袋圓領T恤-男,220,http://www.lativ.com.tw/Detail/32288023,0,0,2
 2,刷毛圓領衫-男,390,http://www.lativ.com.tw/Detail/32719081,0,0,2
 2,純棉船型領長袖T恤-男,249,http://www.lativ.com.tw/Detail/32261011,0,0,2
-2,純棉船型領長袖T恤-男,249,http://www.lativ.com.tw/Detail/32261041,0,0,2
 2,純棉條紋圓領長袖T恤-男,299,http://www.lativ.com.tw/Detail/32260031,0,0,2
 2,吸排半開襟長袖T恤-男,290,http://www.lativ.com.tw/Detail/32292031,0,0,2
-2,吸排半開襟長袖T恤-男,290,http://www.lativ.com.tw/Detail/32292041,0,0,2
-2,保暖中高領九分袖T恤-男,249,http://www.lativ.com.tw/Detail/32068043,0,0,2
-2,保暖V領九分袖T恤-男,249,http://www.lativ.com.tw/Detail/32067025,0,0,2
+2,保暖中高領九分袖T恤-男,199,http://www.lativ.com.tw/Detail/32068043,0,0,2
+2,保暖V領九分袖T恤-男,199,http://www.lativ.com.tw/Detail/32067025,0,0,2
 2,保暖條紋V領衫-男,249,http://www.lativ.com.tw/Detail/28254031,0,0,2
-2,保暖條紋V領衫-男,249,http://www.lativ.com.tw/Detail/28254041,0,0,2
-2,保暖條紋V領衫-男,249,http://www.lativ.com.tw/Detail/28254051,0,0,2
-2,保暖純色立領衫-男,249,http://www.lativ.com.tw/Detail/28255063,0,0,2
-2,保暖V領長袖衫-男,249,http://www.lativ.com.tw/Detail/28252051,0,0,2
-2,保暖V領長袖衫-男,249,http://www.lativ.com.tw/Detail/28252061,0,0,2
-2,保暖V領長袖衫-男,249,http://www.lativ.com.tw/Detail/28252071,0,0,2
-2,保暖V領長袖衫-男,249,http://www.lativ.com.tw/Detail/28252081,0,0,2
-2,保暖圓領長袖衫-男,249,http://www.lativ.com.tw/Detail/28251051,0,0,2
-2,保暖圓領長袖衫-男,249,http://www.lativ.com.tw/Detail/28251061,0,0,2
-2,Fleece立領開襟衫-男,249,http://www.lativ.com.tw/Detail/28006061,0,0,2
-3,快乾網眼襯衫領polo衫-男,390,http://www.lativ.com.tw/Detail/34109011,0,0,3
-3,快乾網眼襯衫領polo衫-男,390,http://www.lativ.com.tw/Detail/34109021,0,0,3
-3,快乾網眼襯衫領polo衫-男,390,http://www.lativ.com.tw/Detail/34109031,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116011,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116021,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116031,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116041,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116051,0,0,3
-3,快乾網眼徽章polo衫-男,390,http://www.lativ.com.tw/Detail/34116061,0,0,3
+2,保暖V領長袖衫-男,199,http://www.lativ.com.tw/Detail/28252051,0,0,2
+2,保暖圓領長袖衫-男,199,http://www.lativ.com.tw/Detail/28251051,0,0,2
+2,Fleece立領開襟衫-男,199,http://www.lativ.com.tw/Detail/28006061,0,0,2
+3,快乾網眼襯衫領polo衫-男,350,http://www.lativ.com.tw/Detail/34109011,0,0,3
+3,快乾網眼徽章polo衫-男,350,http://www.lativ.com.tw/Detail/34116011,0,0,3
 3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110011,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110021,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110031,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110041,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110051,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110061,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110071,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110081,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110091,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110101,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110111,0,0,3
-3,快乾網眼橫條polo衫-男,490,http://www.lativ.com.tw/Detail/34110121,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107011,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107021,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107031,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107041,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107051,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107061,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107071,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107081,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107091,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107101,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107111,0,0,3
-3,快乾網眼polo衫-男,390,http://www.lativ.com.tw/Detail/34107121,0,0,3
+3,快乾網眼polo衫-男,350,http://www.lativ.com.tw/Detail/34107011,0,0,3
 3,Pima ​棉襯衫領polo衫-男,260,http://www.lativ.com.tw/Detail/30088012,0,0,3
 3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089011,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089021,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089031,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089041,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089051,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089081,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089091,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089111,0,0,3
-3,Pima ​棉橫條polo衫-男,390,http://www.lativ.com.tw/Detail/30089121,0,0,3
 3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086015,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086021,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086031,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086041,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086051,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086061,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086071,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086082,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086091,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086101,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086115,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086125,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086131,0,0,3
-3,Pima ​棉​polo衫-男,260,http://www.lativ.com.tw/Detail/30086141,0,0,3
 3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843021,0,0,3
-3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843031,0,0,3
-3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843055,0,0,3
-3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843061,0,0,3
-3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843073,0,0,3
-3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843081,0,0,3
 3,純棉橫條polo衫-男,290,http://www.lativ.com.tw/Detail/30072021,0,0,3
-3,純棉橫條polo衫-男,290,http://www.lativ.com.tw/Detail/30072031,0,0,3
-3,純棉橫條polo衫-男,290,http://www.lativ.com.tw/Detail/30072041,0,0,3
-3,純棉橫條polo衫-男,290,http://www.lativ.com.tw/Detail/30072061,0,0,3
 3,網眼經典POLO衫-男,199,http://www.lativ.com.tw/Detail/25441101,0,0,3
-3,網眼經典POLO衫-男,199,http://www.lativ.com.tw/Detail/25441161,0,0,3
 3,網眼抽縐POLO衫-男,199,http://www.lativ.com.tw/Detail/25442071,0,0,3
-3,網眼抽縐POLO衫-男,199,http://www.lativ.com.tw/Detail/25442081,0,0,3
-3,網眼抽縐POLO衫-男,199,http://www.lativ.com.tw/Detail/25442091,0,0,3
 3,網眼條紋POLO衫-男,260,http://www.lativ.com.tw/Detail/25443031,0,0,3
-3,網眼條紋POLO衫-男,260,http://www.lativ.com.tw/Detail/25443061,0,0,3
-3,網眼條紋POLO衫-男,260,http://www.lativ.com.tw/Detail/25443071,0,0,3
-3,網眼條紋POLO衫-男,260,http://www.lativ.com.tw/Detail/25443121,0,0,3
+3,吸排立領短袖polo衫-男,390,http://www.lativ.com.tw/Detail/34242011,0,0,3
+3,吸排polo衫-男,390,http://www.lativ.com.tw/Detail/34243011,0,0,3
+3,涼感polo衫-男,290,http://www.lativ.com.tw/Detail/34187011,0,0,3
 3,純棉徽章polo衫-男,290,http://www.lativ.com.tw/Detail/30071051,0,0,3
-3,純棉徽章polo衫-男,290,http://www.lativ.com.tw/Detail/30071063,0,0,3
-3,純棉徽章polo衫-男,290,http://www.lativ.com.tw/Detail/30071071,0,0,3
-3,純棉徽章polo衫-男,290,http://www.lativ.com.tw/Detail/30071081,0,0,3
-3,網眼電繡POLO衫-男,249,http://www.lativ.com.tw/Detail/25445041,0,0,3
-3,網眼電繡POLO衫-男,249,http://www.lativ.com.tw/Detail/25445081,0,0,3
-3,純棉長袖polo衫-男,290,http://www.lativ.com.tw/Detail/32842012,0,0,3
-3,純棉長袖polo衫-男,290,http://www.lativ.com.tw/Detail/32842021,0,0,3
-3,純棉長袖polo衫-男,290,http://www.lativ.com.tw/Detail/32842041,0,0,3
-3,純棉長袖polo衫-男,290,http://www.lativ.com.tw/Detail/32842051,0,0,3
-3,純棉長袖polo衫-男,290,http://www.lativ.com.tw/Detail/32842094,0,0,3
+3,網眼電繡POLO衫-男,260,http://www.lativ.com.tw/Detail/25445041,0,0,3
+3,純棉長袖polo衫-男,249,http://www.lativ.com.tw/Detail/32842012,0,0,3
 3,網眼條紋POLO衫-男,249,http://www.lativ.com.tw/Detail/28153061,0,0,3
+4,亞麻格紋長袖襯衫-男,590,http://www.lativ.com.tw/Detail/34058011,0,1,0
+4,亞麻長袖襯衫-男,590,http://www.lativ.com.tw/Detail/34056011,0,1,0
 4,亞麻格紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30940011,0,1,0
-4,亞麻格紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30940021,0,1,0
 4,亞麻長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30938022,0,1,0
 4,柔軟斜紋立領長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34934011,0,1,0
-4,柔軟斜紋立領長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34934021,0,1,0
 4,斜紋工作長袖襯衫-男,390,http://www.lativ.com.tw/Detail/32448021,0,1,0
 4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30443011,0,1,0
-4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30443031,0,1,0
 4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30442021,0,1,0
-4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30442031,0,1,0
 4,柔棉印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30445011,0,1,0
-4,柔棉印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30445022,0,1,0
 4,柔棉格紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30444011,0,1,0
-4,柔棉格紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30444021,0,1,0
 4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28512011,0,1,0
-4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28512021,0,1,0
 4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28511011,0,1,0
-4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28511041,0,1,0
 4,柔棉印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28513021,0,1,0
+4,牛仔短袖襯衫-男,490,http://www.lativ.com.tw/Detail/34046011,0,1,0
+4,牛仔長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34045011,0,1,0
+4,牛仔立領長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34049011,0,1,0
 4,牛仔雙口袋襯衫-男,450,http://www.lativ.com.tw/Detail/32731021,0,1,0
-4,牛仔長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30249011,0,1,0
-4,牛仔長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30249021,0,1,0
-4,牛仔長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30249031,0,1,0
-4,牛仔雙口袋長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30252011,0,1,0
-4,牛仔雙口袋長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30252021,0,1,0
+4,牛仔長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30249011,0,1,0
+4,牛仔雙口袋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30252011,0,1,0
 4,牛仔短袖襯衫-男,399,http://www.lativ.com.tw/Detail/30251011,0,1,0
-4,牛仔短袖襯衫-男,399,http://www.lativ.com.tw/Detail/30251021,0,1,0
-4,牛仔短袖襯衫-男,399,http://www.lativ.com.tw/Detail/30251031,0,1,0
-4,牛仔長袖襯衫-男,399,http://www.lativ.com.tw/Detail/28526012,0,1,0
-4,牛仔長袖襯衫-男,399,http://www.lativ.com.tw/Detail/28526022,0,1,0
-4,牛仔印花長袖襯衫-男,399,http://www.lativ.com.tw/Detail/28528011,0,1,0
-4,牛津長袖襯衫-男,290,http://www.lativ.com.tw/Detail/32736031,0,1,0
+4,牛仔長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28526012,0,1,0
+4,牛仔印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28528011,0,1,0
+4,牛津短袖襯衫-男,390,http://www.lativ.com.tw/Detail/35036011,0,1,0
+4,牛津條紋短袖襯衫-男,390,http://www.lativ.com.tw/Detail/35037011,0,1,0
 4,牛津短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30919021,0,1,0
-4,牛津短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30919031,0,1,0
 4,牛津條紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30920051,0,1,0
 4,牛津條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28503021,0,1,0
 4,牛津長袖襯衫-男,299,http://www.lativ.com.tw/Detail/28501031,0,1,0
-4,牛津長袖襯衫-男,299,http://www.lativ.com.tw/Detail/28501041,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379011,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379021,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379031,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379041,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379051,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379071,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379081,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379091,0,1,0
-4,經典格紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30379101,0,1,0
+4,經典格紋短袖襯衫-男,350,http://www.lativ.com.tw/Detail/34724011,0,1,0
 4,燈芯絨長袖襯衫-男,390,http://www.lativ.com.tw/Detail/32449021,0,1,0
-4,燈芯絨長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28515031,0,1,0
-4,燈芯絨長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28515041,0,1,0
 5,Pima 棉牛津長袖襯衫-男,499,http://www.lativ.com.tw/Detail/30951013,0,1,1
-5,彈性府綢條紋長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30950022,0,1,1
 5,彈性府綢長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30949022,0,1,1
 5,PIMA 棉彈性條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28612011,0,1,1
-5,PIMA 棉彈性條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28612021,0,1,1
 5,PIMA 棉彈性長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28611011,0,1,1
-5,PIMA 棉彈性長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28611031,0,1,1
 5,易整條紋短袖襯衫-男,399,http://www.lativ.com.tw/Detail/30953021,0,1,1
 5,PIMA 棉易整條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28614011,0,1,1
-5,PIMA 棉易整條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28614021,0,1,1
 5,PIMA 棉易整長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28613021,0,1,1
 5,精紡府綢長袖襯衫-男,399,http://www.lativ.com.tw/Detail/30948031,0,1,1
 5,PIMA 棉精紡條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28610011,0,1,1
-5,PIMA 棉精紡條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28610021,0,1,1
 5,PIMA 棉精紡長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28609011,0,1,1
-5,PIMA 棉精紡長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28609022,0,1,1
-5,PIMA 棉精紡長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28609031,0,1,1
 6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360011,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360021,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360031,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360081,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360091,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360121,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360131,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360141,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360151,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371041,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371062,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371071,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371081,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371131,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371141,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371151,0,1,2
-6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/28371181,0,1,2
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/32412035,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/32412055,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/32412065,0,2,0
+7,七分工作褲-男,690,http://www.lativ.com.tw/Detail/34972011,0,2,0
+7,輕便短褲-男,390,http://www.lativ.com.tw/Detail/34971011,0,2,0
+7,輕便工作短褲-男,390,http://www.lativ.com.tw/Detail/34970011,0,2,0
+7,五分卡其褲-男,390,http://www.lativ.com.tw/Detail/34969011,0,2,0
 7,工作短褲-男,390,http://www.lativ.com.tw/Detail/30346021,0,2,0
-7,工作短褲-男,390,http://www.lativ.com.tw/Detail/30346051,0,2,0
-7,工作短褲-男,390,http://www.lativ.com.tw/Detail/30346061,0,2,0
 7,休閒海灘褲-男,390,http://www.lativ.com.tw/Detail/30349021,0,2,0
-7,休閒海灘褲-男,390,http://www.lativ.com.tw/Detail/30349031,0,2,0
-7,休閒海灘褲-男,390,http://www.lativ.com.tw/Detail/30349051,0,2,0
 7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347015,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347025,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347035,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347045,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347055,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347065,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347075,0,2,0
-7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347085,0,2,0
 7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345015,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345024,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345035,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345045,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345054,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345061,0,2,0
-7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345091,0,2,0
 7,小毛圈短褲-男,390,http://www.lativ.com.tw/Detail/34089011,0,2,0
-7,小毛圈短褲-男,390,http://www.lativ.com.tw/Detail/34089021,0,2,0
-7,小毛圈短褲-男,390,http://www.lativ.com.tw/Detail/34089031,0,2,0
-7,小毛圈短褲-男,390,http://www.lativ.com.tw/Detail/34089041,0,2,0
-7,吸排五分褲-男,390,http://www.lativ.com.tw/Detail/34247011,0,2,0
-7,吸排五分褲-男,390,http://www.lativ.com.tw/Detail/34247021,0,2,0
-7,吸排五分褲-男,390,http://www.lativ.com.tw/Detail/34247031,0,2,0
-7,吸排運動五分褲-男,390,http://www.lativ.com.tw/Detail/34282011,0,2,0
-7,吸排運動五分褲-男,390,http://www.lativ.com.tw/Detail/34282021,0,2,0
-7,吸排運動五分褲-男,390,http://www.lativ.com.tw/Detail/34282031,0,2,0
-7,吸排運動五分褲-男,390,http://www.lativ.com.tw/Detail/34282041,0,2,0
+7,吸排五分褲-男,350,http://www.lativ.com.tw/Detail/34247011,0,2,0
+7,吸排運動五分褲-男,350,http://www.lativ.com.tw/Detail/34282011,0,2,0
 8,Slouch Fit 休閒牛仔褲-男,690,http://www.lativ.com.tw/Detail/34007011,0,2,1
-8,Slouch Fit 休閒牛仔褲-男,690,http://www.lativ.com.tw/Detail/34007021,0,2,1
 8,輕量 Skinny Fit 窄管牛仔褲-男,590,http://www.lativ.com.tw/Detail/32242011,0,2,1
-8,輕量 Skinny Fit 窄管牛仔褲-男,590,http://www.lativ.com.tw/Detail/32242021,0,2,1
-8,彈性 Skinny Fit 窄管多色牛仔褲-男,590,http://www.lativ.com.tw/Detail/32241025,0,2,1
 8,彈性 Skinny Fit 窄管多色牛仔褲-男,590,http://www.lativ.com.tw/Detail/32241031,0,2,1
-8,彈性 Skinny Fit 窄管多色牛仔褲-男,590,http://www.lativ.com.tw/Detail/32241052,0,2,1
 8,Slouch Fit 窄管牛仔褲-男,590,http://www.lativ.com.tw/Detail/32244027,0,2,1
 8,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404031,0,2,1
-8,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404051,0,2,1
-8,Skinny Fit 窄管牛仔褲-男,499,http://www.lativ.com.tw/Detail/28345017,0,2,1
-8,Slim Fit 小直牛仔褲-男,480,http://www.lativ.com.tw/Detail/32240014,0,2,1
-8,Slim Fit 小直牛仔褲-男,499,http://www.lativ.com.tw/Detail/30403025,0,2,1
+8,Slim Fit 小直牛仔褲-男,480,http://www.lativ.com.tw/Detail/32240011,0,2,1
 8,Slim Fit 多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/28343046,0,2,1
-8,Slim Fit 多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/28343085,0,2,1
 8,Regular Fit 直筒牛仔褲-男,499,http://www.lativ.com.tw/Detail/32239012,0,2,1
-8,Regular Fit 直筒牛仔褲-男,499,http://www.lativ.com.tw/Detail/32239022,0,2,1
-8,Regular Fit 直筒牛仔褲-男,450,http://www.lativ.com.tw/Detail/28341026,0,2,1
-8,Regular Fit 直筒牛仔褲-男,450,http://www.lativ.com.tw/Detail/28341036,0,2,1
 8,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006011,0,2,1
-8,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006021,0,2,1
 9,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974011,0,2,2
-9,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974021,0,2,2
-9,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974031,0,2,2
 9,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973011,0,2,2
-9,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973021,0,2,2
-9,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973031,0,2,2
 9,毛圈束口長褲-男,490,http://www.lativ.com.tw/Detail/34090011,0,2,2
-9,毛圈束口長褲-男,490,http://www.lativ.com.tw/Detail/34090021,0,2,2
-9,毛圈束口長褲-男,490,http://www.lativ.com.tw/Detail/34090031,0,2,2
-9,毛圈束口長褲-男,490,http://www.lativ.com.tw/Detail/34090041,0,2,2
-9,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431011,0,2,2
 9,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431021,0,2,2
-9,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431031,0,2,2
 9,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006011,0,2,2
-9,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006021,0,2,2
 10,輕便九分褲-男,590,http://www.lativ.com.tw/Detail/34975011,0,2,3
-10,輕便九分褲-男,590,http://www.lativ.com.tw/Detail/34975021,0,2,3
-10,輕便九分褲-男,590,http://www.lativ.com.tw/Detail/34975031,0,2,3
 10,復古 Regular Fit 無褶卡其褲-男,499,http://www.lativ.com.tw/Detail/32413022,0,2,3
-10,休閒彈性口袋直筒褲-男,680,http://www.lativ.com.tw/Detail/32414034,0,2,3
 10,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404031,0,2,3
-10,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404051,0,2,3
 10,Slim Fit 多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/28343046,0,2,3
-10,Slim Fit 多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/28343085,0,2,3
 10,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974011,0,2,3
-10,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974021,0,2,3
-10,工作束口褲-男,690,http://www.lativ.com.tw/Detail/34974031,0,2,3
 10,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973011,0,2,3
-10,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973021,0,2,3
-10,棉質束口褲-男,590,http://www.lativ.com.tw/Detail/34973031,0,2,3
-10,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431011,0,2,3
 10,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431021,0,2,3
-10,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431031,0,2,3
 10,保暖輕便Slim Fit 彈性長褲-男,490,http://www.lativ.com.tw/Detail/28598033,0,2,3
+10,吸排緊身褲-男,390,http://www.lativ.com.tw/Detail/34248011,0,2,3
 10,吸排彈性運動長褲-男,690,http://www.lativ.com.tw/Detail/34249011,0,2,3
-10,吸排彈性運動長褲-男,690,http://www.lativ.com.tw/Detail/34249021,0,2,3
-10,吸排彈性運動長褲-男,690,http://www.lativ.com.tw/Detail/34249031,0,2,3
-10,吸排彈性運動長褲-男,690,http://www.lativ.com.tw/Detail/34249041,0,2,3
