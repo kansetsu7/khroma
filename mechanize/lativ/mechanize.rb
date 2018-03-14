@@ -9,8 +9,8 @@ $n_genders = $genders_arr.size
 def get_lativ_data(category_from_file)
   # get_lativ_categories
   # get_lativ_types(true)
-  # get_lativ_styles
-  get_lativ_products
+  get_lativ_styles
+  # get_lativ_products
 end
 
 def get_lativ_products
@@ -132,9 +132,16 @@ def get_lativ_styles_of_type(type_link)
   }
   styles = agent.get(type_link).search("li.product-info")
   styles.each_with_index do |style, i|
+    # lativ網站style數量會重複，如果同style下有三個product，就會顯示三次style，其中兩個用js掛上display none，所以要過濾重複的
+    if i == 0
+      duplicated = false
+    else
+      duplicated = style.search('div.productname')[0].text.strip == styles[i-1].search('div.productname')[0].text.strip
+    end
+
     # name, price, link
     # span的last才抓得到price活動價
-    styles_arr.push([style.search('div.productname')[0].text.strip, style.search('span').last.text.strip, style.search('a')[0]['href']])
+    styles_arr.push([style.search('div.productname')[0].text.strip, style.search('span').last.text.strip, style.search('a')[0]['href']]) unless duplicated
   end
 
   # puts "#{styles_arr.first[0]}, #{styles_arr.first[1]}"
