@@ -46,6 +46,12 @@ button, .btn {
   outline: none;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* common setting */
 
 :root {
@@ -73,7 +79,6 @@ button, .btn {
 header {
   width: 100%;
   height: 30px;
-  margin-bottom: 30px;
 }
 #nav {
   height: 30px;
@@ -187,6 +192,7 @@ header {
 
 .alert-row {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 /* footer */

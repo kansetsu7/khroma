@@ -20,7 +20,25 @@
 .product-color {
   display: inline-block;
   width: 20px;
-  height: 10px;
+  height: 12px;
+  margin-left: 2px;
+  z-index: 110;
+}
+
+.product-color-panel a {
+  position: relative;
+}
+
+.product-color-panel a.color-unlocked:first-of-type:before,
+.product-color-panel a.color-locked:before {
+  content: "";
+  border: 1px solid #000;
+  width: 24px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .product-brand-price-row {
@@ -42,5 +60,6 @@
 .product-link {
   justify-self: end;
 }
+
 
 
