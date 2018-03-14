@@ -21,7 +21,7 @@ namespace :dev do
   task fake_styles: :environment do
     puts "start fake_styles..."
     Style.destroy_all
-    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles_renamed.txt")
     in_arr.each_with_index do |style, i|
       next if i == 0  # skip first row
       Style.create(
@@ -40,8 +40,8 @@ namespace :dev do
     end
 
     Product.destroy_all
-    styles_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles.txt")
-    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0-1.txt")
+    styles_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles_renamed.txt")
+    in_arr = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0_renamed.txt")
     in_arr.each_with_index do |product, i|
       next if i == 0  # skip first row
       Product.create(
