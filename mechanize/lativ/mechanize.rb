@@ -9,8 +9,8 @@ $n_genders = $genders_arr.size
 def get_lativ_data(category_from_file)
   # get_lativ_categories
   # get_lativ_types(true)
-  get_lativ_styles
-  # get_lativ_products
+  # get_lativ_styles
+  get_lativ_products
 end
 
 def get_lativ_products
@@ -54,7 +54,7 @@ def get_lativ_products
 end
 
 def get_lativ_products_of_style(style_link)
-  puts "==== get_lativ_products_of_style ===="
+  # puts "==== get_lativ_products_of_style ===="
   products_arr = []
   page = get_page(style_link)
   colors_page = page.search('div.color').search('a')

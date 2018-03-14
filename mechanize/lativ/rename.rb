@@ -38,7 +38,7 @@ def rename(in_arr, writer, is_product)
   end
 end
 
-file_name = "styles"
+file_name = "products0"
 in_arr = CSV.read("./" + file_name + ".txt")
 writer = CSV.open("./" + file_name + "_renamed.txt", "wt")
 rename(in_arr, writer, false)
