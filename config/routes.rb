@@ -29,8 +29,11 @@ Rails.application.routes.draw do
   end
 
   #link to product::id not style/style:id/products
-  resources :products, only: [:show]
-
+  resources :products, only: [:show] do
+    member do
+      get :change_color
+    end
+  end
 
   resources :khroma, only: [:index] do
     collection do

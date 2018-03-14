@@ -1,0 +1,41 @@
+<div class="previous-product-btn">
+  <i class="fa fa-caret-left"></i>
+</div>
+<div class="product-img shadow-box-light">
+  <%= image_tag(product.image) %>
+</div>
+<div class="next-product-btn">
+  <i class="fa fa-caret-right"></i>
+</div>
+<div class="product-info-lg shadow-box-light">
+  <div class="product-title">
+    <%= product.name %>
+  </div>
+  <div class="product-color-panel">
+    選擇顏色：
+    <% product.style.colors.each do |color| %>
+      <% if product.color.id == color.id %>
+        <% css_class = "color-locked" %>
+      <% end %>
+      <%= link_to change_color_product_path(color.id), remote: true, class: "#{css_class}" do %>
+        <div id="<%= color.id %>" class="product-color" style="background-color: <%= color.hex %>"></div>
+      <% end %>
+    <% end %>
+  </div>
+    <div class="product-brand">
+      品牌：
+      <% if product.brand == "lativ" %>
+        <%= image_tag('lativ-logo.png', class: "product-brand-img") %>
+      <% elsif product.brand == "uniqlo" %>
+        <%= image_tag('uniqlo-logo.png', class: "product-brand-img") %>
+      <% end %>
+    </div>
+    <div class="product-price">
+      價格： NT$<%= product.price.round %>
+    </div>
+  <div class="product-link">
+    <a href="<%= product.link %>" target="_blank">
+      <button class="btn btn-warning">去購買</button>
+    </a>
+  </div>
+</div>

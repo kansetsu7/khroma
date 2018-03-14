@@ -9,4 +9,8 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
   end
 
+  def change_color
+    @color = Color.find(params[:id])
+    @product = @color.product
+  end
 end
