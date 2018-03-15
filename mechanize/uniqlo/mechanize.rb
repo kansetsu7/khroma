@@ -114,10 +114,10 @@ def get_uniqlo_styles
   styles_arr.each_with_index do |gender, i|
     next unless i == 0  # 先抓men (i==0)
     gender.each_with_index do |category, j|
-      # next unless j == 0
+      next unless j == 0
       puts "get styles for gender#{i}'s category#{j}..."
       category.each_with_index do |type, k|
-        # next unless k == 0
+        next unless k == 0
         puts "goto #{types_link_arr[i][j][k]}"
         styles_of_category_arr = get_uniqlo_styles_of_type(types_link_arr[i][j][k])
         styles_of_category_arr.each_with_index do |style, l|
@@ -501,6 +501,6 @@ end
 # ok!
 # get_uniqlo_data(true)
 # get_uniqlo_types(true)
-#- get_uniqlo_styles
+get_uniqlo_styles
 # read_styles
 # get_uniqlo_products
