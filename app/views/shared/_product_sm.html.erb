@@ -7,7 +7,7 @@
   <div class="product-info">
     <div class="product-color-panel">
       <% style.colors.each do |color| %>
-        <%= link_to change_color_style_path(color.id), remote: true do %>
+        <%= link_to change_color_style_path(color.id), remote: true, class: "color-unlocked" do %>
           <div id="<%= color.id %>" class="product-color" style="background-color: <%= color.hex %>"></div>
         <% end %>
       <% end %>

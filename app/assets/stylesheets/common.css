@@ -46,11 +46,17 @@ button, .btn {
   outline: none;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* common setting */
 
 :root {
   --bggray: #F5F5F5;
-  --lblack: #131313;
+  --lblack: #3C3C3C;
   --dwhite: #D4D4D4;;
 };
 
@@ -65,7 +71,7 @@ button, .btn {
 }
 
 .shadow-box-light {
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 1px 1px 0 0 rgba(0,0,0,.1);
 }
 
 
@@ -73,7 +79,6 @@ button, .btn {
 header {
   width: 100%;
   height: 30px;
-  margin-bottom: 30px;
 }
 #nav {
   height: 30px;
@@ -187,6 +192,7 @@ header {
 
 .alert-row {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 /* footer */

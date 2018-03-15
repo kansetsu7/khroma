@@ -1,2 +1,10 @@
-<h1>直接到product 不管style</h1>
-  <%= @product.name %>
+<div class="container">
+  <div class="container">
+    <div class="product-panel-lg">
+      <%= render partial: "shared/product_lg", locals: { product: @product} %>
+    </div>
+    <div id="product-match-btn">
+      <%= render partial: "shared/match_btn" %>
+    </div>
+  </div> 
+</div>

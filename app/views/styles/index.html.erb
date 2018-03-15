@@ -1,5 +1,11 @@
 <div class="container">
-  <div id="order-selection"></div>
+  <div id="order-selection" class="clearfix">
+    <div class="btn-group" role="group">
+      <button class="btn btn-sm btn-primary" type="button">價錢由低到高</button> 
+      <button class="btn btn-sm btn-outline-secondary" type="button">價錢由高到低</button>
+      <button class="btn btn-sm btn-outline-secondary" type="button">依照品牌</button>
+    </div>
+  </div>
   <div class="styles-panel">
     <%= render partial: "shared/product_sm", collection: @styles, as: :style %>
   </div>

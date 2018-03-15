@@ -20,7 +20,25 @@
 .product-color {
   display: inline-block;
   width: 20px;
-  height: 10px;
+  height: 12px;
+  margin-left: 2px;
+  z-index: 110;
+}
+
+.product-color-panel a {
+  position: relative;
+}
+
+.product-color-panel a.color-unlocked:first-of-type:before,
+.product-color-panel a.color-locked:before {
+  content: "";
+  border: 1px solid #000;
+  width: 24px;
+  height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .product-brand-price-row {
@@ -29,8 +47,7 @@
 }
 
 .product-brand {
-  align-self: center;
-  object-fit: fit;
+  align-self: center; 
 }
 
 .product-price {
@@ -43,4 +60,78 @@
   justify-self: end;
 }
 
+/* product show, product-panel-lg */
 
+.product-panel-lg {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px 60px 1fr;
+  min-height: 350px;
+}
+
+.previous-product-btn,
+.next-product-btn {
+  font-size: 35px;
+  align-self: end;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.product-info-lg {
+  grid-column: 5/-1;
+  display: grid;
+  grid-template-rows: 60px 20px 60px 20px 50px 50px 1fr;
+  background: #FFF;
+  padding: 20px;
+}
+.product-info-lg .row-title {
+  background: var(--lblack); 
+  color: #FFF; 
+  text-align: center
+}
+
+
+.product-info-lg .product-title,
+.product-info-lg .product-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product-info-lg .product-price,
+.product-info-lg .product-link {
+  align-self: center;
+}
+
+.product-info-lg .product-color-panel {
+  justify-self: center;
+  align-self: center;
+}
+
+.product-info-lg .product-color {
+  height: 20px;
+}
+
+.product-info-lg .product-color-panel a.color-unlocked:first-of-type:before,
+.product-info-lg .product-color-panel a.color-locked:before {
+  top: -8px;
+  height: 24px;
+}
+
+.product-info-lg .product-brand {
+  justify-self: center;
+}
+
+.product-info-lg .product-brand-img {
+  float: right;
+}
+
+/* product match btn */
+
+#product-match-btn {
+  margin: 20px 0 20px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#product-match-btn #match-btn {
+  justify-self: center;
+}
