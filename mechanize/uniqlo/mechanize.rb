@@ -13,8 +13,87 @@ def get_uniqlo_data(category_from_file)
 end
 
 def get_uniqlo_products
-  page = get_page('http://www.uniqlo.com/tw/store/goods/404397')
-  puts page.search("img[title=\"放大\"]").first['src']
+  puts "==== get_lativ_products ===="
+  styles_arr = read_styles
+  # styles[i][j][k][l][0]: name
+  # styles[i][j][k][l][1]: link
+
+  products_arr = []
+  styles_arr.each_with_index do |gender, i|  # product_arr = [gender0_arr, gender1_arr, ...]
+    products_arr.push([])
+    gender.each_with_index do |category, j|  # gender0 = [cate0_arr, cate1_arr, ...]
+      products_arr[i].push([])  # cate0_arr = [type0_arr, type1_arr, ...]
+      category.each_with_index do |type, k|
+        products_arr[i][j].push([])  # type0_arr = [style0_arr, style1_arr, ...]
+        type.each_with_index do |style, l|
+          products_arr[i][j][k].push([])  # style0_arr = []
+        end
+      end
+    end
+  end
+
+  product_id = 0
+  writer = CSV.open("./products0.txt", "wt")
+  writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+
+  products_arr.each_with_index do |gender, i|
+    next unless i == 0  # men
+    gender.each_with_index do |category, j|
+      # next unless j == 0
+      puts "======== gender#{i}, category#{j} ========"
+      category.each_with_index do |type, k|
+        # next unless k == 0
+        type.each_with_index do |style, l|
+          # next unless l == 1
+          puts "category#{j}, type#{k}, style#{l}"
+          # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
+          products_arr[i][j][k][l] = get_uniqlo_products_of_style(styles_arr[i][j][k][l])
+          products_arr[i][j][k][l].each_with_index do |products, m|
+            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+          end
+          product_id += 1
+        end
+      end      
+    end 
+  end
+  
+  write_products(products_arr, 0)
+end
+
+def get_uniqlo_products_of_style(style_info)
+  # puts "==== get_uniqlo_products_of_style ===="
+
+  # style_info[0]: name
+  # style_info[1]: link
+  puts ("goto #{style_info[1]}")
+  products_arr = []
+  page = get_page(style_info[1])
+  # puts page.nil?
+  main_img = page.search("div#prodImgDefault>img").first['src']
+  main_img_name = main_img.split('/').last
+  main_img_color = main_img_name[0..1]
+
+  color_pages = page.search("ul#listChipColor>li>div")
+  color_pages.each_with_index do |color_page, i|
+    # puts "#{i} ====="
+    # puts "name: #{style_info[0]}"
+    # puts "link: #{style_info[1]}"
+    # puts "color: #{color_page['color']}-#{color_page['title']}"
+    # puts get_img_link(main_img, main_img_color, color_page['color'])
+    products_arr.push([style_info[0], style_info[1], color_page['color'], color_page['title'],
+                      get_img_link(main_img, main_img_color, color_page['color'])])
+    # products_arr[i][0]: name
+    # products_arr[i][1]: link
+    # products_arr[i][2]: color code
+    # products_arr[i][3]: color name
+    # products_arr[i][4]: image link
+  end
+  products_arr
+end
+
+def get_img_link(main_img, main_img_color, target_color)
+  return main_img if main_img_color == target_color
+  main_img.sub(main_img_color+"_", target_color+"_")
 end
 
 def get_uniqlo_styles
@@ -54,6 +133,7 @@ def get_uniqlo_styles
   # puts "product name: #{styles_arr[i][j][k][l][0]}"
   # puts "price:        #{styles_arr[i][j][k][l][1]}"
   # puts "link:         #{styles_arr[i][j][k][l][2]}"
+  # puts "img_link:     #{styles_arr[i][j][k][l][3]}"
   write_styles(styles_arr)
   
 end
@@ -66,7 +146,7 @@ def get_uniqlo_styles_of_type(type_link)
   
   styles.each_with_index do |style, i|
     # name, price, link, color1, color2, ..., color_n
-    style_info = [style.search("dt.name").first.text.strip, style.search("dd.price").first.text.strip, style.search("dd.thumb>a").first['href']]
+    style_info = [style.search("dt.name").first.text.strip, style.search("dd.price").first.text.strip,style.search("dd.thumb>a").first['href']]
     style.search("li>a").each_with_index do |color, i|
       style_info.push(color['data-color-code'])
     end
@@ -76,8 +156,19 @@ def get_uniqlo_styles_of_type(type_link)
 end
 
 def get_page(style_link)
-  browser = Watir::Browser.new :safari  # open safari
-  browser.goto(style_link)
+  
+  timeout = 0
+  begin
+    browser = Watir::Browser.new :safari  # open safari
+    browser.goto(style_link)
+  rescue Exception => e
+    puts "Net::ReadTimeout !!!!!!!!!!!!!!!!!!!!"
+    timeout += 1
+    if timeout <= 3
+      sleep(5)
+      retry
+    end
+  end
   sleep(2)
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
@@ -196,6 +287,31 @@ end
 
 
 
+def write_products(product_arr, gender_id)
+  puts "==== writing products#{gender_id}.txt ====" 
+  # products_arr[i][0]: name
+  # products_arr[i][1]: link
+  # products_arr[i][2]: color code
+  # products_arr[i][3]: color name
+  # products_arr[i][4]: image link
+  product_id = 0
+  writer = CSV.open("./products#{gender_id}.txt", "wt")
+  writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  product_arr.each_with_index do |gender, i|
+    gender.each_with_index do |category, j|
+      # puts "write styles for gender#{i}'s category#{j}..."
+      category.each_with_index do |type, k|
+        type.each_with_index do |style, l|
+          style.each_with_index do |products, m|
+            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+          end
+          product_id += 1
+        end
+      end      
+    end    
+  end
+end
+
 def write_styles(styles_arr)
   puts "==== writing styles.txt ====" 
   style_id = 0
@@ -216,6 +332,46 @@ def write_styles(styles_arr)
       end      
     end    
   end
+end
+
+def read_styles
+  puts "==== READ styles ===="
+  types_link_arr = read_type_links
+
+  styles_arr = []
+  types_link_arr.each_with_index do |gender, i|  # types_link_arr = [gender0_arr, gender1_arr, ...]
+    styles_arr.push([])
+    gender.each_with_index do |category, j|  # gender0 = [cate0_arr, cate1_arr, ...]
+      styles_arr[i].push([])  # cate0_arr = [type0_arr, type1_arr, ...]
+      category.each_with_index do |type, k|
+        styles_arr[i][j].push([])  # type0_arr = []
+      end
+    end
+  end
+
+  # in_arr[i] = v
+  # v[0]: type_id,
+  # v[1]: name,
+  # v[2]: price,
+  # v[3]: link,
+  # v[4]: gender_id,
+  # v[5]: category_of_gender_id,
+  # v[6]: type_of_category_id,
+  # v[7...v.size]: colors
+
+  in_arr = CSV.read("./styles.txt")
+  in_arr.each_with_index do |v, i|  
+    next if i == 0  # skip first line
+    # arr = v[7...v.size].unshift(v[3])
+    # arr = arr.unshift(v[1])
+    styles_arr[v[4].to_i][v[5].to_i][v[6].to_i].push([v[1], v[3]])
+    # puts "#{v[4]}, #{v[5]}, #{v[6]}, #{v[3]}" if i<5
+  end
+  styles_arr
+
+  # styles_arr[i][j][k][l][0]: name
+  # styles_arr[i][j][k][l][1]: link
+  # styles_arr[i][j][k][l][2..last]: color
 end
 
 def read_type_links
@@ -341,13 +497,8 @@ def puts_genders()
   end
 end
 
-
-# get_uniqlo_pants_types("http://www.uniqlo.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016")
-
-# get_uniqlo_styles_of_type("http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016")
-get_uniqlo_styles
-
 # ok!
 # get_uniqlo_data(true)
-
-
+# get_uniqlo_styles
+# read_styles
+get_uniqlo_products
