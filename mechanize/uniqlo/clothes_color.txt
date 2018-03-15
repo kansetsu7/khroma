@@ -1,0 +1,1671 @@
+product_id,color in hex,color name,percentage of clothes,hue_level
+1,#a29e92,twig,80,13
+2,#3a3536,graphite,70,13
+3,#d3a297,fresco,59,1
+4,#f4f5f0,white,80,13
+5,#525f48,moss,80,4
+6,#626879,blue steel,52,8
+7,#325b74,marine,89,8
+8,#f4f5f0,white,75,13
+9,#7c5a2c,medium brown,85,2
+10,#918c86,mocha,38,13
+11,#41424a,ebony,65,13
+12,#3a3536,graphite,96,13
+13,#782a39,burgundy,44,1
+14,#2d3359,blueberry,70,9
+15,#2b2e43,navy blue,65,9
+16,#41424a,ebony,84,13
+17,#c1b7b0,sand,52,13
+18,#325b74,marine,89,8
+19,#39373b,black,55,13
+20,#cac5c2,oyster,47,13
+21,#dc5b62,firecracker,59,1
+22,#3a3536,graphite,53,13
+23,#2a3244,midnight,88,8
+24,#e7e9e7,star light,53,13
+25,#a29e92,twig,83,13
+26,#41424a,ebony,79,13
+27,#384883,sailor,72,9
+28,#e7e9e7,star light,67,13
+29,#cac5c2,oyster,72,13
+30,#2b2e43,navy blue,72,9
+31,#f4f5f0,white,64,13
+32,#e7e9e7,star light,64,13
+33,#f4f5f0,white,63,13
+34,#788f74,sage,71,5
+35,#e7e9e7,star light,65,13
+36,#2b2e43,navy blue,81,9
+37,#f2f0eb,snow white,47,13
+38,#3a3536,graphite,67,13
+39,#f2f0eb,snow white,59,13
+40,#f4f5f0,white,58,13
+41,#f2f0eb,snow white,86,13
+42,#f4f5f0,white,58,13
+43,#f4f5f0,white,65,13
+44,#e7e9e7,star light,72,13
+45,#f4f5f0,white,67,13
+46,#f2f0eb,snow white,62,13
+47,#d3b4ad,pearl pink,44,1
+48,#f2f0eb,snow white,79,13
+49,#f4f5f0,white,59,13
+50,#f4f5f0,white,58,13
+51,#7a5747,almond,45,2
+52,#f4f5f0,white,90,13
+53,#e7e9e7,star light,43,13
+54,#a5b2aa,celadon,41,13
+55,#6e7e99,larkspur,55,8
+56,#325b74,marine,91,8
+57,#4f3f3b,chocolate,68,1
+58,#525f48,moss,48,4
+59,#3a3536,graphite,96,13
+60,#2a3244,midnight,96,8
+61,#f0eee9,marshmallow,57,13
+62,#9f9c99,cathedral,35,13
+63,#3a3536,graphite,96,13
+64,#dc5b62,firecracker,46,1
+65,#748c69,clover,41,4
+66,#2a3244,midnight,65,8
+67,#f4f5f0,white,74,13
+68,#f4f5f0,white,57,13
+69,#f4f5f0,white,49,13
+70,#f2f0eb,snow white,61,13
+71,#f2f0eb,snow white,71,13
+72,#e7e9e7,star light,64,13
+73,#2a3244,midnight,73,8
+74,#918c86,mocha,46,13
+75,#3a3536,graphite,95,13
+76,#dec05f,marigold,71,3
+77,#2a3244,midnight,75,8
+78,#c5c6c7,sterling,47,13
+79,#39373b,black,67,13
+80,#3a3536,graphite,63,13
+81,#2b2e43,navy blue,53,9
+82,#f4f5f0,white,83,13
+83,#aeb2b5,frost,65,13
+84,#41424a,ebony,79,13
+85,#3a3536,graphite,96,13
+86,#a4292e,ribbon red,70,1
+87,#384883,sailor,43,9
+88,#2d3359,blueberry,53,9
+89,#e7e9e7,star light,89,13
+90,#9f9c99,cathedral,44,13
+91,#3a3536,graphite,96,13
+92,#9b1b30,barcelona,74,1
+93,#f4f5f0,white,80,13
+94,#2a3244,midnight,65,8
+95,#f4f5f0,white,39,13
+96,#e7e9e7,star light,50,13
+97,#39373b,black,51,13
+98,#3a3536,graphite,76,13
+99,#f2f0eb,snow white,50,13
+100,#e7e9e7,star light,43,13
+101,#e7e9e7,star light,48,13
+102,#dacbbe,cameo,89,2
+103,#c5c6c7,sterling,57,13
+104,#41424a,ebony,60,13
+105,#3a3536,graphite,96,13
+106,#4d91c6,cornflower,51,8
+107,#2a3244,midnight,96,8
+108,#f4f5f0,white,85,13
+109,#39373b,black,60,13
+110,#3a3536,graphite,69,13
+111,#2a3244,midnight,93,8
+112,#c5c6c7,sterling,57,13
+113,#41424a,ebony,59,13
+114,#39373b,black,72,13
+115,#363b7c,electric blue,65,9
+116,#2a3244,midnight,96,8
+117,#aeb2b5,frost,36,13
+118,#f0eee9,marshmallow,88,13
+119,#39373b,black,77,13
+120,#3a3536,graphite,96,13
+121,#2d3359,blueberry,65,9
+122,#80817d,charcoal gray,90,13
+123,#3a3536,graphite,96,13
+124,#748c69,clover,60,4
+125,#e7e9e7,star light,53,13
+126,#cbc3b4,palomino,44,2
+127,#2a3244,midnight,57,8
+128,#2a3244,midnight,40,8
+129,#cac5c2,oyster,74,13
+130,#39373b,black,93,13
+131,#525f48,moss,77,4
+132,#00539c,royal blue,41,8
+133,#626879,blue steel,50,8
+134,#203c7f,sapphire,54,8
+135,#f4f5f0,white,50,13
+136,#e7e9e7,star light,54,13
+137,#f4f5f0,white,68,13
+138,#f2f0eb,snow white,60,13
+139,#e7e9e7,star light,57,13
+140,#e7e9e7,star light,51,13
+141,#e7e9e7,star light,82,13
+142,#e7e9e7,star light,75,13
+143,#e7e9e7,star light,54,13
+144,#e7e9e7,star light,73,13
+145,#e7e9e7,star light,59,13
+146,#f4f5f0,white,71,13
+147,#f4f5f0,white,64,13
+148,#3a3536,graphite,54,13
+149,#f4f5f0,white,73,13
+150,#e7e9e7,star light,68,13
+151,#e7e9e7,star light,62,13
+152,#f4f5f0,white,93,13
+153,#f4f5f0,white,59,13
+154,#f2f0eb,snow white,51,13
+155,#f2f0eb,snow white,99,13
+156,#f4f5f0,white,85,13
+157,#fce6ac,light olive,61,2
+158,#f4f5f0,white,59,13
+159,#e7e9e7,star light,60,13
+160,#2a3244,midnight,76,8
+161,#f0eee9,marshmallow,91,13
+162,#cac5c2,oyster,82,13
+163,#f2f0eb,snow white,50,13
+164,#f4f5f0,white,84,13
+165,#7bb5a3,meadow,53,6
+166,#f4f5f0,white,60,13
+167,#e7e9e7,star light,60,13
+168,#e7e9e7,star light,93,13
+169,#f4f5f0,white,48,13
+170,#e7e9e7,star light,62,13
+171,#f2f0eb,snow white,77,13
+172,#9f9c99,cathedral,34,13
+173,#8a2232,claret,53,1
+174,#848283,quarry,52,13
+175,#f4f5f0,white,84,13
+176,#84898c,pewter,67,13
+177,#f2f0eb,snow white,99,13
+178,#e7e9e7,star light,92,13
+179,#a4292e,ribbon red,50,1
+180,#e7e9e7,star light,50,13
+181,#2b2e43,navy blue,69,9
+182,#e7e9e7,star light,59,13
+183,#9f9c99,cathedral,60,13
+184,#f2f0eb,snow white,69,13
+185,#f2f0eb,snow white,99,13
+186,#e7e9e7,star light,62,13
+187,#39373b,black,60,13
+188,#dacbbe,cameo,65,2
+189,#f2f0eb,snow white,94,13
+190,#3a3536,graphite,65,13
+191,#f0eee9,marshmallow,56,13
+192,#e2a829,mango,71,2
+193,#2b2e43,navy blue,62,9
+194,#84898c,pewter,50,13
+195,#dacbbe,cameo,83,2
+196,#e7e9e7,star light,72,13
+197,#f2f0eb,snow white,77,13
+198,#e7e9e7,star light,65,13
+199,#bb1237,flame,62,1
+200,#e7e9e7,star light,65,13
+201,#f2f0eb,snow white,78,13
+202,#f4f5f0,white,81,13
+203,#39373b,black,60,13
+204,#cac5c2,oyster,80,13
+205,#3a3536,graphite,97,13
+206,#e7e9e7,star light,66,13
+207,#f4f5f0,white,61,13
+208,#f2f0eb,snow white,58,13
+209,#f4f5f0,white,53,13
+210,#cac5c2,oyster,33,13
+211,#39373b,black,46,13
+212,#3a3536,graphite,30,13
+213,#532d3b,bordeaux,58,12
+214,#f4f5f0,white,31,13
+215,#b5acab,pebble beach,36,13
+216,#cac5c2,oyster,71,13
+217,#f4f5f0,white,98,13
+218,#f4f5f0,white,88,13
+219,#f4f5f0,white,96,13
+220,#f2f0eb,snow white,71,13
+221,#e7e9e7,star light,46,13
+222,#f2f0eb,snow white,42,13
+223,#b5acab,pebble beach,50,13
+224,#f4f5f0,white,48,13
+225,#f4f5f0,white,55,13
+226,#f4f5f0,white,68,13
+227,#f2f0eb,snow white,52,13
+228,#f2f0eb,snow white,69,13
+229,#f4f5f0,white,72,13
+230,#2a3244,midnight,56,8
+231,#f4f5f0,white,72,13
+232,#f4f5f0,white,59,13
+233,#f4f5f0,white,63,13
+234,#f4f5f0,white,39,13
+235,#e7e9e7,star light,50,13
+236,#39373b,black,51,13
+237,#3a3536,graphite,76,13
+238,#f2f0eb,snow white,50,13
+239,#e7e9e7,star light,43,13
+240,#e7e9e7,star light,48,13
+241,#e7e9e7,star light,67,13
+242,#cac5c2,oyster,72,13
+243,#2b2e43,navy blue,72,9
+244,#f2f0eb,snow white,47,13
+245,#3a3536,graphite,67,13
+246,#f2f0eb,snow white,59,13
+247,#f4f5f0,white,58,13
+248,#f4f5f0,white,90,13
+249,#e7e9e7,star light,43,13
+250,#f2f0eb,snow white,81,13
+251,#f4f5f0,white,49,13
+252,#f4f5f0,white,57,13
+253,#a4292e,ribbon red,69,1
+254,#e7e9e7,star light,54,13
+255,#39373b,black,65,13
+256,#f4f5f0,white,53,13
+257,#a5b2aa,celadon,70,13
+258,#f4f5f0,white,66,13
+259,#f2f0eb,snow white,52,13
+260,#f4f5f0,white,52,13
+261,#f4f5f0,white,53,13
+262,#f4f5f0,white,70,13
+263,#f4f5f0,white,66,13
+264,#f4f5f0,white,66,13
+265,#f4f5f0,white,55,13
+266,#e7e9e7,star light,54,13
+267,#f4f5f0,white,80,13
+268,#e7e9e7,star light,51,13
+269,#f4f5f0,white,58,13
+270,#f4f5f0,white,65,13
+271,#f4f5f0,white,54,13
+272,#2a3244,midnight,56,8
+273,#f2f0eb,snow white,96,13
+274,#e7e9e7,star light,59,13
+275,#f4f5f0,white,77,13
+276,#f4f5f0,white,83,13
+277,#f4f5f0,white,75,13
+278,#f2f0eb,snow white,69,13
+279,#2a3244,midnight,96,8
+280,#f2f0eb,snow white,86,13
+281,#f4f5f0,white,58,13
+282,#f4f5f0,white,65,13
+283,#e7e9e7,star light,72,13
+284,#f4f5f0,white,67,13
+285,#cac5c2,oyster,47,13
+286,#dc5b62,firecracker,59,1
+287,#3a3536,graphite,53,13
+288,#2a3244,midnight,88,8
+289,#f0eee9,marshmallow,97,13
+290,#cac5c2,oyster,52,13
+291,#3a3536,graphite,97,13
+292,#f4f5f0,white,75,13
+293,#f4f5f0,white,80,13
+294,#e7e9e7,star light,63,13
+295,#626879,blue steel,74,8
+296,#3a3536,graphite,54,13
+297,#f2f0eb,snow white,73,13
+298,#525f48,moss,58,4
+299,#2a3244,midnight,95,8
+300,#f4f5f0,white,68,13
+301,#f4f5f0,white,58,13
+302,#f4f5f0,white,72,13
+303,#325b74,marine,46,8
+304,#f4f5f0,white,72,13
+305,#f2f0eb,snow white,57,13
+306,#9f9c99,cathedral,74,13
+307,#41424a,ebony,72,13
+308,#3a3536,graphite,97,13
+309,#9b1b30,barcelona,82,1
+310,#782a39,burgundy,91,1
+311,#6e7e99,larkspur,52,8
+312,#363b7c,electric blue,54,9
+313,#f4f5f0,white,83,13
+314,#e7e9e7,star light,84,13
+315,#b09080,cappuccino,54,2
+316,#2b2e43,navy blue,57,9
+317,#f4f5f0,white,86,13
+318,#2b2e43,navy blue,69,9
+319,#e7e9e7,star light,98,13
+320,#aeb2b5,frost,53,13
+321,#41424a,ebony,73,13
+322,#39373b,black,70,13
+323,#a4292e,ribbon red,70,1
+324,#384883,sailor,59,9
+325,#2b2e43,navy blue,96,9
+326,#f4f5f0,white,82,13
+327,#f4f5f0,white,75,13
+328,#f2f0eb,snow white,67,13
+329,#2a3244,midnight,76,8
+330,#e7e9e7,star light,95,13
+331,#39373b,black,96,13
+332,#525f48,moss,95,4
+333,#09577b,ocean blue,86,8
+334,#f4f5f0,white,91,13
+335,#aeb2b5,frost,57,13
+336,#3a3536,graphite,97,13
+337,#f4f5f0,white,75,13
+338,#09577b,ocean blue,52,8
+339,#2b2e43,navy blue,96,9
+340,#f4f5f0,white,90,13
+341,#9f9c99,cathedral,47,13
+342,#3a3536,graphite,96,13
+343,#a4292e,ribbon red,92,1
+344,#f4f5f0,white,83,13
+345,#0074a8,cerulean,52,8
+346,#2a3244,midnight,83,8
+347,#2b2e43,navy blue,43,9
+348,#8a2232,claret,68,1
+349,#f2f0eb,snow white,88,13
+350,#2b2e43,navy blue,62,9
+351,#f2f0eb,snow white,83,13
+352,#f2f0eb,snow white,95,13
+353,#c5c6c7,sterling,58,13
+354,#f2f0eb,snow white,89,13
+355,#f4f5f0,white,99,13
+356,#f2f0eb,snow white,50,13
+357,#3a3536,graphite,66,13
+358,#3a3536,graphite,93,13
+359,#cf6977,papaya,80,1
+360,#cbc3b4,palomino,76,2
+361,#f2f0eb,snow white,92,13
+362,#84898c,pewter,74,13
+363,#2a3244,midnight,92,8
+364,#3a3536,graphite,89,13
+365,#584039,brownie,54,1
+366,#dacbbe,cameo,46,2
+367,#f4f5f0,white,92,13
+368,#f4f5f0,white,90,13
+369,#f2f0eb,snow white,96,13
+370,#626879,blue steel,54,8
+371,#3a3536,graphite,91,13
+372,#f4f5f0,white,95,13
+373,#8c7c61,antique gold,61,2
+374,#2b2e43,navy blue,67,9
+375,#2a3244,midnight,92,8
+376,#f2f0eb,snow white,84,13
+377,#f4f5f0,white,89,13
+378,#2a3244,midnight,42,8
+379,#c5c6c7,sterling,39,13
+380,#84898c,pewter,40,13
+381,#f0eee9,marshmallow,70,13
+382,#f4f5f0,white,97,13
+383,#626879,blue steel,30,8
+384,#f4f5f0,white,98,13
+385,#f4f5f0,white,97,13
+386,#9babbb,platinum,32,8
+387,#9babbb,platinum,43,8
+388,#f0eee9,marshmallow,78,13
+389,#f2f0eb,snow white,96,13
+390,#2a3244,midnight,29,8
+391,#2a3244,midnight,41,8
+392,#41424a,ebony,60,13
+393,#f4f5f0,white,78,13
+394,#3a3536,graphite,79,13
+395,#41424a,ebony,45,13
+396,#41424a,ebony,46,13
+397,#f4f5f0,white,81,13
+398,#3a3536,graphite,53,13
+399,#426972,teal,42,7
+400,#3a3536,graphite,43,13
+401,#f4f5f0,white,99,13
+402,#3a3536,graphite,50,13
+403,#f4f5f0,white,98,13
+404,#f4f5f0,white,97,13
+405,#6e7e99,larkspur,34,8
+406,#2a3244,midnight,41,8
+407,#40312f,espresso,91,1
+408,#6e7e99,larkspur,34,8
+409,#325b74,marine,44,8
+410,#2a3244,midnight,93,8
+411,#3a3536,graphite,93,13
+412,#2a3244,midnight,80,8
+413,#2a3244,midnight,60,8
+414,#f4f5f0,white,80,13
+415,#3a3536,graphite,93,13
+416,#f4f5f0,white,99,13
+417,#f4f5f0,white,96,13
+418,#9babbb,platinum,39,8
+419,#2a3244,midnight,49,8
+420,#39373b,black,49,13
+421,#40312f,espresso,31,1
+422,#2b2e43,navy blue,44,9
+423,#2a3244,midnight,48,8
+424,#f2f0eb,snow white,98,13
+425,#2b2e43,navy blue,36,9
+426,#39373b,black,93,13
+427,#7ba0c0,windsor blue,31,8
+428,#39373b,black,46,13
+429,#e7e9e7,star light,52,13
+430,#e7e9e7,star light,64,13
+431,#f4f5f0,white,51,13
+432,#e7e9e7,star light,79,13
+433,#e7e9e7,star light,47,13
+434,#9bb7d4,ice blue,81,8
+435,#e7e9e7,star light,74,13
+436,#e7e9e7,star light,55,13
+437,#e7e9e7,star light,84,13
+438,#e7e9e7,star light,54,13
+439,#f4f5f0,white,88,13
+440,#98a0a5,mystic,40,13
+441,#f4f5f0,white,94,13
+442,#6e7e99,larkspur,37,8
+443,#e7e9e7,star light,81,13
+444,#3a3536,graphite,93,13
+445,#6e7e99,larkspur,42,8
+446,#2a3244,midnight,92,8
+447,#a2b9c2,surf spray,60,8
+448,#325b74,marine,42,8
+449,#2a3244,midnight,52,8
+450,#e7e9e7,star light,94,13
+451,#2a3244,midnight,66,8
+452,#3a3536,graphite,90,13
+453,#e7e9e7,star light,92,13
+454,#626879,blue steel,66,8
+455,#2d3359,blueberry,71,9
+456,#2d3359,blueberry,49,9
+457,#41424a,ebony,91,13
+458,#3a3536,graphite,87,13
+459,#f4f5f0,white,97,13
+460,#2a3244,midnight,75,8
+461,#39373b,black,91,13
+462,#dacbbe,cameo,98,2
+463,#2a3244,midnight,90,8
+464,#2a3244,midnight,47,8
+465,#9f9c99,cathedral,58,13
+466,#c5c6c7,sterling,98,13
+467,#f4f5f0,white,95,13
+468,#f2f0eb,snow white,97,13
+469,#f4f5f0,white,96,13
+470,#e7e9e7,star light,98,13
+471,#525f48,moss,79,4
+472,#3a3536,graphite,90,13
+473,#2b2e43,navy blue,50,9
+474,#3a3536,graphite,88,13
+475,#ac8a64,light brown,75,2
+476,#39373b,black,91,13
+477,#3a3536,graphite,90,13
+478,#baaa91,champagne,83,2
+479,#39373b,black,89,13
+480,#f4f5f0,white,97,13
+481,#baaa91,champagne,48,2
+482,#39373b,black,89,13
+483,#426972,teal,50,7
+484,#f4f5f0,white,95,13
+485,#f4f5f0,white,90,13
+486,#baaa91,champagne,60,2
+487,#f4f5f0,white,78,13
+488,#525f48,moss,49,4
+489,#39373b,black,45,13
+490,#c5c6c7,sterling,76,13
+491,#baaa91,champagne,83,2
+492,#8c7c61,antique gold,56,2
+493,#525f48,moss,92,4
+494,#0b5369,peacock,62,7
+495,#2a3244,midnight,74,8
+496,#ac8a64,light brown,86,2
+497,#d4a27c,medium rose-beige,41,2
+498,#39373b,black,93,13
+499,#ac8a64,light brown,66,2
+500,#525f48,moss,57,4
+501,#2a3244,midnight,93,8
+502,#f2f0eb,snow white,95,13
+503,#f2f0eb,snow white,76,13
+504,#e7e9e7,star light,97,13
+505,#3a3536,graphite,90,13
+506,#f4f5f0,white,96,13
+507,#e8d0a7,ice yellow,47,2
+508,#525f48,moss,70,4
+509,#2a3244,midnight,90,8
+510,#41424a,ebony,92,13
+511,#3a3536,graphite,91,13
+512,#9c7644,medium coffee,69,2
+513,#542e0c,dark bronze,54,2
+514,#f2f0eb,snow white,98,13
+515,#3a3536,graphite,93,13
+516,#2a3244,midnight,93,8
+517,#41424a,ebony,66,13
+518,#626879,blue steel,59,8
+519,#baaa91,champagne,91,2
+520,#525f48,moss,47,4
+521,#3a3536,graphite,89,13
+522,#dacbbe,cameo,84,2
+523,#918c86,mocha,71,13
+524,#d0d0da,dove,73,13
+525,#2b2e43,navy blue,89,9
+526,#e7e9e7,star light,88,13
+527,#f2f0eb,snow white,99,13
+528,#bc925d,dark beige,55,2
+529,#2a3244,midnight,91,8
+530,#40312f,espresso,93,1
+531,#bc9274,light coffee,48,2
+532,#f4f5f0,white,94,13
+533,#f4f5f0,white,94,13
+534,#bc925d,dark beige,50,2
+535,#525f48,moss,68,4
+536,#f4f5f0,white,91,13
+537,#41424a,ebony,37,13
+538,#e7e9e7,star light,60,13
+539,#3a3536,graphite,62,13
+540,#3a3536,graphite,66,13
+541,#d3a297,fresco,62,1
+542,#8a2232,claret,61,1
+543,#9c7644,medium coffee,54,2
+544,#9c7644,medium coffee,59,2
+545,#525f48,moss,55,4
+546,#1f6680,mosaic,64,8
+547,#f4f5f0,white,93,13
+548,#6e7e99,larkspur,43,8
+549,#40312f,espresso,53,1
+550,#ac8a64,light brown,52,2
+551,#4f3f3b,chocolate,51,1
+552,#f2f0eb,snow white,93,13
+553,#41424a,ebony,40,13
+554,#40312f,espresso,45,1
+555,#f4f5f0,white,49,13
+556,#325b74,marine,64,8
+557,#3a3536,graphite,69,13
+558,#e7e9e7,star light,99,13
+559,#f2f0eb,snow white,87,13
+560,#f2f0eb,snow white,96,13
+561,#f2f0eb,snow white,97,13
+562,#e7e9e7,star light,50,13
+563,#41424a,ebony,95,13
+564,#e7e9e7,star light,53,13
+565,#f2f0eb,snow white,45,13
+566,#f2f0eb,snow white,92,13
+567,#f2f0eb,snow white,98,13
+568,#525f48,moss,53,4
+569,#41424a,ebony,53,13
+570,#f2f0eb,snow white,94,13
+571,#2a3244,midnight,94,8
+572,#f4f5f0,white,98,13
+573,#f4f5f0,white,99,13
+574,#80817d,charcoal gray,75,13
+575,#f4f5f0,white,99,13
+576,#3a3536,graphite,92,13
+577,#f4f5f0,white,95,13
+578,#626879,blue steel,47,8
+579,#39373b,black,93,13
+580,#3a3536,graphite,92,13
+581,#3a3536,graphite,56,13
+582,#baaa91,champagne,69,2
+583,#525f48,moss,92,4
+584,#2a3244,midnight,93,8
+585,#f2f0eb,snow white,82,13
+586,#baaa91,champagne,73,2
+587,#525f48,moss,91,4
+588,#325b74,marine,44,8
+589,#e7e9e7,star light,97,13
+590,#bc9274,light coffee,63,2
+591,#525f48,moss,91,4
+592,#e7e9e7,star light,59,13
+593,#2a3244,midnight,94,8
+594,#e7e9e7,star light,50,13
+595,#2b2e43,navy blue,47,9
+596,#41424a,ebony,94,13
+597,#3a3536,graphite,93,13
+598,#8c7c61,antique gold,83,2
+599,#f2f0eb,snow white,94,13
+600,#84898c,pewter,42,13
+601,#2a3244,midnight,55,8
+602,#e7e9e7,star light,94,13
+603,#2a3244,midnight,66,8
+604,#f2f0eb,snow white,99,13
+605,#f2f0eb,snow white,95,13
+606,#d4a27c,medium rose-beige,65,2
+607,#525f48,moss,92,4
+608,#f4f5f0,white,99,13
+609,#2a3244,midnight,93,8
+610,#e7e9e7,star light,94,13
+611,#2a3244,midnight,66,8
+612,#f2f0eb,snow white,99,13
+613,#3a3536,graphite,94,13
+614,#f2f0eb,snow white,88,13
+615,#f4f5f0,white,98,13
+616,#e7e9e7,star light,81,13
+617,#3a3536,graphite,93,13
+618,#6e7e99,larkspur,42,8
+619,#2a3244,midnight,92,8
+620,#98a0a5,mystic,34,13
+621,#3a3536,graphite,47,13
+622,#ac8a64,light brown,47,2
+623,#5d473a,latte,47,2
+624,#3a3536,graphite,94,13
+625,#bc925d,dark beige,50,2
+626,#8c7c61,antique gold,45,2
+627,#2b2e43,navy blue,94,9
+628,#e7e9e7,star light,76,13
+629,#bc925d,dark beige,50,2
+630,#525f48,moss,68,4
+631,#f4f5f0,white,91,13
+632,#41424a,ebony,37,13
+633,#e7e9e7,star light,60,13
+634,#3a3536,graphite,62,13
+635,#3a3536,graphite,66,13
+636,#d3a297,fresco,62,1
+637,#8a2232,claret,61,1
+638,#9c7644,medium coffee,54,2
+639,#9c7644,medium coffee,59,2
+640,#525f48,moss,55,4
+641,#1f6680,mosaic,64,8
+642,#f4f5f0,white,93,13
+643,#f2f0eb,snow white,93,13
+644,#41424a,ebony,40,13
+645,#40312f,espresso,45,1
+646,#f4f5f0,white,49,13
+647,#325b74,marine,64,8
+648,#3a3536,graphite,69,13
+649,#f2f0eb,snow white,87,13
+650,#f2f0eb,snow white,96,13
+651,#f2f0eb,snow white,97,13
+652,#e7e9e7,star light,50,13
+653,#41424a,ebony,95,13
+654,#e7e9e7,star light,53,13
+655,#f2f0eb,snow white,45,13
+656,#f2f0eb,snow white,92,13
+657,#f2f0eb,snow white,98,13
+658,#525f48,moss,53,4
+659,#41424a,ebony,53,13
+660,#f2f0eb,snow white,94,13
+661,#80817d,charcoal gray,61,13
+662,#3a3536,graphite,67,13
+663,#525f48,moss,66,4
+664,#626879,blue steel,34,8
+665,#e7e9e7,star light,50,13
+666,#3a3536,graphite,47,13
+667,#2a3244,midnight,49,8
+668,#80817d,charcoal gray,45,13
+669,#3a3536,graphite,69,13
+670,#2a3244,midnight,61,8
+671,#c1b7b0,sand,62,13
+672,#39373b,black,66,13
+673,#2b2e43,navy blue,58,9
+674,#f2f0eb,snow white,89,13
+675,#3a3536,graphite,96,13
+676,#2b2e43,navy blue,96,9
+677,#f4f5f0,white,97,13
+678,#2b2e43,navy blue,97,9
+679,#f4f5f0,white,90,13
+680,#f4f5f0,white,88,13
+681,#98a0a5,mystic,40,13
+682,#f4f5f0,white,94,13
+683,#6e7e99,larkspur,37,8
+684,#e7e9e7,star light,92,13
+685,#41424a,ebony,43,13
+686,#dc5b62,firecracker,54,1
+687,#cbc3b4,palomino,47,2
+688,#525f48,moss,64,4
+689,#6e7e99,larkspur,44,8
+690,#2a3244,midnight,65,8
+691,#525f48,moss,75,4
+692,#2d3359,blueberry,62,9
+693,#3a3536,graphite,97,13
+694,#542e0c,dark bronze,49,2
+695,#4f3f3b,chocolate,41,1
+696,#41424a,ebony,47,13
+697,#84898c,pewter,41,13
+698,#f2f0eb,snow white,99,13
+699,#c5c6c7,sterling,37,13
+700,#a3bdd3,slate,45,8
+701,#ce8498,carnation,54,12
+702,#84898c,pewter,45,13
+703,#3a3536,graphite,48,13
+704,#a29e92,twig,46,13
+705,#525f48,moss,34,4
+706,#6e7e99,larkspur,46,8
+707,#2b2e43,navy blue,48,9
+708,#782a39,burgundy,47,1
+709,#09577b,ocean blue,39,8
+710,#525f48,moss,46,4
+711,#41424a,ebony,54,13
+712,#aeb2b5,frost,52,13
+713,#2a3244,midnight,57,8
+714,#2b2e43,navy blue,59,9
+715,#3a3536,graphite,87,13
+716,#3a3536,graphite,50,13
+717,#2b2e43,navy blue,49,9
+718,#7c5a2c,medium brown,36,2
+719,#41424a,ebony,30,13
+720,#325b74,marine,35,8
+721,#41424a,ebony,40,13
+722,#3a3536,graphite,70,13
+723,#bb1237,flame,65,1
+724,#40312f,espresso,61,1
+725,#2a3244,midnight,62,8
+726,#3a3536,graphite,49,13
+727,#e7e9e7,star light,55,13
+728,#41424a,ebony,82,13
+729,#3a3536,graphite,96,13
+730,#be5141,fiesta,92,1
+731,#baaa91,champagne,96,2
+732,#80817d,charcoal gray,63,13
+733,#09577b,ocean blue,66,8
+734,#2b2e43,navy blue,97,9
+735,#aeb2b5,frost,73,13
+736,#3a3536,graphite,62,13
+737,#3a3536,graphite,48,13
+738,#f2f0eb,snow white,94,13
+739,#3a3536,graphite,68,13
+740,#f2f0eb,snow white,93,13
+741,#39373b,black,93,13
+742,#2a3244,midnight,94,8
+743,#e7e9e7,star light,81,13
+744,#3a3536,graphite,93,13
+745,#6e7e99,larkspur,42,8
+746,#2a3244,midnight,92,8
+747,#98a0a5,mystic,34,13
+748,#3a3536,graphite,47,13
+749,#ac8a64,light brown,47,2
+750,#5d473a,latte,47,2
+751,#3a3536,graphite,94,13
+752,#bc925d,dark beige,50,2
+753,#8c7c61,antique gold,45,2
+754,#2b2e43,navy blue,94,9
+755,#baaa91,champagne,69,2
+756,#525f48,moss,92,4
+757,#2a3244,midnight,93,8
+758,#41424a,ebony,94,13
+759,#3a3536,graphite,93,13
+760,#8c7c61,antique gold,83,2
+761,#f2f0eb,snow white,94,13
+762,#f4f5f0,white,98,13
+763,#f4f5f0,white,99,13
+764,#80817d,charcoal gray,75,13
+765,#f4f5f0,white,99,13
+766,#3a3536,graphite,92,13
+767,#f4f5f0,white,95,13
+768,#bc9274,light coffee,63,2
+769,#525f48,moss,91,4
+770,#e7e9e7,star light,59,13
+771,#2a3244,midnight,94,8
+772,#626879,blue steel,47,8
+773,#39373b,black,93,13
+774,#3a3536,graphite,92,13
+775,#3a3536,graphite,56,13
+776,#84898c,pewter,42,13
+777,#2a3244,midnight,55,8
+778,#e7e9e7,star light,50,13
+779,#2b2e43,navy blue,47,9
+780,#3a3536,graphite,94,13
+781,#f2f0eb,snow white,88,13
+782,#f4f5f0,white,98,13
+783,#f2f0eb,snow white,95,13
+784,#d4a27c,medium rose-beige,65,2
+785,#525f48,moss,92,4
+786,#f4f5f0,white,99,13
+787,#2a3244,midnight,93,8
+788,#e7e9e7,star light,94,13
+789,#2a3244,midnight,66,8
+790,#f2f0eb,snow white,99,13
+791,#a5b2aa,celadon,41,13
+792,#6e7e99,larkspur,55,8
+793,#325b74,marine,91,8
+794,#4f3f3b,chocolate,68,1
+795,#f4f5f0,white,85,13
+796,#39373b,black,60,13
+797,#3a3536,graphite,69,13
+798,#2a3244,midnight,93,8
+799,#c5c6c7,sterling,47,13
+800,#39373b,black,67,13
+801,#3a3536,graphite,63,13
+802,#2b2e43,navy blue,53,9
+803,#aeb2b5,frost,36,13
+804,#626879,blue steel,34,8
+805,#e7e9e7,star light,50,13
+806,#3a3536,graphite,47,13
+807,#2a3244,midnight,49,8
+808,#80817d,charcoal gray,61,13
+809,#3a3536,graphite,67,13
+810,#525f48,moss,66,4
+811,#f4f5f0,white,97,13
+812,#2b2e43,navy blue,97,9
+813,#f2f0eb,snow white,89,13
+814,#3a3536,graphite,96,13
+815,#2b2e43,navy blue,96,9
+816,#80817d,charcoal gray,45,13
+817,#3a3536,graphite,69,13
+818,#2a3244,midnight,61,8
+819,#3a3536,graphite,87,13
+820,#bc925d,dark beige,50,2
+821,#525f48,moss,68,4
+822,#f4f5f0,white,91,13
+823,#41424a,ebony,37,13
+824,#e7e9e7,star light,50,13
+825,#41424a,ebony,95,13
+826,#e7e9e7,star light,53,13
+827,#f2f0eb,snow white,45,13
+828,#f2f0eb,snow white,92,13
+829,#f2f0eb,snow white,98,13
+830,#525f48,moss,53,4
+831,#41424a,ebony,53,13
+832,#f2f0eb,snow white,94,13
+833,#40312f,espresso,45,1
+834,#f4f5f0,white,49,13
+835,#325b74,marine,64,8
+836,#3a3536,graphite,69,13
+837,#f2f0eb,snow white,96,13
+838,#f2f0eb,snow white,97,13
+839,#f2f0eb,snow white,87,13
+840,#f2f0eb,snow white,93,13
+841,#41424a,ebony,40,13
+842,#f4f5f0,white,88,13
+843,#98a0a5,mystic,40,13
+844,#f4f5f0,white,94,13
+845,#6e7e99,larkspur,37,8
+846,#e7e9e7,star light,92,13
+847,#41424a,ebony,43,13
+848,#dc5b62,firecracker,54,1
+849,#cbc3b4,palomino,47,2
+850,#525f48,moss,64,4
+851,#6e7e99,larkspur,44,8
+852,#2a3244,midnight,65,8
+853,#525f48,moss,75,4
+854,#2d3359,blueberry,62,9
+855,#f4f5f0,white,90,13
+856,#3a3536,graphite,97,13
+857,#542e0c,dark bronze,49,2
+858,#4f3f3b,chocolate,41,1
+859,#41424a,ebony,47,13
+860,#a5b2aa,celadon,58,13
+861,#80817d,charcoal gray,66,13
+862,#3a3536,graphite,77,13
+863,#f4f5f0,white,95,13
+864,#e7e9e7,star light,60,13
+865,#3a3536,graphite,62,13
+866,#3a3536,graphite,66,13
+867,#d3a297,fresco,62,1
+868,#8a2232,claret,61,1
+869,#9c7644,medium coffee,54,2
+870,#9c7644,medium coffee,59,2
+871,#525f48,moss,55,4
+872,#1f6680,mosaic,64,8
+873,#f4f5f0,white,93,13
+874,#c1b7b0,sand,62,13
+875,#39373b,black,66,13
+876,#2b2e43,navy blue,58,9
+877,#f4f5f0,white,92,13
+878,#f4f5f0,white,91,13
+879,#afcb80,pistachio,53,4
+880,#ac8a64,light brown,37,2
+881,#3a3536,graphite,47,13
+882,#626879,blue steel,44,8
+883,#3a3536,graphite,92,13
+884,#525f48,moss,60,4
+885,#2a3244,midnight,48,8
+886,#3a3536,graphite,94,13
+887,#3a3536,graphite,37,13
+888,#41424a,ebony,55,13
+889,#09577b,ocean blue,42,8
+890,#3a3536,graphite,90,13
+891,#aeb2b5,frost,73,13
+892,#3a3536,graphite,62,13
+893,#3a3536,graphite,48,13
+894,#f2f0eb,snow white,94,13
+895,#3a3536,graphite,68,13
+896,#f2f0eb,snow white,93,13
+897,#39373b,black,93,13
+898,#2a3244,midnight,94,8
+899,#e7e9e7,star light,81,13
+900,#3a3536,graphite,93,13
+901,#6e7e99,larkspur,42,8
+902,#2a3244,midnight,92,8
+903,#98a0a5,mystic,34,13
+904,#3a3536,graphite,47,13
+905,#ac8a64,light brown,47,2
+906,#5d473a,latte,47,2
+907,#3a3536,graphite,94,13
+908,#bc925d,dark beige,50,2
+909,#8c7c61,antique gold,45,2
+910,#2b2e43,navy blue,94,9
+911,#baaa91,champagne,69,2
+912,#525f48,moss,92,4
+913,#2a3244,midnight,93,8
+914,#41424a,ebony,94,13
+915,#3a3536,graphite,93,13
+916,#8c7c61,antique gold,83,2
+917,#f2f0eb,snow white,94,13
+918,#f4f5f0,white,98,13
+919,#f4f5f0,white,99,13
+920,#80817d,charcoal gray,75,13
+921,#f4f5f0,white,99,13
+922,#3a3536,graphite,92,13
+923,#f4f5f0,white,95,13
+924,#bc9274,light coffee,63,2
+925,#525f48,moss,91,4
+926,#e7e9e7,star light,59,13
+927,#2a3244,midnight,94,8
+928,#626879,blue steel,47,8
+929,#39373b,black,93,13
+930,#3a3536,graphite,92,13
+931,#3a3536,graphite,56,13
+932,#84898c,pewter,42,13
+933,#2a3244,midnight,55,8
+934,#e7e9e7,star light,50,13
+935,#2b2e43,navy blue,47,9
+936,#3a3536,graphite,94,13
+937,#f2f0eb,snow white,88,13
+938,#f4f5f0,white,98,13
+939,#f2f0eb,snow white,95,13
+940,#d4a27c,medium rose-beige,65,2
+941,#525f48,moss,92,4
+942,#f4f5f0,white,99,13
+943,#2a3244,midnight,93,8
+944,#e7e9e7,star light,94,13
+945,#2a3244,midnight,66,8
+946,#f2f0eb,snow white,99,13
+947,#a5b2aa,celadon,41,13
+948,#6e7e99,larkspur,55,8
+949,#325b74,marine,91,8
+950,#4f3f3b,chocolate,68,1
+951,#f4f5f0,white,85,13
+952,#39373b,black,60,13
+953,#3a3536,graphite,69,13
+954,#2a3244,midnight,93,8
+955,#c5c6c7,sterling,47,13
+956,#39373b,black,67,13
+957,#3a3536,graphite,63,13
+958,#2b2e43,navy blue,53,9
+959,#aeb2b5,frost,36,13
+960,#626879,blue steel,34,8
+961,#e7e9e7,star light,50,13
+962,#3a3536,graphite,47,13
+963,#2a3244,midnight,49,8
+964,#80817d,charcoal gray,61,13
+965,#3a3536,graphite,67,13
+966,#525f48,moss,66,4
+967,#f4f5f0,white,97,13
+968,#2b2e43,navy blue,97,9
+969,#f2f0eb,snow white,89,13
+970,#3a3536,graphite,96,13
+971,#2b2e43,navy blue,96,9
+972,#80817d,charcoal gray,45,13
+973,#3a3536,graphite,69,13
+974,#2a3244,midnight,61,8
+975,#3a3536,graphite,87,13
+976,#bc925d,dark beige,50,2
+977,#525f48,moss,68,4
+978,#f4f5f0,white,91,13
+979,#41424a,ebony,37,13
+980,#e7e9e7,star light,50,13
+981,#41424a,ebony,95,13
+982,#e7e9e7,star light,53,13
+983,#f2f0eb,snow white,45,13
+984,#f2f0eb,snow white,92,13
+985,#f2f0eb,snow white,98,13
+986,#525f48,moss,53,4
+987,#41424a,ebony,53,13
+988,#f2f0eb,snow white,94,13
+989,#40312f,espresso,45,1
+990,#f4f5f0,white,49,13
+991,#325b74,marine,64,8
+992,#3a3536,graphite,69,13
+993,#f2f0eb,snow white,96,13
+994,#f2f0eb,snow white,97,13
+995,#f2f0eb,snow white,87,13
+996,#f2f0eb,snow white,93,13
+997,#41424a,ebony,40,13
+998,#f4f5f0,white,88,13
+999,#98a0a5,mystic,40,13
+1000,#f4f5f0,white,94,13
+1001,#6e7e99,larkspur,37,8
+1002,#e7e9e7,star light,92,13
+1003,#41424a,ebony,43,13
+1004,#dc5b62,firecracker,54,1
+1005,#cbc3b4,palomino,47,2
+1006,#525f48,moss,64,4
+1007,#6e7e99,larkspur,44,8
+1008,#2a3244,midnight,65,8
+1009,#525f48,moss,75,4
+1010,#2d3359,blueberry,62,9
+1011,#f4f5f0,white,90,13
+1012,#3a3536,graphite,97,13
+1013,#542e0c,dark bronze,49,2
+1014,#4f3f3b,chocolate,41,1
+1015,#41424a,ebony,47,13
+1016,#a5b2aa,celadon,58,13
+1017,#80817d,charcoal gray,66,13
+1018,#3a3536,graphite,77,13
+1019,#f4f5f0,white,95,13
+1020,#e7e9e7,star light,60,13
+1021,#3a3536,graphite,62,13
+1022,#3a3536,graphite,66,13
+1023,#d3a297,fresco,62,1
+1024,#8a2232,claret,61,1
+1025,#9c7644,medium coffee,54,2
+1026,#9c7644,medium coffee,59,2
+1027,#525f48,moss,55,4
+1028,#1f6680,mosaic,64,8
+1029,#f4f5f0,white,93,13
+1030,#c1b7b0,sand,62,13
+1031,#39373b,black,66,13
+1032,#2b2e43,navy blue,58,9
+1033,#f4f5f0,white,92,13
+1034,#f4f5f0,white,91,13
+1035,#afcb80,pistachio,53,4
+1036,#ac8a64,light brown,37,2
+1037,#3a3536,graphite,47,13
+1038,#626879,blue steel,44,8
+1039,#3a3536,graphite,92,13
+1040,#525f48,moss,60,4
+1041,#2a3244,midnight,48,8
+1042,#3a3536,graphite,94,13
+1043,#3a3536,graphite,37,13
+1044,#41424a,ebony,55,13
+1045,#09577b,ocean blue,42,8
+1046,#3a3536,graphite,90,13
+1047,#aeb2b5,frost,73,13
+1048,#3a3536,graphite,62,13
+1049,#3a3536,graphite,48,13
+1050,#f2f0eb,snow white,94,13
+1051,#3a3536,graphite,68,13
+1052,#f2f0eb,snow white,93,13
+1053,#39373b,black,93,13
+1054,#2a3244,midnight,94,8
+1055,#e7e9e7,star light,81,13
+1056,#3a3536,graphite,93,13
+1057,#6e7e99,larkspur,42,8
+1058,#2a3244,midnight,92,8
+1059,#98a0a5,mystic,34,13
+1060,#3a3536,graphite,47,13
+1061,#ac8a64,light brown,47,2
+1062,#5d473a,latte,47,2
+1063,#3a3536,graphite,94,13
+1064,#bc925d,dark beige,50,2
+1065,#8c7c61,antique gold,45,2
+1066,#2b2e43,navy blue,94,9
+1067,#baaa91,champagne,69,2
+1068,#525f48,moss,92,4
+1069,#2a3244,midnight,93,8
+1070,#41424a,ebony,94,13
+1071,#3a3536,graphite,93,13
+1072,#8c7c61,antique gold,83,2
+1073,#f2f0eb,snow white,94,13
+1074,#f4f5f0,white,98,13
+1075,#f4f5f0,white,99,13
+1076,#80817d,charcoal gray,75,13
+1077,#f4f5f0,white,99,13
+1078,#3a3536,graphite,92,13
+1079,#f4f5f0,white,95,13
+1080,#bc9274,light coffee,63,2
+1081,#525f48,moss,91,4
+1082,#e7e9e7,star light,59,13
+1083,#2a3244,midnight,94,8
+1084,#626879,blue steel,47,8
+1085,#39373b,black,93,13
+1086,#3a3536,graphite,92,13
+1087,#3a3536,graphite,56,13
+1088,#84898c,pewter,42,13
+1089,#2a3244,midnight,55,8
+1090,#e7e9e7,star light,50,13
+1091,#2b2e43,navy blue,47,9
+1092,#3a3536,graphite,94,13
+1093,#f2f0eb,snow white,88,13
+1094,#f4f5f0,white,98,13
+1095,#f2f0eb,snow white,95,13
+1096,#d4a27c,medium rose-beige,65,2
+1097,#525f48,moss,92,4
+1098,#f4f5f0,white,99,13
+1099,#2a3244,midnight,93,8
+1100,#e7e9e7,star light,94,13
+1101,#2a3244,midnight,66,8
+1102,#f2f0eb,snow white,99,13
+1103,#a5b2aa,celadon,41,13
+1104,#6e7e99,larkspur,55,8
+1105,#325b74,marine,91,8
+1106,#4f3f3b,chocolate,68,1
+1107,#f4f5f0,white,85,13
+1108,#39373b,black,60,13
+1109,#3a3536,graphite,69,13
+1110,#2a3244,midnight,93,8
+1111,#c5c6c7,sterling,47,13
+1112,#39373b,black,67,13
+1113,#3a3536,graphite,63,13
+1114,#2b2e43,navy blue,53,9
+1115,#aeb2b5,frost,36,13
+1116,#626879,blue steel,34,8
+1117,#e7e9e7,star light,50,13
+1118,#3a3536,graphite,47,13
+1119,#2a3244,midnight,49,8
+1120,#80817d,charcoal gray,61,13
+1121,#3a3536,graphite,67,13
+1122,#525f48,moss,66,4
+1123,#f4f5f0,white,97,13
+1124,#2b2e43,navy blue,97,9
+1125,#f2f0eb,snow white,89,13
+1126,#3a3536,graphite,96,13
+1127,#2b2e43,navy blue,96,9
+1128,#80817d,charcoal gray,45,13
+1129,#3a3536,graphite,69,13
+1130,#2a3244,midnight,61,8
+1131,#3a3536,graphite,87,13
+1132,#bc925d,dark beige,50,2
+1133,#525f48,moss,68,4
+1134,#f4f5f0,white,91,13
+1135,#41424a,ebony,37,13
+1136,#e7e9e7,star light,50,13
+1137,#41424a,ebony,95,13
+1138,#e7e9e7,star light,53,13
+1139,#f2f0eb,snow white,45,13
+1140,#f2f0eb,snow white,92,13
+1141,#f2f0eb,snow white,98,13
+1142,#525f48,moss,53,4
+1143,#41424a,ebony,53,13
+1144,#f2f0eb,snow white,94,13
+1145,#40312f,espresso,45,1
+1146,#f4f5f0,white,49,13
+1147,#325b74,marine,64,8
+1148,#3a3536,graphite,69,13
+1149,#f2f0eb,snow white,96,13
+1150,#f2f0eb,snow white,97,13
+1151,#f2f0eb,snow white,87,13
+1152,#f2f0eb,snow white,93,13
+1153,#41424a,ebony,40,13
+1154,#f4f5f0,white,88,13
+1155,#98a0a5,mystic,40,13
+1156,#f4f5f0,white,94,13
+1157,#6e7e99,larkspur,37,8
+1158,#e7e9e7,star light,92,13
+1159,#41424a,ebony,43,13
+1160,#dc5b62,firecracker,54,1
+1161,#cbc3b4,palomino,47,2
+1162,#525f48,moss,64,4
+1163,#6e7e99,larkspur,44,8
+1164,#2a3244,midnight,65,8
+1165,#525f48,moss,75,4
+1166,#2d3359,blueberry,62,9
+1167,#f4f5f0,white,90,13
+1168,#3a3536,graphite,97,13
+1169,#542e0c,dark bronze,49,2
+1170,#4f3f3b,chocolate,41,1
+1171,#41424a,ebony,47,13
+1172,#a5b2aa,celadon,58,13
+1173,#80817d,charcoal gray,66,13
+1174,#3a3536,graphite,77,13
+1175,#f4f5f0,white,95,13
+1176,#e7e9e7,star light,60,13
+1177,#3a3536,graphite,62,13
+1178,#3a3536,graphite,66,13
+1179,#d3a297,fresco,62,1
+1180,#8a2232,claret,61,1
+1181,#9c7644,medium coffee,54,2
+1182,#9c7644,medium coffee,59,2
+1183,#525f48,moss,55,4
+1184,#1f6680,mosaic,64,8
+1185,#f4f5f0,white,93,13
+1186,#c1b7b0,sand,62,13
+1187,#39373b,black,66,13
+1188,#2b2e43,navy blue,58,9
+1189,#f4f5f0,white,92,13
+1190,#f4f5f0,white,91,13
+1191,#afcb80,pistachio,53,4
+1192,#ac8a64,light brown,37,2
+1193,#3a3536,graphite,47,13
+1194,#626879,blue steel,44,8
+1195,#3a3536,graphite,92,13
+1196,#525f48,moss,60,4
+1197,#2a3244,midnight,48,8
+1198,#3a3536,graphite,94,13
+1199,#3a3536,graphite,37,13
+1200,#41424a,ebony,55,13
+1201,#09577b,ocean blue,42,8
+1202,#3a3536,graphite,90,13
+1203,#aeb2b5,frost,73,13
+1204,#3a3536,graphite,62,13
+1205,#3a3536,graphite,48,13
+1206,#f2f0eb,snow white,94,13
+1207,#3a3536,graphite,68,13
+1208,#f2f0eb,snow white,93,13
+1209,#39373b,black,93,13
+1210,#2a3244,midnight,94,8
+1211,#e7e9e7,star light,81,13
+1212,#3a3536,graphite,93,13
+1213,#6e7e99,larkspur,42,8
+1214,#2a3244,midnight,92,8
+1215,#98a0a5,mystic,34,13
+1216,#3a3536,graphite,47,13
+1217,#ac8a64,light brown,47,2
+1218,#5d473a,latte,47,2
+1219,#3a3536,graphite,94,13
+1220,#bc925d,dark beige,50,2
+1221,#8c7c61,antique gold,45,2
+1222,#2b2e43,navy blue,94,9
+1223,#baaa91,champagne,69,2
+1224,#525f48,moss,92,4
+1225,#2a3244,midnight,93,8
+1226,#41424a,ebony,94,13
+1227,#3a3536,graphite,93,13
+1228,#8c7c61,antique gold,83,2
+1229,#f2f0eb,snow white,94,13
+1230,#f4f5f0,white,98,13
+1231,#f4f5f0,white,99,13
+1232,#80817d,charcoal gray,75,13
+1233,#f4f5f0,white,99,13
+1234,#3a3536,graphite,92,13
+1235,#f4f5f0,white,95,13
+1236,#bc9274,light coffee,63,2
+1237,#525f48,moss,91,4
+1238,#e7e9e7,star light,59,13
+1239,#2a3244,midnight,94,8
+1240,#626879,blue steel,47,8
+1241,#39373b,black,93,13
+1242,#3a3536,graphite,92,13
+1243,#3a3536,graphite,56,13
+1244,#84898c,pewter,42,13
+1245,#2a3244,midnight,55,8
+1246,#e7e9e7,star light,50,13
+1247,#2b2e43,navy blue,47,9
+1248,#3a3536,graphite,94,13
+1249,#f2f0eb,snow white,88,13
+1250,#f4f5f0,white,98,13
+1251,#f2f0eb,snow white,95,13
+1252,#d4a27c,medium rose-beige,65,2
+1253,#525f48,moss,92,4
+1254,#f4f5f0,white,99,13
+1255,#2a3244,midnight,93,8
+1256,#e7e9e7,star light,94,13
+1257,#2a3244,midnight,66,8
+1258,#f2f0eb,snow white,99,13
+1259,#a5b2aa,celadon,41,13
+1260,#6e7e99,larkspur,55,8
+1261,#325b74,marine,91,8
+1262,#4f3f3b,chocolate,68,1
+1263,#f4f5f0,white,85,13
+1264,#39373b,black,60,13
+1265,#3a3536,graphite,69,13
+1266,#2a3244,midnight,93,8
+1267,#c5c6c7,sterling,47,13
+1268,#39373b,black,67,13
+1269,#3a3536,graphite,63,13
+1270,#2b2e43,navy blue,53,9
+1271,#aeb2b5,frost,36,13
+1272,#626879,blue steel,34,8
+1273,#e7e9e7,star light,50,13
+1274,#3a3536,graphite,47,13
+1275,#2a3244,midnight,49,8
+1276,#80817d,charcoal gray,61,13
+1277,#3a3536,graphite,67,13
+1278,#525f48,moss,66,4
+1279,#f4f5f0,white,97,13
+1280,#2b2e43,navy blue,97,9
+1281,#f2f0eb,snow white,89,13
+1282,#3a3536,graphite,96,13
+1283,#2b2e43,navy blue,96,9
+1284,#80817d,charcoal gray,45,13
+1285,#3a3536,graphite,69,13
+1286,#2a3244,midnight,61,8
+1287,#3a3536,graphite,87,13
+1288,#bc925d,dark beige,50,2
+1289,#525f48,moss,68,4
+1290,#f4f5f0,white,91,13
+1291,#41424a,ebony,37,13
+1292,#e7e9e7,star light,50,13
+1293,#41424a,ebony,95,13
+1294,#e7e9e7,star light,53,13
+1295,#f2f0eb,snow white,45,13
+1296,#f2f0eb,snow white,92,13
+1297,#f2f0eb,snow white,98,13
+1298,#525f48,moss,53,4
+1299,#41424a,ebony,53,13
+1300,#f2f0eb,snow white,94,13
+1301,#40312f,espresso,45,1
+1302,#f4f5f0,white,49,13
+1303,#325b74,marine,64,8
+1304,#3a3536,graphite,69,13
+1305,#f2f0eb,snow white,96,13
+1306,#f2f0eb,snow white,97,13
+1307,#f2f0eb,snow white,87,13
+1308,#f2f0eb,snow white,93,13
+1309,#41424a,ebony,40,13
+1310,#f4f5f0,white,88,13
+1311,#98a0a5,mystic,40,13
+1312,#f4f5f0,white,94,13
+1313,#6e7e99,larkspur,37,8
+1314,#e7e9e7,star light,92,13
+1315,#41424a,ebony,43,13
+1316,#dc5b62,firecracker,54,1
+1317,#cbc3b4,palomino,47,2
+1318,#525f48,moss,64,4
+1319,#6e7e99,larkspur,44,8
+1320,#2a3244,midnight,65,8
+1321,#525f48,moss,75,4
+1322,#2d3359,blueberry,62,9
+1323,#f4f5f0,white,90,13
+1324,#3a3536,graphite,97,13
+1325,#542e0c,dark bronze,49,2
+1326,#4f3f3b,chocolate,41,1
+1327,#41424a,ebony,47,13
+1328,#a5b2aa,celadon,58,13
+1329,#80817d,charcoal gray,66,13
+1330,#3a3536,graphite,77,13
+1331,#f4f5f0,white,95,13
+1332,#e7e9e7,star light,60,13
+1333,#3a3536,graphite,62,13
+1334,#3a3536,graphite,66,13
+1335,#d3a297,fresco,62,1
+1336,#8a2232,claret,61,1
+1337,#9c7644,medium coffee,54,2
+1338,#9c7644,medium coffee,59,2
+1339,#525f48,moss,55,4
+1340,#1f6680,mosaic,64,8
+1341,#f4f5f0,white,93,13
+1342,#c1b7b0,sand,62,13
+1343,#39373b,black,66,13
+1344,#2b2e43,navy blue,58,9
+1345,#f4f5f0,white,92,13
+1346,#f4f5f0,white,91,13
+1347,#afcb80,pistachio,53,4
+1348,#ac8a64,light brown,37,2
+1349,#3a3536,graphite,47,13
+1350,#626879,blue steel,44,8
+1351,#3a3536,graphite,92,13
+1352,#525f48,moss,60,4
+1353,#2a3244,midnight,48,8
+1354,#3a3536,graphite,94,13
+1355,#3a3536,graphite,37,13
+1356,#41424a,ebony,55,13
+1357,#09577b,ocean blue,42,8
+1358,#3a3536,graphite,90,13
+1359,#aeb2b5,frost,73,13
+1360,#3a3536,graphite,62,13
+1361,#3a3536,graphite,48,13
+1362,#f2f0eb,snow white,94,13
+1363,#3a3536,graphite,68,13
+1364,#f2f0eb,snow white,93,13
+1365,#39373b,black,93,13
+1366,#2a3244,midnight,94,8
+1367,#e7e9e7,star light,81,13
+1368,#3a3536,graphite,93,13
+1369,#6e7e99,larkspur,42,8
+1370,#2a3244,midnight,92,8
+1371,#98a0a5,mystic,34,13
+1372,#3a3536,graphite,47,13
+1373,#ac8a64,light brown,47,2
+1374,#5d473a,latte,47,2
+1375,#3a3536,graphite,94,13
+1376,#bc925d,dark beige,50,2
+1377,#8c7c61,antique gold,45,2
+1378,#2b2e43,navy blue,94,9
+1379,#baaa91,champagne,69,2
+1380,#525f48,moss,92,4
+1381,#2a3244,midnight,93,8
+1382,#41424a,ebony,94,13
+1383,#3a3536,graphite,93,13
+1384,#8c7c61,antique gold,83,2
+1385,#f2f0eb,snow white,94,13
+1386,#f4f5f0,white,98,13
+1387,#f4f5f0,white,99,13
+1388,#80817d,charcoal gray,75,13
+1389,#f4f5f0,white,99,13
+1390,#3a3536,graphite,92,13
+1391,#f4f5f0,white,95,13
+1392,#bc9274,light coffee,63,2
+1393,#525f48,moss,91,4
+1394,#e7e9e7,star light,59,13
+1395,#2a3244,midnight,94,8
+1396,#626879,blue steel,47,8
+1397,#39373b,black,93,13
+1398,#3a3536,graphite,92,13
+1399,#3a3536,graphite,56,13
+1400,#84898c,pewter,42,13
+1401,#2a3244,midnight,55,8
+1402,#e7e9e7,star light,50,13
+1403,#2b2e43,navy blue,47,9
+1404,#3a3536,graphite,94,13
+1405,#f2f0eb,snow white,88,13
+1406,#f4f5f0,white,98,13
+1407,#f2f0eb,snow white,95,13
+1408,#d4a27c,medium rose-beige,65,2
+1409,#525f48,moss,92,4
+1410,#f4f5f0,white,99,13
+1411,#2a3244,midnight,93,8
+1412,#e7e9e7,star light,94,13
+1413,#2a3244,midnight,66,8
+1414,#f2f0eb,snow white,99,13
+1415,#a5b2aa,celadon,41,13
+1416,#6e7e99,larkspur,55,8
+1417,#325b74,marine,91,8
+1418,#4f3f3b,chocolate,68,1
+1419,#f4f5f0,white,85,13
+1420,#39373b,black,60,13
+1421,#3a3536,graphite,69,13
+1422,#2a3244,midnight,93,8
+1423,#c5c6c7,sterling,47,13
+1424,#39373b,black,67,13
+1425,#3a3536,graphite,63,13
+1426,#2b2e43,navy blue,53,9
+1427,#aeb2b5,frost,36,13
+1428,#626879,blue steel,34,8
+1429,#e7e9e7,star light,50,13
+1430,#3a3536,graphite,47,13
+1431,#2a3244,midnight,49,8
+1432,#80817d,charcoal gray,61,13
+1433,#3a3536,graphite,67,13
+1434,#525f48,moss,66,4
+1435,#f4f5f0,white,97,13
+1436,#2b2e43,navy blue,97,9
+1437,#f2f0eb,snow white,89,13
+1438,#3a3536,graphite,96,13
+1439,#2b2e43,navy blue,96,9
+1440,#80817d,charcoal gray,45,13
+1441,#3a3536,graphite,69,13
+1442,#2a3244,midnight,61,8
+1443,#3a3536,graphite,87,13
+1444,#bc925d,dark beige,50,2
+1445,#525f48,moss,68,4
+1446,#f4f5f0,white,91,13
+1447,#41424a,ebony,37,13
+1448,#e7e9e7,star light,50,13
+1449,#41424a,ebony,95,13
+1450,#e7e9e7,star light,53,13
+1451,#f2f0eb,snow white,45,13
+1452,#f2f0eb,snow white,92,13
+1453,#f2f0eb,snow white,98,13
+1454,#525f48,moss,53,4
+1455,#41424a,ebony,53,13
+1456,#f2f0eb,snow white,94,13
+1457,#40312f,espresso,45,1
+1458,#f4f5f0,white,49,13
+1459,#325b74,marine,64,8
+1460,#3a3536,graphite,69,13
+1461,#f2f0eb,snow white,96,13
+1462,#f2f0eb,snow white,97,13
+1463,#f2f0eb,snow white,87,13
+1464,#f2f0eb,snow white,93,13
+1465,#41424a,ebony,40,13
+1466,#f4f5f0,white,88,13
+1467,#98a0a5,mystic,40,13
+1468,#f4f5f0,white,94,13
+1469,#6e7e99,larkspur,37,8
+1470,#e7e9e7,star light,92,13
+1471,#41424a,ebony,43,13
+1472,#dc5b62,firecracker,54,1
+1473,#cbc3b4,palomino,47,2
+1474,#525f48,moss,64,4
+1475,#6e7e99,larkspur,44,8
+1476,#2a3244,midnight,65,8
+1477,#525f48,moss,75,4
+1478,#2d3359,blueberry,62,9
+1479,#f4f5f0,white,90,13
+1480,#3a3536,graphite,97,13
+1481,#542e0c,dark bronze,49,2
+1482,#4f3f3b,chocolate,41,1
+1483,#41424a,ebony,47,13
+1484,#a5b2aa,celadon,58,13
+1485,#80817d,charcoal gray,66,13
+1486,#3a3536,graphite,77,13
+1487,#f4f5f0,white,95,13
+1488,#e7e9e7,star light,60,13
+1489,#3a3536,graphite,62,13
+1490,#3a3536,graphite,66,13
+1491,#d3a297,fresco,62,1
+1492,#8a2232,claret,61,1
+1493,#9c7644,medium coffee,54,2
+1494,#9c7644,medium coffee,59,2
+1495,#525f48,moss,55,4
+1496,#1f6680,mosaic,64,8
+1497,#f4f5f0,white,93,13
+1498,#c1b7b0,sand,62,13
+1499,#39373b,black,66,13
+1500,#2b2e43,navy blue,58,9
+1501,#f4f5f0,white,92,13
+1502,#f4f5f0,white,91,13
+1503,#afcb80,pistachio,53,4
+1504,#ac8a64,light brown,37,2
+1505,#3a3536,graphite,47,13
+1506,#626879,blue steel,44,8
+1507,#3a3536,graphite,92,13
+1508,#525f48,moss,60,4
+1509,#2a3244,midnight,48,8
+1510,#3a3536,graphite,94,13
+1511,#3a3536,graphite,37,13
+1512,#41424a,ebony,55,13
+1513,#09577b,ocean blue,42,8
+1514,#3a3536,graphite,90,13
+1515,#aeb2b5,frost,73,13
+1516,#3a3536,graphite,62,13
+1517,#3a3536,graphite,48,13
+1518,#f2f0eb,snow white,94,13
+1519,#3a3536,graphite,68,13
+1520,#f2f0eb,snow white,93,13
+1521,#39373b,black,93,13
+1522,#2a3244,midnight,94,8
+1523,#e7e9e7,star light,81,13
+1524,#3a3536,graphite,93,13
+1525,#6e7e99,larkspur,42,8
+1526,#2a3244,midnight,92,8
+1527,#98a0a5,mystic,34,13
+1528,#3a3536,graphite,47,13
+1529,#ac8a64,light brown,47,2
+1530,#5d473a,latte,47,2
+1531,#3a3536,graphite,94,13
+1532,#bc925d,dark beige,50,2
+1533,#8c7c61,antique gold,45,2
+1534,#2b2e43,navy blue,94,9
+1535,#baaa91,champagne,69,2
+1536,#525f48,moss,92,4
+1537,#2a3244,midnight,93,8
+1538,#41424a,ebony,94,13
+1539,#3a3536,graphite,93,13
+1540,#8c7c61,antique gold,83,2
+1541,#f2f0eb,snow white,94,13
+1542,#f4f5f0,white,98,13
+1543,#f4f5f0,white,99,13
+1544,#80817d,charcoal gray,75,13
+1545,#f4f5f0,white,99,13
+1546,#3a3536,graphite,92,13
+1547,#f4f5f0,white,95,13
+1548,#bc9274,light coffee,63,2
+1549,#525f48,moss,91,4
+1550,#e7e9e7,star light,59,13
+1551,#2a3244,midnight,94,8
+1552,#626879,blue steel,47,8
+1553,#39373b,black,93,13
+1554,#3a3536,graphite,92,13
+1555,#3a3536,graphite,56,13
+1556,#84898c,pewter,42,13
+1557,#2a3244,midnight,55,8
+1558,#e7e9e7,star light,50,13
+1559,#2b2e43,navy blue,47,9
+1560,#3a3536,graphite,94,13
+1561,#f2f0eb,snow white,88,13
+1562,#f4f5f0,white,98,13
+1563,#f2f0eb,snow white,95,13
+1564,#d4a27c,medium rose-beige,65,2
+1565,#525f48,moss,92,4
+1566,#f4f5f0,white,99,13
+1567,#2a3244,midnight,93,8
+1568,#e7e9e7,star light,94,13
+1569,#2a3244,midnight,66,8
+1570,#f2f0eb,snow white,99,13
+1571,#a5b2aa,celadon,41,13
+1572,#6e7e99,larkspur,55,8
+1573,#325b74,marine,91,8
+1574,#4f3f3b,chocolate,68,1
+1575,#f4f5f0,white,85,13
+1576,#39373b,black,60,13
+1577,#3a3536,graphite,69,13
+1578,#2a3244,midnight,93,8
+1579,#c5c6c7,sterling,47,13
+1580,#39373b,black,67,13
+1581,#3a3536,graphite,63,13
+1582,#2b2e43,navy blue,53,9
+1583,#aeb2b5,frost,36,13
+1584,#626879,blue steel,34,8
+1585,#e7e9e7,star light,50,13
+1586,#3a3536,graphite,47,13
+1587,#2a3244,midnight,49,8
+1588,#80817d,charcoal gray,61,13
+1589,#3a3536,graphite,67,13
+1590,#525f48,moss,66,4
+1591,#f4f5f0,white,97,13
+1592,#2b2e43,navy blue,97,9
+1593,#f2f0eb,snow white,89,13
+1594,#3a3536,graphite,96,13
+1595,#2b2e43,navy blue,96,9
+1596,#80817d,charcoal gray,45,13
+1597,#3a3536,graphite,69,13
+1598,#2a3244,midnight,61,8
+1599,#3a3536,graphite,87,13
+1600,#bc925d,dark beige,50,2
+1601,#525f48,moss,68,4
+1602,#f4f5f0,white,91,13
+1603,#41424a,ebony,37,13
+1604,#e7e9e7,star light,50,13
+1605,#41424a,ebony,95,13
+1606,#e7e9e7,star light,53,13
+1607,#f2f0eb,snow white,45,13
+1608,#f2f0eb,snow white,92,13
+1609,#f2f0eb,snow white,98,13
+1610,#525f48,moss,53,4
+1611,#41424a,ebony,53,13
+1612,#f2f0eb,snow white,94,13
+1613,#40312f,espresso,45,1
+1614,#f4f5f0,white,49,13
+1615,#325b74,marine,64,8
+1616,#3a3536,graphite,69,13
+1617,#f2f0eb,snow white,96,13
+1618,#f2f0eb,snow white,97,13
+1619,#f2f0eb,snow white,87,13
+1620,#f2f0eb,snow white,93,13
+1621,#41424a,ebony,40,13
+1622,#f4f5f0,white,88,13
+1623,#98a0a5,mystic,40,13
+1624,#f4f5f0,white,94,13
+1625,#6e7e99,larkspur,37,8
+1626,#e7e9e7,star light,92,13
+1627,#41424a,ebony,43,13
+1628,#dc5b62,firecracker,54,1
+1629,#cbc3b4,palomino,47,2
+1630,#525f48,moss,64,4
+1631,#6e7e99,larkspur,44,8
+1632,#2a3244,midnight,65,8
+1633,#525f48,moss,75,4
+1634,#2d3359,blueberry,62,9
+1635,#f4f5f0,white,90,13
+1636,#3a3536,graphite,97,13
+1637,#542e0c,dark bronze,49,2
+1638,#4f3f3b,chocolate,41,1
+1639,#41424a,ebony,47,13
+1640,#a5b2aa,celadon,58,13
+1641,#80817d,charcoal gray,66,13
+1642,#3a3536,graphite,77,13
+1643,#f4f5f0,white,95,13
+1644,#e7e9e7,star light,60,13
+1645,#3a3536,graphite,62,13
+1646,#3a3536,graphite,66,13
+1647,#d3a297,fresco,62,1
+1648,#8a2232,claret,61,1
+1649,#9c7644,medium coffee,54,2
+1650,#9c7644,medium coffee,59,2
+1651,#525f48,moss,55,4
+1652,#1f6680,mosaic,64,8
+1653,#f4f5f0,white,93,13
+1654,#c1b7b0,sand,62,13
+1655,#39373b,black,66,13
+1656,#2b2e43,navy blue,58,9
+1657,#f4f5f0,white,92,13
+1658,#f4f5f0,white,91,13
+1659,#afcb80,pistachio,53,4
+1660,#ac8a64,light brown,37,2
+1661,#3a3536,graphite,47,13
+1662,#626879,blue steel,44,8
+1663,#3a3536,graphite,92,13
+1664,#525f48,moss,60,4
+1665,#2a3244,midnight,48,8
+1666,#3a3536,graphite,94,13
+1667,#3a3536,graphite,37,13
+1668,#41424a,ebony,55,13
+1669,#09577b,ocean blue,42,8
+1670,#3a3536,graphite,90,13
