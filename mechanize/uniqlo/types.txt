@@ -1,5 +1,4 @@
 category_id,name,link,gender_id,category_of_gender_id
-0,休閒/連帽,http://www.uniqlo.com/tw/store/feature/men/tops/sweat-collection/?ref=_navi_1016,0,0
 0,休閒襯衫,http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016,0,0
 0,商務襯衫,http://www.uniqlo.com/tw/store/feature/men/tops/dress-shirts-long-and-short/?ref=_navi_1016,0,0
 0,針織衫/毛衣,http://www.uniqlo.com/tw/store/feature/men/tops/knit/?ref=_navi_1016,0,0

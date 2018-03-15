@@ -121,8 +121,9 @@ def get_uniqlo_styles
         puts "goto #{types_link_arr[i][j][k]}"
         styles_of_category_arr = get_uniqlo_styles_of_type(types_link_arr[i][j][k])
         styles_of_category_arr.each_with_index do |style, l|
+          style[1].slice!('NT$')  # remove NT$ from price(NT$490 -> 490)
+          style[1].sub! ',', ''   # remove comma(1,490 -> 1490)
           styles_arr[i][j][k].push(style)
-          style[1].slice!('NT$')  # remove NT$ from price
           # styles_arr[i][j][k][l][2] = "http://www.lativ.com.tw" + styles_arr[i][j][k][l][2]
         end
         # sleep(1) 
@@ -218,8 +219,8 @@ def get_uniqlo_types(category_from_file)
                   pants_types_arr.each do |pants_type|
                     types_arr[i][l].push([pants_type, type.search('a')[0]['href']])
                   end
-                elsif !type.text.include?('褲') || bottom_type_count < 3
-                  # 不是褲子，要存下來; 下身類前三個不會出現在'所有褲裝'裡面，要存下來。
+                elsif !type.text.include?('褲') || bottom_type_count == 0
+                  # 不是褲子，要存下來; 下身類第一個(牛仔褲)不會出現在'所有褲裝'裡面，要存下來。
                   types_arr[i][l].push([type.text, type.search('a')[0]['href']])
                 end
                 bottom_type_count += 1
@@ -499,6 +500,7 @@ end
 
 # ok!
 # get_uniqlo_data(true)
-# get_uniqlo_styles
+# get_uniqlo_types(true)
+#- get_uniqlo_styles
 # read_styles
-get_uniqlo_products
+# get_uniqlo_products
