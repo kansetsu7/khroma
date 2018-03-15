@@ -32,6 +32,8 @@ Rails.application.routes.draw do
   resources :products, only: [:show] do
     member do
       get :change_color
+      get :change_style_next
+      get :change_style_previous
     end
   end
 
