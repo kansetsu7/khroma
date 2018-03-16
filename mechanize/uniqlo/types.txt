@@ -1,8 +1,6 @@
 category_id,name,link,gender_id,category_of_gender_id
 0,休閒襯衫,http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016,0,0
 0,商務襯衫,http://www.uniqlo.com/tw/store/feature/men/tops/dress-shirts-long-and-short/?ref=_navi_1016,0,0
-0,亞麻系列,http://www.uniqlo.com/tw/store/feature/men/tops/casual-shirts-long/?ref=_navi_1016#anchor3,0,0
-0,休閒/連帽,http://www.uniqlo.com/tw/store/feature/men/tops/sweat-collection/?ref=_navi_1016,0,0
 0,T恤(短袖/背心),http://www.uniqlo.com/tw/store/feature/men/tops/short-sleeves-and-tank-top/?ref=_navi_1016,0,0
 0,T恤(長袖/七分袖),http://www.uniqlo.com/tw/store/feature/men/tops/long-t-shirt/?ref=_navi_1016,0,0
 0,POLO衫,http://www.uniqlo.com/tw/store/feature/men/tops/polo-shirt/?ref=_navi_1016,0,0
@@ -16,8 +14,6 @@ category_id,name,link,gender_id,category_of_gender_id
 1,短褲,http://www.uniqlo.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016,0,1
 1,其他褲裝,http://www.uniqlo.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016,0,1
 2,襯衫,http://www.uniqlo.com/tw/store/feature/women/tops/shirts-and-blouses/?ref=_navi_1016,1,0
-2,亞麻系列,http://www.uniqlo.com/tw/store/feature/women/tops/shirts-and-blouses/?ref=_navi_1016#anchor04,1,0
-2,休閒/連帽,http://www.uniqlo.com/tw/store/feature/women/tops/sweat-collection/?ref=_navi_1016,1,0
 2,短袖/五分袖/背心,http://www.uniqlo.com/tw/store/feature/women/tops/short-sleeves-and-tank-top/?ref=_navi_1016,1,0
 2,長袖/七分袖,http://www.uniqlo.com/tw/store/feature/women/tops/long-and-3-4sleeves-and-cardigan/?ref=_navi_1016,1,0
 2,針織衫/毛衣,http://www.uniqlo.com/tw/store/feature/women/tops/knit/?ref=_navi_1016,1,0

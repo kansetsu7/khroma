@@ -225,7 +225,7 @@ def get_uniqlo_types(category_from_file)
               bottom_type_count += 1
             else
               # 不是'下身類'
-              types_arr[i][l].push([type.text, type.search('a')[0]['href']])  
+              types_arr[i][l].push([type.text, type.search('a')[0]['href']]) if type.text != '亞麻系列' && type.text != '休閒/連帽'
             end              
           end
         end
