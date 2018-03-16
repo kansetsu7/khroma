@@ -7,23 +7,23 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,迪士尼系列羅紋配色T恤-04-男,260,http://www.lativ.com.tw/Detail/34325011,0,0,0
 0,迪士尼系列印花T恤-F05-男,260,http://www.lativ.com.tw/Detail/34534011,0,0,0
 0,迪士尼系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34537011,0,0,0
-0,迪士尼系列口袋印花T恤-06-男,350,http://www.lativ.com.tw/Detail/34539011,0,0,0
-0,迪士尼系列印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34538011,0,0,0
+0,迪士尼系列口袋印花T恤-06-男,330,http://www.lativ.com.tw/Detail/34539011,0,0,0
+0,迪士尼系列印花T恤-03-男,290,http://www.lativ.com.tw/Detail/34538011,0,0,0
 0,迪士尼系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34324011,0,0,0
 0,迪士尼系列印花T恤-L01-男,260,http://www.lativ.com.tw/Detail/34326011,0,0,0
-0,迪士尼系列配色毛圈圓領衫-01-男,390,http://www.lativ.com.tw/Detail/32621011,0,0,0
+0,迪士尼系列配色毛圈圓領衫-01-男,330,http://www.lativ.com.tw/Detail/32621011,0,0,0
 0,迪士尼系列印花T-13-男,199,http://www.lativ.com.tw/Detail/30559013,0,0,0
 0,迪士尼系列印花T-12-男,199,http://www.lativ.com.tw/Detail/30541013,0,0,0
-0,迪士尼系列印花T-11-男,199,http://www.lativ.com.tw/Detail/30540013,0,0,0
+0,迪士尼系列印花T-11-男,199,http://www.lativ.com.tw/Detail/30540014,0,0,0
 0,皮克斯系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34329011,0,0,0
-0,皮克斯系列印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/34328011,0,0,0
+0,皮克斯系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34328011,0,0,0
 0,皮克斯系列印花T恤-01-男,290,http://www.lativ.com.tw/Detail/34327011,0,0,0
 0,STAR WARS系列印花T恤-F03-男,260,http://www.lativ.com.tw/Detail/34575011,0,0,0
 0,STAR WARS系列印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34555011,0,0,0
 0,STAR WARS系列印花T恤-04-男,260,http://www.lativ.com.tw/Detail/34415011,0,0,0
 0,STAR WARS系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34342011,0,0,0
-0,STAR WARS系列印花T恤-03-男,350,http://www.lativ.com.tw/Detail/34414011,0,0,0
-0,STAR WARS系列印花T恤-02-男,350,http://www.lativ.com.tw/Detail/34413011,0,0,0
+0,STAR WARS系列印花T恤-03-男,330,http://www.lativ.com.tw/Detail/34414011,0,0,0
+0,STAR WARS系列印花T恤-02-男,330,http://www.lativ.com.tw/Detail/34413011,0,0,0
 0,STAR WARS系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34416011,0,0,0
 0,STAR WARS系列印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34343011,0,0,0
 0,STAR WARS系列印花T恤-F04-男,260,http://www.lativ.com.tw/Detail/35201011,0,0,0
@@ -43,13 +43,14 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,史努比印花T恤-L01-男,260,http://www.lativ.com.tw/Detail/34467011,0,0,0
 0,史努比印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34472011,0,0,0
 0,史努比印花T恤-01-男,290,http://www.lativ.com.tw/Detail/34471011,0,0,0
-0,史努比口袋T恤-03-男,350,http://www.lativ.com.tw/Detail/34463011,0,0,0
+0,史努比口袋T恤-03-男,330,http://www.lativ.com.tw/Detail/34463011,0,0,0
 0,Hallmark印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34359011,0,0,0
 0,Hallmark印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34358011,0,0,0
-0,Hallmark印花T恤-F01-男,350,http://www.lativ.com.tw/Detail/34360011,0,0,0
+0,Hallmark印花T恤-F01-男,330,http://www.lativ.com.tw/Detail/34360011,0,0,0
+0,欠妹關注印花T恤-男,145,http://www.lativ.com.tw/Detail/32567011,0,0,0
 0,隨便啦貘印花T恤-男,290,http://www.lativ.com.tw/Detail/34532011,0,0,0
-0,奔跑來貘印花T恤-男,260,http://www.lativ.com.tw/Detail/34525011,0,0,0
-0,Polar Bear Benjamin印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/34518011,0,0,0
+0,奔跑來貘印花T恤-男,290,http://www.lativ.com.tw/Detail/34525011,0,0,0
+0,Polar Bear Benjamin印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/34518011,0,0,0
 0,Polar Bear Benjamin印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34512011,0,0,0
 0,Polar Bear Benjamin印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34516011,0,0,0
 0,billboard印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34651011,0,0,0
@@ -83,7 +84,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,小小兵系列印花T恤-F01-男,260,http://www.lativ.com.tw/Detail/34664011,0,0,0
 0,小小兵系列印花T恤-05-男,260,http://www.lativ.com.tw/Detail/34672011,0,0,0
 0,小小兵系列印花T恤-02-男,260,http://www.lativ.com.tw/Detail/34666011,0,0,0
-0,小小兵系列口袋印花T恤-04-男,350,http://www.lativ.com.tw/Detail/34671011,0,0,0
+0,小小兵系列口袋印花T恤-04-男,330,http://www.lativ.com.tw/Detail/34671011,0,0,0
 0,小小兵系列印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34667011,0,0,0
 0,小小兵系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34665011,0,0,0
 0,侏儸紀世界系列印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/34636011,0,0,0
@@ -91,14 +92,14 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,侏儸紀世界系列印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34419011,0,0,0
 0,國家地理印花T恤-L02-男,290,http://www.lativ.com.tw/Detail/35172011,0,0,0
 0,國家地理印花T恤-L01-男,260,http://www.lativ.com.tw/Detail/35170011,0,0,0
-0,國家地理印花T恤-F03-男,390,http://www.lativ.com.tw/Detail/35187011,0,0,0
-0,國家地理印花T恤-F02-男,290,http://www.lativ.com.tw/Detail/35186011,0,0,0
+0,國家地理印花T恤-F03-男,330,http://www.lativ.com.tw/Detail/35187011,0,0,0
+0,國家地理印花T恤-F02-男,260,http://www.lativ.com.tw/Detail/35186011,0,0,0
 0,國家地理印花T恤-F01-男,290,http://www.lativ.com.tw/Detail/35174011,0,0,0
 0,國家地理印花T恤-02-男,260,http://www.lativ.com.tw/Detail/35185011,0,0,0
 0,國家地理印花T恤-01-男,290,http://www.lativ.com.tw/Detail/35176011,0,0,0
-0,國家地理口袋印花T恤-03-男,350,http://www.lativ.com.tw/Detail/35169011,0,0,0
+0,國家地理口袋印花T恤-03-男,330,http://www.lativ.com.tw/Detail/35169011,0,0,0
 0,國家地理印花T恤-F04-男,290,http://www.lativ.com.tw/Detail/35166011,0,0,0
-0,Peppa Pig印花T恤-01-男,290,http://www.lativ.com.tw/Detail/34391011,0,0,0
+0,Peppa Pig印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34391011,0,0,0
 0,璀璨夜景印花T恤-男,260,http://www.lativ.com.tw/Detail/34613011,0,0,0
 0,夏日西瓜印花T恤-男,260,http://www.lativ.com.tw/Detail/34568011,0,0,0
 0,文字印花T恤-07-男,260,http://www.lativ.com.tw/Detail/34641011,0,0,0
@@ -106,8 +107,8 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 0,文字印花T恤-03-男,260,http://www.lativ.com.tw/Detail/34584011,0,0,0
 0,文字印花T恤-01-男,260,http://www.lativ.com.tw/Detail/34580011,0,0,0
 0,文字印花T恤-L05-男,260,http://www.lativ.com.tw/Detail/34639011,0,0,0
-0,文字印花T恤-L04-男,260,http://www.lativ.com.tw/Detail/34583011,0,0,0
-0,文字印花T恤-L02-男,260,http://www.lativ.com.tw/Detail/34577011,0,0,0
+0,文字印花T恤-L04-男,290,http://www.lativ.com.tw/Detail/34583011,0,0,0
+0,文字印花T恤-L02-男,290,http://www.lativ.com.tw/Detail/34577011,0,0,0
 0,文字印花T恤-F08-男,290,http://www.lativ.com.tw/Detail/34642011,0,0,0
 1,Pima 棉圓領T恤-男,260,http://www.lativ.com.tw/Detail/35014011,0,0,1
 1,Pima 棉V領T恤-男,260,http://www.lativ.com.tw/Detail/35015011,0,0,1
@@ -120,7 +121,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 1,竹節棉配色口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34288011,0,0,1
 1,竹節棉口袋短袖T恤-男,290,http://www.lativ.com.tw/Detail/34289011,0,0,1
 1,竹節棉V領短袖T恤-男,290,http://www.lativ.com.tw/Detail/34290011,0,0,1
-1,純棉寬版圓領T恤-男,399,http://www.lativ.com.tw/Detail/34809011,0,0,1
+1,純棉寬版圓領T恤-男,330,http://www.lativ.com.tw/Detail/34809011,0,0,1
 1,寬版口袋短袖衫-男,260,http://www.lativ.com.tw/Detail/30051013,0,0,1
 1,條紋配色短袖衫-男,199,http://www.lativ.com.tw/Detail/30048031,0,0,1
 1,快乾棉羅紋背心-男,179,http://www.lativ.com.tw/Detail/35024011,0,0,1
@@ -139,12 +140,12 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 1,保暖V領短袖衫-男,168,http://www.lativ.com.tw/Detail/28250035,0,0,1
 2,Pima 棉圓領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32050044,0,0,2
 2,Pima 棉V領長袖T恤-男,168,http://www.lativ.com.tw/Detail/32051021,0,0,2
-2,PIMA 棉圓領長袖衫-男,199,http://www.lativ.com.tw/Detail/28241075,0,0,2
-2,PIMA 棉V領長袖衫-男,145,http://www.lativ.com.tw/Detail/28242075,0,0,2
+2,PIMA 棉圓領長袖衫-男,168,http://www.lativ.com.tw/Detail/28241023,0,0,2
+2,PIMA 棉V領長袖衫-男,168,http://www.lativ.com.tw/Detail/28242075,0,0,2
 2,七分袖口袋圓領T恤-男,220,http://www.lativ.com.tw/Detail/32288023,0,0,2
-2,刷毛圓領衫-男,390,http://www.lativ.com.tw/Detail/32719081,0,0,2
+2,刷毛圓領衫-男,330,http://www.lativ.com.tw/Detail/32719071,0,0,2
 2,純棉船型領長袖T恤-男,249,http://www.lativ.com.tw/Detail/32261011,0,0,2
-2,純棉條紋圓領長袖T恤-男,299,http://www.lativ.com.tw/Detail/32260031,0,0,2
+2,純棉條紋圓領長袖T恤-男,299,http://www.lativ.com.tw/Detail/32260022,0,0,2
 2,吸排半開襟長袖T恤-男,290,http://www.lativ.com.tw/Detail/32292031,0,0,2
 2,保暖中高領九分袖T恤-男,199,http://www.lativ.com.tw/Detail/32068043,0,0,2
 2,保暖V領九分袖T恤-男,199,http://www.lativ.com.tw/Detail/32067025,0,0,2
@@ -162,7 +163,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 3,純棉短袖polo衫-男,260,http://www.lativ.com.tw/Detail/32843021,0,0,3
 3,純棉橫條polo衫-男,290,http://www.lativ.com.tw/Detail/30072021,0,0,3
 3,網眼經典POLO衫-男,199,http://www.lativ.com.tw/Detail/25441101,0,0,3
-3,網眼抽縐POLO衫-男,199,http://www.lativ.com.tw/Detail/25442071,0,0,3
+3,網眼抽縐POLO衫-男,199,http://www.lativ.com.tw/Detail/25442081,0,0,3
 3,網眼條紋POLO衫-男,260,http://www.lativ.com.tw/Detail/25443031,0,0,3
 3,吸排立領短袖polo衫-男,390,http://www.lativ.com.tw/Detail/34242011,0,0,3
 3,吸排polo衫-男,390,http://www.lativ.com.tw/Detail/34243011,0,0,3
@@ -177,30 +178,31 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 4,亞麻長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30938022,0,1,0
 4,柔軟斜紋立領長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34934011,0,1,0
 4,斜紋工作長袖襯衫-男,390,http://www.lativ.com.tw/Detail/32448021,0,1,0
-4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30443011,0,1,0
-4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30442021,0,1,0
-4,柔棉印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30445011,0,1,0
-4,柔棉格紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30444011,0,1,0
-4,柔棉條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28512011,0,1,0
-4,柔棉長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28511011,0,1,0
-4,柔棉印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28513021,0,1,0
+4,柔棉條紋長袖襯衫-男,330,http://www.lativ.com.tw/Detail/30443011,0,1,0
+4,柔棉長袖襯衫-男,330,http://www.lativ.com.tw/Detail/30442021,0,1,0
+4,柔棉印花長袖襯衫-男,330,http://www.lativ.com.tw/Detail/30445011,0,1,0
+4,柔棉格紋長袖襯衫-男,330,http://www.lativ.com.tw/Detail/30444011,0,1,0
+4,柔棉條紋長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28512011,0,1,0
+4,柔棉長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28511011,0,1,0
+4,柔棉印花長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28513021,0,1,0
 4,牛仔短袖襯衫-男,490,http://www.lativ.com.tw/Detail/34046011,0,1,0
 4,牛仔長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34045011,0,1,0
 4,牛仔立領長袖襯衫-男,490,http://www.lativ.com.tw/Detail/34049011,0,1,0
 4,牛仔雙口袋襯衫-男,450,http://www.lativ.com.tw/Detail/32731021,0,1,0
-4,牛仔長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30249011,0,1,0
+4,牛仔長袖襯衫-男,330,http://www.lativ.com.tw/Detail/30249011,0,1,0
 4,牛仔雙口袋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/30252011,0,1,0
-4,牛仔短袖襯衫-男,399,http://www.lativ.com.tw/Detail/30251011,0,1,0
-4,牛仔長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28526012,0,1,0
-4,牛仔印花長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28528011,0,1,0
+4,牛仔短袖襯衫-男,330,http://www.lativ.com.tw/Detail/30251011,0,1,0
+4,牛仔長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28526012,0,1,0
+4,牛仔印花長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28528011,0,1,0
 4,牛津短袖襯衫-男,390,http://www.lativ.com.tw/Detail/35036011,0,1,0
 4,牛津條紋短袖襯衫-男,390,http://www.lativ.com.tw/Detail/35037011,0,1,0
-4,牛津短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30919021,0,1,0
-4,牛津條紋短袖襯衫-男,260,http://www.lativ.com.tw/Detail/30920051,0,1,0
-4,牛津條紋長袖襯衫-男,390,http://www.lativ.com.tw/Detail/28503021,0,1,0
-4,牛津長袖襯衫-男,299,http://www.lativ.com.tw/Detail/28501031,0,1,0
+4,牛津長袖襯衫-男,290,http://www.lativ.com.tw/Detail/32736013,0,1,0
+4,牛津短袖襯衫-男,330,http://www.lativ.com.tw/Detail/30919021,0,1,0
+4,牛津條紋短袖襯衫-男,330,http://www.lativ.com.tw/Detail/30920051,0,1,0
+4,牛津條紋長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28503021,0,1,0
+4,牛津長袖襯衫-男,330,http://www.lativ.com.tw/Detail/28501031,0,1,0
 4,經典格紋短袖襯衫-男,350,http://www.lativ.com.tw/Detail/34724011,0,1,0
-4,燈芯絨長袖襯衫-男,390,http://www.lativ.com.tw/Detail/32449021,0,1,0
+4,燈芯絨長袖襯衫-男,330,http://www.lativ.com.tw/Detail/32449021,0,1,0
 5,Pima 棉牛津長袖襯衫-男,499,http://www.lativ.com.tw/Detail/30951013,0,1,1
 5,彈性府綢長袖襯衫-男,490,http://www.lativ.com.tw/Detail/30949022,0,1,1
 5,PIMA 棉彈性條紋長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28612011,0,1,1
@@ -213,11 +215,12 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 5,PIMA 棉精紡長袖襯衫-男,490,http://www.lativ.com.tw/Detail/28609011,0,1,1
 6,法蘭絨格紋襯衫-男,260,http://www.lativ.com.tw/Detail/32360011,0,1,2
 7,七分工作褲-男,690,http://www.lativ.com.tw/Detail/34972011,0,2,0
+7,休閒海灘褲-男,490,http://www.lativ.com.tw/Detail/34993011,0,2,0
 7,輕便短褲-男,390,http://www.lativ.com.tw/Detail/34971011,0,2,0
 7,輕便工作短褲-男,390,http://www.lativ.com.tw/Detail/34970011,0,2,0
 7,五分卡其褲-男,390,http://www.lativ.com.tw/Detail/34969011,0,2,0
 7,工作短褲-男,390,http://www.lativ.com.tw/Detail/30346021,0,2,0
-7,休閒海灘褲-男,390,http://www.lativ.com.tw/Detail/30349021,0,2,0
+7,休閒海灘褲-男,330,http://www.lativ.com.tw/Detail/30349021,0,2,0
 7,輕便短褲-男,290,http://www.lativ.com.tw/Detail/30347015,0,2,0
 7,五分卡其褲-男,290,http://www.lativ.com.tw/Detail/30345015,0,2,0
 7,小毛圈短褲-男,390,http://www.lativ.com.tw/Detail/34089011,0,2,0
@@ -228,7 +231,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 8,彈性 Skinny Fit 窄管多色牛仔褲-男,590,http://www.lativ.com.tw/Detail/32241031,0,2,1
 8,Slouch Fit 窄管牛仔褲-男,590,http://www.lativ.com.tw/Detail/32244027,0,2,1
 8,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404031,0,2,1
-8,Slim Fit 小直牛仔褲-男,480,http://www.lativ.com.tw/Detail/32240011,0,2,1
+8,Slim Fit 小直牛仔褲-男,480,http://www.lativ.com.tw/Detail/32240014,0,2,1
 8,Slim Fit 多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/28343046,0,2,1
 8,Regular Fit 直筒牛仔褲-男,499,http://www.lativ.com.tw/Detail/32239012,0,2,1
 8,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006011,0,2,1
@@ -237,6 +240,7 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 9,毛圈束口長褲-男,490,http://www.lativ.com.tw/Detail/34090011,0,2,2
 9,束口工作褲-男,680,http://www.lativ.com.tw/Detail/32431021,0,2,2
 9,牛仔束口褲-男,690,http://www.lativ.com.tw/Detail/34006011,0,2,2
+9,運動束口工作褲-男,499,http://www.lativ.com.tw/Detail/30906043,0,2,2
 10,輕便九分褲-男,590,http://www.lativ.com.tw/Detail/34975011,0,2,3
 10,復古 Regular Fit 無褶卡其褲-男,499,http://www.lativ.com.tw/Detail/32413022,0,2,3
 10,彈性 Skinny Fit 窄管多色牛仔褲-男,499,http://www.lativ.com.tw/Detail/30404031,0,2,3
@@ -247,3 +251,471 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 10,保暖輕便Slim Fit 彈性長褲-男,490,http://www.lativ.com.tw/Detail/28598033,0,2,3
 10,吸排緊身褲-男,390,http://www.lativ.com.tw/Detail/34248011,0,2,3
 10,吸排彈性運動長褲-男,690,http://www.lativ.com.tw/Detail/34249011,0,2,3
+11,迪士尼系列電繡寬版T恤-20-女,390,http://www.lativ.com.tw/Detail/35162011,1,0,0
+11,迪士尼系列電繡寬版T恤-19-女,390,http://www.lativ.com.tw/Detail/35161011,1,0,0
+11,迪士尼系列電繡寬版T恤-18-女,330,http://www.lativ.com.tw/Detail/35160011,1,0,0
+11,迪士尼系列電繡寬版T恤-17-女,330,http://www.lativ.com.tw/Detail/34723011,1,0,0
+11,迪士尼系列電繡寬版T恤-16-女,330,http://www.lativ.com.tw/Detail/34722011,1,0,0
+11,迪士尼系列電繡寬版T恤-15-女,330,http://www.lativ.com.tw/Detail/34721011,1,0,0
+11,迪士尼系列印花T恤-21-女,290,http://www.lativ.com.tw/Detail/35200011,1,0,0
+11,迪士尼系列輕柔短版印花T恤-F08-女,260,http://www.lativ.com.tw/Detail/34409011,1,0,0
+11,迪士尼系列輕柔寬版印花T恤-F10-女,330,http://www.lativ.com.tw/Detail/34412011,1,0,0
+11,迪士尼系列輕柔寬版印花T恤-F09-女,390,http://www.lativ.com.tw/Detail/34634011,1,0,0
+11,迪士尼系列輕柔寬版印花T恤-13-女,330,http://www.lativ.com.tw/Detail/34333011,1,0,0
+11,迪士尼系列輕柔短版印花T恤-F07-女,330,http://www.lativ.com.tw/Detail/34553011,1,0,0
+11,迪士尼系列落肩長版印花T恤-F11-女,390,http://www.lativ.com.tw/Detail/34554011,1,0,0
+11,迪士尼系列輕柔印花T恤-12-女,260,http://www.lativ.com.tw/Detail/34330011,1,0,0
+11,迪士尼系列輕柔印花T恤-11-女,330,http://www.lativ.com.tw/Detail/34410011,1,0,0
+11,迪士尼系列輕柔印花T恤-10-女,330,http://www.lativ.com.tw/Detail/34332011,1,0,0
+11,迪士尼系列印花T恤-F01-女,260,http://www.lativ.com.tw/Detail/34701011,1,0,0
+11,迪士尼系列印花T恤-F02-女,260,http://www.lativ.com.tw/Detail/34394011,1,0,0
+11,迪士尼系列圓領短版印花T恤-08-女,330,http://www.lativ.com.tw/Detail/34335011,1,0,0
+11,迪士尼系列印花T恤-F04-女,290,http://www.lativ.com.tw/Detail/34633011,1,0,0
+11,迪士尼系列印花T恤-07-女,260,http://www.lativ.com.tw/Detail/34331011,1,0,0
+11,迪士尼系列印花T恤-F03-女,260,http://www.lativ.com.tw/Detail/34707011,1,0,0
+11,迪士尼系列羅紋配色印花T恤-14-女,290,http://www.lativ.com.tw/Detail/34411011,1,0,0
+11,迪士尼系列圓領短版印花T恤-09-女,350,http://www.lativ.com.tw/Detail/34334011,1,0,0
+11,迪士尼系列印花T恤-F05-女,260,http://www.lativ.com.tw/Detail/34535011,1,0,0
+11,迪士尼系列印花T恤-05-女,260,http://www.lativ.com.tw/Detail/34714011,1,0,0
+11,迪士尼系列印花T恤-L01-女,260,http://www.lativ.com.tw/Detail/34357011,1,0,0
+11,迪士尼系列印花T恤-F06-女,260,http://www.lativ.com.tw/Detail/34396011,1,0,0
+11,迪士尼系列印花T恤-06-女,260,http://www.lativ.com.tw/Detail/34715011,1,0,0
+11,迪士尼系列印花T恤-02-女,260,http://www.lativ.com.tw/Detail/34711011,1,0,0
+11,迪士尼系列印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34710011,1,0,0
+11,迪士尼系列印花T恤-03-女,260,http://www.lativ.com.tw/Detail/34712011,1,0,0
+11,迪士尼系列印花短版T恤-04-女,220,http://www.lativ.com.tw/Detail/32543014,1,0,0
+11,迪士尼系列印花短版T恤-03-女,220,http://www.lativ.com.tw/Detail/32465014,1,0,0
+11,皮克斯系列印花T恤-01-女,290,http://www.lativ.com.tw/Detail/34336011,1,0,0
+11,Tsum Tsum系列印花T恤-F01-女,290,http://www.lativ.com.tw/Detail/34545011,1,0,0
+11,Tsum Tsum系列印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34541011,1,0,0
+11,Tsum Tsum系列印花短版T恤-01-女,260,http://www.lativ.com.tw/Detail/32466011,1,0,0
+11,史努比電繡寬版T恤-15-女,330,http://www.lativ.com.tw/Detail/34720011,1,0,0
+11,史努比電繡寬版T恤-14-女,330,http://www.lativ.com.tw/Detail/34719011,1,0,0
+11,史努比電繡寬版T恤-13-女,330,http://www.lativ.com.tw/Detail/34718011,1,0,0
+11,史努比電繡寬版T恤-12-女,390,http://www.lativ.com.tw/Detail/34717011,1,0,0
+11,史努比電繡寬版T恤-11-女,330,http://www.lativ.com.tw/Detail/34716011,1,0,0
+11,史努比輕柔短版印花T恤-18-女,330,http://www.lativ.com.tw/Detail/34466011,1,0,0
+11,史努比船型領印花T恤-17-女,330,http://www.lativ.com.tw/Detail/34470011,1,0,0
+11,史努比羅紋配色印花T恤-08-女,260,http://www.lativ.com.tw/Detail/34469011,1,0,0
+11,史努比圓領短版印花T恤-09-女,260,http://www.lativ.com.tw/Detail/34458011,1,0,0
+11,史努比圓領短版T恤-10-女,330,http://www.lativ.com.tw/Detail/34464011,1,0,0
+11,史努比印花T恤-07-女,260,http://www.lativ.com.tw/Detail/34465011,1,0,0
+11,史努比印花T恤-04-女,290,http://www.lativ.com.tw/Detail/34457011,1,0,0
+11,史努比印花T恤-03-女,260,http://www.lativ.com.tw/Detail/34459011,1,0,0
+11,史努比印花T恤-L01-女,260,http://www.lativ.com.tw/Detail/34468011,1,0,0
+11,史努比印花T恤-06-女,290,http://www.lativ.com.tw/Detail/34462011,1,0,0
+11,史努比印花T恤-05-女,260,http://www.lativ.com.tw/Detail/34461011,1,0,0
+11,史努比印花T恤-02-女,290,http://www.lativ.com.tw/Detail/34456011,1,0,0
+11,史努比印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34455011,1,0,0
+11,Moomin印花T恤-02-女,260,http://www.lativ.com.tw/Detail/34476011,1,0,0
+11,Moomin印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34473011,1,0,0
+11,Moomin輕柔寬版印花T恤-06-女,390,http://www.lativ.com.tw/Detail/34478011,1,0,0
+11,Moomin輕柔印花T恤-05-女,290,http://www.lativ.com.tw/Detail/34475011,1,0,0
+11,Moomin袖口反折印花T恤-04-女,290,http://www.lativ.com.tw/Detail/34474011,1,0,0
+11,Moomin印花T恤-03-女,260,http://www.lativ.com.tw/Detail/34477011,1,0,0
+11,Moomin印花短版T恤-03-女,199,http://www.lativ.com.tw/Detail/32533014,1,0,0
+11,Lisa Larson印花T恤-01-女,290,http://www.lativ.com.tw/Detail/34421011,1,0,0
+11,Lisa Larson V領T恤-05-女,260,http://www.lativ.com.tw/Detail/34424011,1,0,0
+11,Lisa Larson印花T恤-02-女,290,http://www.lativ.com.tw/Detail/34422011,1,0,0
+11,Lisa Larson袖口反折印花T恤-06-女,260,http://www.lativ.com.tw/Detail/34425011,1,0,0
+11,Lisa Larson輕柔短版印花T恤-03-女,260,http://www.lativ.com.tw/Detail/34420011,1,0,0
+11,Hallmark印花T恤-07-女,260,http://www.lativ.com.tw/Detail/34605011,1,0,0
+11,Hallmark印花V領T恤-06-女,260,http://www.lativ.com.tw/Detail/34709011,1,0,0
+11,Hallmark印花V領T恤-05-女,290,http://www.lativ.com.tw/Detail/34708011,1,0,0
+11,Hallmark印花V領T恤-03-女,260,http://www.lativ.com.tw/Detail/34602011,1,0,0
+11,貘YOGA印花T恤-女,260,http://www.lativ.com.tw/Detail/34524011,1,0,0
+11,隨便啦貘印花T恤-女,260,http://www.lativ.com.tw/Detail/34533011,1,0,0
+11,奔跑來貘印花T恤-女,260,http://www.lativ.com.tw/Detail/34526011,1,0,0
+11,Polar Bear Benjamin印花T恤-F01-女,260,http://www.lativ.com.tw/Detail/34513011,1,0,0
+11,Polar Bear Benjamin印花T恤-F02-女,260,http://www.lativ.com.tw/Detail/34519011,1,0,0
+11,Polar Bear Benjamin印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34522011,1,0,0
+11,Polar Bear Benjamin印花短版T恤-01-女,199,http://www.lativ.com.tw/Detail/32510014,1,0,0
+11,billboard印花背心-女,290,http://www.lativ.com.tw/Detail/34654011,1,0,0
+11,billboard印花V領T恤-01-女,290,http://www.lativ.com.tw/Detail/34653011,1,0,0
+11,billboard圓領短版印花T恤-L01-女,260,http://www.lativ.com.tw/Detail/34656011,1,0,0
+11,billboard圓領短版印花T恤-02-女,290,http://www.lativ.com.tw/Detail/34655011,1,0,0
+11,小丸子X Hello Kitty印花T恤-F02-女,290,http://www.lativ.com.tw/Detail/34606011,1,0,0
+11,小丸子X Hello Kitty印花T恤-01-女,260,http://www.lativ.com.tw/Detail/35163011,1,0,0
+11,小丸子X Hello Kitty印花T恤-F01-女,290,http://www.lativ.com.tw/Detail/34530011,1,0,0
+11,小丸子X Hello Kitty印花T恤-02-女,290,http://www.lativ.com.tw/Detail/35164011,1,0,0
+11,Jean-Michel Basquiat印花T恤-L01-女,260,http://www.lativ.com.tw/Detail/34599011,1,0,0
+11,Jean-Michel Basquiat印花T恤-L02-女,260,http://www.lativ.com.tw/Detail/34368011,1,0,0
+11,Keith Haring輕柔寬版印花T恤-01-女,330,http://www.lativ.com.tw/Detail/34510011,1,0,0
+11,Qee落肩長版印花T恤-01-女,390,http://www.lativ.com.tw/Detail/34569011,1,0,0
+11,小小兵系列羅紋配色印花T恤-03-女,260,http://www.lativ.com.tw/Detail/34679011,1,0,0
+11,小小兵系列印花T恤-F05-女,260,http://www.lativ.com.tw/Detail/34676011,1,0,0
+11,小小兵系列印花T恤-F04-女,260,http://www.lativ.com.tw/Detail/34677011,1,0,0
+11,小小兵系列印花T恤-F03-女,260,http://www.lativ.com.tw/Detail/34678011,1,0,0
+11,小小兵系列印花T恤-F02-女,260,http://www.lativ.com.tw/Detail/34673011,1,0,0
+11,小小兵系列印花T恤-02-女,260,http://www.lativ.com.tw/Detail/34675011,1,0,0
+11,小小兵系列印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34674011,1,0,0
+11,侏儸紀世界系列印花T恤-F01-女,260,http://www.lativ.com.tw/Detail/34637011,1,0,0
+11,國家地理印花T恤-F04-女,290,http://www.lativ.com.tw/Detail/35167011,1,0,0
+11,國家地理印花T恤-L02-女,260,http://www.lativ.com.tw/Detail/35173011,1,0,0
+11,國家地理印花T恤-L01-女,290,http://www.lativ.com.tw/Detail/35171011,1,0,0
+11,Peppa Pig印花T恤-01-女,260,http://www.lativ.com.tw/Detail/34392011,1,0,0
+11,長版印花連帽T恤-女,490,http://www.lativ.com.tw/Detail/34301011,1,0,0
+11,竹節棉印花短袖T恤-女,290,http://www.lativ.com.tw/Detail/34310011,1,0,0
+11,夏日記憶輕柔印花T恤-女,260,http://www.lativ.com.tw/Detail/34616011,1,0,0
+11,流浪企鵝印花T恤-女,260,http://www.lativ.com.tw/Detail/34614011,1,0,0
+11,文字輕柔寬版印花T恤-女,330,http://www.lativ.com.tw/Detail/34479011,1,0,0
+11,文字輕柔短版印花T恤-女,260,http://www.lativ.com.tw/Detail/34647011,1,0,0
+11,文字輕柔印花T恤-女,260,http://www.lativ.com.tw/Detail/34481011,1,0,0
+11,文字印花T恤-L05-女,260,http://www.lativ.com.tw/Detail/34362011,1,0,0
+11,文字印花T恤-L04-女,260,http://www.lativ.com.tw/Detail/34356011,1,0,0
+11,文字印花T恤-L02-女,260,http://www.lativ.com.tw/Detail/34372011,1,0,0
+11,文字印花T恤-F08-女,260,http://www.lativ.com.tw/Detail/34643011,1,0,0
+12,迪士尼系列落肩毛圈圓領衫-04-女,330,http://www.lativ.com.tw/Detail/32636016,1,0,1
+12,迪士尼系列配色毛圈圓領衫-L01-女,330,http://www.lativ.com.tw/Detail/32651011,1,0,1
+12,迪士尼系列毛圈連帽衫04-女,390,http://www.lativ.com.tw/Detail/32659012,1,0,1
+12,迪士尼系列落肩毛圈圓領衫-03-女,330,http://www.lativ.com.tw/Detail/32635014,1,0,1
+12,Tsum Tsum系列毛圈圓領衫-女,330,http://www.lativ.com.tw/Detail/32648021,1,0,1
+12,史努比毛圈長版連帽衫-女,490,http://www.lativ.com.tw/Detail/32670033,1,0,1
+12,KUMATAN毛圈連帽衫-01-女,390,http://www.lativ.com.tw/Detail/32660011,1,0,1
+12,KUMATAN毛圈連帽衫-02-女,390,http://www.lativ.com.tw/Detail/32661011,1,0,1
+13,彈力蕾絲細肩帶-女,188,http://www.lativ.com.tw/Detail/34847011,1,0,2
+13,彈力短版蕾絲細肩帶-女,145,http://www.lativ.com.tw/Detail/34845011,1,0,2
+13,彈力細肩帶-女,188,http://www.lativ.com.tw/Detail/34846011,1,0,2
+13,細紋細肩帶背心-女,290,http://www.lativ.com.tw/Detail/32137011,1,0,2
+13,彈力細肩帶-女,145,http://www.lativ.com.tw/Detail/30188041,1,0,2
+13,彈力純色細肩帶-女,145,http://www.lativ.com.tw/Detail/28387011,1,0,2
+13,彈力印花細肩帶-女,145,http://www.lativ.com.tw/Detail/25377031,1,0,2
+13,彈力平口蕾絲細肩帶-女,199,http://www.lativ.com.tw/Detail/25376034,1,0,2
+13,彈力綁帶細肩帶-女,145,http://www.lativ.com.tw/Detail/25375012,1,0,2
+13,彈力短版蕾絲細肩帶-女,145,http://www.lativ.com.tw/Detail/25372024,1,0,2
+13,彈力短版交叉細肩帶-女,145,http://www.lativ.com.tw/Detail/25371015,1,0,2
+13,快乾棉坦克背心-女,145,http://www.lativ.com.tw/Detail/35033011,1,0,2
+13,Pima 棉羅紋背心-女,188,http://www.lativ.com.tw/Detail/35018011,1,0,2
+13,Pima 棉羅紋U領背心-女,145,http://www.lativ.com.tw/Detail/30218031,1,0,2
+13,彈力方領蕾絲背心-女,199,http://www.lativ.com.tw/Detail/25379011,1,0,2
+13,抽縐蕾絲上衣-女,390,http://www.lativ.com.tw/Detail/35155011,1,0,2
+13,亨利領短袖T恤-女,290,http://www.lativ.com.tw/Detail/34294011,1,0,2
+13,竹節棉蕾絲罩衫-女,390,http://www.lativ.com.tw/Detail/35102011,1,0,2
+13,竹節棉綁帶T恤-女,390,http://www.lativ.com.tw/Detail/34311011,1,0,2
+13,竹節棉中高領短袖T恤-女,290,http://www.lativ.com.tw/Detail/34312011,1,0,2
+13,竹節棉口袋短袖T恤-女,290,http://www.lativ.com.tw/Detail/34309011,1,0,2
+13,竹節棉V領T恤-女,290,http://www.lativ.com.tw/Detail/34314011,1,0,2
+13,V領條紋短袖T恤-女,290,http://www.lativ.com.tw/Detail/34295011,1,0,2
+13,羅紋V領T恤-女,260,http://www.lativ.com.tw/Detail/34901011,1,0,2
+13,羅紋芭蕾領短袖T恤-女,260,http://www.lativ.com.tw/Detail/34902011,1,0,2
+13,蕾絲剪接T恤-女,290,http://www.lativ.com.tw/Detail/34297011,1,0,2
+13,短版圓領口袋短袖T恤-女,260,http://www.lativ.com.tw/Detail/34296011,1,0,2
+13,條紋短袖T恤-女,260,http://www.lativ.com.tw/Detail/34292011,1,0,2
+13,竹節棉條紋圓領T恤-女,290,http://www.lativ.com.tw/Detail/34308011,1,0,2
+13,竹節棉條紋短袖T恤-女,390,http://www.lativ.com.tw/Detail/34307011,1,0,2
+13,竹節棉印花短袖T恤-女,290,http://www.lativ.com.tw/Detail/34310011,1,0,2
+13,V領長版T恤-女,390,http://www.lativ.com.tw/Detail/34302011,1,0,2
+13,Pima 棉羅紋圓領T恤-女,220,http://www.lativ.com.tw/Detail/35016011,1,0,2
+13,Pima 棉羅紋V領T恤-女,220,http://www.lativ.com.tw/Detail/35017011,1,0,2
+13,Pima 棉羅紋圓領短袖T恤-女,145,http://www.lativ.com.tw/Detail/32057013,1,0,2
+13,羅紋圓領短袖T恤-女,168,http://www.lativ.com.tw/Detail/32272012,1,0,2
+13,純棉泡泡袖T恤-女,199,http://www.lativ.com.tw/Detail/30230021,1,0,2
+13,Pima 棉羅紋圓領T恤-女,168,http://www.lativ.com.tw/Detail/30214011,1,0,2
+13,毛圈短袖上衣-女,260,http://www.lativ.com.tw/Detail/30003011,1,0,2
+13,Pima 棉羅紋V領T恤-女,145,http://www.lativ.com.tw/Detail/30215041,1,0,2
+13,PIMA 棉圓領短袖衫-女,145,http://www.lativ.com.tw/Detail/25492051,1,0,2
+13,快乾棉圓領短袖T恤-女,145,http://www.lativ.com.tw/Detail/35028011,1,0,2
+13,快乾棉大圓領短袖T恤-女,145,http://www.lativ.com.tw/Detail/35026011,1,0,2
+13,快乾棉V領短袖T恤-女,145,http://www.lativ.com.tw/Detail/30238031,1,0,2
+13,快乾棉大圓領短袖T恤-女,145,http://www.lativ.com.tw/Detail/30237051,1,0,2
+13,快乾棉坦克背心-女,145,http://www.lativ.com.tw/Detail/26202011,1,0,2
+13,吸排圓領短袖T恤-女,290,http://www.lativ.com.tw/Detail/34253011,1,0,2
+13,吸排寬版背心-女,290,http://www.lativ.com.tw/Detail/34251011,1,0,2
+13,吸排綁帶短袖T恤-女,290,http://www.lativ.com.tw/Detail/34256011,1,0,2
+13,吸排配色短袖T恤-女,260,http://www.lativ.com.tw/Detail/34255011,1,0,2
+13,吸排半開領短袖衫-女,260,http://www.lativ.com.tw/Detail/34258011,1,0,2
+13,吸排寬版上衣-女,290,http://www.lativ.com.tw/Detail/35111011,1,0,2
+13,吸排寬版短袖T恤-女,260,http://www.lativ.com.tw/Detail/34260011,1,0,2
+13,吸排圓領短袖衫-女,199,http://www.lativ.com.tw/Detail/32298031,1,0,2
+13,吸排寬版上衣-女,168,http://www.lativ.com.tw/Detail/32042024,1,0,2
+13,吸排配色背心-女,145,http://www.lativ.com.tw/Detail/30141021,1,0,2
+13,吸排V領短袖衫-女,195,http://www.lativ.com.tw/Detail/30144021,1,0,2
+13,吸排背心-女,145,http://www.lativ.com.tw/Detail/30142031,1,0,2
+13,吸排圓領短袖衫-女,195,http://www.lativ.com.tw/Detail/30143021,1,0,2
+13,輕涼U領短袖衫-女,260,http://www.lativ.com.tw/Detail/30039012,1,0,2
+13,Bra條紋背心-女,330,http://www.lativ.com.tw/Detail/34835011,1,0,2
+13,Bra芭蕾領短袖T恤-女,330,http://www.lativ.com.tw/Detail/34837011,1,0,2
+13,Bra平口細肩帶-女,260,http://www.lativ.com.tw/Detail/34833011,1,0,2
+13,Bra蕾絲細肩帶-女,350,http://www.lativ.com.tw/Detail/34832011,1,0,2
+13,Bra圓領條紋短袖T恤-女,390,http://www.lativ.com.tw/Detail/34838011,1,0,2
+13,Bra圓領短袖T恤-女,350,http://www.lativ.com.tw/Detail/34836011,1,0,2
+13,Bra細肩帶-女,260,http://www.lativ.com.tw/Detail/34831011,1,0,2
+13,Bra背心-女,260,http://www.lativ.com.tw/Detail/34834011,1,0,2
+13,Bra交叉細肩帶-女,299,http://www.lativ.com.tw/Detail/34224011,1,0,2
+13,保暖細肩帶背心-女,145,http://www.lativ.com.tw/Detail/32081023,1,0,2
+13,保暖坦克背心-女,145,http://www.lativ.com.tw/Detail/32082024,1,0,2
+13,保暖U領短袖T恤-女,145,http://www.lativ.com.tw/Detail/32083025,1,0,2
+13,蕾絲五分袖T恤-女,290,http://www.lativ.com.tw/Detail/34298011,1,0,2
+13,羅紋船型領五分袖T恤-女,260,http://www.lativ.com.tw/Detail/34903011,1,0,2
+13,羅紋中高領五分袖T恤-女,188,http://www.lativ.com.tw/Detail/34899011,1,0,2
+13,Pima 棉羅紋五分袖T恤-女,145,http://www.lativ.com.tw/Detail/32063011,1,0,2
+14,純棉條紋七分袖上衣-女,390,http://www.lativ.com.tw/Detail/34810011,1,0,3
+14,V領七分袖襯衫-女,490,http://www.lativ.com.tw/Detail/34939011,1,0,3
+14,厚羅紋寬鬆T恤-女,390,http://www.lativ.com.tw/Detail/34804011,1,0,3
+14,竹節棉條紋七分袖T恤-女,390,http://www.lativ.com.tw/Detail/34313011,1,0,3
+14,厚羅紋洋裝-女,590,http://www.lativ.com.tw/Detail/34805011,1,0,3
+14,連袖針織衫-女,590,http://www.lativ.com.tw/Detail/34205022,1,0,3
+14,立體條紋針織衫-女,499,http://www.lativ.com.tw/Detail/34203011,1,0,3
+14,Pima 棉抗UV七分袖針織衫-女,390,http://www.lativ.com.tw/Detail/34194022,1,0,3
+14,Pima 棉抗UV條紋七分袖針織衫-女,390,http://www.lativ.com.tw/Detail/34195011,1,0,3
+14,純棉條紋七分袖寬版T恤-女,260,http://www.lativ.com.tw/Detail/32268021,1,0,3
+14,羅紋寬版T恤-女,260,http://www.lativ.com.tw/Detail/32287022,1,0,3
+14,Pima 棉羅紋七分袖T恤-女,168,http://www.lativ.com.tw/Detail/32053033,1,0,3
+14,PIMA 棉羅紋七分袖上衣-女,145,http://www.lativ.com.tw/Detail/28243094,1,0,3
+14,竹節棉長版八分袖上衣-女,390,http://www.lativ.com.tw/Detail/35113011,1,0,3
+14,輕柔剪接八分袖T恤-女,260,http://www.lativ.com.tw/Detail/32286014,1,0,3
+14,輕柔八分袖寬版T恤-女,260,http://www.lativ.com.tw/Detail/32285023,1,0,3
+14,純棉船型領長袖T恤-女,260,http://www.lativ.com.tw/Detail/32270014,1,0,3
+14,純棉條紋船型領長袖T恤-女,220,http://www.lativ.com.tw/Detail/32262051,1,0,3
+14,純棉條紋花式長袖上衣-女,290,http://www.lativ.com.tw/Detail/32271013,1,0,3
+14,層次長袖T恤-女,249,http://www.lativ.com.tw/Detail/32274051,1,0,3
+14,竹節棉八分袖上衣-女,220,http://www.lativ.com.tw/Detail/32282013,1,0,3
+14,Pima 棉羅紋圓領長袖T恤-女,168,http://www.lativ.com.tw/Detail/32054011,1,0,3
+14,Pima 棉羅紋V領長袖T恤-女,168,http://www.lativ.com.tw/Detail/32055011,1,0,3
+14,PIMA 棉羅紋圓領長袖衫-女,168,http://www.lativ.com.tw/Detail/28244073,1,0,3
+14,PIMA 棉羅紋V領長袖衫-女,168,http://www.lativ.com.tw/Detail/28245074,1,0,3
+14,吸排背心-女,290,http://www.lativ.com.tw/Detail/34250011,1,0,3
+14,保暖圓領長袖T恤-女,199,http://www.lativ.com.tw/Detail/32085023,1,0,3
+14,保暖V領長袖T恤-女,145,http://www.lativ.com.tw/Detail/32086045,1,0,3
+14,保暖圓領八分袖-女,199,http://www.lativ.com.tw/Detail/28265045,1,0,3
+14,保暖V領長袖衫-女,199,http://www.lativ.com.tw/Detail/28267025,1,0,3
+14,Fleece格紋上衣-女,199,http://www.lativ.com.tw/Detail/32186021,1,0,3
+14,刷毛連帽上衣-女,330,http://www.lativ.com.tw/Detail/32723065,1,0,3
+15,嫘縈無袖襯衫-女,399,http://www.lativ.com.tw/Detail/32130013,1,0,4
+15,細紋細肩帶背心-女,290,http://www.lativ.com.tw/Detail/32137011,1,0,4
+15,嫘縈短袖襯衫-女,399,http://www.lativ.com.tw/Detail/32134011,1,0,4
+15,細紋短袖圓領上衣-女,390,http://www.lativ.com.tw/Detail/32136014,1,0,4
+15,柔軟圓領短袖上衣-女,330,http://www.lativ.com.tw/Detail/30865011,1,0,4
+15,嫘縈印花短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30861021,1,0,4
+15,嫘縈短袖襯衫-女,399,http://www.lativ.com.tw/Detail/30860011,1,0,4
+15,兩件式雪紡印花洋裝-女,499,http://www.lativ.com.tw/Detail/30870011,1,0,4
+15,嫘縈立領七分袖襯衫-女,399,http://www.lativ.com.tw/Detail/32131013,1,0,4
+15,雪紡V領五分袖-女,399,http://www.lativ.com.tw/Detail/30869024,1,0,4
+15,輕柔剪接八分袖T恤-女,260,http://www.lativ.com.tw/Detail/32286014,1,0,4
+15,輕柔八分袖寬版T恤-女,260,http://www.lativ.com.tw/Detail/32285023,1,0,4
+15,嫘縈領結襯衫-女,399,http://www.lativ.com.tw/Detail/32135022,1,0,4
+15,嫘縈圓領衫-女,399,http://www.lativ.com.tw/Detail/32132012,1,0,4
+15,嫘縈長袖襯衫-女,399,http://www.lativ.com.tw/Detail/32133051,1,0,4
+15,喬其紗細褶上衣-女,399,http://www.lativ.com.tw/Detail/32138014,1,0,4
+15,嫘縈圓領衫-女,499,http://www.lativ.com.tw/Detail/28605011,1,0,4
+15,嫘縈長袖襯衫-女,499,http://www.lativ.com.tw/Detail/28606024,1,0,4
+15,輕柔長版開襟外套-女,330,http://www.lativ.com.tw/Detail/32284014,1,0,4
+16,吸排長版上衣-女,290,http://www.lativ.com.tw/Detail/35106011,1,0,5
+16,圓領寬版洋裝-女,390,http://www.lativ.com.tw/Detail/34305011,1,0,5
+16,條紋圓領洋裝-女,390,http://www.lativ.com.tw/Detail/34304011,1,0,5
+16,V領長版T恤-女,390,http://www.lativ.com.tw/Detail/34302011,1,0,5
+16,棉麻V領長版衫-女,490,http://www.lativ.com.tw/Detail/34059011,1,0,5
+16,格紋長版短袖衫-女,490,http://www.lativ.com.tw/Detail/34726011,1,0,5
+16,柔棉長版長袖襯衫-女,490,http://www.lativ.com.tw/Detail/32823011,1,0,5
+16,棉質束腰長版衫-女,330,http://www.lativ.com.tw/Detail/32824012,1,0,5
+16,格紋長版短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30381011,1,0,5
+16,厚羅紋寬鬆T恤-女,390,http://www.lativ.com.tw/Detail/34804011,1,0,5
+16,竹節棉長版八分袖上衣-女,390,http://www.lativ.com.tw/Detail/35113011,1,0,5
+16,針織寬版長上衣-女,490,http://www.lativ.com.tw/Detail/34200031,1,0,5
+16,純棉條紋七分袖長版衫-女,390,http://www.lativ.com.tw/Detail/32269021,1,0,5
+16,長版印花連帽T恤-女,490,http://www.lativ.com.tw/Detail/34301011,1,0,5
+16,印花圓領寬版洋裝-女,390,http://www.lativ.com.tw/Detail/34303011,1,0,5
+16,迪士尼系列落肩長版印花T恤-F11-女,390,http://www.lativ.com.tw/Detail/34554011,1,0,5
+16,Qee落肩長版印花T恤-01-女,390,http://www.lativ.com.tw/Detail/34569011,1,0,5
+17,Pima ​棉​印花彈性polo衫-女,260,http://www.lativ.com.tw/Detail/30097031,1,0,6
+17,Pima ​棉​彈性polo衫-女,260,http://www.lativ.com.tw/Detail/30091015,1,0,6
+17,純棉短袖polo衫-女,260,http://www.lativ.com.tw/Detail/32845011,1,0,6
+17,純棉經典polo衫-女,199,http://www.lativ.com.tw/Detail/30075041,1,0,6
+17,網眼經典POLO衫-女,199,http://www.lativ.com.tw/Detail/25450061,1,0,6
+17,棉質彈性橫條polo衫-女,260,http://www.lativ.com.tw/Detail/30093011,1,0,6
+17,吸排開領polo衫-女,290,http://www.lativ.com.tw/Detail/34257011,1,0,6
+17,涼感polo衫-女,290,http://www.lativ.com.tw/Detail/34188021,1,0,6
+17,純棉電繡polo衫-女,260,http://www.lativ.com.tw/Detail/30076032,1,0,6
+17,棉質彈性長袖polo衫-女,249,http://www.lativ.com.tw/Detail/32844011,1,0,6
+17,網眼彈性POLO衫-女,260,http://www.lativ.com.tw/Detail/28156011,1,0,6
+18,Pima 棉羅紋背心-女,188,http://www.lativ.com.tw/Detail/35018011,1,0,7
+18,Pima 棉羅紋U領背心-女,145,http://www.lativ.com.tw/Detail/30218031,1,0,7
+18,Pima 棉羅紋圓領T恤-女,220,http://www.lativ.com.tw/Detail/35016011,1,0,7
+18,Pima 棉羅紋V領T恤-女,220,http://www.lativ.com.tw/Detail/35017011,1,0,7
+18,Pima 棉羅紋圓領短袖T恤-女,145,http://www.lativ.com.tw/Detail/32057013,1,0,7
+18,Pima 棉羅紋圓領T恤-女,168,http://www.lativ.com.tw/Detail/30214011,1,0,7
+18,Pima 棉羅紋V領T恤-女,145,http://www.lativ.com.tw/Detail/30215041,1,0,7
+18,PIMA 棉圓領短袖衫-女,145,http://www.lativ.com.tw/Detail/25492051,1,0,7
+18,Pima 棉羅紋五分袖T恤-女,145,http://www.lativ.com.tw/Detail/32063011,1,0,7
+18,Pima 棉羅紋七分袖T恤-女,168,http://www.lativ.com.tw/Detail/32053033,1,0,7
+18,PIMA 棉羅紋七分袖上衣-女,145,http://www.lativ.com.tw/Detail/28243094,1,0,7
+18,Pima 棉羅紋圓領長袖T恤-女,168,http://www.lativ.com.tw/Detail/32054011,1,0,7
+18,Pima 棉羅紋V領長袖T恤-女,168,http://www.lativ.com.tw/Detail/32055011,1,0,7
+18,PIMA 棉羅紋圓領長袖衫-女,168,http://www.lativ.com.tw/Detail/28244073,1,0,7
+18,PIMA 棉羅紋V領長袖衫-女,168,http://www.lativ.com.tw/Detail/28245074,1,0,7
+19,嫘縈領結襯衫-女,399,http://www.lativ.com.tw/Detail/32135022,1,1,0
+19,嫘縈短袖襯衫-女,399,http://www.lativ.com.tw/Detail/32134011,1,1,0
+19,嫘縈無袖襯衫-女,399,http://www.lativ.com.tw/Detail/32130013,1,1,0
+19,嫘縈長袖襯衫-女,399,http://www.lativ.com.tw/Detail/32133051,1,1,0
+19,嫘縈立領七分袖襯衫-女,399,http://www.lativ.com.tw/Detail/32131013,1,1,0
+19,喬其紗細褶上衣-女,399,http://www.lativ.com.tw/Detail/32138014,1,1,0
+19,嫘縈印花短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30861021,1,1,0
+19,嫘縈短袖襯衫-女,399,http://www.lativ.com.tw/Detail/30860011,1,1,0
+19,嫘縈圓領衫-女,499,http://www.lativ.com.tw/Detail/28605011,1,1,0
+19,嫘縈長袖襯衫-女,499,http://www.lativ.com.tw/Detail/28606024,1,1,0
+19,棉麻V領長版衫-女,490,http://www.lativ.com.tw/Detail/34059011,1,1,0
+19,亞麻條紋長袖襯衫-女,490,http://www.lativ.com.tw/Detail/30944011,1,1,0
+19,亞麻長袖襯衫-女,490,http://www.lativ.com.tw/Detail/30943011,1,1,0
+19,V領七分袖襯衫-女,490,http://www.lativ.com.tw/Detail/34939011,1,1,0
+19,雙口袋條紋襯衫-女,490,http://www.lativ.com.tw/Detail/34941011,1,1,0
+19,棉質寬版長袖襯衫-女,590,http://www.lativ.com.tw/Detail/34940011,1,1,0
+19,柔棉長袖襯衫-女,390,http://www.lativ.com.tw/Detail/34936011,1,1,0
+19,斜紋工作長袖襯衫-女,390,http://www.lativ.com.tw/Detail/32453013,1,1,0
+19,柔棉寬版條紋長袖襯衫-女,330,http://www.lativ.com.tw/Detail/32452012,1,1,0
+19,柔棉長版長袖襯衫-女,490,http://www.lativ.com.tw/Detail/32823011,1,1,0
+19,棉質束腰長版衫-女,330,http://www.lativ.com.tw/Detail/32824012,1,1,0
+19,柔棉壓褶長袖上衣-女,399,http://www.lativ.com.tw/Detail/30450012,1,1,0
+19,柔棉長袖襯衫-女,330,http://www.lativ.com.tw/Detail/30447011,1,1,0
+19,純棉雙口袋短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30446011,1,1,0
+19,牛津綁帶洋裝-女,499,http://www.lativ.com.tw/Detail/35040011,1,1,0
+19,牛津短袖襯衫-女,290,http://www.lativ.com.tw/Detail/35039011,1,1,0
+19,牛津長袖襯衫-女,330,http://www.lativ.com.tw/Detail/32738011,1,1,0
+19,牛津短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30922061,1,1,0
+19,牛仔短袖襯衫-女,490,http://www.lativ.com.tw/Detail/34051011,1,1,0
+19,牛仔長袖襯衫-女,490,http://www.lativ.com.tw/Detail/34050011,1,1,0
+19,牛仔短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30255021,1,1,0
+19,牛仔長袖洋裝-女,499,http://www.lativ.com.tw/Detail/30258021,1,1,0
+19,牛仔長袖襯衫-女,330,http://www.lativ.com.tw/Detail/28529011,1,1,0
+19,輕薄格紋長袖襯衫-女,390,http://www.lativ.com.tw/Detail/34728011,1,1,0
+19,格紋長版短袖衫-女,490,http://www.lativ.com.tw/Detail/34726011,1,1,0
+19,格紋綁帶短袖洋裝-女,390,http://www.lativ.com.tw/Detail/30382012,1,1,0
+19,格紋長版短袖襯衫-女,330,http://www.lativ.com.tw/Detail/30381011,1,1,0
+19,輕薄格紋長袖襯衫-女,260,http://www.lativ.com.tw/Detail/30383021,1,1,0
+19,經典格紋短袖襯衫-女,260,http://www.lativ.com.tw/Detail/30380011,1,1,0
+19,燈芯絨洋裝-女,490,http://www.lativ.com.tw/Detail/28518021,1,1,0
+20,Pima 棉彈性荷葉短袖襯衫-女,399,http://www.lativ.com.tw/Detail/30959021,1,1,1
+20,PIMA 棉彈性條紋長袖襯衫-女,499,http://www.lativ.com.tw/Detail/28617013,1,1,1
+20,PIMA 棉彈性長袖襯衫-女,490,http://www.lativ.com.tw/Detail/28616011,1,1,1
+20,柔棉府綢長袖襯衫-女,290,http://www.lativ.com.tw/Detail/32451031,1,1,1
+21,法蘭絨格紋襯衫-女,260,http://www.lativ.com.tw/Detail/32361051,1,1,2
+21,法蘭絨格紋洋裝-女,390,http://www.lativ.com.tw/Detail/32362011,1,1,2
+22,棉麻輕便短褲-女,490,http://www.lativ.com.tw/Detail/34070011,1,2,0
+22,小毛圈條紋短褲-女,260,http://www.lativ.com.tw/Detail/34095011,1,2,0
+22,小毛圈短褲-女,260,http://www.lativ.com.tw/Detail/34094011,1,2,0
+22,棉質輕便短褲-女,190,http://www.lativ.com.tw/Detail/34979011,1,2,0
+22,卡其五分褲-女,390,http://www.lativ.com.tw/Detail/34978011,1,2,0
+22,棉彈鬆緊短褲-女,260,http://www.lativ.com.tw/Detail/32416012,1,2,0
+22,羅紋緊帶五分褲-女,290,http://www.lativ.com.tw/Detail/30357011,1,2,0
+22,多色牛仔超短褲-女,330,http://www.lativ.com.tw/Detail/30415011,1,2,0
+22,卡其五分褲-女,290,http://www.lativ.com.tw/Detail/30354014,1,2,0
+22,卡其超短褲-女,260,http://www.lativ.com.tw/Detail/30353011,1,2,0
+22,軟牛仔輕便短褲-女,260,http://www.lativ.com.tw/Detail/30426041,1,2,0
+22,棉質輕便短褲-女,145,http://www.lativ.com.tw/Detail/30356011,1,2,0
+22,多色牛仔超短褲-女,260,http://www.lativ.com.tw/Detail/25118036,1,2,0
+22,卡其超短褲-女,260,http://www.lativ.com.tw/Detail/26253024,1,2,0
+22,卡其短褲-女,260,http://www.lativ.com.tw/Detail/26254081,1,2,0
+22,吸排褲裙-女,390,http://www.lativ.com.tw/Detail/34264011,1,2,0
+22,吸排彈性短褲-女,330,http://www.lativ.com.tw/Detail/34266011,1,2,0
+22,吸排網眼短褲-女,290,http://www.lativ.com.tw/Detail/34265011,1,2,0
+22,吸排彈性七分褲-女,550,http://www.lativ.com.tw/Detail/34267011,1,2,0
+22,吸排運動短褲-女,260,http://www.lativ.com.tw/Detail/34268011,1,2,0
+22,吸排彈性休閒七分褲-女,490,http://www.lativ.com.tw/Detail/34270011,1,2,0
+22,吸排七分束口褲-女,195,http://www.lativ.com.tw/Detail/25239011,1,2,0
+22,垂墜風七分寬褲-女,590,http://www.lativ.com.tw/Detail/34998011,1,2,0
+22,垂墜風寬褲-女,399,http://www.lativ.com.tw/Detail/30361024,1,2,0
+22,垂墜風條紋寬褲-女,399,http://www.lativ.com.tw/Detail/30362014,1,2,0
+22,打褶寬版褲-女,499,http://www.lativ.com.tw/Detail/28587013,1,2,0
+22,小毛圈七分褲-女,450,http://www.lativ.com.tw/Detail/34096011,1,2,0
+22,純棉七分褲-女,260,http://www.lativ.com.tw/Detail/34868011,1,2,0
+22,迪士尼系列輕便寬版七分褲-女,260,http://www.lativ.com.tw/Detail/30982023,1,2,0
+22,棉彈七分褲-女,330,http://www.lativ.com.tw/Detail/30366023,1,2,0
+23,特彈牛仔窄管褲-女,790,http://www.lativ.com.tw/Detail/34015011,1,2,1
+23,特彈牛仔百搭褲-女,590,http://www.lativ.com.tw/Detail/28349011,1,2,1
+23,保暖直筒牛仔褲-女,499,http://www.lativ.com.tw/Detail/32247022,1,2,1
+23,直筒牛仔褲-女,590,http://www.lativ.com.tw/Detail/32246011,1,2,1
+23,多色 Slim Fit 九分牛仔褲-女,399,http://www.lativ.com.tw/Detail/30414021,1,2,1
+23,牛仔九分褲-女,399,http://www.lativ.com.tw/Detail/30425011,1,2,1
+23,輕量直筒牛仔褲-女,399,http://www.lativ.com.tw/Detail/30412012,1,2,1
+23,保暖直筒牛仔褲-女,499,http://www.lativ.com.tw/Detail/28351012,1,2,1
+23,直筒牛仔褲-女,550,http://www.lativ.com.tw/Detail/28350012,1,2,1
+23,多色 Slim Fit 九分牛仔褲-女,499,http://www.lativ.com.tw/Detail/28352011,1,2,1
+23,輕量靴型牛仔褲-女,590,http://www.lativ.com.tw/Detail/34012011,1,2,1
+23,Slim Boyfriend Fit 九分牛仔褲-女,590,http://www.lativ.com.tw/Detail/32251013,1,2,1
+23,BF 男友九分牛仔褲-女,499,http://www.lativ.com.tw/Detail/25128018,1,2,1
+23,牛仔迷你裙-女,330,http://www.lativ.com.tw/Detail/32259012,1,2,1
+23,牛仔連褲短裙-女,330,http://www.lativ.com.tw/Detail/30422021,1,2,1
+23,牛仔寬褲-女,490,http://www.lativ.com.tw/Detail/30418012,1,2,1
+23,牛仔長袖洋裝-女,590,http://www.lativ.com.tw/Detail/32733012,1,2,1
+23,牛仔無袖洋裝-女,490,http://www.lativ.com.tw/Detail/32734013,1,2,1
+23,牛仔超短褲-女,330,http://www.lativ.com.tw/Detail/30420015,1,2,1
+23,多色牛仔超短褲-女,330,http://www.lativ.com.tw/Detail/30415011,1,2,1
+23,牛仔短袖洋裝-女,399,http://www.lativ.com.tw/Detail/30256023,1,2,1
+23,軟牛仔輕便短褲-女,260,http://www.lativ.com.tw/Detail/30426041,1,2,1
+23,軟牛仔九分束口褲-女,390,http://www.lativ.com.tw/Detail/30427021,1,2,1
+23,牛仔長袖洋裝-女,499,http://www.lativ.com.tw/Detail/30258021,1,2,1
+23,多色牛仔超短褲-女,260,http://www.lativ.com.tw/Detail/25118036,1,2,1
+23,牛仔七分反折褲-女,399,http://www.lativ.com.tw/Detail/25109033,1,2,1
+24,棉質彈性束口褲-女,590,http://www.lativ.com.tw/Detail/34983011,1,2,2
+24,軟牛仔九分束口褲-女,390,http://www.lativ.com.tw/Detail/30427021,1,2,2
+24,羅馬布束口褲-女,390,http://www.lativ.com.tw/Detail/30014011,1,2,2
+24,運動彈性束口褲-女,399,http://www.lativ.com.tw/Detail/30907011,1,2,2
+24,垂墜風條紋束口褲-女,590,http://www.lativ.com.tw/Detail/34997011,1,2,2
+24,垂墜風束口褲-女,590,http://www.lativ.com.tw/Detail/34996011,1,2,2
+24,Fleece束口長褲-女,220,http://www.lativ.com.tw/Detail/32190041,1,2,2
+24,垂墜風束口褲-女,450,http://www.lativ.com.tw/Detail/32435011,1,2,2
+24,Fleece束口長褲-女,199,http://www.lativ.com.tw/Detail/28025011,1,2,2
+25,牛仔寬褲-女,490,http://www.lativ.com.tw/Detail/30418012,1,2,3
+25,垂墜風九分寬褲-女,590,http://www.lativ.com.tw/Detail/34995011,1,2,3
+25,垂墜風七分寬褲-女,590,http://www.lativ.com.tw/Detail/34998011,1,2,3
+25,垂墜風寬褲-女,399,http://www.lativ.com.tw/Detail/30361024,1,2,3
+25,垂墜風條紋寬褲-女,399,http://www.lativ.com.tw/Detail/30362014,1,2,3
+25,打褶寬版褲-女,499,http://www.lativ.com.tw/Detail/28587013,1,2,3
+25,棉麻條紋輕便寬褲-女,690,http://www.lativ.com.tw/Detail/34066011,1,2,3
+25,厚羅紋九分寬褲-女,590,http://www.lativ.com.tw/Detail/34806011,1,2,3
+26,刷毛彈力顯瘦窄管褲-女,168,http://www.lativ.com.tw/Detail/32788045,1,2,4
+26,印花顯瘦窄管褲-女,199,http://www.lativ.com.tw/Detail/32787011,1,2,4
+26,彈力顯瘦窄管褲-女,249,http://www.lativ.com.tw/Detail/32786021,1,2,4
+26,羅馬布緊身褲-女,290,http://www.lativ.com.tw/Detail/30024011,1,2,4
+26,刷毛彈力顯瘦窄管褲-女,145,http://www.lativ.com.tw/Detail/28554015,1,2,4
+26,特彈牛仔百搭褲-女,590,http://www.lativ.com.tw/Detail/28349011,1,2,4
+26,彈力顯瘦窄管褲-女,145,http://www.lativ.com.tw/Detail/28552051,1,2,4
+26,棉質彈性束口褲-女,590,http://www.lativ.com.tw/Detail/34983011,1,2,4
+26,柔軟棉質長褲-女,249,http://www.lativ.com.tw/Detail/32744024,1,2,4
+26,羅馬布束口褲-女,390,http://www.lativ.com.tw/Detail/30014011,1,2,4
+26,多色 Slim Fit 九分牛仔褲-女,499,http://www.lativ.com.tw/Detail/28352011,1,2,4
+26,輕便九分褲-女,490,http://www.lativ.com.tw/Detail/35000011,1,2,4
+26,卡其彈性長褲-女,450,http://www.lativ.com.tw/Detail/32415014,1,2,4
+26,輕便九分褲-女,330,http://www.lativ.com.tw/Detail/32432033,1,2,4
+26,多色 Slim Fit 九分牛仔褲-女,399,http://www.lativ.com.tw/Detail/30414021,1,2,4
+26,棉彈修身直筒褲-女,399,http://www.lativ.com.tw/Detail/30358011,1,2,4
+26,抽繩彈性休閒褲-女,399,http://www.lativ.com.tw/Detail/28584011,1,2,4
+26,多色 Slim Fit 九分牛仔褲-女,399,http://www.lativ.com.tw/Detail/25113028,1,2,4
+26,棉彈修身直筒褲-女,399,http://www.lativ.com.tw/Detail/26260013,1,2,4
+26,棉彈百搭老爺褲-女,399,http://www.lativ.com.tw/Detail/26259013,1,2,4
+26,垂墜風條紋束口褲-女,590,http://www.lativ.com.tw/Detail/34997011,1,2,4
+26,垂墜風束口褲-女,590,http://www.lativ.com.tw/Detail/34996011,1,2,4
+26,垂墜風九分寬褲-女,590,http://www.lativ.com.tw/Detail/34995011,1,2,4
+26,垂墜風束口褲-女,450,http://www.lativ.com.tw/Detail/32435011,1,2,4
+26,垂墜風九分寬褲-女,450,http://www.lativ.com.tw/Detail/32434013,1,2,4
+26,雪紡鬆緊長褲-女,499,http://www.lativ.com.tw/Detail/30871024,1,2,4
+26,棉麻條紋輕便寬褲-女,690,http://www.lativ.com.tw/Detail/34066011,1,2,4
+26,厚羅紋九分寬褲-女,590,http://www.lativ.com.tw/Detail/34806011,1,2,4
+26,吸排緊身褲-女,490,http://www.lativ.com.tw/Detail/34272011,1,2,4
+26,吸排緊身長褲-女,490,http://www.lativ.com.tw/Detail/34273011,1,2,4
+26,吸排兩件式運動長褲-女,450,http://www.lativ.com.tw/Detail/34276011,1,2,4
+26,吸排長褲-女,399,http://www.lativ.com.tw/Detail/34275011,1,2,4
+26,吸排緊身長褲-女,330,http://www.lativ.com.tw/Detail/32301011,1,2,4
+26,吸排緊身褲-女,245,http://www.lativ.com.tw/Detail/30153013,1,2,4
+26,吸排拼接合身九分褲-女,249,http://www.lativ.com.tw/Detail/28404034,1,2,4
+26,保暖輕便 Slim Fit 彈性工作褲-女,590,http://www.lativ.com.tw/Detail/32784021,1,2,4
+26,保暖輕便 Slim Fit 彈性長褲-女,490,http://www.lativ.com.tw/Detail/28601042,1,2,4
+26,保暖輕便 Slim Fit 彈性工作褲-女,390,http://www.lativ.com.tw/Detail/28600034,1,2,4
+27,彈力傘狀裙褲-女,260,http://www.lativ.com.tw/Detail/34851011,1,2,5
+27,厚羅紋短裙-女,199,http://www.lativ.com.tw/Detail/32319041,1,2,5
+27,牛仔迷你裙-女,330,http://www.lativ.com.tw/Detail/32259012,1,2,5
+27,小毛圈休閒短裙-女,249,http://www.lativ.com.tw/Detail/32832013,1,2,5
+27,高腰迷你裙-女,399,http://www.lativ.com.tw/Detail/32438012,1,2,5
+27,雪紡印花百褶裙-女,330,http://www.lativ.com.tw/Detail/30872011,1,2,5
+27,亞麻混紡圓裙-女,690,http://www.lativ.com.tw/Detail/34071011,1,2,5
+27,毛圈長裙-女,399,http://www.lativ.com.tw/Detail/34101011,1,2,5
+27,羅紋中長裙-女,399,http://www.lativ.com.tw/Detail/32264031,1,2,5
+27,彈性裙-女,399,http://www.lativ.com.tw/Detail/32437011,1,2,5
+27,輕便窄裙-女,260,http://www.lativ.com.tw/Detail/30364021,1,2,5
+27,羅馬布窄裙-女,199,http://www.lativ.com.tw/Detail/30022011,1,2,5
+27,羅馬布打褶裙-女,390,http://www.lativ.com.tw/Detail/30021022,1,2,5
+27,輕便窄裙-女,260,http://www.lativ.com.tw/Detail/28588021,1,2,5
+27,吸排網眼褲裙-女,199,http://www.lativ.com.tw/Detail/30208021,1,2,5
+27,棉彈休閒連褲短裙-女,330,http://www.lativ.com.tw/Detail/30365012,1,2,5
+27,牛仔連褲短裙-女,330,http://www.lativ.com.tw/Detail/30422021,1,2,5
+27,彈力傘狀裙褲-女,199,http://www.lativ.com.tw/Detail/30194041,1,2,5
+27,棉彈休閒褲裙-女,399,http://www.lativ.com.tw/Detail/26261013,1,2,5

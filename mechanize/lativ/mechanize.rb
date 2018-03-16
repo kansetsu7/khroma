@@ -35,22 +35,39 @@ def get_lativ_products
   # puts styles_link_arr[0][0][0][0]        # is string, a link of style
   # ----------------------------------------------------------------
 
+  product_id = 0
+  writer = CSV.open("./products0.txt", "a+")
+  writer << ["type_id", "name", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+
   products_arr.each_with_index do |gender, i|
-    if i == 0  # 先抓men
-      gender.each_with_index do |category, j|
-        puts "==== gender#{i}, category#{j} ===="
-        category.each_with_index do |type, k|
-          type.each_with_index do |style, l|
-            puts "type#{k}, style#{l}"
-            # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
-            products_arr[i][j][k][l] = get_lativ_products_of_style(styles_link_arr[i][j][k][l])
+    gender.each_with_index do |category, j|
+      category.each_with_index do |type, k|
+        type.each_with_index do |style, l|
+          next if skip(i, j, k, l)
+          puts "gender#{i}, category#{j}, type#{k}, style#{l}"
+          # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
+          products_arr[i][j][k][l] = get_lativ_products_of_style(styles_link_arr[i][j][k][l])
+          products_arr[i][j][k][l].each_with_index do |products, m|
+            writer << [product_id, products[0], products[1], i, j, k, l]
           end
-        end      
-      end    
-    end    
+          product_id += 1
+        end
+      end      
+    end     
   end
 
-  write_products(products_arr, 0)
+  # write_products(products_arr, 0)
+end
+
+def skip(i, j, k, l)
+  # start at gender1, category0, type0, style85
+  start_point = [1,2,1,13]
+  return true if i < start_point[0]
+  return true if i == start_point[0] && j < start_point[1]
+  return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
+  return true if i == start_point[0] && j == start_point[1] && k == start_point[2] && l < start_point[3]
+
+  false  # go
 end
 
 def get_lativ_products_of_style(style_link)
@@ -74,10 +91,24 @@ def get_product_attributes(style_link)
 end
 
 def get_page(style_link)
-  browser = Watir::Browser.new :safari  # open safari
-  browser.goto(style_link)
+  puts "goto #{style_link}"
+  timeout = 0
+  begin
+    browser = Watir::Browser.new :safari  # open safari
+    browser.goto(style_link)
+  rescue Exception => e
+    puts "===== Exception #{Time.now.strftime("%d/%m/%Y %H:%M")} ====="
+    timeout += 1
+    if timeout <= 5
+      system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
+      sleep(10)
+      retry
+    end
+  end
+  # sleep(2)  
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
+  # system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
   page
 end
   
@@ -102,19 +133,17 @@ def get_lativ_styles
   }
 
   styles_arr.each_with_index do |gender, i|
-    if i == 0  # 先抓men
-      gender.each_with_index do |category, j|
-        puts "get styles for gender#{i}'s category#{j}..."
-        category.each_with_index do |type, k|
-          # puts "goto #{types_link_arr[i][j][k]}"
-          styles_of_category_arr = get_lativ_styles_of_type(types_link_arr[i][j][k])
-          styles_of_category_arr.each_with_index do |style, l|
-            styles_arr[i][j][k].push(style)
-            styles_arr[i][j][k][l][2] = "http://www.lativ.com.tw" + styles_arr[i][j][k][l][2]
-          end
-          sleep(1) 
-        end      
-      end  
+    gender.each_with_index do |category, j|
+      puts "get styles for gender#{i}'s category#{j}..."
+      category.each_with_index do |type, k|
+        # puts "goto #{types_link_arr[i][j][k]}"
+        styles_of_category_arr = get_lativ_styles_of_type(types_link_arr[i][j][k])
+        styles_of_category_arr.each_with_index do |style, l|
+          styles_arr[i][j][k].push(style)
+          styles_arr[i][j][k][l][2] = "http://www.lativ.com.tw" + styles_arr[i][j][k][l][2]
+        end
+        sleep(1) 
+      end      
     end      
   end
 
@@ -178,7 +207,7 @@ def get_lativ_types(category_from_file)
           puts "need #{needed_category}, got #{categories.search("h2").first.text}"
           types = categories.search("a") 
           types.each do |type|
-            types_arr[i][k].push([type.text, "http://www.lativ.com.tw"+type['href']]) unless 'FLEECE 厚棉系列'.include?(type.text)  # FLEECE,厚棉系列分類不佳,先不處理
+            types_arr[i][k].push([type.text, "http://www.lativ.com.tw"+type['href']]) unless 'FLEECE 毛圈系列 洋裝'.include?(type.text)  # FLEECE,毛圈系列分類不佳,先不處理. 洋裝太難了也略過
           end   
         end
       end
