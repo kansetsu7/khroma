@@ -41,29 +41,36 @@ def write_color
   end
 end
 
-def get_color(api_key, api_secret)
+def get_color(keys, secrets)
   n_skips = 1
   in_arr = CSV.read("./products0.txt")
 
   # -------content of in_arr -----------
-  # in_arr[0] = type_id
-  # in_arr[1] = name
-  # in_arr[2] = link
-  # in_arr[3] = color
-  # in_arr[4] = image_link
-  # in_arr[5] = gender_id
-  # in_arr[6] = category_of_gender_id
-  # in_arr[7] = type_of_category_id
-  # in_arr[8] = style_of_type_id
+  # in_arr[i][0] = type_id
+  # in_arr[i][1] = name
+  # in_arr[i][2] = link
+  # in_arr[i][3] = color
+  # in_arr[i][4] = image_link
+  # in_arr[i][5] = gender_id
+  # in_arr[i][6] = category_of_gender_id
+  # in_arr[i][7] = type_of_category_id
+  # in_arr[i][8] = style_of_type_id
   # ------------------------------------
   # puts in_arr[0][2]
+  n_auth = keys.count
+  used_auth = 0
+  img_count = 0
 
   writer = CSV.open("./color.txt", "wt")
   writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
     next if i == 0  # skip first row  
     puts "get color of product #{i} "
+    api_key = keys[used_auth]
+    api_secret = secrets[used_auth]
     result_arr = call_api(product[4], api_key, api_secret)
+    img_count += 1
+    used_auth = img_count / 1996
     unless result_arr.nil?
       result_arr[0] = i
       writer << result_arr
@@ -262,10 +269,9 @@ def get_hue_level(color_hex)
 
   return 1
 end
-
-api_key = 'acc_38c9b2b030a2e95'
-api_secret = 'fc2c3d3fb6077e421d4b3dc4deffe9b0'
+keys = ['acc_6f5fce3fad9df94', 'acc_7316f4629599694']
+secrets = ['edfb1419aa52c50e4c6d99bedccd2f1d', '12139ad6ab21eb8c917bf8e780af88f7']
 
 # ok
-# get_color(api_key, api_secret)
+# get_color(keys, secrets)
 write_color
