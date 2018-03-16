@@ -35,9 +35,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'devise'
-gem 'csv'               # for web scrabing (save data files)
-gem 'watir'             # for web scrabing
-gem 'mechanize'         # for web scrabing
 gem 'omniauth-facebook'
 
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails
@@ -60,6 +57,11 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  # for web scraping
+  gem 'csv'
+  gem 'watir'       # https://github.com/watir/watir
+  gem 'mechanize'   # https://github.com/sparklemotion/mechanize
 end
 
 group :development do
