@@ -8,8 +8,8 @@ $n_genders = $genders_arr.size
 
 def get_uniqlo_data(category_from_file)
   # get_uniqlo_types(category_from_file)
-  get_uniqlo_styles
-
+  # get_uniqlo_styles
+  get_uniqlo_products
 end
 
 def get_uniqlo_products
@@ -33,19 +33,19 @@ def get_uniqlo_products
   end
 
   product_id = 0
-  writer = CSV.open("./products0.txt", "wt")
-  writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer = CSV.open("./products0.txt", "a+")
+  # writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
-    next unless i == 0  # men
+    # next unless i == 0  # men
     gender.each_with_index do |category, j|
       # next unless j == 0
       puts "======== gender#{i}, category#{j} ========"
       category.each_with_index do |type, k|
         # next unless k == 0
         type.each_with_index do |style, l|
-          # next unless l == 1
-          puts "category#{j}, type#{k}, style#{l}"
+          next if skip(i, j, k, l)
+          puts "gender#{i}, category#{j}, type#{k}, style#{l}"
           # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_uniqlo_products_of_style(styles_arr[i][j][k][l])
           products_arr[i][j][k][l].each_with_index do |products, m|
@@ -57,7 +57,18 @@ def get_uniqlo_products
     end 
   end
   
-  write_products(products_arr, 0)
+  # write_products(products_arr, 0)
+end
+
+def skip(i, j, k, l)
+  # start at gender1, category0, type0, style85
+  start_point = [1,1,0,37]
+  return true if i < start_point[0]
+  return true if i == start_point[0] && j < start_point[1]
+  return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
+  return true if i == start_point[0] && j == start_point[1] && k == start_point[2] && l < start_point[3]
+
+  false  # go
 end
 
 def get_uniqlo_products_of_style(style_info)
@@ -149,14 +160,15 @@ def get_page(style_link)
     browser = Watir::Browser.new :safari  # open safari
     browser.goto(style_link)
   rescue Exception => e
-    puts "Net::ReadTimeout !!!!!!!!!!!!!!!!!!!!"
+    puts "===== Exception #{Time.now.strftime("%d/%m/%Y %H:%M")} ====="
     timeout += 1
-    if timeout <= 3
-      sleep(5)
+    if timeout <= 5
+      system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
+      sleep(10)
       retry
     end
   end
-  sleep(2)
+  sleep(2)  
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
   system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
