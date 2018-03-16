@@ -1,0 +1,1027 @@
+type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
+0,男裝 超柔棉府綢襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404397,0,0,0
+0,男裝 超柔棉府綢立領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406427,0,0,0
+0,男裝 超柔棉府綢襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/400657,0,0,0
+0,男裝 超柔棉府綢立領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/400660,0,0,0
+0,男裝 超柔棉 府綢立領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/178796,0,0,0
+0,男裝 超柔棉府綢條紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406588,0,0,0
+0,男裝 超柔棉府綢條紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406585,0,0,0
+0,男裝 超柔棉府綢拼接襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406586,0,0,0
+0,男裝 超柔棉府綢拼接襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408005,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404398,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406581,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406582,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406580,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406583,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406584,0,0,0
+0,男裝 超柔棉 府綢拼接襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406587,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401819,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401814,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401816,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/402959,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401815,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401817,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401818,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/402958,0,0,0
+0,男裝 超柔棉府綢格紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/400658,0,0,0
+0,男裝 超柔棉府綢印花襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408555,0,0,0
+0,男裝 超柔棉府綢印花襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408556,0,0,0
+0,男裝 超柔棉府綢印花襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408557,0,0,0
+0,男裝 超柔棉府綢印花襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408558,0,0,0
+0,男裝 超柔棉府綢印花襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/408560,0,0,0
+0,男裝 特級亞麻襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406600,0,0,0
+0,男裝 特級亞麻襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/404406,0,0,0
+0,男裝 特級亞麻格紋襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406601,0,0,0
+0,男裝 特級亞麻格紋襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406602,0,0,0
+0,男裝 棉麻襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404408,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404409,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/406603,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/406604,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/406605,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408025,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408026,0,0,0
+0,男裝 棉麻格紋襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408027,0,0,0
+0,男裝 棉麻立領襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/406428,0,0,0
+0,男裝 棉麻立領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406429,0,0,0
+0,男裝 亞麻混紡 V領開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/405138,0,0,0
+0,男裝 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404392,0,0,0
+0,男裝 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/400652,0,0,0
+0,男裝 牛津 Slim Fit 襯衫(長袖),590,http://www.uniqlo.com/tw/store/goods/192182,0,0,0
+0,男裝 牛津 SLIM FIT 襯衫(短袖),790,http://www.uniqlo.com/tw/store/goods/406043,0,0,0
+0,男裝 水洗復古牛仔工作襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406590,0,0,0
+0,男裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404399,0,0,0
+0,男裝 牛仔工作襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401833,0,0,0
+0,男裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/192503,0,0,0
+0,男裝 牛仔襯衫 (長袖),490,http://www.uniqlo.com/tw/store/goods/400659,0,0,0
+0,男裝 牛仔襯衫 (長袖),490,http://www.uniqlo.com/tw/store/goods/19250300001,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401849,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/407626,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401840,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401836,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401837,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401839,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401842,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401834,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401841,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/401848,0,0,0
+0,男裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/40184600001,0,0,0
+0,男裝 法蘭絨襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/400662,0,0,0
+0,男裝 開領襯衫 (短袖),990,http://www.uniqlo.com/tw/store/goods/404413,0,0,0
+0,男裝 印花府綢襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404411,0,0,0
+0,男裝 印花府綢襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408363,0,0,0
+0,男裝 印花府綢襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408572,0,0,0
+0,男裝 印花府綢襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408573,0,0,0
+0,男裝 印花府綢襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408574,0,0,0
+0,男裝 U 條紋寬版襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/404403,0,0,0
+0,男裝 U 立領襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406533,0,0,0
+0,男裝 U 條紋立領襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/407439,0,0,0
+0,男裝 柔軟斜紋 立領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406591,0,0,0
+3,男裝 水洗條紋圓領T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/400324,0,0,3
+3,男裝 水洗條紋T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/404146,0,0,3
+3,男裝 水洗條紋T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/405951,0,0,3
+3,男裝 水洗條紋T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/406801,0,0,3
+3,男裝 水洗條紋圓領T恤 (長袖),390,http://www.uniqlo.com/tw/store/goods/40032400001,0,0,3
+3,男裝 水洗條紋船型領T恤 (長袖),390,http://www.uniqlo.com/tw/store/goods/40128400001,0,0,3
+3,男裝 柔軟棉質 圓領T恤 (長袖),190,http://www.uniqlo.com/tw/store/goods/400325,0,0,3
+3,男裝 柔軟棉質 V領T恤 (長袖),190,http://www.uniqlo.com/tw/store/goods/400326,0,0,3
+3,男裝 DRY 彈性休閒上衣,590,http://www.uniqlo.com/tw/store/goods/403711,0,0,3
+3,男裝 休閒連帽上衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/400331,0,0,3
+3,男裝 休閒上衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/400332,0,0,3
+3,男裝 休閒上衣 (長袖),490,http://www.uniqlo.com/tw/store/goods/40033200001,0,0,3
+3,男裝 Dry-EX 圓領T恤 (長袖),790,http://www.uniqlo.com/tw/store/goods/404151,0,0,3
+3,男裝 AIRism 運動機能上衣(長袖),790,http://www.uniqlo.com/tw/store/goods/404845,0,0,3
+3,男裝 SUPIMA COTTON 圓領T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/404142,0,0,3
+3,男裝 SUPIMA COTTON V領T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/404143,0,0,3
+3,男裝 圓領T恤 (7分袖),390,http://www.uniqlo.com/tw/store/goods/400971,0,0,3
+3,男裝 圓領T恤 (7分袖),390,http://www.uniqlo.com/tw/store/goods/194923,0,0,3
+3,男裝 SUPIMA COTTON 休閒上衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406797,0,0,3
+3,男裝 休閒連帽上衣 (長袖),1490,http://www.uniqlo.com/tw/store/goods/406798,0,0,3
+3,男裝 圓領T恤 (長袖),790,http://www.uniqlo.com/tw/store/goods/407043,0,0,3
+3,男裝 ULTRASTRETCH DRY圓領T恤(長袖),790,http://www.uniqlo.com/tw/store/goods/409820,0,0,3
+3,華夫格圓領T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/410810,0,0,3
+4,男裝 DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404158,0,0,4
+4,男裝 DRY 網眼印花POLO衫 (短袖)(船槳),290,http://www.uniqlo.com/tw/store/goods/193638,0,0,4
+4,男裝 DRY 網眼印花POLO衫 (短袖)(帆船),290,http://www.uniqlo.com/tw/store/goods/193640,0,0,4
+4,男裝 DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/180719,0,0,4
+4,男裝 SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407772,0,0,4
+4,男裝 SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407773,0,0,4
+4,男裝 針織POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408381,0,0,4
+4,男裝 Dry-EX POLO衫 (短袖)(mapping),790,http://www.uniqlo.com/tw/store/goods/404157,0,0,4
+4,男裝 DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/19024700001,0,0,4
+4,男裝 DRY EX POLO衫 (短袖)(棉質),290,http://www.uniqlo.com/tw/store/goods/19025500001,0,0,4
+4,男裝 DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/190247,0,0,4
+5,男裝 棉質混紡圓領毛衣(短袖),790,http://www.uniqlo.com/tw/store/goods/405139,0,0,5
+5,男裝 棉質混紡條紋圓領毛衣(短袖),790,http://www.uniqlo.com/tw/store/goods/408450,0,0,5
+5,男裝 棉質混紡V領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/404572,0,0,5
+5,男裝 棉質混紡圓領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/405132,0,0,5
+5,男裝 棉質喀什米爾 羅紋條紋圓領毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407709,0,0,5
+5,男裝 U 棉質喀什米爾 圓領毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/407081,0,0,5
+5,男裝 U 棉質中高領毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/407082,0,0,5
+5,男裝 U 棉質圓領毛衣 (長袖),1490,http://www.uniqlo.com/tw/store/goods/407087,0,0,5
+5,男裝 棉質喀什米爾 羅紋圓領毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/405134,0,0,5
+5,男裝 棉質喀什米爾 羅紋V領毛衣 (長袖),390,http://www.uniqlo.com/tw/store/goods/402518,0,0,5
+5,男裝 亞麻混紡 V領開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/405138,0,0,5
+5,女裝 2WAY披巾,590,http://www.uniqlo.com/tw/store/goods/408313,0,0,5
+5,女裝 2WAY披巾,590,http://www.uniqlo.com/tw/store/goods/409450,0,0,5
+5,男裝 華夫格圓領毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/405135,0,0,5
+5,男裝 彈性圓領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/407910,0,0,5
+5,男裝 彈性拉鍊毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407911,0,0,5
+5,男裝 U 棉質圓領毛衣 (短袖),990,http://www.uniqlo.com/tw/store/goods/407079,0,0,5
+5,男裝 Active彈性羊毛V領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/404036,0,0,5
+7,男裝 特級彈性 SKINNY FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/403966,0,1,0
+7,男裝 特級彈性 SKINNY FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404802,0,1,0
+7,男裝 特級彈性 SKINNY FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/401513,0,1,0
+7,男裝 彈性 SKINNY FIT 多色牛仔褲,990,http://www.uniqlo.com/tw/store/goods/403969,0,1,0
+7,男裝 彈性SKINNY FIT 多色牛仔褲,990,http://www.uniqlo.com/tw/store/goods/400133,0,1,0
+7,男裝 彈性SKINNY FIT 多色牛仔褲,990,http://www.uniqlo.com/tw/store/goods/402788,0,1,0
+7,男裝 彈性 Skinny Fit 窄管多色牛仔褲,990,http://www.uniqlo.com/tw/store/goods/182661,0,1,0
+7,男裝 彈性 Skinny Fit 窄管多色牛仔褲,990,http://www.uniqlo.com/tw/store/goods/194284,0,1,0
+7,男裝 彈性 Skinny Fit 窄管多色牛仔褲,590,http://www.uniqlo.com/tw/store/goods/18266100001,0,1,0
+7,男裝 SLIM FIT 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/401156,0,1,0
+7,男裝 SLIM FIT 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/407406,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/191943,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/196364,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/19636400001,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/19194300001,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/19194300003,0,1,0
+7,男裝 Slim Fit 刷破牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/19194300002,0,1,0
+7,男裝 彈性赤耳 SLIM FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/405630,0,1,0
+7,男裝 彈性赤耳 SLIM FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/400130,0,1,0
+7,男裝 彈性赤耳 Slim Fit 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/182657,0,1,0
+7,男裝 彈性赤耳 SLIM FIT 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/405626,0,1,0
+7,男裝 彈性赤耳 Slim Fit 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/172728,0,1,0
+7,男裝 彈性赤耳 Slim Fit 牛仔褲,390,http://www.uniqlo.com/tw/store/goods/17272800001,0,1,0
+7,男裝 彈性赤耳 SLIM FIT 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/40013000001,0,1,0
+7,男裝 彈性赤耳 Slim Fit 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/18265700001,0,1,0
+7,男裝 EZY牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/407159,0,1,0
+7,男裝 EZY牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/401085,0,1,0
+7,男裝 MIRACLE AIR SLIM FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/408443,0,1,0
+7,男裝 REGULAR FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/403964,0,1,0
+7,男裝 REGULAR FIT 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/400129,0,1,0
+7,男裝 Regular Fit 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/182656,0,1,0
+7,男裝 牛仔外套,1490,http://www.uniqlo.com/tw/store/goods/405198,0,1,0
+7,男裝 牛仔工作襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401833,0,1,0
+7,男裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404399,0,1,0
+7,男裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/192503,0,1,0
+7,男裝 牛仔襯衫 (長袖),490,http://www.uniqlo.com/tw/store/goods/400659,0,1,0
+7,男裝 水洗復古牛仔工作襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406590,0,1,0
+7,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,0
+7,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,0
+7,男裝 U 牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/407312,0,1,0
+7,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,0
+7,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,0
+7,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,0
+7,男裝 牛仔襯衫 (長袖),490,http://www.uniqlo.com/tw/store/goods/19250300001,0,1,0
+9,男裝 彈性 SLIM FIT 羊毛無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/400143,0,1,2
+9,男裝 彈性羊毛 SLIM FIT 無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/403998,0,1,2
+9,男裝 彈性羊毛無褶長褲,790,http://www.uniqlo.com/tw/store/goods/400142,0,1,2
+9,男裝 輕便九分褲(條紋),890,http://www.uniqlo.com/tw/store/goods/408943,0,1,2
+9,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/409547,0,1,2
+9,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/406724,0,1,2
+9,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/407757,0,1,2
+9,男裝 輕便九分褲 (羊毛風),890,http://www.uniqlo.com/tw/store/goods/403987,0,1,2
+9,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405277,0,1,2
+9,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405321,0,1,2
+9,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/401164,0,1,2
+9,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/402766,0,1,2
+9,男裝 輕便九分褲(羊毛),890,http://www.uniqlo.com/tw/store/goods/400480,0,1,2
+9,男裝 輕便九分褲 (DRY),890,http://www.uniqlo.com/tw/store/goods/198355,0,1,2
+9,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/196937,0,1,2
+9,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,2
+9,男裝 U 直筒九分褲,1490,http://www.uniqlo.com/tw/store/goods/407317,0,1,2
+9,男裝 彈性工作九分褲,1490,http://www.uniqlo.com/tw/store/goods/407321,0,1,2
+9,男裝 Dry-EX ULTRASTRETCH 九分褲,990,http://www.uniqlo.com/tw/store/goods/404154,0,1,2
+9,男裝 輕便九分褲 (DRY),790,http://www.uniqlo.com/tw/store/goods/19835500001,0,1,2
+9,男裝 束口褲 (機能),990,http://www.uniqlo.com/tw/store/goods/405641,0,1,2
+9,男裝 束口褲(機能)(混紡),990,http://www.uniqlo.com/tw/store/goods/407372,0,1,2
+9,男裝 束口褲 (棉質),990,http://www.uniqlo.com/tw/store/goods/403988,0,1,2
+9,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,2
+9,男裝 束口褲,490,http://www.uniqlo.com/tw/store/goods/185334,0,1,2
+9,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/404166,0,1,2
+9,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/400341,0,1,2
+9,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/400989,0,1,2
+9,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404168,0,1,2
+9,男裝 DRY彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/180729,0,1,2
+9,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,2
+9,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,2
+9,男裝 DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,2
+9,男裝 DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,2
+9,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,2
+9,男裝 AIRism 運動機能五分緊身褲,590,http://www.uniqlo.com/tw/store/goods/406365,0,1,2
+9,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/407760,0,1,2
+9,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/182679,0,1,2
+9,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/199003,0,1,2
+9,男裝 五分卡其褲,390,http://www.uniqlo.com/tw/store/goods/199005,0,1,2
+9,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/193163,0,1,2
+9,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/195664,0,1,2
+9,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/408314,0,1,2
+9,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,2
+9,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,2
+9,男裝 工作短褲,790,http://www.uniqlo.com/tw/store/goods/406557,0,1,2
+9,男裝 工作短褲,390,http://www.uniqlo.com/tw/store/goods/194153,0,1,2
+9,男裝 KANDO短褲,990,http://www.uniqlo.com/tw/store/goods/406730,0,1,2
+9,男裝 U 輕便打褶短褲,990,http://www.uniqlo.com/tw/store/goods/407587,0,1,2
+9,男裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404155,0,1,2
+9,男裝 五分卡其褲,790,http://www.uniqlo.com/tw/store/goods/407600,0,1,2
+9,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,2
+9,男裝 SPRZ NY 運動機能緊身褲,790,http://www.uniqlo.com/tw/store/goods/406540,0,1,2
+9,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/407314,0,1,2
+9,男裝 U 寬版窄管長褲,1490,http://www.uniqlo.com/tw/store/goods/407315,0,1,2
+9,男裝 U 寬版工作長褲,1490,http://www.uniqlo.com/tw/store/goods/407316,0,1,2
+9,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/408617,0,1,2
+9,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,2
+10,男裝 彈性 SLIM FIT 羊毛無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/400143,0,1,3
+10,男裝 彈性羊毛 SLIM FIT 無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/403998,0,1,3
+10,男裝 彈性羊毛無褶長褲,790,http://www.uniqlo.com/tw/store/goods/400142,0,1,3
+10,男裝 輕便九分褲(條紋),890,http://www.uniqlo.com/tw/store/goods/408943,0,1,3
+10,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/409547,0,1,3
+10,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/406724,0,1,3
+10,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/407757,0,1,3
+10,男裝 輕便九分褲 (羊毛風),890,http://www.uniqlo.com/tw/store/goods/403987,0,1,3
+10,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405277,0,1,3
+10,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405321,0,1,3
+10,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/401164,0,1,3
+10,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/402766,0,1,3
+10,男裝 輕便九分褲(羊毛),890,http://www.uniqlo.com/tw/store/goods/400480,0,1,3
+10,男裝 輕便九分褲 (DRY),890,http://www.uniqlo.com/tw/store/goods/198355,0,1,3
+10,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/196937,0,1,3
+10,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,3
+10,男裝 U 直筒九分褲,1490,http://www.uniqlo.com/tw/store/goods/407317,0,1,3
+10,男裝 彈性工作九分褲,1490,http://www.uniqlo.com/tw/store/goods/407321,0,1,3
+10,男裝 Dry-EX ULTRASTRETCH 九分褲,990,http://www.uniqlo.com/tw/store/goods/404154,0,1,3
+10,男裝 輕便九分褲 (DRY),790,http://www.uniqlo.com/tw/store/goods/19835500001,0,1,3
+10,男裝 束口褲 (機能),990,http://www.uniqlo.com/tw/store/goods/405641,0,1,3
+10,男裝 束口褲(機能)(混紡),990,http://www.uniqlo.com/tw/store/goods/407372,0,1,3
+10,男裝 束口褲 (棉質),990,http://www.uniqlo.com/tw/store/goods/403988,0,1,3
+10,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,3
+10,男裝 束口褲,490,http://www.uniqlo.com/tw/store/goods/185334,0,1,3
+10,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/404166,0,1,3
+10,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/400341,0,1,3
+10,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/400989,0,1,3
+10,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404168,0,1,3
+10,男裝 DRY彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/180729,0,1,3
+10,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,3
+10,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,3
+10,男裝 DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,3
+10,男裝 DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,3
+10,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,3
+10,男裝 AIRism 運動機能五分緊身褲,590,http://www.uniqlo.com/tw/store/goods/406365,0,1,3
+10,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/407760,0,1,3
+10,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/182679,0,1,3
+10,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/199003,0,1,3
+10,男裝 五分卡其褲,390,http://www.uniqlo.com/tw/store/goods/199005,0,1,3
+10,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/193163,0,1,3
+10,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/195664,0,1,3
+10,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/408314,0,1,3
+10,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,3
+10,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,3
+10,男裝 工作短褲,790,http://www.uniqlo.com/tw/store/goods/406557,0,1,3
+10,男裝 工作短褲,390,http://www.uniqlo.com/tw/store/goods/194153,0,1,3
+10,男裝 KANDO短褲,990,http://www.uniqlo.com/tw/store/goods/406730,0,1,3
+10,男裝 U 輕便打褶短褲,990,http://www.uniqlo.com/tw/store/goods/407587,0,1,3
+10,男裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404155,0,1,3
+10,男裝 五分卡其褲,790,http://www.uniqlo.com/tw/store/goods/407600,0,1,3
+10,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,3
+10,男裝 SPRZ NY 運動機能緊身褲,790,http://www.uniqlo.com/tw/store/goods/406540,0,1,3
+10,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/407314,0,1,3
+10,男裝 U 寬版窄管長褲,1490,http://www.uniqlo.com/tw/store/goods/407315,0,1,3
+10,男裝 U 寬版工作長褲,1490,http://www.uniqlo.com/tw/store/goods/407316,0,1,3
+10,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/408617,0,1,3
+10,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,3
+11,男裝 彈性 SLIM FIT 羊毛無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/400143,0,1,4
+11,男裝 彈性羊毛 SLIM FIT 無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/403998,0,1,4
+11,男裝 彈性羊毛無褶長褲,790,http://www.uniqlo.com/tw/store/goods/400142,0,1,4
+11,男裝 輕便九分褲(條紋),890,http://www.uniqlo.com/tw/store/goods/408943,0,1,4
+11,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/409547,0,1,4
+11,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/406724,0,1,4
+11,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/407757,0,1,4
+11,男裝 輕便九分褲 (羊毛風),890,http://www.uniqlo.com/tw/store/goods/403987,0,1,4
+11,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405277,0,1,4
+11,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405321,0,1,4
+11,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/401164,0,1,4
+11,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/402766,0,1,4
+11,男裝 輕便九分褲(羊毛),890,http://www.uniqlo.com/tw/store/goods/400480,0,1,4
+11,男裝 輕便九分褲 (DRY),890,http://www.uniqlo.com/tw/store/goods/198355,0,1,4
+11,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/196937,0,1,4
+11,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,4
+11,男裝 U 直筒九分褲,1490,http://www.uniqlo.com/tw/store/goods/407317,0,1,4
+11,男裝 彈性工作九分褲,1490,http://www.uniqlo.com/tw/store/goods/407321,0,1,4
+11,男裝 Dry-EX ULTRASTRETCH 九分褲,990,http://www.uniqlo.com/tw/store/goods/404154,0,1,4
+11,男裝 輕便九分褲 (DRY),790,http://www.uniqlo.com/tw/store/goods/19835500001,0,1,4
+11,男裝 束口褲 (機能),990,http://www.uniqlo.com/tw/store/goods/405641,0,1,4
+11,男裝 束口褲(機能)(混紡),990,http://www.uniqlo.com/tw/store/goods/407372,0,1,4
+11,男裝 束口褲 (棉質),990,http://www.uniqlo.com/tw/store/goods/403988,0,1,4
+11,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,4
+11,男裝 束口褲,490,http://www.uniqlo.com/tw/store/goods/185334,0,1,4
+11,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/404166,0,1,4
+11,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/400341,0,1,4
+11,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/400989,0,1,4
+11,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404168,0,1,4
+11,男裝 DRY彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/180729,0,1,4
+11,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,4
+11,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,4
+11,男裝 DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,4
+11,男裝 DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,4
+11,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,4
+11,男裝 AIRism 運動機能五分緊身褲,590,http://www.uniqlo.com/tw/store/goods/406365,0,1,4
+11,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/407760,0,1,4
+11,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/182679,0,1,4
+11,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/199003,0,1,4
+11,男裝 五分卡其褲,390,http://www.uniqlo.com/tw/store/goods/199005,0,1,4
+11,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/193163,0,1,4
+11,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/195664,0,1,4
+11,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/408314,0,1,4
+11,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,4
+11,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,4
+11,男裝 工作短褲,790,http://www.uniqlo.com/tw/store/goods/406557,0,1,4
+11,男裝 工作短褲,390,http://www.uniqlo.com/tw/store/goods/194153,0,1,4
+11,男裝 KANDO短褲,990,http://www.uniqlo.com/tw/store/goods/406730,0,1,4
+11,男裝 U 輕便打褶短褲,990,http://www.uniqlo.com/tw/store/goods/407587,0,1,4
+11,男裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404155,0,1,4
+11,男裝 五分卡其褲,790,http://www.uniqlo.com/tw/store/goods/407600,0,1,4
+11,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,4
+11,男裝 SPRZ NY 運動機能緊身褲,790,http://www.uniqlo.com/tw/store/goods/406540,0,1,4
+11,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/407314,0,1,4
+11,男裝 U 寬版窄管長褲,1490,http://www.uniqlo.com/tw/store/goods/407315,0,1,4
+11,男裝 U 寬版工作長褲,1490,http://www.uniqlo.com/tw/store/goods/407316,0,1,4
+11,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/408617,0,1,4
+11,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,4
+12,男裝 彈性 SLIM FIT 羊毛無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/400143,0,1,5
+12,男裝 彈性羊毛 SLIM FIT 無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/403998,0,1,5
+12,男裝 彈性羊毛無褶長褲,790,http://www.uniqlo.com/tw/store/goods/400142,0,1,5
+12,男裝 輕便九分褲(條紋),890,http://www.uniqlo.com/tw/store/goods/408943,0,1,5
+12,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/409547,0,1,5
+12,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/406724,0,1,5
+12,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/407757,0,1,5
+12,男裝 輕便九分褲 (羊毛風),890,http://www.uniqlo.com/tw/store/goods/403987,0,1,5
+12,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405277,0,1,5
+12,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405321,0,1,5
+12,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/401164,0,1,5
+12,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/402766,0,1,5
+12,男裝 輕便九分褲(羊毛),890,http://www.uniqlo.com/tw/store/goods/400480,0,1,5
+12,男裝 輕便九分褲 (DRY),890,http://www.uniqlo.com/tw/store/goods/198355,0,1,5
+12,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/196937,0,1,5
+12,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,5
+12,男裝 U 直筒九分褲,1490,http://www.uniqlo.com/tw/store/goods/407317,0,1,5
+12,男裝 彈性工作九分褲,1490,http://www.uniqlo.com/tw/store/goods/407321,0,1,5
+12,男裝 Dry-EX ULTRASTRETCH 九分褲,990,http://www.uniqlo.com/tw/store/goods/404154,0,1,5
+12,男裝 輕便九分褲 (DRY),790,http://www.uniqlo.com/tw/store/goods/19835500001,0,1,5
+12,男裝 束口褲 (機能),990,http://www.uniqlo.com/tw/store/goods/405641,0,1,5
+12,男裝 束口褲(機能)(混紡),990,http://www.uniqlo.com/tw/store/goods/407372,0,1,5
+12,男裝 束口褲 (棉質),990,http://www.uniqlo.com/tw/store/goods/403988,0,1,5
+12,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,5
+12,男裝 束口褲,490,http://www.uniqlo.com/tw/store/goods/185334,0,1,5
+12,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/404166,0,1,5
+12,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/400341,0,1,5
+12,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/400989,0,1,5
+12,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404168,0,1,5
+12,男裝 DRY彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/180729,0,1,5
+12,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,5
+12,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,5
+12,男裝 DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,5
+12,男裝 DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,5
+12,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,5
+12,男裝 AIRism 運動機能五分緊身褲,590,http://www.uniqlo.com/tw/store/goods/406365,0,1,5
+12,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/407760,0,1,5
+12,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/182679,0,1,5
+12,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/199003,0,1,5
+12,男裝 五分卡其褲,390,http://www.uniqlo.com/tw/store/goods/199005,0,1,5
+12,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/193163,0,1,5
+12,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/195664,0,1,5
+12,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/408314,0,1,5
+12,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,5
+12,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,5
+12,男裝 工作短褲,790,http://www.uniqlo.com/tw/store/goods/406557,0,1,5
+12,男裝 工作短褲,390,http://www.uniqlo.com/tw/store/goods/194153,0,1,5
+12,男裝 KANDO短褲,990,http://www.uniqlo.com/tw/store/goods/406730,0,1,5
+12,男裝 U 輕便打褶短褲,990,http://www.uniqlo.com/tw/store/goods/407587,0,1,5
+12,男裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404155,0,1,5
+12,男裝 五分卡其褲,790,http://www.uniqlo.com/tw/store/goods/407600,0,1,5
+12,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,5
+12,男裝 SPRZ NY 運動機能緊身褲,790,http://www.uniqlo.com/tw/store/goods/406540,0,1,5
+12,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/407314,0,1,5
+12,男裝 U 寬版窄管長褲,1490,http://www.uniqlo.com/tw/store/goods/407315,0,1,5
+12,男裝 U 寬版工作長褲,1490,http://www.uniqlo.com/tw/store/goods/407316,0,1,5
+12,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/408617,0,1,5
+12,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,5
+13,男裝 彈性 SLIM FIT 羊毛無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/400143,0,1,6
+13,男裝 彈性羊毛 SLIM FIT 無褶長褲,1990,http://www.uniqlo.com/tw/store/goods/403998,0,1,6
+13,男裝 彈性羊毛無褶長褲,790,http://www.uniqlo.com/tw/store/goods/400142,0,1,6
+13,男裝 輕便九分褲(條紋),890,http://www.uniqlo.com/tw/store/goods/408943,0,1,6
+13,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/409547,0,1,6
+13,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/406724,0,1,6
+13,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/407757,0,1,6
+13,男裝 輕便九分褲 (羊毛風),890,http://www.uniqlo.com/tw/store/goods/403987,0,1,6
+13,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405277,0,1,6
+13,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/405321,0,1,6
+13,男裝 輕便九分褲(千鳥紋),890,http://www.uniqlo.com/tw/store/goods/401164,0,1,6
+13,男裝 輕便九分褲(格紋),890,http://www.uniqlo.com/tw/store/goods/402766,0,1,6
+13,男裝 輕便九分褲(羊毛),890,http://www.uniqlo.com/tw/store/goods/400480,0,1,6
+13,男裝 輕便九分褲 (DRY),890,http://www.uniqlo.com/tw/store/goods/198355,0,1,6
+13,男裝 輕便九分褲,890,http://www.uniqlo.com/tw/store/goods/196937,0,1,6
+13,男裝 U SLIM FIT 九分牛仔褲,1290,http://www.uniqlo.com/tw/store/goods/407310,0,1,6
+13,男裝 U 直筒九分褲,1490,http://www.uniqlo.com/tw/store/goods/407317,0,1,6
+13,男裝 彈性工作九分褲,1490,http://www.uniqlo.com/tw/store/goods/407321,0,1,6
+13,男裝 Dry-EX ULTRASTRETCH 九分褲,990,http://www.uniqlo.com/tw/store/goods/404154,0,1,6
+13,男裝 輕便九分褲 (DRY),790,http://www.uniqlo.com/tw/store/goods/19835500001,0,1,6
+13,男裝 束口褲 (機能),990,http://www.uniqlo.com/tw/store/goods/405641,0,1,6
+13,男裝 束口褲(機能)(混紡),990,http://www.uniqlo.com/tw/store/goods/407372,0,1,6
+13,男裝 束口褲 (棉質),990,http://www.uniqlo.com/tw/store/goods/403988,0,1,6
+13,男裝 束口褲 (牛仔),990,http://www.uniqlo.com/tw/store/goods/405640,0,1,6
+13,男裝 束口褲,490,http://www.uniqlo.com/tw/store/goods/185334,0,1,6
+13,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/404166,0,1,6
+13,男裝 休閒長褲,590,http://www.uniqlo.com/tw/store/goods/400341,0,1,6
+13,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/400989,0,1,6
+13,男裝 DRY 彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404168,0,1,6
+13,男裝 DRY彈性休閒長褲,990,http://www.uniqlo.com/tw/store/goods/180729,0,1,6
+13,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,6
+13,男裝 SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,6
+13,男裝 DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,6
+13,男裝 DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,6
+13,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,6
+13,男裝 AIRism 運動機能五分緊身褲,590,http://www.uniqlo.com/tw/store/goods/406365,0,1,6
+13,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/407760,0,1,6
+13,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/182679,0,1,6
+13,男裝 五分卡其褲,490,http://www.uniqlo.com/tw/store/goods/199003,0,1,6
+13,男裝 五分卡其褲,390,http://www.uniqlo.com/tw/store/goods/199005,0,1,6
+13,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/193163,0,1,6
+13,男裝 五分卡其褲 (圖紋),390,http://www.uniqlo.com/tw/store/goods/195664,0,1,6
+13,男裝 五分卡其褲(圖紋),790,http://www.uniqlo.com/tw/store/goods/408314,0,1,6
+13,男裝 牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/403990,0,1,6
+13,男裝 牛仔短褲,390,http://www.uniqlo.com/tw/store/goods/191182,0,1,6
+13,男裝 工作短褲,790,http://www.uniqlo.com/tw/store/goods/406557,0,1,6
+13,男裝 工作短褲,390,http://www.uniqlo.com/tw/store/goods/194153,0,1,6
+13,男裝 KANDO短褲,990,http://www.uniqlo.com/tw/store/goods/406730,0,1,6
+13,男裝 U 輕便打褶短褲,990,http://www.uniqlo.com/tw/store/goods/407587,0,1,6
+13,男裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404155,0,1,6
+13,男裝 五分卡其褲,790,http://www.uniqlo.com/tw/store/goods/407600,0,1,6
+13,男裝 Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,6
+13,男裝 SPRZ NY 運動機能緊身褲,790,http://www.uniqlo.com/tw/store/goods/406540,0,1,6
+13,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/407314,0,1,6
+13,男裝 U 寬版窄管長褲,1490,http://www.uniqlo.com/tw/store/goods/407315,0,1,6
+13,男裝 U 寬版工作長褲,1490,http://www.uniqlo.com/tw/store/goods/407316,0,1,6
+13,男裝 U 寬版打摺長褲,1490,http://www.uniqlo.com/tw/store/goods/408617,0,1,6
+13,男裝 HEATTECH SLIM FIT 牛仔褲,590,http://www.uniqlo.com/tw/store/goods/400132,0,1,6
+14,女裝 嫘縈開領上衣 (7分袖),590,http://www.uniqlo.com/tw/store/goods/404544,1,0,0
+14,女裝 嫘縈上衣 (長袖),490,http://www.uniqlo.com/tw/store/goods/404545,1,0,0
+14,女裝 嫘縈上衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/404543,1,0,0
+14,女裝 嫘縈上衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/400520,1,0,0
+14,女裝 IDLF 嫘縈開領上衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/405338,1,0,0
+14,女裝 IDLF 嫘縈交叉領上衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/405591,1,0,0
+14,女裝 HPJ 嫘縈打褶長上衣(長袖),1490,http://www.uniqlo.com/tw/store/goods/405104,1,0,0
+14,女裝 特級亞麻襯衫 (無袖),790,http://www.uniqlo.com/tw/store/goods/405320,1,0,0
+14,女裝 特級亞麻襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/404556,1,0,0
+14,女裝 特級亞麻格紋襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406060,1,0,0
+14,女裝 IDLF 特級亞麻圓角領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/409942,1,0,0
+14,女裝 IDLF 特級亞麻立領襯衫 (長袖),1290,http://www.uniqlo.com/tw/store/goods/409943,1,0,0
+14,女裝 特級亞麻格紋襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/407462,1,0,0
+14,女裝 特級亞麻格紋襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/407633,1,0,0
+14,女裝 HPJ 特級亞麻長版襯衫(長袖),1490,http://www.uniqlo.com/tw/store/goods/405103,1,0,0
+14,女裝 HPJ 特級亞麻寬襬上衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406639,1,0,0
+14,女裝 HPJ 特級亞麻條紋寬襬上衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406646,1,0,0
+14,女裝 HPJ 特級亞麻條紋長版襯衫(長袖),1490,http://www.uniqlo.com/tw/store/goods/406651,1,0,0
+14,女裝 亞麻混紡上衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/407210,1,0,0
+14,女裝 亞麻混紡上衣 (7分袖),790,http://www.uniqlo.com/tw/store/goods/407624,1,0,0
+14,女裝 亞麻混紡抓皺上衣 (7分袖),790,http://www.uniqlo.com/tw/store/goods/405265,1,0,0
+14,女裝 IDLF 亞麻混紡圓角領襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/406911,1,0,0
+14,女裝 IDLF 亞麻混紡立領襯衫 (長袖),1290,http://www.uniqlo.com/tw/store/goods/405583,1,0,0
+14,女裝 HPJ 特級亞麻布勞森外套,1490,http://www.uniqlo.com/tw/store/goods/406668,1,0,0
+14,女裝IDLF亞麻外套,2490,http://www.uniqlo.com/tw/store/goods/405401,1,0,0
+14,女裝 棉麻大衣,1490,http://www.uniqlo.com/tw/store/goods/404201,1,0,0
+14,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,0,0
+14,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,0,0
+14,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,0,0
+14,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,0,0
+14,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,0,0
+14,女裝HPJ亞麻混紡九分褲,990,http://www.uniqlo.com/tw/store/goods/405066,1,0,0
+14,女裝 IDLF 棉麻輕便長褲,1490,http://www.uniqlo.com/tw/store/goods/405980,1,0,0
+14,女裝 IDLF 棉麻抓皺裙,990,http://www.uniqlo.com/tw/store/goods/405979,1,0,0
+14,女裝 IDLE 棉麻設計裙,990,http://www.uniqlo.com/tw/store/goods/408385,1,0,0
+14,女裝 HPJ 棉麻長上衣(長袖),790,http://www.uniqlo.com/tw/store/goods/405115,1,0,0
+14,女裝 HPJ 棉麻寬版T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/405116,1,0,0
+14,女裝 IDLF 亞麻 亨利領T恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/405499,1,0,0
+14,女裝 棉麻圓領毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/406754,1,0,0
+14,女裝 IDLF 亞麻線條毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407391,1,0,0
+14,女裝 IDLF 亞麻條紋毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/408413,1,0,0
+14,女裝 亞麻混紡開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/404016,1,0,0
+14,女裝 IDLF 亞麻混紡A字洋裝 (無袖),1490,http://www.uniqlo.com/tw/store/goods/405565001,1,0,0
+14,女裝 IDLF 亞麻混紡A字洋裝 (無袖),1490,http://www.uniqlo.com/tw/store/goods/405565002,1,0,0
+14,女裝 IDLF 亞麻混紡A字洋裝 (無袖),1490,http://www.uniqlo.com/tw/store/goods/405565003,1,0,0
+14,女裝 IDLF 亞麻混紡A字洋裝 (無袖),1490,http://www.uniqlo.com/tw/store/goods/408942,1,0,0
+14,女裝 棉麻襯衫式洋裝 (七分袖),990,http://www.uniqlo.com/tw/store/goods/406434,1,0,0
+14,女裝 IDLF 棉麻披巾,790,http://www.uniqlo.com/tw/store/goods/406844,1,0,0
+14,女裝 棉麻披巾,390,http://www.uniqlo.com/tw/store/goods/407225,1,0,0
+14,女裝 棉麻披巾(漸層),390,http://www.uniqlo.com/tw/store/goods/404711,1,0,0
+14,女裝 棉麻披巾,390,http://www.uniqlo.com/tw/store/goods/407542,1,0,0
+14,女裝 棉質刺繡上衣 (無袖),790,http://www.uniqlo.com/tw/store/goods/405315,1,0,0
+14,女裝 棉質刺繡上衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/404554,1,0,0
+14,女裝 棉質刺繡上衣 (七分袖),790,http://www.uniqlo.com/tw/store/goods/406508,1,0,0
+14,女裝 2WAY 蕾絲拼接上衣 (短袖),590,http://www.uniqlo.com/tw/store/goods/408590,1,0,0
+14,女裝 IDLE 刺繡襯衫(長袖),1290,http://www.uniqlo.com/tw/store/goods/405336,1,0,0
+14,女裝 IDLF 棉質斜紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405323,1,0,0
+14,女裝 IDLF 棉質荷葉襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/405327,1,0,0
+14,女裝 IDLF 棉質荷葉襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405328,1,0,0
+14,女裝 IDLF 棉質襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405331,1,0,0
+14,女裝 IDLF 棉質長上衣 (長袖),1290,http://www.uniqlo.com/tw/store/goods/405334,1,0,0
+14,女裝 IDLF 棉質緹花細褶襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/407156,1,0,0
+14,女裝 IDLF 棉質斜紋立領襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/405326,1,0,0
+14,女裝 U 開領襯衫(長袖),990,http://www.uniqlo.com/tw/store/goods/407405,1,0,0
+14,女裝 HPJ 無領打褶上衣(長袖),990,http://www.uniqlo.com/tw/store/goods/405099,1,0,0
+14,女裝 HPJ 翻領長版襯衫(長袖),1490,http://www.uniqlo.com/tw/store/goods/405100,1,0,0
+14,女裝 HPJ 細紋綁帶長上衣(長袖),1490,http://www.uniqlo.com/tw/store/goods/405102,1,0,0
+14,女裝超柔棉抓皺上衣(5分袖),790,http://www.uniqlo.com/tw/store/goods/410369,1,0,0
+14,女裝 HPJ 超柔棉襯衫(長袖),990,http://www.uniqlo.com/tw/store/goods/406638,1,0,0
+14,女裝 超柔棉襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404548,1,0,0
+14,女裝 超柔棉條紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/407430,1,0,0
+14,女裝 超柔棉 2WAY交叉領上衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/405309,1,0,0
+14,女裝 柔軟棉質襯衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404553,1,0,0
+14,女裝 柔軟棉質蕾絲上衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407103,1,0,0
+14,女裝 柔軟棉質蕾絲上衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/404547,1,0,0
+14,女裝 柔軟棉質襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/404546,1,0,0
+14,女裝 柔軟棉質細褶上衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/405308,1,0,0
+14,女裝 柔軟棉質條紋襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/407427,1,0,0
+14,女裝 垂墜風上衣 (7分袖),790,http://www.uniqlo.com/tw/store/goods/406064,1,0,0
+14,女裝 垂墜風V領上衣 (無袖),790,http://www.uniqlo.com/tw/store/goods/404552,1,0,0
+14,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),790,http://www.uniqlo.com/tw/store/goods/404549,1,0,0
+14,女裝 SUPIMA COTTON 彈性府綢襯衫(條紋),790,http://www.uniqlo.com/tw/store/goods/402668,1,0,0
+14,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),790,http://www.uniqlo.com/tw/store/goods/400526,1,0,0
+14,女裝 IDLF 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405329,1,0,0
+14,女裝 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405318,1,0,0
+14,女裝 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/401225,1,0,0
+14,女裝 牛津襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/192803,1,0,0
+14,女裝 IDLF 牛仔襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406895,1,0,0
+14,女裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405319,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/402680,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/402681,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/402683,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/402673,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/402674,1,0,0
+14,女裝 法蘭絨格紋襯衫 (長袖),390,http://www.uniqlo.com/tw/store/goods/40267500001,1,0,0
+15,女裝 2 WAY 羅紋蕾絲 坦克背心,390,http://www.uniqlo.com/tw/store/goods/403899,1,0,1
+15,女裝 2WAY條紋羅紋蕾絲坦克背心,390,http://www.uniqlo.com/tw/store/goods/406440,1,0,1
+15,女裝 後背蕾絲 坦克背心,390,http://www.uniqlo.com/tw/store/goods/406307,1,0,1
+15,女裝 Dry-EX 長版坦克背心,590,http://www.uniqlo.com/tw/store/goods/404089,1,0,1
+15,女裝 蕾絲無袖上衣,790,http://www.uniqlo.com/tw/store/goods/405735,1,0,1
+15,女裝 U 坦克背心,390,http://www.uniqlo.com/tw/store/goods/406458,1,0,1
+15,女裝 短版圓領T恤 (短袖),390,http://www.uniqlo.com/tw/store/goods/405287,1,0,1
+15,女裝 U 條紋圓領T恤(短袖),590,http://www.uniqlo.com/tw/store/goods/407492,1,0,1
+15,女裝 2WAY 蕾絲拼接上衣 (短袖),590,http://www.uniqlo.com/tw/store/goods/408590,1,0,1
+15,女裝華夫格圓領T恤(五分袖),590,http://www.uniqlo.com/tw/store/goods/409609,1,0,1
+15,女裝 粗紡長上衣 (短袖),590,http://www.uniqlo.com/tw/store/goods/403641,1,0,1
+15,女裝 粗紡條紋 長上衣 (短袖),590,http://www.uniqlo.com/tw/store/goods/408264,1,0,1
+15,女裝 垂墜風上衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/404551,1,0,1
+15,女裝 垂墜風圓領T恤 (短袖),390,http://www.uniqlo.com/tw/store/goods/403640,1,0,1
+15,女裝 U 圓領T恤(短袖),390,http://www.uniqlo.com/tw/store/goods/406456,1,0,1
+15,女裝 IDLF 華夫格 圓領T恤 (短袖),490,http://www.uniqlo.com/tw/store/goods/405501,1,0,1
+15,女裝 IDLF 亞麻 亨利領T恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/405499,1,0,1
+15,女裝 IDLF 條紋圓領T恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/405502,1,0,1
+15,女裝 2WAY 羅紋T恤 (五分袖),390,http://www.uniqlo.com/tw/store/goods/408464,1,0,1
+15,女裝 2WAY 羅紋條紋T恤 (五分袖),390,http://www.uniqlo.com/tw/store/goods/408465,1,0,1
+15,女裝 羅紋船型領T恤 (5分袖),390,http://www.uniqlo.com/tw/store/goods/404221,1,0,1
+15,女裝 SUPIMA COTTON 羅紋坦克背心,390,http://www.uniqlo.com/tw/store/goods/406304,1,0,1
+15,女裝 SUPIMA COTTON V領T恤(短袖),390,http://www.uniqlo.com/tw/store/goods/408586,1,0,1
+15,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),390,http://www.uniqlo.com/tw/store/goods/403637,1,0,1
+15,女裝 Supima Cotton 圓領T恤(短袖),290,http://www.uniqlo.com/tw/store/goods/182168,1,0,1
+15,女裝 SPRZ NY Dry-EX 印花T恤(短袖),590,http://www.uniqlo.com/tw/store/goods/408480,1,0,1
+15,女裝 SPRZ NY DRYT恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/408481,1,0,1
+15,女裝 SPRZ NY DRYT恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/408482,1,0,1
+15,女裝 SPRZ NY Dry-EX 印花T恤(短袖),590,http://www.uniqlo.com/tw/store/goods/404090,1,0,1
+15,女裝 SPRZ NY DRYT恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/406100,1,0,1
+15,女裝 DRY 華夫格長上衣 (短袖),590,http://www.uniqlo.com/tw/store/goods/406514,1,0,1
+15,女裝 Dry-EX 圓領T恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/404087,1,0,1
+15,女裝 Dry-EX POLO衫,590,http://www.uniqlo.com/tw/store/goods/404091,1,0,1
+15,女裝 Dry-EX 長版坦克背心,590,http://www.uniqlo.com/tw/store/goods/404089,1,0,1
+15,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,0,1
+15,女裝 Dry-EX 短褲,590,http://www.uniqlo.com/tw/store/goods/405182,1,0,1
+15,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,0,1
+15,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,0,1
+15,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,0,1
+15,女裝 AIRism 無縫T恤 (短袖),790,http://www.uniqlo.com/tw/store/goods/404088,1,0,1
+15,女裝 AIRism 寬版T恤 (短袖),590,http://www.uniqlo.com/tw/store/goods/404095,1,0,1
+16,女裝 七分寬襬袖T恤,590,http://www.uniqlo.com/tw/store/goods/408874,1,0,2
+16,女裝 米蘭羅紋 休閒上衣 (7分袖),790,http://www.uniqlo.com/tw/store/goods/408479,1,0,2
+16,女裝 COMPACT COTTON 圓領T恤(7分),390,http://www.uniqlo.com/tw/store/goods/407546,1,0,2
+16,女裝 AIRism 抗UV網眼T恤 (長袖),790,http://www.uniqlo.com/tw/store/goods/404752,1,0,2
+16,女裝 AIRism 抗UV網眼 半開襟T恤(長袖),790,http://www.uniqlo.com/tw/store/goods/404751,1,0,2
+16,女裝 HPJ 寬版圓領T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/405113,1,0,2
+16,女裝 HPJ 棉麻長上衣(長袖),790,http://www.uniqlo.com/tw/store/goods/405115,1,0,2
+16,女裝 COMPACT COTTON 圓領T恤(長袖),390,http://www.uniqlo.com/tw/store/goods/407547,1,0,2
+16,女裝 HPJ 棉麻寬版T恤(長袖),590,http://www.uniqlo.com/tw/store/goods/405116,1,0,2
+16,女裝 COMPACT COTTON V領T恤(長袖),290,http://www.uniqlo.com/tw/store/goods/408221,1,0,2
+16,女裝 華夫格 V領T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/406564,1,0,2
+16,女裝 2WAY 條紋T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/408032,1,0,2
+16,女裝 條紋船型領T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/404223,1,0,2
+16,女裝 條紋船型領T恤 (長袖),590,http://www.uniqlo.com/tw/store/goods/400152,1,0,2
+17,女裝 抗UV羅紋 無袖毛衣,790,http://www.uniqlo.com/tw/store/goods/406995,1,0,3
+17,女裝 抗UV羅紋 圓領五分袖毛衣,790,http://www.uniqlo.com/tw/store/goods/404633,1,0,3
+17,女裝 抗UV圓領 開襟外套 (長袖),790,http://www.uniqlo.com/tw/store/goods/404012,1,0,3
+17,女裝 抗UV V領 開襟外套 (長袖),790,http://www.uniqlo.com/tw/store/goods/404011,1,0,3
+17,女裝 IDLF 抗UV羅紋 條紋毛衣(長袖),790,http://www.uniqlo.com/tw/store/goods/407382,1,0,3
+17,女裝 IDLF 抗UV條紋毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/407384,1,0,3
+17,女裝 IDLF 棉質喀什米爾 圓領毛衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/407387,1,0,3
+17,女裝 IDLF 棉質喀什米爾 V領開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/407388,1,0,3
+17,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406743,1,0,3
+17,女裝 U 棉質喀什米爾毛衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406744,1,0,3
+17,女裝 棉質喀什米爾 編織毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/407767,1,0,3
+17,女裝 棉質喀什米爾 V領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/404005,1,0,3
+17,女裝 棉質喀什米爾 羅紋毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/404008,1,0,3
+17,女裝 棉質喀什米爾 羅紋船型領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/400436,1,0,3
+17,女裝 喀什米爾 V領毛衣 (長袖),1290,http://www.uniqlo.com/tw/store/goods/400349,1,0,3
+17,女裝 喀什米爾 圓領毛衣 (長袖),1290,http://www.uniqlo.com/tw/store/goods/400452,1,0,3
+17,女裝 輕型V領 開襟外套,790,http://www.uniqlo.com/tw/store/goods/404014,1,0,3
+17,女裝 輕型V領羅紋 五分袖開襟外套,790,http://www.uniqlo.com/tw/store/goods/404015,1,0,3
+17,女裝3D棉質圓領毛衣(短袖),990,http://www.uniqlo.com/tw/store/goods/408124,1,0,3
+17,女裝 U 3D羅紋圓領毛衣(長袖),1490,http://www.uniqlo.com/tw/store/goods/406762,1,0,3
+17,女裝 3D棉質船型領毛衣(短袖),990,http://www.uniqlo.com/tw/store/goods/408520,1,0,3
+17,女裝 3D棉質繭型 七分袖毛衣,990,http://www.uniqlo.com/tw/store/goods/404010,1,0,3
+17,女裝3D棉質繭形洋裝(無袖),1490,http://www.uniqlo.com/tw/store/goods/411448,1,0,3
+17,女裝3D棉質合身寬襬洋裝(短袖),1490,http://www.uniqlo.com/tw/store/goods/410894,1,0,3
+17,女裝 U 3D圓領洋裝 (短袖),1990,http://www.uniqlo.com/tw/store/goods/406667,1,0,3
+17,女裝 IDLF 針織開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/407394,1,0,3
+17,女裝 IDLF 粗紡針織開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/408365,1,0,3
+17,女裝 亞麻混紡開襟外套 (長袖),990,http://www.uniqlo.com/tw/store/goods/404016,1,0,3
+17,女裝 2WAY披巾,590,http://www.uniqlo.com/tw/store/goods/408313,1,0,3
+17,女裝 2WAY披巾,590,http://www.uniqlo.com/tw/store/goods/409450,1,0,3
+17,女裝 U 棉質喀什米爾V領洋裝(長袖),1990,http://www.uniqlo.com/tw/store/goods/406663,1,0,3
+17,女裝 Active彈性POLO毛衣 (短袖),990,http://www.uniqlo.com/tw/store/goods/408648,1,0,3
+17,女裝 彈性圓領毛衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/408647,1,0,3
+17,女裝 彈性V領毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/408649,1,0,3
+17,女裝 羅紋荷葉領毛衣 (長袖),590,http://www.uniqlo.com/tw/store/goods/407720,1,0,3
+17,女裝 羅紋中高領毛衣 (長袖),390,http://www.uniqlo.com/tw/store/goods/405167,1,0,3
+17,女裝 IDLF POLO毛衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/407390,1,0,3
+17,女裝 棉麻圓領毛衣 (長袖),990,http://www.uniqlo.com/tw/store/goods/406754,1,0,3
+17,女裝 IDLF POLO毛衣 (短袖),790,http://www.uniqlo.com/tw/store/goods/408412,1,0,3
+17,女裝 IDLF 亞麻條紋毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/408413,1,0,3
+17,女裝 IDLF 亞麻線條毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407391,1,0,3
+17,女裝 IDLF 條紋V領毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/408372,1,0,3
+17,女裝 IDLF 線條毛衣 (長袖),790,http://www.uniqlo.com/tw/store/goods/407385,1,0,3
+17,女裝 U 棉質V領細肩帶針織衫,790,http://www.uniqlo.com/tw/store/goods/406746,1,0,3
+17,女裝 U棉質合身毛衣(短袖),790,http://www.uniqlo.com/tw/store/goods/406747,1,0,3
+17,女裝 U 棉質V領七分袖短版毛衣,990,http://www.uniqlo.com/tw/store/goods/406751,1,0,3
+17,女裝 U 棉質圓領短版毛衣(長袖),990,http://www.uniqlo.com/tw/store/goods/406752,1,0,3
+17,女裝 U 3D羅紋圓領毛衣(長袖),1490,http://www.uniqlo.com/tw/store/goods/406762,1,0,3
+19,女裝 特級彈性牛仔褲(刷破),1490,http://www.uniqlo.com/tw/store/goods/406350,1,1,0
+19,女裝特級彈性牛仔褲(刷破),1490,http://www.uniqlo.com/tw/store/goods/401791,1,1,0
+19,女裝特級彈性牛仔褲(acid),1490,http://www.uniqlo.com/tw/store/goods/405622,1,1,0
+19,女裝 特級彈性牛仔褲  (刷破),1490,http://www.uniqlo.com/tw/store/goods/196057,1,1,0
+19,女裝 特級彈性牛仔褲(刷破),1490,http://www.uniqlo.com/tw/store/goods/403137,1,1,0
+19,女裝 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/406349,1,1,0
+19,女裝 特級彈性牛仔褲(刷破),1490,http://www.uniqlo.com/tw/store/goods/199655,1,1,0
+19,女裝 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404562,1,1,0
+19,女裝特級彈性牛仔褲(亮面),1490,http://www.uniqlo.com/tw/store/goods/401790,1,1,0
+19,女裝 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/400534,1,1,0
+19,女裝 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/181597,1,1,0
+19,女裝 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/173696,1,1,0
+19,女裝高腰煙管褲,1490,http://www.uniqlo.com/tw/store/goods/408784,1,1,0
+19,女裝 高腰煙管褲,1490,http://www.uniqlo.com/tw/store/goods/404607,1,1,0
+19,女裝 高腰煙管褲,1490,http://www.uniqlo.com/tw/store/goods/40460700001,1,1,0
+19,女裝 高腰煙管褲,1490,http://www.uniqlo.com/tw/store/goods/401454,1,1,0
+19,女裝 高腰煙管褲,1490,http://www.uniqlo.com/tw/store/goods/408350,1,1,0
+19,女裝 高腰 BOYFRIENDFIT 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/404606,1,1,0
+19,女裝 高腰 BOYFRIENDFIT 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/407399,1,1,0
+19,女裝 高腰 BOYFRIENDFIT 牛仔褲,990,http://www.uniqlo.com/tw/store/goods/406351,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲(刷破),990,http://www.uniqlo.com/tw/store/goods/40361300001,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲(刷破),990,http://www.uniqlo.com/tw/store/goods/403613,1,1,0
+19,女裝Slim BoyfriendFit九分牛仔褲(法蘭絨),990,http://www.uniqlo.com/tw/store/goods/403614,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲,990,http://www.uniqlo.com/tw/store/goods/400535,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲,990,http://www.uniqlo.com/tw/store/goods/181598,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲,990,http://www.uniqlo.com/tw/store/goods/18159800002,1,1,0
+19,女裝 Slim BoyfriendFit 九分牛仔褲,990,http://www.uniqlo.com/tw/store/goods/173699,1,1,0
+19,女裝 EZY牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404609,1,1,0
+19,女裝 EZY牛仔褲,790,http://www.uniqlo.com/tw/store/goods/403622,1,1,0
+19,女裝 U 高腰合身直筒牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/406655,1,1,0
+19,女裝 高腰寬褲(牛仔),990,http://www.uniqlo.com/tw/store/goods/407979,1,1,0
+19,女裝 高腰牛仔寬褲,1490,http://www.uniqlo.com/tw/store/goods/406355,1,1,0
+19,女裝 孕婦包腹 特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/406511,1,1,0
+19,女裝 孕婦包腹特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404122,1,1,0
+19,女裝 孕婦包腹特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404492,1,1,0
+19,女裝 孕婦包腹特級彈性牛仔褲,1490,http://www.uniqlo.com/tw/store/goods/404493,1,1,0
+19,女裝 牛仔外套,1490,http://www.uniqlo.com/tw/store/goods/404204,1,1,0
+19,女裝 牛仔襯衫 (長袖),790,http://www.uniqlo.com/tw/store/goods/405319,1,1,0
+19,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,0
+19,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/405283,1,1,0
+19,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/180916,1,1,0
+19,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/401866,1,1,0
+19,女裝 U 牛仔寬褲,1490,http://www.uniqlo.com/tw/store/goods/406656,1,1,0
+19,女裝 U 牛仔中長裙,1490,http://www.uniqlo.com/tw/store/goods/406657,1,1,0
+19,女裝 高腰牛仔附腰帶窄版裙,990,http://www.uniqlo.com/tw/store/goods/408879,1,1,0
+19,女裝 IDLF 牛仔外套,1990,http://www.uniqlo.com/tw/store/goods/405396,1,1,0
+19,女裝 IDLF 合身九分牛仔褲,990,http://www.uniqlo.com/tw/store/goods/405957,1,1,0
+19,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,0
+19,女裝 IDLF 牛仔襯衫 (長袖),990,http://www.uniqlo.com/tw/store/goods/406895,1,1,0
+19,女裝 牛仔緊身褲,390,http://www.uniqlo.com/tw/store/goods/19251300001,1,1,0
+20,女裝 高腰卡其寬褲,990,http://www.uniqlo.com/tw/store/goods/407601,1,1,1
+20,女裝 高腰卡其寬褲,490,http://www.uniqlo.com/tw/store/goods/403595,1,1,1
+20,女裝 高腰寬褲(牛仔),990,http://www.uniqlo.com/tw/store/goods/407979,1,1,1
+20,女裝 高腰牛仔寬褲,1490,http://www.uniqlo.com/tw/store/goods/406355,1,1,1
+20,女裝 U 牛仔寬褲,1490,http://www.uniqlo.com/tw/store/goods/406656,1,1,1
+20,女裝 寬襬褲,690,http://www.uniqlo.com/tw/store/goods/404542,1,1,1
+20,女裝 垂墜風九分寬褲,990,http://www.uniqlo.com/tw/store/goods/404685,1,1,1
+20,女裝 U 高腰九分寬褲,1490,http://www.uniqlo.com/tw/store/goods/406654,1,1,1
+20,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,1
+20,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,1
+20,女裝 U 寬褲,1490,http://www.uniqlo.com/tw/store/goods/406660,1,1,1
+20,女裝HPJ打褶寬褲,990,http://www.uniqlo.com/tw/store/goods/405557,1,1,1
+21,女裝 緊身褲,590,http://www.uniqlo.com/tw/store/goods/404615,1,1,2
+21,女裝 緊身褲,590,http://www.uniqlo.com/tw/store/goods/400549,1,1,2
+21,女裝 印花緊身褲,590,http://www.uniqlo.com/tw/store/goods/405284,1,1,2
+21,女裝 緊身褲(pan),590,http://www.uniqlo.com/tw/store/goods/184217,1,1,2
+21,女裝 緊身褲,590,http://www.uniqlo.com/tw/store/goods/404530,1,1,2
+21,女裝 緊身褲,590,http://www.uniqlo.com/tw/store/goods/192453,1,1,2
+21,女裝 M HERITAGE 緊身褲,390,http://www.uniqlo.com/tw/store/goods/401865,1,1,2
+21,女裝 緊身褲,390,http://www.uniqlo.com/tw/store/goods/40054900001,1,1,2
+21,女裝 緊身褲,390,http://www.uniqlo.com/tw/store/goods/40453000001,1,1,2
+21,女裝 緊身褲(pan),390,http://www.uniqlo.com/tw/store/goods/18421700001,1,1,2
+21,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/405283,1,1,2
+21,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/401866,1,1,2
+21,女裝 牛仔緊身褲,590,http://www.uniqlo.com/tw/store/goods/180916,1,1,2
+21,女裝 牛仔緊身褲,390,http://www.uniqlo.com/tw/store/goods/19251300001,1,1,2
+21,女裝 七分緊身褲,790,http://www.uniqlo.com/tw/store/goods/404616,1,1,2
+21,女裝 牛仔七分緊身褲,790,http://www.uniqlo.com/tw/store/goods/405285,1,1,2
+21,女裝 印花七分緊身褲,790,http://www.uniqlo.com/tw/store/goods/405286,1,1,2
+21,女裝 印花七分緊身褲,790,http://www.uniqlo.com/tw/store/goods/408580,1,1,2
+21,女裝 AIRism 七分緊身褲,790,http://www.uniqlo.com/tw/store/goods/404082,1,1,2
+21,女裝 SPRZ NY AIRism 緊身褲,790,http://www.uniqlo.com/tw/store/goods/408485,1,1,2
+21,女裝AIRism 運動機能緊身褲,590,http://www.uniqlo.com/tw/store/goods/404756,1,1,2
+21,女裝 AIRism 運動機能緊身褲,590,http://www.uniqlo.com/tw/store/goods/404520,1,1,2
+21,女裝 AIRism 九分緊身褲,790,http://www.uniqlo.com/tw/store/goods/404078,1,1,2
+21,女裝 AIRism 無縫緊身褲,790,http://www.uniqlo.com/tw/store/goods/404083,1,1,2
+21,女裝 孕婦包腹緊身褲,990,http://www.uniqlo.com/tw/store/goods/406510,1,1,2
+21,女裝 孕婦包腹 緊身褲,990,http://www.uniqlo.com/tw/store/goods/401811,1,1,2
+21,女裝 孕婦包腹牛仔緊身褲,990,http://www.uniqlo.com/tw/store/goods/410443,1,1,2
+21,女裝 孕婦包腹 牛仔緊身褲,990,http://www.uniqlo.com/tw/store/goods/403245,1,1,2
+22,女裝 圓裙,990,http://www.uniqlo.com/tw/store/goods/408592,1,1,3
+22,女裝 圓裙,990,http://www.uniqlo.com/tw/store/goods/408594,1,1,3
+22,女裝 圓裙,990,http://www.uniqlo.com/tw/store/goods/404697,1,1,3
+22,女裝 高腰DRY 彈性打褶裙,990,http://www.uniqlo.com/tw/store/goods/404690,1,1,3
+22,女裝 高腰牛仔附腰帶窄版裙,990,http://www.uniqlo.com/tw/store/goods/408879,1,1,3
+22,女裝 高腰窄版裙(附腰帶),990,http://www.uniqlo.com/tw/store/goods/404698,1,1,3
+22,女裝 高腰燈芯絨迷你裙,290,http://www.uniqlo.com/tw/store/goods/401785,1,1,3
+22,女裝 高腰雪紡細褶裙,990,http://www.uniqlo.com/tw/store/goods/406109,1,1,3
+22,女裝 高腰印花 雪紡細褶裙,990,http://www.uniqlo.com/tw/store/goods/408579,1,1,3
+22,女裝 蕾絲裙,990,http://www.uniqlo.com/tw/store/goods/405293,1,1,3
+22,女裝蕾絲寬襬裙,990,http://www.uniqlo.com/tw/store/goods/409574,1,1,3
+22,女裝 彈性裙,790,http://www.uniqlo.com/tw/store/goods/406505,1,1,3
+22,女裝 彈性裙,790,http://www.uniqlo.com/tw/store/goods/400571,1,1,3
+22,女裝 彈性裙,790,http://www.uniqlo.com/tw/store/goods/184842,1,1,3
+22,女裝 蕾絲裙,990,http://www.uniqlo.com/tw/store/goods/405293,1,1,3
+22,女裝蕾絲寬襬裙,990,http://www.uniqlo.com/tw/store/goods/409574,1,1,3
+22,女裝 雙面紗裙,990,http://www.uniqlo.com/tw/store/goods/406834,1,1,3
+22,女裝 2WAY 長裙,790,http://www.uniqlo.com/tw/store/goods/406318,1,1,3
+22,女裝 IDLF 牛仔寬襬中長裙,990,http://www.uniqlo.com/tw/store/goods/405958,1,1,3
+22,女裝 IDLF 棉麻抓皺裙,990,http://www.uniqlo.com/tw/store/goods/405979,1,1,3
+22,女裝 IDLE 棉麻設計裙,990,http://www.uniqlo.com/tw/store/goods/408385,1,1,3
+22,女裝 IDLF 嫘縈設計裙,1490,http://www.uniqlo.com/tw/store/goods/40597400001,1,1,3
+22,女裝 U 附腰帶一片裙,1490,http://www.uniqlo.com/tw/store/goods/406658,1,1,3
+22,女裝 U 棉質拉鍊裙,1490,http://www.uniqlo.com/tw/store/goods/407918,1,1,3
+22,女裝 2WAY 長裙,790,http://www.uniqlo.com/tw/store/goods/406318,1,1,3
+22,女裝 雙面紗裙,990,http://www.uniqlo.com/tw/store/goods/406834,1,1,3
+22,女裝 IDLF 嫘縈寬襬裙,390,http://www.uniqlo.com/tw/store/goods/403003,1,1,3
+22,女裝 IDLF 流蘇裙,590,http://www.uniqlo.com/tw/store/goods/403660,1,1,3
+22,女裝 高腰緞帶荷葉邊裙,390,http://www.uniqlo.com/tw/store/goods/403936,1,1,3
+23,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,4
+23,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,4
+23,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,4
+23,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,4
+23,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,4
+23,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,4
+23,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,4
+23,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,4
+23,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,4
+23,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,4
+23,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,4
+23,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,4
+23,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,4
+23,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,4
+23,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,4
+23,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,4
+23,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,4
+23,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,4
+23,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,4
+23,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,4
+23,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,4
+23,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,4
+23,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,4
+23,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,4
+23,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,4
+23,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,4
+23,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,4
+23,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,4
+23,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,4
+23,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,4
+23,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,4
+23,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,4
+23,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,4
+23,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,4
+23,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,4
+23,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,4
+23,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,4
+23,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,4
+23,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,4
+23,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,4
+23,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,4
+24,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,5
+24,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,5
+24,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,5
+24,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,5
+24,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,5
+24,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,5
+24,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,5
+24,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,5
+24,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,5
+24,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,5
+24,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,5
+24,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,5
+24,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,5
+24,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,5
+24,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,5
+24,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,5
+24,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,5
+24,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,5
+24,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,5
+24,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,5
+24,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,5
+24,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,5
+24,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,5
+24,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,5
+24,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,5
+24,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,5
+24,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,5
+24,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,5
+24,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,5
+24,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,5
+24,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,5
+24,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,5
+24,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,5
+24,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,5
+24,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,5
+24,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,5
+24,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,5
+24,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,5
+24,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,5
+24,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,5
+24,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,5
+25,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,6
+25,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,6
+25,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,6
+25,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,6
+25,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,6
+25,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,6
+25,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,6
+25,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,6
+25,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,6
+25,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,6
+25,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,6
+25,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,6
+25,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,6
+25,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,6
+25,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,6
+25,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,6
+25,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,6
+25,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,6
+25,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,6
+25,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,6
+25,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,6
+25,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,6
+25,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,6
+25,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,6
+25,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,6
+25,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,6
+25,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,6
+25,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,6
+25,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,6
+25,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,6
+25,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,6
+25,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,6
+25,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,6
+25,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,6
+25,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,6
+25,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,6
+25,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,6
+25,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,6
+25,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,6
+25,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,6
+25,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,6
+26,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,7
+26,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,7
+26,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,7
+26,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,7
+26,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,7
+26,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,7
+26,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,7
+26,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,7
+26,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,7
+26,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,7
+26,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,7
+26,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,7
+26,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,7
+26,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,7
+26,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,7
+26,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,7
+26,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,7
+26,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,7
+26,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,7
+26,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,7
+26,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,7
+26,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,7
+26,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,7
+26,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,7
+26,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,7
+26,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,7
+26,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,7
+26,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,7
+26,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,7
+26,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,7
+26,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,7
+26,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,7
+26,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,7
+26,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,7
+26,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,7
+26,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,7
+26,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,7
+26,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,7
+26,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,7
+26,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,7
+26,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,7
+27,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,8
+27,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,8
+27,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,8
+27,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,8
+27,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,8
+27,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,8
+27,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,8
+27,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,8
+27,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,8
+27,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,8
+27,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,8
+27,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,8
+27,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,8
+27,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,8
+27,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,8
+27,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,8
+27,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,8
+27,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,8
+27,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,8
+27,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,8
+27,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,8
+27,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,8
+27,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,8
+27,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,8
+27,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,8
+27,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,8
+27,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,8
+27,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,8
+27,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,8
+27,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,8
+27,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,8
+27,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,8
+27,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,8
+27,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,8
+27,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,8
+27,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,8
+27,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,8
+27,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,8
+27,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,8
+27,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,8
+27,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,8
+28,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/404662,1,1,9
+28,女裝 彈性長褲,990,http://www.uniqlo.com/tw/store/goods/184827,1,1,9
+28,女裝 彈性褲,990,http://www.uniqlo.com/tw/store/goods/179087,1,1,9
+28,女裝 Smart Style九分褲(棉質風),790,http://www.uniqlo.com/tw/store/goods/408202,1,1,9
+28,女裝Smart Style九分褲(細條紋),790,http://www.uniqlo.com/tw/store/goods/408203,1,1,9
+28,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/404660,1,1,9
+28,女裝 SMART STYLE 九分褲,790,http://www.uniqlo.com/tw/store/goods/400552,1,1,9
+28,女裝 Smart Style九分褲,790,http://www.uniqlo.com/tw/store/goods/173707,1,1,9
+28,女裝 Smart Style九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408134,1,1,9
+28,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408133,1,1,9
+28,女裝 SMART STYLE 九分褲(條紋),790,http://www.uniqlo.com/tw/store/goods/408356,1,1,9
+28,女裝 Smart Style九分褲(格紋),790,http://www.uniqlo.com/tw/store/goods/408135,1,1,9
+28,女裝 SMART STYLE 九分褲,590,http://www.uniqlo.com/tw/store/goods/40055200001,1,1,9
+28,女裝 Smart Style九分褲,390,http://www.uniqlo.com/tw/store/goods/17370700002,1,1,9
+28,女裝 DRY彈性七分褲,990,http://www.uniqlo.com/tw/store/goods/404661,1,1,9
+28,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,9
+28,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,9
+28,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,9
+28,女裝 DRY 休閒長褲,990,http://www.uniqlo.com/tw/store/goods/404749,1,1,9
+28,女裝 休閒長褲,790,http://www.uniqlo.com/tw/store/goods/403647,1,1,9
+28,女裝 附腰帶短褲,990,http://www.uniqlo.com/tw/store/goods/404704,1,1,9
+28,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/404700,1,1,9
+28,女裝棉麻輕便短褲,790,http://www.uniqlo.com/tw/store/goods/408788,1,1,9
+28,女裝 蕾絲短褲,990,http://www.uniqlo.com/tw/store/goods/404701,1,1,9
+28,女裝 高腰牛仔短褲,790,http://www.uniqlo.com/tw/store/goods/404702,1,1,9
+28,女裝 垂墜風短褲,790,http://www.uniqlo.com/tw/store/goods/404705,1,1,9
+28,女裝 U 牛仔輕便短褲,990,http://www.uniqlo.com/tw/store/goods/407360,1,1,9
+28,女裝 Dry-EX ULTRASTRETCH 短褲,590,http://www.uniqlo.com/tw/store/goods/404084,1,1,9
+28,女裝 Dry-EX ULTRASTRETCH 五分褲,590,http://www.uniqlo.com/tw/store/goods/405175,1,1,9
+28,女裝 羅馬布合身褲,790,http://www.uniqlo.com/tw/store/goods/406319,1,1,9
+28,女裝 AIRism 寬版七分褲,790,http://www.uniqlo.com/tw/store/goods/404081,1,1,9
+28,女裝 AIRism 寬版褲,790,http://www.uniqlo.com/tw/store/goods/404098,1,1,9
+28,女裝棉麻輕便長褲,990,http://www.uniqlo.com/tw/store/goods/408031,1,1,9
+28,女裝棉麻輕便長褲(條紋),990,http://www.uniqlo.com/tw/store/goods/408800,1,1,9
+28,女裝 機能工作褲,1290,http://www.uniqlo.com/tw/store/goods/405609,1,1,9
+28,女裝 垂墜風七分寬褲,990,http://www.uniqlo.com/tw/store/goods/406037,1,1,9
+28,女裝 附腰帶 寬版七分褲,590,http://www.uniqlo.com/tw/store/goods/404262,1,1,9
+28,女裝 DRY-EX Ultra Stretch 九分褲,790,http://www.uniqlo.com/tw/store/goods/405174,1,1,9
+28,女裝 IDLF 亞麻斜紋長褲,1490,http://www.uniqlo.com/tw/store/goods/407138,1,1,9
+28,女裝U緞面打褶長褲,1490,http://www.uniqlo.com/tw/store/goods/406661,1,1,9
+28,女裝 保暖直筒長褲,390,http://www.uniqlo.com/tw/store/goods/403142,1,1,9

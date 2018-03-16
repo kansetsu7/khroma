@@ -1,0 +1,5 @@
+gender_id,category name
+0,上衣類
+0,下身類
+1,上衣類
+1,下身類
