@@ -112,29 +112,20 @@ def get_uniqlo_styles
   end
 
   styles_arr.each_with_index do |gender, i|
-    # next unless i == 0  # 先抓men (i==0)
     gender.each_with_index do |category, j|
-      # next unless j == 0
       puts "get styles for gender#{i}'s category#{j}..."
       category.each_with_index do |type, k|
-        # next unless k == 0
         puts "goto #{types_link_arr[i][j][k]}"
         styles_of_category_arr = get_uniqlo_styles_of_type(types_link_arr[i][j][k])
         styles_of_category_arr.each_with_index do |style, l|
           style[1].slice!('NT$')  # remove NT$ from price(NT$490 -> 490)
           style[1].sub! ',', ''   # remove comma(1,490 -> 1490)
           styles_arr[i][j][k].push(style)
-          # styles_arr[i][j][k][l][2] = "http://www.lativ.com.tw" + styles_arr[i][j][k][l][2]
         end
-        # sleep(1) 
       end      
     end      
   end
 
-  # puts "product name: #{styles_arr[i][j][k][l][0]}"
-  # puts "price:        #{styles_arr[i][j][k][l][1]}"
-  # puts "link:         #{styles_arr[i][j][k][l][2]}"
-  # puts "img_link:     #{styles_arr[i][j][k][l][3]}"
   write_styles(styles_arr)
   
 end
@@ -143,14 +134,9 @@ def get_uniqlo_styles_of_type(type_link)
   styles_arr = []
   page = get_page(type_link)
   styles = page.search("div.set-alias").search("div.domCreate").search("div.lineupAlias").search("div.blkItemList").search("div.unit")
-  # File.open("./uniqlo.txt", 'w') { |file| file.write(styles) }
-  
   styles.each_with_index do |style, i|
-    # name, price, link, color1, color2, ..., color_n
+    # name, price, link
     style_info = [style.search("dt.name").first.text.strip, style.search("dd.price").first.text.strip,style.search("dd.thumb>a").first['href']]
-    style.search("li>a").each_with_index do |color, i|
-      style_info.push(color['data-color-code'])
-    end
     styles_arr.push(style_info)
   end
   styles_arr
@@ -306,17 +292,13 @@ def write_styles(styles_arr)
   puts "==== writing styles.txt ====" 
   style_id = 0
   writer = CSV.open("./styles.txt", "wt")
-  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id", "many_colors"]
+  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"]
   styles_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
       puts "write styles for gender#{i}'s category#{j}..."
       category.each_with_index do |type, k|
         type.each_with_index do |styles, l|
-          row = [style_id, styles[0], styles[1], styles[2], i, j, k]
-          for m in 3...styles.count
-            row.push(styles[m])
-          end
-          writer << row
+          writer << [style_id, styles[0], styles[1], styles[2], i, j, k]
         end
         style_id += 1
       end      
