@@ -29,7 +29,7 @@ class KhromaController < ApplicationController
        # 使用者給的參數不足，無法配色...
        # 給提示訊息告訴使用者至少要給一個category的type+hue_level & 另一個category的type才能進行配對
        # ---- END TODO -------------------------------
-    
+  
     else  # 參數足夠，可以進行配對
 
       # puts 是方便觀察用的，可以刪掉

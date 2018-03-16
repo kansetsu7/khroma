@@ -1,9 +1,10 @@
 <div class="container">
   <div id="order-selection" class="clearfix">
     <div class="btn-group" role="group">
-      <button class="btn btn-sm btn-primary" type="button">價錢由低到高</button> 
-      <button class="btn btn-sm btn-outline-secondary" type="button">價錢由高到低</button>
-      <button class="btn btn-sm btn-outline-secondary" type="button">依照品牌</button>
+      
+      <%= link_to "價錢由低到高" , price_order_asc_type_path(@type), class: "btn btn-sm btn-primary" %>
+      <%= link_to "價錢由高到低" , price_order_desc_type_path(@type), class: "btn btn-sm btn-outline-secondary" %>
+      <%= link_to "依照品牌" , brand_order_type_path(@type), class: "btn btn-sm btn-outline-secondary" %>
     </div>
   </div>
   <div class="styles-panel">
