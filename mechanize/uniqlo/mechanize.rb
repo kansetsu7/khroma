@@ -7,8 +7,8 @@ $genders_arr = ["men", "women"]
 $n_genders = $genders_arr.size
 
 def get_uniqlo_data(category_from_file)
-  # get_uniqlo_types(category_from_file)
-  get_uniqlo_styles
+  get_uniqlo_types(category_from_file)
+  # get_uniqlo_styles
 
 end
 
@@ -203,44 +203,37 @@ def get_uniqlo_types(category_from_file)
     categories.each_with_index do |category_HTML, j|
       types = category_HTML.search('li')
       category_name = ""  #先初始化
+      bottom_type_count = 0      # 下身類專用
       types.each_with_index do |type, k|
         type_link = type.search('a')[0].nil? ? nil : type.search('a')[0]['href']
-        # puts "#{i}, #{j}, #{k}, #{type.text}, #{type_link}" 
-        bottom_type_count = 0      # 下身類專用
-        if k == 0
-          category_name = type.text  # 第一行是category名稱, 後面才是該category所屬types
-        else
-          categories_arr[i].each_with_index do |needed_category, l|
-            if needed_category == category_name
-              # puts "need #{needed_category}, got #{category_name}"
-              if needed_category == '下身類'  # '下身類' 要特別處理 '所有褲裝' 的問題
-                if type.text == '所有褲裝'  # 不管個別褲子type，要再前往'所有褲裝'專屬頁面把褲子的types都爬回來
-                  pants_types_arr = get_uniqlo_pants_types(type.search('a')[0]['href'])  # 褲子的types
-                  pants_types_arr.each do |pants_type|
-                    types_arr[i][l].push([pants_type, type.search('a')[0]['href']])
-                  end
-                elsif !type.text.include?('褲') || bottom_type_count == 0
-                  # 不是褲子，要存下來; 下身類第一個(牛仔褲)不會出現在'所有褲裝'裡面，要存下來。
-                  types_arr[i][l].push([type.text, type.search('a')[0]['href']])
+        category_name = type.text if k == 0  # 第一行是category名稱, 後面才是該category所屬types
+        next if k == 0
+        categories_arr[i].each_with_index do |needed_category, l|
+          if needed_category == category_name
+            if needed_category == '下身類'  # '下身類' 要特別處理 '所有褲裝' 的問題
+              if type.text == '所有褲裝'  # 不管個別褲子type，要再前往'所有褲裝'專屬頁面把褲子的types都爬回來
+                pants_types_arr = get_uniqlo_pants_types(type.search('a')[0]['href'])  # 褲子的types
+                pants_types_arr.each do |pants_type|
+                  types_arr[i][l].push([pants_type, type.search('a')[0]['href']])
                 end
-                bottom_type_count += 1
-              else
-                # 不是'下身類'
-                types_arr[i][l].push([type.text, type.search('a')[0]['href']])  
-              end              
-              # puts "--- #{types_arr[i][l]}"
-            end
+              elsif !type.text.include?('褲') || (i == 0 && bottom_type_count == 0) || (i == 1 && bottom_type_count < 3)
+                # 不是褲子(是裙子)，要存下來
+                # 男裝下身類第一個(牛仔褲)不會出現在'所有褲裝'裡面，要存下來。
+                # 女裝下身類前三個不會出現在'所有褲裝'裡面，要存下來。
+                types_arr[i][l].push([type.text, type.search('a')[0]['href']])
+              end
+              bottom_type_count += 1
+            else
+              # 不是'下身類'
+              types_arr[i][l].push([type.text, type.search('a')[0]['href']])  
+            end              
           end
-          
         end
-
       end
     end
   end 
 
-  # puts_types(types_arr, categories_arr)
-  write_types(types_arr, categories_arr)  # 先輸出褲子只是'所有褲裝'的types, 後面再處理
-
+  write_types(types_arr, categories_arr)
 end
 
 def get_uniqlo_pants_types(link)
@@ -253,10 +246,6 @@ def get_uniqlo_pants_types(link)
   types.each_with_index do |type, i|
     # '更多推薦商品', '合作聯名', '更多商品推薦' 這幾個先不要
     pants_types_arr.push(type.text.strip) unless ['更多推薦商品', '合作聯名', '更多商品推薦'].include?(type.text.strip)
-  end
-
-  pants_types_arr.each_with_index do |type, i|
-    puts "#{i}, #{type}"    
   end
   pants_types_arr
 end
@@ -499,8 +488,4 @@ def puts_genders()
 end
 
 # ok!
-# get_uniqlo_data(true)
-# get_uniqlo_types(true)
-get_uniqlo_styles
-# read_styles
-# get_uniqlo_products
+get_uniqlo_data(true)
