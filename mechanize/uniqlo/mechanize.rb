@@ -8,8 +8,8 @@ $n_genders = $genders_arr.size
 
 def get_uniqlo_data(category_from_file)
   # get_uniqlo_types(true)
-  get_uniqlo_styles
-  # get_uniqlo_products
+  # get_uniqlo_styles
+  get_uniqlo_products
 end
 
 def get_uniqlo_products
@@ -40,7 +40,6 @@ def get_uniqlo_products
     # next unless i == 0  # men
     gender.each_with_index do |category, j|
       # next unless j == 0
-      puts "======== gender#{i}, category#{j} ========"
       category.each_with_index do |type, k|
         # next unless k == 0
         type.each_with_index do |style, l|
@@ -78,7 +77,7 @@ def get_uniqlo_products_of_style(style_info)
   # style_info[1]: link
   puts ("goto #{style_info[1]}")
   products_arr = []
-  page = get_page(style_info[1])
+  page = get_page(style_info[1], "div#prodImgDefault>img")
   # puts page.nil?
   main_img = page.search("div#prodImgDefault>img").first['src']
   main_img_name = main_img.split('/').last
@@ -143,7 +142,7 @@ end
 
 def get_uniqlo_styles_of_type(type_link)
   styles_arr = []
-  page = get_page(type_link)
+  page = get_page(type_link, "div.domCreate")
   styles = page.search("div.set-alias").search("div.domCreate").search("div.lineupAlias").search("div.blkItemList").search("div.unit")
   styles.each_with_index do |style, i|
     # name, price, link
@@ -153,7 +152,7 @@ def get_uniqlo_styles_of_type(type_link)
   styles_arr
 end
 
-def get_page(style_link)
+def get_page(style_link, search_css)
   
   timeout = 0
   no_content = 0
@@ -170,7 +169,7 @@ def get_page(style_link)
     end
   end
   loop do
-    break unless Nokogiri::HTML.fragment(browser.html).search("div.domCreate").size == 0
+    break unless Nokogiri::HTML.fragment(browser.html).search(search_css).size == 0
     if no_content < 4
       sleep(2)
       no_content += 1
@@ -353,7 +352,7 @@ def read_styles
   # v[6]: type_of_category_id,
   # v[7...v.size]: colors
 
-  in_arr = CSV.read("./styles.txt")
+  in_arr = CSV.read("./styles0.txt")
   in_arr.each_with_index do |v, i|  
     next if i == 0  # skip first line
     # arr = v[7...v.size].unshift(v[3])
