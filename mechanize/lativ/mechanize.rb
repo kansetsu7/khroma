@@ -8,9 +8,9 @@ $n_genders = $genders_arr.size
 
 def get_lativ_data(category_from_file)
   # get_lativ_categories
-  get_lativ_types(true)
+  # get_lativ_types(true)
   # get_lativ_styles
-  # get_lativ_products
+  get_lativ_products
 end
 
 def get_lativ_products
@@ -35,9 +35,9 @@ def get_lativ_products
   # puts styles_link_arr[0][0][0][0]        # is string, a link of style
   # ----------------------------------------------------------------
 
-  product_id = 0
+  product_id = 48
   writer = CSV.open("./products0.txt", "a+")
-  writer << ["type_id", "name", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  # writer << ["type_id", "name", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
@@ -47,8 +47,12 @@ def get_lativ_products
           puts "gender#{i}, category#{j}, type#{k}, style#{l}"
           # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_lativ_products_of_style(styles_link_arr[i][j][k][l])
-          products_arr[i][j][k][l].each_with_index do |products, m|
-            writer << [product_id, products[0], products[1], i, j, k, l]
+          if products_arr[i][j][k][l].kind_of?(Array)  # if redirected to index
+            products_arr[i][j][k][l].each_with_index do |products, m|
+              writer << [product_id, products[0], products[1], i, j, k, l]
+            end
+          else
+            writer << [product_id, -1]
           end
           product_id += 1
         end
@@ -61,7 +65,7 @@ end
 
 def skip(i, j, k, l)
   # start at gender1, category0, type0, style85
-  start_point = [1,2,1,13]
+  start_point = [0,0,0,48]
   return true if i < start_point[0]
   return true if i == start_point[0] && j < start_point[1]
   return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
@@ -73,7 +77,8 @@ end
 def get_lativ_products_of_style(style_link)
   # puts "==== get_lativ_products_of_style ===="
   products_arr = []
-  page = get_page(style_link)
+  page = get_page(style_link, 'div.color')
+  return nil if page.nil?  # if redirected to index
   colors_page = page.search('div.color').search('a')
   colors_page.each_with_index do |color, i|
     products_arr.push(get_product_attributes('https://www.lativ.com.tw' + color['href']))
@@ -83,16 +88,17 @@ end
 
 def get_product_attributes(style_link)
   attributes_arr = []  # name, img_link
-  page = get_page(style_link)
+  page = get_page(style_link, 'span.title1')
   product_name = page.search('span.title1').first
   attributes_arr.push(product_name.text.gsub! product_name.search('span#isize').first.text, '') # full name of product, but not include size 
   attributes_arr.push(page.search('img#productImg').first['src'])
   attributes_arr  # return: [name, img_link]
 end
 
-def get_page(style_link)
+def get_page(style_link, search_css)
   puts "goto #{style_link}"
   timeout = 0
+  no_content = 0
   begin
     browser = Watir::Browser.new :safari  # open safari
     browser.goto(style_link)
@@ -105,7 +111,17 @@ def get_page(style_link)
       retry
     end
   end
-  # sleep(2)  
+  loop do
+    return nil if browser.url == 'https://www.lativ.com.tw/'  # if redirected to index
+    break unless Nokogiri::HTML.fragment(browser.html).search(search_css).size == 0
+    if no_content < 4
+      sleep(2)
+      no_content += 1
+    else
+      browser.refresh
+      no_content = 0
+    end
+  end
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
   # system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
@@ -304,11 +320,12 @@ def read_styles_link
   end
 
   n_skips = 1
-  in_arr = CSV.read("./styles.txt")
+  in_arr = CSV.read("./styles0.txt")
   in_arr.each_with_index do |v, i|    
     styles_arr[v[4].to_i][v[5].to_i][v[6].to_i].push(v[3]) if i >= n_skips
     # puts "#{v[4]}, #{v[5]}, #{v[6]}, #{v[3]}" if i<5
   end
+  puts "read #{in_arr.count - 1} styles"
   styles_arr
 end
 
@@ -455,8 +472,7 @@ end
 
 # get_lativ_pants_types("http://www.lativ.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016")
 
-remove_duplicate_style
 # ok!
-# get_lativ_data(true)
+get_lativ_data(true)
 
 
