@@ -36,6 +36,7 @@ gem 'omniauth-google-oauth2'
 
 gem 'devise'
 gem 'omniauth-facebook'
+gem 'carrierwave'
 
 # Automate using jQuery with Rails https://github.com/rails/jquery-rails
 gem 'jquery-rails'

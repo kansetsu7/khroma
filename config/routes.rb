@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   
   root "khroma#index"
 
+  resources :users, only: [:edit, :update]
+
   #genders interface routes
   resources :genders, only: [:index]  do
     resources :categories, only: [:index]
