@@ -30,3 +30,17 @@
 #order-selection .btn-outline-secondary a:hover {
   color: #FFF;
 }
+
+/* RWD */
+
+@media (max-width: 900px) {
+  .styles-panel {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .styles-panel {
+    grid-template-columns: 1fr ;
+  }
+}

@@ -24,12 +24,23 @@
                 <% if current_user.admin? %> 
                   <li><%= link_to '管理者後台', admin_root_path %></li>
                 <% end %>
-                <li>會員中心</li>
-                <li><%= link_to '登出', destroy_user_session_path, method: :delete %></li>               
+                <li id="user-center-lbl">會員中心
+                  <div id="menu-user-panel" class="shadow-box">
+                    <ul>
+                      <li>修改資料</li>
+                      <li><%= link_to '修改密碼', edit_user_password_path %></li>
+                      <hr />
+                      <li><%= link_to '登出', destroy_user_session_path, method: :delete %></li>
+                    </ul>
+                  </div>
+                </li>
+                <li></li>               
               <% else %>
                 <li><%= link_to '會員登入', user_session_path, method: :post %></li>
+                <li>註冊</li>
               <% end %>
             </ul>
+
           </div> 
         </div>
       </nav>
@@ -37,6 +48,7 @@
         <div class="container">
         </div>
       </div>
+
     </header>
     <div id="top" class="alert-row">
       <% if flash[:notice] %>
