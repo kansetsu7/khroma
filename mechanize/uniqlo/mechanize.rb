@@ -7,9 +7,9 @@ $genders_arr = ["men", "women"]
 $n_genders = $genders_arr.size
 
 def get_uniqlo_data(category_from_file)
-  # get_uniqlo_types(category_from_file)
-  # get_uniqlo_styles
-  get_uniqlo_products
+  # get_uniqlo_types(true)
+  get_uniqlo_styles
+  # get_uniqlo_products
 end
 
 def get_uniqlo_products
@@ -44,7 +44,7 @@ def get_uniqlo_products
       category.each_with_index do |type, k|
         # next unless k == 0
         type.each_with_index do |style, l|
-          next if skip(i, j, k, l)
+          next if skip_product(i, j, k, l)
           puts "gender#{i}, category#{j}, type#{k}, style#{l}"
           # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_uniqlo_products_of_style(styles_arr[i][j][k][l])
@@ -60,9 +60,9 @@ def get_uniqlo_products
   write_products(products_arr, 0)
 end
 
-def skip(i, j, k, l)
+def skip_product(i, j, k, l)
   # start at gender1, category0, type0, style85
-  start_point = [1,1,0,37]
+  start_point = [0,0,0,0]
   return true if i < start_point[0]
   return true if i == start_point[0] && j < start_point[1]
   return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
@@ -156,6 +156,7 @@ end
 def get_page(style_link)
   
   timeout = 0
+  no_content = 0
   begin
     browser = Watir::Browser.new :safari  # open safari
     browser.goto(style_link)
@@ -168,7 +169,16 @@ def get_page(style_link)
       retry
     end
   end
-  sleep(2)  
+  loop do
+    break unless Nokogiri::HTML.fragment(browser.html).search("div.domCreate").size == 0
+    if no_content < 4
+      sleep(2)
+      no_content += 1
+    else
+      browser.refresh
+      no_content = 0
+    end
+  end
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
   system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
@@ -223,7 +233,7 @@ def get_uniqlo_types(category_from_file)
               bottom_type_count += 1
             else
               # 不是'下身類'
-              types_arr[i][l].push([type.text, type.search('a')[0]['href']]) if type.text != '亞麻系列' && type.text != '休閒/連帽'
+              types_arr[i][l].push([type.text, type.search('a')[0]['href']]) if type.text != '亞麻系列' && type.text != '休閒/連帽' && type.text != 'UT印花T恤'
             end              
           end
         end
@@ -484,7 +494,6 @@ end
 def remove_duplicate_style
   styles_arr = CSV.read("./styles.txt")
   writer = CSV.open("./styles0.txt", "w")
-  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"]
   for i in 1...styles_arr.size - 1
     next if styles_arr[i][0] == -1
     for j in i+1...styles_arr.size
@@ -497,6 +506,8 @@ def remove_duplicate_style
     writer << style unless style[0] == -1
   end
 end
+
+get_uniqlo_data(true)
 
 # ok!
 # get_uniqlo_data(true)
