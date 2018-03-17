@@ -1,1 +1,1162 @@
 style_id,name,link,color,image_link,gender_id,category_of_gender_id,type_of_category_id,style_of_type_id
+301,男裝 輕便九分褲,http://www.uniqlo.com/tw/store/goods/405321,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405321/item/00_405321.jpg,0,1,1,9
+301,男裝 輕便九分褲,http://www.uniqlo.com/tw/store/goods/405321,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405321/item/69_405321.jpg,0,1,1,9
+302,男裝 輕便九分褲(千鳥紋),http://www.uniqlo.com/tw/store/goods/401164,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/401164/item/05_401164.jpg,0,1,1,10
+303,男裝 輕便九分褲(格紋),http://www.uniqlo.com/tw/store/goods/402766,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/402766/item/08_402766.jpg,0,1,1,11
+304,男裝 輕便九分褲(羊毛),http://www.uniqlo.com/tw/store/goods/400480,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400480/item/09_400480.jpg,0,1,1,12
+304,男裝 輕便九分褲(羊毛),http://www.uniqlo.com/tw/store/goods/400480,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400480/item/69_400480.jpg,0,1,1,12
+305,男裝 輕便九分褲 (DRY),http://www.uniqlo.com/tw/store/goods/198355,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/198355/item/06_198355.jpg,0,1,1,13
+306,男裝 輕便九分褲,http://www.uniqlo.com/tw/store/goods/196937,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/196937/item/00_196937.jpg,0,1,1,14
+306,男裝 輕便九分褲,http://www.uniqlo.com/tw/store/goods/196937,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/196937/item/69_196937.jpg,0,1,1,14
+307,男裝 U 直筒九分褲,http://www.uniqlo.com/tw/store/goods/407317,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407317/item/05_407317.jpg,0,1,1,15
+307,男裝 U 直筒九分褲,http://www.uniqlo.com/tw/store/goods/407317,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407317/item/09_407317.jpg,0,1,1,15
+307,男裝 U 直筒九分褲,http://www.uniqlo.com/tw/store/goods/407317,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407317/item/32_407317.jpg,0,1,1,15
+307,男裝 U 直筒九分褲,http://www.uniqlo.com/tw/store/goods/407317,74-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/407317/item/74_407317.jpg,0,1,1,15
+308,男裝 彈性工作九分褲,http://www.uniqlo.com/tw/store/goods/407321,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407321/item/09_407321.jpg,0,1,1,16
+308,男裝 彈性工作九分褲,http://www.uniqlo.com/tw/store/goods/407321,33-KHAKI,http://im.uniqlo.com/images/tw/uq/pc/goods/407321/item/33_407321.jpg,0,1,1,16
+308,男裝 彈性工作九分褲,http://www.uniqlo.com/tw/store/goods/407321,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407321/item/56_407321.jpg,0,1,1,16
+308,男裝 彈性工作九分褲,http://www.uniqlo.com/tw/store/goods/407321,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407321/item/69_407321.jpg,0,1,1,16
+309,男裝 Dry-EX ULTRASTRETCH 九分褲,http://www.uniqlo.com/tw/store/goods/404154,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404154/item/07_404154.jpg,0,1,1,17
+309,男裝 Dry-EX ULTRASTRETCH 九分褲,http://www.uniqlo.com/tw/store/goods/404154,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404154/item/09_404154.jpg,0,1,1,17
+309,男裝 Dry-EX ULTRASTRETCH 九分褲,http://www.uniqlo.com/tw/store/goods/404154,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404154/item/32_404154.jpg,0,1,1,17
+309,男裝 Dry-EX ULTRASTRETCH 九分褲,http://www.uniqlo.com/tw/store/goods/404154,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404154/item/69_404154.jpg,0,1,1,17
+310,男裝 輕便九分褲 (DRY),http://www.uniqlo.com/tw/store/goods/19835500001,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/19835500001/item/69_19835500001.jpg,0,1,1,18
+311,男裝 束口褲 (機能),http://www.uniqlo.com/tw/store/goods/405641,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405641/item/09_405641.jpg,0,1,1,19
+311,男裝 束口褲 (機能),http://www.uniqlo.com/tw/store/goods/405641,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405641/item/69_405641.jpg,0,1,1,19
+312,男裝 束口褲(機能)(混紡),http://www.uniqlo.com/tw/store/goods/407372,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407372/item/07_407372.jpg,0,1,1,20
+313,男裝 束口褲 (棉質),http://www.uniqlo.com/tw/store/goods/403988,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403988/item/08_403988.jpg,0,1,1,21
+313,男裝 束口褲 (棉質),http://www.uniqlo.com/tw/store/goods/403988,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/403988/item/32_403988.jpg,0,1,1,21
+313,男裝 束口褲 (棉質),http://www.uniqlo.com/tw/store/goods/403988,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/403988/item/56_403988.jpg,0,1,1,21
+313,男裝 束口褲 (棉質),http://www.uniqlo.com/tw/store/goods/403988,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403988/item/63_403988.jpg,0,1,1,21
+313,男裝 束口褲 (棉質),http://www.uniqlo.com/tw/store/goods/403988,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403988/item/69_403988.jpg,0,1,1,21
+314,男裝 束口褲,http://www.uniqlo.com/tw/store/goods/185334,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/185334/item/06_185334.jpg,0,1,1,22
+315,男裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/404166,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404166/item/03_404166.jpg,0,1,1,23
+315,男裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/404166,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404166/item/64_404166.jpg,0,1,1,23
+315,男裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/404166,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404166/item/67_404166.jpg,0,1,1,23
+316,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/400989,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400989/item/03_400989.jpg,0,1,1,24
+316,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/400989,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400989/item/08_400989.jpg,0,1,1,24
+316,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/400989,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400989/item/09_400989.jpg,0,1,1,24
+316,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/400989,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400989/item/69_400989.jpg,0,1,1,24
+317,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/404168,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404168/item/03_404168.jpg,0,1,1,25
+317,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/404168,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404168/item/08_404168.jpg,0,1,1,25
+317,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/404168,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404168/item/09_404168.jpg,0,1,1,25
+317,男裝 DRY 彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/404168,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404168/item/69_404168.jpg,0,1,1,25
+318,男裝 DRY彈性休閒長褲,http://www.uniqlo.com/tw/store/goods/180729,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/180729/item/69_180729.jpg,0,1,1,26
+319,男裝 AIRism 運動機能五分緊身褲,http://www.uniqlo.com/tw/store/goods/406365,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406365/item/09_406365.jpg,0,1,1,27
+320,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/407760,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407760/item/31_407760.jpg,0,1,1,28
+320,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/407760,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/407760/item/58_407760.jpg,0,1,1,28
+320,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/407760,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407760/item/66_407760.jpg,0,1,1,28
+320,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/407760,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407760/item/67_407760.jpg,0,1,1,28
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/00_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/06_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/09_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,22-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/22_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/31_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,38-DARK BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/38_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/57_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/66_182679.jpg,0,1,1,29
+321,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/182679,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/182679/item/69_182679.jpg,0,1,1,29
+322,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/199003,18-WINE,http://im.uniqlo.com/images/tw/uq/pc/goods/199003/item/18_199003.jpg,0,1,1,30
+322,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/199003,35-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/199003/item/35_199003.jpg,0,1,1,30
+322,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/199003,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/199003/item/65_199003.jpg,0,1,1,30
+323,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/199005,59-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/199005/item/59_199005.jpg,0,1,1,31
+324,男裝 五分卡其褲 (圖紋),http://www.uniqlo.com/tw/store/goods/193163,38-DARK BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/193163/item/38_193163.jpg,0,1,1,32
+324,男裝 五分卡其褲 (圖紋),http://www.uniqlo.com/tw/store/goods/193163,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/193163/item/68_193163.jpg,0,1,1,32
+325,男裝 五分卡其褲 (圖紋),http://www.uniqlo.com/tw/store/goods/195664,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/195664/item/65_195664.jpg,0,1,1,33
+326,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/408314,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408314/item/08_408314.jpg,0,1,1,34
+326,男裝 五分卡其褲(圖紋),http://www.uniqlo.com/tw/store/goods/408314,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408314/item/67_408314.jpg,0,1,1,34
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/06_406557.jpg,0,1,1,35
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/12_406557.jpg,0,1,1,35
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/31_406557.jpg,0,1,1,35
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/56_406557.jpg,0,1,1,35
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/61_406557.jpg,0,1,1,35
+327,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/406557,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406557/item/69_406557.jpg,0,1,1,35
+328,男裝 工作短褲,http://www.uniqlo.com/tw/store/goods/194153,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/194153/item/67_194153.jpg,0,1,1,36
+329,男裝 KANDO短褲,http://www.uniqlo.com/tw/store/goods/406730,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406730/item/00_406730.jpg,0,1,1,37
+330,男裝 U 輕便打褶短褲,http://www.uniqlo.com/tw/store/goods/407587,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407587/item/09_407587.jpg,0,1,1,38
+330,男裝 U 輕便打褶短褲,http://www.uniqlo.com/tw/store/goods/407587,35-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/407587/item/35_407587.jpg,0,1,1,38
+330,男裝 U 輕便打褶短褲,http://www.uniqlo.com/tw/store/goods/407587,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407587/item/56_407587.jpg,0,1,1,38
+330,男裝 U 輕便打褶短褲,http://www.uniqlo.com/tw/store/goods/407587,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407587/item/68_407587.jpg,0,1,1,38
+331,男裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404155,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404155/item/02_404155.jpg,0,1,1,39
+331,男裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404155,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404155/item/03_404155.jpg,0,1,1,39
+331,男裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404155,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404155/item/09_404155.jpg,0,1,1,39
+331,男裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404155,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404155/item/69_404155.jpg,0,1,1,39
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/00_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/07_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/09_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/12_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,16-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/16_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/32_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,44-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/44_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/56_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/65_407600.jpg,0,1,1,40
+332,男裝 五分卡其褲,http://www.uniqlo.com/tw/store/goods/407600,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407600/item/69_407600.jpg,0,1,1,40
+333,男裝 SPRZ NY 運動機能緊身褲,http://www.uniqlo.com/tw/store/goods/406540,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406540/item/08_406540.jpg,0,1,1,41
+333,男裝 SPRZ NY 運動機能緊身褲,http://www.uniqlo.com/tw/store/goods/406540,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406540/item/69_406540.jpg,0,1,1,41
+334,男裝 U 寬版打摺長褲,http://www.uniqlo.com/tw/store/goods/407314,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407314/item/09_407314.jpg,0,1,1,42
+334,男裝 U 寬版打摺長褲,http://www.uniqlo.com/tw/store/goods/407314,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407314/item/32_407314.jpg,0,1,1,42
+334,男裝 U 寬版打摺長褲,http://www.uniqlo.com/tw/store/goods/407314,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407314/item/68_407314.jpg,0,1,1,42
+335,男裝 U 寬版窄管長褲,http://www.uniqlo.com/tw/store/goods/407315,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407315/item/05_407315.jpg,0,1,1,43
+335,男裝 U 寬版窄管長褲,http://www.uniqlo.com/tw/store/goods/407315,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407315/item/09_407315.jpg,0,1,1,43
+335,男裝 U 寬版窄管長褲,http://www.uniqlo.com/tw/store/goods/407315,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407315/item/56_407315.jpg,0,1,1,43
+335,男裝 U 寬版窄管長褲,http://www.uniqlo.com/tw/store/goods/407315,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407315/item/68_407315.jpg,0,1,1,43
+336,男裝 U 寬版工作長褲,http://www.uniqlo.com/tw/store/goods/407316,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407316/item/09_407316.jpg,0,1,1,44
+336,男裝 U 寬版工作長褲,http://www.uniqlo.com/tw/store/goods/407316,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407316/item/56_407316.jpg,0,1,1,44
+336,男裝 U 寬版工作長褲,http://www.uniqlo.com/tw/store/goods/407316,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407316/item/68_407316.jpg,0,1,1,44
+337,男裝 U 寬版打摺長褲,http://www.uniqlo.com/tw/store/goods/408617,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408617/item/68_408617.jpg,0,1,1,45
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/00_404544.jpg,1,0,0,0
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/10_404544.jpg,1,0,0,0
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/46_404544.jpg,1,0,0,0
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/55_404544.jpg,1,0,0,0
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/57_404544.jpg,1,0,0,0
+338,女裝 嫘縈開領上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/404544,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404544/item/69_404544.jpg,1,0,0,0
+339,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404545,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404545/item/00_404545.jpg,1,0,0,1
+339,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404545,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404545/item/24_404545.jpg,1,0,0,1
+339,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404545,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404545/item/46_404545.jpg,1,0,0,1
+339,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404545,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404545/item/69_404545.jpg,1,0,0,1
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/00_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/10_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/24_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/41_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,50-LIGHT GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/50_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/60_404543.jpg,1,0,0,2
+340,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404543,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404543/item/69_404543.jpg,1,0,0,2
+341,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/400520,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/400520/item/00_400520.jpg,1,0,0,3
+341,女裝 嫘縈上衣 (長袖),http://www.uniqlo.com/tw/store/goods/400520,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400520/item/69_400520.jpg,1,0,0,3
+342,女裝 IDLF 嫘縈開領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405338,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405338/item/61_405338.jpg,1,0,0,4
+342,女裝 IDLF 嫘縈開領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405338,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405338/item/69_405338.jpg,1,0,0,4
+343,女裝 IDLF 嫘縈交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405591,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405591/item/01_405591.jpg,1,0,0,5
+343,女裝 IDLF 嫘縈交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405591,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405591/item/09_405591.jpg,1,0,0,5
+343,女裝 IDLF 嫘縈交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405591,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405591/item/15_405591.jpg,1,0,0,5
+343,女裝 IDLF 嫘縈交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405591,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405591/item/69_405591.jpg,1,0,0,5
+344,女裝 HPJ 嫘縈打褶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405104,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405104/item/09_405104.jpg,1,0,0,6
+344,女裝 HPJ 嫘縈打褶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405104,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405104/item/21_405104.jpg,1,0,0,6
+344,女裝 HPJ 嫘縈打褶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405104,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405104/item/32_405104.jpg,1,0,0,6
+344,女裝 HPJ 嫘縈打褶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405104,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405104/item/64_405104.jpg,1,0,0,6
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/00_405320.jpg,1,0,0,7
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,23-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/23_405320.jpg,1,0,0,7
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/46_405320.jpg,1,0,0,7
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/54_405320.jpg,1,0,0,7
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/68_405320.jpg,1,0,0,7
+345,女裝 特級亞麻襯衫 (無袖),http://www.uniqlo.com/tw/store/goods/405320,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/405320/item/71_405320.jpg,1,0,0,7
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/00_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/02_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/11_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/13_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,26-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/26_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,35-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/35_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/41_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/43_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,53-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/53_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/56_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/61_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/67_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/69_404556.jpg,1,0,0,8
+346,女裝 特級亞麻襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404556,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404556/item/71_404556.jpg,1,0,0,8
+347,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406060,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406060/item/03_406060.jpg,1,0,0,9
+347,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406060,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406060/item/43_406060.jpg,1,0,0,9
+347,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406060,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406060/item/51_406060.jpg,1,0,0,9
+347,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406060,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406060/item/69_406060.jpg,1,0,0,9
+348,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407462,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407462/item/12_407462.jpg,1,0,0,10
+348,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407462,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407462/item/64_407462.jpg,1,0,0,10
+349,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407633,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/407633/item/14_407633.jpg,1,0,0,11
+349,女裝 特級亞麻格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407633,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407633/item/66_407633.jpg,1,0,0,11
+350,女裝 IDLF 特級亞麻圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/409942,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/409942/item/00_409942.jpg,1,0,0,12
+350,女裝 IDLF 特級亞麻圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/409942,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/409942/item/69_409942.jpg,1,0,0,12
+351,女裝 IDLF 特級亞麻立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/409943,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/409943/item/00_409943.jpg,1,0,0,13
+351,女裝 IDLF 特級亞麻立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/409943,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/409943/item/65_409943.jpg,1,0,0,13
+351,女裝 IDLF 特級亞麻立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/409943,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/409943/item/69_409943.jpg,1,0,0,13
+352,女裝 HPJ 特級亞麻長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405103,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405103/item/01_405103.jpg,1,0,0,14
+352,女裝 HPJ 特級亞麻長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405103,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405103/item/69_405103.jpg,1,0,0,14
+352,女裝 HPJ 特級亞麻長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405103,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/405103/item/71_405103.jpg,1,0,0,14
+353,女裝 HPJ 特級亞麻寬襬上衣(長袖),http://www.uniqlo.com/tw/store/goods/406639,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406639/item/09_406639.jpg,1,0,0,15
+353,女裝 HPJ 特級亞麻寬襬上衣(長袖),http://www.uniqlo.com/tw/store/goods/406639,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406639/item/21_406639.jpg,1,0,0,15
+353,女裝 HPJ 特級亞麻寬襬上衣(長袖),http://www.uniqlo.com/tw/store/goods/406639,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/406639/item/71_406639.jpg,1,0,0,15
+354,女裝 HPJ 特級亞麻條紋寬襬上衣(長袖),http://www.uniqlo.com/tw/store/goods/406646,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406646/item/01_406646.jpg,1,0,0,16
+354,女裝 HPJ 特級亞麻條紋寬襬上衣(長袖),http://www.uniqlo.com/tw/store/goods/406646,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406646/item/11_406646.jpg,1,0,0,16
+355,女裝 HPJ 特級亞麻條紋長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/406651,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406651/item/01_406651.jpg,1,0,0,17
+355,女裝 HPJ 特級亞麻條紋長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/406651,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406651/item/11_406651.jpg,1,0,0,17
+356,女裝 亞麻混紡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/407210,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407210/item/00_407210.jpg,1,0,0,18
+356,女裝 亞麻混紡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/407210,35-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/407210/item/35_407210.jpg,1,0,0,18
+356,女裝 亞麻混紡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/407210,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407210/item/69_407210.jpg,1,0,0,18
+357,女裝 亞麻混紡上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/407624,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407624/item/00_407624.jpg,1,0,0,19
+357,女裝 亞麻混紡上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/407624,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/407624/item/41_407624.jpg,1,0,0,19
+357,女裝 亞麻混紡上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/407624,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407624/item/66_407624.jpg,1,0,0,19
+358,女裝 亞麻混紡抓皺上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/405265,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405265/item/00_405265.jpg,1,0,0,20
+358,女裝 亞麻混紡抓皺上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/405265,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405265/item/27_405265.jpg,1,0,0,20
+358,女裝 亞麻混紡抓皺上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/405265,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405265/item/43_405265.jpg,1,0,0,20
+358,女裝 亞麻混紡抓皺上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/405265,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/405265/item/56_405265.jpg,1,0,0,20
+358,女裝 亞麻混紡抓皺上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/405265,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405265/item/69_405265.jpg,1,0,0,20
+359,女裝 IDLF 亞麻混紡圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406911,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406911/item/01_406911.jpg,1,0,0,21
+359,女裝 IDLF 亞麻混紡圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406911,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406911/item/13_406911.jpg,1,0,0,21
+359,女裝 IDLF 亞麻混紡圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406911,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406911/item/15_406911.jpg,1,0,0,21
+359,女裝 IDLF 亞麻混紡圓角領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406911,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406911/item/65_406911.jpg,1,0,0,21
+360,女裝 IDLF 亞麻混紡立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405583,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405583/item/64_405583.jpg,1,0,0,22
+360,女裝 IDLF 亞麻混紡立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405583,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405583/item/67_405583.jpg,1,0,0,22
+361,女裝 HPJ 特級亞麻布勞森外套,http://www.uniqlo.com/tw/store/goods/406668,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406668/item/01_406668.jpg,1,0,0,23
+361,女裝 HPJ 特級亞麻布勞森外套,http://www.uniqlo.com/tw/store/goods/406668,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406668/item/21_406668.jpg,1,0,0,23
+361,女裝 HPJ 特級亞麻布勞森外套,http://www.uniqlo.com/tw/store/goods/406668,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406668/item/69_406668.jpg,1,0,0,23
+362,女裝IDLF亞麻外套,http://www.uniqlo.com/tw/store/goods/405401,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405401/item/01_405401.jpg,1,0,0,24
+362,女裝IDLF亞麻外套,http://www.uniqlo.com/tw/store/goods/405401,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/405401/item/30_405401.jpg,1,0,0,24
+362,女裝IDLF亞麻外套,http://www.uniqlo.com/tw/store/goods/405401,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405401/item/69_405401.jpg,1,0,0,24
+363,女裝 棉麻大衣,http://www.uniqlo.com/tw/store/goods/404201,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404201/item/32_404201.jpg,1,0,0,25
+363,女裝 棉麻大衣,http://www.uniqlo.com/tw/store/goods/404201,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404201/item/67_404201.jpg,1,0,0,25
+363,女裝 棉麻大衣,http://www.uniqlo.com/tw/store/goods/404201,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404201/item/68_404201.jpg,1,0,0,25
+364,女裝 IDLF 亞麻斜紋長褲,http://www.uniqlo.com/tw/store/goods/407138,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/407138/item/30_407138.jpg,1,0,0,26
+364,女裝 IDLF 亞麻斜紋長褲,http://www.uniqlo.com/tw/store/goods/407138,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407138/item/69_407138.jpg,1,0,0,26
+365,女裝棉麻輕便長褲(條紋),http://www.uniqlo.com/tw/store/goods/408800,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408800/item/69_408800.jpg,1,0,0,27
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/08_408031.jpg,1,0,0,28
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/27_408031.jpg,1,0,0,28
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/31_408031.jpg,1,0,0,28
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/56_408031.jpg,1,0,0,28
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/67_408031.jpg,1,0,0,28
+366,女裝棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/408031,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408031/item/69_408031.jpg,1,0,0,28
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/00_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/08_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/15_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/31_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/42_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/56_404700.jpg,1,0,0,29
+367,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/404700,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404700/item/68_404700.jpg,1,0,0,29
+368,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/408788,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408788/item/01_408788.jpg,1,0,0,30
+368,女裝棉麻輕便短褲,http://www.uniqlo.com/tw/store/goods/408788,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408788/item/69_408788.jpg,1,0,0,30
+369,女裝HPJ亞麻混紡九分褲,http://www.uniqlo.com/tw/store/goods/405066,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405066/item/01_405066.jpg,1,0,0,31
+369,女裝HPJ亞麻混紡九分褲,http://www.uniqlo.com/tw/store/goods/405066,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405066/item/27_405066.jpg,1,0,0,31
+369,女裝HPJ亞麻混紡九分褲,http://www.uniqlo.com/tw/store/goods/405066,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405066/item/69_405066.jpg,1,0,0,31
+370,女裝 IDLF 棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/405980,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405980/item/01_405980.jpg,1,0,0,32
+370,女裝 IDLF 棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/405980,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405980/item/13_405980.jpg,1,0,0,32
+370,女裝 IDLF 棉麻輕便長褲,http://www.uniqlo.com/tw/store/goods/405980,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405980/item/67_405980.jpg,1,0,0,32
+371,女裝 IDLF 棉麻抓皺裙,http://www.uniqlo.com/tw/store/goods/405979,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405979/item/13_405979.jpg,1,0,0,33
+371,女裝 IDLF 棉麻抓皺裙,http://www.uniqlo.com/tw/store/goods/405979,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405979/item/61_405979.jpg,1,0,0,33
+371,女裝 IDLF 棉麻抓皺裙,http://www.uniqlo.com/tw/store/goods/405979,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405979/item/67_405979.jpg,1,0,0,33
+372,女裝 IDLE 棉麻設計裙,http://www.uniqlo.com/tw/store/goods/408385,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408385/item/00_408385.jpg,1,0,0,34
+372,女裝 IDLE 棉麻設計裙,http://www.uniqlo.com/tw/store/goods/408385,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408385/item/65_408385.jpg,1,0,0,34
+372,女裝 IDLE 棉麻設計裙,http://www.uniqlo.com/tw/store/goods/408385,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408385/item/69_408385.jpg,1,0,0,34
+373,女裝 HPJ 棉麻長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405115,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405115/item/01_405115.jpg,1,0,0,35
+373,女裝 HPJ 棉麻長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405115,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/405115/item/11_405115.jpg,1,0,0,35
+373,女裝 HPJ 棉麻長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405115,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405115/item/69_405115.jpg,1,0,0,35
+374,女裝 HPJ 棉麻寬版T恤(長袖),http://www.uniqlo.com/tw/store/goods/405116,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405116/item/01_405116.jpg,1,0,0,36
+374,女裝 HPJ 棉麻寬版T恤(長袖),http://www.uniqlo.com/tw/store/goods/405116,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405116/item/21_405116.jpg,1,0,0,36
+374,女裝 HPJ 棉麻寬版T恤(長袖),http://www.uniqlo.com/tw/store/goods/405116,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405116/item/69_405116.jpg,1,0,0,36
+375,女裝 IDLF 亞麻 亨利領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405499,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405499/item/00_405499.jpg,1,0,0,37
+375,女裝 IDLF 亞麻 亨利領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405499,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405499/item/15_405499.jpg,1,0,0,37
+375,女裝 IDLF 亞麻 亨利領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405499,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405499/item/69_405499.jpg,1,0,0,37
+376,女裝 棉麻圓領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/406754,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406754/item/01_406754.jpg,1,0,0,38
+376,女裝 棉麻圓領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/406754,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406754/item/09_406754.jpg,1,0,0,38
+376,女裝 棉麻圓領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/406754,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406754/item/66_406754.jpg,1,0,0,38
+377,女裝 IDLF 亞麻線條毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407391,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407391/item/06_407391.jpg,1,0,0,39
+377,女裝 IDLF 亞麻線條毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407391,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/407391/item/30_407391.jpg,1,0,0,39
+377,女裝 IDLF 亞麻線條毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407391,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407391/item/69_407391.jpg,1,0,0,39
+378,女裝 IDLF 亞麻條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408413,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408413/item/06_408413.jpg,1,0,0,40
+378,女裝 IDLF 亞麻條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408413,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/408413/item/30_408413.jpg,1,0,0,40
+378,女裝 IDLF 亞麻條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408413,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408413/item/69_408413.jpg,1,0,0,40
+379,女裝 亞麻混紡開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404016,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404016/item/01_404016.jpg,1,0,0,41
+379,女裝 亞麻混紡開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404016,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404016/item/02_404016.jpg,1,0,0,41
+379,女裝 亞麻混紡開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404016,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404016/item/10_404016.jpg,1,0,0,41
+379,女裝 亞麻混紡開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404016,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404016/item/68_404016.jpg,1,0,0,41
+380,女裝 IDLF 亞麻混紡A字洋裝 (無袖),http://www.uniqlo.com/tw/store/goods/405565001,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405565001/item/67_405565001.jpg,1,0,0,42
+381,女裝 IDLF 亞麻混紡A字洋裝 (無袖),http://www.uniqlo.com/tw/store/goods/405565002,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405565002/item/61_405565002.jpg,1,0,0,43
+382,女裝 IDLF 亞麻混紡A字洋裝 (無袖),http://www.uniqlo.com/tw/store/goods/405565003,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405565003/item/15_405565003.jpg,1,0,0,44
+383,女裝 IDLF 亞麻混紡A字洋裝 (無袖),http://www.uniqlo.com/tw/store/goods/408942,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408942/item/65_408942.jpg,1,0,0,45
+383,女裝 IDLF 亞麻混紡A字洋裝 (無袖),http://www.uniqlo.com/tw/store/goods/408942,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408942/item/69_408942.jpg,1,0,0,45
+384,女裝 棉麻襯衫式洋裝 (七分袖),http://www.uniqlo.com/tw/store/goods/406434,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406434/item/01_406434.jpg,1,0,0,46
+384,女裝 棉麻襯衫式洋裝 (七分袖),http://www.uniqlo.com/tw/store/goods/406434,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406434/item/43_406434.jpg,1,0,0,46
+384,女裝 棉麻襯衫式洋裝 (七分袖),http://www.uniqlo.com/tw/store/goods/406434,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406434/item/54_406434.jpg,1,0,0,46
+384,女裝 棉麻襯衫式洋裝 (七分袖),http://www.uniqlo.com/tw/store/goods/406434,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406434/item/69_406434.jpg,1,0,0,46
+385,女裝 IDLF 棉麻披巾,http://www.uniqlo.com/tw/store/goods/406844,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/406844/item/30_406844.jpg,1,0,0,47
+385,女裝 IDLF 棉麻披巾,http://www.uniqlo.com/tw/store/goods/406844,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406844/item/65_406844.jpg,1,0,0,47
+385,女裝 IDLF 棉麻披巾,http://www.uniqlo.com/tw/store/goods/406844,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406844/item/68_406844.jpg,1,0,0,47
+386,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407225,04-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407225/item/04_407225.jpg,1,0,0,48
+386,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407225,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407225/item/31_407225.jpg,1,0,0,48
+386,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407225,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407225/item/69_407225.jpg,1,0,0,48
+387,女裝 棉麻披巾(漸層),http://www.uniqlo.com/tw/store/goods/404711,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404711/item/21_404711.jpg,1,0,0,49
+387,女裝 棉麻披巾(漸層),http://www.uniqlo.com/tw/store/goods/404711,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404711/item/61_404711.jpg,1,0,0,49
+387,女裝 棉麻披巾(漸層),http://www.uniqlo.com/tw/store/goods/404711,70-LIGHT PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404711/item/70_404711.jpg,1,0,0,49
+388,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407542,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407542/item/11_407542.jpg,1,0,0,50
+388,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407542,50-LIGHT GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/407542/item/50_407542.jpg,1,0,0,50
+388,女裝 棉麻披巾,http://www.uniqlo.com/tw/store/goods/407542,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407542/item/64_407542.jpg,1,0,0,50
+389,女裝 棉質刺繡上衣 (無袖),http://www.uniqlo.com/tw/store/goods/405315,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405315/item/01_405315.jpg,1,0,0,51
+389,女裝 棉質刺繡上衣 (無袖),http://www.uniqlo.com/tw/store/goods/405315,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405315/item/09_405315.jpg,1,0,0,51
+389,女裝 棉質刺繡上衣 (無袖),http://www.uniqlo.com/tw/store/goods/405315,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405315/item/43_405315.jpg,1,0,0,51
+389,女裝 棉質刺繡上衣 (無袖),http://www.uniqlo.com/tw/store/goods/405315,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405315/item/62_405315.jpg,1,0,0,51
+390,女裝 棉質刺繡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404554,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404554/item/01_404554.jpg,1,0,0,52
+390,女裝 棉質刺繡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404554,45-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404554/item/45_404554.jpg,1,0,0,52
+390,女裝 棉質刺繡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404554,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404554/item/55_404554.jpg,1,0,0,52
+390,女裝 棉質刺繡上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404554,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404554/item/69_404554.jpg,1,0,0,52
+391,女裝 棉質刺繡上衣 (七分袖),http://www.uniqlo.com/tw/store/goods/406508,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406508/item/01_406508.jpg,1,0,0,53
+391,女裝 棉質刺繡上衣 (七分袖),http://www.uniqlo.com/tw/store/goods/406508,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406508/item/09_406508.jpg,1,0,0,53
+391,女裝 棉質刺繡上衣 (七分袖),http://www.uniqlo.com/tw/store/goods/406508,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406508/item/13_406508.jpg,1,0,0,53
+391,女裝 棉質刺繡上衣 (七分袖),http://www.uniqlo.com/tw/store/goods/406508,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406508/item/56_406508.jpg,1,0,0,53
+392,女裝 2WAY 蕾絲拼接上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408590,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408590/item/00_408590.jpg,1,0,0,54
+392,女裝 2WAY 蕾絲拼接上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408590,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408590/item/09_408590.jpg,1,0,0,54
+392,女裝 2WAY 蕾絲拼接上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408590,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/408590/item/41_408590.jpg,1,0,0,54
+392,女裝 2WAY 蕾絲拼接上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408590,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408590/item/61_408590.jpg,1,0,0,54
+392,女裝 2WAY 蕾絲拼接上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408590,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408590/item/69_408590.jpg,1,0,0,54
+393,女裝 IDLE 刺繡襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405336,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405336/item/00_405336.jpg,1,0,0,55
+393,女裝 IDLE 刺繡襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405336,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405336/item/69_405336.jpg,1,0,0,55
+394,女裝 IDLF 棉質斜紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405323,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405323/item/00_405323.jpg,1,0,0,56
+394,女裝 IDLF 棉質斜紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405323,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405323/item/60_405323.jpg,1,0,0,56
+395,女裝 IDLF 棉質荷葉襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/405327,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405327/item/00_405327.jpg,1,0,0,57
+395,女裝 IDLF 棉質荷葉襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/405327,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405327/item/65_405327.jpg,1,0,0,57
+396,女裝 IDLF 棉質荷葉襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405328,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405328/item/00_405328.jpg,1,0,0,58
+396,女裝 IDLF 棉質荷葉襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405328,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405328/item/65_405328.jpg,1,0,0,58
+397,女裝 IDLF 棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405331,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405331/item/00_405331.jpg,1,0,0,59
+397,女裝 IDLF 棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405331,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405331/item/01_405331.jpg,1,0,0,59
+397,女裝 IDLF 棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405331,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405331/item/15_405331.jpg,1,0,0,59
+397,女裝 IDLF 棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405331,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405331/item/62_405331.jpg,1,0,0,59
+397,女裝 IDLF 棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405331,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405331/item/69_405331.jpg,1,0,0,59
+398,女裝 IDLF 棉質長上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405334,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405334/item/00_405334.jpg,1,0,0,60
+398,女裝 IDLF 棉質長上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405334,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405334/item/09_405334.jpg,1,0,0,60
+398,女裝 IDLF 棉質長上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405334,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405334/item/55_405334.jpg,1,0,0,60
+398,女裝 IDLF 棉質長上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405334,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405334/item/61_405334.jpg,1,0,0,60
+398,女裝 IDLF 棉質長上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405334,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405334/item/69_405334.jpg,1,0,0,60
+399,女裝 IDLF 棉質緹花細褶襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407156,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407156/item/11_407156.jpg,1,0,0,61
+399,女裝 IDLF 棉質緹花細褶襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407156,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407156/item/63_407156.jpg,1,0,0,61
+399,女裝 IDLF 棉質緹花細褶襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407156,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407156/item/69_407156.jpg,1,0,0,61
+400,女裝 IDLF 棉質斜紋立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405326,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405326/item/00_405326.jpg,1,0,0,62
+400,女裝 IDLF 棉質斜紋立領襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405326,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405326/item/60_405326.jpg,1,0,0,62
+401,女裝 U 開領襯衫(長袖),http://www.uniqlo.com/tw/store/goods/407405,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407405/item/01_407405.jpg,1,0,0,63
+401,女裝 U 開領襯衫(長袖),http://www.uniqlo.com/tw/store/goods/407405,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407405/item/10_407405.jpg,1,0,0,63
+401,女裝 U 開領襯衫(長袖),http://www.uniqlo.com/tw/store/goods/407405,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/407405/item/15_407405.jpg,1,0,0,63
+401,女裝 U 開領襯衫(長袖),http://www.uniqlo.com/tw/store/goods/407405,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407405/item/69_407405.jpg,1,0,0,63
+402,女裝 HPJ 無領打褶上衣(長袖),http://www.uniqlo.com/tw/store/goods/405099,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405099/item/01_405099.jpg,1,0,0,64
+402,女裝 HPJ 無領打褶上衣(長袖),http://www.uniqlo.com/tw/store/goods/405099,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405099/item/09_405099.jpg,1,0,0,64
+402,女裝 HPJ 無領打褶上衣(長袖),http://www.uniqlo.com/tw/store/goods/405099,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405099/item/21_405099.jpg,1,0,0,64
+402,女裝 HPJ 無領打褶上衣(長袖),http://www.uniqlo.com/tw/store/goods/405099,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405099/item/46_405099.jpg,1,0,0,64
+403,女裝 HPJ 翻領長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405100,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405100/item/01_405100.jpg,1,0,0,65
+403,女裝 HPJ 翻領長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405100,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405100/item/09_405100.jpg,1,0,0,65
+403,女裝 HPJ 翻領長版襯衫(長袖),http://www.uniqlo.com/tw/store/goods/405100,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405100/item/46_405100.jpg,1,0,0,65
+404,女裝 HPJ 細紋綁帶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405102,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405102/item/21_405102.jpg,1,0,0,66
+404,女裝 HPJ 細紋綁帶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405102,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405102/item/32_405102.jpg,1,0,0,66
+404,女裝 HPJ 細紋綁帶長上衣(長袖),http://www.uniqlo.com/tw/store/goods/405102,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405102/item/69_405102.jpg,1,0,0,66
+405,女裝超柔棉抓皺上衣(5分袖),http://www.uniqlo.com/tw/store/goods/410369,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/410369/item/00_410369.jpg,1,0,0,67
+405,女裝超柔棉抓皺上衣(5分袖),http://www.uniqlo.com/tw/store/goods/410369,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/410369/item/32_410369.jpg,1,0,0,67
+405,女裝超柔棉抓皺上衣(5分袖),http://www.uniqlo.com/tw/store/goods/410369,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/410369/item/55_410369.jpg,1,0,0,67
+405,女裝超柔棉抓皺上衣(5分袖),http://www.uniqlo.com/tw/store/goods/410369,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/410369/item/69_410369.jpg,1,0,0,67
+406,女裝 HPJ 超柔棉襯衫(長袖),http://www.uniqlo.com/tw/store/goods/406638,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406638/item/00_406638.jpg,1,0,0,68
+406,女裝 HPJ 超柔棉襯衫(長袖),http://www.uniqlo.com/tw/store/goods/406638,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406638/item/09_406638.jpg,1,0,0,68
+406,女裝 HPJ 超柔棉襯衫(長袖),http://www.uniqlo.com/tw/store/goods/406638,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406638/item/27_406638.jpg,1,0,0,68
+407,女裝 超柔棉襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404548,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404548/item/00_404548.jpg,1,0,0,69
+407,女裝 超柔棉襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404548,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404548/item/67_404548.jpg,1,0,0,69
+408,女裝 超柔棉條紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407430,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/407430/item/43_407430.jpg,1,0,0,70
+408,女裝 超柔棉條紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407430,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407430/item/63_407430.jpg,1,0,0,70
+408,女裝 超柔棉條紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407430,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407430/item/69_407430.jpg,1,0,0,70
+409,女裝 超柔棉 2WAY交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405309,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405309/item/00_405309.jpg,1,0,0,71
+409,女裝 超柔棉 2WAY交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405309,48-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405309/item/48_405309.jpg,1,0,0,71
+409,女裝 超柔棉 2WAY交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405309,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405309/item/61_405309.jpg,1,0,0,71
+409,女裝 超柔棉 2WAY交叉領上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405309,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405309/item/69_405309.jpg,1,0,0,71
+410,女裝 柔軟棉質襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/404553,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404553/item/00_404553.jpg,1,0,0,72
+410,女裝 柔軟棉質襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/404553,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404553/item/21_404553.jpg,1,0,0,72
+410,女裝 柔軟棉質襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/404553,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404553/item/43_404553.jpg,1,0,0,72
+410,女裝 柔軟棉質襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/404553,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404553/item/65_404553.jpg,1,0,0,72
+410,女裝 柔軟棉質襯衫 (短袖),http://www.uniqlo.com/tw/store/goods/404553,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404553/item/69_404553.jpg,1,0,0,72
+411,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/407103,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407103/item/00_407103.jpg,1,0,0,73
+411,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/407103,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/407103/item/43_407103.jpg,1,0,0,73
+411,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/407103,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407103/item/69_407103.jpg,1,0,0,73
+412,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404547,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404547/item/00_404547.jpg,1,0,0,74
+412,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404547,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404547/item/61_404547.jpg,1,0,0,74
+412,女裝 柔軟棉質蕾絲上衣 (長袖),http://www.uniqlo.com/tw/store/goods/404547,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404547/item/69_404547.jpg,1,0,0,74
+413,女裝 柔軟棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404546,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404546/item/00_404546.jpg,1,0,0,75
+413,女裝 柔軟棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404546,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404546/item/24_404546.jpg,1,0,0,75
+413,女裝 柔軟棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404546,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404546/item/65_404546.jpg,1,0,0,75
+413,女裝 柔軟棉質襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/404546,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404546/item/69_404546.jpg,1,0,0,75
+414,女裝 柔軟棉質細褶上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405308,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405308/item/00_405308.jpg,1,0,0,76
+414,女裝 柔軟棉質細褶上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405308,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405308/item/65_405308.jpg,1,0,0,76
+414,女裝 柔軟棉質細褶上衣 (長袖),http://www.uniqlo.com/tw/store/goods/405308,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405308/item/69_405308.jpg,1,0,0,76
+415,女裝 柔軟棉質條紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407427,52-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/407427/item/52_407427.jpg,1,0,0,77
+415,女裝 柔軟棉質條紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/407427,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407427/item/61_407427.jpg,1,0,0,77
+416,女裝 垂墜風上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/406064,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406064/item/01_406064.jpg,1,0,0,78
+416,女裝 垂墜風上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/406064,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406064/item/09_406064.jpg,1,0,0,78
+416,女裝 垂墜風上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/406064,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406064/item/10_406064.jpg,1,0,0,78
+416,女裝 垂墜風上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/406064,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406064/item/56_406064.jpg,1,0,0,78
+417,女裝 垂墜風V領上衣 (無袖),http://www.uniqlo.com/tw/store/goods/404552,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404552/item/01_404552.jpg,1,0,0,79
+417,女裝 垂墜風V領上衣 (無袖),http://www.uniqlo.com/tw/store/goods/404552,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404552/item/12_404552.jpg,1,0,0,79
+417,女裝 垂墜風V領上衣 (無袖),http://www.uniqlo.com/tw/store/goods/404552,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404552/item/21_404552.jpg,1,0,0,79
+417,女裝 垂墜風V領上衣 (無袖),http://www.uniqlo.com/tw/store/goods/404552,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404552/item/60_404552.jpg,1,0,0,79
+417,女裝 垂墜風V領上衣 (無袖),http://www.uniqlo.com/tw/store/goods/404552,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404552/item/69_404552.jpg,1,0,0,79
+418,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),http://www.uniqlo.com/tw/store/goods/404549,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404549/item/00_404549.jpg,1,0,0,80
+418,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),http://www.uniqlo.com/tw/store/goods/404549,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404549/item/09_404549.jpg,1,0,0,80
+419,女裝 SUPIMA COTTON 彈性府綢襯衫(條紋),http://www.uniqlo.com/tw/store/goods/402668,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/402668/item/68_402668.jpg,1,0,0,81
+420,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),http://www.uniqlo.com/tw/store/goods/400526,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/400526/item/00_400526.jpg,1,0,0,82
+420,女裝 SUPIMA COTTON 彈性府綢襯衫(長袖),http://www.uniqlo.com/tw/store/goods/400526,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400526/item/09_400526.jpg,1,0,0,82
+421,女裝 IDLF 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405329,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405329/item/00_405329.jpg,1,0,0,83
+421,女裝 IDLF 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405329,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405329/item/01_405329.jpg,1,0,0,83
+421,女裝 IDLF 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405329,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405329/item/09_405329.jpg,1,0,0,83
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/00_405318.jpg,1,0,0,84
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/10_405318.jpg,1,0,0,84
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,23-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/23_405318.jpg,1,0,0,84
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/41_405318.jpg,1,0,0,84
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/61_405318.jpg,1,0,0,84
+422,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405318,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405318/item/69_405318.jpg,1,0,0,84
+423,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/401225,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/401225/item/10_401225.jpg,1,0,0,85
+423,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/401225,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/401225/item/61_401225.jpg,1,0,0,85
+423,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/401225,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/401225/item/69_401225.jpg,1,0,0,85
+423,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/401225,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/401225/item/71_401225.jpg,1,0,0,85
+424,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/192803,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/192803/item/61_192803.jpg,1,0,0,86
+424,女裝 牛津襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/192803,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/192803/item/63_192803.jpg,1,0,0,86
+425,女裝 IDLF 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406895,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406895/item/67_406895.jpg,1,0,0,87
+425,女裝 IDLF 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406895,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406895/item/68_406895.jpg,1,0,0,87
+425,女裝 IDLF 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/406895,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406895/item/69_406895.jpg,1,0,0,87
+426,女裝 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405319,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405319/item/60_405319.jpg,1,0,0,88
+426,女裝 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405319,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405319/item/63_405319.jpg,1,0,0,88
+426,女裝 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405319,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405319/item/67_405319.jpg,1,0,0,88
+426,女裝 牛仔襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/405319,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405319/item/69_405319.jpg,1,0,0,88
+427,女裝 法蘭絨格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/402680,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/402680/item/11_402680.jpg,1,0,0,89
+428,女裝 法蘭絨格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/402681,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/402681/item/10_402681.jpg,1,0,0,90
+429,女裝 法蘭絨格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/402683,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/402683/item/09_402683.jpg,1,0,0,91
+430,女裝 法蘭絨格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/402673,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/402673/item/12_402673.jpg,1,0,0,92
+431,女裝 法蘭絨格紋襯衫 (長袖),http://www.uniqlo.com/tw/store/goods/40267500001,19-WINE,http://im.uniqlo.com/images/tw/uq/pc/goods/40267500001/item/19_40267500001.jpg,1,0,0,93
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/00_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/02_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/09_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/13_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,22-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/22_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/41_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/54_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/56_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/69_403899.jpg,1,0,1,0
+432,女裝 2 WAY 羅紋蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/403899,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/403899/item/71_403899.jpg,1,0,1,0
+433,女裝 2WAY條紋羅紋蕾絲坦克背心,http://www.uniqlo.com/tw/store/goods/406440,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406440/item/03_406440.jpg,1,0,1,1
+433,女裝 2WAY條紋羅紋蕾絲坦克背心,http://www.uniqlo.com/tw/store/goods/406440,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406440/item/09_406440.jpg,1,0,1,1
+433,女裝 2WAY條紋羅紋蕾絲坦克背心,http://www.uniqlo.com/tw/store/goods/406440,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/406440/item/30_406440.jpg,1,0,1,1
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/00_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/03_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/09_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/12_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,34-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/34_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/63_406307.jpg,1,0,1,2
+434,女裝 後背蕾絲 坦克背心,http://www.uniqlo.com/tw/store/goods/406307,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406307/item/69_406307.jpg,1,0,1,2
+435,女裝 Dry-EX 長版坦克背心,http://www.uniqlo.com/tw/store/goods/404089,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404089/item/08_404089.jpg,1,0,1,3
+435,女裝 Dry-EX 長版坦克背心,http://www.uniqlo.com/tw/store/goods/404089,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404089/item/27_404089.jpg,1,0,1,3
+435,女裝 Dry-EX 長版坦克背心,http://www.uniqlo.com/tw/store/goods/404089,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404089/item/63_404089.jpg,1,0,1,3
+435,女裝 Dry-EX 長版坦克背心,http://www.uniqlo.com/tw/store/goods/404089,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404089/item/69_404089.jpg,1,0,1,3
+436,女裝 蕾絲無袖上衣,http://www.uniqlo.com/tw/store/goods/405735,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405735/item/01_405735.jpg,1,0,1,4
+436,女裝 蕾絲無袖上衣,http://www.uniqlo.com/tw/store/goods/405735,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/405735/item/11_405735.jpg,1,0,1,4
+436,女裝 蕾絲無袖上衣,http://www.uniqlo.com/tw/store/goods/405735,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405735/item/67_405735.jpg,1,0,1,4
+436,女裝 蕾絲無袖上衣,http://www.uniqlo.com/tw/store/goods/405735,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405735/item/69_405735.jpg,1,0,1,4
+437,女裝 U 坦克背心,http://www.uniqlo.com/tw/store/goods/406458,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406458/item/02_406458.jpg,1,0,1,5
+437,女裝 U 坦克背心,http://www.uniqlo.com/tw/store/goods/406458,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406458/item/09_406458.jpg,1,0,1,5
+437,女裝 U 坦克背心,http://www.uniqlo.com/tw/store/goods/406458,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406458/item/24_406458.jpg,1,0,1,5
+437,女裝 U 坦克背心,http://www.uniqlo.com/tw/store/goods/406458,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406458/item/66_406458.jpg,1,0,1,5
+437,女裝 U 坦克背心,http://www.uniqlo.com/tw/store/goods/406458,72-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/406458/item/72_406458.jpg,1,0,1,5
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/00_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/02_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/09_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/11_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/14_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/31_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/54_405287.jpg,1,0,1,6
+438,女裝 短版圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405287,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405287/item/69_405287.jpg,1,0,1,6
+439,女裝 U 條紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407492,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407492/item/01_407492.jpg,1,0,1,7
+439,女裝 U 條紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407492,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407492/item/09_407492.jpg,1,0,1,7
+439,女裝 U 條紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407492,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407492/item/24_407492.jpg,1,0,1,7
+439,女裝 U 條紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407492,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/407492/item/55_407492.jpg,1,0,1,7
+439,女裝 U 條紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407492,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407492/item/66_407492.jpg,1,0,1,7
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/01_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/09_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/15_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/32_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,37-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/37_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/51_409609.jpg,1,0,1,8
+440,女裝華夫格圓領T恤(五分袖),http://www.uniqlo.com/tw/store/goods/409609,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/409609/item/69_409609.jpg,1,0,1,8
+441,女裝 粗紡長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/403641,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/403641/item/00_403641.jpg,1,0,1,9
+441,女裝 粗紡長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/403641,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403641/item/03_403641.jpg,1,0,1,9
+441,女裝 粗紡長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/403641,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403641/item/09_403641.jpg,1,0,1,9
+441,女裝 粗紡長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/403641,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/403641/item/13_403641.jpg,1,0,1,9
+442,女裝 粗紡條紋 長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408264,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408264/item/01_408264.jpg,1,0,1,10
+442,女裝 粗紡條紋 長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/408264,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408264/item/09_408264.jpg,1,0,1,10
+443,女裝 垂墜風上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404551,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404551/item/01_404551.jpg,1,0,1,11
+443,女裝 垂墜風上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404551,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404551/item/09_404551.jpg,1,0,1,11
+443,女裝 垂墜風上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404551,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404551/item/27_404551.jpg,1,0,1,11
+443,女裝 垂墜風上衣 (短袖),http://www.uniqlo.com/tw/store/goods/404551,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404551/item/68_404551.jpg,1,0,1,11
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/00_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/02_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/09_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/10_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/12_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/56_403640.jpg,1,0,1,12
+444,女裝 垂墜風圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/403640,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403640/item/68_403640.jpg,1,0,1,12
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/00_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/02_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/03_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/09_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/10_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/21_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/24_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,40-CREAM,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/40_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/55_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/66_406456.jpg,1,0,1,13
+445,女裝 U 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/406456,72-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/406456/item/72_406456.jpg,1,0,1,13
+446,女裝 IDLF 華夫格 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405501,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405501/item/01_405501.jpg,1,0,1,14
+446,女裝 IDLF 華夫格 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405501,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405501/item/15_405501.jpg,1,0,1,14
+446,女裝 IDLF 華夫格 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405501,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405501/item/55_405501.jpg,1,0,1,14
+446,女裝 IDLF 華夫格 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405501,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405501/item/69_405501.jpg,1,0,1,14
+447,女裝 IDLF 條紋圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405502,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/405502/item/14_405502.jpg,1,0,1,15
+447,女裝 IDLF 條紋圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405502,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405502/item/68_405502.jpg,1,0,1,15
+447,女裝 IDLF 條紋圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/405502,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405502/item/69_405502.jpg,1,0,1,15
+448,女裝 U 船型領T恤(短袖),http://www.uniqlo.com/tw/store/goods/407408,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407408/item/09_407408.jpg,1,0,1,16
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/00_408464.jpg,1,0,1,17
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/03_408464.jpg,1,0,1,17
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/09_408464.jpg,1,0,1,17
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/14_408464.jpg,1,0,1,17
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/60_408464.jpg,1,0,1,17
+449,女裝 2WAY 羅紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408464,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408464/item/69_408464.jpg,1,0,1,17
+450,女裝 2WAY 羅紋條紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408465,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408465/item/01_408465.jpg,1,0,1,18
+450,女裝 2WAY 羅紋條紋T恤 (五分袖),http://www.uniqlo.com/tw/store/goods/408465,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408465/item/09_408465.jpg,1,0,1,18
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/00_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/03_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/09_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/12_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/31_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/67_404221.jpg,1,0,1,19
+451,女裝 羅紋船型領T恤 (5分袖),http://www.uniqlo.com/tw/store/goods/404221,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404221/item/69_404221.jpg,1,0,1,19
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/00_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/02_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/09_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/11_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/42_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,50-LIGHT GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/50_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/56_406304.jpg,1,0,1,20
+452,女裝 SUPIMA COTTON 羅紋坦克背心,http://www.uniqlo.com/tw/store/goods/406304,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406304/item/69_406304.jpg,1,0,1,20
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/00_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/02_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/09_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/11_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/14_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/41_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/56_408586.jpg,1,0,1,21
+453,女裝 SUPIMA COTTON V領T恤(短袖),http://www.uniqlo.com/tw/store/goods/408586,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408586/item/66_408586.jpg,1,0,1,21
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/00_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/02_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/09_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/11_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/13_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/43_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/55_403637.jpg,1,0,1,22
+454,女裝 SUPIMA COTTON 羅紋圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/403637,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403637/item/69_403637.jpg,1,0,1,22
+455,女裝 Supima Cotton 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/182168,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/182168/item/03_182168.jpg,1,0,1,23
+455,女裝 Supima Cotton 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/182168,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/182168/item/09_182168.jpg,1,0,1,23
+455,女裝 Supima Cotton 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/182168,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/182168/item/57_182168.jpg,1,0,1,23
+455,女裝 Supima Cotton 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/182168,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/182168/item/60_182168.jpg,1,0,1,23
+455,女裝 Supima Cotton 圓領T恤(短袖),http://www.uniqlo.com/tw/store/goods/182168,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/182168/item/69_182168.jpg,1,0,1,23
+456,女裝 SPRZ NY Dry-EX 印花T恤(短袖),http://www.uniqlo.com/tw/store/goods/408480,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408480/item/00_408480.jpg,1,0,1,24
+456,女裝 SPRZ NY Dry-EX 印花T恤(短袖),http://www.uniqlo.com/tw/store/goods/408480,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408480/item/09_408480.jpg,1,0,1,24
+456,女裝 SPRZ NY Dry-EX 印花T恤(短袖),http://www.uniqlo.com/tw/store/goods/408480,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408480/item/12_408480.jpg,1,0,1,24
+457,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/408481,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408481/item/00_408481.jpg,1,0,1,25
+457,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/408481,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408481/item/11_408481.jpg,1,0,1,25
+458,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/408482,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408482/item/00_408482.jpg,1,0,1,26
+458,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/408482,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408482/item/11_408482.jpg,1,0,1,26
+459,女裝 SPRZ NY Dry-EX 印花T恤(短袖),http://www.uniqlo.com/tw/store/goods/404090,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404090/item/69_404090.jpg,1,0,1,27
+459,女裝 SPRZ NY Dry-EX 印花T恤(短袖),http://www.uniqlo.com/tw/store/goods/404090,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404090/item/71_404090.jpg,1,0,1,27
+460,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/406100,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406100/item/00_406100.jpg,1,0,1,28
+460,女裝 SPRZ NY DRYT恤 (短袖),http://www.uniqlo.com/tw/store/goods/406100,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406100/item/67_406100.jpg,1,0,1,28
+461,女裝 DRY 華夫格長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/406514,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406514/item/03_406514.jpg,1,0,1,29
+461,女裝 DRY 華夫格長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/406514,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406514/item/09_406514.jpg,1,0,1,29
+461,女裝 DRY 華夫格長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/406514,53-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406514/item/53_406514.jpg,1,0,1,29
+461,女裝 DRY 華夫格長上衣 (短袖),http://www.uniqlo.com/tw/store/goods/406514,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406514/item/69_406514.jpg,1,0,1,29
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/00_404087.jpg,1,0,1,30
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/08_404087.jpg,1,0,1,30
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/12_404087.jpg,1,0,1,30
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/51_404087.jpg,1,0,1,30
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/63_404087.jpg,1,0,1,30
+462,女裝 Dry-EX 圓領T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404087,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404087/item/69_404087.jpg,1,0,1,30
+463,女裝 Dry-EX POLO衫,http://www.uniqlo.com/tw/store/goods/404091,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404091/item/00_404091.jpg,1,0,1,31
+463,女裝 Dry-EX POLO衫,http://www.uniqlo.com/tw/store/goods/404091,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404091/item/08_404091.jpg,1,0,1,31
+463,女裝 Dry-EX POLO衫,http://www.uniqlo.com/tw/store/goods/404091,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404091/item/12_404091.jpg,1,0,1,31
+463,女裝 Dry-EX POLO衫,http://www.uniqlo.com/tw/store/goods/404091,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404091/item/69_404091.jpg,1,0,1,31
+464,女裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404084,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/02_404084.jpg,1,0,1,32
+464,女裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404084,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/08_404084.jpg,1,0,1,32
+464,女裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404084,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/09_404084.jpg,1,0,1,32
+464,女裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404084,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/12_404084.jpg,1,0,1,32
+464,女裝 Dry-EX ULTRASTRETCH 短褲,http://www.uniqlo.com/tw/store/goods/404084,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/69_404084.jpg,1,0,1,32
+465,女裝 Dry-EX 短褲,http://www.uniqlo.com/tw/store/goods/405182,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405182/item/08_405182.jpg,1,0,1,33
+465,女裝 Dry-EX 短褲,http://www.uniqlo.com/tw/store/goods/405182,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405182/item/09_405182.jpg,1,0,1,33
+465,女裝 Dry-EX 短褲,http://www.uniqlo.com/tw/store/goods/405182,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405182/item/69_405182.jpg,1,0,1,33
+466,女裝 Dry-EX ULTRASTRETCH 五分褲,http://www.uniqlo.com/tw/store/goods/405175,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405175/item/08_405175.jpg,1,0,1,34
+466,女裝 Dry-EX ULTRASTRETCH 五分褲,http://www.uniqlo.com/tw/store/goods/405175,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405175/item/09_405175.jpg,1,0,1,34
+466,女裝 Dry-EX ULTRASTRETCH 五分褲,http://www.uniqlo.com/tw/store/goods/405175,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405175/item/58_405175.jpg,1,0,1,34
+466,女裝 Dry-EX ULTRASTRETCH 五分褲,http://www.uniqlo.com/tw/store/goods/405175,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405175/item/69_405175.jpg,1,0,1,34
+467,女裝 DRY-EX Ultra Stretch 九分褲,http://www.uniqlo.com/tw/store/goods/405174,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405174/item/03_405174.jpg,1,0,1,35
+467,女裝 DRY-EX Ultra Stretch 九分褲,http://www.uniqlo.com/tw/store/goods/405174,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405174/item/09_405174.jpg,1,0,1,35
+467,女裝 DRY-EX Ultra Stretch 九分褲,http://www.uniqlo.com/tw/store/goods/405174,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/405174/item/58_405174.jpg,1,0,1,35
+467,女裝 DRY-EX Ultra Stretch 九分褲,http://www.uniqlo.com/tw/store/goods/405174,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405174/item/69_405174.jpg,1,0,1,35
+468,女裝 DRY 休閒長褲,http://www.uniqlo.com/tw/store/goods/404749,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404749/item/00_404749.jpg,1,0,1,36
+468,女裝 DRY 休閒長褲,http://www.uniqlo.com/tw/store/goods/404749,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404749/item/03_404749.jpg,1,0,1,36
+468,女裝 DRY 休閒長褲,http://www.uniqlo.com/tw/store/goods/404749,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404749/item/08_404749.jpg,1,0,1,36
+468,女裝 DRY 休閒長褲,http://www.uniqlo.com/tw/store/goods/404749,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404749/item/09_404749.jpg,1,0,1,36
+468,女裝 DRY 休閒長褲,http://www.uniqlo.com/tw/store/goods/404749,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404749/item/69_404749.jpg,1,0,1,36
+469,女裝 AIRism 無縫T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404088,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404088/item/00_404088.jpg,1,0,1,37
+469,女裝 AIRism 無縫T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404088,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404088/item/08_404088.jpg,1,0,1,37
+469,女裝 AIRism 無縫T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404088,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404088/item/09_404088.jpg,1,0,1,37
+469,女裝 AIRism 無縫T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404088,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404088/item/63_404088.jpg,1,0,1,37
+469,女裝 AIRism 無縫T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404088,72-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404088/item/72_404088.jpg,1,0,1,37
+470,女裝 AIRism 寬版T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404095,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404095/item/00_404095.jpg,1,0,1,38
+470,女裝 AIRism 寬版T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404095,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404095/item/03_404095.jpg,1,0,1,38
+470,女裝 AIRism 寬版T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404095,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404095/item/09_404095.jpg,1,0,1,38
+470,女裝 AIRism 寬版T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404095,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404095/item/51_404095.jpg,1,0,1,38
+470,女裝 AIRism 寬版T恤 (短袖),http://www.uniqlo.com/tw/store/goods/404095,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404095/item/71_404095.jpg,1,0,1,38
+471,女裝 七分寬襬袖T恤,http://www.uniqlo.com/tw/store/goods/408874,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408874/item/01_408874.jpg,1,0,2,0
+471,女裝 七分寬襬袖T恤,http://www.uniqlo.com/tw/store/goods/408874,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408874/item/09_408874.jpg,1,0,2,0
+471,女裝 七分寬襬袖T恤,http://www.uniqlo.com/tw/store/goods/408874,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408874/item/10_408874.jpg,1,0,2,0
+471,女裝 七分寬襬袖T恤,http://www.uniqlo.com/tw/store/goods/408874,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408874/item/68_408874.jpg,1,0,2,0
+472,女裝 米蘭羅紋 休閒上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/408479,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408479/item/01_408479.jpg,1,0,2,1
+472,女裝 米蘭羅紋 休閒上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/408479,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408479/item/03_408479.jpg,1,0,2,1
+472,女裝 米蘭羅紋 休閒上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/408479,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408479/item/09_408479.jpg,1,0,2,1
+472,女裝 米蘭羅紋 休閒上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/408479,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408479/item/12_408479.jpg,1,0,2,1
+472,女裝 米蘭羅紋 休閒上衣 (7分袖),http://www.uniqlo.com/tw/store/goods/408479,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408479/item/31_408479.jpg,1,0,2,1
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/00_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/03_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/09_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/21_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,34-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/34_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/63_407546.jpg,1,0,2,2
+473,女裝 COMPACT COTTON 圓領T恤(7分),http://www.uniqlo.com/tw/store/goods/407546,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407546/item/69_407546.jpg,1,0,2,2
+474,女裝 AIRism 抗UV網眼T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404752,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404752/item/00_404752.jpg,1,0,2,3
+474,女裝 AIRism 抗UV網眼T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404752,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404752/item/09_404752.jpg,1,0,2,3
+474,女裝 AIRism 抗UV網眼T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404752,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404752/item/12_404752.jpg,1,0,2,3
+474,女裝 AIRism 抗UV網眼T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404752,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404752/item/69_404752.jpg,1,0,2,3
+475,女裝 AIRism 抗UV網眼 半開襟T恤(長袖),http://www.uniqlo.com/tw/store/goods/404751,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404751/item/00_404751.jpg,1,0,2,4
+475,女裝 AIRism 抗UV網眼 半開襟T恤(長袖),http://www.uniqlo.com/tw/store/goods/404751,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404751/item/09_404751.jpg,1,0,2,4
+475,女裝 AIRism 抗UV網眼 半開襟T恤(長袖),http://www.uniqlo.com/tw/store/goods/404751,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404751/item/51_404751.jpg,1,0,2,4
+475,女裝 AIRism 抗UV網眼 半開襟T恤(長袖),http://www.uniqlo.com/tw/store/goods/404751,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404751/item/69_404751.jpg,1,0,2,4
+476,女裝 HPJ 寬版圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/405113,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405113/item/01_405113.jpg,1,0,2,5
+476,女裝 HPJ 寬版圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/405113,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405113/item/09_405113.jpg,1,0,2,5
+476,女裝 HPJ 寬版圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/405113,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405113/item/43_405113.jpg,1,0,2,5
+476,女裝 HPJ 寬版圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/405113,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405113/item/64_405113.jpg,1,0,2,5
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/01_406564.jpg,1,0,2,6
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/03_406564.jpg,1,0,2,6
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/10_406564.jpg,1,0,2,6
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/12_406564.jpg,1,0,2,6
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/56_406564.jpg,1,0,2,6
+477,女裝 華夫格 V領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/406564,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406564/item/69_406564.jpg,1,0,2,6
+478,女裝 2WAY 條紋T恤 (長袖),http://www.uniqlo.com/tw/store/goods/408032,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408032/item/01_408032.jpg,1,0,2,7
+478,女裝 2WAY 條紋T恤 (長袖),http://www.uniqlo.com/tw/store/goods/408032,51-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/408032/item/51_408032.jpg,1,0,2,7
+478,女裝 2WAY 條紋T恤 (長袖),http://www.uniqlo.com/tw/store/goods/408032,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408032/item/69_408032.jpg,1,0,2,7
+479,女裝 條紋船型領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404223,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404223/item/01_404223.jpg,1,0,2,8
+479,女裝 條紋船型領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404223,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/404223/item/15_404223.jpg,1,0,2,8
+479,女裝 條紋船型領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/404223,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404223/item/68_404223.jpg,1,0,2,8
+480,女裝 條紋船型領T恤 (長袖),http://www.uniqlo.com/tw/store/goods/400152,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400152/item/08_400152.jpg,1,0,2,9
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/00_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/03_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/09_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/10_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/56_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/63_408221.jpg,1,0,2,10
+481,女裝 COMPACT COTTON V領T恤(長袖),http://www.uniqlo.com/tw/store/goods/408221,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408221/item/69_408221.jpg,1,0,2,10
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/00_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/03_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/09_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/10_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,40-CREAM,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/40_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/56_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/61_407547.jpg,1,0,2,11
+482,女裝 COMPACT COTTON 圓領T恤(長袖),http://www.uniqlo.com/tw/store/goods/407547,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407547/item/69_407547.jpg,1,0,2,11
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/01_406995.jpg,1,0,3,0
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/03_406995.jpg,1,0,3,0
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/09_406995.jpg,1,0,3,0
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/21_406995.jpg,1,0,3,0
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/62_406995.jpg,1,0,3,0
+483,女裝 抗UV羅紋 無袖毛衣,http://www.uniqlo.com/tw/store/goods/406995,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406995/item/69_406995.jpg,1,0,3,0
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/01_404633.jpg,1,0,3,1
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/03_404633.jpg,1,0,3,1
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/09_404633.jpg,1,0,3,1
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/21_404633.jpg,1,0,3,1
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/62_404633.jpg,1,0,3,1
+484,女裝 抗UV羅紋 圓領五分袖毛衣,http://www.uniqlo.com/tw/store/goods/404633,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404633/item/69_404633.jpg,1,0,3,1
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/01_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/03_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/09_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/21_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,40-CREAM,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/40_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/62_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/66_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/69_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/71_404012.jpg,1,0,3,2
+485,女裝 抗UV圓領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404012,74-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404012/item/74_404012.jpg,1,0,3,2
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/01_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/03_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/09_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/12_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/32_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/62_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/66_404011.jpg,1,0,3,3
+486,女裝 抗UV V領 開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/404011,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404011/item/69_404011.jpg,1,0,3,3
+487,女裝 IDLF 抗UV羅紋 條紋毛衣(長袖),http://www.uniqlo.com/tw/store/goods/407382,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407382/item/62_407382.jpg,1,0,3,4
+487,女裝 IDLF 抗UV羅紋 條紋毛衣(長袖),http://www.uniqlo.com/tw/store/goods/407382,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407382/item/69_407382.jpg,1,0,3,4
+488,女裝 IDLF 抗UV條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407384,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407384/item/01_407384.jpg,1,0,3,5
+488,女裝 IDLF 抗UV條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407384,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/407384/item/30_407384.jpg,1,0,3,5
+488,女裝 IDLF 抗UV條紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407384,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407384/item/69_407384.jpg,1,0,3,5
+489,女裝 IDLF 棉質喀什米爾 圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/407387,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407387/item/01_407387.jpg,1,0,3,6
+489,女裝 IDLF 棉質喀什米爾 圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/407387,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/407387/item/15_407387.jpg,1,0,3,6
+489,女裝 IDLF 棉質喀什米爾 圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/407387,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407387/item/69_407387.jpg,1,0,3,6
+490,女裝 IDLF 棉質喀什米爾 V領開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407388,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407388/item/01_407388.jpg,1,0,3,7
+490,女裝 IDLF 棉質喀什米爾 V領開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407388,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/407388/item/15_407388.jpg,1,0,3,7
+491,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406743,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406743/item/01_406743.jpg,1,0,3,8
+491,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406743,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406743/item/09_406743.jpg,1,0,3,8
+491,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406743,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406743/item/10_406743.jpg,1,0,3,8
+491,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406743,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406743/item/15_406743.jpg,1,0,3,8
+491,女裝 U 棉質喀什米爾船型領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406743,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406743/item/69_406743.jpg,1,0,3,8
+492,女裝 U 棉質喀什米爾毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406744,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406744/item/01_406744.jpg,1,0,3,9
+492,女裝 U 棉質喀什米爾毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406744,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406744/item/09_406744.jpg,1,0,3,9
+492,女裝 U 棉質喀什米爾毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406744,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406744/item/65_406744.jpg,1,0,3,9
+493,女裝 棉質喀什米爾 編織毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407767,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407767/item/01_407767.jpg,1,0,3,10
+493,女裝 棉質喀什米爾 編織毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407767,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407767/item/02_407767.jpg,1,0,3,10
+493,女裝 棉質喀什米爾 編織毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407767,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407767/item/64_407767.jpg,1,0,3,10
+493,女裝 棉質喀什米爾 編織毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407767,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407767/item/69_407767.jpg,1,0,3,10
+494,女裝 棉質喀什米爾 V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/404005,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404005/item/02_404005.jpg,1,0,3,11
+494,女裝 棉質喀什米爾 V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/404005,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404005/item/12_404005.jpg,1,0,3,11
+495,女裝 棉質喀什米爾 羅紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/404008,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404008/item/01_404008.jpg,1,0,3,12
+495,女裝 棉質喀什米爾 羅紋毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/404008,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404008/item/12_404008.jpg,1,0,3,12
+496,女裝 棉質喀什米爾 羅紋船型領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/400436,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/400436/item/01_400436.jpg,1,0,3,13
+497,女裝 喀什米爾 圓領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/400452,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400452/item/69_400452.jpg,1,0,3,14
+498,女裝 輕型V領 開襟外套,http://www.uniqlo.com/tw/store/goods/404014,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404014/item/01_404014.jpg,1,0,3,15
+498,女裝 輕型V領 開襟外套,http://www.uniqlo.com/tw/store/goods/404014,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404014/item/02_404014.jpg,1,0,3,15
+498,女裝 輕型V領 開襟外套,http://www.uniqlo.com/tw/store/goods/404014,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404014/item/09_404014.jpg,1,0,3,15
+499,女裝 輕型V領羅紋 五分袖開襟外套,http://www.uniqlo.com/tw/store/goods/404015,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404015/item/01_404015.jpg,1,0,3,16
+499,女裝 輕型V領羅紋 五分袖開襟外套,http://www.uniqlo.com/tw/store/goods/404015,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404015/item/02_404015.jpg,1,0,3,16
+499,女裝 輕型V領羅紋 五分袖開襟外套,http://www.uniqlo.com/tw/store/goods/404015,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404015/item/09_404015.jpg,1,0,3,16
+499,女裝 輕型V領羅紋 五分袖開襟外套,http://www.uniqlo.com/tw/store/goods/404015,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404015/item/27_404015.jpg,1,0,3,16
+499,女裝 輕型V領羅紋 五分袖開襟外套,http://www.uniqlo.com/tw/store/goods/404015,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404015/item/68_404015.jpg,1,0,3,16
+500,女裝3D棉質圓領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408124,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408124/item/01_408124.jpg,1,0,3,17
+500,女裝3D棉質圓領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408124,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408124/item/09_408124.jpg,1,0,3,17
+500,女裝3D棉質圓領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408124,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408124/item/27_408124.jpg,1,0,3,17
+500,女裝3D棉質圓領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408124,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/408124/item/58_408124.jpg,1,0,3,17
+500,女裝3D棉質圓領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408124,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408124/item/64_408124.jpg,1,0,3,17
+501,女裝 U 3D羅紋圓領毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406762,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406762/item/02_406762.jpg,1,0,3,18
+501,女裝 U 3D羅紋圓領毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406762,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406762/item/09_406762.jpg,1,0,3,18
+501,女裝 U 3D羅紋圓領毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406762,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406762/item/42_406762.jpg,1,0,3,18
+501,女裝 U 3D羅紋圓領毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406762,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406762/item/69_406762.jpg,1,0,3,18
+502,女裝 3D棉質船型領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408520,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408520/item/01_408520.jpg,1,0,3,19
+502,女裝 3D棉質船型領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408520,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408520/item/02_408520.jpg,1,0,3,19
+502,女裝 3D棉質船型領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408520,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408520/item/09_408520.jpg,1,0,3,19
+502,女裝 3D棉質船型領毛衣(短袖),http://www.uniqlo.com/tw/store/goods/408520,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/408520/item/71_408520.jpg,1,0,3,19
+503,女裝 3D棉質繭型 七分袖毛衣,http://www.uniqlo.com/tw/store/goods/404010,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404010/item/01_404010.jpg,1,0,3,20
+503,女裝 3D棉質繭型 七分袖毛衣,http://www.uniqlo.com/tw/store/goods/404010,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404010/item/02_404010.jpg,1,0,3,20
+503,女裝 3D棉質繭型 七分袖毛衣,http://www.uniqlo.com/tw/store/goods/404010,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404010/item/21_404010.jpg,1,0,3,20
+503,女裝 3D棉質繭型 七分袖毛衣,http://www.uniqlo.com/tw/store/goods/404010,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404010/item/69_404010.jpg,1,0,3,20
+503,女裝 3D棉質繭型 七分袖毛衣,http://www.uniqlo.com/tw/store/goods/404010,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404010/item/71_404010.jpg,1,0,3,20
+504,女裝3D棉質繭形洋裝(無袖),http://www.uniqlo.com/tw/store/goods/411448,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/411448/item/09_411448.jpg,1,0,3,21
+504,女裝3D棉質繭形洋裝(無袖),http://www.uniqlo.com/tw/store/goods/411448,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/411448/item/46_411448.jpg,1,0,3,21
+504,女裝3D棉質繭形洋裝(無袖),http://www.uniqlo.com/tw/store/goods/411448,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/411448/item/58_411448.jpg,1,0,3,21
+505,女裝3D棉質合身寬襬洋裝(短袖),http://www.uniqlo.com/tw/store/goods/410894,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/410894/item/27_410894.jpg,1,0,3,22
+505,女裝3D棉質合身寬襬洋裝(短袖),http://www.uniqlo.com/tw/store/goods/410894,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/410894/item/31_410894.jpg,1,0,3,22
+505,女裝3D棉質合身寬襬洋裝(短袖),http://www.uniqlo.com/tw/store/goods/410894,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/410894/item/69_410894.jpg,1,0,3,22
+506,女裝 U 3D圓領洋裝 (短袖),http://www.uniqlo.com/tw/store/goods/406667,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406667/item/02_406667.jpg,1,0,3,23
+506,女裝 U 3D圓領洋裝 (短袖),http://www.uniqlo.com/tw/store/goods/406667,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406667/item/42_406667.jpg,1,0,3,23
+506,女裝 U 3D圓領洋裝 (短袖),http://www.uniqlo.com/tw/store/goods/406667,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406667/item/69_406667.jpg,1,0,3,23
+507,女裝 IDLF 針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407394,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407394/item/00_407394.jpg,1,0,3,24
+507,女裝 IDLF 針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407394,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407394/item/10_407394.jpg,1,0,3,24
+507,女裝 IDLF 針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407394,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407394/item/67_407394.jpg,1,0,3,24
+507,女裝 IDLF 針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/407394,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407394/item/69_407394.jpg,1,0,3,24
+508,女裝 IDLF 粗紡針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/408365,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408365/item/01_408365.jpg,1,0,3,25
+508,女裝 IDLF 粗紡針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/408365,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408365/item/31_408365.jpg,1,0,3,25
+508,女裝 IDLF 粗紡針織開襟外套 (長袖),http://www.uniqlo.com/tw/store/goods/408365,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408365/item/69_408365.jpg,1,0,3,25
+509,女裝 U 棉質喀什米爾V領洋裝(長袖),http://www.uniqlo.com/tw/store/goods/406663,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406663/item/01_406663.jpg,1,0,3,26
+509,女裝 U 棉質喀什米爾V領洋裝(長袖),http://www.uniqlo.com/tw/store/goods/406663,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406663/item/09_406663.jpg,1,0,3,26
+509,女裝 U 棉質喀什米爾V領洋裝(長袖),http://www.uniqlo.com/tw/store/goods/406663,15-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406663/item/15_406663.jpg,1,0,3,26
+510,女裝 Active彈性POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408648,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408648/item/00_408648.jpg,1,0,3,27
+510,女裝 Active彈性POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408648,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408648/item/27_408648.jpg,1,0,3,27
+510,女裝 Active彈性POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408648,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/408648/item/54_408648.jpg,1,0,3,27
+510,女裝 Active彈性POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408648,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408648/item/68_408648.jpg,1,0,3,27
+510,女裝 Active彈性POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408648,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408648/item/69_408648.jpg,1,0,3,27
+511,女裝 彈性圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408647,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408647/item/00_408647.jpg,1,0,3,28
+511,女裝 彈性圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408647,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408647/item/27_408647.jpg,1,0,3,28
+511,女裝 彈性圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408647,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408647/item/68_408647.jpg,1,0,3,28
+511,女裝 彈性圓領毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408647,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408647/item/69_408647.jpg,1,0,3,28
+512,女裝 彈性V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408649,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408649/item/00_408649.jpg,1,0,3,29
+512,女裝 彈性V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408649,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408649/item/09_408649.jpg,1,0,3,29
+512,女裝 彈性V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408649,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/408649/item/54_408649.jpg,1,0,3,29
+512,女裝 彈性V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408649,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408649/item/68_408649.jpg,1,0,3,29
+513,女裝 羅紋荷葉領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407720,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407720/item/01_407720.jpg,1,0,3,30
+513,女裝 羅紋荷葉領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407720,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407720/item/03_407720.jpg,1,0,3,30
+513,女裝 羅紋荷葉領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407720,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/407720/item/12_407720.jpg,1,0,3,30
+514,女裝 羅紋中高領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/405167,99-Other,http://im.uniqlo.com/images/tw/uq/pc/goods/405167/item/99_405167.jpg,1,0,3,31
+515,女裝 IDLF POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/407390,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407390/item/01_407390.jpg,1,0,3,32
+515,女裝 IDLF POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/407390,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407390/item/69_407390.jpg,1,0,3,32
+516,女裝 IDLF POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408412,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408412/item/01_408412.jpg,1,0,3,33
+516,女裝 IDLF POLO毛衣 (短袖),http://www.uniqlo.com/tw/store/goods/408412,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408412/item/69_408412.jpg,1,0,3,33
+517,女裝 IDLF 條紋V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408372,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408372/item/01_408372.jpg,1,0,3,34
+517,女裝 IDLF 條紋V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408372,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/408372/item/14_408372.jpg,1,0,3,34
+517,女裝 IDLF 條紋V領毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/408372,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408372/item/69_408372.jpg,1,0,3,34
+518,女裝 IDLF 線條毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407385,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/407385/item/01_407385.jpg,1,0,3,35
+518,女裝 IDLF 線條毛衣 (長袖),http://www.uniqlo.com/tw/store/goods/407385,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407385/item/69_407385.jpg,1,0,3,35
+519,女裝 U 棉質V領細肩帶針織衫,http://www.uniqlo.com/tw/store/goods/406746,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406746/item/00_406746.jpg,1,0,3,36
+519,女裝 U 棉質V領細肩帶針織衫,http://www.uniqlo.com/tw/store/goods/406746,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406746/item/02_406746.jpg,1,0,3,36
+519,女裝 U 棉質V領細肩帶針織衫,http://www.uniqlo.com/tw/store/goods/406746,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406746/item/09_406746.jpg,1,0,3,36
+519,女裝 U 棉質V領細肩帶針織衫,http://www.uniqlo.com/tw/store/goods/406746,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406746/item/10_406746.jpg,1,0,3,36
+519,女裝 U 棉質V領細肩帶針織衫,http://www.uniqlo.com/tw/store/goods/406746,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406746/item/42_406746.jpg,1,0,3,36
+520,女裝 U棉質合身毛衣(短袖),http://www.uniqlo.com/tw/store/goods/406747,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406747/item/00_406747.jpg,1,0,3,37
+520,女裝 U棉質合身毛衣(短袖),http://www.uniqlo.com/tw/store/goods/406747,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406747/item/09_406747.jpg,1,0,3,37
+520,女裝 U棉質合身毛衣(短袖),http://www.uniqlo.com/tw/store/goods/406747,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406747/item/10_406747.jpg,1,0,3,37
+520,女裝 U棉質合身毛衣(短袖),http://www.uniqlo.com/tw/store/goods/406747,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406747/item/42_406747.jpg,1,0,3,37
+521,女裝 U 棉質V領七分袖短版毛衣,http://www.uniqlo.com/tw/store/goods/406751,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406751/item/01_406751.jpg,1,0,3,38
+521,女裝 U 棉質V領七分袖短版毛衣,http://www.uniqlo.com/tw/store/goods/406751,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406751/item/69_406751.jpg,1,0,3,38
+522,女裝 U 棉質圓領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406752,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406752/item/09_406752.jpg,1,0,3,39
+522,女裝 U 棉質圓領短版毛衣(長袖),http://www.uniqlo.com/tw/store/goods/406752,47-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/406752/item/47_406752.jpg,1,0,3,39
+523,女裝 特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/406350,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406350/item/09_406350.jpg,1,1,0,0
+523,女裝 特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/406350,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406350/item/63_406350.jpg,1,1,0,0
+523,女裝 特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/406350,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406350/item/66_406350.jpg,1,1,0,0
+524,女裝特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/401791,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/401791/item/65_401791.jpg,1,1,0,1
+524,女裝特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/401791,90-90,http://im.uniqlo.com/images/tw/uq/pc/goods/401791/item/90_401791.jpg,1,1,0,1
+525,女裝特級彈性牛仔褲(acid),http://www.uniqlo.com/tw/store/goods/405622,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405622/item/07_405622.jpg,1,1,0,2
+525,女裝特級彈性牛仔褲(acid),http://www.uniqlo.com/tw/store/goods/405622,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405622/item/67_405622.jpg,1,1,0,2
+526,女裝 特級彈性牛仔褲  (刷破),http://www.uniqlo.com/tw/store/goods/196057,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/196057/item/61_196057.jpg,1,1,0,3
+527,女裝 特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/403137,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403137/item/61_403137.jpg,1,1,0,4
+528,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406349,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406349/item/62_406349.jpg,1,1,0,5
+528,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406349,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406349/item/64_406349.jpg,1,1,0,5
+528,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406349,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406349/item/65_406349.jpg,1,1,0,5
+529,女裝 特級彈性牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/199655,90-90,http://im.uniqlo.com/images/tw/uq/pc/goods/199655/item/90_199655.jpg,1,1,0,6
+530,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404562,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404562/item/09_404562.jpg,1,1,0,7
+530,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404562,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404562/item/63_404562.jpg,1,1,0,7
+530,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404562,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404562/item/67_404562.jpg,1,1,0,7
+530,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404562,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404562/item/69_404562.jpg,1,1,0,7
+531,女裝特級彈性牛仔褲(亮面),http://www.uniqlo.com/tw/store/goods/401790,90-90,http://im.uniqlo.com/images/tw/uq/pc/goods/401790/item/90_401790.jpg,1,1,0,8
+532,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/400534,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400534/item/03_400534.jpg,1,1,0,9
+532,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/400534,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400534/item/09_400534.jpg,1,1,0,9
+532,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/400534,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/400534/item/66_400534.jpg,1,1,0,9
+532,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/400534,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400534/item/69_400534.jpg,1,1,0,9
+533,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/181597,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/181597/item/69_181597.jpg,1,1,0,10
+534,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/173696,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/173696/item/00_173696.jpg,1,1,0,11
+534,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/173696,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/173696/item/09_173696.jpg,1,1,0,11
+534,女裝 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/173696,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/173696/item/69_173696.jpg,1,1,0,11
+535,女裝高腰煙管褲,http://www.uniqlo.com/tw/store/goods/408784,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408784/item/64_408784.jpg,1,1,0,12
+536,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/404607,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404607/item/00_404607.jpg,1,1,0,13
+536,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/404607,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404607/item/09_404607.jpg,1,1,0,13
+536,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/404607,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404607/item/64_404607.jpg,1,1,0,13
+536,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/404607,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404607/item/67_404607.jpg,1,1,0,13
+536,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/404607,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404607/item/69_404607.jpg,1,1,0,13
+537,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/40460700001,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/40460700001/item/10_40460700001.jpg,1,1,0,14
+537,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/40460700001,41-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/40460700001/item/41_40460700001.jpg,1,1,0,14
+537,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/40460700001,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/40460700001/item/56_40460700001.jpg,1,1,0,14
+537,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/40460700001,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40460700001/item/61_40460700001.jpg,1,1,0,14
+538,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/401454,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/401454/item/00_401454.jpg,1,1,0,15
+538,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/401454,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/401454/item/09_401454.jpg,1,1,0,15
+538,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/401454,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/401454/item/65_401454.jpg,1,1,0,15
+538,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/401454,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/401454/item/68_401454.jpg,1,1,0,15
+538,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/401454,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/401454/item/69_401454.jpg,1,1,0,15
+539,女裝 高腰煙管褲,http://www.uniqlo.com/tw/store/goods/408350,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408350/item/65_408350.jpg,1,1,0,16
+540,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/404606,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404606/item/00_404606.jpg,1,1,0,17
+540,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/404606,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404606/item/65_404606.jpg,1,1,0,17
+540,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/404606,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404606/item/67_404606.jpg,1,1,0,17
+540,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/404606,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404606/item/69_404606.jpg,1,1,0,17
+541,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/407399,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407399/item/62_407399.jpg,1,1,0,18
+541,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/407399,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407399/item/63_407399.jpg,1,1,0,18
+541,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/407399,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407399/item/66_407399.jpg,1,1,0,18
+541,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/407399,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407399/item/68_407399.jpg,1,1,0,18
+542,女裝 高腰 BOYFRIENDFIT 牛仔褲,http://www.uniqlo.com/tw/store/goods/406351,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406351/item/08_406351.jpg,1,1,0,19
+543,女裝 Slim BoyfriendFit 九分牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/40361300001,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40361300001/item/64_40361300001.jpg,1,1,0,20
+544,女裝 Slim BoyfriendFit 九分牛仔褲(刷破),http://www.uniqlo.com/tw/store/goods/403613,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403613/item/63_403613.jpg,1,1,0,21
+545,女裝Slim BoyfriendFit九分牛仔褲(法蘭絨),http://www.uniqlo.com/tw/store/goods/403614,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403614/item/08_403614.jpg,1,1,0,22
+545,女裝Slim BoyfriendFit九分牛仔褲(法蘭絨),http://www.uniqlo.com/tw/store/goods/403614,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403614/item/66_403614.jpg,1,1,0,22
+546,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/400535,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/400535/item/65_400535.jpg,1,1,0,23
+546,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/400535,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/400535/item/67_400535.jpg,1,1,0,23
+546,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/400535,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400535/item/69_400535.jpg,1,1,0,23
+547,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/181598,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/181598/item/69_181598.jpg,1,1,0,24
+548,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/18159800002,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/18159800002/item/65_18159800002.jpg,1,1,0,25
+549,女裝 Slim BoyfriendFit 九分牛仔褲,http://www.uniqlo.com/tw/store/goods/173699,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/173699/item/69_173699.jpg,1,1,0,26
+550,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/404609,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404609/item/09_404609.jpg,1,1,0,27
+550,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/404609,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404609/item/66_404609.jpg,1,1,0,27
+550,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/404609,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404609/item/68_404609.jpg,1,1,0,27
+550,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/404609,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404609/item/69_404609.jpg,1,1,0,27
+551,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/403622,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403622/item/09_403622.jpg,1,1,0,28
+551,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/403622,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403622/item/65_403622.jpg,1,1,0,28
+551,女裝 EZY牛仔褲,http://www.uniqlo.com/tw/store/goods/403622,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403622/item/67_403622.jpg,1,1,0,28
+552,女裝 U 高腰合身直筒牛仔褲,http://www.uniqlo.com/tw/store/goods/406655,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406655/item/01_406655.jpg,1,1,0,29
+552,女裝 U 高腰合身直筒牛仔褲,http://www.uniqlo.com/tw/store/goods/406655,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406655/item/09_406655.jpg,1,1,0,29
+552,女裝 U 高腰合身直筒牛仔褲,http://www.uniqlo.com/tw/store/goods/406655,22-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406655/item/22_406655.jpg,1,1,0,29
+552,女裝 U 高腰合身直筒牛仔褲,http://www.uniqlo.com/tw/store/goods/406655,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406655/item/65_406655.jpg,1,1,0,29
+552,女裝 U 高腰合身直筒牛仔褲,http://www.uniqlo.com/tw/store/goods/406655,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406655/item/68_406655.jpg,1,1,0,29
+553,女裝 高腰寬褲(牛仔),http://www.uniqlo.com/tw/store/goods/407979,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407979/item/65_407979.jpg,1,1,0,30
+553,女裝 高腰寬褲(牛仔),http://www.uniqlo.com/tw/store/goods/407979,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/407979/item/68_407979.jpg,1,1,0,30
+554,女裝 高腰牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406355,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406355/item/08_406355.jpg,1,1,0,31
+554,女裝 高腰牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406355,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406355/item/65_406355.jpg,1,1,0,31
+554,女裝 高腰牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406355,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406355/item/69_406355.jpg,1,1,0,31
+555,女裝 孕婦包腹 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406511,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406511/item/09_406511.jpg,1,1,0,32
+555,女裝 孕婦包腹 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406511,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406511/item/64_406511.jpg,1,1,0,32
+555,女裝 孕婦包腹 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406511,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406511/item/68_406511.jpg,1,1,0,32
+555,女裝 孕婦包腹 特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/406511,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406511/item/69_406511.jpg,1,1,0,32
+556,女裝 孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404122,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404122/item/68_404122.jpg,1,1,0,33
+557,女裝 孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404492,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404492/item/66_404492.jpg,1,1,0,34
+558,女裝 孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404493,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404493/item/09_404493.jpg,1,1,0,35
+559,女裝 牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/01_404204.jpg,1,1,0,36
+559,女裝 牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/64_404204.jpg,1,1,0,36
+559,女裝 牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/68_404204.jpg,1,1,0,36
+560,女裝 高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/00_404702.jpg,1,1,0,37
+560,女裝 高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/08_404702.jpg,1,1,0,37
+560,女裝 高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/63_404702.jpg,1,1,0,37
+560,女裝 高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/65_404702.jpg,1,1,0,37
+561,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/405283,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405283/item/63_405283.jpg,1,1,0,38
+561,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/405283,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405283/item/68_405283.jpg,1,1,0,38
+561,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/405283,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405283/item/69_405283.jpg,1,1,0,38
+562,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/180916,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/180916/item/69_180916.jpg,1,1,0,39
+563,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/401866,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/401866/item/69_401866.jpg,1,1,0,40
+564,女裝 U 牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406656,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406656/item/01_406656.jpg,1,1,0,41
+564,女裝 U 牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406656,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406656/item/09_406656.jpg,1,1,0,41
+564,女裝 U 牛仔寬褲,http://www.uniqlo.com/tw/store/goods/406656,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406656/item/65_406656.jpg,1,1,0,41
+565,女裝 U 牛仔中長裙,http://www.uniqlo.com/tw/store/goods/406657,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406657/item/01_406657.jpg,1,1,0,42
+565,女裝 U 牛仔中長裙,http://www.uniqlo.com/tw/store/goods/406657,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406657/item/09_406657.jpg,1,1,0,42
+565,女裝 U 牛仔中長裙,http://www.uniqlo.com/tw/store/goods/406657,22-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406657/item/22_406657.jpg,1,1,0,42
+565,女裝 U 牛仔中長裙,http://www.uniqlo.com/tw/store/goods/406657,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406657/item/65_406657.jpg,1,1,0,42
+566,女裝 高腰牛仔附腰帶窄版裙,http://www.uniqlo.com/tw/store/goods/408879,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408879/item/65_408879.jpg,1,1,0,43
+567,女裝 IDLF 牛仔外套,http://www.uniqlo.com/tw/store/goods/405396,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405396/item/00_405396.jpg,1,1,0,44
+567,女裝 IDLF 牛仔外套,http://www.uniqlo.com/tw/store/goods/405396,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405396/item/69_405396.jpg,1,1,0,44
+568,女裝 IDLF 合身九分牛仔褲,http://www.uniqlo.com/tw/store/goods/405957,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405957/item/00_405957.jpg,1,1,0,45
+568,女裝 IDLF 合身九分牛仔褲,http://www.uniqlo.com/tw/store/goods/405957,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405957/item/69_405957.jpg,1,1,0,45
+569,女裝 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/19251300001,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/19251300001/item/66_19251300001.jpg,1,1,0,46
+570,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/407601,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/407601/item/32_407601.jpg,1,1,1,0
+570,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/407601,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/407601/item/57_407601.jpg,1,1,1,0
+570,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/407601,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/407601/item/69_407601.jpg,1,1,1,0
+571,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/403595,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/403595/item/32_403595.jpg,1,1,1,1
+571,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/403595,34-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/403595/item/34_403595.jpg,1,1,1,1
+571,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/403595,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/403595/item/57_403595.jpg,1,1,1,1
+571,女裝 高腰卡其寬褲,http://www.uniqlo.com/tw/store/goods/403595,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403595/item/69_403595.jpg,1,1,1,1
+572,女裝 寬襬褲,http://www.uniqlo.com/tw/store/goods/404542,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404542/item/09_404542.jpg,1,1,1,2
+572,女裝 寬襬褲,http://www.uniqlo.com/tw/store/goods/404542,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404542/item/10_404542.jpg,1,1,1,2
+572,女裝 寬襬褲,http://www.uniqlo.com/tw/store/goods/404542,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404542/item/55_404542.jpg,1,1,1,2
+572,女裝 寬襬褲,http://www.uniqlo.com/tw/store/goods/404542,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404542/item/69_404542.jpg,1,1,1,2
+573,女裝 垂墜風九分寬褲,http://www.uniqlo.com/tw/store/goods/404685,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404685/item/01_404685.jpg,1,1,1,3
+573,女裝 垂墜風九分寬褲,http://www.uniqlo.com/tw/store/goods/404685,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404685/item/02_404685.jpg,1,1,1,3
+573,女裝 垂墜風九分寬褲,http://www.uniqlo.com/tw/store/goods/404685,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404685/item/69_404685.jpg,1,1,1,3
+573,女裝 垂墜風九分寬褲,http://www.uniqlo.com/tw/store/goods/404685,70-LIGHT PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404685/item/70_404685.jpg,1,1,1,3
+574,女裝 U 高腰九分寬褲,http://www.uniqlo.com/tw/store/goods/406654,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406654/item/01_406654.jpg,1,1,1,4
+574,女裝 U 高腰九分寬褲,http://www.uniqlo.com/tw/store/goods/406654,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406654/item/09_406654.jpg,1,1,1,4
+574,女裝 U 高腰九分寬褲,http://www.uniqlo.com/tw/store/goods/406654,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406654/item/68_406654.jpg,1,1,1,4
+575,女裝 附腰帶 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404262,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404262/item/09_404262.jpg,1,1,1,5
+575,女裝 附腰帶 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404262,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404262/item/12_404262.jpg,1,1,1,5
+575,女裝 附腰帶 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404262,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404262/item/32_404262.jpg,1,1,1,5
+575,女裝 附腰帶 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404262,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404262/item/63_404262.jpg,1,1,1,5
+575,女裝 附腰帶 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404262,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404262/item/69_404262.jpg,1,1,1,5
+576,女裝 垂墜風七分寬褲,http://www.uniqlo.com/tw/store/goods/406037,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406037/item/01_406037.jpg,1,1,1,6
+576,女裝 垂墜風七分寬褲,http://www.uniqlo.com/tw/store/goods/406037,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406037/item/09_406037.jpg,1,1,1,6
+576,女裝 垂墜風七分寬褲,http://www.uniqlo.com/tw/store/goods/406037,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406037/item/21_406037.jpg,1,1,1,6
+576,女裝 垂墜風七分寬褲,http://www.uniqlo.com/tw/store/goods/406037,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406037/item/32_406037.jpg,1,1,1,6
+577,女裝 U 寬褲,http://www.uniqlo.com/tw/store/goods/406660,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406660/item/09_406660.jpg,1,1,1,7
+577,女裝 U 寬褲,http://www.uniqlo.com/tw/store/goods/406660,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406660/item/32_406660.jpg,1,1,1,7
+577,女裝 U 寬褲,http://www.uniqlo.com/tw/store/goods/406660,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406660/item/55_406660.jpg,1,1,1,7
+577,女裝 U 寬褲,http://www.uniqlo.com/tw/store/goods/406660,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406660/item/69_406660.jpg,1,1,1,7
+578,女裝HPJ打褶寬褲,http://www.uniqlo.com/tw/store/goods/405557,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/405557/item/09_405557.jpg,1,1,1,8
+578,女裝HPJ打褶寬褲,http://www.uniqlo.com/tw/store/goods/405557,46-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/405557/item/46_405557.jpg,1,1,1,8
+578,女裝HPJ打褶寬褲,http://www.uniqlo.com/tw/store/goods/405557,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405557/item/64_405557.jpg,1,1,1,8
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/00_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/02_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/09_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/10_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,40-CREAM,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/40_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/56_404615.jpg,1,1,2,0
+579,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404615,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404615/item/61_404615.jpg,1,1,2,0
+580,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/400549,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/400549/item/00_400549.jpg,1,1,2,1
+580,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/400549,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400549/item/09_400549.jpg,1,1,2,1
+580,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/400549,17-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/400549/item/17_400549.jpg,1,1,2,1
+580,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/400549,34-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/400549/item/34_400549.jpg,1,1,2,1
+581,女裝 印花緊身褲,http://www.uniqlo.com/tw/store/goods/405284,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405284/item/08_405284.jpg,1,1,2,2
+581,女裝 印花緊身褲,http://www.uniqlo.com/tw/store/goods/405284,62-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405284/item/62_405284.jpg,1,1,2,2
+582,女裝 緊身褲(pan),http://www.uniqlo.com/tw/store/goods/184217,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/184217/item/01_184217.jpg,1,1,2,3
+582,女裝 緊身褲(pan),http://www.uniqlo.com/tw/store/goods/184217,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/184217/item/09_184217.jpg,1,1,2,3
+583,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/404530,91-91,http://im.uniqlo.com/images/tw/uq/pc/goods/404530/item/91_404530.jpg,1,1,2,4
+584,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/192453,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/192453/item/09_192453.jpg,1,1,2,5
+585,女裝 M HERITAGE 緊身褲,http://www.uniqlo.com/tw/store/goods/401865,04-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/401865/item/04_401865.jpg,1,1,2,6
+585,女裝 M HERITAGE 緊身褲,http://www.uniqlo.com/tw/store/goods/401865,19-WINE,http://im.uniqlo.com/images/tw/uq/pc/goods/401865/item/19_401865.jpg,1,1,2,6
+585,女裝 M HERITAGE 緊身褲,http://www.uniqlo.com/tw/store/goods/401865,90-90,http://im.uniqlo.com/images/tw/uq/pc/goods/401865/item/90_401865.jpg,1,1,2,6
+586,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40054900001,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/40054900001/item/08_40054900001.jpg,1,1,2,7
+586,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40054900001,35-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/40054900001/item/35_40054900001.jpg,1,1,2,7
+586,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40054900001,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/40054900001/item/58_40054900001.jpg,1,1,2,7
+586,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40054900001,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40054900001/item/68_40054900001.jpg,1,1,2,7
+586,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40054900001,77-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/40054900001/item/77_40054900001.jpg,1,1,2,7
+587,女裝 緊身褲,http://www.uniqlo.com/tw/store/goods/40453000001,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40453000001/item/67_40453000001.jpg,1,1,2,8
+588,女裝 緊身褲(pan),http://www.uniqlo.com/tw/store/goods/18421700001,19-WINE,http://im.uniqlo.com/images/tw/uq/pc/goods/18421700001/item/19_18421700001.jpg,1,1,2,9
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/00_404616.jpg,1,1,2,10
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,04-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/04_404616.jpg,1,1,2,10
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/09_404616.jpg,1,1,2,10
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/13_404616.jpg,1,1,2,10
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/43_404616.jpg,1,1,2,10
+589,女裝 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404616,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404616/item/57_404616.jpg,1,1,2,10
+590,女裝 牛仔七分緊身褲,http://www.uniqlo.com/tw/store/goods/405285,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405285/item/64_405285.jpg,1,1,2,11
+590,女裝 牛仔七分緊身褲,http://www.uniqlo.com/tw/store/goods/405285,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405285/item/69_405285.jpg,1,1,2,11
+591,女裝 印花七分緊身褲,http://www.uniqlo.com/tw/store/goods/405286,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/405286/item/30_405286.jpg,1,1,2,12
+591,女裝 印花七分緊身褲,http://www.uniqlo.com/tw/store/goods/405286,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405286/item/68_405286.jpg,1,1,2,12
+592,女裝 印花七分緊身褲,http://www.uniqlo.com/tw/store/goods/408580,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408580/item/09_408580.jpg,1,1,2,13
+592,女裝 印花七分緊身褲,http://www.uniqlo.com/tw/store/goods/408580,36-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/408580/item/36_408580.jpg,1,1,2,13
+593,女裝 AIRism 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404082,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404082/item/06_404082.jpg,1,1,2,14
+593,女裝 AIRism 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404082,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404082/item/09_404082.jpg,1,1,2,14
+593,女裝 AIRism 七分緊身褲,http://www.uniqlo.com/tw/store/goods/404082,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404082/item/69_404082.jpg,1,1,2,14
+594,女裝 SPRZ NY AIRism 緊身褲,http://www.uniqlo.com/tw/store/goods/408485,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408485/item/08_408485.jpg,1,1,2,15
+594,女裝 SPRZ NY AIRism 緊身褲,http://www.uniqlo.com/tw/store/goods/408485,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408485/item/63_408485.jpg,1,1,2,15
+594,女裝 SPRZ NY AIRism 緊身褲,http://www.uniqlo.com/tw/store/goods/408485,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408485/item/68_408485.jpg,1,1,2,15
+594,女裝 SPRZ NY AIRism 緊身褲,http://www.uniqlo.com/tw/store/goods/408485,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408485/item/69_408485.jpg,1,1,2,15
+595,女裝AIRism 運動機能緊身褲,http://www.uniqlo.com/tw/store/goods/404756,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404756/item/09_404756.jpg,1,1,2,16
+596,女裝 AIRism 運動機能緊身褲,http://www.uniqlo.com/tw/store/goods/404520,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404520/item/09_404520.jpg,1,1,2,17
+597,女裝 AIRism 九分緊身褲,http://www.uniqlo.com/tw/store/goods/404078,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404078/item/06_404078.jpg,1,1,2,18
+597,女裝 AIRism 九分緊身褲,http://www.uniqlo.com/tw/store/goods/404078,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404078/item/09_404078.jpg,1,1,2,18
+597,女裝 AIRism 九分緊身褲,http://www.uniqlo.com/tw/store/goods/404078,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404078/item/69_404078.jpg,1,1,2,18
+598,女裝 AIRism 無縫緊身褲,http://www.uniqlo.com/tw/store/goods/404083,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404083/item/08_404083.jpg,1,1,2,19
+598,女裝 AIRism 無縫緊身褲,http://www.uniqlo.com/tw/store/goods/404083,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404083/item/09_404083.jpg,1,1,2,19
+599,女裝 孕婦包腹緊身褲,http://www.uniqlo.com/tw/store/goods/406510,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406510/item/00_406510.jpg,1,1,2,20
+599,女裝 孕婦包腹緊身褲,http://www.uniqlo.com/tw/store/goods/406510,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406510/item/02_406510.jpg,1,1,2,20
+599,女裝 孕婦包腹緊身褲,http://www.uniqlo.com/tw/store/goods/406510,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406510/item/09_406510.jpg,1,1,2,20
+599,女裝 孕婦包腹緊身褲,http://www.uniqlo.com/tw/store/goods/406510,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/406510/item/56_406510.jpg,1,1,2,20
+600,女裝 孕婦包腹 緊身褲,http://www.uniqlo.com/tw/store/goods/401811,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/401811/item/00_401811.jpg,1,1,2,21
+600,女裝 孕婦包腹 緊身褲,http://www.uniqlo.com/tw/store/goods/401811,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/401811/item/09_401811.jpg,1,1,2,21
+600,女裝 孕婦包腹 緊身褲,http://www.uniqlo.com/tw/store/goods/401811,34-BROWN,http://im.uniqlo.com/images/tw/uq/pc/goods/401811/item/34_401811.jpg,1,1,2,21
+601,女裝 孕婦包腹牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/410443,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/410443/item/69_410443.jpg,1,1,2,22
+602,女裝 孕婦包腹 牛仔緊身褲,http://www.uniqlo.com/tw/store/goods/403245,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403245/item/69_403245.jpg,1,1,2,23
+603,女裝 圓裙,http://www.uniqlo.com/tw/store/goods/408592,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408592/item/66_408592.jpg,1,1,3,0
+604,女裝 圓裙,http://www.uniqlo.com/tw/store/goods/408594,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408594/item/68_408594.jpg,1,1,3,1
+605,女裝 圓裙,http://www.uniqlo.com/tw/store/goods/404697,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404697/item/00_404697.jpg,1,1,3,2
+605,女裝 圓裙,http://www.uniqlo.com/tw/store/goods/404697,26-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404697/item/26_404697.jpg,1,1,3,2
+605,女裝 圓裙,http://www.uniqlo.com/tw/store/goods/404697,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404697/item/69_404697.jpg,1,1,3,2
+606,女裝 高腰DRY 彈性打褶裙,http://www.uniqlo.com/tw/store/goods/404690,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404690/item/00_404690.jpg,1,1,3,3
+606,女裝 高腰DRY 彈性打褶裙,http://www.uniqlo.com/tw/store/goods/404690,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404690/item/32_404690.jpg,1,1,3,3
+606,女裝 高腰DRY 彈性打褶裙,http://www.uniqlo.com/tw/store/goods/404690,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404690/item/58_404690.jpg,1,1,3,3
+606,女裝 高腰DRY 彈性打褶裙,http://www.uniqlo.com/tw/store/goods/404690,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404690/item/69_404690.jpg,1,1,3,3
+607,女裝 高腰窄版裙(附腰帶),http://www.uniqlo.com/tw/store/goods/404698,16-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/404698/item/16_404698.jpg,1,1,3,4
+607,女裝 高腰窄版裙(附腰帶),http://www.uniqlo.com/tw/store/goods/404698,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/404698/item/30_404698.jpg,1,1,3,4
+607,女裝 高腰窄版裙(附腰帶),http://www.uniqlo.com/tw/store/goods/404698,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404698/item/56_404698.jpg,1,1,3,4
+607,女裝 高腰窄版裙(附腰帶),http://www.uniqlo.com/tw/store/goods/404698,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404698/item/69_404698.jpg,1,1,3,4
+608,女裝 高腰燈芯絨迷你裙,http://www.uniqlo.com/tw/store/goods/401785,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/401785/item/32_401785.jpg,1,1,3,5
+609,女裝 高腰雪紡細褶裙,http://www.uniqlo.com/tw/store/goods/406109,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406109/item/00_406109.jpg,1,1,3,6
+609,女裝 高腰雪紡細褶裙,http://www.uniqlo.com/tw/store/goods/406109,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406109/item/10_406109.jpg,1,1,3,6
+609,女裝 高腰雪紡細褶裙,http://www.uniqlo.com/tw/store/goods/406109,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406109/item/69_406109.jpg,1,1,3,6
+610,女裝 高腰印花 雪紡細褶裙,http://www.uniqlo.com/tw/store/goods/408579,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408579/item/01_408579.jpg,1,1,3,7
+610,女裝 高腰印花 雪紡細褶裙,http://www.uniqlo.com/tw/store/goods/408579,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408579/item/09_408579.jpg,1,1,3,7
+611,女裝 蕾絲裙,http://www.uniqlo.com/tw/store/goods/405293,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405293/item/01_405293.jpg,1,1,3,8
+611,女裝 蕾絲裙,http://www.uniqlo.com/tw/store/goods/405293,11-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/405293/item/11_405293.jpg,1,1,3,8
+611,女裝 蕾絲裙,http://www.uniqlo.com/tw/store/goods/405293,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/405293/item/67_405293.jpg,1,1,3,8
+611,女裝 蕾絲裙,http://www.uniqlo.com/tw/store/goods/405293,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405293/item/69_405293.jpg,1,1,3,8
+612,女裝蕾絲寬襬裙,http://www.uniqlo.com/tw/store/goods/409574,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/409574/item/01_409574.jpg,1,1,3,9
+612,女裝蕾絲寬襬裙,http://www.uniqlo.com/tw/store/goods/409574,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/409574/item/09_409574.jpg,1,1,3,9
+612,女裝蕾絲寬襬裙,http://www.uniqlo.com/tw/store/goods/409574,54-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/409574/item/54_409574.jpg,1,1,3,9
+612,女裝蕾絲寬襬裙,http://www.uniqlo.com/tw/store/goods/409574,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/409574/item/69_409574.jpg,1,1,3,9
+613,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/406505,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406505/item/05_406505.jpg,1,1,3,10
+613,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/406505,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406505/item/08_406505.jpg,1,1,3,10
+613,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/406505,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406505/item/09_406505.jpg,1,1,3,10
+613,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/406505,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406505/item/68_406505.jpg,1,1,3,10
+613,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/406505,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406505/item/69_406505.jpg,1,1,3,10
+614,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/400571,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400571/item/05_400571.jpg,1,1,3,11
+614,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/400571,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400571/item/08_400571.jpg,1,1,3,11
+614,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/400571,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400571/item/09_400571.jpg,1,1,3,11
+614,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/400571,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400571/item/69_400571.jpg,1,1,3,11
+615,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/184842,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/184842/item/05_184842.jpg,1,1,3,12
+615,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/184842,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/184842/item/08_184842.jpg,1,1,3,12
+615,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/184842,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/184842/item/09_184842.jpg,1,1,3,12
+615,女裝 彈性裙,http://www.uniqlo.com/tw/store/goods/184842,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/184842/item/69_184842.jpg,1,1,3,12
+616,女裝 IDLF 牛仔寬襬中長裙,http://www.uniqlo.com/tw/store/goods/405958,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/405958/item/00_405958.jpg,1,1,3,13
+616,女裝 IDLF 牛仔寬襬中長裙,http://www.uniqlo.com/tw/store/goods/405958,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405958/item/69_405958.jpg,1,1,3,13
+617,女裝 IDLF 嫘縈設計裙,http://www.uniqlo.com/tw/store/goods/40597400001,61-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40597400001/item/61_40597400001.jpg,1,1,3,14
+617,女裝 IDLF 嫘縈設計裙,http://www.uniqlo.com/tw/store/goods/40597400001,65-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/40597400001/item/65_40597400001.jpg,1,1,3,14
+617,女裝 IDLF 嫘縈設計裙,http://www.uniqlo.com/tw/store/goods/40597400001,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/40597400001/item/69_40597400001.jpg,1,1,3,14
+618,女裝 HPJ 嫘縈印花寬襬長裙,http://www.uniqlo.com/tw/store/goods/408669,12-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/408669/item/12_408669.jpg,1,1,3,15
+618,女裝 HPJ 嫘縈印花寬襬長裙,http://www.uniqlo.com/tw/store/goods/408669,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408669/item/32_408669.jpg,1,1,3,15
+619,女裝 U 附腰帶一片裙,http://www.uniqlo.com/tw/store/goods/406658,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406658/item/01_406658.jpg,1,1,3,16
+619,女裝 U 附腰帶一片裙,http://www.uniqlo.com/tw/store/goods/406658,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406658/item/09_406658.jpg,1,1,3,16
+619,女裝 U 附腰帶一片裙,http://www.uniqlo.com/tw/store/goods/406658,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406658/item/32_406658.jpg,1,1,3,16
+619,女裝 U 附腰帶一片裙,http://www.uniqlo.com/tw/store/goods/406658,55-GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/406658/item/55_406658.jpg,1,1,3,16
+620,女裝 U 棉質拉鍊裙,http://www.uniqlo.com/tw/store/goods/407918,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/407918/item/03_407918.jpg,1,1,3,17
+620,女裝 U 棉質拉鍊裙,http://www.uniqlo.com/tw/store/goods/407918,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/407918/item/09_407918.jpg,1,1,3,17
+620,女裝 U 棉質拉鍊裙,http://www.uniqlo.com/tw/store/goods/407918,42-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/407918/item/42_407918.jpg,1,1,3,17
+621,女裝 2WAY 長裙,http://www.uniqlo.com/tw/store/goods/406318,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406318/item/03_406318.jpg,1,1,3,18
+621,女裝 2WAY 長裙,http://www.uniqlo.com/tw/store/goods/406318,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406318/item/09_406318.jpg,1,1,3,18
+621,女裝 2WAY 長裙,http://www.uniqlo.com/tw/store/goods/406318,14-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/406318/item/14_406318.jpg,1,1,3,18
+621,女裝 2WAY 長裙,http://www.uniqlo.com/tw/store/goods/406318,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406318/item/69_406318.jpg,1,1,3,18
+622,女裝 雙面紗裙,http://www.uniqlo.com/tw/store/goods/406834,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406834/item/02_406834.jpg,1,1,3,19
+622,女裝 雙面紗裙,http://www.uniqlo.com/tw/store/goods/406834,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406834/item/32_406834.jpg,1,1,3,19
+622,女裝 雙面紗裙,http://www.uniqlo.com/tw/store/goods/406834,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/406834/item/63_406834.jpg,1,1,3,19
+622,女裝 雙面紗裙,http://www.uniqlo.com/tw/store/goods/406834,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406834/item/69_406834.jpg,1,1,3,19
+623,女裝 IDLF 嫘縈寬襬裙,http://www.uniqlo.com/tw/store/goods/403003,19-WINE,http://im.uniqlo.com/images/tw/uq/pc/goods/403003/item/19_403003.jpg,1,1,3,20
+623,女裝 IDLF 嫘縈寬襬裙,http://www.uniqlo.com/tw/store/goods/403003,67-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403003/item/67_403003.jpg,1,1,3,20
+624,女裝 IDLF 流蘇裙,http://www.uniqlo.com/tw/store/goods/403660,13-RED,http://im.uniqlo.com/images/tw/uq/pc/goods/403660/item/13_403660.jpg,1,1,3,21
+625,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/404662,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404662/item/05_404662.jpg,1,1,4,0
+625,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/404662,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404662/item/08_404662.jpg,1,1,4,0
+625,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/404662,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404662/item/09_404662.jpg,1,1,4,0
+625,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/404662,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404662/item/68_404662.jpg,1,1,4,0
+625,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/404662,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404662/item/69_404662.jpg,1,1,4,0
+626,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/184827,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/184827/item/05_184827.jpg,1,1,4,1
+626,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/184827,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/184827/item/08_184827.jpg,1,1,4,1
+626,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/184827,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/184827/item/09_184827.jpg,1,1,4,1
+626,女裝 彈性長褲,http://www.uniqlo.com/tw/store/goods/184827,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/184827/item/69_184827.jpg,1,1,4,1
+627,女裝 彈性褲,http://www.uniqlo.com/tw/store/goods/179087,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/179087/item/05_179087.jpg,1,1,4,2
+627,女裝 彈性褲,http://www.uniqlo.com/tw/store/goods/179087,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/179087/item/08_179087.jpg,1,1,4,2
+627,女裝 彈性褲,http://www.uniqlo.com/tw/store/goods/179087,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/179087/item/09_179087.jpg,1,1,4,2
+627,女裝 彈性褲,http://www.uniqlo.com/tw/store/goods/179087,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/179087/item/69_179087.jpg,1,1,4,2
+628,女裝 Smart Style九分褲(棉質風),http://www.uniqlo.com/tw/store/goods/408202,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408202/item/01_408202.jpg,1,1,4,3
+628,女裝 Smart Style九分褲(棉質風),http://www.uniqlo.com/tw/store/goods/408202,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/408202/item/09_408202.jpg,1,1,4,3
+628,女裝 Smart Style九分褲(棉質風),http://www.uniqlo.com/tw/store/goods/408202,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408202/item/31_408202.jpg,1,1,4,3
+628,女裝 Smart Style九分褲(棉質風),http://www.uniqlo.com/tw/store/goods/408202,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408202/item/69_408202.jpg,1,1,4,3
+629,女裝Smart Style九分褲(細條紋),http://www.uniqlo.com/tw/store/goods/408203,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408203/item/02_408203.jpg,1,1,4,4
+629,女裝Smart Style九分褲(細條紋),http://www.uniqlo.com/tw/store/goods/408203,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408203/item/68_408203.jpg,1,1,4,4
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/00_404660.jpg,1,1,4,5
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/06_404660.jpg,1,1,4,5
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/09_404660.jpg,1,1,4,5
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/10_404660.jpg,1,1,4,5
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/31_404660.jpg,1,1,4,5
+630,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/404660,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404660/item/69_404660.jpg,1,1,4,5
+631,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/400552,04-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400552/item/04_400552.jpg,1,1,4,6
+631,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/400552,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/400552/item/07_400552.jpg,1,1,4,6
+631,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/400552,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/400552/item/09_400552.jpg,1,1,4,6
+631,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/400552,32-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/400552/item/32_400552.jpg,1,1,4,6
+631,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/400552,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/400552/item/69_400552.jpg,1,1,4,6
+632,女裝 Smart Style九分褲,http://www.uniqlo.com/tw/store/goods/173707,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/173707/item/09_173707.jpg,1,1,4,7
+633,女裝 Smart Style九分褲(條紋),http://www.uniqlo.com/tw/store/goods/408134,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408134/item/01_408134.jpg,1,1,4,8
+633,女裝 Smart Style九分褲(條紋),http://www.uniqlo.com/tw/store/goods/408134,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/408134/item/31_408134.jpg,1,1,4,8
+633,女裝 Smart Style九分褲(條紋),http://www.uniqlo.com/tw/store/goods/408134,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408134/item/69_408134.jpg,1,1,4,8
+634,女裝 SMART STYLE 九分褲(條紋),http://www.uniqlo.com/tw/store/goods/408133,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/408133/item/69_408133.jpg,1,1,4,9
+635,女裝 SMART STYLE 九分褲(條紋),http://www.uniqlo.com/tw/store/goods/408356,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/408356/item/01_408356.jpg,1,1,4,10
+636,女裝 Smart Style九分褲(格紋),http://www.uniqlo.com/tw/store/goods/408135,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/408135/item/07_408135.jpg,1,1,4,11
+636,女裝 Smart Style九分褲(格紋),http://www.uniqlo.com/tw/store/goods/408135,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/408135/item/60_408135.jpg,1,1,4,11
+637,女裝 SMART STYLE 九分褲,http://www.uniqlo.com/tw/store/goods/40055200001,77-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/40055200001/item/77_40055200001.jpg,1,1,4,12
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/01_404661.jpg,1,1,4,13
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,05-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/05_404661.jpg,1,1,4,13
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/09_404661.jpg,1,1,4,13
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,43-YELLOW,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/43_404661.jpg,1,1,4,13
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,60-LIGHT BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/60_404661.jpg,1,1,4,13
+638,女裝 DRY彈性七分褲,http://www.uniqlo.com/tw/store/goods/404661,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404661/item/69_404661.jpg,1,1,4,13
+639,女裝 AIRism 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404081,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404081/item/03_404081.jpg,1,1,4,14
+639,女裝 AIRism 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404081,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404081/item/09_404081.jpg,1,1,4,14
+639,女裝 AIRism 寬版七分褲,http://www.uniqlo.com/tw/store/goods/404081,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404081/item/69_404081.jpg,1,1,4,14
+640,女裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/403647,06-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/403647/item/06_403647.jpg,1,1,4,15
+640,女裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/403647,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/403647/item/09_403647.jpg,1,1,4,15
+640,女裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/403647,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/403647/item/68_403647.jpg,1,1,4,15
+640,女裝 休閒長褲,http://www.uniqlo.com/tw/store/goods/403647,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/403647/item/69_403647.jpg,1,1,4,15
+641,女裝 附腰帶短褲,http://www.uniqlo.com/tw/store/goods/404704,27-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/404704/item/27_404704.jpg,1,1,4,16
+641,女裝 附腰帶短褲,http://www.uniqlo.com/tw/store/goods/404704,30-NATURAL,http://im.uniqlo.com/images/tw/uq/pc/goods/404704/item/30_404704.jpg,1,1,4,16
+641,女裝 附腰帶短褲,http://www.uniqlo.com/tw/store/goods/404704,56-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404704/item/56_404704.jpg,1,1,4,16
+641,女裝 附腰帶短褲,http://www.uniqlo.com/tw/store/goods/404704,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404704/item/69_404704.jpg,1,1,4,16
+642,女裝 蕾絲短褲,http://www.uniqlo.com/tw/store/goods/404701,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404701/item/00_404701.jpg,1,1,4,17
+642,女裝 蕾絲短褲,http://www.uniqlo.com/tw/store/goods/404701,58-DARK GREEN,http://im.uniqlo.com/images/tw/uq/pc/goods/404701/item/58_404701.jpg,1,1,4,17
+642,女裝 蕾絲短褲,http://www.uniqlo.com/tw/store/goods/404701,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404701/item/69_404701.jpg,1,1,4,17
+643,女裝 垂墜風短褲,http://www.uniqlo.com/tw/store/goods/404705,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404705/item/01_404705.jpg,1,1,4,18
+643,女裝 垂墜風短褲,http://www.uniqlo.com/tw/store/goods/404705,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404705/item/09_404705.jpg,1,1,4,18
+643,女裝 垂墜風短褲,http://www.uniqlo.com/tw/store/goods/404705,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/404705/item/10_404705.jpg,1,1,4,18
+643,女裝 垂墜風短褲,http://www.uniqlo.com/tw/store/goods/404705,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/404705/item/57_404705.jpg,1,1,4,18
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/08_406319.jpg,1,1,4,19
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/09_406319.jpg,1,1,4,19
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,10-PINK,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/10_406319.jpg,1,1,4,19
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/31_406319.jpg,1,1,4,19
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/69_406319.jpg,1,1,4,19
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/07_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/09_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/69_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/71_404098.jpg,1,1,4,20
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/02_405609.jpg,1,1,4,21
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/57_405609.jpg,1,1,4,21
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/69_405609.jpg,1,1,4,21
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/03_406661.jpg,1,1,4,22
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/24_406661.jpg,1,1,4,22
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/69_406661.jpg,1,1,4,22
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/01_406704.jpg,1,1,4,23
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/09_406704.jpg,1,1,4,23
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/21_406704.jpg,1,1,4,23
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,31-BEIGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/31_406319.jpg,1,1,4,19
+644,女裝 羅馬布合身褲,http://www.uniqlo.com/tw/store/goods/406319,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406319/item/69_406319.jpg,1,1,4,19
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,07-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/07_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/09_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/69_404098.jpg,1,1,4,20
+645,女裝 AIRism 寬版褲,http://www.uniqlo.com/tw/store/goods/404098,71-PURPLE,http://im.uniqlo.com/images/tw/uq/pc/goods/404098/item/71_404098.jpg,1,1,4,20
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,02-LIGHT GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/02_405609.jpg,1,1,4,21
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,57-OLIVE,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/57_405609.jpg,1,1,4,21
+646,女裝 機能工作褲,http://www.uniqlo.com/tw/store/goods/405609,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/405609/item/69_405609.jpg,1,1,4,21
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,03-GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/03_406661.jpg,1,1,4,22
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,24-ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/24_406661.jpg,1,1,4,22
+647,女裝U緞面打褶長褲,http://www.uniqlo.com/tw/store/goods/406661,69-NAVY,http://im.uniqlo.com/images/tw/uq/pc/goods/406661/item/69_406661.jpg,1,1,4,22
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/01_406704.jpg,1,1,4,23
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/09_406704.jpg,1,1,4,23
+648,女裝HPJ細紋直筒長褲,http://www.uniqlo.com/tw/store/goods/406704,21-LIGHT ORANGE,http://im.uniqlo.com/images/tw/uq/pc/goods/406704/item/21_406704.jpg,1,1,4,23

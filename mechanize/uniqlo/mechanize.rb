@@ -32,7 +32,7 @@ def get_uniqlo_products
     end
   end
 
-  style_id = 0
+  style_id = 301
   writer = CSV.open("./products0.txt", "a+")
   # writer << ["style_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
@@ -61,7 +61,7 @@ end
 
 def skip_product(i, j, k, l)
   # start at gender1, category0, type0, style85
-  start_point = [0,0,0,0]
+  start_point = [0,1,1,9]
   return true if i < start_point[0]
   return true if i == start_point[0] && j < start_point[1]
   return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
@@ -353,6 +353,7 @@ def read_styles
   # v[7...v.size]: colors
 
   in_arr = CSV.read("./styles0.txt")
+  puts "read #{in_arr.count - 1} styles"
   in_arr.each_with_index do |v, i|  
     next if i == 0  # skip first line
     # arr = v[7...v.size].unshift(v[3])
