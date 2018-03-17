@@ -32,9 +32,9 @@ def get_uniqlo_products
     end
   end
 
-  product_id = 0
+  style_id = 0
   writer = CSV.open("./products0.txt", "a+")
-  # writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  # writer << ["style_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
     # next unless i == 0  # men
@@ -49,15 +49,15 @@ def get_uniqlo_products
           # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_uniqlo_products_of_style(styles_arr[i][j][k][l])
           products_arr[i][j][k][l].each_with_index do |products, m|
-            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+            writer << [style_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
           end
-          product_id += 1
+          style_id += 1
         end
       end      
     end 
   end
   
-  # write_products(products_arr, 0)
+  write_products(products_arr, 0)
 end
 
 def skip(i, j, k, l)
@@ -138,7 +138,7 @@ def get_uniqlo_styles
   end
 
   write_styles(styles_arr)
-  
+  remove_duplicate_style
 end
 
 def get_uniqlo_styles_of_type(type_link)
@@ -282,18 +282,18 @@ def write_products(product_arr, gender_id)
   # products_arr[i][2]: color code
   # products_arr[i][3]: color name
   # products_arr[i][4]: image link
-  product_id = 0
+  style_id = 0
   writer = CSV.open("./products#{gender_id}.txt", "wt")
-  writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["style_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
   product_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
       # puts "write styles for gender#{i}'s category#{j}..."
       category.each_with_index do |type, k|
         type.each_with_index do |style, l|
           style.each_with_index do |products, m|
-            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+            writer << [style_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
           end
-          product_id += 1
+          style_id += 1
         end
       end      
     end    
@@ -481,5 +481,22 @@ def puts_genders()
   end
 end
 
+def remove_duplicate_style
+  styles_arr = CSV.read("./styles.txt")
+  writer = CSV.open("./styles0.txt", "w")
+  writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"]
+  for i in 1...styles_arr.size - 1
+    next if styles_arr[i][0] == -1
+    for j in i+1...styles_arr.size
+      if styles_arr[i][3].split('/').last == styles_arr[j][3].split('/').last
+        styles_arr[j][0] = -1
+      end
+    end
+  end
+  styles_arr.each do |style|
+    writer << style unless style[0] == -1
+  end
+end
+
 # ok!
-get_uniqlo_data(true)
+# get_uniqlo_data(true)

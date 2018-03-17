@@ -60,14 +60,15 @@ def get_color(api_key, api_secret)
   writer = CSV.open("./color.txt", "wt")
   writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    if i < 1998  # skip first row
-      puts "get color of product #{i} "
-      result_arr = call_api(product[2], api_key, api_secret)
-      unless result_arr.nil?
-        result_arr[0] = i
-        writer << result_arr
-      end      
-    end    
+    next if i == 0  # skip first row
+    puts "get color of product #{i} "
+    result_arr = call_api(product[2], api_key, api_secret)
+    if result_arr.nil?
+      writer << 'error!'
+    else
+      result_arr[0] = i
+      writer << result_arr
+    end 
   end
 
 end
@@ -251,11 +252,7 @@ def get_hue_level(color_hex)
   return 1
 end
 
-api_key = 'acc_7b2397468c8de48'
-api_secret = 'f28368d13235d68e85154b6740914ba3'
-# get_color(api_key, api_secret)
-write_color
-
-# puts "hue_level: #{get_hue_level('#41424a')}"
-# c = Color.new('#41424a')
-# puts c.hsv
+api_key = 'acc_457c0ba47a89fc7'
+api_secret = '57490716966db483020da088096cfffd'
+get_color(api_key, api_secret)
+# write_color

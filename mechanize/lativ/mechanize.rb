@@ -441,6 +441,6 @@ end
 
 
 # ok!
-get_lativ_data(true)
+# get_lativ_data(true)
 
 
