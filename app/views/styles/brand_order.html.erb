@@ -7,7 +7,7 @@
       <button class="btn btn-sm btn-outline-secondary">
         <%= link_to "價錢由高到低" , price_order_desc_type_styles_path(@type) %>
       </button>
-      <button class="btn btn-sm btn-outline-secondary">
+      <button class="btn btn-sm btn-primary">
         <%= link_to "依照品牌" , brand_order_type_styles_path(@type) %>
       </button>
     </div>
@@ -16,4 +16,3 @@
     <%= render partial: "shared/product_sm", collection: @styles, as: :style %>
   </div>
 </div>
-

@@ -20,3 +20,13 @@
 #order-selection > .btn-group {
   float: right;
 }
+
+#order-selection .btn-primary a,
+#order-selection .btn-outline-secondary a {
+  color: var(--gray);
+}
+
+#order-selection .btn-primary a,
+#order-selection .btn-outline-secondary a:hover {
+  color: #FFF;
+}

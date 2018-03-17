@@ -16,11 +16,12 @@ Rails.application.routes.draw do
 
   #types interface routes
   resources :types, only: [] do 
-    resources :styles, only: [:index]
-    member do
-      get :price_order_desc
-      get :price_order_asc
-      get :brand_order
+    resources :styles, only: [:index] do
+      collection do
+        get :price_order_desc
+        get :price_order_asc
+        get :brand_order
+     end
     end
   end
 
