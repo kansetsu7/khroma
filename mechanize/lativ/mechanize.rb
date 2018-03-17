@@ -8,9 +8,9 @@ $n_genders = $genders_arr.size
 
 def get_lativ_data(category_from_file)
   # get_lativ_categories
-  # get_lativ_types(true)
+  get_lativ_types(true)
   # get_lativ_styles
-  get_lativ_products
+  # get_lativ_products
 end
 
 def get_lativ_products
@@ -435,11 +435,27 @@ def puts_genders()
   end
 end
 
+def remove_duplicate_style
+  styles_arr = CSV.read("./styles.txt")
+  writer = CSV.open("./styles0.txt", "w")
+  for i in 1...styles_arr.size - 1
+    next if styles_arr[i][0] == -1
+    for j in i+1...styles_arr.size
+      if styles_arr[i][3].split('/').last == styles_arr[j][3].split('/').last
+        styles_arr[j][0] = -1
+      end
+    end
+  end
+  styles_arr.each do |style|
+    writer << style unless style[0] == -1
+  end
+end
+
 # page = agent.get("http://www.lativ.com/tw/").links_with(:text => 'WOMEN')[0]
 
 # get_lativ_pants_types("http://www.lativ.com/tw/store/feature/men/bottoms/long-pants/?ref=_navi_1016")
 
-
+remove_duplicate_style
 # ok!
 # get_lativ_data(true)
 
