@@ -86,12 +86,17 @@ def call_api(image_url, api_key, api_secret)
 
     # ==== background_colors = result_arr[1~12] ====
     background_colors = info["background_colors"]
+    puts '----------- background_colors ------------'
     for i in 0..2 do
       unless background_colors[i].nil?  # 有值
-        result_arr[i*4+1] = background_colors[i]['html_code']                         # i = 1, 5, 9
-        result_arr[i*4+2] = background_colors[i]['closest_palette_color_html_code']   # i = 2, 6, 10
-        result_arr[i*4+3] = background_colors[i]['closest_palette_color']             # i = 3, 7, 11
-        result_arr[i*4+4] = background_colors[i]['percentage']                        # i = 4, 8, 12
+        puts background_colors[i]['html_code']
+        puts background_colors[i]['closest_palette_color_html_code']
+        puts background_colors[i]['closest_palette_color']
+        puts background_colors[i]['percent']
+        # result_arr[i*4+1] = background_colors[i]['html_code']                         # i = 1, 5, 9
+        # result_arr[i*4+2] = background_colors[i]['closest_palette_color_html_code']   # i = 2, 6, 10
+        # result_arr[i*4+3] = background_colors[i]['closest_palette_color']             # i = 3, 7, 11
+        # result_arr[i*4+4] = background_colors[i]['percentage']                        # i = 4, 8, 12
       end
     end
 
@@ -99,16 +104,33 @@ def call_api(image_url, api_key, api_secret)
 
     # ==== image_colors = result_arr[14~33] ====
     image_colors = info["image_colors"]
+    puts '----------- image_colors ------------'
     for i in 0..4 do
       unless image_colors[i].nil?  # 有值
-        # puts image_colors[i]['html_code']
-        # puts image_colors[i]['closest_palette_color_html_code']
-        # puts image_colors[i]['closest_palette_color']
-        # puts image_colors[i]['percent']
-        result_arr[i*4+14] = image_colors[i]['html_code']                         # i = 14, 18, 22, 26, 30
-        result_arr[i*4+15] = image_colors[i]['closest_palette_color_html_code']   # i = 15, 19, 23, 27, 31
-        result_arr[i*4+16] = image_colors[i]['closest_palette_color']             # i = 16, 20, 24, 28, 32
-        result_arr[i*4+17] = image_colors[i]['percent']                           # i = 17, 21, 25, 29, 33
+        puts image_colors[i]['html_code']
+        puts image_colors[i]['closest_palette_color_html_code']
+        puts image_colors[i]['closest_palette_color']
+        puts image_colors[i]['percent']
+        # result_arr[i*4+14] = image_colors[i]['html_code']                         # i = 14, 18, 22, 26, 30
+        # result_arr[i*4+15] = image_colors[i]['closest_palette_color_html_code']   # i = 15, 19, 23, 27, 31
+        # result_arr[i*4+16] = image_colors[i]['closest_palette_color']             # i = 16, 20, 24, 28, 32
+        # result_arr[i*4+17] = image_colors[i]['percent']                           # i = 17, 21, 25, 29, 33
+      end
+    end
+
+    # ==== foreground_colors = result_arr[] ====
+    foreground_colors = info["foreground_colors"]
+    puts '----------- foreground_colors ------------'
+    for i in 0..2 do
+      unless foreground_colors[i].nil?  # 有值
+        puts foreground_colors[i]['html_code']
+        puts foreground_colors[i]['closest_palette_color_html_code']
+        puts foreground_colors[i]['closest_palette_color']
+        puts foreground_colors[i]['percent']
+        # result_arr[i*4+14] = image_colors[i]['html_code']                         # i = 14, 18, 22, 26, 30
+        # result_arr[i*4+15] = image_colors[i]['closest_palette_color_html_code']   # i = 15, 19, 23, 27, 31
+        # result_arr[i*4+16] = image_colors[i]['closest_palette_color']             # i = 16, 20, 24, 28, 32
+        # result_arr[i*4+17] = image_colors[i]['percent']                           # i = 17, 21, 25, 29, 33
       end
     end
   else
@@ -254,5 +276,6 @@ end
 
 api_key = 'acc_457c0ba47a89fc7'
 api_secret = '57490716966db483020da088096cfffd'
-get_color(api_key, api_secret)
+# get_color(api_key, api_secret)
 # write_color
+call_api('http://im.uniqlo.com/images/tw/uq/pc/goods/404084/item/12_404084.jpg', api_key, api_secret)
