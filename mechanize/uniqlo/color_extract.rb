@@ -42,8 +42,7 @@ def write_color
 end
 
 def get_color(keys, secrets)
-  n_skips = 1
-  in_arr = CSV.read("./products0.txt")
+  in_arr = CSV.read("./products0_renamed.txt")
 
   # -------content of in_arr -----------
   # in_arr[i][0] = type_id
@@ -57,7 +56,6 @@ def get_color(keys, secrets)
   # in_arr[i][8] = style_of_type_id
   # ------------------------------------
   # puts in_arr[0][2]
-  n_auth = keys.count
   used_auth = 0
   img_count = 0
 
@@ -66,28 +64,27 @@ def get_color(keys, secrets)
   in_arr.each_with_index do |product, i|
     next if i == 0  # skip first row  
     puts "get color of product #{i} "
+    str = product[4].split('/')
+    # uniqlo每件衣服都有所謂的color chip，可以代表該衣服的顏色。用color chip會比用整張圖判斷更準    
+    color_chip_link = 'http://im.uniqlo.com/images/tw/uq/pc/goods/' + str[-3] + '/chip/' + str[-1].sub!('.jpg', '') + '.gif'
+
     api_key = keys[used_auth]
-    api_secret = secrets[used_auth]
-    result_arr = call_api(product[4], api_key, api_secret)
+    api_secret = secrets[used_auth]    
+    result_arr = call_api(color_chip_link, api_key, api_secret)
+
     img_count += 1
-    used_auth = img_count / 1996
-    unless result_arr.nil?
+    used_auth = 1 if img_count > 30
+    if result_arr.nil?
+      writer << [i, -1]
+    else
       result_arr[0] = i
       writer << result_arr
     end   
   end
-
-end
-
-def test_method
-  in_arr = CSV.read("./products0.txt")
-  puts CSV.close?
-  CSV.close
-  puts CSV.close?
 end
 
 def call_api(image_url, api_key, api_secret)
-  auth = 'Basic ' + Base64.strict_encode64( "#{api_key}:#{api_secret}" ).chomp
+  auth = 'Basic ' + Base64.strict_encode64("#{api_key}:#{api_secret}").chomp
 
   result_arr = Array.new(34)
 
@@ -99,17 +96,16 @@ def call_api(image_url, api_key, api_secret)
 
     # ==== background_colors = result_arr[1~12] ====
     background_colors = info["background_colors"]
-    puts '----------- background_colors ------------'
     for i in 0..2 do
       unless background_colors[i].nil?  # 有值
-        puts background_colors[i]['html_code']
-        puts background_colors[i]['closest_palette_color_html_code']
-        puts background_colors[i]['closest_palette_color']
-        puts background_colors[i]['percentage']
-        # result_arr[i*4+1] = background_colors[i]['html_code']                         # i = 1, 5, 9
-        # result_arr[i*4+2] = background_colors[i]['closest_palette_color_html_code']   # i = 2, 6, 10
-        # result_arr[i*4+3] = background_colors[i]['closest_palette_color']             # i = 3, 7, 11
-        # result_arr[i*4+4] = background_colors[i]['percentage']                        # i = 4, 8, 12
+        # puts background_colors[i]['html_code']
+        # puts background_colors[i]['closest_palette_color_html_code']
+        # puts background_colors[i]['closest_palette_color']
+        # puts background_colors[i]['percentage']
+        result_arr[i*4+1] = background_colors[i]['html_code']                         # i = 1, 5, 9
+        result_arr[i*4+2] = background_colors[i]['closest_palette_color_html_code']   # i = 2, 6, 10
+        result_arr[i*4+3] = background_colors[i]['closest_palette_color']             # i = 3, 7, 11
+        result_arr[i*4+4] = background_colors[i]['percentage']                        # i = 4, 8, 12
       end
     end
 
@@ -117,29 +113,12 @@ def call_api(image_url, api_key, api_secret)
 
     # ==== image_colors = result_arr[14~33] ====
     image_colors = info["image_colors"]
-    puts '----------- image_colors ------------'
     for i in 0..4 do
       unless image_colors[i].nil?  # 有值
-        puts image_colors[i]['html_code']
-        puts image_colors[i]['closest_palette_color_html_code']
-        puts image_colors[i]['closest_palette_color']
-        puts image_colors[i]['percent']
-        # result_arr[i*4+14] = image_colors[i]['html_code']                         # i = 14, 18, 22, 26, 30
-        # result_arr[i*4+15] = image_colors[i]['closest_palette_color_html_code']   # i = 15, 19, 23, 27, 31
-        # result_arr[i*4+16] = image_colors[i]['closest_palette_color']             # i = 16, 20, 24, 28, 32
-        # result_arr[i*4+17] = image_colors[i]['percent']                           # i = 17, 21, 25, 29, 33
-      end
-    end
-
-    # ==== foreground_colors = result_arr[] ====
-    foreground_colors = info["foreground_colors"]
-    puts '----------- foreground_colors ------------'
-    for i in 0..2 do
-      unless foreground_colors[i].nil?  # 有值
-        puts foreground_colors[i]['html_code']
-        puts foreground_colors[i]['closest_palette_color_html_code']
-        puts foreground_colors[i]['closest_palette_color']
-        puts foreground_colors[i]['percentage']
+        # puts image_colors[i]['html_code']
+        # puts image_colors[i]['closest_palette_color_html_code']
+        # puts image_colors[i]['closest_palette_color']
+        # puts image_colors[i]['percent']
         result_arr[i*4+14] = image_colors[i]['html_code']                         # i = 14, 18, 22, 26, 30
         result_arr[i*4+15] = image_colors[i]['closest_palette_color_html_code']   # i = 15, 19, 23, 27, 31
         result_arr[i*4+16] = image_colors[i]['closest_palette_color']             # i = 16, 20, 24, 28, 32
@@ -286,12 +265,9 @@ def get_hue_level(color_hex)
 
   return 1
 end
-keys = ['acc_6f5fce3fad9df94', 'acc_7316f4629599694']
-secrets = ['edfb1419aa52c50e4c6d99bedccd2f1d', '12139ad6ab21eb8c917bf8e780af88f7']
+keys = ['acc_457c0ba47a89fc7', 'acc_ae57afa9be2771d']
+secrets = ['57490716966db483020da088096cfffd', 'cfbe9e0d9dc43d1ce14364beb8c8a62e']
 
 # ok
-# get_color(keys, secrets)
+get_color(keys, secrets)
 # write_color
-api_key = 'acc_457c0ba47a89fc7'
-api_secret = '57490716966db483020da088096cfffd'
-call_api('http://im.uniqlo.com/images/tw/uq/pc/goods/406602/chip/67_406602.gif', api_key, api_secret)
