@@ -7,23 +7,28 @@ def write_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
   writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
-  arr_hlv = Array.new(13, 0)
+  arr_hlv = Array.new(13, 0)  # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
+  
   # remove first color in image color
-  less = 0
   clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
+
+    # skip if product is sold out
+    writer << [i, -1] if color[1] == '-1'
+    next if color[1] == '-1'
+
     pic_main_percentage = color[17].to_f      # 圖片主色佔圖片面積比
     clothes_main_percentage = color[21].to_f  # 衣服主色佔衣服面積比
 
-    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[15]
-    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[19]
+    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[14]
+    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[18]
     if pic_main_percentage >= clothes_percentage  
-      clothes_color = color[15]
+      clothes_color = color[14]
       name_id = 16
       clothes_main_percentage = clothes_percentage / pic_main_percentage * 100
     else
-      clothes_color = color[19]
+      clothes_color = color[18]
       name_id = 20
       # 如果顏色接近，則將佔色比相加
       for j in 1..3 do
@@ -258,5 +263,5 @@ end
 
 api_key = 'acc_5d2d21effe80002'
 api_secret = '5dca41e3dd1718f620416c5cfde512cf'
-get_color(api_key, api_secret)
-# write_color
+# get_color(api_key, api_secret)
+write_color

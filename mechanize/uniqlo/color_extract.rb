@@ -7,33 +7,21 @@ def write_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
   writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
-  arr_hlv = Array.new(13, 0)
-  # remove first color in image color
-  less = 0
-  clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
+  arr_hlv = Array.new(13, 0) # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
-    pic_main_percentage = color[17].to_f      # 圖片主色佔圖片面積比
-    clothes_main_percentage = color[21].to_f  # 衣服主色佔衣服面積比
 
-    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[15]
-    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[19]
-    if pic_main_percentage >= clothes_percentage  
-      clothes_color = color[15]
-      name_id = 16
-      clothes_main_percentage = clothes_percentage / pic_main_percentage * 100
-    else
-      clothes_color = color[19]
-      name_id = 20
-      # 如果顏色接近，則將佔色比相加
-      for j in 1..3 do
-        clothes_main_percentage += color[21+4*j].to_f if color[19] == color[19+4*j]
-      end
-      clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
+    percentage = color[17].to_f      # 圖片主色佔圖片面積比
+
+    clothes_color = color[14]
+    name_id = 16
+    # 如果顏色接近，則將佔色比相加
+    for j in 1..4 do
+      percentage += color[17+4*j].to_f if color[15] == color[15+4*j]
     end
     hlv = get_hue_level(clothes_color)
     arr_hlv[hlv-1] += 1 
-    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i, hlv]
+    writer << [i, clothes_color, color[name_id], percentage.to_i, hlv]
   end
 
   arr_hlv.each_with_index do |n, i|
@@ -269,5 +257,5 @@ keys = ['acc_457c0ba47a89fc7', 'acc_ae57afa9be2771d']
 secrets = ['57490716966db483020da088096cfffd', 'cfbe9e0d9dc43d1ce14364beb8c8a62e']
 
 # ok
-get_color(keys, secrets)
-# write_color
+# get_color(keys, secrets)
+write_color
