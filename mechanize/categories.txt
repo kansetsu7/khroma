@@ -1,0 +1,5 @@
+gender_id,khroma_category_id,category name
+0,0,上衣類
+0,1,下身類
+1,2,上衣類
+1,3,下身類

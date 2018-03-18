@@ -24,6 +24,6 @@ category_id,name,link,gender_id,category_of_gender_id
 5,短/七分褲,http://www.lativ.com.tw/WOMEN/bottoms/Shorts,1,2
 5,牛仔褲,http://www.lativ.com.tw/WOMEN/bottoms/Jeans,1,2
 5,束口褲,http://www.lativ.com.tw/WOMEN/bottoms/joggers,1,2
+5,寬褲,http://www.lativ.com.tw/WOMEN/bottoms/Widepants,1,2
 5,長褲,http://www.lativ.com.tw/WOMEN/bottoms/LongPants2,1,2
 5,裙裝,http://www.lativ.com.tw/WOMEN/bottoms/Skirt,1,2
-5,洋裝,http://www.lativ.com.tw/WOMEN/bottoms/Dress,1,2

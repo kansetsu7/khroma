@@ -7,7 +7,7 @@ $genders_arr = ["men", "women"]
 $n_genders = $genders_arr.size
 
 def get_uniqlo_data(category_from_file)
-  # get_uniqlo_types(category_from_file)
+  # get_uniqlo_types(true)
   # get_uniqlo_styles
   get_uniqlo_products
 end
@@ -32,26 +32,25 @@ def get_uniqlo_products
     end
   end
 
-  product_id = 0
+  style_id = 0
   writer = CSV.open("./products0.txt", "a+")
-  # writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["style_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
     # next unless i == 0  # men
     gender.each_with_index do |category, j|
       # next unless j == 0
-      puts "======== gender#{i}, category#{j} ========"
       category.each_with_index do |type, k|
         # next unless k == 0
         type.each_with_index do |style, l|
-          next if skip(i, j, k, l)
+          next if skip_product(i, j, k, l)
           puts "gender#{i}, category#{j}, type#{k}, style#{l}"
           # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_uniqlo_products_of_style(styles_arr[i][j][k][l])
           products_arr[i][j][k][l].each_with_index do |products, m|
-            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+            writer << [style_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
           end
-          product_id += 1
+          style_id += 1
         end
       end      
     end 
@@ -60,9 +59,9 @@ def get_uniqlo_products
   # write_products(products_arr, 0)
 end
 
-def skip(i, j, k, l)
+def skip_product(i, j, k, l)
   # start at gender1, category0, type0, style85
-  start_point = [1,1,0,37]
+  start_point = [0,0,0,0]
   return true if i < start_point[0]
   return true if i == start_point[0] && j < start_point[1]
   return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
@@ -78,7 +77,7 @@ def get_uniqlo_products_of_style(style_info)
   # style_info[1]: link
   puts ("goto #{style_info[1]}")
   products_arr = []
-  page = get_page(style_info[1])
+  page = get_page(style_info[1], "div#prodImgDefault>img")
   # puts page.nil?
   main_img = page.search("div#prodImgDefault>img").first['src']
   main_img_name = main_img.split('/').last
@@ -138,12 +137,12 @@ def get_uniqlo_styles
   end
 
   write_styles(styles_arr)
-  
+  remove_duplicate_style
 end
 
 def get_uniqlo_styles_of_type(type_link)
   styles_arr = []
-  page = get_page(type_link)
+  page = get_page(type_link, "div.domCreate")
   styles = page.search("div.set-alias").search("div.domCreate").search("div.lineupAlias").search("div.blkItemList").search("div.unit")
   styles.each_with_index do |style, i|
     # name, price, link
@@ -153,9 +152,10 @@ def get_uniqlo_styles_of_type(type_link)
   styles_arr
 end
 
-def get_page(style_link)
+def get_page(style_link, search_css)
   
   timeout = 0
+  no_content = 0
   begin
     browser = Watir::Browser.new :safari  # open safari
     browser.goto(style_link)
@@ -168,7 +168,16 @@ def get_page(style_link)
       retry
     end
   end
-  sleep(2)  
+  loop do
+    break unless Nokogiri::HTML.fragment(browser.html).search(search_css).size == 0
+    if no_content < 4
+      sleep(2)
+      no_content += 1
+    else
+      browser.refresh
+      no_content = 0
+    end
+  end
   page = Nokogiri::HTML.fragment(browser.html)
   browser.close
   system %{ osascript -e 'tell application "Safari" to quit'}  # close safari
@@ -223,7 +232,7 @@ def get_uniqlo_types(category_from_file)
               bottom_type_count += 1
             else
               # 不是'下身類'
-              types_arr[i][l].push([type.text, type.search('a')[0]['href']]) if type.text != '亞麻系列' && type.text != '休閒/連帽'
+              types_arr[i][l].push([type.text, type.search('a')[0]['href']]) if type.text != '亞麻系列' && type.text != '休閒/連帽' && type.text != 'UT印花T恤'
             end              
           end
         end
@@ -282,18 +291,18 @@ def write_products(product_arr, gender_id)
   # products_arr[i][2]: color code
   # products_arr[i][3]: color name
   # products_arr[i][4]: image link
-  product_id = 0
+  style_id = 0
   writer = CSV.open("./products#{gender_id}.txt", "wt")
-  writer << ["type_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["style_id", "name", "link", "color", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
   product_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
       # puts "write styles for gender#{i}'s category#{j}..."
       category.each_with_index do |type, k|
         type.each_with_index do |style, l|
           style.each_with_index do |products, m|
-            writer << [product_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
+            writer << [style_id, products[0], products[1], products[2]+"-"+products[3], products[4], i, j, k, l]
           end
-          product_id += 1
+          style_id += 1
         end
       end      
     end    
@@ -343,7 +352,8 @@ def read_styles
   # v[6]: type_of_category_id,
   # v[7...v.size]: colors
 
-  in_arr = CSV.read("./styles.txt")
+  in_arr = CSV.read("./styles0.txt")
+  puts "read #{in_arr.count - 1} styles"
   in_arr.each_with_index do |v, i|  
     next if i == 0  # skip first line
     # arr = v[7...v.size].unshift(v[3])
@@ -481,5 +491,23 @@ def puts_genders()
   end
 end
 
-# ok!
+def remove_duplicate_style
+  styles_arr = CSV.read("./styles.txt")
+  writer = CSV.open("./styles0.txt", "w")
+  for i in 1...styles_arr.size - 1
+    next if styles_arr[i][0] == -1
+    for j in i+1...styles_arr.size
+      if styles_arr[i][3].split('/').last == styles_arr[j][3].split('/').last
+        styles_arr[j][0] = -1
+      end
+    end
+  end
+  styles_arr.each do |style|
+    writer << style unless style[0] == -1
+  end
+end
+
 get_uniqlo_data(true)
+
+# ok!
+# get_uniqlo_data(true)

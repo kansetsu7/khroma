@@ -14,8 +14,8 @@ puts "Gender created!"
 Category.destroy_all
 # man's Category
 man_categories = [
-  {name: '上衣類'},
-  {name: '下身類'}
+  {name: '上衣類'},  # id = 1
+  {name: '下身類'}   # id = 2
 ]
 man_categories.each do |man_category|
   Category.create(
@@ -27,8 +27,8 @@ end
 
 # ===== woman's Category ================
 woman_categories = [
-  {name: '上衣類'},
-  {name: '下身類'}
+  {name: '上衣類'},  # id = 3
+  {name: '下身類'}   # id = 4
 ]
 woman_categories.each do |woman_category|
   Category.create(
@@ -173,5 +173,13 @@ for i in 1..12 do
     principle_id: 6,
     hue_level_id: i,
     hue_match1:   13,
+  )
+end
+
+for i in 1..12 do
+  PrincipleColor.create(
+    principle_id: 6,
+    hue_level_id: 13,
+    hue_match1:   i,
   )
 end
