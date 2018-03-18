@@ -1,5 +1,4 @@
 type_id,name,image_link,gender_id,category_of_gender_id,type_of_category_id,style_of_type_id
-type_id,name,image_link,gender_id,category_of_gender_id,type_of_category_id,style_of_type_id
 0,迪士尼系列印花T恤-21-男（ 黑色 ）,https://s3.lativ.com.tw/i/35199/35199011/3519901_500.jpg,0,0,0,0
 1,迪士尼系列印花T恤-F03-男（ 黑色 ）,https://s3.lativ.com.tw/i/34704/34704011/3470401_500.jpg,0,0,0,1
 2,迪士尼系列印花T恤-F02-男（ 白色 ）,https://s3.lativ.com.tw/i/34393/34393011/3439301_500.jpg,0,0,0,2
