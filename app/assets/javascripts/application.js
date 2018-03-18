@@ -19,6 +19,15 @@
 //= require_tree .
 
 $(document).on('turbolinks:load', function() {
+  var timeout;
+  $('#user-center-lbl').hover(function() {
+    clearTimeout(timeout);
+      $('#menu-user-panel').show(0);
+    }, function() {
+      timeout = setTimeout(function() {
+        $('#menu-user-panel').hide(0);
+      }, 300);
+  });
 
   $('#go-top-btn a').click(function(){
     $('html, body').animate({
