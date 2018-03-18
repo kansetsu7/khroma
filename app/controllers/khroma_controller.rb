@@ -21,37 +21,38 @@ class KhromaController < ApplicationController
   end
 
   def match
+    no_params = {'up_type' => params[:up_type_id] == '',
+                 'up_hue_level' => params[:up_hue_level] == '',
+                 'down_type' => params[:down_type_id] == '',
+                 'down_hue_level' => params[:down_hue_level] == ''
+                }
 
-    # 至少要給一個category的type+hue_level & 另一個category的type才能進行配對
-    if (params[:up_type_id].nil? || params[:up_hue_level]=='') && params[:down_hue_level]=='' ||
-       (params[:down_type_id].nil? || params[:down_hue_level]=='') && params[:up_hue_level]==''
-       # ---- TODO ----------------------------------        
-       # 使用者給的參數不足，無法配色...
-       # 給提示訊息告訴使用者至少要給一個category的type+hue_level & 另一個category的type才能進行配對
-       # ---- END TODO -------------------------------
-  
-    else  # 參數足夠，可以進行配對
+    # 至少要給一個category的type+hue_level才能進行配對
+    if (no_params['up_type'] && no_params['up_hue_level'] && !no_params['down_type'] && !no_params['down_hue_level']) ||
+       (no_params['down_type'] && no_params['down_hue_level'] && !no_params['up_type'] && !no_params['up_hue_level'])
+      # 參數足夠，可以進行配對
 
       # puts 是方便觀察用的，可以刪掉
-      puts "up_type_id: #{params[:up_type_id]}"
-      puts "up_hue_level: #{params[:up_hue_level]}"
-      puts "down_type_id: #{params[:down_type_id]}"
-      puts "down_hue_level: #{params[:down_hue_level]}"
+      # puts "up_type_id: #{params[:up_type_id]}"
+      # puts "up_hue_level: #{params[:up_hue_level]}"
+      # puts "down_type_id: #{params[:down_type_id]}"
+      # puts "down_hue_level: #{params[:down_hue_level]}"
       matches = []
       
-      if params[:up_hue_level] == '' || params[:down_hue_level] == ''  # 有個hue_level沒給 => 提供使用者顏色、該顏色衣服以及配色法則
+      if no_params['up_hue_level'] || no_params['down_hue_level']  # 有個hue_level沒給 => 提供使用者顏色、該顏色衣服以及配色法則
+
         # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, match_hue2以及principle_id
         # 可用來提供使用者顏色、該顏色衣服以及配色法則
-        if params[:up_hue_level] == ''  # 
+        if no_params['up_hue_level']  # 
           hue_level = params[:down_hue_level].to_i
           type_with_hue_level = params[:down_type_id]
-          type_without_hue_level = params[:up_type_id]
+          type_without_hue_level = no_params['up_type'] ? -1 : params[:up_type_id]
         else
           hue_level = params[:up_hue_level].to_i 
           type_with_hue_level = params[:up_type_id]
-          type_without_hue_level = params[:down_type_id]         
+          type_without_hue_level = no_params['down_type'] ? -1 : params[:down_type_id]         
         end
-        hue_level = params[:up_hue_level] == '' ? params[:down_hue_level].to_i : params[:up_hue_level].to_i
+        hue_level = no_params['up_hue_level'] ? params[:down_hue_level].to_i : params[:up_hue_level].to_i
         @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
         @principle_colors.each do |principle_color|
 
@@ -85,7 +86,7 @@ class KhromaController < ApplicationController
             #  - result_arr[1][2] = 額外可選的顏色
 
             color_names = []
-            if params[:up_hue_level] == ''
+            if no_params['up_hue_level']
               color_names.push(match_color[0])  # 上半身的顏色
               color_names.push(HueLevel.find(hue_level).name)  # 下半身的顏色
             else
@@ -101,8 +102,12 @@ class KhromaController < ApplicationController
             #  - result_arr[2][1] = 下半身的衣服
             products = []
             product_of_given_color = Type.find(type_with_hue_level).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
-            product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1])
-            if params[:up_hue_level] == ''
+            if type_without_hue_level == -1  # 沒給hue_level也沒給type -> 找all type
+              product_of_match_color = Product.joins(:color).where('colors.hue_level_id = ?', match_color[1])
+            else
+              product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1])              
+            end
+            if no_params['up_hue_level']
               products.push(product_of_match_color)  # 上半身的衣服
               products.push(product_of_given_color)  # 下半身的衣服
             else
@@ -216,6 +221,11 @@ class KhromaController < ApplicationController
           end
         end
       end
+    else
+      # ---- TODO ----------------------------------        
+      # 使用者給的參數不足，無法配色...
+      # 給提示訊息告訴使用者至少要給一個category的type+hue_level & 另一個category的type才能進行配對
+      # ---- END TODO -------------------------------
     end
 
   end
