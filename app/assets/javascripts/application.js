@@ -29,6 +29,11 @@ $(document).on('turbolinks:load', function() {
       }, 300);
   });
 
+  $(document).on('click', '.close-btn', function(){
+    console.log('hi')
+    $('.sign-overlay').hide();
+  });
+
   $('#go-top-btn a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top

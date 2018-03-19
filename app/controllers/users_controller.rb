@@ -9,11 +9,12 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
 
-    @user.update(user_params)
-
-
-    @user.save
-    redirect_to edit_user_path(@user)
+    if @user.update(user_params)
+      flash[:notice] = "Profile has been successfully updated"   
+    else
+      flash[:alert] = "Profile was failed to update. #{@user.errors.full_messages.to_sentence}"
+    end  
+    redirect_back(fallback_location: root_path)
   end
 
   private

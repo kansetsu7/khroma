@@ -1,15 +1,26 @@
-  <li><%= @user.name %></li>
-  <li><%= @user.email %></li>
-  <li><%= @user.avatar %></li>
-
-  <%= form_for @user do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.label :email, "email" %>
-    <%= f.text_field :email %>
-    
-    <%= f.file_field :avatar %>
-    <%= f.submit %>
-  <% end %>
-
-  <%= link_to "編輯密碼", edit_user_registration_path(@user) %> 
+<div class="sign-overlay">
+  <div class="sign-panel">
+    <div class="card">
+      <div class="card-header">
+        <h6>修改使用者資料</h6>
+        <div class="close-btn pull-right">&#10005;</div>
+      </div>
+      <div class="card-body">
+        <% if @user.errors.present? %>
+          <span style="color: red" ><%= @user.errors.full_messages.to_sentence %></span>
+        <% end %>   
+        <%= form_for @user do |f| %>
+          <div class="field form-group">
+            <%= f.text_field :name, autocomplete: @user.name, placeholder: "全名", class: "form-control" %>
+          </div>
+          <div class="field form-group">
+            <%= f.text_field :email, autocomplete: @user.email, placeholder: "電子郵件", required: true, class: "form-control" %>
+          </div>
+          <div class="actions">
+               <%= f.submit "修改資料",class: "btn btn-primary sign-btn" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

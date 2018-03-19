@@ -8,6 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+
     <header id="header">
       <nav id="nav" class="shadow-box">
         <div class="container">
@@ -20,28 +21,33 @@
               <li class="gender-btn" value="1">Men</li>
               <li class="gender-btn" value="2">Women</li>
             </ul>
-            <ul id="menu-user">
-              <% if current_user %>
+            <% if current_user %>
+              <ul id="menu-user">
                 <% if current_user.admin? %> 
                   <li><%= link_to '管理者後台', admin_root_path %></li>
                 <% end %>
                 <li id="user-center-lbl">會員中心
                   <div id="menu-user-panel" class="shadow-box">
                     <ul>
-                      <li><%= link_to '修改資料', edit_user_path(current_user) %></li>
-                      <li><%= link_to '修改密碼', edit_user_password_path(current_user) %></li>
+                      <li><%= link_to '修改資料', edit_user_path(current_user), remote: true %></li>
+                      <li><%= link_to '修改密碼', edit_user_registration_path, remote: true %></li>
                       <hr />
                       <li><%= link_to '登出', destroy_user_session_path, method: :delete %></li>
                     </ul>
                   </div>
                 </li>
-                <li></li>             
-              <% else %>
-                <li><%= link_to '登入', user_session_path, method: :post %></li>
-                <li>註冊</li>
-              <% end %>
-            </ul>
-
+                <li></li>
+              </ul>             
+            <% else %>
+              <div id="sign-menu">
+                <div class="sign-in-btn">
+                  <%= link_to '登入', new_user_session_path, remote: true %>
+                </div>
+                <div class="sign-up-btn">
+                  <%= link_to '註冊', new_user_registration_path, remote: true  %>
+                </div>
+              </div>
+            <% end %>
           </div> 
         </div>
       </nav>
@@ -49,7 +55,6 @@
         <div class="container">
         </div>
       </div>
-
     </header>
     <div id="top" class="alert-row">
       <% if flash[:notice] %>
@@ -72,6 +77,7 @@
         </div>               
       <% end %>
     </div>
+    <div id="sign-overlay"></div>
     <%= yield %>
     <footer>
       <p>Copyright © 2018 LET IT CODE.</p>
