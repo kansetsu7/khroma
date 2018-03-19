@@ -47,7 +47,7 @@ gem 'bootstrap'
 # Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
-
+gem 'csv'
 
 # Use carrierwave
 gem 'carrierwave'
@@ -60,7 +60,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'sqlite3'
   # for web scraping
-  gem 'csv'
   gem 'watir'       # https://github.com/watir/watir
   gem 'mechanize'   # https://github.com/sparklemotion/mechanize
 end
