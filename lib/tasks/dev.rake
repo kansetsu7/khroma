@@ -97,7 +97,7 @@ namespace :dev do
     uniqlo_products.each_with_index do |product, i|
       next if i == 0  # skip first row
       Product.create!(
-        style_id: product[0].to_i + lativ_style_count,
+        style_id: product[0].to_i + lativ_style_count + 1,
         name: product[1],
         brand: 'uniqlo',
         image: product[4],
