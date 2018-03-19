@@ -36,12 +36,15 @@ a, a:hover, a:focus {
   color: #000;
 }
 
-.admin-a {
+.admin-a, .admin-a:hover {
   color: #fff;
 }
-.admin-a:hover {
-  color: blue;
+
+.admin-btn, .admin-btn:hover {
+  padding: 5px 10px;
 }
+
+
 
 img {
   width: 100%;
@@ -49,9 +52,7 @@ img {
   display: block;
 }
 
-button, .btn {
-  outline: none;
-}
+
 
 .clearfix::after {
   content: '';

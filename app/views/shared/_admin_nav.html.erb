@@ -1,6 +1,13 @@
-  <br>
-  <nav class="nav nav-pills nav-justified">
-    <%= link_to "Gender" , admin_root_path,class: "nav-item nav-link" %>
-    <%= link_to "Category" , admin_categories_path,class: "nav-item nav-link " %>
-    <%= link_to "Type" , admin_types_path,class: "nav-item nav-link" %>
-  </nav>
+<br>
+<div class = "row">
+  <div class = "col-4 text-center">
+    <%= link_to "Gender" , admin_root_path,class: "btn admin-btn btn-danger" %>
+  </div>
+  <div class = "col-4 text-center">
+    <%= link_to "Category" , admin_categories_path,class: "btn admin-btn btn-primary " %>
+  </div>
+  <div class = "col-4 text-center">
+    <%= link_to "Type" , admin_types_path,class: "btn admin-btn btn-success" %>
+  </div>
+</div>
+<hr>
