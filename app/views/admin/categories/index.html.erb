@@ -20,10 +20,10 @@
         <% @categories.each do |category| %>
           <tr>
             <% category.attributes.each do |key,value|  %>
-              <td><%= link_to value, admin_category_types_path(category) %></td>
+              <td><%= link_to value, admin_category_types_path(category), class: "admin-a"  %></td>
             <% end %>
-            <td><%= link_to "編輯", edit_admin_category_path(category) %></td>
-            <td><%= link_to "刪除", admin_category_path(category), method: :delete %></td>
+            <td><%= link_to "編輯", edit_admin_category_path(category), class: "admin-a"  %></td>
+            <td><%= link_to "刪除", admin_category_path(category), class: "admin-a" , method: :delete %></td>
           </tr>
         <% end %>
       </tbody>

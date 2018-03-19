@@ -49,10 +49,10 @@
       <% @styles.each do |style| %>
         <tr>
           <% style.attributes.each do |key,value|  %>
-            <td><%= link_to value, admin_style_products_path(style) %></td>
+            <td><%= link_to value, admin_style_products_path(style), class: "admin-a"  %></td>
           <% end %>
-          <td><%= link_to "編輯", edit_admin_style_path(style) %></td>
-          <td><%= link_to "刪除", admin_style_path(style), method: :delete %></td>
+          <td><%= link_to "編輯", edit_admin_style_path(style), class: "admin-a"  %></td>
+          <td><%= link_to "刪除", admin_style_path(style), class: "admin-a" , method: :delete %></td>
         </tr>
       <% end %>
     </tbody>

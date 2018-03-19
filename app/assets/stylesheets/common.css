@@ -36,6 +36,13 @@ a, a:hover, a:focus {
   color: #000;
 }
 
+.admin-a {
+  color: #fff;
+}
+.admin-a:hover {
+  color: blue;
+}
+
 img {
   width: 100%;
   height: auto;

@@ -20,10 +20,10 @@
         <% @types.each do |type| %>
           <tr>
             <% type.attributes.each do |key,value|  %>
-              <td><%= link_to value , admin_type_styles_path(type) %></td>
+              <td><%= link_to value , admin_type_styles_path(type), class: "admin-a"  %></td>
             <% end %>
-            <td><%= link_to "編輯", edit_admin_type_path(type) %></td>
-            <td><%= link_to "刪除", admin_type_path(type), method: :delete %></td>
+            <td><%= link_to "編輯", edit_admin_type_path(type), class: "admin-a"  %></td>
+            <td><%= link_to "刪除", admin_type_path(type), class: "admin-a" , method: :delete %></td>
           </tr>
         <% end %>
       </tbody>
