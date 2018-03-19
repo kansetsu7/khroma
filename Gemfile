@@ -47,7 +47,7 @@ gem 'bootstrap'
 # Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
-gem 'csv'  # require ruby '~> 2.4'
+gem 'csv'
 
 # Use carrierwave
 gem 'carrierwave'
