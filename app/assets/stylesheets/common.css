@@ -38,7 +38,7 @@ a, a:hover, a:focus {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -193,7 +193,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 30px;
   justify-items: center;
-  margin-top: 10px;
+  padding: 10px;
 }
 
 #lower-nav .container a,

@@ -110,18 +110,19 @@
   height: 20px;
 }
 
-.product-info-lg .product-color-panel a.color-unlocked:first-of-type:before,
-.product-info-lg .product-color-panel a.color-locked:before {
+.product-info-lg .product-color-panel a.color-unlocked:first-of-type:after,
+.product-info-lg .product-color-panel a.color-locked:after {
   top: -8px;
   height: 24px;
 }
 
 .product-info-lg .product-brand {
   justify-self: center;
+  width: 50px;
 }
 
 .product-info-lg .product-brand-img {
-  float: right;
+  padding: 5px;
 }
 
 .styles-panel hr {
