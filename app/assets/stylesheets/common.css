@@ -109,10 +109,10 @@ header {
 }
 
 #logo .logo-img {
+  height: auto;
   object-fit: cover;
   grid-area: logo;
   position: absolute;
-  top:-35px;
 }
 
 #logo:hover .logo-img{
@@ -150,12 +150,11 @@ header {
 
 #menu-user {
   display: grid;
-  grid-template-columns: 1fr auto;
-  justify-items: end;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 #menu-user > li {
-  margin-left: 10px;
 }
 
 #menu-user-panel {
