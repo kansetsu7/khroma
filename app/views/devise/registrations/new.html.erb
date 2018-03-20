@@ -1,29 +1,35 @@
-<h2>Sign up</h2>
-
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= devise_error_messages! %>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+<div class="sign-overlay">
+  <div class="sign-panel">
+    <div class="card">
+      <div class="card-header">
+        <h6>註冊開始使用Khroma！</h6>
+        <div class="close-btn pull-right">&#10005;</div>
+      </div>
+      <div class="card-body">
+        <% if devise_error_messages!.present? %>
+          <span style="color: red" ><%= flash[:devise] %></span>
+        <% end %> 
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+          
+          <div class="field form-group">
+            <%= f.email_field :email, autocomplete: "email", required: true, placeholder: "電子郵件", class: "form-control" %>
+          </div>
+          <div class="field form-group">
+            <%= f.password_field :password, autocomplete: "off", required: true, placeholder: "密碼（ 至少#{@minimum_password_length}位 ）",class: "form-control" %>
+          </div>
+          <div class="field form-group">
+            <%= f.password_field :password_confirmation, autocomplete: "off", required: true, placeholder: "密碼確認",class: "form-control" %>
+          </div>
+          <div class="actions">
+               <%= f.submit "註冊",class: "btn btn-primary sign-btn" %>
+          </div>
+        <% end %>
+        <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+          <p><%= link_to "忘記密碼?", new_password_path(resource_name) %></p>
+        <% end -%>
+        <hr />
+        <p>已經擁有帳戶？<%= link_to "登入", new_session_path(resource_name),remote: true  %></p>
+      </div>
+    </div>
   </div>
-
-  <div class="field">
-    <%= f.label :password %>
-    <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
-  </div>
-
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit "Sign up" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+</div>

@@ -48,7 +48,7 @@ a, a:hover, a:focus {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -78,7 +78,11 @@ img {
 }
 
 .shadow-box-light {
-  box-shadow: 1px 1px 0 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 2px 0 rgba(41,48,59,.24), 0 0 2px 0 rgba(41,48,59,.12);
+}
+
+.close-btn {
+  cursor: pointer;
 }
 
 
@@ -117,10 +121,10 @@ header {
 }
 
 #logo .logo-img {
+  height: auto;
   object-fit: cover;
   grid-area: logo;
   position: absolute;
-  top:-35px;
 }
 
 #logo:hover .logo-img{
@@ -156,14 +160,51 @@ header {
   color: #FFF;
 }
 
+#sign-menu {
+  height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#sign-menu div {
+  width:75px;
+  height: 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#sign-menu .sign-in-btn {
+  background: rgba(31,145,204,0.8);
+}
+
+#sign-menu .sign-up-btn {
+  background: rgba(220,53,69,0.8);
+  
+}
+
+#sign-menu .sign-in-btn:hover {
+  background: #1F91CC;
+}
+
+#sign-menu .sign-up-btn:hover {
+  background: var(--red);
+}
+
+#sign-menu a {
+  color: #FFF;
+  align-self: center;
+}
+
 #menu-user {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   justify-items: end;
 }
 
-#menu-user > li {
-  margin-left: 10px;
+#user-center-lbl {
+  grid-column-start: 2;
 }
 
 #menu-user-panel {
@@ -201,7 +242,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 30px;
   justify-items: center;
-  margin-top: 10px;
+  padding: 10px;
 }
 
 #lower-nav .container a,
@@ -222,7 +263,6 @@ header {
 #lower-nav .close-btn {
   color: var(--red);
   font-size: 25px;
-  cursor: pointer;
 }
 
 /* flash */
@@ -230,6 +270,77 @@ header {
 .alert-row {
   width: 100%;
   margin-bottom: 30px;
+}
+
+/* sign up, sign in */
+.sign-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1500;
+  background: rgba(0,0,0,0.7);
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+}
+
+.sign-panel {
+  width: 377px;
+  margin: 0 auto;
+}
+
+.sign-panel .card-body {
+  margin-bottom: 20px;
+}
+
+.sign-panel .card-body > p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.provider-btn {
+  width: 100%;
+  padding: 10px 5px 7px 5px;
+  border-radius: 0px;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.provider-btn i {
+  width: 45px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.facebook-btn {
+  background: #4766B0;
+  color: #FFF;
+}
+.facebook-btn:hover {
+  background: #225388
+}
+.google-btn {
+  background: #FFF;
+}
+
+.google-btn i {
+
+  color: var(--red);
+}
+
+.google-btn:hover {
+  background: rgba(0, 0, 0, 0.1)
+}
+
+.sign-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.sign-panel .card-body > p > a:hover {
+  color: var(--red);
 }
 
 /* footer */
@@ -272,7 +383,6 @@ footer {
     max-width: 100%;
   }
 }
-
 
 @media (min-width: 550px) {
   .container {
