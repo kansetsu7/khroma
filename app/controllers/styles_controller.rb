@@ -14,7 +14,7 @@ class StylesController < ApplicationController
   end
 
   def brand_order
-    @styles = Style.where(type_id: params[:type_id]).includes(products: :color).includes(:colors).order("products.brand ASC")
+    @styles = Style.where(type_id: params[:type_id]).includes(products: :color).includes(:colors).order("products.brand ASC").order("products.price ASC")
   end
 
   def change_color

@@ -30,8 +30,23 @@ $(document).on('turbolinks:load', function() {
   });
 
   $(document).on('click', '.close-btn', function(){
-    console.log('hi')
     $('.sign-overlay').hide();
+  });
+
+  $('.home-page-panel a:first-of-type').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+  });
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 800) {
+      $('#go-top-btn').fadeIn();
+    } else {
+      $('#go-top-btn').fadeOut();
+    }
   });
 
   $('#go-top-btn a').click(function(){

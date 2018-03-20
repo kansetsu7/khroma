@@ -1,3 +1,56 @@
+<section id="home-page">
+  <div class="home-bg">
+    <div class="home-page-overlay">
+      <div class="container">
+        <div class="home-page-panel">
+          <h2>一種配色，等一個人</h2>
+          <h3>Let color do the magic.</h3>
+          <div>
+            <%= link_to "#match", data: { turbolinks: false } do %> 
+              <button class="btn" herf="#match">馬上試用</button>
+            <% end %>
+            <%= link_to new_user_registration_path, remote: true do %>
+              <button class="btn">註冊會員</button>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="promote">
+  <div class="container">
+    <div class="promote-panel">
+      <div class="promote-item">
+        <div class="promote-icon">
+          <%= fa_icon 'thumbs-o-up' %>
+        </div>
+        <div class="promote-text">
+          <h6>全台第一家衣服比價網！</h6>
+          <p>擁有6000筆即時資訊</p>
+        </div>
+      </div>
+      <div class="promote-item" style="justify-self: center">
+        <div class="promote-icon">
+          <%= fa_icon 'check-circle-o', style: "font-size: 38px;" %>
+        </div>
+        <div class="promote-text">
+          <h6>Khroma專業配色，您安心！</h6>
+          <p>依照您的喜好，給您最時尚的推薦</p>
+        </div>
+      </div>
+      <div class="promote-item" style="justify-self: end">
+        <div class="promote-icon"> 
+          <%= fa_icon 'heart-o' %>
+        </div>
+        <div class="promote-text">
+          <h6>個人化追蹤系統</h6>
+          <p>幫您收藏喜愛商品，購物沒壓力</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id='match'>
   <div class="container">
     <div class="match-choice-panel">
@@ -35,7 +88,6 @@
 </section>
 <section id="result">
   <div class="container">
-    <hr />
     <!-- match 結果 -->
     <div id="match-result-panel">
       <!-- Original -->
