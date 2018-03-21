@@ -25,7 +25,7 @@ $(document).on('turbolinks:load', function(){
         down_hue_level: $('#down-hue-choice #hue_level_id').val()
       },
       success: function(data){
-        $('#result').html(data['productsMatchHtml']);
+        $('#match-result-panel').html(data['productsMatchHtml']);
       }
     });
   });
