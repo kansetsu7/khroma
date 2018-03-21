@@ -40,7 +40,7 @@ class KhromaController < ApplicationController
       matches = []
       
       if no_params['up_hue_level'] || no_params['down_hue_level']  # 有個hue_level沒給 => 提供使用者顏色、該顏色衣服以及配色法則
-        
+
         # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, match_hue2以及principle_id
         # 可用來提供使用者顏色、該顏色衣服以及配色法則
         if no_params['up_hue_level']  # 
@@ -102,10 +102,13 @@ class KhromaController < ApplicationController
             #  - result_arr[2][1] = 下半身的衣服
             products = []
             product_of_given_color = Type.find(type_with_hue_level).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
-            if type_without_hue_level == -1  # 沒給hue_level也沒給type -> 找all type
-              product_of_match_color = Product.joins(:color).where('colors.hue_level_id = ?', match_color[1])
-            else
-              product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1])              
+            if type_without_hue_level == -1  # 沒給type -> 從category找products
+              # 從有給type的category反推找出沒給的category
+              category_id = Type.find(type_with_hue_level).category.id  # 有給type的category
+              category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
+              product_of_match_color = Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', match_color[1]).limit(10)
+            else  # 有給type
+              product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1]).limit(10)             
             end
             if no_params['up_hue_level']
               products.push(product_of_match_color)  # 上半身的衣服
@@ -165,8 +168,8 @@ class KhromaController < ApplicationController
           #  - result_arr[2][0] = 上半身的衣服
           #  - result_arr[2][1] = 下半身的衣服
           products = []
-          top_products    = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
-          bottom_products = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
+          top_products    = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level]).limit(10)
+          bottom_products = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level]).limit(10)
           products = [top_products, bottom_products]
           result.push(products)
 
@@ -209,8 +212,8 @@ class KhromaController < ApplicationController
             #  - result_arr[2][0] = 上半身的衣服
             #  - result_arr[2][1] = 下半身的衣服
             products = []
-            product_top = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level])
-            product_of_bottom = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level])
+            product_top = Type.find(params[:up_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:up_hue_level]).limit(10)
+            product_of_bottom = Type.find(params[:down_type_id]).products.joins(:color).where('colors.hue_level_id = ?', params[:down_hue_level]).limit(10)
             result.push([product_top, product_of_bottom])
 
             matches.push(result)  
