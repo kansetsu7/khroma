@@ -66,19 +66,25 @@
           </div>
         </div>
         <div id="up-choice-panel">
-          <span id="up-type-choice">
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select col-md-5 col-xs-12"}) %>
+          <span id="up-type-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
+            </div>
+            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select"}) %>
           </span>
           <span id="up-hue-choice">
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select col-md-6 col-xs-12"}) %>
+            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select"}) %>
           </span>
         </div>
         <div id="down-choice-panel">
-          <span id="down-type-choice">
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[1], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select col-md-5 col-xs-12"}) %>
+          <span id="down-type-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("pants.png") %></span>
+            </div>
+            <%= grouped_collection_select(:type, :type_id,  @categories_init[1], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select"}) %>
           </span>
           <span id="down-hue-choice">
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select col-md-6 col-xs-12"}) %>
+            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select"}) %>
           </span>
         </div>
       </div>
