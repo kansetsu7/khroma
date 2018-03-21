@@ -13,7 +13,6 @@ $(document).on('turbolinks:load', function(){
   });
 
   $('#match-btn').on('click', function(){
-    console.log('hi');
     $.ajax({
       url: 'khroma/match',
       method: 'get',
@@ -45,5 +44,23 @@ $(document).on('turbolinks:load', function(){
 
   $(document).on('click','.close-btn', function(){
     $('#lower-nav').css('transform', 'translateY(-100%)');
+  });
+
+  $('#match-result-panel').on('click', '.match-right', function(){
+    $(this).siblings('.match-left').prop('disabled', false);
+    $(this).siblings('.show-item').eq(3).next().addClass('show-item');
+    $(this).siblings('.show-item').eq(0).removeClass('show-item');
+    if ($(this).siblings('.show-item').eq(3).is(':nth-last-child(2)') ){
+      $(this).prop('disabled', true);
+    }
+  });
+
+  $('#match-result-panel').on('click', '.match-left', function(){
+    $(this).siblings('.match-right').prop('disabled', false);
+    $(this).siblings('.show-item').eq(3).removeClass('show-item');
+    $(this).siblings('.show-item').eq(0).prev().addClass('show-item');
+    if ($(this).siblings('.show-item').eq(0).is(':nth-child(2)') ){
+      $(this).prop('disabled', true);
+    }
   });
 });

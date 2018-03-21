@@ -1,4 +1,9 @@
-<div class="style-item shadow-box-light">
+<% if i < 4 %>
+  <% show_item = "show-item" %>
+<% else %>
+  <% show_item = "" %>
+<% end %> 
+<div class="style-item shadow-box-light <%= show_item %>">
   <div class="product-img">
     <%= link_to product_path(product.id) do %>
       <%= image_tag(product.image) %>
