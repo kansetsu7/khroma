@@ -28,8 +28,8 @@ class KhromaController < ApplicationController
                 }
 
     # 至少要給一個category的type+hue_level才能進行配對
-    if (no_params['up_type'] && no_params['up_hue_level'] && !no_params['down_type'] && !no_params['down_hue_level']) ||
-       (no_params['down_type'] && no_params['down_hue_level'] && !no_params['up_type'] && !no_params['up_hue_level'])
+    if (!no_params['up_type'] && !no_params['up_hue_level']) ||
+       (!no_params['down_type'] && !no_params['down_hue_level'])
       # 參數足夠，可以進行配對
 
       # puts 是方便觀察用的，可以刪掉
@@ -40,7 +40,7 @@ class KhromaController < ApplicationController
       matches = []
       
       if no_params['up_hue_level'] || no_params['down_hue_level']  # 有個hue_level沒給 => 提供使用者顏色、該顏色衣服以及配色法則
-
+        
         # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, match_hue2以及principle_id
         # 可用來提供使用者顏色、該顏色衣服以及配色法則
         if no_params['up_hue_level']  # 
