@@ -5,7 +5,9 @@
     <div><%#= image_tag match[0][1] unless match[0][1] == '' %></div><!-- 配色法則圖片尺寸未設定，很大一張 -->
     <div>上半身的衣服: <%= match[2][0].count %> 件</div>
     <% match[2][0].each do |product| %>
-      <div> - 名稱:<%= product.name %> </div>
+      <div class="styles-panel">
+        <div> - 名稱:<%= product.name %> </div>
+      </div>
     <% end %>  
     <div>下半身的衣服: <%= match[2][1].count %> 件</div>
     <% match[2][1].each do |product| %>

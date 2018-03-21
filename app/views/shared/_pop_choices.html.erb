@@ -1,1 +1,11 @@
-<%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select col-md-5 col-xs-12"}) %>
+<div class="input-group-prepend">
+  <span class="input-group-text">
+    <% puts categories.first.id %>
+    <% if categories.first.name == "上衣類" %>
+     <%= image_tag("cloth.png") %>
+    <% elsif categories.first.name == "下身類" %>
+      <%= image_tag("pants.png") %>
+    <% end %>
+  </span>
+</div>
+<%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select"}) %>
