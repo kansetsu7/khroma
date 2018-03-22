@@ -57,18 +57,18 @@ class KhromaController < ApplicationController
         @principle_colors.each do |principle_color|
 
           # match_colors: 目前配色法則下的配色顏色，可能有１個或２個
-          # match_colors[0]: 第一個配色match1_hue_level的顏色名稱與id
-          # match_colors[1]: 第二個配色match2_hue_level的顏色名稱與id
+          # match_colors[0]:    第一個配色match1_hue_level的顏色物件HueLevel
+          # match_colors[1]:    第二個配色match2_hue_level的顏色物件HueLevel
           # match_colors[i][0]: 顏色名稱
           # match_colors[i][1]: 顏色id
           # match_colors[i][2]: 此配色法剩下的另一個顏色(如果沒有就是nil)
           
           match_colors = []
           if principle_color.match2_hue_level.nil?
-            match_colors.push([principle_color.match1_hue_level.name, principle_color.match1_hue_level, nil])
+            match_colors.push([principle_color.match1_hue_level, nil])
           else
-            match_colors.push([principle_color.match1_hue_level.name, principle_color.match1_hue_level, principle_color.match2_hue_level.name])
-            match_colors.push([principle_color.match2_hue_level.name, principle_color.match2_hue_level, principle_color.match1_hue_level.name])
+            match_colors.push([principle_color.match1_hue_level, principle_color.match2_hue_level])
+            match_colors.push([principle_color.match2_hue_level, principle_color.match1_hue_level])
           end          
 
           match_colors.each_with_index do |match_color, i|
@@ -84,16 +84,22 @@ class KhromaController < ApplicationController
             #  - result_arr[1][0] = 上半身的顏色
             #  - result_arr[1][1] = 下半身的顏色
             #  - result_arr[1][2] = 額外可選的顏色
+            #  - result_arr[1][3] = 上半身顏色的hex
+            #  - result_arr[1][4] = 下半身顏色的hex
+            #  - result_arr[1][5] = 額外可選顏色的hex
 
             color_names = []
-            if no_params['up_hue_level']
-              color_names.push(match_color[0])  # 上半身的顏色
-              color_names.push(HueLevel.find(hue_level).name)  # 下半身的顏色
-            else
-              color_names.push(HueLevel.find(hue_level).name)  # 上半身的顏色
-              color_names.push(match_color[0])  # 下半身的顏色
-            end
-            color_names.push(match_color[2])  # 額外可選的顏色
+            top_hue_level = no_params['up_hue_level'] ? match_color[0] : HueLevel.find(hue_level)
+            bottom_hue_level = no_params['up_hue_level'] ? HueLevel.find(hue_level) : match_color[0]
+            optional_hlv_name = match_color[1].nil? ? nil : match_color[1].name
+            optional_hlv_hex = match_color[1].nil? ? nil : match_color[1].hex
+
+            color_names.push(top_hue_level.name)          # 上半身的顏色
+            color_names.push(bottom_hue_level.name)   # 下半身的顏色
+            color_names.push(optional_hlv_name)          # 額外可選的顏色
+            color_names.push(top_hue_level.hex)       # 上半身顏色的hex
+            color_names.push(bottom_hue_level.hex)    # 下半身顏色的hex
+            color_names.push(optional_hlv_hex)  # 下半身顏色的hex
             result.push(color_names)
             
             # 3.配色顏色的衣服 -------------
@@ -106,9 +112,9 @@ class KhromaController < ApplicationController
               # 從有給type的category反推找出沒給的category
               category_id = Type.find(type_with_hue_level).category.id  # 有給type的category
               category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
-              product_of_match_color = Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', match_color[1]).limit(10)
+              product_of_match_color = Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', match_color[0].id).limit(10)
             else  # 有給type
-              product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[1]).limit(10)             
+              product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', match_color[0].id).limit(10)             
             end
             if no_params['up_hue_level']
               products.push(product_of_match_color)  # 上半身的衣服
@@ -126,6 +132,9 @@ class KhromaController < ApplicationController
         # matches[i][1][0]: 上半身的顏色
         # matches[i][1][1]: 下半身的顏色
         # matches[i][1][2]: 額外可選的顏色
+        # matches[i][1][3]: 上半身顏色的hex
+        # matches[i][1][4]: 下半身顏色的hex
+        # matches[i][1][5]: 額外可選顏色的hex
         # matches[i][2][0]: 上半身的衣服
         # matches[i][2][1]: 下半身的衣服
         render json: {
@@ -159,8 +168,14 @@ class KhromaController < ApplicationController
           # result_arr[1] = color_names: 符合法則的配色顏色
           #  - result_arr[1][0] = 上半身的顏色
           #  - result_arr[1][1] = 下半身的顏色
-          #  - result_arr[1][2] = 額外可選的顏色
-          color_names = [HueLevel.find(params[:up_hue_level]).name, HueLevel.find(params[:down_hue_level]).name]
+          #  - result_arr[1][2] = nil(沒有額外可選的顏色)
+          #  - result_arr[1][3] = 上半身顏色的hex
+          #  - result_arr[1][4] = 下半身顏色的hex
+          #  - result_arr[1][5] = nil(沒額外可選顏色的hex)
+          top_hue_level      = HueLevel.find(params[:up_hue_level])
+          bottom_hue_level   = HueLevel.find(params[:down_hue_level])
+          color_names = [top_hue_level.name, bottom_hue_level.name, nil,
+                         top_hue_level.hex, bottom_hue_level.hex, nil]
           result.push(color_names)
           
           # 3.配色顏色的衣服 -------------
@@ -183,9 +198,10 @@ class KhromaController < ApplicationController
 
           @principle_colors.each_with_index do |principle_color, i|
             if principle_color.match2_hue_level.nil?
-              second_option = nil
+              second_option = [nil, nil]
             else
-              second_option = principle_color.match1_hue_level.id == params[:down_hue_level].to_i ? principle_color.match2_hue_level.name : principle_color.match1_hue_level.name
+              second_option = principle_color.match1_hue_level.id == params[:down_hue_level].to_i ? principle_color.match2_hue_level : principle_color.match1_hue_level
+              second_option = [second_option.name, second_option.hex]
             end 
 
             result = []
@@ -200,11 +216,20 @@ class KhromaController < ApplicationController
             #  - result_arr[1][0] = 上半身的顏色
             #  - result_arr[1][1] = 下半身的顏色
             #  - result_arr[1][2] = 額外可選的顏色
+            #  - result_arr[1][3] = 上半身顏色的hex
+            #  - result_arr[1][4] = 下半身顏色的hex
+            #  - result_arr[1][5] = 額外可選顏色的hex
+
+            top_hue_level      = HueLevel.find(params[:up_hue_level])
+            bottom_hue_level   = HueLevel.find(params[:down_hue_level])
 
             color_names = []
-            color_names.push(HueLevel.find(params[:up_hue_level]).name)  # 上半身的顏色
-            color_names.push(HueLevel.find(params[:down_hue_level]).name)  # 下半身的顏色 
-            color_names.push(second_option)  # 額外可選的顏色
+            color_names.push(top_hue_level.name)  # 上半身的顏色
+            color_names.push(bottom_hue_level.name)  # 下半身的顏色 
+            color_names.push(second_option[0])  # 額外可選的顏色
+            color_names.push(top_hue_level.hex)  # 上半身的顏色
+            color_names.push(bottom_hue_level.hex)  # 下半身的顏色 
+            color_names.push(second_option[1])  # 額外可選的顏色
             result.push(color_names)
             
             # 3.配色顏色的衣服 -------------
