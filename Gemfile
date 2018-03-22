@@ -44,8 +44,11 @@ gem 'jquery-rails'
 # Use bootstrap with rails https://rubygems.org/gems/bootstrap
 gem 'bootstrap'
 
-# Use font aweson with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
+# Use font awesome with rails https://rubygems.org/gems/font-awesome-rails/versions/4.7.0.2
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+#Use bootstrap-select-rails https://github.com/silviomoreto/bootstrap-select
+gem 'bootstrap-select-rails'
 
 gem 'csv'
 
