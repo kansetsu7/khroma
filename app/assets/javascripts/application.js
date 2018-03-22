@@ -16,7 +16,11 @@
 //= require jquery_ujs
 //= require popper
 //= require bootstrap-sprockets
+//= require bootstrap-select
+//= require bootstrap/alert
+//= require bootstrap/dropdown
 //= require_tree .
+
 
 $(document).on('turbolinks:load', function() {
   var timeout;

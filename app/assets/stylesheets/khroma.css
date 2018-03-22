@@ -131,14 +131,49 @@
 
 /* result */
 
-.match-priciple-title {
+.match-principle-title {
   width: 100%;
   background: var(--lblack);
   color: #FFF;
   padding: 10px;
   margin: 20px 0;
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr;
+}
+
+.result-count {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  
+}
+
+.match-principle-lbl {
+  justify-self: end;
+  position: relative;
+  cursor: pointer;
+}
+
+.match-principle-panel {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top:40px;
+  right: 0;
+  z-index: 100;
+  padding: 10px;
+  background: #FFF;
+  border-radius: 5px;
+  display: none;
+}
+
+.match-principle-panel:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  border-style: solid;
+  border-width: 0 15px 10px 15px;
+  border-color: transparent transparent #FFF transparent;
 }
 
 .up-products-panel, .down-products-panel  {
