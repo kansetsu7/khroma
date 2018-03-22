@@ -35,9 +35,9 @@ def get_lativ_products
   # puts styles_link_arr[0][0][0][0]        # is string, a link of style
   # ----------------------------------------------------------------
 
-  product_id = 48
+  product_id = 374
   writer = CSV.open("./products0.txt", "a+")
-  # writer << ["type_id", "name", "image_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["type_id", "name", "image_link", "color_chip_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
@@ -45,11 +45,10 @@ def get_lativ_products
         type.each_with_index do |style, l|
           next if skip(i, j, k, l)
           puts "gender#{i}, category#{j}, type#{k}, style#{l}"
-          # puts get_lativ_products_of_style(styles_link_arr[i][j][k][l]) if styles_link_arr[i][j][k][l] == "http://www.lativ.com.tw/Detail/34110011"
           products_arr[i][j][k][l] = get_lativ_products_of_style(styles_link_arr[i][j][k][l])
           if products_arr[i][j][k][l].kind_of?(Array)  # if redirected to index
             products_arr[i][j][k][l].each_with_index do |products, m|
-              writer << [product_id, products[0], products[1], i, j, k, l]
+              writer << [product_id, products[0], products[1], products[2], i, j, k, l]
             end
           else
             writer << [product_id, -1]
@@ -65,7 +64,7 @@ end
 
 def skip(i, j, k, l)
   # start at gender1, category0, type0, style85
-  start_point = [0,0,0,48]
+  start_point = [1,0,2,6]
   return true if i < start_point[0]
   return true if i == start_point[0] && j < start_point[1]
   return true if i == start_point[0] && j == start_point[1] && k < start_point[2]
@@ -87,12 +86,13 @@ def get_lativ_products_of_style(style_link)
 end
 
 def get_product_attributes(style_link)
-  attributes_arr = []  # name, img_link
+  attributes_arr = []  # name, img_link, color_chip_link
   page = get_page(style_link, 'span.title1')
   product_name = page.search('span.title1').first
   attributes_arr.push(product_name.text.gsub! product_name.search('span#isize').first.text, '') # full name of product, but not include size 
   attributes_arr.push(page.search('img#productImg').first['src'])
-  attributes_arr  # return: [name, img_link]
+  attributes_arr.push(page.search("a>img[style='border:1px solid #555;padding:2px;']").first['src'])
+  attributes_arr  # return: [name, img_link, color_chip_link]
 end
 
 def get_page(style_link, search_css)

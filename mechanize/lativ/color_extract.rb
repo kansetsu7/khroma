@@ -66,7 +66,17 @@ def get_color(api_key, api_secret)
   in_arr.each_with_index do |product, i|
     next if i == 0  # skip first row
     puts "get color of product #{i} "
-    result_arr = call_api(product[2], api_key, api_secret) unless product[1] == '-1'
+    # use color chip to extract color, it's better than to use prodcut
+    # chip:    https://s3.lativ.com.tw/i/28371/28371131/2837113_24.jpg
+    # product: https://s3.lativ.com.tw/i/28371/28371131/2837113_500.jpg
+
+    str = product[2].split('/')
+    product_sn = str[-2]
+    style_sn = str[-3]
+    color_chip_sn = str[-2][0..-2]
+    chip_url = 'https://s3.lativ.com.tw/i/' + style_sn + '/' + product_sn + '/' + color_chip_sn + '_24.jpg'
+    
+    result_arr = call_api(chip_url, api_key, api_secret) unless product[1] == '-1'
     result_arr = [i, -1] if product[1] == '-1'
     if result_arr.nil?
       writer << [i, 'error!']
@@ -261,7 +271,7 @@ def get_hue_level(color_hex)
   return 1
 end
 
-api_key = 'acc_5d2d21effe80002'
-api_secret = '5dca41e3dd1718f620416c5cfde512cf'
-# get_color(api_key, api_secret)
-write_color
+api_key = 'acc_ad6c60f1d90bbff'
+api_secret = '3d441d05baed4d4b03456316cdbb361a'
+get_color(api_key, api_secret)
+# write_color
