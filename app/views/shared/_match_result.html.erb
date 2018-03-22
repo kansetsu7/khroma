@@ -38,9 +38,9 @@
         <button class="match-right"><i class="fa fa-caret-right"></i></button>
       <% end %> 
     </div>  
-<!--     <% #unless match[1][2].nil? %>
-      <div>對此配色法則，您還可以選擇 <%= #match[1][2] %> 作為其他服飾配件顏色來搭配</div>  
-    <% #end %> -->
+    <% unless match[1][2].nil? %>
+      <div>對此配色法則，您還可以選擇 <%= match[1][2] %> 作為其他服飾配件顏色來搭配</div>  
+    <% end %>
   </div>
 <% end %>
 
