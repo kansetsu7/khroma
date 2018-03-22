@@ -71,10 +71,13 @@ puts "\"Admin\" created!"
 #               "Cyan", "Azure Radiance", "Blue", "Electric Violet", "Magenta", "Rose", "achromatic(black, gray, white)"]
 color_name = ["1. 紅色系", "2. 橘色系", "3. 黃色系", "4. 黃綠色系", "5. 綠色系", "6. 春綠色系",
               "7. 青色系", "8. 湛藍色系", "9. 藍色系", "10.紫羅蘭色系", "11. 洋紅色系", "12. 玫瑰紅色系", "13. 無色彩(黑、白、灰)"]
+hex = ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00', '#00FF80',
+       '#00FFFF', '#0080FF', '#0000FF', '#8000FF', '#FF00FF', '#FF0080', '#000000']
 HueLevel.destroy_all
 color_name.each_with_index do |name, i|
   HueLevel.create(
-    name: color_name[i]
+    name: color_name[i],
+    hex:  hex[i]
   )
 end
 puts "have created #{HueLevel.count} hue_levels."
