@@ -46,6 +46,15 @@ $(document).on('turbolinks:load', function(){
     $('#lower-nav').css('transform', 'translateY(-100%)');
   });
 
+
+  $('#match-result-panel').on('mouseenter', '.match-principle-lbl', function() {
+      $(this).find('.match-principle-panel').show(0);
+  }); 
+
+  $('#match-result-panel').on('mouseleave', '.match-principle-lbl', function() {
+      $(this).find('.match-principle-panel').hide(0);
+  });
+
   $('#match-result-panel').on('click', '.match-right', function(){
     $(this).siblings('.match-left').prop('disabled', false);
     $(this).siblings('.show-item').eq(3).next().addClass('show-item');

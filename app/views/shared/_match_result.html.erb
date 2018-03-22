@@ -1,8 +1,19 @@
 <% matches.each do |match| %>
   <div class="match-result-item">
-    <div class="match-priciple-title shadow-box">
-      <div class="result-count">上身: <%= match[2][0].count %> 件  下身: <%= match[2][1].count %> 件</div>
-      <div class="match-priciple-lbl">配色法則: <%= match[0][0] %> - <%= match[1][0] %> x <%= match[1][1] %></div>
+    <div class="match-principle-title shadow-box">
+      <div class="result-count">
+        <div><%= match[1][0].hex %></div>
+        <div>X</div>
+        <div><%= match[1][1].hex %></div>
+        <div>上身: <%= match[2][0].count %> 件  下身: <%= match[2][1].count %> 件</div>
+      </div>
+      <div class="match-principle-lbl">
+        <div>配色法則: <%= match[0][0] %>
+          <div class="match-principle-panel shadow-box">
+            <%= image_tag match[0][1] unless match[0][1] == '' %>
+          </div>
+        </div> 
+      </div>
     </div>
     <div class="styles-panel up-products-panel">
       <% puts match[2][0].count %>
@@ -33,7 +44,6 @@
   </div>
 <% end %>
 
-<div><%#= image_tag match[0][1] unless match[0][1] == '' %></div><!-- 配色法則圖片尺寸未設定，很大一張 -->
 <!-- 
 matches[i][0][0]: 配色法則名稱
 matches[i][0][1]: 配色法則圖片
