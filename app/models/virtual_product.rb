@@ -1,0 +1,2 @@
+class VirtualProduct < ApplicationRecord
+end
