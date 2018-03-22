@@ -17,28 +17,18 @@ def write_color
     # skip if product is sold out
     writer << [i, -1] if color[1] == '-1'
     next if color[1] == '-1'
+    
+    percentage = color[17].to_f      # 圖片主色佔圖片面積比
 
-    pic_main_percentage = color[17].to_f      # 圖片主色佔圖片面積比
-    clothes_main_percentage = color[21].to_f  # 衣服主色佔衣服面積比
-
-    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[14]
-    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[18]
-    if pic_main_percentage >= clothes_percentage  
-      clothes_color = color[14]
-      name_id = 16
-      clothes_main_percentage = clothes_percentage / pic_main_percentage * 100
-    else
-      clothes_color = color[18]
-      name_id = 20
-      # 如果顏色接近，則將佔色比相加
-      for j in 1..3 do
-        clothes_main_percentage += color[21+4*j].to_f if color[19] == color[19+4*j]
-      end
-      clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
+    clothes_color = color[14]
+    name_id = 16
+    # 如果顏色接近，則將佔色比相加
+    for j in 1..4 do
+      percentage += color[17+4*j].to_f if color[15] == color[15+4*j]
     end
     hlv = get_hue_level(clothes_color)
     arr_hlv[hlv-1] += 1 
-    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i, hlv]
+    writer << [i, clothes_color, color[name_id], percentage.to_i, hlv]
   end
 
   arr_hlv.each_with_index do |n, i|
@@ -53,10 +43,11 @@ def get_color(api_key, api_secret)
   # in_arr[0] = type_id
   # in_arr[1] = name
   # in_arr[2] = image_link
-  # in_arr[3] = gender_id
-  # in_arr[4] = category_of_gender_id
-  # in_arr[5] = type_of_category_id
-  # in_arr[6] = style_of_type_id
+  # in_arr[3] = color_chip_link
+  # in_arr[4] = gender_id
+  # in_arr[5] = category_of_gender_id
+  # in_arr[6] = type_of_category_id
+  # in_arr[7] = style_of_type_id
   # ------------------------------------
   
   # puts in_arr[0][2]
@@ -66,17 +57,8 @@ def get_color(api_key, api_secret)
   in_arr.each_with_index do |product, i|
     next if i == 0  # skip first row
     puts "get color of product #{i} "
-    # use color chip to extract color, it's better than to use prodcut
-    # chip:    https://s3.lativ.com.tw/i/28371/28371131/2837113_24.jpg
-    # product: https://s3.lativ.com.tw/i/28371/28371131/2837113_500.jpg
-
-    str = product[2].split('/')
-    product_sn = str[-2]
-    style_sn = str[-3]
-    color_chip_sn = str[-2][0..-2]
-    chip_url = 'https://s3.lativ.com.tw/i/' + style_sn + '/' + product_sn + '/' + color_chip_sn + '_24.jpg'
-    
-    result_arr = call_api(chip_url, api_key, api_secret) unless product[1] == '-1'
+    # use color chip to extract color, it's better than to use prodcut    
+    result_arr = call_api(product[3], api_key, api_secret) unless product[1] == '-1'
     result_arr = [i, -1] if product[1] == '-1'
     if result_arr.nil?
       writer << [i, 'error!']

@@ -37,7 +37,7 @@ def get_lativ_products
 
   product_id = 374
   writer = CSV.open("./products0.txt", "a+")
-  writer << ["type_id", "name", "image_link", "color_chip_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
+  writer << ["style_id", "name", "image_link", "color_chip_link", "gender_id", "category_of_gender_id", "type_of_category_id", "style_of_type_id"]
 
   products_arr.each_with_index do |gender, i|
     gender.each_with_index do |category, j|
