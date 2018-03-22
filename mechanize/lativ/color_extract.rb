@@ -9,8 +9,6 @@ def write_color
   writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
   arr_hlv = Array.new(13, 0)  # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
   
-  # remove first color in image color
-  clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
 
@@ -255,5 +253,5 @@ end
 
 api_key = 'acc_ad6c60f1d90bbff'
 api_secret = '3d441d05baed4d4b03456316cdbb361a'
-get_color(api_key, api_secret)
-# write_color
+# get_color(api_key, api_secret)
+write_color
