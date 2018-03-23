@@ -14,12 +14,13 @@ end
 
 def rename(in_arr, writer, is_product)
   writer << ["type_id", "name", "price", "link", "gender_id", "category_of_gender_id", "type_of_category_id"] unless is_product
-  writer << ['style_id','name','link','gender_id','category_of_gender_id','type_of_category_id','style_of_type_id'] if is_product
+  writer << ["style_id", "name", "image_link", "color_chip_link",'gender_id','category_of_gender_id','type_of_category_id','style_of_type_id'] if is_product
 
-  gender_col = is_product ? 3 : 4
+  gender_col = 4
 
   in_arr.each_with_index do |data, i|
     next if i == 0
+    puts "product #{data[1]}"
     if data[1] == '-1'
       name_arr = [-1]
       skip = true
@@ -39,11 +40,12 @@ def rename(in_arr, writer, is_product)
       break if skip
     end
     # name_arr[0] += name_arr[1] unless name_arr[1].nil?
-    writer << [data[0], name_arr[0], data[2], data[3], data[4], data[5], data[6]]
+    writer << [data[0], name_arr[0], data[2], data[3], data[4], data[5], data[6]] unless is_product
+    writer << [data[0], name_arr[0], data[2], data[3], data[4], data[5], data[6], data[7]] if is_product
   end
 end
 
-file_name = "styles0"
+file_name = "products0"
 in_arr = CSV.read("./" + file_name + ".txt")
 writer = CSV.open("./" + file_name + "_renamed.txt", "wt")
-rename(in_arr, writer, false)
+rename(in_arr, writer, true)

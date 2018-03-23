@@ -9,36 +9,24 @@ def write_color
   writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
   arr_hlv = Array.new(13, 0)  # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
   
-  # remove first color in image color
-  clothes_percentage = 75.0  # 衣服佔圖片面積(預估)
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
 
     # skip if product is sold out
     writer << [i, -1] if color[1] == '-1'
     next if color[1] == '-1'
+    
+    percentage = color[17].to_f      # 圖片主色佔圖片面積比
 
-    pic_main_percentage = color[17].to_f      # 圖片主色佔圖片面積比
-    clothes_main_percentage = color[21].to_f  # 衣服主色佔衣服面積比
-
-    # 如果主要顏色佔圖片面積 > 衣服佔圖片的主要面積，代表衣服主要色＝圖片主要色＝color[14]
-    # 如果不是，代表衣服主要顏色＝圖片次要色＝color[18]
-    if pic_main_percentage >= clothes_percentage  
-      clothes_color = color[14]
-      name_id = 16
-      clothes_main_percentage = clothes_percentage / pic_main_percentage * 100
-    else
-      clothes_color = color[18]
-      name_id = 20
-      # 如果顏色接近，則將佔色比相加
-      for j in 1..3 do
-        clothes_main_percentage += color[21+4*j].to_f if color[19] == color[19+4*j]
-      end
-      clothes_main_percentage = clothes_main_percentage/(100.0 - pic_main_percentage) * 100
+    clothes_color = color[14]
+    name_id = 16
+    # 如果顏色接近，則將佔色比相加
+    for j in 1..4 do
+      percentage += color[17+4*j].to_f if color[15] == color[15+4*j]
     end
     hlv = get_hue_level(clothes_color)
     arr_hlv[hlv-1] += 1 
-    writer << [i, clothes_color, color[name_id], clothes_main_percentage.to_i, hlv]
+    writer << [i, clothes_color, color[name_id], percentage.to_i, hlv]
   end
 
   arr_hlv.each_with_index do |n, i|
@@ -53,10 +41,11 @@ def get_color(api_key, api_secret)
   # in_arr[0] = type_id
   # in_arr[1] = name
   # in_arr[2] = image_link
-  # in_arr[3] = gender_id
-  # in_arr[4] = category_of_gender_id
-  # in_arr[5] = type_of_category_id
-  # in_arr[6] = style_of_type_id
+  # in_arr[3] = color_chip_link
+  # in_arr[4] = gender_id
+  # in_arr[5] = category_of_gender_id
+  # in_arr[6] = type_of_category_id
+  # in_arr[7] = style_of_type_id
   # ------------------------------------
   
   # puts in_arr[0][2]
@@ -66,7 +55,8 @@ def get_color(api_key, api_secret)
   in_arr.each_with_index do |product, i|
     next if i == 0  # skip first row
     puts "get color of product #{i} "
-    result_arr = call_api(product[2], api_key, api_secret) unless product[1] == '-1'
+    # use color chip to extract color, it's better than to use prodcut    
+    result_arr = call_api(product[3], api_key, api_secret) unless product[1] == '-1'
     result_arr = [i, -1] if product[1] == '-1'
     if result_arr.nil?
       writer << [i, 'error!']
@@ -261,7 +251,7 @@ def get_hue_level(color_hex)
   return 1
 end
 
-api_key = 'acc_5d2d21effe80002'
-api_secret = '5dca41e3dd1718f620416c5cfde512cf'
+api_key = 'acc_ad6c60f1d90bbff'
+api_secret = '3d441d05baed4d4b03456316cdbb361a'
 # get_color(api_key, api_secret)
 write_color
