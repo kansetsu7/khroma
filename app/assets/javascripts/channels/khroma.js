@@ -12,7 +12,8 @@ $(document).on('turbolinks:load', function(){
     });
   });
 
-  $('#match-btn').on('click', function(){
+  $('#kroma-index-match #match-btn').click(function(){
+
     $.ajax({
       url: 'khroma/match',
       method: 'get',
