@@ -89,7 +89,6 @@
   text-align: center
 }
 
-
 .product-info-lg .product-title,
 .product-info-lg .product-price {
   font-size: 20px;
@@ -131,13 +130,13 @@
 
 /* product match btn */
 
-#product-match-btn {
+#product-match {
   margin: 20px 0 20px 0;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-#product-match-btn #match-btn {
+#product-match #match-btn {
   justify-self: center;
 }
 

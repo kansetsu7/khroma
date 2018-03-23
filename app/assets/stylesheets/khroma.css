@@ -156,7 +156,7 @@
   position: relative;
 }
 
-.match-result-item:last-child  .match-principle-title .second-hex-lbl  {
+.match-result-item  .match-principle-title .black-label  {
   color: #FFF;
 }
 
@@ -164,7 +164,7 @@
   content: "X";
   position: absolute;
   top: 7px;
-  left: -4px;
+  left: -5px;
   color: #FFF;
   font-weight: 400;
 }
