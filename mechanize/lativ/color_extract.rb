@@ -2,6 +2,8 @@ require 'rest_client'
 require 'base64'
 require 'json'
 require 'csv'
+require 'yaml'
+require 'cloudinary'
 
 def write_color
   in_arr = CSV.read("./color.txt")
@@ -118,6 +120,44 @@ def call_api(image_url, api_key, api_secret)
 
   result_arr
   
+end
+
+def upload_color_chips
+  in_arr = CSV.read("./products0_renamed.txt")
+
+  auth = get_cloudinary_auth
+
+  writer = CSV.open("./color_chip.txt", "wt")
+  writer << ["product_id", "cloudinary_url"]
+  in_arr.each_with_index do |product, i|
+    next if i == 0  # skip first row
+
+    if product[1] != '-1'
+      file_name = 'chip/lativ' + (i-1).to_s
+      url = upload_cloudinary(auth, product[3], file_name)
+      puts "#{i-1}, #{file_name}"
+      puts "uploaded!"
+      writer << [i-1, url]
+    else
+      writer << [i-1, -1]    
+    end
+    
+  end
+end
+
+def upload_cloudinary(auth, image, public_id)
+  auth[:public_id] = public_id
+  result = Cloudinary::Uploader.upload(image, auth)
+  result['url']
+end
+
+def get_cloudinary_auth
+  content = YAML.load_file("../../config/cloudinary.yml")
+  config = {}
+  config[:cloud_name] = content['development']['cloud_name']
+  config[:api_key] = content['development']['api_key']
+  config[:api_secret] = content['development']['api_secret']
+  config
 end
 
 class Color
@@ -253,5 +293,6 @@ end
 
 api_key = 'acc_ad6c60f1d90bbff'
 api_secret = '3d441d05baed4d4b03456316cdbb361a'
+upload_color_chips
 # get_color(api_key, api_secret)
-write_color
+# write_color
