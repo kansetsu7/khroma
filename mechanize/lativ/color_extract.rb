@@ -36,38 +36,46 @@ def write_color
   end
 end
 
-def get_color(api_key, api_secret)
+def get_color()
   in_arr = CSV.read("./products0_renamed.txt")
 
-  # -------content of in_arr -----------
-  # in_arr[0] = type_id
-  # in_arr[1] = name
-  # in_arr[2] = image_link
-  # in_arr[3] = color_chip_link
-  # in_arr[4] = gender_id
-  # in_arr[5] = category_of_gender_id
-  # in_arr[6] = type_of_category_id
-  # in_arr[7] = style_of_type_id
-  # ------------------------------------
+  # # -------content of in_arr -----------
+  # # in_arr[0] = type_id
+  # # in_arr[1] = name
+  # # in_arr[2] = image_link
+  # # in_arr[3] = color_chip_link
+  # # in_arr[4] = gender_id
+  # # in_arr[5] = category_of_gender_id
+  # # in_arr[6] = type_of_category_id
+  # # in_arr[7] = style_of_type_id
+  # # ------------------------------------
   
-  # puts in_arr[0][2]
+  auth = get_cloudinary_auth
 
-  writer = CSV.open("./color.txt", "wt")
-  writer << ["product_id", "color"]
+  writer = CSV.open("./color.txt", "a+")
+  # writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    next if i == 0  # skip first row
-    puts "get color of product #{i} "
-    # use color chip to extract color, it's better than to use prodcut    
-    result_arr = call_api(product[3], api_key, api_secret) unless product[1] == '-1'
-    result_arr = [i, -1] if product[1] == '-1'
-    if result_arr.nil?
-      writer << [i, 'error!']
-    else
-      result_arr[0] = i
-      writer << result_arr
-    end 
+    next if i == 0 || i < 1596 # skip first row
+    puts "get color of product #{i-1} "
+    colors = get_cloudinary_color(auth, '/chip/lativ' + (i-1).to_s).unshift(i) unless product[1] == '-1'
+    colors = [i, -1] if product[1] == '-1'
+    writer << colors
   end
+end
 
+def get_cloudinary_color(auth, public_id)
+  # auth[:public_id] = public_id
+  auth[:colors] = true
+  colors = []
+
+  result = Cloudinary::Api.resource(public_id, auth)
+  result_colors = result['colors']
+  result_colors.each_with_index do |rc, i|
+    colors.push(rc[0])
+    colors.push(rc[1])
+    # puts "#{i}, #{rc[0]}, #{rc[1]}"
+  end
+  colors
 end
 
 def call_api(image_url, api_key, api_secret)
@@ -293,6 +301,6 @@ end
 
 api_key = 'acc_ad6c60f1d90bbff'
 api_secret = '3d441d05baed4d4b03456316cdbb361a'
-upload_color_chips
-# get_color(api_key, api_secret)
+# upload_color_chips
+get_color
 # write_color

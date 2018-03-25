@@ -31,7 +31,7 @@ def write_color
   end
 end
 
-def get_color(keys, secrets)
+def get_color
   in_arr = CSV.read("./products0_renamed.txt")
 
   # -------content of in_arr -----------
@@ -45,32 +45,33 @@ def get_color(keys, secrets)
   # in_arr[i][7] = type_of_category_id
   # in_arr[i][8] = style_of_type_id
   # ------------------------------------
-  # puts in_arr[0][2]
-  used_auth = 0
-  img_count = 0
 
-  writer = CSV.open("./color.txt", "wt")
+  auth = get_cloudinary_auth
+
+  writer = CSV.open("./color.txt", "a+")
   writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    next if i == 0  # skip first row  
-    puts "get color of product #{i} "
-    str = product[4].split('/')
-    # uniqlo每件衣服都有所謂的color chip，可以代表該衣服的顏色。用color chip會比用整張圖判斷更準    
-    color_chip_link = 'http://im.uniqlo.com/images/tw/uq/pc/goods/' + str[-3] + '/chip/' + str[-1].sub!('.jpg', '') + '.gif'
-
-    api_key = keys[used_auth]
-    api_secret = secrets[used_auth]    
-    result_arr = call_api(color_chip_link, api_key, api_secret)
-
-    img_count += 1
-    used_auth = 1 if img_count > 30
-    if result_arr.nil?
-      writer << [i, -1]
-    else
-      result_arr[0] = i
-      writer << result_arr
-    end   
+    next if i == 0  # skip first row
+    puts "get color of product #{i-1} "
+    colors = get_cloudinary_color(auth, '/chip/uniqlo' + (i-1).to_s).unshift(i) unless product[1] == '-1'
+    colors = [i, -1] if product[1] == '-1'
+    writer << colors
   end
+end
+
+def get_cloudinary_color(auth, public_id)
+  # auth[:public_id] = public_id
+  auth[:colors] = true
+  colors = []
+
+  result = Cloudinary::Api.resource(public_id, auth)
+  result_colors = result['colors']
+  result_colors.each_with_index do |rc, i|
+    colors.push(rc[0])
+    colors.push(rc[1])
+    # puts "#{i}, #{rc[0]}, #{rc[1]}"
+  end
+  colors
 end
 
 def call_api(image_url, api_key, api_secret)
@@ -300,6 +301,6 @@ keys = ['acc_457c0ba47a89fc7', 'acc_ae57afa9be2771d']
 secrets = ['57490716966db483020da088096cfffd', 'cfbe9e0d9dc43d1ce14364beb8c8a62e']
 
 # ok
-# get_color(keys, secrets)
+get_color
 # write_color
 upload_color_chips
