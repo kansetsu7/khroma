@@ -51,20 +51,20 @@ puts "\"Admin\" created!"
 # ===== hue_level ===============================
 # 目前用RYB系統
 # 
-# id, hue in RYB(deg),  hex(RGB), hex(RYB)      English name,   Chinese name
-# 1,  0,                #FF0000,  #FF0000,      Red             紅色
-# 2,  30,               #FF8000,  #FF5500,      Orange          
-# 3,  60,               #FFFF00,  #FF7F00,      Yellow          橘色
-# 4,  90,               #80FF00,  #FFA900,      Chartreuse      
-# 5,  120,              #00FF00,  #FFFF00,      Green           黃色系
-# 6,  150,              #00FF80,  #7FFF00,      Spring Green    色
-# 7,  180,              #00FFFF,  #00FF00,      Cyan            色
-# 8,  210,              #0080FF,  #00FFFD,      Azure           
-# 9,  240,              #0000FF,  #0000FF,      Blue            色
-# 10, 270,              #8000FF,  #8000FF,      Violet          色
-# 11, 300,              #FF00FF,  #FF00FF,      Magenta         
-# 12, 330,              #FF0080,  #FF0080,      Rose            
-# 13, 0,                #000000,  #000000,      achromatic      無色彩(黑、白、灰)
+# id, hue in RYB(deg),  hex(RGB), hex(RYB)
+# 1,  0,                #FF0000,  #FF0000,
+# 2,  30,               #FF8000,  #FF5500,
+# 3,  60,               #FFFF00,  #FF7F00,
+# 4,  90,               #80FF00,  #FFA900,
+# 5,  120,              #00FF00,  #FFFF00,
+# 6,  150,              #00FF80,  #7FFF00,
+# 7,  180,              #00FFFF,  #00FF00,
+# 8,  210,              #0080FF,  #00FFFD,
+# 9,  240,              #0000FF,  #0000FF,
+# 10, 270,              #8000FF,  #8000FF,
+# 11, 300,              #FF00FF,  #FF00FF,
+# 12, 330,              #FF0080,  #FF0080,
+# 13, 0,                #000000,  #000000,
 # color name source: https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8
 
 # color_name = ["Red", "Orange", "Yellow", "Chartreuse", "Green", "Spring Green", 
