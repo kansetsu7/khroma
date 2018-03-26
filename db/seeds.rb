@@ -49,30 +49,30 @@ puts "\"Admin\" created!"
 
 
 # ===== hue_level ===============================
-# 目前用RGB系統(適用於光學)，未來會切換到RYB(適用於紡織)
+# 目前用RYB系統
 # 
-# id, hue(deg), hex,      English name,   Chinese name
-# 1,  0,        #FF0000,  Red             紅色
-# 2,  30,       #FF8000,  Orange          橘色
-# 3,  60,       #FFFF00,  Yellow          黃色
-# 4,  90,       #80FF00,  Chartreuse      黃綠色
-# 5,  120,      #00FF00,  Green           綠色
-# 6,  150,      #00FF80,  Spring Green    春綠色
-# 7,  180,      #00FFFF,  Cyan            青色
-# 8,  210,      #0080FF,  Azure           湛藍
-# 9,  240,      #0000FF,  Blue            藍色
-# 10, 270,      #8000FF,  Violet          紫羅蘭色
-# 11, 300,      #FF00FF,  Magenta         洋紅
-# 12, 330,      #FF0080,  Rose            玫瑰紅
-# 13, 0,        -------,  achromatic      無色彩(黑、白、灰)
+# id, hue in RYB(deg),  hex(RGB), hex(RYB)      English name,   Chinese name
+# 1,  0,                #FF0000,  #FF0000,      Red             紅色
+# 2,  30,               #FF8000,  #FF5500,      Orange          
+# 3,  60,               #FFFF00,  #FF7F00,      Yellow          橘色
+# 4,  90,               #80FF00,  #FFA900,      Chartreuse      
+# 5,  120,              #00FF00,  #FFFF00,      Green           黃色系
+# 6,  150,              #00FF80,  #7FFF00,      Spring Green    色
+# 7,  180,              #00FFFF,  #00FF00,      Cyan            色
+# 8,  210,              #0080FF,  #00FFFD,      Azure           
+# 9,  240,              #0000FF,  #0000FF,      Blue            色
+# 10, 270,              #8000FF,  #8000FF,      Violet          色
+# 11, 300,              #FF00FF,  #FF00FF,      Magenta         
+# 12, 330,              #FF0080,  #FF0080,      Rose            
+# 13, 0,                #000000,  #000000,      achromatic      無色彩(黑、白、灰)
 # color name source: https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8
 
 # color_name = ["Red", "Orange", "Yellow", "Chartreuse", "Green", "Spring Green", 
 #               "Cyan", "Azure Radiance", "Blue", "Electric Violet", "Magenta", "Rose", "achromatic(black, gray, white)"]
-color_name = ["1. 紅色系", "2. 橘色系", "3. 黃色系", "4. 黃綠色系", "5. 綠色系", "6. 春綠色系",
-              "7. 青色系", "8. 湛藍色系", "9. 藍色系", "10.紫羅蘭色系", "11. 洋紅色系", "12. 玫瑰紅色系", "13. 無色彩(黑、白、灰)"]
-hex = ['#FF0000', '#FF8000', '#FFFF00', '#80FF00', '#00FF00', '#00FF80',
-       '#00FFFF', '#0080FF', '#0000FF', '#8000FF', '#FF00FF', '#FF0080', '#000000']
+color_name = ["1. 紅色系", "2. 橘紅系", "3. 橘色系", "4. 橘黃色系", "5. 黃色系", "6. 黃綠色系",
+              "7. 綠色系", "8. 藍綠色系", "9. 藍色系", "10. 藍紫色系", "11. 紫色系", "12. 紫紅色系", "13. 無色彩(黑、白、灰)"]
+hex = ['#FF0000', '#FF5500', '#FF7F00', '#FFA900', '#FFFF00', '#7FFF00',
+       '#00FF00', '#00FFFD', '#0000FF', '#8000FF', '#FF00FF', '#FF0080', '#000000']
 HueLevel.destroy_all
 color_name.each_with_index do |name, i|
   HueLevel.create(
