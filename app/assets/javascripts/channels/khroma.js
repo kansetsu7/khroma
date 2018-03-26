@@ -30,7 +30,6 @@ $(document).on('turbolinks:load', function(){
         $('#match-result-panel').html(data['productsMatchHtml']);
       }
     });
-  
   });
 
   $(document).ajaxStop(function(){

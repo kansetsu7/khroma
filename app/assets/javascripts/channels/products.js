@@ -17,6 +17,8 @@ $(document).on('turbolinks:load', function(){
       down_type_id = "";
       down_hue_level = "";
     }
+
+    $('#spinner-overlay').css('display', 'grid');
     
     $.ajax({
       url: '/khroma/match',
