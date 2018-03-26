@@ -3,7 +3,7 @@
   <div class="type-pills-panel shadow-box">     
     <% @types.each_with_index do |type, index| %>
       <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
-        <%= link_to "##{type.name.delete('/')}", data: { turbolinks: false } do %>
+        <%= link_to "##{type.name.delete('/').delete('(').delete(')')}", data: { turbolinks: false } do %>
           <p><%= type.name %></p>
           <div class="angle-down"><i class="fa fa-angle-down"></i></div>
         <% end %>

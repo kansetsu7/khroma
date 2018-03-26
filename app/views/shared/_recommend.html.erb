@@ -1,5 +1,5 @@
 <% types.each_with_index do |type, index| %>
-  <div id="<%= type.name.delete('/') %>" style="padding-top: 40px">
+  <div id="<%= type.name.delete('/').delete('(').delete(')') %>" style="padding-top: 40px">
     <div class="card shadow-box type-styles-card">
       <div class="card-header">
         <h5><%= type.name %></h5>
