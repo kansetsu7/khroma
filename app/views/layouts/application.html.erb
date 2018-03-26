@@ -40,12 +40,8 @@
               </ul>             
             <% else %>
               <div id="sign-menu">
-                <div class="sign-in-btn">
-                  <%= link_to '登入', new_user_session_path, remote: true %>
-                </div>
-                <div class="sign-up-btn">
-                  <%= link_to '註冊', new_user_registration_path, remote: true  %>
-                </div>
+                  <%= link_to '登入', new_user_session_path, remote: true, class: "sign-in-btn" %>
+                  <%= link_to '註冊', new_user_registration_path, remote: true, class: "sign-up-btn"  %>
               </div>
             <% end %>
           </div> 
@@ -78,6 +74,13 @@
       <% end %>
     </div>
     <div id="sign-overlay"></div>
+    <div id="spinner-overlay">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
     <%= yield %>
     <footer>
       <p>Copyright © 2018 LET IT CODE.</p>
