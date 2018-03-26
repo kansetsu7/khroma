@@ -42,9 +42,9 @@ def get_color
   auth = get_cloudinary_auth
 
   writer = CSV.open("./color.txt", "a+")
-  writer << ["product_id", "color"]
+  # writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    next if i == 0  # skip first row
+    next if i == 0 || i != 1537 # skip first row
     puts "get color of product #{i-1} "
     colors = get_cloudinary_color(auth, '/chip/uniqlo' + (i-1).to_s).unshift(i) unless product[1] == '-1'
     colors = [i, -1] if product[1] == '-1'
