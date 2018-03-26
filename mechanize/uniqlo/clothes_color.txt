@@ -1,2024 +1,2024 @@
-product_id,color in hex,color name,percentage of clothes,hue_level
-1,#eeeeee,star light,86,13
-2,#d5d5d5,sterling,83,13
-3,#faceca,primrose,69,1
-4,#acd7eb,slate,84,8
-5,#8a9cda,periwinkle,100,9
-6,#313543,midnight,97,9
-7,#f4f2f1,snow white,77,13
-8,#f7cdd7,ice pink,59,1
-9,#c9caee,dove,99,9
-10,#343340,midnight,84,13
-11,#f9f9f9,white,75,13
-12,#919ad8,periwinkle,87,9
-13,#f3f2f0,snow white,75,13
-14,#2f3140,midnight,100,9
-15,#ebece7,marshmallow,81,13
-16,#323547,midnight,100,9
-17,#e2e1e1,star light,56,13
-18,#e2e4e6,star light,61,13
-19,#f5e9ea,marshmallow,24,1
-20,#e9eaee,star light,32,13
-21,#6984db,tahiti,59,9
-22,#c2d5fd,dove,72,8
-23,#c9c5c3,oyster,40,13
-24,#9aa6cf,periwinkle,26,9
-25,#9a98a1,shadow,37,13
-26,#a072b7,pansy,33,10
-27,#c1d1ea,dove,31,8
-28,#8d8f9c,shadow,35,13
-29,#b5b4bf,frost,41,13
-30,#a5accb,arctic,39,9
-31,#eeeef0,star light,56,13
-32,#dae3f8,dove,76,8
-33,#554360,violet,26,10
-34,#35848e,niagara,25,7
-35,#eeefef,star light,68,13
-36,#434764,violet,63,9
-37,#9cabd8,periwinkle,30,9
-38,#ebe8e8,star light,35,13
-39,#b6b6c9,arctic,36,9
-40,#c2bfc0,sterling,35,13
-41,#6b6c6e,blue steel,67,13
-42,#7a7b7d,quarry,34,13
-43,#3e4257,ebony,39,9
-44,#343955,amethyst,29,9
-45,#454661,violet,34,9
-46,#cac9cd,sterling,28,13
-47,#b1afbc,frost,35,13
-48,#ebebeb,star light,74,13
-49,#2f3559,blueberry,81,9
-50,#f6f2f1,snow white,47,13
-51,#f2f2ef,snow white,39,13
-52,#b6c4da,slate,68,8
-53,#eeefef,star light,75,13
-54,#b5ceec,slate,42,8
-55,#f0efed,snow white,75,13
-56,#d6d4d6,dove,59,13
-57,#878289,quarry,65,13
-58,#f8ccdd,ice pink,99,12
-59,#b7a596,champagne,76,2
-60,#fcf2ca,corn silk,61,3
-61,#c5dee5,dove,83,7
-62,#69674f,moss,100,3
-63,#c6d9f3,dove,99,8
-64,#94d1f1,slate,100,8
-65,#606b98,tahiti,35,9
-66,#3b598b,royal blue,48,8
-67,#2d2d39,midnight,71,13
-68,#e2ccf3,dove,91,10
-69,#d5d8e2,dove,33,13
-70,#d2c1de,dove,88,10
-71,#e8e6e4,star light,38,13
-72,#9da3ad,mystic,35,13
-73,#f0efed,snow white,77,13
-74,#f2b4a4,primrose,74,1
-75,#d7c4ab,palomino,53,2
-76,#97b0bf,platinum,93,8
-77,#6b7490,larkspur,76,9
-78,#5b6086,lavender,99,9
-79,#282d39,midnight,99,13
-80,#ada2a9,pebble beach,34,13
-81,#8692a3,shadow,33,8
-82,#b5b2b0,pebble beach,32,13
-83,#cebec4,ice pink,40,13
-84,#8aa1d2,periwinkle,37,8
-85,#a1a397,twig,42,13
-86,#6b6865,charcoal gray,39,13
-87,#f2f2ee,snow white,77,13
-88,#d7d3d0,oyster,90,13
-89,#c88699,carnation,93,12
-90,#bacde9,dove,89,8
-91,#8c8aa8,wisteria,74,9
-92,#33333d,black,82,13
-93,#ececeb,star light,89,13
-94,#dcd0c2,cameo,99,2
-95,#908470,antique gold,78,2
-96,#c0d9f7,dove,98,8
-97,#6f7b9c,larkspur,80,8
-98,#222733,midnight,65,13
-99,#9aa3a0,mystic,64,13
-100,#e0b3b0,rose,99,1
-101,#dcceb3,cameo,82,2
-102,#315077,ocean blue,71,8
-103,#292f3d,midnight,98,8
-104,#f2f1f4,snow white,77,13
-105,#d1cfd1,sterling,72,13
-106,#fae3e9,rose water,99,12
-107,#bdcdee,dove,81,8
-108,#2b3141,midnight,80,8
-109,#e7e7e7,star light,85,13
-110,#d8d8d6,star light,97,13
-111,#f8dee9,rose water,98,12
-112,#d7d8ec,dove,97,9
-113,#313b4f,midnight,99,8
-114,#edeee9,marshmallow,80,13
-115,#ededee,star light,87,13
-116,#eed8df,rose water,96,12
-117,#c6e4e4,star light,100,7
-118,#afbcd7,cloudy,95,8
-119,#515169,lavender,100,9
-120,#292c3b,navy blue,90,9
-121,#bdcad7,dove,81,8
-122,#657185,blue steel,69,8
-123,#a6a1a0,cathedral,67,13
-124,#b8cce4,slate,82,8
-125,#4d5c80,blue steel,59,8
-126,#4c5776,marine,35,8
-127,#393849,midnight,45,9
-128,#88818c,shadow,68,13
-129,#252d52,blueberry,95,9
-130,#686d78,blue steel,100,13
-131,#224168,blueberry,63,8
-132,#1e2c4c,navy blue,75,8
-133,#dcdee3,star light,47,13
-134,#2e314f,amethyst,48,9
-135,#ac2337,flame,39,1
-136,#7b6646,medium brown,40,2
-137,#303246,navy blue,53,9
-138,#262528,graphite,71,13
-139,#6d6952,moss,77,3
-140,#363957,amethyst,40,9
-141,#585660,blue steel,35,13
-142,#683147,ruby,30,12
-143,#726752,antique gold,66,2
-144,#52637c,blue steel,32,8
-145,#424d47,ebony,25,13
-146,#5a5b73,lavender,33,9
-147,#5b5d67,blue steel,39,13
-148,#acaaaf,frost,75,13
-149,#353349,navy blue,96,9
-150,#f0f0e4,snow white,75,3
-151,#2b2b2b,graphite,99,13
-152,#e39411,orange crush,100,2
-153,#75774f,olive,98,3
-154,#263e42,black,100,7
-155,#dfe1de,star light,30,13
-156,#afb4a3,celadon,30,13
-157,#eeedec,star light,70,13
-158,#37394e,midnight,41,9
-159,#f8f8f5,white,79,13
-160,#33354c,navy blue,83,9
-161,#2b282d,graphite,31,13
-162,#463230,espresso,26,1
-163,#283254,blueberry,33,9
-164,#eee7e6,star light,56,13
-165,#e7e9eb,star light,56,13
-166,#504d54,ebony,76,13
-167,#2c2d49,navy blue,68,9
-168,#e5d1c5,cameo,38,2
-169,#f1f1e5,snow white,77,3
-170,#9c4d2f,light bronze,76,2
-171,#787c49,olive,99,3
-172,#253439,black,99,13
-173,#d1c4b4,palomino,74,2
-174,#d2d4d1,sterling,64,13
-175,#f5f1ee,snow white,77,13
-176,#b85743,fiesta,98,1
-177,#c4ac8f,champagne,98,2
-178,#7e826b,charcoal gray,45,3
-179,#567ba0,larkspur,100,8
-180,#31333f,midnight,96,9
-181,#f1f1f1,snow white,75,13
-182,#fddee4,rose water,98,1
-183,#cbd3e7,dove,99,8
-184,#d7d6da,dove,99,13
-185,#eddbe3,rose water,98,12
-186,#d5d7e4,dove,99,9
-187,#cbcacf,sterling,80,13
-188,#f1d1dc,ice pink,99,12
-189,#b7c6e0,slate,81,8
-190,#eaeaeb,star light,84,13
-191,#fddee4,rose water,97,1
-192,#c7d6f0,dove,99,8
-193,#d8d5dc,dove,99,13
-194,#ead9e3,dove,56,12
-195,#cecddb,dove,100,13
-196,#cdcdcf,sterling,96,13
-197,#f6d8e2,rose water,70,12
-198,#b8c8e2,slate,92,8
-199,#d0cfd4,dove,93,13
-200,#f7d7e2,rose water,83,12
-201,#b9c7e2,slate,65,8
-202,#ecd8e4,ice pink,78,12
-203,#eeeeeb,marshmallow,71,13
-204,#31393b,black,98,13
-205,#efefef,star light,84,13
-206,#c6d6f0,dove,98,8
-207,#f1f1f1,snow white,76,13
-208,#29292b,graphite,99,13
-209,#dae2f5,dove,98,8
-210,#b6cbe3,slate,100,8
-211,#ededed,star light,83,13
-212,#dddce1,dove,74,13
-213,#f9e0ea,rose water,99,12
-214,#cbd7fa,dove,98,8
-215,#a6b2df,arctic,96,9
-216,#ececec,star light,84,13
-217,#d1d0d5,dove,98,13
-218,#c1cfed,dove,99,8
-219,#a0abd9,arctic,79,9
-220,#ededeb,marshmallow,77,13
-221,#cac9d4,dove,99,13
-222,#bacded,dove,97,8
-223,#94a7da,periwinkle,98,8
-224,#eceded,star light,88,13
-225,#d9e9f8,star light,98,8
-226,#f9dee8,rose water,100,12
-227,#ced1e7,dove,100,9
-228,#eaeaea,star light,84,13
-229,#d6e2f2,dove,97,8
-230,#e8e8e8,star light,81,13
-231,#c9c9ed,dove,99,9
-232,#ececec,star light,83,13
-233,#9daedc,arctic,63,8
-234,#cccbd6,dove,100,13
-235,#9bafe2,arctic,84,8
-236,#ececec,star light,85,13
-237,#d0d7eb,dove,99,8
-238,#ebf4fc,star light,30,8
-239,#d8d0eb,dove,62,10
-240,#f4f2f3,snow white,32,13
-241,#f0f0f8,star light,46,13
-242,#f1f2f5,white,66,13
-243,#ebebef,star light,83,13
-244,#848acb,pansy,73,9
-245,#f3f3f5,white,64,13
-246,#e5e5e7,star light,81,13
-247,#f4f3f6,white,32,13
-248,#ededf0,star light,74,13
-249,#f3f5f7,white,50,13
-250,#e8eaee,star light,54,13
-251,#e9e8ee,star light,56,13
-252,#ceced5,dove,36,13
-253,#e8e7ed,star light,61,13
-254,#e6e6e6,star light,30,13
-255,#f5f4f4,white,76,13
-256,#343435,graphite,96,13
-257,#beccfa,dove,98,9
-258,#424659,ebony,98,9
-259,#f6f5f6,white,75,13
-260,#373637,graphite,99,13
-261,#c0cffb,dove,98,8
-262,#43475a,ebony,99,9
-263,#ededed,star light,84,13
-264,#e0e1f0,dove,89,9
-265,#9c9ed5,periwinkle,34,9
-266,#eadbed,dove,82,11
-267,#edeeed,star light,83,13
-268,#dddff0,dove,97,9
-269,#a1a2d7,periwinkle,35,9
-270,#d7c4ea,dove,64,10
-271,#edeee8,marshmallow,77,13
-272,#cdd8ea,dove,99,8
-273,#90a1d5,periwinkle,98,9
-274,#8096ce,periwinkle,58,8
-275,#eaeaea,star light,84,13
-276,#d5e2f1,dove,100,8
-277,#f4efeb,snow white,75,13
-278,#d9deec,dove,85,8
-279,#f0efed,snow white,75,13
-280,#bfcde1,dove,47,8
-281,#e3e3e5,star light,57,13
-282,#f2f2f7,star light,49,13
-283,#eae9e9,star light,84,13
-284,#eaebee,star light,41,13
-285,#eceded,star light,72,13
-286,#ebebea,star light,74,13
-287,#e5e6e7,star light,51,13
-288,#e3e4e8,star light,38,13
-289,#f3f3f4,white,52,13
-290,#efeff1,star light,76,13
-291,#7986c7,pansy,56,9
-292,#b0c7e8,slate,62,8
-293,#d8d7e1,dove,58,13
-294,#d8d9da,dove,35,13
-295,#d8d8d6,star light,61,13
-296,#d0d3dd,dove,100,13
-297,#dbdcea,dove,52,9
-298,#a4a7b2,platinum,40,13
-299,#ededef,star light,39,13
-300,#bec7e0,dove,41,8
-301,#eff1f3,star light,55,13
-302,#eff0f4,star light,51,13
-303,#ddddde,star light,78,13
-304,#d3dae9,dove,61,8
-305,#f0eff0,star light,38,13
-306,#dddce3,dove,46,13
-307,#c8c7cb,sterling,34,13
-308,#bba3bd,wood violet,99,11
-309,#f1f0f0,snow white,73,13
-310,#b2b2b2,frost,37,13
-311,#f5dee5,rose water,100,12
-312,#d8ddea,dove,74,8
-313,#333543,midnight,72,9
-314,#f0f0f0,snow white,75,13
-315,#c0c0c0,sterling,79,13
-316,#f4d7e1,rose water,88,12
-317,#d6d6e7,dove,76,9
-318,#32323f,midnight,43,13
-319,#f1f0ef,snow white,76,13
-320,#dedede,star light,99,13
-321,#fae5ee,rose water,98,12
-322,#c6cdf0,dove,98,9
-323,#292b3a,navy blue,86,13
-324,#f2f3f7,white,65,13
-325,#f3f4f8,white,63,13
-326,#fae3ed,rose water,93,12
-327,#dce4f6,dove,87,8
-328,#f4f4f1,white,76,13
-329,#d1d9eb,dove,99,8
-330,#f2f2ef,snow white,77,13
-331,#c8d9f7,dove,99,8
-332,#f3f5fb,white,29,13
-333,#f8f4f8,white,31,13
-334,#e9ebf4,star light,36,9
-335,#d3c0ef,dove,45,10
-336,#d2c9c8,oyster,30,13
-337,#d2d0d4,dove,32,13
-338,#efeef2,star light,89,13
-339,#eef0f6,star light,85,13
-340,#e7e6ea,star light,53,13
-341,#f0eaf1,star light,58,13
-342,#f3f2f4,snow white,42,13
-343,#f2f2f5,white,47,13
-344,#eff0eb,snow white,77,13
-345,#bcbeb9,oyster,83,13
-346,#454b4d,ebony,100,13
-347,#201e1f,graphite,99,13
-348,#8c1227,claret,98,1
-349,#562332,bordeaux,98,12
-350,#ab4320,fiesta,98,2
-351,#e6ca7a,snapdragon,99,2
-352,#7b856d,sage,93,4
-353,#434a3a,moss,99,4
-354,#a5bcca,surf spray,95,8
-355,#273244,midnight,99,8
-356,#ed4311,fiesta,100,1
-357,#c7e164,pistachio,98,3
-358,#018bc1,cornflower,100,8
-359,#ededeb,marshmallow,77,13
-360,#383838,graphite,73,13
-361,#242426,graphite,99,13
-362,#c3172f,flame,100,1
-363,#fd7310,clementine,99,2
-364,#018465,evergreen,98,7
-365,#2a2937,navy blue,99,13
-366,#f1f1ef,snow white,76,13
-367,#bdbfb9,oyster,77,13
-368,#353531,graphite,98,13
-369,#244161,blueberry,99,8
-370,#2e2d3b,navy blue,81,9
-371,#f0f1ec,snow white,77,13
-372,#bcc5bc,sterling,44,13
-373,#a7a8a3,cathedral,75,13
-374,#3b4343,ebony,76,13
-375,#24231f,graphite,99,13
-376,#f57174,coral,67,1
-377,#cac3b0,palomino,99,2
-378,#c09c61,dark olive,83,2
-379,#547272,teal,99,7
-380,#61909d,aquamarine,81,7
-381,#222c3c,midnight,85,8
-382,#eaeae7,star light,88,13
-383,#acb1ac,celadon,44,13
-384,#3c3e38,graphite,98,13
-385,#262627,graphite,98,13
-386,#392828,espresso,100,13
-387,#827a6f,charcoal gray,99,13
-388,#434c41,moss,100,13
-389,#272731,navy blue,88,13
-390,#f1f1f1,snow white,99,13
-391,#cfd1d0,sterling,99,13
-392,#3e3e3f,black,98,13
-393,#25262b,black,98,13
-394,#e2cbac,ice yellow,99,2
-395,#3e4a40,moss,76,13
-396,#beccd5,sterling,92,8
-397,#292c3b,navy blue,90,9
-398,#24252a,black,93,13
-399,#272c40,navy blue,97,9
-400,#e9eae4,star light,84,13
-401,#c0c1bb,oyster,45,13
-402,#505653,ebony,79,13
-403,#232323,graphite,100,13
-404,#6e1a2a,burgundy,99,1
-405,#5d623e,moss,98,3
-406,#33567a,ocean blue,100,8
-407,#1f252f,midnight,81,13
-408,#ebeae6,star light,85,13
-409,#bfc0ba,oyster,84,13
-410,#454648,ebony,100,13
-411,#e2e3dd,star light,37,13
-412,#3a3c3a,graphite,76,13
-413,#303440,midnight,27,9
-414,#edeee8,marshmallow,79,13
-415,#8d9694,cathedral,47,13
-416,#393e41,black,60,13
-417,#2e3034,black,100,13
-418,#f06963,coral,58,1
-419,#d9e461,sunflower,64,3
-420,#30486a,ocean blue,68,8
-421,#eaeae7,star light,84,13
-422,#232428,graphite,99,13
-423,#db1c23,fiesta,99,1
-424,#4f7463,evergreen,99,6
-425,#eff0ea,snow white,77,13
-426,#7b817b,charcoal gray,98,13
-427,#202020,graphite,98,13
-428,#49739d,cerulean,98,8
-429,#232937,midnight,99,13
-430,#f6f7f3,white,75,13
-431,#888f89,mocha,39,13
-432,#29292b,graphite,98,13
-433,#c12c2d,flame,64,1
-434,#f4741b,clementine,98,2
-435,#909b3b,olive,74,3
-436,#636d80,blue steel,100,8
-437,#2a3450,navy blue,47,8
-438,#efecdf,marshmallow,78,3
-439,#303539,black,100,13
-440,#3c3f2a,graphite,37,3
-441,#211e25,navy blue,99,13
-442,#252946,navy blue,99,9
-443,#3f3e43,ebony,93,13
-444,#282945,navy blue,98,9
-445,#eeefec,marshmallow,50,13
-446,#232127,graphite,35,13
-447,#bd2321,ribbon red,65,1
-448,#202631,midnight,73,13
-449,#e5e7e2,star light,82,13
-450,#283033,black,99,13
-451,#576950,moss,97,4
-452,#2d5378,ocean blue,99,8
-453,#eff0eb,snow white,77,13
-454,#9aa19c,cathedral,53,13
-455,#28282a,graphite,99,13
-456,#b52f2b,ribbon red,99,1
-457,#5b5735,moss,98,3
-458,#3c6caf,cerulean,78,8
-459,#26344f,midnight,98,8
-460,#1c3755,midnight,54,8
-461,#8e2434,claret,99,1
-462,#d3d3d8,dove,99,13
-463,#353445,midnight,77,9
-464,#939790,cathedral,63,13
-465,#20201f,graphite,71,13
-466,#657259,moss,86,4
-467,#7b8284,pewter,38,13
-468,#394043,ebony,44,13
-469,#262628,graphite,99,13
-470,#253f5c,midnight,64,8
-471,#8a938e,mocha,40,13
-472,#1f201f,graphite,99,13
-473,#213652,midnight,86,8
-474,#c8c7bf,oyster,34,13
-475,#262d35,midnight,64,13
-476,#1c202d,navy blue,94,13
-477,#929997,cathedral,41,13
-478,#37322f,graphite,97,13
-479,#27293d,navy blue,99,9
-480,#92999d,mystic,59,13
-481,#232643,navy blue,98,9
-482,#242426,graphite,98,13
-483,#eeeee2,marshmallow,99,3
-484,#c0bfba,oyster,85,13
-485,#1f4b6c,ocean blue,100,8
-486,#252839,navy blue,99,13
-487,#eee9e3,marshmallow,77,13
-488,#60715d,moss,99,5
-489,#212a3b,navy blue,76,8
-490,#eeede8,marshmallow,77,13
-491,#989ea0,mystic,98,13
-492,#aa9475,light brown,90,2
-493,#232c3d,midnight,93,8
-494,#b8b9b4,sand,41,13
-495,#dfe1db,star light,38,13
-496,#e2ddd7,star light,40,13
-497,#608ba9,larkspur,37,8
-498,#e0dfda,star light,45,13
-499,#dfdfd6,star light,61,13
-500,#327066,evergreen,63,7
-501,#2f4c70,ocean blue,60,8
-502,#e1e2e1,star light,73,13
-503,#bac0b9,sterling,65,13
-504,#8d2231,claret,69,1
-505,#232c3c,midnight,59,8
-506,#e2e3e0,star light,65,13
-507,#c2c2bd,oyster,75,13
-508,#272940,navy blue,60,9
-509,#edeee8,marshmallow,77,13
-510,#aeb1aa,celadon,96,13
-511,#535552,ebony,56,13
-512,#1f1f1f,graphite,99,13
-513,#e0938d,fresco,88,1
-514,#1c2c39,midnight,99,13
-515,#2a2b26,graphite,100,13
-516,#54523d,moss,96,3
-517,#263434,black,99,13
-518,#efeee9,marshmallow,97,13
-519,#bfc1bc,oyster,48,13
-520,#5e6669,blue steel,99,13
-521,#2b2b2b,graphite,99,13
-522,#2a3747,midnight,100,8
-523,#edeee8,marshmallow,77,13
-524,#b6b9b3,sand,46,13
-525,#5a6263,blue steel,90,13
-526,#202020,graphite,99,13
-527,#426387,marine,86,8
-528,#1f2f3c,midnight,99,8
-529,#eeede8,marshmallow,70,13
-530,#babdb8,oyster,79,13
-531,#6a7275,charcoal gray,44,13
-532,#2c2c2c,graphite,98,13
-533,#2c3240,midnight,100,8
-534,#b8c8d8,slate,70,8
-535,#017ba7,cerulean,99,8
-536,#273c71,sapphire,95,8
-537,#f0f0ee,snow white,60,13
-538,#35364c,midnight,44,9
-539,#e7e6e3,star light,61,13
-540,#b19e8c,champagne,79,2
-541,#3a415b,ebony,77,9
-542,#f0f1eb,snow white,79,13
-543,#a2a9a4,celadon,79,13
-544,#474c4f,ebony,100,13
-545,#1d1d1d,graphite,99,13
-546,#9c172c,barcelona,99,1
-547,#801f33,burgundy,66,1
-548,#7f94b1,windsor blue,80,8
-549,#1f3f6d,blueberry,77,8
-550,#253444,midnight,99,8
-551,#edeeea,marshmallow,36,13
-552,#b4b6b4,frost,79,13
-553,#43494c,ebony,99,13
-554,#28292e,black,67,13
-555,#b42133,flame,100,1
-556,#2d4072,sailor,92,8
-557,#313348,navy blue,75,9
-558,#ebeae8,star light,84,13
-559,#2a2d3e,navy blue,99,9
-560,#f0f0e2,marshmallow,81,3
-561,#b1b5b9,frost,100,13
-562,#2c2c2c,graphite,99,13
-563,#a06735,light bronze,90,2
-564,#02496c,ocean blue,99,8
-565,#14202c,navy blue,82,13
-566,#dfe0da,star light,81,13
-567,#e8e8e3,star light,69,13
-568,#1c1d21,graphite,75,13
-569,#eff0ea,snow white,77,13
-570,#697982,quarry,49,8
-571,#212123,graphite,97,13
-572,#6e595a,almond,87,1
-573,#262825,graphite,99,13
-574,#8d4122,medium bronze,98,2
-575,#cecec8,oyster,99,13
-576,#bca79d,pebble beach,43,2
-577,#f74e5f,firecracker,59,1
-578,#c47d3d,butterscotch,75,2
-579,#253735,black,99,13
-580,#7c605d,almond,100,1
-581,#9a3e2a,ribbon red,60,1
-582,#775e5f,almond,49,1
-583,#ab2a32,ribbon red,40,1
-584,#181f1e,graphite,49,13
-585,#883a22,medium bronze,46,1
-586,#97aab7,platinum,44,8
-587,#ebece6,marshmallow,79,13
-588,#cecdc8,oyster,97,13
-589,#728087,pewter,43,8
-590,#1d1e23,graphite,93,13
-591,#dabaa7,pearl pink,75,2
-592,#eb464b,firecracker,100,1
-593,#cd7e2e,dark beige,64,2
-594,#777c51,olive,99,3
-595,#2b3d41,black,79,7
-596,#24384d,midnight,100,8
-597,#d8d9d1,star light,74,13
-598,#26242e,navy blue,56,13
-599,#e4e3df,star light,72,13
-600,#a11530,barcelona,69,1
-601,#0773b7,cerulean,66,8
-602,#20313a,midnight,70,13
-603,#e9eae4,star light,39,13
-604,#ecebe6,marshmallow,39,13
-605,#e8e9e4,star light,48,13
-606,#e6e6e0,star light,69,13
-607,#e1dac8,cameo,72,2
-608,#353c46,ebony,45,8
-609,#5e2e27,brownie,73,1
-610,#998979,mocha,75,2
-611,#48422d,latte,74,3
-612,#2f4b5c,peacock,56,8
-613,#812b33,claret,100,1
-614,#3b2528,espresso,99,1
-615,#545b45,moss,99,4
-616,#2a3649,midnight,98,8
-617,#736e66,charcoal gray,84,13
-618,#2f443f,black,82,7
-619,#282b3a,navy blue,73,13
-620,#eaebe4,marshmallow,81,13
-621,#c4c9cb,sterling,99,13
-622,#41494c,ebony,91,13
-623,#28282a,graphite,99,13
-624,#c14432,fiesta,100,1
-625,#0276a6,cerulean,100,8
-626,#2c3348,midnight,95,9
-627,#e3e4de,star light,86,13
-628,#a5a7a1,cathedral,83,13
-629,#20232c,midnight,69,13
-630,#afb2ab,celadon,43,13
-631,#212121,graphite,99,13
-632,#571e24,garnet,99,1
-633,#1f1f29,navy blue,99,13
-634,#b8af9d,champagne,72,2
-635,#1e2c51,blueberry,100,8
-636,#eff1ec,snow white,77,13
-637,#818986,pewter,39,13
-638,#28282a,graphite,99,13
-639,#af2a26,ribbon red,99,1
-640,#1f2f47,midnight,98,8
-641,#242128,navy blue,65,13
-642,#ebece7,marshmallow,80,13
-643,#aab0a9,celadon,98,13
-644,#555d5f,blue steel,80,13
-645,#232325,graphite,100,13
-646,#c85732,fiesta,100,1
-647,#e7b773,medium olive,100,2
-648,#444935,moss,99,4
-649,#2f4058,midnight,85,8
-650,#23313f,midnight,99,8
-651,#edeee9,marshmallow,80,13
-652,#a3a9a2,celadon,80,13
-653,#4c5556,ebony,67,13
-654,#222423,graphite,98,13
-655,#e5a4a3,fresco,99,1
-656,#38565e,teal,96,7
-657,#3a6e9c,cerulean,100,8
-658,#1e3138,midnight,98,13
-659,#f1f1e8,snow white,77,13
-660,#868884,charcoal gray,64,13
-661,#392526,espresso,99,13
-662,#3b3e29,graphite,98,3
-663,#212433,navy blue,99,13
-664,#f1f0eb,snow white,79,13
-665,#303344,midnight,89,9
-666,#f2f3ed,white,77,13
-667,#25262a,graphite,99,13
-668,#4c4532,latte,100,2
-669,#1d3539,black,98,13
-670,#745759,almond,99,1
-671,#d3d2cd,oyster,54,13
-672,#283c55,midnight,98,8
-673,#ebece6,marshmallow,77,13
-674,#cdcdc7,oyster,91,13
-675,#1e1f24,graphite,95,13
-676,#f04c4f,firecracker,98,1
-677,#213231,black,99,13
-678,#e0e0e0,star light,82,13
-679,#545b63,blue steel,94,13
-680,#212226,graphite,99,13
-681,#d9231b,fiesta,100,1
-682,#53523b,moss,100,3
-683,#1b3045,midnight,99,8
-684,#ecece4,marshmallow,74,13
-685,#e07570,coral,42,1
-686,#4b5142,moss,95,13
-687,#45546d,marine,50,8
-688,#323645,midnight,91,9
-689,#edede6,marshmallow,77,13
-690,#b6b7b2,sand,49,13
-691,#1f1f1f,graphite,100,13
-692,#636d64,moss,98,13
-693,#e9ebe5,star light,69,13
-694,#222736,navy blue,85,13
-695,#f1efe8,marshmallow,77,13
-696,#c0c1bc,oyster,59,13
-697,#1c1a1b,graphite,99,13
-698,#efb9cd,hyacinth (iridescent taffeta),75,12
-699,#df4239,fiesta,99,1
-700,#efd88d,fair olive,100,3
-701,#323a2b,graphite,99,13
-702,#1c384d,midnight,99,8
-703,#1e2736,navy blue,79,13
-704,#f2ede7,marshmallow,77,2
-705,#c9cbc6,oyster,98,13
-706,#1f1e1a,graphite,99,13
-707,#e4663d,dark rose-beige,55,1
-708,#35937d,shamrock,98,7
-709,#324762,ebony,76,8
-710,#202634,navy blue,88,13
-711,#eeefe9,marshmallow,38,13
-712,#15222b,midnight,69,13
-713,#1f1f21,graphite,98,13
-714,#f33e41,firecracker,98,1
-715,#aaaca7,celadon,32,13
-716,#851a23,claret,56,1
-717,#951629,barcelona,66,1
-718,#4f4c37,latte,97,3
-719,#223345,midnight,99,8
-720,#eeebdb,marshmallow,77,3
-721,#828e97,pewter,64,8
-722,#efefe7,marshmallow,77,13
-723,#9ba19d,cathedral,81,13
-724,#822731,claret,84,1
-725,#3c5573,marine,84,8
-726,#1d242f,midnight,72,13
-727,#20201c,graphite,100,13
-728,#e4d2c4,cameo,76,2
-729,#e9e9ea,star light,61,13
-730,#1f1f24,graphite,72,13
-731,#e7e4dc,star light,62,13
-732,#e8b34a,mango,59,2
-733,#201e28,navy blue,64,13
-734,#a4a6a5,cathedral,28,13
-735,#e5dbc5,corn silk,52,2
-736,#232934,midnight,50,13
-737,#f1f1e9,snow white,77,13
-738,#212121,graphite,99,13
-739,#bb153d,flame,99,1
-740,#1f2630,midnight,95,13
-741,#efeee7,marshmallow,77,13
-742,#232325,graphite,99,13
-743,#1f2630,midnight,95,13
-744,#d1d2cd,oyster,91,13
-745,#1c1c1e,graphite,99,13
-746,#4c472f,latte,98,3
-747,#685453,drift wood,99,1
-748,#212121,graphite,99,13
-749,#202e37,midnight,98,13
-750,#f1f0eb,snow white,79,13
-751,#2b2b2b,graphite,99,13
-752,#b4c2c9,surf spray,62,8
-753,#436f84,mosaic,66,8
-754,#1f2630,midnight,53,13
-755,#edede8,marshmallow,78,13
-756,#22272b,black,78,13
-757,#22231d,graphite,99,13
-758,#c46e75,papaya,100,1
-759,#c9bcab,palomino,98,2
-760,#7b8771,sage,95,4
-761,#7b91a2,pewter,71,8
-762,#232a34,midnight,99,13
-763,#1e1d19,graphite,98,13
-764,#6b362e,brownie,71,1
-765,#a99273,light brown,99,2
-766,#413e2b,chocolate,95,3
-767,#212830,midnight,99,13
-768,#ba9850,dark beige,82,2
-769,#495f77,marine,99,8
-770,#282627,graphite,100,13
-771,#c9ac94,champagne,99,2
-772,#777661,antique gold,100,3
-773,#232730,midnight,99,13
-774,#292933,midnight,84,13
-775,#f1f0eb,snow white,76,13
-776,#222222,graphite,98,13
-777,#2d4355,ebony,51,8
-778,#8da1a5,mystic,99,7
-779,#6a8488,pewter,89,7
-780,#ebe8e3,marshmallow,48,13
-781,#4a6883,blue steel,33,8
-782,#425369,marine,27,8
-783,#7993a8,windsor blue,42,8
-784,#bdc4bc,sterling,85,13
-785,#7e96a8,windsor blue,34,8
-786,#89a8bd,platinum,39,8
-787,#f0f0ea,snow white,77,13
-788,#262722,graphite,100,13
-789,#355768,marine,32,8
-790,#223748,midnight,63,8
-791,#3e4550,ebony,98,8
-792,#e5e5e0,star light,84,13
-793,#242424,graphite,99,13
-794,#2e3e48,ebony,87,8
-795,#363d45,ebony,92,8
-796,#eeede8,marshmallow,66,13
-797,#242424,graphite,100,13
-798,#3c5a6f,marine,95,8
-799,#464d55,ebony,99,13
-800,#2c2d31,black,99,13
-801,#282b36,midnight,75,13
-802,#39353b,black,99,13
-803,#e5e5e0,star light,87,13
-804,#5e727d,blue steel,75,8
-805,#44546b,marine,39,8
-806,#233541,midnight,71,8
-807,#251b19,espresso,86,13
-808,#5d8399,larkspur,100,8
-809,#385e7a,marine,70,8
-810,#242a36,midnight,78,13
-811,#222222,graphite,99,13
-812,#345066,marine,61,8
-813,#1e2432,navy blue,99,13
-814,#eff0ea,snow white,79,13
-815,#272823,graphite,99,13
-816,#cabfab,palomino,100,2
-817,#5d869b,larkspur,67,8
-818,#7f99a4,mystic,68,8
-819,#223a4b,midnight,62,8
-820,#313840,black,81,8
-821,#2d4862,ocean blue,34,8
-822,#253441,midnight,53,8
-823,#182229,midnight,99,13
-824,#4c5d6e,marine,61,8
-825,#303645,midnight,91,8
-826,#2f333d,midnight,87,8
-827,#5a7e98,larkspur,92,8
-828,#2b3541,midnight,81,8
-829,#eaebe5,marshmallow,80,13
-830,#a2b1b1,frost,86,13
-831,#4f7a95,larkspur,73,8
-832,#5a7683,teal,40,8
-833,#e9f1f0,star light,89,13
-834,#252621,graphite,100,13
-835,#658daa,larkspur,70,8
-836,#1f2d39,midnight,100,13
-837,#9db2b8,surf spray,83,7
-838,#3f6b85,mosaic,42,8
-839,#1d212a,navy blue,73,13
-840,#2d5073,ocean blue,99,8
-841,#243445,midnight,99,8
-842,#23231f,graphite,99,13
-843,#eaebe5,marshmallow,78,13
-844,#8b9393,pewter,100,13
-845,#262624,graphite,99,13
-846,#2c2930,black,100,13
-847,#80888a,pewter,99,13
-848,#2b2b2b,graphite,99,13
-849,#303236,black,99,13
-850,#32373b,black,98,13
-851,#2b313f,midnight,100,8
-852,#baa384,champagne,99,2
-853,#73705f,antique gold,82,3
-854,#192a34,midnight,98,13
-855,#353b47,ebony,99,8
-856,#9da19f,cathedral,99,13
-857,#828b8a,pewter,81,13
-858,#3b4043,ebony,41,13
-859,#242424,graphite,99,13
-860,#2d343e,midnight,74,8
-861,#c4a68b,champagne,98,2
-862,#616655,moss,99,13
-863,#e9e8e1,marshmallow,76,13
-864,#292d38,midnight,97,13
-865,#899191,pewter,30,13
-866,#34393c,black,98,13
-867,#232424,graphite,99,13
-868,#22222c,navy blue,97,13
-869,#9198a0,mystic,99,13
-870,#e5e5e0,star light,88,13
-871,#2d313c,midnight,99,8
-872,#8496a3,mystic,33,8
-873,#282a25,graphite,100,13
-874,#aa9362,light brown,68,2
-875,#75534a,almond,80,1
-876,#232428,graphite,98,13
-877,#ab9667,light brown,82,2
-878,#656042,moss,100,3
-879,#1e2738,navy blue,97,13
-880,#4f5856,ebony,62,13
-881,#1e1e1e,graphite,99,13
-882,#a09173,light brown,99,2
-883,#242e3a,midnight,98,13
-884,#272d3b,midnight,99,8
-885,#2b2b2b,graphite,99,13
-886,#262d37,midnight,99,13
-887,#636b68,charcoal gray,74,13
-888,#353431,graphite,99,13
-889,#c1a679,champagne,91,2
-890,#596051,moss,100,13
-891,#7092ab,windsor blue,100,8
-892,#29303f,midnight,100,8
-893,#3e424b,ebony,100,13
-894,#a8aaa4,celadon,85,13
-895,#506983,blue steel,98,8
-896,#405a71,marine,100,8
-897,#b3b8bb,frost,69,13
-898,#394349,ebony,69,8
-899,#242424,graphite,99,13
-900,#203241,midnight,99,8
-901,#c3cacc,sterling,81,13
-902,#3c4447,ebony,65,13
-903,#1e201f,graphite,99,13
-904,#263948,midnight,99,8
-905,#2f3047,navy blue,80,9
-906,#25262a,graphite,97,13
-907,#c9ae84,champagne,44,2
-908,#54604f,moss,99,13
-909,#366d89,mosaic,92,8
-910,#404c6a,ebony,85,8
-911,#e8e7e2,star light,84,13
-912,#4b4b4b,ebony,98,13
-913,#242323,graphite,99,13
-914,#e98475,ginger,47,1
-915,#d4b890,venetian gold,97,2
-916,#7a6048,almond,100,2
-917,#61613f,moss,100,3
-918,#324856,ebony,98,8
-919,#302e39,midnight,73,13
-920,#523338,bordeaux,98,1
-921,#b08948,dark beige,100,2
-922,#46709a,cerulean,98,8
-923,#2a352b,graphite,99,13
-924,#493e3a,chocolate,31,13
-925,#2d3035,black,64,13
-926,#54585a,ebony,28,13
-927,#393529,graphite,32,13
-928,#413f47,ebony,64,13
-929,#555e60,blue steel,80,13
-930,#dc827e,ginger,99,1
-931,#c9baa5,palomino,42,2
-932,#77836d,sage,98,4
-933,#6f97b4,windsor blue,100,8
-934,#323e4f,midnight,98,8
-935,#2c3355,blueberry,100,9
-936,#edede5,marshmallow,77,13
-937,#2e2f31,graphite,64,13
-938,#af5c36,fiesta,72,2
-939,#78785e,antique gold,100,3
-940,#354c51,ebony,99,7
-941,#c9cac4,oyster,99,13
-942,#a0a9aa,mystic,84,13
-943,#232524,graphite,99,13
-944,#242738,navy blue,97,13
-945,#e7e7e1,star light,87,13
-946,#40423f,graphite,69,13
-947,#2b2a26,graphite,98,13
-948,#d2a9a8,pearl pink,50,1
-949,#a4484d,spanish rose,100,1
-950,#9f885d,light brown,98,2
-951,#bb8f38,dark beige,98,2
-952,#677053,moss,99,4
-953,#517e96,larkspur,99,8
-954,#2a2e37,midnight,99,13
-955,#373f3f,black,63,13
-956,#2d3545,midnight,71,8
-957,#22231d,graphite,98,13
-958,#aa9265,light brown,69,2
-959,#222a23,graphite,100,13
-960,#566d75,teal,93,8
-961,#252621,graphite,100,13
-962,#595742,moss,99,3
-963,#1d2b36,midnight,100,13
-964,#2b2b2b,graphite,99,13
-965,#727159,antique gold,51,3
-966,#3b5357,teal,66,7
-967,#427093,cerulean,44,8
-968,#e3e3e3,star light,85,13
-969,#e7cfd1,ice pink,92,1
-970,#d7ac58,dark olive,98,2
-971,#085e79,mosaic,45,7
-972,#525044,latte,44,13
-973,#1b1f2f,navy blue,100,13
-974,#e5e5e5,star light,85,13
-975,#f1795a,tangerine,98,1
-976,#d9af52,mango,98,2
-977,#292935,navy blue,49,13
-978,#ebebeb,star light,83,13
-979,#f8dde0,rose water,99,1
-980,#ef7967,ginger,64,1
-981,#f7efd9,snow white,42,2
-982,#d2e3d9,star light,98,6
-983,#d7dcf7,dove,99,9
-984,#262431,navy blue,97,13
-985,#f0f1eb,snow white,79,13
-986,#23232d,navy blue,99,13
-987,#c5c6bc,palomino,41,13
-988,#1e242f,midnight,97,13
-989,#e2dbc8,cameo,67,2
-990,#1a1a1a,graphite,74,13
-991,#b10725,ribbon red,46,1
-992,#222836,navy blue,85,13
-993,#1f1f1f,graphite,98,13
-994,#de7e66,tangerine,100,1
-995,#ceb185,champagne,97,2
-996,#21619f,royal blue,98,8
-997,#ecedec,star light,88,13
-998,#ee6555,coral,92,1
-999,#ca9e56,dark olive,100,2
-1000,#0da49b,pantone turquoise,49,7
-1001,#2f4765,ocean blue,87,8
-1002,#bfbde7,arctic,99,9
-1003,#f5f6f6,white,77,13
-1004,#dad6d5,dove,64,13
-1005,#fcdde5,rose water,99,12
-1006,#fb665f,coral,99,1
-1007,#fc9961,clementine,99,2
-1008,#996724,medium coffee,76,2
-1009,#f5e8c7,corn silk,99,2
-1010,#f7c461,medium olive,97,2
-1011,#bfdfd2,star light,87,6
-1012,#756b5b,antique gold,89,2
-1013,#d5deec,dove,99,8
-1014,#335099,royal blue,80,8
-1015,#282d40,navy blue,70,9
-1016,#e3d5e6,dove,100,11
-1017,#cfcac8,oyster,40,13
-1018,#f4d7a4,buttercup,27,2
-1019,#b8c2bf,sterling,40,13
-1020,#96979b,mystic,36,13
-1021,#e9d2dc,ice pink,40,12
-1022,#d2ced8,dove,43,13
-1023,#f47978,ginger,76,1
-1024,#29456b,blueberry,50,8
-1025,#f1f2ec,white,79,13
-1026,#212b3b,midnight,99,8
-1027,#f0f1ec,snow white,79,13
-1028,#465e7f,marine,61,8
-1029,#232f40,midnight,86,8
-1030,#f2f1e3,snow white,76,3
-1031,#2c3b4e,midnight,99,8
-1032,#babfe1,cloudy,82,9
-1033,#1e1e1e,graphite,100,13
-1034,#e69179,tangerine,99,1
-1035,#aab7d9,arctic,88,8
-1036,#e8e1ce,corn silk,92,2
-1037,#ecbdc4,ice pink,87,1
-1038,#d6cfbc,cameo,80,2
-1039,#e8b7c0,rose,86,1
-1040,#f4f2ed,snow white,77,13
-1041,#906535,light bronze,100,2
-1042,#202c3f,midnight,86,8
-1043,#f5f1ec,snow white,77,13
-1044,#fbe4b1,light olive,95,2
-1045,#294865,ocean blue,72,8
-1046,#f7f2ec,snow white,77,2
-1047,#cc463b,fiesta,100,1
-1048,#fbc55c,daisy,99,2
-1049,#7b7c68,charcoal gray,99,3
-1050,#253043,midnight,96,8
-1051,#f0f0ef,snow white,68,13
-1052,#e39390,fresco,80,1
-1053,#cc2b37,flame,93,1
-1054,#2c54a0,royal blue,33,8
-1055,#3762ad,royal blue,34,8
-1056,#4965a1,royal blue,31,8
-1057,#eee8da,marshmallow,78,2
-1058,#e69887,tangerine,99,1
-1059,#263243,midnight,100,8
-1060,#f0f2ed,white,66,13
-1061,#d0c6ae,palomino,80,2
-1062,#202c44,navy blue,97,8
-1063,#d8cabc,cameo,83,2
-1064,#b1b1bd,frost,42,13
-1065,#242e4e,blueberry,59,9
-1066,#e4dabf,corn silk,98,2
-1067,#21304e,navy blue,69,8
-1068,#a7a7a6,pebble beach,38,13
-1069,#b6b7b5,frost,58,13
-1070,#ce4b3e,fiesta,99,1
-1071,#efdfcf,light rose-beige,51,2
-1072,#8c825e,antique gold,100,3
-1073,#babcc8,frost,56,13
-1074,#34364a,midnight,95,9
-1075,#f5f4f0,white,79,13
-1076,#b2b2b0,frost,43,13
-1077,#e3b1af,rose,80,1
-1078,#f3e8db,marshmallow,98,2
-1079,#fae6b4,light olive,78,2
-1080,#867957,antique gold,100,2
-1081,#b2b7ca,arctic,48,9
-1082,#fbf4dc,snow white,66,3
-1083,#404559,ebony,68,9
-1084,#e2dbc9,cameo,98,2
-1085,#bf544e,fiesta,99,1
-1086,#22313e,midnight,99,8
-1087,#e5e5e3,star light,67,13
-1088,#de8c86,tangerine,52,1
-1089,#c2c6c3,sterling,30,13
-1090,#dc7e7a,ginger,77,1
-1091,#e9e9e4,star light,62,13
-1092,#d8dbd8,star light,32,13
-1093,#ebece6,marshmallow,76,13
-1094,#526b8c,blue steel,100,8
-1095,#374759,ebony,93,8
-1096,#e0d3b8,ice yellow,61,2
-1097,#dca3ad,quartz,75,1
-1098,#1d2834,midnight,67,13
-1099,#e1d2b5,ice yellow,99,2
-1100,#ca7a62,dark rose-beige,69,1
-1101,#202634,navy blue,70,13
-1102,#f0e9d5,marshmallow,73,2
-1103,#b71f30,flame,60,1
-1104,#202631,midnight,95,13
-1105,#edead7,marshmallow,79,3
-1106,#232522,graphite,98,13
-1107,#08384f,midnight,70,8
-1108,#c0c0b3,palomino,48,13
-1109,#e3d9c1,corn silk,73,2
-1110,#161e26,midnight,74,13
-1111,#aeb1ab,celadon,61,13
-1112,#e9e2cd,corn silk,52,3
-1113,#212530,navy blue,67,13
-1114,#e9eadd,marshmallow,74,3
-1115,#bdbcb5,sand,49,13
-1116,#dfb0a0,pearl pink,90,2
-1117,#233e59,midnight,99,8
-1118,#dce1dc,star light,35,13
-1119,#eaeae4,marshmallow,51,13
-1120,#c02b36,flame,86,1
-1121,#40587a,marine,98,8
-1122,#242b39,midnight,83,13
-1123,#edede8,marshmallow,77,13
-1124,#f5dfaf,light beige,95,2
-1125,#8f8f6a,olive,99,3
-1126,#35567b,ocean blue,42,8
-1127,#b6a2a4,pebble beach,39,1
-1128,#979fb2,platinum,28,8
-1129,#535969,blue steel,50,8
-1130,#bab8c4,frost,60,13
-1131,#ddccbb,cameo,97,2
-1132,#1d1c2a,navy blue,99,13
-1133,#de9d8f,fresco,76,1
-1134,#cbdae6,dove,99,8
-1135,#c5c0ce,sterling,53,13
-1136,#efe2eb,star light,37,12
-1137,#e4e5e3,star light,100,13
-1138,#dad9e1,dove,64,13
-1139,#ebebeb,star light,83,13
-1140,#302f2d,graphite,99,13
-1141,#f3c56f,medium olive,98,2
-1142,#adc3da,slate,99,8
-1143,#efeeed,marshmallow,77,13
-1144,#f6c82d,daisy,100,3
-1145,#2c6350,pine green,37,6
-1146,#2f3550,navy blue,82,9
-1147,#ececeb,star light,90,13
-1148,#383838,graphite,86,13
-1149,#fd6f6c,coral,100,1
-1150,#7a7b73,charcoal gray,100,13
-1151,#ecede7,marshmallow,80,13
-1152,#20201c,graphite,98,13
-1153,#ebe2aa,light olive,42,3
-1154,#afbcdf,cloudy,39,8
-1155,#2a2f3d,midnight,86,8
-1156,#d8d7c8,cameo,81,3
-1157,#212733,midnight,99,13
-1158,#f2f3ed,white,77,13
-1159,#b3c2d7,slate,71,8
-1160,#f4f5f0,white,77,13
-1161,#bed9f3,dove,84,8
-1162,#f9faf4,white,77,13
-1163,#b4d2ef,slate,54,8
-1164,#f5f6f0,white,77,13
-1165,#e2e0d7,star light,91,13
-1166,#c4a39d,fresco,25,1
-1167,#d5d8d1,star light,39,13
-1168,#242c3e,navy blue,88,8
-1169,#f1f2ec,white,79,13
-1170,#2d2d2c,graphite,84,13
-1171,#d2d7bb,honey dew,39,3
-1172,#8ca2d2,periwinkle,47,8
-1173,#242d3e,midnight,81,8
-1174,#e9c3bc,rose,96,1
-1175,#99aed1,arctic,30,8
-1176,#263444,midnight,69,8
-1177,#f8f7f2,white,77,13
-1178,#b5c4d6,slate,58,8
-1179,#f4f1e3,snow white,66,3
-1180,#e1bca9,pearl pink,72,2
-1181,#cd2137,flame,98,1
-1182,#1e2f45,midnight,100,8
-1183,#f1ead8,marshmallow,79,2
-1184,#1d1e22,graphite,97,13
-1185,#df8672,tangerine,100,1
-1186,#c09a3f,dark olive,100,2
-1187,#e7e0ce,corn silk,99,2
-1188,#26272b,graphite,99,13
-1189,#c7b187,champagne,98,2
-1190,#e09575,tangerine,99,2
-1191,#ceb68c,venetian gold,85,2
-1192,#314050,ebony,87,8
-1193,#e9e8e7,star light,81,13
-1194,#d2bea6,palomino,99,2
-1195,#287973,jade,99,7
-1196,#333240,midnight,92,9
-1197,#f6f7f2,white,77,13
-1198,#2d3236,black,99,13
-1199,#e46969,coral,99,1
-1200,#f0f1f5,star light,94,13
-1201,#3b3f70,electric blue,93,9
-1202,#f4f1ee,snow white,40,13
-1203,#eeefef,star light,38,13
-1204,#f7f7f8,white,37,13
-1205,#f6f1ee,snow white,77,13
-1206,#b78f48,dark beige,98,2
-1207,#c3cdfb,dove,100,9
-1208,#262435,navy blue,98,13
-1209,#f1f1f1,snow white,77,13
-1210,#fbaa8f,fair rose-beige,99,2
-1211,#fcecce,corn silk,99,2
-1212,#cecbe0,dove,98,9
-1213,#34323f,midnight,96,13
-1214,#ededed,star light,80,13
-1215,#f5e3c2,corn silk,96,2
-1216,#2c2b36,midnight,68,13
-1217,#ececed,star light,88,13
-1218,#e3e2ee,star light,69,9
-1219,#2d2b38,navy blue,76,13
-1220,#f7f6f4,white,77,13
-1221,#fed0c7,primrose,76,1
-1222,#cbc7de,dove,99,9
-1223,#2d2c32,black,99,13
-1224,#e7e7e9,star light,85,13
-1225,#c7c7de,dove,99,9
-1226,#2b282f,black,84,13
-1227,#eee9d9,marshmallow,40,3
-1228,#c1c7ee,dove,84,9
-1229,#e8e8e8,star light,83,13
-1230,#202020,graphite,99,13
-1231,#edd9d2,rose water,97,2
-1232,#747a6a,charcoal gray,99,13
-1233,#eeeeee,star light,86,13
-1234,#ce0242,flame,99,12
-1235,#db8671,tangerine,98,1
-1236,#d2e4f3,dove,49,8
-1237,#252938,navy blue,51,13
-1238,#f0f0f0,snow white,75,13
-1239,#303030,graphite,98,13
-1240,#edeee9,marshmallow,56,13
-1241,#e9e9e6,star light,72,13
-1242,#1c1d21,graphite,99,13
-1243,#eeeee2,marshmallow,76,3
-1244,#e3dcc9,corn silk,45,2
-1245,#2a2a2b,graphite,39,13
-1246,#ececec,star light,84,13
-1247,#f3e3ed,star light,98,12
-1248,#fad5c9,rose water,98,1
-1249,#f8eecf,corn silk,100,3
-1250,#cfddf0,dove,98,8
-1251,#28272d,black,99,13
-1252,#e9d9d9,rose water,99,1
-1253,#b9cee3,dove,75,8
-1254,#1c262c,midnight,98,13
-1255,#c6b7d8,wood violet,99,10
-1256,#c5d5ee,dove,97,8
-1257,#cadaf3,dove,100,8
-1258,#1a2c3d,midnight,86,8
-1259,#18334e,midnight,53,8
-1260,#24334b,midnight,75,8
-1261,#d2e0e7,star light,93,8
-1262,#b2c2da,slate,60,8
-1263,#566a88,blue steel,65,8
-1264,#414554,ebony,99,9
-1265,#d0b1a5,pearl pink,45,2
-1266,#d7ccc4,cameo,36,2
-1267,#1d1e1d,graphite,59,13
-1268,#e4dece,cameo,37,2
-1269,#302424,espresso,67,13
-1270,#f1f2ec,white,79,13
-1271,#dcdcd5,star light,52,13
-1272,#1f201b,graphite,99,13
-1273,#e95555,firecracker,99,1
-1274,#f0a094,fresco,93,1
-1275,#eadea9,buttercup,100,3
-1276,#03475a,peacock,100,7
-1277,#665e3a,moss,99,3
-1278,#272731,navy blue,82,13
-1279,#ceadbe,hyacinth (iridescent taffeta),83,12
-1280,#bbbcb0,sand,33,13
-1281,#2d2b26,graphite,52,13
-1282,#e2d6be,corn silk,44,2
-1283,#f3f4ee,white,77,13
-1284,#b1b8b1,celadon,65,13
-1285,#272926,graphite,98,13
-1286,#e74755,firecracker,100,1
-1287,#aa784b,dark rose-beige,46,2
-1288,#7f9eb2,windsor blue,64,8
-1289,#262a35,midnight,100,13
-1290,#7b8289,pewter,71,13
-1291,#e34a30,fiesta,98,1
-1292,#14599a,royal blue,100,8
-1293,#292734,navy blue,92,13
-1294,#e8e8db,marshmallow,70,3
-1295,#c7a8a3,pearl pink,55,1
-1296,#3f4e6e,marine,75,8
-1297,#1d2536,navy blue,98,13
-1298,#d5d6d1,oyster,75,13
-1299,#252621,graphite,100,13
-1300,#d98125,orange crush,99,2
-1301,#003f5b,midnight,53,8
-1302,#7e7171,quarry,98,13
-1303,#edeeea,marshmallow,77,13
-1304,#d2d3ce,oyster,99,13
-1305,#201f1b,graphite,98,13
-1306,#f8c7dd,ice pink,99,12
-1307,#da2a39,fiesta,98,1
-1308,#d6c9b3,palomino,93,2
-1309,#576e5e,moss,75,6
-1310,#273646,midnight,99,8
-1311,#084d6c,ocean blue,38,8
-1312,#ebcfba,cameo,48,2
-1313,#eae5c7,corn silk,49,3
-1314,#e9cab5,cameo,48,2
-1315,#03476f,ocean blue,49,8
-1316,#e8e4d6,marshmallow,39,3
-1317,#1f1f1f,graphite,100,13
-1318,#b72b26,ribbon red,59,1
-1319,#c4ac91,champagne,54,2
-1320,#9f5c43,light bronze,51,2
-1321,#cbddca,star light,44,5
-1322,#292f3c,midnight,51,8
-1323,#eceeeb,marshmallow,77,13
-1324,#b1b2aa,celadon,58,13
-1325,#222222,graphite,100,13
-1326,#dd6e6d,coral,70,1
-1327,#e0e3e0,star light,73,13
-1328,#1e1e1e,graphite,84,13
-1329,#eaeaea,star light,84,13
-1330,#2c2724,graphite,99,13
-1331,#de5024,fiesta,98,1
-1332,#2a377f,electric blue,97,9
-1333,#f2f3ee,white,79,13
-1334,#c9cbc6,oyster,82,13
-1335,#1e1e1e,graphite,98,13
-1336,#e7cbb6,cameo,98,2
-1337,#bb234a,posie,98,12
-1338,#615432,medium brown,87,2
-1339,#23284e,blueberry,98,9
-1340,#f3f4ee,white,77,13
-1341,#d9d8d3,star light,83,13
-1342,#b6bec0,sterling,85,13
-1343,#272926,graphite,98,13
-1344,#dcb9a5,pearl pink,100,2
-1345,#cd7c66,tangerine,89,1
-1346,#d17234,dark rose-beige,100,2
-1347,#e4daa9,buttercup,99,3
-1348,#065d44,pine green,87,6
-1349,#014466,ocean blue,99,8
-1350,#827575,quarry,98,13
-1351,#d0c9bb,palomino,68,2
-1352,#18181e,navy blue,81,13
-1353,#0e5536,hunter,82,6
-1354,#0d2230,midnight,78,13
-1355,#b91023,ribbon red,38,1
-1356,#355281,sailor,74,8
-1357,#1a232b,midnight,58,13
-1358,#242625,graphite,98,13
-1359,#f2f3ee,white,73,13
-1360,#abafa8,celadon,82,13
-1361,#1e1e1e,graphite,99,13
-1362,#c7241f,fiesta,80,1
-1363,#c2dee2,star light,90,7
-1364,#292c3b,navy blue,66,9
-1365,#f4f3f2,white,58,13
-1366,#252225,graphite,71,13
-1367,#f1f3ee,white,77,13
-1368,#a9afae,frost,43,13
-1369,#1e1d19,graphite,96,13
-1370,#b9114a,posie,43,12
-1371,#c8a586,medium rose-beige,43,2
-1372,#1a397b,sapphire,75,8
-1373,#262c3a,midnight,42,13
-1374,#eeefe9,marshmallow,77,13
-1375,#d7d7d1,oyster,63,13
-1376,#252621,graphite,98,13
-1377,#f7c1bd,primrose,100,1
-1378,#f3ea94,sunflower,95,3
-1379,#c8d6c8,sterling,98,13
-1380,#6c5e37,medium brown,99,2
-1381,#2c2e3a,midnight,99,13
-1382,#edeee8,marshmallow,77,13
-1383,#d5d7d0,oyster,99,13
-1384,#272621,graphite,99,13
-1385,#eac6ba,cameo,89,2
-1386,#e94b45,firecracker,100,1
-1387,#e6e2ba,corn silk,99,3
-1388,#8b7d57,antique gold,98,2
-1389,#435d75,marine,99,8
-1390,#ecefe8,marshmallow,78,13
-1391,#c9cac4,oyster,98,13
-1392,#252621,graphite,99,13
-1393,#f4bdb7,primrose,77,1
-1394,#e7585c,firecracker,99,1
-1395,#f5dc81,sunflower,98,3
-1396,#025946,hunter,100,7
-1397,#292f3d,midnight,98,8
-1398,#c0c0be,sterling,95,13
-1399,#202020,graphite,99,13
-1400,#57513c,latte,88,3
-1401,#bfd0e2,dove,99,8
-1402,#2f2935,navy blue,77,13
-1403,#e1e2dd,star light,81,13
-1404,#232428,graphite,93,13
-1405,#e76e76,coral,94,1
-1406,#e3e9e5,star light,43,13
-1407,#f0ccc2,primrose,45,1
-1408,#eff0ea,snow white,79,13
-1409,#eed1c7,rose water,49,2
-1410,#1f2f3b,midnight,76,8
-1411,#cfc6e0,dove,79,10
-1412,#eff1eb,snow white,79,13
-1413,#2f5380,ocean blue,83,8
-1414,#b7bdbd,sterling,60,13
-1415,#232428,graphite,98,13
-1416,#78abac,seaside,60,7
-1417,#21233a,navy blue,100,13
-1418,#f0f1eb,snow white,77,13
-1419,#7b8384,pewter,53,13
-1420,#bd3657,posie,85,1
-1421,#d2d07d,snapdragon,98,3
-1422,#255a8c,ocean blue,82,8
-1423,#2f333f,midnight,99,9
-1424,#ebeae5,marshmallow,77,13
-1425,#939b98,cathedral,43,13
-1426,#d33c69,pantone honeysuckle,98,12
-1427,#232937,midnight,87,13
-1428,#b3ab9e,twig,83,2
-1429,#576062,blue steel,73,13
-1430,#212322,graphite,99,13
-1431,#cf5566,firecracker,82,1
-1432,#1f2830,midnight,100,13
-1433,#828b86,charcoal gray,87,13
-1434,#222423,graphite,99,13
-1435,#222631,midnight,100,13
-1436,#4b5255,ebony,61,13
-1437,#20201f,graphite,97,13
-1438,#3b432b,moss,95,4
-1439,#1f232f,navy blue,53,13
-1440,#929a97,cathedral,38,13
-1441,#2f3032,graphite,63,13
-1442,#464930,moss,100,3
-1443,#2c2f3e,midnight,100,9
-1444,#ebece2,marshmallow,77,13
-1445,#a6aeb0,frost,77,13
-1446,#384042,ebony,77,13
-1447,#232323,graphite,99,13
-1448,#17263d,navy blue,89,8
-1449,#ecece5,marshmallow,75,13
-1450,#4a5052,ebony,100,13
-1451,#242424,graphite,99,13
-1452,#3767a2,cerulean,93,8
-1453,#b7a6d1,wood violet,99,10
-1454,#e9ebe5,star light,91,13
-1455,#c5c6c1,oyster,79,13
-1456,#242529,graphite,97,13
-1457,#aabeb3,celadon,99,6
-1458,#c1b3cd,wood violet,98,10
-1459,#ecebd6,marshmallow,100,3
-1460,#2a2a2a,graphite,99,13
-1461,#e1bfb1,pearl pink,51,2
-1462,#283e6f,sapphire,78,8
-1463,#edebde,marshmallow,76,3
-1464,#b5b7b3,frost,79,13
-1465,#1e1e1e,graphite,100,13
-1466,#dcb6aa,pearl pink,99,1
-1467,#cfb083,champagne,69,2
-1468,#eff0eb,snow white,79,13
-1469,#b6bbbb,frost,67,13
-1470,#282828,graphite,100,13
-1471,#f29b87,tangerine,98,1
-1472,#8f7658,antique gold,98,2
-1473,#698fb4,cornflower,100,8
-1474,#2b2e3d,midnight,95,9
-1475,#edeee9,marshmallow,81,13
-1476,#262626,graphite,98,13
-1477,#d5676a,firecracker,99,1
-1478,#27394a,midnight,99,8
-1479,#f3f4ef,white,76,13
-1480,#292a2d,graphite,99,13
-1481,#aec9c2,sterling,39,6
-1482,#253340,midnight,100,8
-1483,#e6d9c8,cameo,98,2
-1484,#1b1b1b,graphite,98,13
-1485,#dbba6a,marigold,91,2
-1486,#4481c4,cornflower,94,8
-1487,#f0eddf,marshmallow,76,3
-1488,#b5b7b3,frost,40,13
-1489,#d5bbaa,pearl pink,87,2
-1490,#e6636e,firecracker,99,1
-1491,#9d843b,medium coffee,93,2
-1492,#1e303e,midnight,99,8
-1493,#ebece4,marshmallow,46,13
-1494,#99b1a4,celadon,67,6
-1495,#293542,midnight,55,8
-1496,#e5e4d9,star light,69,13
-1497,#e5e3d8,star light,67,3
-1498,#242126,graphite,66,13
-1499,#464e51,ebony,70,13
-1500,#f0f1ec,snow white,77,13
-1501,#bec3c1,sterling,78,13
-1502,#292929,graphite,99,13
-1503,#f3d9e6,rose water,97,12
-1504,#737d73,charcoal gray,100,13
-1505,#5a7c9f,larkspur,100,8
-1506,#272d3b,midnight,91,8
-1507,#eaebe6,star light,88,13
-1508,#afb4b4,frost,67,13
-1509,#262626,graphite,99,13
-1510,#e6c6d3,ice pink,99,12
-1511,#e8e1b7,corn silk,98,3
-1512,#6a7368,charcoal gray,98,13
-1513,#afb6d2,arctic,99,9
-1514,#303342,midnight,99,9
-1515,#efeee0,marshmallow,79,3
-1516,#adb4ae,celadon,70,13
-1517,#242320,graphite,99,13
-1518,#d57f69,tangerine,54,1
-1519,#729db8,windsor blue,65,8
-1520,#242a39,midnight,48,13
-1521,#f0f0e7,snow white,77,13
-1522,#aaaba5,celadon,38,13
-1523,#1e1f1a,graphite,100,13
-1524,#d57c68,tangerine,44,1
-1525,#6a9fbf,windsor blue,84,8
-1526,#2c2c36,midnight,73,13
-1527,#eeeee7,marshmallow,77,13
-1528,#abb0aa,celadon,96,13
-1529,#23221e,graphite,99,13
-1530,#e28a77,tangerine,100,1
-1531,#eee3a4,light olive,96,3
-1532,#73a3bb,windsor blue,98,8
-1533,#185d7a,marine,46,8
-1534,#242a38,midnight,66,13
-1535,#b3b4dc,arctic,100,9
-1536,#9e256b,merlot,99,12
-1537,#eeeee6,marshmallow,77,13
-1538,#a6a9a4,celadon,79,13
-1539,#1b1b1b,graphite,99,13
-1540,#d65860,firecracker,98,1
-1541,#b59679,light coffee,99,2
-1542,#5a8aac,cornflower,79,8
-1543,#015a7c,ocean blue,100,8
-1544,#1f2533,navy blue,100,13
-1545,#d2c5a4,venetian gold,29,2
-1546,#23262e,midnight,43,13
-1547,#edede8,marshmallow,60,13
-1548,#dfcaae,ice yellow,62,2
-1549,#212c38,midnight,76,13
-1550,#f2f3e3,white,75,3
-1551,#a01733,barcelona,100,1
-1552,#1d2331,navy blue,90,13
-1553,#edecd8,marshmallow,78,3
-1554,#881127,claret,99,1
-1555,#ede9d7,marshmallow,76,3
-1556,#1e201d,graphite,99,13
-1557,#dfb49d,fair rose-beige,98,2
-1558,#c10f31,flame,100,1
-1559,#152c3d,midnight,99,8
-1560,#e8e0ce,corn silk,50,2
-1561,#1e201f,graphite,97,13
-1562,#036094,ocean blue,61,8
-1563,#f1eedf,marshmallow,56,3
-1564,#999b96,cathedral,45,13
-1565,#4b7cce,tahiti,76,8
-1566,#1b202e,navy blue,99,13
-1567,#aeafab,frost,81,13
-1568,#da6067,firecracker,100,1
-1569,#f0eee1,marshmallow,81,3
-1570,#ebb3a3,pearl pink,57,1
-1571,#eeede1,marshmallow,78,3
-1572,#201f25,navy blue,81,13
-1573,#ecece5,marshmallow,77,13
-1574,#dadbd6,star light,96,13
-1575,#262627,graphite,97,13
-1576,#f0f0e8,snow white,77,13
-1577,#dadbd6,star light,48,13
-1578,#212322,graphite,98,13
-1579,#de401e,fiesta,99,1
-1580,#272940,navy blue,100,9
-1581,#f1ebd9,marshmallow,80,3
-1582,#1c1d17,graphite,90,13
-1583,#c13f20,fiesta,99,1
-1584,#373d28,graphite,98,4
-1585,#2a6b7b,teal,64,7
-1586,#d2d4ce,oyster,63,13
-1587,#212220,graphite,92,13
-1588,#ecd5a9,ice yellow,59,2
-1589,#183547,midnight,95,8
-1590,#edeee6,marshmallow,79,13
-1591,#c8c9c8,sterling,90,13
-1592,#191919,graphite,100,13
-1593,#9da0d0,periwinkle,88,9
-1594,#f0f0e5,snow white,76,3
-1595,#cbccc9,sterling,86,13
-1596,#d47f6b,tangerine,36,1
-1597,#191d2e,navy blue,99,13
-1598,#b6b9e3,arctic,62,9
-1599,#232323,graphite,99,13
-1600,#dd9948,orange crush,99,2
-1601,#3b3d2f,graphite,58,3
-1602,#c33e25,fiesta,100,1
-1603,#b39f84,champagne,81,2
-1604,#222837,navy blue,41,13
-1605,#cbcdc7,oyster,88,13
-1606,#ecd3a5,ice yellow,79,2
-1607,#192d45,midnight,84,8
-1608,#f0f0e7,snow white,74,13
-1609,#eac9c0,cameo,54,1
-1610,#1c3578,sapphire,43,8
-1611,#272731,navy blue,98,13
-1612,#d0c0a4,palomino,35,2
-1613,#c2a479,dark olive,35,2
-1614,#1b1c21,midnight,71,13
-1615,#e8e2cf,corn silk,51,3
-1616,#252726,graphite,99,13
-1617,#c1022d,flame,99,1
-1618,#efefe8,marshmallow,76,13
-1619,#db3b25,fiesta,100,1
-1620,#76b5ac,meadow,97,7
-1621,#233051,blueberry,83,8
-1622,#202634,navy blue,68,13
-1623,#eeede8,marshmallow,77,13
-1624,#db3c26,fiesta,99,1
-1625,#253453,blueberry,99,8
-1626,#212734,midnight,93,13
-1627,#edece7,marshmallow,79,13
-1628,#1b1b1b,graphite,99,13
-1629,#7cbab2,meadow,57,7
-1630,#232f51,blueberry,94,8
-1631,#eae3d0,corn silk,77,2
-1632,#a4a5a2,cathedral,82,13
-1633,#b88569,light coffee,72,2
-1634,#a3a39f,cathedral,33,13
-1635,#dddbd0,star light,86,13
-1636,#172639,navy blue,83,13
-1637,#6b98b9,windsor blue,32,8
-1638,#94a6b0,mystic,34,8
-1639,#e9e9e4,star light,83,13
-1640,#a71227,ribbon red,53,1
-1641,#141f2b,navy blue,81,13
-1642,#e4ddc8,corn silk,50,3
-1643,#1b212d,navy blue,49,13
-1644,#f2f2e6,snow white,77,3
-1645,#c3ccc5,sterling,92,13
-1646,#272727,graphite,99,13
-1647,#e7c5b1,cameo,56,2
-1648,#eecc7b,snapdragon,37,2
-1649,#f2f2e9,snow white,77,13
-1650,#1d1d1e,graphite,100,13
-1651,#d9b8a3,pearl pink,37,2
-1652,#e9cc81,snapdragon,39,2
-1653,#ebddca,corn silk,36,2
-1654,#1c3245,midnight,59,8
-1655,#191e21,graphite,52,13
-1656,#c1722b,dark rose-beige,46,2
-1657,#272725,graphite,98,13
-1658,#acbccb,slate,45,8
-1659,#52627d,blue steel,65,8
-1660,#515e82,blue steel,72,8
-1661,#383330,graphite,98,13
-1662,#a7a3a3,cathedral,45,13
-1663,#505f7a,blue steel,36,8
-1664,#b4c7cd,sterling,85,7
-1665,#b7c7cc,sterling,83,7
-1666,#ced7df,dove,88,8
-1667,#d3d5d1,sterling,67,13
-1668,#9aaab9,platinum,27,8
-1669,#262425,graphite,99,13
-1670,#282325,graphite,99,13
-1671,#acbecd,slate,78,8
-1672,#35456b,sailor,63,8
-1673,#2d2b3d,navy blue,100,9
-1674,#504647,chocolate,71,13
-1675,#dfdfe0,star light,76,13
-1676,#333235,black,86,13
-1677,#8292ae,windsor blue,74,8
-1678,#212234,navy blue,100,13
-1679,#272731,navy blue,90,13
-1680,#ebece8,marshmallow,81,13
-1681,#232529,graphite,73,13
-1682,#262a33,midnight,100,13
-1683,#6581a8,larkspur,99,8
-1684,#eeeee9,marshmallow,77,13
-1685,#2e2d2a,graphite,99,13
-1686,#607ca4,larkspur,98,8
-1687,#4f6184,blue steel,64,8
-1688,#403e4b,ebony,80,13
-1689,#fce8e1,rose water,86,2
-1690,#faf1d4,corn silk,98,3
-1691,#9b9783,twig,74,3
-1692,#d4d6e2,dove,100,9
-1693,#e7e7e7,star light,83,13
-1694,#333135,black,99,13
-1695,#7182ae,larkspur,65,8
-1696,#48485c,ebony,50,9
-1697,#434151,ebony,62,13
-1698,#7687b2,larkspur,78,8
-1699,#f6f6f7,white,77,13
-1700,#9cadbd,platinum,66,8
-1701,#3e4558,ebony,100,8
-1702,#42424e,ebony,99,13
-1703,#c7ced1,sterling,58,13
-1704,#98b2ce,ice blue,46,8
-1705,#647d9b,larkspur,98,8
-1706,#334661,ebony,44,8
-1707,#3d3634,graphite,100,13
-1708,#9cb6d4,ice blue,56,8
-1709,#aebdd6,cloudy,56,8
-1710,#555057,ebony,77,13
-1711,#68738d,larkspur,67,8
-1712,#515d79,blue steel,75,8
-1713,#384569,sailor,43,8
-1714,#535464,lavender,39,13
-1715,#3c4049,ebony,100,13
-1716,#576f88,blue steel,37,8
-1717,#2d333d,midnight,78,8
-1718,#1f1f1f,graphite,99,13
-1719,#576a88,blue steel,65,8
-1720,#314260,blueberry,71,8
-1721,#2b2d44,navy blue,98,9
-1722,#282423,graphite,99,13
-1723,#3e4661,ebony,51,9
-1724,#2d3246,midnight,73,9
-1725,#ebebe4,marshmallow,77,13
-1726,#242424,graphite,99,13
-1727,#ec6b5d,coral,76,1
-1728,#497c98,larkspur,75,8
-1729,#233342,midnight,99,8
-1730,#4d6a95,blue steel,66,8
-1731,#363e5b,blueberry,73,9
-1732,#333236,black,95,13
-1733,#647b9e,larkspur,95,8
-1734,#262531,navy blue,50,13
-1735,#2e2c2d,graphite,98,13
-1736,#526b87,blue steel,53,8
-1737,#313342,midnight,64,9
-1738,#222127,graphite,53,13
-1739,#464b65,ebony,55,9
-1740,#566b97,blue steel,63,8
-1741,#423e3d,graphite,99,13
-1742,#f8f3ef,snow white,77,13
-1743,#5c7591,larkspur,73,8
-1744,#272631,navy blue,86,13
-1745,#f4f3f0,white,68,13
-1746,#444040,graphite,71,13
-1747,#8c99a2,mystic,39,8
-1748,#818a94,pewter,40,13
-1749,#6e8aad,larkspur,58,8
-1750,#263556,blueberry,99,8
-1751,#2e3147,navy blue,62,9
-1752,#1a293c,midnight,79,8
-1753,#403f5f,violet,91,9
-1754,#efebdf,marshmallow,78,3
-1755,#212322,graphite,100,13
-1756,#3f647e,marine,64,8
-1757,#e8e8e0,star light,88,13
-1758,#212227,graphite,99,13
-1759,#da5f57,firecracker,95,1
-1760,#225071,ocean blue,79,8
-1761,#56729f,larkspur,64,8
-1762,#f5f2e4,snow white,78,3
-1763,#1e252d,midnight,97,13
-1764,#e9e8d4,marshmallow,77,3
-1765,#242d34,midnight,57,13
-1766,#517da4,larkspur,40,8
-1767,#c9a17d,medium rose-beige,99,2
-1768,#6b846a,clover,76,5
-1769,#333b4e,midnight,99,8
-1770,#dbc0a9,cameo,94,2
-1771,#be7a54,dark rose-beige,100,2
-1772,#756a55,antique gold,98,2
-1773,#3e3f51,ebony,98,9
-1774,#22231e,graphite,97,13
-1775,#dcc1b3,cameo,77,2
-1776,#0f4740,hunter,100,7
-1777,#292f3d,midnight,97,8
-1778,#ebeae8,star light,88,13
-1779,#dedede,star light,98,13
-1780,#2e303d,midnight,98,9
-1781,#dae1fe,dove,98,9
-1782,#eeebdb,marshmallow,76,3
-1783,#242625,graphite,98,13
-1784,#21323f,midnight,99,8
-1785,#1b1b1b,graphite,98,13
-1786,#d3826d,tangerine,99,1
-1787,#a3896a,light brown,95,2
-1788,#6e85a3,larkspur,98,8
-1789,#282c37,midnight,99,13
-1790,#f6f2ee,snow white,77,13
-1791,#232323,graphite,98,13
-1792,#f9937b,tangerine,98,1
-1793,#e8ccb3,cameo,91,2
-1794,#1f201b,graphite,97,13
-1795,#c4ad8d,champagne,98,2
-1796,#0d5439,hunter,98,6
-1797,#1f3241,midnight,99,8
-1798,#2e2e2e,graphite,98,13
-1799,#b59223,dark beige,98,3
-1800,#256b9f,cerulean,99,8
-1801,#f5f4f2,white,76,13
-1802,#e6ddce,cameo,86,2
-1803,#272727,graphite,98,13
-1804,#f2e3e6,rose water,99,1
-1805,#f3ecbf,light olive,87,3
-1806,#858666,olive,92,3
-1807,#afced8,surf spray,81,7
-1808,#f2f0ea,snow white,77,13
-1809,#302d2f,graphite,63,13
-1810,#ae3836,ribbon red,100,1
-1811,#d0ab82,medium rose-beige,97,2
-1812,#8d8a95,shadow,27,13
-1813,#6699e0,periwinkle,64,8
-1814,#ebe9dc,marshmallow,79,3
-1815,#2a2a2a,graphite,95,13
-1816,#39383d,black,79,13
-1817,#2a2925,graphite,99,13
-1818,#e2d7d6,rose water,41,13
-1819,#a0617c,tea rose,66,12
-1820,#353537,black,71,13
-1821,#3c3d41,black,69,13
-1822,#e1914e,orange crush,83,2
-1823,#716858,antique gold,75,2
-1824,#20202a,navy blue,91,13
-1825,#6b2f7c,african violet,64,11
-1826,#2b3749,midnight,67,8
-1827,#48272e,bordeaux,99,1
-1828,#e4e4e1,star light,84,13
-1829,#ada098,twig,47,2
-1830,#292925,graphite,99,13
-1831,#f5585c,coral,86,1
-1832,#ecc36b,medium olive,93,2
-1833,#70725d,antique gold,50,3
-1834,#6e8ab0,larkspur,91,8
-1835,#26283c,navy blue,99,9
-1836,#e8e7da,marshmallow,37,3
-1837,#5e6373,blue steel,41,9
-1838,#acaaa4,pebble beach,31,13
-1839,#c3b0a9,sand,35,2
-1840,#6d7677,charcoal gray,43,13
-1841,#27282d,black,85,13
-1842,#292c3b,navy blue,92,9
-1843,#676f3f,olive,56,3
-1844,#94b4d7,ice blue,27,8
-1845,#636678,blue steel,43,9
-1846,#28374f,midnight,51,8
-1847,#222224,graphite,98,13
-1848,#28282a,graphite,99,13
-1849,#7a7f7f,charcoal gray,79,13
-1850,#28292e,black,99,13
-1851,#293142,midnight,86,8
-1852,#575f5e,teal,68,13
-1853,#232323,graphite,98,13
-1854,#f0efea,marshmallow,77,13
-1855,#e1d9ce,cameo,99,2
-1856,#2a2925,graphite,98,13
-1857,#878866,olive,100,3
-1858,#eeeeec,marshmallow,77,13
-1859,#252525,graphite,99,13
-1860,#deb484,fair rose-beige,82,2
-1861,#232642,navy blue,100,9
-1862,#1e1d2b,navy blue,97,13
-1863,#d3d3dd,dove,43,13
-1864,#a0a6bd,platinum,29,9
-1865,#eeeeec,marshmallow,77,13
-1866,#f12d26,fiesta,98,1
-1867,#343439,black,90,13
-1868,#f5f5f0,white,77,13
-1869,#dbc4aa,cameo,76,2
-1870,#1d5c49,hunter,98,6
-1871,#3c3c48,ebony,95,13
-1872,#cf152d,flame,99,1
-1873,#dccbb8,cameo,98,2
-1874,#b29f87,champagne,99,2
-1875,#282834,navy blue,99,13
-1876,#ba8c51,dark beige,69,2
-1877,#f0f0ed,snow white,75,13
-1878,#f5d3cc,rose water,87,1
-1879,#283659,blueberry,86,8
-1880,#f4f3ef,white,53,13
-1881,#212121,graphite,66,13
-1882,#e3e1ce,star light,48,3
-1883,#c7a49e,fresco,46,1
-1884,#39485d,ebony,42,8
-1885,#202533,navy blue,76,13
-1886,#e4dac7,cameo,80,2
-1887,#292925,graphite,99,13
-1888,#055548,hunter,99,7
-1889,#1a293b,midnight,46,8
-1890,#5b5a59,ebony,81,13
-1891,#3b3735,graphite,100,13
-1892,#2e2d29,graphite,100,13
-1893,#42404e,ebony,98,13
-1894,#555461,lavender,29,13
-1895,#605d5c,blue steel,85,13
-1896,#373231,graphite,90,13
-1897,#2d2e29,graphite,96,13
-1898,#414050,ebony,76,13
-1899,#545452,ebony,89,13
-1900,#3b3b39,graphite,100,13
-1901,#34342f,graphite,99,13
-1902,#34353a,black,100,13
-1903,#ebead6,marshmallow,77,3
-1904,#2b323a,black,79,13
-1905,#e3e3d3,star light,31,3
-1906,#c8ccc8,sterling,31,13
-1907,#222933,midnight,99,13
-1908,#7d2c52,plum raisin,70,12
-1909,#938351,olive,38,3
-1910,#f4f4ed,white,77,13
-1911,#2b2d2a,graphite,98,13
-1912,#c48c5b,butterscotch,100,2
-1913,#004b2c,hunter,100,6
-1914,#c5c6c8,sterling,99,13
-1915,#2b2d2a,graphite,98,13
-1916,#ddb577,medium olive,98,2
-1917,#bec0bb,oyster,81,13
-1918,#1b1c17,graphite,95,13
-1919,#da313e,fiesta,100,1
-1920,#1b1f2a,navy blue,99,13
-1921,#d7d8dc,dove,52,13
-1922,#c0b698,champagne,100,3
-1923,#588cbc,cornflower,99,8
-1924,#2e303d,midnight,73,9
-1925,#55212c,bordeaux,89,1
-1926,#32477e,sailor,90,8
-1927,#432128,bordeaux,42,1
-1928,#5e5e5e,blue steel,92,13
-1929,#373737,graphite,54,13
-1930,#262626,graphite,99,13
-1931,#31313d,midnight,98,13
-1932,#3e3f4c,ebony,37,13
-1933,#5a5e61,blue steel,99,13
-1934,#383838,graphite,99,13
-1935,#323232,graphite,98,13
-1936,#363640,black,70,13
-1937,#565858,ebony,73,13
-1938,#3a3d3f,black,64,13
-1939,#292e31,black,98,13
-1940,#2e3441,midnight,77,8
-1941,#f8f4e2,snow white,77,3
-1942,#292929,graphite,98,13
-1943,#f4d8c3,light rose-beige,98,2
-1944,#363b50,midnight,60,9
-1945,#d6d2c8,cameo,51,13
-1946,#b7b7b7,frost,35,13
-1947,#ededeb,marshmallow,75,13
-1948,#9a9a9a,cathedral,92,13
-1949,#262626,graphite,99,13
-1950,#dcc8c9,ice pink,99,1
-1951,#e1c7b6,cameo,100,2
-1952,#393a47,ebony,56,13
-1953,#b1adac,pebble beach,95,13
-1954,#59575d,blue steel,77,13
-1955,#252521,graphite,99,13
-1956,#d7bda7,palomino,56,2
-1957,#363847,midnight,80,9
-1958,#2a2f32,black,98,13
-1959,#f4f4f0,white,45,13
-1960,#e0d1c5,cameo,64,2
-1961,#302e3c,navy blue,54,9
-1962,#2f324d,navy blue,75,9
-1963,#f5f4f1,white,74,13
-1964,#b2b2b2,frost,87,13
-1965,#dcdfe4,star light,90,13
-1966,#5e3859,african violet,50,11
-1967,#edece8,marshmallow,77,13
-1968,#9f9da3,mystic,84,13
-1969,#2b2b2b,graphite,99,13
-1970,#f6d78e,fair olive,100,2
-1971,#d7d9e6,dove,98,9
-1972,#343338,black,98,13
-1973,#b6bdbe,frost,59,13
-1974,#1e201f,graphite,99,13
-1975,#2a2e38,midnight,94,13
-1976,#bcbfb9,oyster,40,13
-1977,#2a201f,espresso,99,13
-1978,#354b5a,ebony,56,8
-1979,#232a32,midnight,99,13
-1980,#da5536,fiesta,100,1
-1981,#dfcbb1,cameo,98,2
-1982,#bc9f55,dark olive,100,2
-1983,#333446,midnight,99,9
-1984,#f2f2f0,snow white,76,13
-1985,#377363,evergreen,99,6
-1986,#2e2c39,navy blue,64,13
-1987,#ebebe8,star light,83,13
-1988,#262521,graphite,97,13
-1989,#fbdfd4,rose water,97,2
-1990,#6b5e4c,almond,97,2
-1991,#363732,graphite,100,13
-1992,#272727,graphite,99,13
-1993,#e7d2c6,cameo,63,2
-1994,#b19a7b,light coffee,70,2
-1995,#292d38,midnight,99,13
-1996,#424844,ebony,97,13
-1997,#1f1f1f,graphite,99,13
-1998,#2a303c,midnight,99,8
-1999,#bab5cc,wood violet,92,9
-2000,#d3cdc9,oyster,97,13
-2001,#66603d,moss,98,3
-2002,#2e3042,navy blue,65,9
-2003,#babcb9,sterling,74,13
-2004,#e68621,orange crush,100,2
-2005,#263b53,midnight,98,8
-2006,#e7e0cd,corn silk,72,2
-2007,#2d2d2d,graphite,99,13
-2008,#dc8a62,clementine,96,2
-2009,#b19a7b,light coffee,70,2
-2010,#292d38,midnight,99,13
-2011,#424844,ebony,97,13
-2012,#1f1f1f,graphite,99,13
-2013,#2a303c,midnight,99,8
-2014,#bab5cc,wood violet,92,9
-2015,#d3cdc9,oyster,97,13
-2016,#66603d,moss,98,3
-2017,#2e3042,navy blue,65,9
-2018,#babcb9,sterling,74,13
-2019,#e68621,orange crush,100,2
-2020,#263b53,midnight,98,8
-2021,#e7e0cd,corn silk,72,2
-2022,#2d2d2d,graphite,99,13
-2023,#dc8a62,clementine,96,2
+product_id,rgb hex,ryb hex,percentage of clothes,hue_level
+1,#E9E9E9,#e9e9e9,100.0,13
+2,#D5D5D5,#d5d5d5,100.0,13
+3,#FACECB,#facecb,97.1,1
+4,#A9D8ED,#a9c4ed,70.2,8
+5,#8C9EDA,#8c9ada,100.0,9
+6,#303644,#303444,87.6,9
+7,#F3EFEF,#f3efef,60.7,1
+8,#F8CFD8,#f8cfd8,100.0,1
+9,#C9CBEE,#c9caee,100.0,9
+10,#353440,#353440,100.0,9
+11,#F2F2F2,#f2f2f2,95.9,13
+12,#929AD8,#9299d8,100.0,9
+13,#EFEEEC,#edefec,95.7,4
+14,#2F3241,#2f3141,67.1,9
+15,#ECEDE8,#e8ede9,82.6,5
+16,#313448,#313348,95.7,9
+17,#D7CFCF,#d7cfcf,38.2,1
+18,#E3E2E5,#e3e2e5,36.2,10
+19,#EFD9DC,#efd9dc,51.2,1
+20,#5E73BD,#5e6fbd,49.6,9
+21,#6C87DB,#6c81db,72.7,9
+22,#D0DFFD,#d0dbfd,100.0,9
+23,#C8C4C2,#c8c5c2,83.5,2
+24,#6680BF,#667abf,53.3,9
+25,#86848F,#86848f,37.0,9
+26,#CAB4D5,#cab4d5,47.1,10
+27,#B2C2DB,#b2bddb,56.4,8
+28,#797B8A,#797a8a,49.2,9
+29,#C2C1CA,#c2c1ca,56.2,9
+30,#B2B8D2,#b2b7d2,47.9,9
+31,#D7D9E5,#d7d8e5,56.6,9
+32,#D5DCF1,#d5daf1,88.0,9
+33,#C4C2CC,#c4c2cc,16.3,9
+34,#757681,#757581,23.3,9
+35,#F2F3F2,#f2f3f3,42.4,7
+36,#414762,#414662,65.9,9
+37,#6E88C5,#6e82c5,52.7,9
+38,#D9CFCF,#d9cfcf,54.8,1
+39,#C2C2D3,#c2c2d3,63.2,9
+40,#C3BFC0,#c3bfc0,26.4,1
+41,#6D6D70,#6d6d70,80.0,9
+42,#868789,#868689,33.3,9
+43,#595C72,#595b72,39.9,9
+44,#626372,#626272,25.6,9
+45,#4B4E6E,#4b4d6e,62.6,9
+46,#C9C8CC,#c9c8cc,56.0,10
+47,#BDBBC6,#bdbbc6,50.6,9
+48,#E0E0E0,#e0e0e0,36.6,13
+49,#323A5F,#32385f,84.9,9
+50,#EFDDDC,#efdddc,57.4,1
+51,#EAEAE8,#e8eae8,56.2,5
+52,#B6C3D9,#b6bfd9,65.5,8
+53,#DFE1E7,#dfe0e7,40.3,9
+54,#BDD3ED,#bdcced,92.1,8
+55,#EFEDEC,#efedec,65.5,2
+56,#D7D4D7,#d7d4d7,58.7,11
+57,#8C878C,#8c878c,47.5,11
+58,#F8CDDE,#f8cdde,100.0,12
+59,#B8A697,#b8b297,97.3,3
+60,#FCF2CA,#d6fcca,80.4,5
+61,#C5DFE5,#c5d3e5,100.0,8
+62,#69674D,#4f694d,54.5,5
+63,#C9DBF4,#c9d5f4,93.4,8
+64,#98D4F2,#98bcf2,100.0,8
+65,#5F6A94,#5f6894,92.4,9
+66,#3C5A8D,#3c518d,98.6,8
+67,#2D2E39,#2d2d39,70.7,9
+68,#E0CAF1,#e0caf1,100.0,10
+69,#BCC2D5,#bcc0d5,93.8,9
+70,#DACDE3,#dacde3,100.0,10
+71,#DED9D8,#ded9d8,99.8,1
+72,#B0B4BA,#b0b2ba,31.8,9
+73,#EDECEA,#ebedea,83.9,4
+74,#F2B6A4,#f2bba4,100.0,2
+75,#D7C4AE,#d1d7ae,91.1,3
+76,#98AFBD,#98a6bd,69.0,8
+77,#797D93,#797c93,49.8,9
+78,#5C6188,#5c6088,100.0,9
+79,#282E3A,#282c3a,69.0,9
+80,#797480,#797480,24.8,10
+81,#6A6B7B,#6a6a7b,57.4,9
+82,#BEBBBA,#bebbba,46.7,2
+83,#B96F7B,#b96f7b,38.4,1
+84,#849CCE,#8496ce,49.6,9
+85,#919486,#869489,43.2,5
+86,#7D716B,#7d746b,25.6,2
+87,#F3F1ED,#f0f3ed,63.0,4
+88,#D8D3D0,#d8d4d0,100.0,2
+89,#C98895,#c98895,90.3,1
+90,#BCCFE9,#bcc9e9,96.3,8
+91,#8784A3,#8784a3,56.4,9
+92,#31323A,#31313a,98.3,9
+93,#E9E9E7,#e7e9e7,67.8,5
+94,#DDD2C3,#d6ddc3,100.0,4
+95,#918671,#819171,90.9,4
+96,#C1D9F8,#c1d1f8,98.6,8
+97,#6A7BA0,#6a76a0,45.9,9
+98,#222833,#222633,81.6,9
+99,#98A09B,#989da0,40.7,8
+100,#E1B4B1,#e1b4b1,100.0,1
+101,#DCCFB5,#c8dcb5,100.0,4
+102,#325178,#324778,95.5,8
+103,#2A303E,#2a2e3e,100.0,9
+104,#F2F2F5,#f2f2f5,74.2,9
+105,#CECDD0,#cecdd0,48.6,10
+106,#FBE4E9,#fbe4e9,100.0,1
+107,#BECEEE,#becaee,100.0,9
+108,#2C3243,#2c3043,100.0,9
+109,#E6E6E6,#e6e6e6,69.2,13
+110,#DAD9D9,#dad9d9,85.7,1
+111,#F9DFEA,#f9dfea,100.0,12
+112,#D9D9EC,#d9d9ec,100.0,9
+113,#323B51,#323851,96.7,9
+114,#E8E9E5,#e5e9e6,87.6,6
+115,#E9E9EC,#e9e9ec,46.5,9
+116,#EED9DF,#eed9df,100.0,12
+117,#C6E5E3,#c6d6e5,100.0,8
+118,#B0BCD6,#b0b9d6,100.0,9
+119,#52516B,#52516b,71.5,9
+120,#292D3C,#292c3c,95.7,9
+121,#BFCBD9,#bfc7d9,52.5,8
+122,#6E788A,#6e758a,47.5,9
+123,#A59F9E,#a59f9e,74.6,1
+124,#B8CCE3,#b8c5e3,71.9,8
+125,#4E5C82,#4e5982,100.0,9
+126,#495473,#495173,90.9,9
+127,#383746,#383746,49.8,9
+128,#88818C,#88818c,93.0,10
+129,#252B50,#252a50,70.9,9
+130,#686D79,#686b79,80.2,9
+131,#24436A,#24396a,91.9,8
+132,#1F2D4C,#1f294c,94.6,9
+133,#D7D9E0,#d7d8e0,58.1,9
+134,#2D3049,#2d2f49,58.9,9
+135,#9C1D33,#9c1d33,31.6,1
+136,#7B6546,#6b7b46,47.3,4
+137,#303347,#303247,64.0,9
+138,#2B2A2E,#2b2a2e,81.6,10
+139,#7B7664,#6a7b64,40.9,4
+140,#383C58,#383b58,35.5,9
+141,#64646D,#64646d,56.4,9
+142,#813548,#813548,54.1,1
+143,#847457,#6f8457,61.0,4
+144,#556985,#556385,57.9,8
+145,#323B34,#32393b,19.8,7
+146,#5D5E71,#5d5d71,35.7,9
+147,#6A6B74,#6a6a74,69.4,9
+148,#B5B3B8,#b5b3b8,62.8,10
+149,#353349,#353349,99.8,9
+150,#EDEDE2,#e2ede2,78.9,5
+151,#2B2B2B,#2b2b2b,100.0,13
+152,#E19414,#8fe114,100.0,4
+153,#757750,#507752,95.0,5
+154,#253E42,#253242,100.0,8
+155,#C1C9CB,#c1c5cb,58.1,8
+156,#C0C4B6,#b6c4ba,81.0,6
+157,#ECEBE9,#eaece9,42.1,4
+158,#36394F,#36384f,76.4,9
+159,#F6F6F3,#f3f6f3,82.9,5
+160,#32354C,#32344c,97.3,9
+161,#2D282F,#2d282f,45.7,10
+162,#814145,#814145,33.1,1
+163,#4D5B7B,#4d577b,38.0,9
+164,#E6D8D6,#e6d8d6,84.9,1
+165,#D3D5DC,#d3d4dc,67.4,9
+166,#4F4B52,#4f4b52,51.0,10
+167,#2C2E49,#2c2d49,79.3,9
+168,#BE8974,#be9174,49.4,2
+169,#ECECE2,#e2ece2,99.8,5
+170,#9C4D2F,#9c582f,100.0,2
+171,#797D4A,#4a7d4e,100.0,5
+172,#25353A,#252e3a,100.0,8
+173,#D2C6B6,#cbd2b6,100.0,4
+174,#D3D5D2,#d2d5d4,94.2,6
+175,#F1EEEB,#f1f1eb,91.5,3
+176,#B95A46,#b95e46,79.3,1
+177,#C2AC8E,#b4c28e,77.3,4
+178,#80856C,#6c8571,96.3,5
+179,#567BA1,#566ea1,56.2,8
+180,#32353F,#32343f,76.7,9
+181,#ECECED,#ececed,47.1,9
+182,#FDDFE6,#fddfe6,100.0,1
+183,#CCD4E8,#ccd2e8,100.0,9
+184,#D8D6DB,#d8d6db,99.0,10
+185,#EEDCE3,#eedce3,87.2,12
+186,#D5D8E5,#d5d7e5,100.0,9
+187,#CBCAD0,#cbcad0,100.0,9
+188,#F1D1DC,#f1d1dc,100.0,12
+189,#B8C7DF,#b8c2df,100.0,8
+190,#E8E8EB,#e8e8eb,70.0,9
+191,#FDDEE3,#fddee3,100.0,1
+192,#C8D6F0,#c8d2f0,100.0,9
+193,#D9D6DD,#d9d6dd,100.0,10
+194,#EBD9E4,#ebd9e4,57.4,12
+195,#CDCDDB,#cdcddb,100.0,9
+196,#CECED0,#ceced0,83.3,9
+197,#F4D7E1,#f4d7e1,100.0,12
+198,#B9C8E2,#b9c3e2,100.0,9
+199,#D1D0D5,#d1d0d5,100.0,9
+200,#F6D6E2,#f6d6e2,100.0,12
+201,#BAC7E3,#bac3e3,100.0,9
+202,#ECD8E5,#ecd8e5,98.8,12
+203,#E7E6E5,#e7e7e5,67.1,3
+204,#31393C,#31353c,96.1,8
+205,#EAEAEA,#eaeaea,95.0,13
+206,#C6D6EF,#c6d1ef,100.0,8
+207,#F1F1F0,#f0f1f0,46.3,5
+208,#29292B,#29292b,100.0,9
+209,#DBE3F7,#dbe1f7,100.0,9
+210,#B5CBE4,#b5c3e4,72.3,8
+211,#E6E6E6,#e6e6e6,59.7,13
+212,#DDDCE2,#dddce2,100.0,9
+213,#FAE0EA,#fae0ea,83.5,12
+214,#CCD8FA,#ccd5fa,100.0,9
+215,#A1AEDD,#a1abdd,69.4,9
+216,#E8E8E8,#e8e8e8,99.4,13
+217,#D2D1D7,#d2d1d7,100.0,9
+218,#C2D0ED,#c2cced,100.0,9
+219,#9EA9D8,#9ea7d8,71.3,9
+220,#EDEEEC,#eceeed,78.7,6
+221,#CACAD2,#cacad2,100.0,9
+222,#BBCDED,#bbc8ed,100.0,8
+223,#94A8DC,#94a3dc,100.0,9
+224,#E8E8EA,#e8e8ea,39.9,9
+225,#DAE9FA,#dae4fa,61.4,8
+226,#F9DFE8,#f9dfe8,97.1,12
+227,#CED2E8,#ced1e8,100.0,9
+228,#E9E8E8,#e9e8e8,49.0,1
+229,#D5E1F1,#d5ddf1,78.3,8
+230,#E4E4E4,#e4e4e4,54.5,13
+231,#CDCFF0,#cdcef0,100.0,9
+232,#E8E8E8,#e8e8e8,100.0,13
+233,#9DAEDD,#9daadd,60.7,9
+234,#CDCCD4,#cdccd4,100.0,9
+235,#9CB0E4,#9cabe4,100.0,9
+236,#E6E6E6,#e6e6e6,64.5,13
+237,#CED6EC,#ced4ec,100.0,9
+238,#ADC6F5,#adbff5,40.9,9
+239,#DFD9EF,#dfd9ef,100.0,10
+240,#E8E7E6,#e8e8e6,54.3,3
+241,#E1E2F0,#e1e1f0,100.0,9
+242,#EEEFF3,#eeeef3,61.2,9
+243,#E7E6EB,#e7e6eb,84.9,9
+244,#858BCA,#858aca,72.5,9
+245,#EEEDF0,#eeedf0,57.4,10
+246,#E2E1E7,#e2e1e7,45.7,9
+247,#CBCADD,#cbcadd,45.7,9
+248,#EAEBEE,#eaeaee,34.7,9
+249,#DCDFEA,#dcdeea,79.8,9
+250,#DDDFE8,#dddee8,76.9,9
+251,#E1E0E8,#e1e0e8,99.4,9
+252,#CACAD2,#cacad2,74.8,9
+253,#E3E2EA,#e3e2ea,100.0,9
+254,#CAC9CF,#cac9cf,30.0,9
+255,#F4F2F3,#f4f2f3,65.1,12
+256,#343335,#343335,50.2,10
+257,#BFCDFB,#bfcafb,94.4,9
+258,#41475A,#41455a,77.3,9
+259,#F7F5F6,#f7f5f6,65.1,12
+260,#383636,#383636,63.4,1
+261,#C0D0FC,#c0ccfc,94.2,9
+262,#42485B,#42465b,88.8,9
+263,#E4E4E4,#e4e4e4,52.9,13
+264,#E0E2F1,#e0e1f1,100.0,9
+265,#8589CC,#8588cc,56.4,9
+266,#ECDDEE,#ecddee,52.3,11
+267,#EDEEEE,#ededee,64.9,9
+268,#DDE0F0,#dddff0,100.0,9
+269,#8789CC,#8788cc,57.2,9
+270,#D6C4E9,#d6c4e9,97.5,10
+271,#E9EAE4,#e4eae5,99.2,5
+272,#CEDAEB,#ced6eb,100.0,8
+273,#8EA0D5,#8e9cd5,92.8,9
+274,#7B93CD,#7b8dcd,64.5,9
+275,#EAEAEB,#eaeaeb,47.7,9
+276,#D4E0F0,#d4dcf0,86.0,8
+277,#F0EBE8,#f0ece8,95.5,2
+278,#D8DEEC,#d8dcec,100.0,9
+279,#EBEAE8,#e9ebe8,97.9,4
+280,#BCCCE2,#bcc7e2,100.0,8
+281,#DDDDE3,#dddde3,73.1,9
+282,#E7E2EF,#e7e2ef,90.9,10
+283,#E5E3E2,#e5e3e2,52.9,2
+284,#DCDDE2,#dcdce2,69.6,9
+285,#D6D9E0,#d6d8e0,41.3,9
+286,#E5E6E7,#e5e5e7,21.7,9
+287,#E5E6E7,#e5e5e7,35.7,9
+288,#D7DBE5,#d7dae5,53.5,9
+289,#DFDFE5,#dfdfe5,40.5,9
+290,#E8E7EB,#e8e7eb,80.8,10
+291,#7C87C6,#7c85c6,59.5,9
+292,#B9CCE9,#b9c6e9,76.7,8
+293,#CACDDF,#caccdf,78.5,9
+294,#ABB1C3,#abafc3,56.6,9
+295,#D4D4D2,#d2d4d2,46.3,5
+296,#CED2DC,#ced1dc,100.0,9
+297,#C5C8DD,#c5c7dd,85.1,9
+298,#ADB0BA,#adafba,78.9,9
+299,#DBDADF,#dbdadf,84.3,9
+300,#D0D5E7,#d0d4e7,66.5,9
+301,#E0E7E9,#e0e3e9,57.9,8
+302,#DBD7E7,#dbd7e7,71.9,10
+303,#DFDFE1,#dfdfe1,65.3,9
+304,#D3DAE9,#d3d8e9,97.7,9
+305,#D4D2DC,#d4d2dc,34.5,9
+306,#CBCAD7,#cbcad7,86.8,9
+307,#D0CFD4,#d0cfd4,50.2,9
+308,#BCA4BD,#bca4bd,100.0,11
+309,#EAE9E8,#eaeae8,49.6,3
+310,#C9C9C9,#c9c9c9,58.7,13
+311,#F6DFE5,#f6dfe5,89.5,12
+312,#C7CCDE,#c7cbde,97.1,9
+313,#343744,#343644,78.5,9
+314,#E9E9E9,#e9e9e9,74.4,13
+315,#BBBBBD,#bbbbbd,38.0,9
+316,#F4D9E3,#f4d9e3,100.0,12
+317,#D6D6E8,#d6d6e8,100.0,9
+318,#33343F,#33333f,80.0,9
+319,#ECEBEA,#ececea,69.2,3
+320,#E0DFDF,#e0dfdf,49.0,1
+321,#FAE5EE,#fae5ee,83.5,12
+322,#C6CDF0,#c6ccf0,100.0,9
+323,#2A2C3B,#2a2b3b,100.0,9
+324,#F3F3F8,#f3f3f8,62.2,9
+325,#EEF0F6,#eeeff6,78.9,9
+326,#FADFEA,#fadfea,57.2,12
+327,#D7E2F6,#d7dff6,100.0,8
+328,#F1F1EE,#eef1ee,49.4,5
+329,#D1D9EC,#d1d7ec,100.0,9
+330,#EEECEB,#eeeceb,70.5,2
+331,#C6D9F7,#c6d3f7,98.6,8
+332,#D5DDF0,#d5dbf0,97.9,9
+333,#E7D6E6,#e7d6e6,98.8,11
+334,#CFD7EA,#cfd5ea,91.5,9
+335,#CEC3E3,#cec3e3,80.0,10
+336,#D6CFCD,#d6cfcd,98.3,1
+337,#807C8C,#807c8c,33.1,10
+338,#EDEDF1,#ededf1,76.4,9
+339,#E8EBF3,#e8eaf3,93.4,9
+340,#D9DBE7,#d9dae7,80.0,9
+341,#DDD0EB,#ddd0eb,54.5,10
+342,#E7E7EC,#e7e7ec,59.1,9
+343,#E8E7EE,#e8e7ee,84.5,9
+344,#EFF0EB,#ebf0ec,82.4,5
+345,#BEC0BB,#bbc0bd,96.9,6
+346,#444C4D,#44484d,91.9,8
+347,#211F20,#211f20,100.0,12
+348,#8B1428,#8b1428,100.0,1
+349,#572434,#572434,87.8,12
+350,#AD4320,#ad4e20,84.5,2
+351,#E7CC7C,#a0e77c,100.0,4
+352,#7B846C,#6c8475,95.5,6
+353,#444B3B,#3b4b42,100.0,6
+354,#A5BECB,#a5b4cb,100.0,8
+355,#273244,#272e44,100.0,9
+356,#EE4413,#ee5213,100.0,2
+357,#C7E164,#64e17e,100.0,5
+358,#028CC0,#0251c0,100.0,8
+359,#EEEEEC,#eceeec,82.6,5
+360,#393939,#393939,98.1,13
+361,#252527,#252527,100.0,9
+362,#C31731,#c31731,100.0,1
+363,#FC7410,#fcbd10,100.0,2
+364,#018566,#014b85,100.0,8
+365,#2A2937,#2a2937,88.8,9
+366,#F2F2F0,#f0f2f0,69.8,5
+367,#BEC0B9,#b9c0bb,94.8,6
+368,#363633,#333633,100.0,5
+369,#254163,#253863,100.0,8
+370,#2E2E3A,#2e2e3a,64.7,9
+371,#ECEDE9,#e9edea,94.6,6
+372,#B7C0B7,#b7c0c0,98.6,7
+373,#A7A8A3,#a3a8a4,80.6,5
+374,#3C4444,#3c4044,99.8,8
+375,#242420,#202420,100.0,5
+376,#F67274,#f67274,100.0,1
+377,#CAC3B0,#b9cab0,97.9,4
+378,#C19D62,#9bc162,100.0,4
+379,#547270,#546372,99.8,8
+380,#62919D,#627c9d,75.8,8
+381,#232D3D,#232a3d,97.5,8
+382,#EAEAE6,#e6eae6,50.8,5
+383,#AFB5AE,#aeb5b4,62.0,7
+384,#3D3F39,#393f3b,93.0,6
+385,#272726,#262726,61.8,5
+386,#392827,#392827,100.0,1
+387,#837C70,#7b8370,91.5,4
+388,#434E40,#404e4b,97.9,7
+389,#272731,#272731,85.3,9
+390,#F1F1F1,#f1f1f1,93.8,13
+391,#CCCECD,#cccdce,82.2,8
+392,#3F3F41,#3f3f41,69.6,9
+393,#25262B,#25252b,100.0,9
+394,#E1CCAD,#d0e1ad,99.6,4
+395,#3E4A3F,#3e494a,100.0,7
+396,#BFCDD6,#bfc7d6,100.0,8
+397,#292C3C,#292b3c,100.0,9
+398,#24262B,#24252b,100.0,9
+399,#282C40,#282b40,100.0,9
+400,#E6E7E1,#e1e7e2,97.7,5
+401,#BBBCB6,#b6bcb7,96.9,5
+402,#4B514F,#4b4e51,53.5,8
+403,#242424,#242424,100.0,13
+404,#721E2E,#721e2e,55.0,1
+405,#5E623F,#3f6243,83.1,5
+406,#2E5274,#2e4574,64.3,8
+407,#202631,#202431,100.0,9
+408,#ECEBE7,#e8ece7,100.0,5
+409,#C0C2BC,#bcc2be,99.8,6
+410,#47484A,#47474a,61.4,9
+411,#E0E2DC,#dce2de,96.3,6
+412,#303534,#303235,86.0,8
+413,#393E4A,#393c4a,44.4,9
+414,#E9EAE5,#e5eae6,99.4,5
+415,#848D8A,#84898d,63.0,8
+416,#3A4042,#3a3d42,100.0,8
+417,#2E2F35,#2e2e35,56.6,9
+418,#ED6460,#ed6460,100.0,1
+419,#D7E25C,#5ce267,100.0,5
+420,#2F4769,#2f3f69,100.0,8
+421,#E4E5E2,#e2e5e3,68.6,6
+422,#232428,#232328,92.8,9
+423,#DB1D24,#db1d24,100.0,1
+424,#517564,#516875,94.6,8
+425,#EBECE6,#e6ece7,99.2,5
+426,#7A827C,#7a8082,94.8,8
+427,#202020,#202020,100.0,13
+428,#49759D,#49659d,65.3,8
+429,#232A36,#232836,100.0,8
+430,#F1F1ED,#edf1ed,94.6,5
+431,#8A918B,#8a9091,95.5,7
+432,#29292B,#29292b,100.0,9
+433,#C22D2E,#c22d2e,100.0,1
+434,#F4741B,#f4b11b,100.0,2
+435,#919D3C,#3c9d48,100.0,5
+436,#666F82,#666c82,61.2,9
+437,#2A3550,#2a3250,97.5,9
+438,#EBE7DD,#e2ebdd,90.3,4
+439,#2F363A,#2f333a,98.6,8
+440,#3D412B,#2b412f,67.8,5
+441,#221F26,#221f26,100.0,10
+442,#262A47,#262947,100.0,9
+443,#413F44,#413f44,97.5,10
+444,#282A43,#282943,100.0,9
+445,#DEE1DE,#dee1e1,49.8,7
+446,#222026,#222026,61.6,10
+447,#BD2422,#bd2422,68.6,1
+448,#202732,#202532,51.0,8
+449,#E1E3DF,#dfe3e1,95.9,6
+450,#2B3236,#2b2f36,94.4,8
+451,#5B6D54,#546d66,85.5,6
+452,#2D5479,#2d4679,88.6,8
+453,#EEF0EB,#ebf0ed,85.5,6
+454,#949C97,#94999c,67.4,8
+455,#28282A,#28282a,100.0,9
+456,#B62F2B,#b62f2b,95.5,1
+457,#5B5835,#385b35,87.0,5
+458,#3E6FB0,#3e60b0,80.8,8
+459,#283650,#283250,100.0,9
+460,#1E3959,#1e3059,37.2,8
+461,#902736,#902736,81.8,1
+462,#D4D5D9,#d4d4d9,100.0,9
+463,#36364C,#36364c,49.0,9
+464,#8D928A,#8a928f,97.9,6
+465,#20201F,#1f201f,56.2,5
+466,#606E55,#556e63,75.0,6
+467,#6D7476,#6d7076,91.1,8
+468,#343B3F,#34383f,97.7,8
+469,#252529,#252529,67.6,9
+470,#284160,#283960,76.9,8
+471,#8A938D,#8a9093,95.0,8
+472,#1E2120,#1e1f21,44.2,8
+473,#223752,#223052,52.5,8
+474,#BDBAB1,#b5bdb1,53.9,4
+475,#293036,#292d36,55.4,8
+476,#1C222E,#1c202e,92.6,9
+477,#8C9491,#8c9094,54.3,8
+478,#393331,#393331,100.0,2
+479,#26293D,#26283d,100.0,9
+480,#889094,#888c94,80.0,8
+481,#242640,#242540,100.0,9
+482,#252427,#252427,94.8,10
+483,#EFEFE4,#e4efe4,100.0,5
+484,#C2C1BC,#bdc2bc,95.5,5
+485,#204B6B,#203b6b,99.4,8
+486,#252838,#252738,100.0,9
+487,#E9E5E0,#e7e9e0,99.2,3
+488,#60715D,#5d716e,100.0,7
+489,#222B3C,#22283c,100.0,9
+490,#EAE9E5,#e6eae5,99.2,5
+491,#979E9F,#979a9f,72.5,8
+492,#A79375,#96a775,62.2,4
+493,#242D3E,#242a3e,100.0,9
+494,#C0C1BC,#bcc1bd,91.1,5
+495,#DDDFDA,#dadfdc,33.1,6
+496,#DDD5D0,#ddd8d0,58.7,2
+497,#E7E3D9,#dee7d9,31.8,4
+498,#253A4C,#25324c,33.5,8
+499,#DEDBD4,#d8ded4,33.1,4
+500,#347267,#345672,46.7,8
+501,#2F4D70,#2f4370,63.6,8
+502,#E9EBE9,#e9ebeb,29.8,7
+503,#C3CAC2,#c2cac9,91.5,7
+504,#8D2231,#8d2231,61.8,1
+505,#232B3C,#23293c,72.7,9
+506,#E6E7E2,#e2e7e3,47.5,5
+507,#C0BFB9,#bac0b9,54.3,5
+508,#282B42,#282a42,72.7,9
+509,#E9EAE5,#e5eae6,99.2,5
+510,#B2B5AE,#aeb5b1,80.8,6
+511,#585B58,#585b5b,33.9,7
+512,#202020,#202020,100.0,13
+513,#E2948F,#e2948f,100.0,1
+514,#1D2D3A,#1d273a,100.0,8
+515,#2A2B27,#272b28,100.0,6
+516,#53513C,#3e533c,96.3,5
+517,#263434,#262d34,96.9,8
+518,#EFEEE9,#eaefe9,100.0,5
+519,#BDBEB9,#b9beba,90.7,5
+520,#5F686A,#5f636a,100.0,8
+521,#2C2C2C,#2c2c2c,96.7,13
+522,#2A3747,#2a3247,97.3,8
+523,#E9EAE5,#e5eae6,99.2,5
+524,#B9BBB5,#b5bbb7,67.1,6
+525,#5C6666,#5c6166,76.2,8
+526,#21211E,#1e211e,57.0,5
+527,#436484,#435884,71.7,8
+528,#1F303D,#1f293d,100.0,8
+529,#EDECE6,#e7ede6,52.9,5
+530,#B7BBB6,#b6bbba,53.7,7
+531,#666F71,#666a71,100.0,8
+532,#2D2D2D,#2d2d2d,94.2,13
+533,#2F3343,#2f3243,100.0,9
+534,#B8C9D8,#b8c3d8,58.3,8
+535,#017BA7,#0147a7,93.6,8
+536,#273C71,#273771,100.0,9
+537,#E7E5E4,#e7e5e4,49.8,2
+538,#36384E,#36374e,80.4,9
+539,#E9E8E4,#e5e9e4,47.7,5
+540,#B39F8C,#b3b18c,77.5,3
+541,#3B435B,#3b415b,72.9,9
+542,#ECEDE8,#e8ede9,98.1,5
+543,#AAB2AC,#aab0b2,58.7,8
+544,#464B4D,#46484d,94.8,8
+545,#1D1D1D,#1d1d1d,100.0,13
+546,#9D182C,#9d182c,100.0,1
+547,#821E33,#821e33,77.7,1
+548,#7E95B2,#7e8db2,87.0,8
+549,#214070,#213770,94.4,8
+550,#253545,#252f45,50.4,8
+551,#E8E8E8,#e8e8e8,58.7,13
+552,#B5B7B5,#b5b7b7,47.1,7
+553,#40474A,#40444a,99.8,8
+554,#292A2E,#29292e,100.0,9
+555,#B52136,#b52136,100.0,1
+556,#2D4173,#2d3c73,100.0,9
+557,#313449,#313349,100.0,9
+558,#E7E5E4,#e7e5e4,55.2,2
+559,#2A2E3F,#2a2d3f,100.0,9
+560,#EAEBDF,#dfebe0,92.6,5
+561,#B2B7BA,#b2b5ba,83.5,8
+562,#171717,#171717,100.0,13
+563,#9F6635,#9f9035,90.9,3
+564,#014A6C,#012c6c,100.0,8
+565,#15212D,#151d2d,64.0,8
+566,#DDDED9,#d9deda,61.8,5
+567,#E4E4E0,#e0e4e0,58.5,5
+568,#1E1F23,#1e1e23,84.1,9
+569,#EBECE7,#e7ece8,98.1,5
+570,#6B7A84,#6b7484,99.2,8
+571,#202022,#202022,100.0,9
+572,#705A5B,#705a5b,99.8,1
+573,#272927,#272929,84.3,7
+574,#8C4121,#8c4e21,70.0,2
+575,#D1D1CA,#cad1ca,68.2,5
+576,#BBA59B,#bba99b,99.2,2
+577,#F84F61,#f84f61,100.0,1
+578,#C37D3E,#c3b53e,100.0,3
+579,#253836,#252f38,99.2,8
+580,#7C625F,#7c625f,88.6,1
+581,#973E29,#974229,60.1,1
+582,#715959,#715959,77.7,1
+583,#A3222E,#a3222e,21.3,1
+584,#C4263A,#c4263a,45.5,1
+585,#87381E,#87401e,26.2,2
+586,#9FB3BF,#9fabbf,33.9,8
+587,#E7E8E3,#e3e8e4,99.8,5
+588,#CBCAC5,#c6cbc5,86.2,5
+589,#6D7C82,#6d7582,100.0,8
+590,#1F2025,#1f1f25,100.0,9
+591,#DDBDAC,#ddc6ac,100.0,2
+592,#EB474C,#eb474c,100.0,1
+593,#CD7E2E,#cbcd2e,70.7,3
+594,#7A7E52,#527e56,95.5,5
+595,#2C3E42,#2c3542,100.0,8
+596,#24394A,#24314a,100.0,8
+597,#D9DAD1,#d1dad2,75.2,5
+598,#292830,#292830,76.9,9
+599,#E2E2DC,#dce2dc,50.2,5
+600,#9F1731,#9f1731,76.9,1
+601,#0773B7,#0749b7,68.2,8
+602,#1D2E38,#1d2738,68.2,8
+603,#D8DAD3,#d3dad5,75.8,6
+604,#CCC5B5,#bfccb5,65.5,4
+605,#E8E9E4,#e4e9e5,49.4,5
+606,#E7E7E1,#e1e7e1,61.2,5
+607,#E4DECD,#d5e4cd,81.4,4
+608,#2C343F,#2c313f,33.5,8
+609,#602E27,#602e27,63.8,1
+610,#988879,#989679,79.8,3
+611,#4B452F,#364b2f,72.3,5
+612,#334F60,#334460,65.3,8
+613,#822B33,#822b33,100.0,1
+614,#3C2629,#3c2629,100.0,1
+615,#545D45,#455d4e,54.5,6
+616,#2A364A,#2a324a,100.0,9
+617,#746E67,#727467,100.0,3
+618,#304540,#303b45,100.0,8
+619,#282C3B,#282b3b,100.0,9
+620,#E7E8E1,#e1e8e2,99.8,5
+621,#C5CACD,#c5c8cd,89.0,8
+622,#3D4649,#3d4249,82.4,8
+623,#28282A,#28282a,99.2,9
+624,#C14533,#c14733,79.1,1
+625,#0276A4,#0245a4,68.8,8
+626,#2D3449,#2d3249,100.0,9
+627,#E1E2DC,#dce2dd,99.2,5
+628,#989A94,#949a96,75.0,6
+629,#20242D,#20232d,67.8,9
+630,#B1B4AD,#adb4b0,44.0,6
+631,#222222,#222222,100.0,13
+632,#581F25,#581f25,88.8,1
+633,#202028,#202028,100.0,9
+634,#B9B09E,#abb99e,99.6,4
+635,#1E2C52,#1e2952,87.0,9
+636,#F0F2ED,#edf2ef,82.6,6
+637,#838B87,#83888b,89.9,8
+638,#28282A,#28282a,100.0,9
+639,#B02A26,#b02a26,100.0,1
+640,#213348,#212d48,86.2,8
+641,#242128,#242128,100.0,10
+642,#E8E8E4,#e4e8e4,99.6,5
+643,#ADB4AC,#acb4b3,78.9,7
+644,#565F61,#565a61,96.9,8
+645,#232325,#232325,99.8,9
+646,#CA5B35,#ca6835,53.1,2
+647,#E8B773,#c7e873,100.0,4
+648,#454A36,#364a3b,81.0,6
+649,#304159,#303c59,53.9,8
+650,#24323F,#242d3f,84.3,8
+651,#E9EAE5,#e5eae6,97.5,5
+652,#A8AFA7,#a7afae,53.3,7
+653,#515B5B,#51565b,47.3,8
+654,#232423,#232424,76.9,7
+655,#E3A09E,#e3a09e,100.0,1
+656,#39575F,#39495f,99.0,8
+657,#3A6E9A,#3a5b9a,100.0,8
+658,#1F3038,#1f2938,100.0,8
+659,#EDEDE5,#e5ede5,99.2,5
+660,#878A86,#868a89,59.7,7
+661,#392526,#392526,100.0,1
+662,#3C3F29,#293f2c,100.0,5
+663,#222534,#222434,100.0,9
+664,#EDEDE8,#e8ede8,94.4,5
+665,#303344,#303244,100.0,9
+666,#EDEEE9,#e9eeea,98.3,5
+667,#252629,#252529,100.0,9
+668,#4C4732,#384c32,100.0,5
+669,#1E363A,#1e2a3a,100.0,8
+670,#735958,#735958,76.0,1
+671,#D6D5D0,#d1d6d0,96.7,5
+672,#283B54,#283554,51.4,8
+673,#E7E8E3,#e3e8e4,76.4,5
+674,#CCCCC6,#c6ccc6,99.8,5
+675,#1F2025,#1f1f25,100.0,9
+676,#F14F51,#f14f51,100.0,1
+677,#213235,#212a35,61.6,8
+678,#DDDDDD,#dddddd,100.0,13
+679,#565D62,#565a62,91.7,8
+680,#222327,#222227,98.8,9
+681,#DA231B,#da231b,100.0,1
+682,#53513A,#3c533a,61.0,5
+683,#1A3345,#1a2945,77.7,8
+684,#E8E8DF,#dfe8df,95.7,5
+685,#D96965,#d96965,100.0,1
+686,#5A6151,#516158,44.2,6
+687,#47566E,#47516e,92.4,8
+688,#2D3241,#2d3141,96.5,9
+689,#E9E9E3,#e3e9e3,99.2,5
+690,#B7B8B3,#b3b8b4,96.9,5
+691,#202020,#202020,100.0,13
+692,#636D63,#636d6d,99.8,7
+693,#E6E7E2,#e2e7e3,86.6,5
+694,#212836,#212636,87.4,9
+695,#EDEDE4,#e4ede4,51.7,5
+696,#BFC0BA,#bac0bb,99.8,5
+697,#1D1B1C,#1d1b1c,69.2,12
+698,#EFBACD,#efbacd,100.0,12
+699,#E0443B,#e0443b,66.7,1
+700,#F0D98D,#aaf08d,100.0,4
+701,#333B2C,#2c3b34,97.7,6
+702,#1C384E,#1c2d4e,91.9,8
+703,#1F2837,#1f2537,100.0,9
+704,#EDE9E2,#e8ede2,99.2,4
+705,#CBCDC8,#c8cdca,95.7,6
+706,#1F1E1B,#1c1f1b,100.0,5
+707,#E5663F,#e5713f,100.0,2
+708,#33937B,#336993,100.0,8
+709,#324964,#324164,62.8,8
+710,#202736,#202536,100.0,9
+711,#EBECE6,#e6ece7,45.0,5
+712,#17232C,#171e2c,52.3,8
+713,#202022,#202022,100.0,9
+714,#F44143,#f44143,72.7,1
+715,#B7B9B4,#b4b9b6,32.0,6
+716,#881A24,#881a24,97.5,1
+717,#931528,#931528,100.0,1
+718,#4F4B37,#3b4f37,92.8,5
+719,#243448,#242f48,84.9,8
+720,#EAE8D9,#dbead9,62.6,5
+721,#818C94,#818794,83.7,8
+722,#EBEBE3,#e3ebe3,99.2,5
+723,#929894,#929698,95.2,8
+724,#852933,#852933,93.2,1
+725,#3D5574,#3d4d74,95.5,8
+726,#1E252F,#1e222f,99.8,9
+727,#21211D,#1d211d,97.1,5
+728,#E5D2C4,#e5dcc4,77.3,2
+729,#E5E4E9,#e5e4e9,52.3,9
+730,#212128,#212128,75.8,9
+731,#E4E1D9,#dde4d9,82.6,4
+732,#E4B557,#9de457,98.3,4
+733,#27252D,#27252d,56.2,10
+734,#797C7D,#797a7d,23.1,9
+735,#E0D5BC,#cbe0bc,84.5,4
+736,#1E252F,#1e222f,87.8,9
+737,#ECECE6,#e6ece6,99.2,5
+738,#222222,#222222,100.0,13
+739,#BB153D,#bb153d,100.0,1
+740,#202731,#202431,100.0,9
+741,#EAEAE4,#e4eae4,99.2,5
+742,#222224,#222224,84.5,9
+743,#202731,#202431,100.0,9
+744,#CDCFC9,#c9cfcb,100.0,6
+745,#1D1D20,#1d1d20,100.0,9
+746,#4D4930,#344d30,99.2,5
+747,#64504F,#64504f,97.3,1
+748,#222222,#222222,100.0,13
+749,#212F38,#212938,100.0,8
+750,#EDECE8,#e9ede8,93.2,5
+751,#2B2B2B,#2b2b2b,100.0,13
+752,#B5C4CA,#b5bdca,99.6,8
+753,#457187,#455f87,100.0,8
+754,#202632,#202432,100.0,9
+755,#EDECE8,#e9ede8,81.4,5
+756,#23272D,#23252d,42.1,9
+757,#21221E,#1e221f,92.8,6
+758,#C56F75,#c56f75,100.0,1
+759,#C9BEAB,#bcc9ab,100.0,4
+760,#7D8973,#73897f,73.1,6
+761,#7C93A3,#7c8aa3,80.2,8
+762,#232A33,#232733,63.8,9
+763,#1E1E1A,#1a1e1a,98.8,5
+764,#6B372C,#6b392c,100.0,1
+765,#A79273,#96a773,88.4,4
+766,#423F2C,#2f422c,100.0,5
+767,#212A31,#212631,100.0,8
+768,#BA9850,#82ba50,100.0,4
+769,#4B6178,#4b5978,82.9,8
+770,#2B2728,#2b2728,61.6,1
+771,#C9AD94,#c9c394,89.5,3
+772,#777660,#617760,74.2,5
+773,#242831,#242731,100.0,9
+774,#292931,#292931,100.0,9
+775,#F2F2EB,#ebf2eb,84.7,5
+776,#212121,#212121,100.0,13
+777,#283F50,#283650,52.3,8
+778,#8CA1A5,#8c97a5,69.2,8
+779,#70898C,#707d8c,82.4,8
+780,#EBE7E3,#ebebe3,100.0,3
+781,#516E85,#516385,96.9,8
+782,#44556A,#444f6a,47.3,8
+783,#718C9F,#71829f,42.1,8
+784,#BEC5BD,#bdc5c4,95.2,7
+785,#738DA1,#7383a1,38.6,8
+786,#82A2B9,#8296b9,71.1,8
+787,#ECECE6,#e6ece6,89.9,5
+788,#272723,#232723,89.9,5
+789,#385968,#384b68,80.8,8
+790,#203547,#202d47,78.9,8
+791,#3E454F,#3e424f,73.8,9
+792,#E1E1DC,#dce1dc,63.6,5
+793,#262526,#262526,54.1,11
+794,#304049,#303949,99.8,8
+795,#383F45,#383c45,81.0,8
+796,#F0EFEA,#ebf0ea,100.0,5
+797,#272425,#272425,47.3,12
+798,#3B596C,#3b4d6c,100.0,8
+799,#434A50,#434750,67.6,8
+800,#2D2E32,#2d2d32,96.5,9
+801,#292D35,#292c35,54.5,9
+802,#3A353C,#3a353c,100.0,10
+803,#E7E6E0,#e1e7e0,76.0,5
+804,#4E6472,#4e5b72,60.3,8
+805,#405067,#404b67,75.2,8
+806,#233541,#232e41,95.2,8
+807,#261D1A,#261e1a,85.7,2
+808,#5E859B,#5e759b,100.0,8
+809,#385F7B,#38507b,100.0,8
+810,#242A36,#242836,99.8,9
+811,#232323,#232323,100.0,13
+812,#334F64,#334464,98.6,8
+813,#1E2432,#1e2232,100.0,9
+814,#ECECE7,#e7ece7,97.7,5
+815,#282824,#242824,100.0,5
+816,#CABFA8,#b8caa8,100.0,4
+817,#5F889B,#5f779b,100.0,8
+818,#809AA3,#808ea3,66.3,8
+819,#213949,#213049,86.0,8
+820,#32393E,#32363e,85.3,8
+821,#334E67,#334467,91.3,8
+822,#2C3D47,#2c3647,79.5,8
+823,#1A232A,#1a1f2a,100.0,8
+824,#4D5F70,#4d5870,55.6,8
+825,#303746,#303546,94.4,9
+826,#30333C,#30323c,97.9,9
+827,#5A7E97,#5a7097,99.4,8
+828,#2B3542,#2b3142,85.1,8
+829,#E6E7E2,#e2e7e3,100.0,5
+830,#A6B4B4,#a6adb4,84.7,8
+831,#4E7994,#4e6894,92.4,8
+832,#577383,#576883,84.9,8
+833,#E5EDEC,#e5e9ed,95.9,8
+834,#252721,#212723,95.0,6
+835,#729AB6,#728bb6,50.6,8
+836,#202E3B,#20293b,65.1,8
+837,#9EB4B8,#9ea9b8,99.8,8
+838,#416D88,#415c88,98.6,8
+839,#1D2228,#1d2028,99.8,8
+840,#2C5173,#2c4473,100.0,8
+841,#263548,#263048,57.2,8
+842,#22221E,#1e221e,100.0,5
+843,#E6E7E2,#e2e7e3,99.0,5
+844,#868E8F,#868a8f,96.1,8
+845,#262625,#252625,76.9,5
+846,#2D2A31,#2d2a31,100.0,10
+847,#828A8C,#82868c,97.7,8
+848,#2C2C2C,#2c2c2c,100.0,13
+849,#313237,#313137,99.4,9
+850,#31363A,#31343a,100.0,8
+851,#2C323F,#2c303f,100.0,9
+852,#B9A485,#a8b985,100.0,4
+853,#716E5E,#61715e,100.0,5
+854,#1A2B35,#1a2435,100.0,8
+855,#373D48,#373b48,64.9,9
+856,#9EA2A0,#9ea0a2,76.4,8
+857,#838C8B,#83878c,69.2,8
+858,#3A3F41,#3a3c41,93.8,8
+859,#252524,#242524,53.5,5
+860,#2E343E,#2e323e,91.7,9
+861,#C2A489,#c2bc89,95.9,3
+862,#616656,#56665b,97.9,6
+863,#E5E5DE,#dee5de,100.0,5
+864,#2B2F3A,#2b2e3a,93.6,9
+865,#798281,#797d82,66.3,8
+866,#33383B,#33363b,100.0,8
+867,#232524,#232425,34.9,8
+868,#23232B,#23232b,98.3,9
+869,#92999F,#92969f,100.0,8
+870,#E2E1DD,#dee2dd,78.7,5
+871,#2D313D,#2d303d,62.4,9
+872,#8092A0,#808ba0,100.0,8
+873,#2A2C26,#262c28,94.6,6
+874,#A99261,#82a961,51.0,4
+875,#75534A,#75554a,96.1,2
+876,#242528,#242428,95.2,9
+877,#AC9768,#86ac68,90.7,4
+878,#646143,#466443,72.1,5
+879,#1E2737,#1e2437,100.0,9
+880,#515A57,#51565a,74.0,8
+881,#1E1E1E,#1e1e1e,100.0,13
+882,#A19274,#8aa174,100.0,4
+883,#252F3B,#252b3b,99.2,8
+884,#272D3B,#272b3b,100.0,9
+885,#2A2A2A,#2a2a2a,100.0,13
+886,#272E38,#272b38,100.0,9
+887,#636C68,#63686c,86.8,8
+888,#363532,#333632,100.0,5
+889,#C2A77A,#a5c27a,100.0,4
+890,#596252,#52625b,58.7,6
+891,#7293AD,#7287ad,92.4,8
+892,#2A3040,#2a2e40,100.0,9
+893,#3F4549,#3f4249,50.2,8
+894,#B3B6AD,#adb6b0,51.0,6
+895,#506A81,#506081,64.3,8
+896,#445E73,#445473,84.7,8
+897,#B4BABC,#b4b7bc,87.8,8
+898,#384247,#383e47,84.5,8
+899,#252525,#252525,100.0,13
+900,#203342,#202c42,99.2,8
+901,#BCC4C6,#bcc0c6,92.1,8
+902,#3B4346,#3b3f46,88.2,8
+903,#1E201F,#1e1f20,77.7,8
+904,#273A49,#273349,100.0,8
+905,#2F3248,#2f3148,100.0,9
+906,#26272A,#26262a,98.3,9
+907,#C4A97D,#a8c47d,100.0,4
+908,#53604F,#4f605c,89.9,7
+909,#336A83,#335383,100.0,8
+910,#3D4864,#3d4564,97.7,9
+911,#E7E6E1,#e2e7e1,88.6,5
+912,#4C4C4C,#4c4c4c,94.8,13
+913,#252424,#252424,57.2,1
+914,#E98676,#e98876,99.8,1
+915,#D5B994,#c5d594,100.0,3
+916,#7A614A,#7a764a,76.7,3
+917,#616340,#406342,57.6,5
+918,#344957,#344157,71.7,8
+919,#302F37,#302f37,100.0,9
+920,#523338,#523338,84.5,1
+921,#B18B4A,#86b14a,99.6,4
+922,#46729B,#46629b,62.6,8
+923,#2B372D,#2b3537,93.6,7
+924,#4A433C,#4a4a3c,45.0,3
+925,#343E40,#343940,53.1,8
+926,#857A6F,#85856f,17.8,3
+927,#3D3425,#333d25,67.6,4
+928,#413E46,#413e46,35.7,10
+929,#566061,#565b61,100.0,8
+930,#DC817E,#dc817e,100.0,1
+931,#C5B6A1,#bac5a1,100.0,4
+932,#77856E,#6e857c,100.0,6
+933,#6F98B7,#6f89b7,100.0,8
+934,#2F3A4B,#2f364b,86.2,9
+935,#2F3557,#2f3457,64.3,9
+936,#E9E9E0,#e0e9e0,100.0,5
+937,#2E2F32,#2e2e32,78.5,9
+938,#AF5C36,#af6d36,95.5,2
+939,#7A785F,#617a5f,97.1,5
+940,#354D51,#354151,96.9,8
+941,#CACBC5,#c5cbc6,100.0,5
+942,#91999B,#91959b,64.7,8
+943,#242625,#242526,98.1,8
+944,#242739,#242639,100.0,9
+945,#E1E2DD,#dde2de,65.9,5
+946,#414340,#404342,100.0,6
+947,#2C2B28,#292c28,100.0,5
+948,#D4A8A7,#d4a8a7,100.0,1
+949,#A6494D,#a6494d,86.6,1
+950,#A0885D,#82a05d,100.0,4
+951,#BC9039,#7bbc39,100.0,4
+952,#667050,#50705a,97.3,6
+953,#527E98,#526d98,100.0,8
+954,#2B2F38,#2b2e38,65.9,9
+955,#384040,#383c40,100.0,8
+956,#2F3848,#2f3548,70.2,9
+957,#22241E,#1e2420,99.0,6
+958,#AE9669,#8dae69,52.3,4
+959,#222A24,#22282a,100.0,8
+960,#576E76,#576476,92.6,8
+961,#252721,#212723,95.0,6
+962,#64624C,#4e644c,37.6,5
+963,#1E2C37,#1e2637,100.0,8
+964,#2A2A2A,#2a2a2a,99.0,13
+965,#706E57,#597057,93.2,5
+966,#3C5458,#3c4858,71.3,8
+967,#437194,#436094,94.4,8
+968,#E0E0E0,#e0e0e0,100.0,13
+969,#E7D0D1,#e7d0d1,100.0,1
+970,#D8AC57,#99d857,100.0,4
+971,#0C5E79,#0c3a79,100.0,8
+972,#525047,#495247,95.0,5
+973,#1B202F,#1b1f2f,100.0,9
+974,#E1E1E1,#e1e1e1,100.0,13
+975,#F27A5A,#f2825a,100.0,2
+976,#DAAE54,#95da54,100.0,4
+977,#2A2A36,#2a2a36,88.6,9
+978,#E7E7E7,#e7e7e7,100.0,13
+979,#F8DEDF,#f8dedf,100.0,1
+980,#EF7A66,#ef7d66,73.1,1
+981,#F8EFDA,#e6f8da,85.7,4
+982,#D2E3D9,#d2dee3,100.0,8
+983,#D7DDF5,#d7dcf5,100.0,9
+984,#262631,#262631,51.7,9
+985,#ECECE7,#e7ece7,91.9,5
+986,#24242C,#24242c,100.0,9
+987,#CBCCC0,#c0ccc1,78.5,5
+988,#1E272E,#1e232e,50.8,8
+989,#E0D9C9,#d3e0c9,78.9,4
+990,#151516,#151516,31.6,9
+991,#B30C29,#b30c29,65.5,1
+992,#222836,#222636,100.0,9
+993,#202020,#202020,100.0,13
+994,#DE7C65,#de8165,100.0,1
+995,#CEB286,#b3ce86,100.0,4
+996,#2363A0,#234da0,97.9,8
+997,#ECEDEE,#ececee,36.0,9
+998,#EF6654,#ef6854,100.0,1
+999,#CA9D56,#9fca56,100.0,4
+1000,#0DA59D,#0d5ba5,100.0,8
+1001,#314867,#314167,100.0,8
+1002,#C0BFE9,#c0bfe9,100.0,9
+1003,#F4F4F6,#f4f4f6,35.1,9
+1004,#DAD6D5,#dad6d5,86.2,1
+1005,#FCDDE5,#fcdde5,100.0,12
+1006,#FA675E,#fa675e,100.0,1
+1007,#FD9B63,#fdbb63,100.0,2
+1008,#996723,#799923,56.4,4
+1009,#F5E9C9,#d9f5c9,100.0,4
+1010,#F7C562,#adf762,100.0,4
+1011,#C1E0D3,#c1d4e0,97.3,8
+1012,#756C5C,#6a755c,84.9,4
+1013,#D5DEEC,#d5dbec,100.0,8
+1014,#345199,#344a99,100.0,9
+1015,#292E40,#292d40,100.0,9
+1016,#E2D5E4,#e2d5e4,73.1,11
+1017,#CAC4C2,#cac4c2,96.9,2
+1018,#F4CD7D,#b7f47d,78.1,4
+1019,#BEC6C3,#bec2c6,40.7,8
+1020,#818289,#818189,29.5,9
+1021,#E8D1D0,#e8d1d0,47.3,1
+1022,#C7C5D4,#c7c5d4,45.0,9
+1023,#F5807E,#f5807e,100.0,1
+1024,#2B4367,#2b3c67,62.8,8
+1025,#EDEEE9,#e9eeea,98.1,5
+1026,#222D3C,#22293c,84.9,8
+1027,#ECEDE8,#e8ede9,98.8,5
+1028,#485F81,#485881,100.0,8
+1029,#242F42,#242c42,100.0,8
+1030,#EFEEE2,#e3efe2,90.5,5
+1031,#2D3C4F,#2d374f,99.4,8
+1032,#BBC0E2,#bbbfe2,100.0,9
+1033,#1F1E1C,#1d1f1c,54.8,4
+1034,#E7927B,#e7987b,100.0,2
+1035,#AAB7DB,#aab4db,99.8,9
+1036,#E7DFCB,#d6e7cb,99.4,4
+1037,#ECBEC4,#ecbec4,90.9,1
+1038,#D4CCB8,#c3d4b8,92.1,4
+1039,#E8B6BF,#e8b6bf,85.3,1
+1040,#F0ECE8,#f0f0e8,94.6,3
+1041,#916535,#899135,97.1,3
+1042,#222D40,#222a40,100.0,8
+1043,#F0ECE8,#f0f0e8,97.5,3
+1044,#FCE5B1,#d2fcb1,100.0,4
+1045,#2A4967,#2a3e67,61.6,8
+1046,#F2EDE7,#f0f2e7,100.0,3
+1047,#CB473B,#cb483b,100.0,1
+1048,#FCC65D,#aefc5d,100.0,4
+1049,#7D7D6B,#6b7d6b,100.0,5
+1050,#263145,#262e45,100.0,8
+1051,#EFF0ED,#edf0ee,31.4,6
+1052,#E49593,#e49593,99.8,1
+1053,#CC2B36,#cc2b36,89.3,1
+1054,#194DA1,#193ea1,24.0,8
+1055,#5A7EB7,#5a73b7,17.4,8
+1056,#4A66A0,#4a5fa0,31.6,9
+1057,#E9E4D9,#e0e9d9,83.5,4
+1058,#E79A87,#e79e87,90.3,1
+1059,#273244,#272e44,100.0,9
+1060,#F0F2EC,#ecf2ee,65.7,6
+1061,#D2C9B0,#bcd2b0,93.0,4
+1062,#212D44,#212944,100.0,9
+1063,#D9CBBD,#d9d9bd,100.0,3
+1064,#ABABB8,#ababb8,85.7,9
+1065,#242D4E,#242b4e,99.2,9
+1066,#E4DBC3,#cfe4c3,100.0,4
+1067,#22314E,#222d4e,99.8,9
+1068,#989796,#989896,30.0,3
+1069,#B7B9B7,#b7b9b9,35.3,7
+1070,#CF4B3F,#cf4c3f,100.0,1
+1071,#F0E1D1,#eef0d1,100.0,3
+1072,#8D845F,#6a8d5f,89.5,5
+1073,#BBBDC8,#bbbcc8,99.0,9
+1074,#34384C,#34374c,56.4,9
+1075,#F0EEEC,#f0f0ec,50.4,3
+1076,#BFC0BD,#bdc0be,66.7,6
+1077,#E7BBB9,#e7bbb9,59.3,1
+1078,#F3E9DD,#eff3dd,100.0,3
+1079,#FBE5B1,#d0fbb1,86.4,4
+1080,#877957,#6a8757,89.0,4
+1081,#B5BACB,#b5b9cb,98.6,9
+1082,#EDE7D2,#d9edd2,70.2,4
+1083,#3E445A,#3e425a,38.2,9
+1084,#E1DBC8,#cfe1c8,95.7,4
+1085,#BF554E,#bf554e,100.0,1
+1086,#23323E,#232c3e,80.8,8
+1087,#E3E2E1,#e3e3e1,49.6,3
+1088,#DF8C86,#df8c86,100.0,1
+1089,#4C6184,#4c5b84,40.9,8
+1090,#DD7F7B,#dd7f7b,100.0,1
+1091,#E8E8E2,#e2e8e2,38.0,5
+1092,#4E74A1,#4e68a1,29.3,8
+1093,#E9E9E4,#e4e9e4,84.7,5
+1094,#546B8E,#54648e,100.0,8
+1095,#3A495F,#3a445f,78.7,8
+1096,#E0D4B8,#c9e0b8,100.0,4
+1097,#DEA4AD,#dea4ad,90.7,1
+1098,#202735,#202535,58.5,9
+1099,#E1D1B5,#cee1b5,100.0,4
+1100,#CB7A62,#cb8162,100.0,2
+1101,#212735,#212535,100.0,9
+1102,#EBE5D4,#dcebd4,96.3,4
+1103,#B71F30,#b71f30,98.3,1
+1104,#212831,#212531,82.6,9
+1105,#EAE8D7,#d9ead7,93.2,5
+1106,#252724,#242726,96.3,6
+1107,#07354C,#07224c,63.4,8
+1108,#BCBCAF,#afbcaf,63.6,5
+1109,#E3D9C1,#cfe3c1,76.7,4
+1110,#1A222A,#1a1f2a,64.3,8
+1111,#B3B5B0,#b0b5b2,47.3,6
+1112,#E0DACA,#d2e0ca,82.4,4
+1113,#20252F,#20232f,64.9,9
+1114,#E6E6DC,#dce6dc,100.0,5
+1115,#C2C2B9,#b9c2b9,66.1,5
+1116,#E0B1A3,#e0b5a3,98.3,2
+1117,#243F59,#243559,57.2,8
+1118,#4A6192,#4a5b92,28.7,9
+1119,#EBEBE4,#e4ebe4,49.4,5
+1120,#BF2834,#bf2834,67.6,1
+1121,#3E5678,#3e4e78,100.0,8
+1122,#242B39,#242939,93.6,9
+1123,#EAE9E5,#e6eae5,96.9,5
+1124,#F6E0B1,#d1f6b1,99.4,4
+1125,#8E8E69,#698e69,40.1,5
+1126,#365678,#364b78,60.5,8
+1127,#BEA8A8,#bea8a8,38.8,1
+1128,#A3AABB,#a3a8bb,26.0,9
+1129,#5B616F,#5b5f6f,41.1,9
+1130,#BDBCC6,#bdbcc6,99.2,9
+1131,#DFCEBD,#dfdfbd,100.0,3
+1132,#1E1D2A,#1e1d2a,99.2,9
+1133,#DFA091,#dfa391,82.4,1
+1134,#CBDAE6,#cbd4e6,99.6,8
+1135,#C6C1CE,#c6c1ce,94.2,10
+1136,#EFDEE9,#efdee9,100.0,12
+1137,#DDE2E0,#dde0e2,76.7,8
+1138,#CCCFDD,#cccedd,86.8,9
+1139,#E7E7E7,#e7e7e7,100.0,13
+1140,#31302E,#2f312e,65.9,4
+1141,#F4C670,#b6f470,100.0,4
+1142,#ABC4D9,#abbbd9,67.6,8
+1143,#EFEFED,#edefed,51.9,5
+1144,#F6CA2B,#63f62b,100.0,4
+1145,#2F6553,#2f4f65,96.7,8
+1146,#2F354E,#2f344e,98.6,9
+1147,#E4E3E2,#e4e4e2,43.2,3
+1148,#38383B,#38383b,42.4,9
+1149,#FE706C,#fe706c,100.0,1
+1150,#797C72,#727c75,99.2,6
+1151,#EAEBE6,#e6ebe7,90.5,5
+1152,#1E1E1A,#1a1e1a,98.3,5
+1153,#E8DC9A,#a8e89a,54.1,5
+1154,#ACBADE,#acb6de,72.1,9
+1155,#252B37,#252937,99.6,9
+1156,#D8D8CA,#cad8ca,72.5,5
+1157,#212934,#212634,83.7,8
+1158,#EDEEE9,#e9eeea,71.7,5
+1159,#B8C5DA,#b8c1da,97.7,8
+1160,#F0F1ED,#edf1ee,93.6,6
+1161,#CDDFF6,#cdd9f6,47.9,8
+1162,#F3F4EF,#eff4f0,99.0,5
+1163,#CADBF2,#cad5f2,34.3,8
+1164,#F0F0EB,#ebf0eb,99.2,5
+1165,#E4E1D9,#dde4d9,78.9,4
+1166,#C7B0AB,#c7b1ab,35.1,1
+1167,#ABB7BD,#abb2bd,34.7,8
+1168,#222A3D,#22283d,100.0,9
+1169,#ECEDE8,#e8ede9,99.2,5
+1170,#252523,#232523,65.5,5
+1171,#C6CCAD,#adccb3,77.3,5
+1172,#8DA2D3,#8d9dd3,51.7,9
+1173,#262E40,#262c40,100.0,9
+1174,#E9C4BD,#e9c5bd,100.0,1
+1175,#B2BFD4,#b2bbd4,29.5,8
+1176,#1F2D3F,#1f283f,47.1,8
+1177,#F2F1ED,#eef2ed,89.7,5
+1178,#B8C6D9,#b8c1d9,95.0,8
+1179,#EDE9DF,#e4eddf,65.9,4
+1180,#E2BBA8,#e2c4a8,65.9,2
+1181,#CD2138,#cd2138,100.0,1
+1182,#1F3044,#1f2a44,67.1,8
+1183,#ECE6D6,#deecd6,99.2,4
+1184,#1E1F23,#1e1e23,93.0,9
+1185,#E28975,#e28d75,84.9,1
+1186,#C29D41,#74c241,100.0,4
+1187,#E8E1CF,#d8e8cf,100.0,4
+1188,#26272C,#26262c,72.9,9
+1189,#C7B28A,#aac78a,100.0,4
+1190,#E19775,#e1a675,100.0,2
+1191,#CEB78E,#b1ce8e,100.0,4
+1192,#334152,#333c52,84.9,8
+1193,#E7E6E5,#e7e7e5,60.1,3
+1194,#D4BFA7,#ced4a7,100.0,3
+1195,#297A75,#29527a,100.0,8
+1196,#353441,#353441,79.1,9
+1197,#F6F6F1,#f1f6f1,77.9,5
+1198,#2E3337,#2e3137,100.0,8
+1199,#E46A69,#e46a69,100.0,1
+1200,#F0F0F4,#f0f0f4,69.4,9
+1201,#3C3F71,#3c3e71,100.0,9
+1202,#EABE75,#bbea75,53.5,4
+1203,#7292E6,#728be6,45.5,9
+1204,#EEEDEF,#eeedef,51.0,10
+1205,#F1ECEA,#f1ecea,100.0,2
+1206,#B99149,#87b949,100.0,4
+1207,#C5CEFA,#c5ccfa,100.0,9
+1208,#262535,#262535,100.0,9
+1209,#E6E6E4,#e4e6e4,30.8,5
+1210,#FBAB90,#fbb490,100.0,2
+1211,#FDECCE,#e8fdce,100.0,4
+1212,#CECBE1,#cecbe1,100.0,9
+1213,#34323F,#34323f,100.0,9
+1214,#E9E9E9,#e9e9e9,100.0,13
+1215,#F6E3C3,#e1f6c3,100.0,4
+1216,#2D2C35,#2d2c35,95.9,9
+1217,#EBEBED,#ebebed,85.1,9
+1218,#E0E0EC,#e0e0ec,100.0,9
+1219,#2D2B35,#2d2b35,68.8,9
+1220,#EFEFED,#edefed,62.8,5
+1221,#FED1C7,#fed3c7,99.8,1
+1222,#CCC8E0,#ccc8e0,100.0,9
+1223,#2D2C32,#2d2c32,100.0,9
+1224,#E7E7E9,#e7e7e9,83.9,9
+1225,#C8C8E0,#c8c8e0,100.0,9
+1226,#2C2830,#2c2830,100.0,10
+1227,#E6DFC5,#cde6c5,92.8,5
+1228,#D0D5F1,#d0d4f1,100.0,9
+1229,#E4E4E4,#e4e4e4,100.0,13
+1230,#212121,#212121,100.0,13
+1231,#EFD9D3,#efdad3,100.0,2
+1232,#757B6C,#6c7b72,99.4,6
+1233,#E9E9E9,#e9e9e9,100.0,13
+1234,#CE0241,#ce0241,100.0,12
+1235,#DB8671,#db8b71,100.0,1
+1236,#D1E6F3,#d1ddf3,100.0,8
+1237,#252A38,#252838,100.0,9
+1238,#EBEBEB,#ebebeb,100.0,13
+1239,#313131,#313131,100.0,13
+1240,#E9EAE6,#e6eae7,96.5,6
+1241,#E6E7E4,#e4e7e5,91.1,6
+1242,#1D1E22,#1d1d22,73.6,9
+1243,#E9E9DF,#dfe9df,100.0,5
+1244,#DBD3C2,#cddbc2,92.8,4
+1245,#131315,#131315,36.4,9
+1246,#E8E8E8,#e8e8e8,100.0,13
+1247,#F3E3ED,#f3e3ed,75.0,12
+1248,#FBD5C9,#fbd8c9,100.0,2
+1249,#F9EFCF,#dcf9cf,94.8,4
+1250,#D1DFF1,#d1daf1,99.8,8
+1251,#29282E,#29282e,100.0,9
+1252,#EADADB,#eadadb,100.0,1
+1253,#B9CFE2,#b9c7e2,86.4,8
+1254,#1C262D,#1c222d,86.6,8
+1255,#C5B8D6,#c5b8d6,100.0,10
+1256,#C5D5EC,#c5d0ec,100.0,8
+1257,#CAD9F3,#cad4f3,100.0,9
+1258,#1B2D40,#1b2740,66.5,8
+1259,#19344E,#192a4e,33.3,8
+1260,#233246,#232d46,75.0,8
+1261,#D3E1E7,#d3dbe7,100.0,8
+1262,#B0C1D9,#b0bcd9,100.0,8
+1263,#576C89,#576589,99.4,8
+1264,#474D5B,#474b5b,47.5,9
+1265,#C58A82,#c58b82,34.9,1
+1266,#CBC2BB,#cbc7bb,59.5,3
+1267,#1C1E1D,#1c1d1e,43.0,8
+1268,#D8CCBD,#d2d8bd,63.6,3
+1269,#302423,#302423,63.4,1
+1270,#EDEEE9,#e9eeea,97.3,5
+1271,#D9D9D1,#d1d9d1,97.7,5
+1272,#20211D,#1d211e,85.1,6
+1273,#EA5556,#ea5556,100.0,1
+1274,#F0A294,#f0a494,95.9,1
+1275,#ECDEAB,#bcecab,72.9,4
+1276,#04495D,#042a5d,91.7,8
+1277,#675E3C,#47673c,60.1,4
+1278,#27272F,#27272f,100.0,9
+1279,#D0AFC0,#d0afc0,90.5,12
+1280,#CFD0C5,#c5d0c6,64.7,5
+1281,#2F2D28,#2a2f28,41.9,4
+1282,#E1D4BC,#d0e1bc,80.0,4
+1283,#EEEFEA,#eaefeb,99.2,5
+1284,#B4BBB4,#b4bbbb,87.6,7
+1285,#272926,#262928,97.1,6
+1286,#E84755,#e84755,100.0,1
+1287,#B38153,#b3ab53,51.4,3
+1288,#84A3B6,#8497b6,81.8,8
+1289,#272B36,#272a36,75.8,9
+1290,#7C8388,#7c8088,95.0,8
+1291,#E44B31,#e44f31,100.0,1
+1292,#145A98,#144198,99.2,8
+1293,#2B2932,#2b2932,58.1,9
+1294,#E3E3D4,#d4e3d4,100.0,5
+1295,#C4A5A1,#c4a5a1,90.5,1
+1296,#414F70,#414b70,97.3,9
+1297,#1E2637,#1e2437,100.0,9
+1298,#D6D7D1,#d1d7d2,100.0,5
+1299,#272723,#232723,98.6,5
+1300,#DA8225,#d0da25,97.5,3
+1301,#01415D,#01265d,100.0,8
+1302,#7E7272,#7e7272,100.0,1
+1303,#E9EAE6,#e6eae7,98.1,6
+1304,#CFD0CA,#cad0cb,100.0,5
+1305,#21201C,#1d211c,100.0,5
+1306,#F9C8DE,#f9c8de,100.0,12
+1307,#D92C38,#d92c38,100.0,1
+1308,#D7CAB2,#c6d7b2,100.0,4
+1309,#586F5F,#58696f,100.0,8
+1310,#253545,#252f45,68.6,8
+1311,#EFEFE8,#e8efe8,42.6,5
+1312,#EBCFBB,#ebddbb,50.0,2
+1313,#EAE6C8,#cceac8,50.0,5
+1314,#EACAB6,#ead6b6,49.8,2
+1315,#03486F,#032d6f,50.0,8
+1316,#E2E0D0,#d2e2d0,57.6,5
+1317,#1B1B1B,#1b1b1b,100.0,13
+1318,#BE2F2A,#be2f2a,84.9,1
+1319,#BCA487,#b2bc87,53.1,3
+1320,#95553D,#955e3d,97.3,2
+1321,#BED3BF,#bed2d3,100.0,7
+1322,#232A36,#232836,100.0,8
+1323,#E8EAE7,#e7eae9,90.7,6
+1324,#B4B5AD,#adb5ae,92.4,5
+1325,#222222,#222222,85.3,13
+1326,#DF6E6F,#df6e6f,100.0,1
+1327,#E0E3E0,#e0e3e3,76.7,7
+1328,#1D1D1C,#1c1d1c,55.8,5
+1329,#E6E6E6,#e6e6e6,100.0,13
+1330,#2D2825,#2d2925,100.0,2
+1331,#DE5125,#de5e25,100.0,2
+1332,#2A387F,#2a367f,100.0,9
+1333,#EEEEEA,#eaeeea,99.0,5
+1334,#C8CCC7,#c7cccb,52.5,7
+1335,#1E1E1E,#1e1e1e,100.0,13
+1336,#E7CBB5,#e7dcb5,100.0,3
+1337,#BD234B,#bd234b,100.0,12
+1338,#615432,#436132,100.0,4
+1339,#23284E,#23274e,100.0,9
+1340,#EEEFEA,#eaefeb,98.3,5
+1341,#DAD9D4,#d5dad4,100.0,5
+1342,#B7BEC1,#b7bbc1,97.7,8
+1343,#262825,#252827,100.0,6
+1344,#DDB8A8,#ddbea8,73.6,2
+1345,#CD7E67,#cd8467,100.0,2
+1346,#CF7131,#cf9c31,71.1,2
+1347,#E6DAAD,#bce6ad,55.8,4
+1348,#065E44,#06395e,100.0,8
+1349,#014568,#012968,100.0,8
+1350,#807474,#807474,100.0,1
+1351,#CEC7B8,#c2ceb8,82.4,4
+1352,#13141A,#13131a,37.0,9
+1353,#08462B,#082f46,50.4,8
+1354,#142936,#142036,61.8,8
+1355,#B90B20,#b90b20,37.4,1
+1356,#365281,#364a81,77.7,8
+1357,#182128,#181d28,76.7,8
+1358,#252726,#252627,95.5,8
+1359,#EEEFEB,#ebefec,92.1,6
+1360,#B2B6AC,#acb6b0,47.9,6
+1361,#1F1F1F,#1f1f1f,99.2,13
+1362,#C7251F,#c7251f,100.0,1
+1363,#C3DFE3,#c3d1e3,100.0,8
+1364,#2A2D3C,#2a2c3c,100.0,9
+1365,#F0EFEE,#f0f0ee,43.0,3
+1366,#282327,#282327,65.5,11
+1367,#EFF0EB,#ebf0ec,91.5,5
+1368,#B4BAB7,#b4b8ba,61.0,8
+1369,#201F1B,#1c201b,100.0,5
+1370,#B50E47,#b50e47,95.9,12
+1371,#C19E7E,#c1bb7e,80.4,3
+1372,#1C3D80,#1c3480,77.5,9
+1373,#242A38,#242838,100.0,9
+1374,#E9EBE5,#e5ebe7,81.2,6
+1375,#D8D8D2,#d2d8d2,64.9,5
+1376,#252520,#202520,100.0,5
+1377,#F9C2BE,#f9c2be,95.9,1
+1378,#F4EB94,#9df494,100.0,5
+1379,#C7D5C8,#c7d4d5,100.0,7
+1380,#6D5E38,#4c6d38,100.0,4
+1381,#2E2F39,#2e2e39,70.9,9
+1382,#E9EAE5,#e5eae6,99.2,5
+1383,#D2D4CE,#ced4d0,97.9,6
+1384,#282722,#232822,100.0,5
+1385,#E9C6BA,#e9caba,100.0,2
+1386,#E94B45,#e94b45,100.0,1
+1387,#E6E2B9,#bde6b9,100.0,5
+1388,#8E8057,#698e57,100.0,4
+1389,#435D75,#435475,100.0,8
+1390,#EAEDE6,#e6ede9,90.7,6
+1391,#CCCDC7,#c7cdc8,100.0,5
+1392,#252621,#212622,100.0,5
+1393,#F5BCB5,#f5bcb5,54.3,1
+1394,#E6585B,#e6585b,100.0,1
+1395,#F5DC81,#a0f581,100.0,4
+1396,#02523F,#022f52,51.4,8
+1397,#2A303E,#2a2e3e,100.0,9
+1398,#C2C2C0,#c0c2c0,83.5,5
+1399,#212120,#202120,52.9,5
+1400,#58523D,#44583d,81.0,4
+1401,#BFD0E2,#bfcae2,89.7,8
+1402,#302A34,#302a34,100.0,10
+1403,#DEDFDB,#dbdfdc,99.0,6
+1404,#242529,#242429,65.7,9
+1405,#E76E76,#e76e76,100.0,1
+1406,#DAE4DF,#dae0e4,52.9,8
+1407,#EC6D77,#ec6d77,53.3,1
+1408,#EBECE6,#e6ece7,97.9,5
+1409,#EECFC5,#eed2c5,100.0,2
+1410,#1E2E3C,#1e283c,52.5,8
+1411,#DAD8E7,#dad8e7,97.7,9
+1412,#EAEBE6,#e6ebe7,75.2,5
+1413,#305581,#304981,100.0,8
+1414,#B6BCBC,#b6b9bc,88.4,8
+1415,#222326,#222226,100.0,9
+1416,#7EB1B3,#7e97b3,33.9,8
+1417,#21233C,#21223c,100.0,9
+1418,#ECEDE8,#e8ede9,97.5,5
+1419,#7D8586,#7d8186,80.8,8
+1420,#BD3657,#bd3657,100.0,1
+1421,#D3D07E,#81d37e,98.3,5
+1422,#265B8D,#26488d,87.0,8
+1423,#30343F,#30333f,57.6,9
+1424,#EBEAE5,#e6ebe5,81.4,5
+1425,#949C98,#94999c,75.4,8
+1426,#D43D69,#d43d69,100.0,12
+1427,#242A38,#242838,100.0,9
+1428,#B2AC9F,#a7b29f,100.0,4
+1429,#5E6769,#5e6269,71.9,8
+1430,#222423,#222324,100.0,8
+1431,#D05766,#d05766,100.0,1
+1432,#1F282F,#1f242f,92.4,8
+1433,#717B76,#71777b,92.6,8
+1434,#222524,#222325,76.0,8
+1435,#232831,#232631,74.2,9
+1436,#575F62,#575b62,51.2,8
+1437,#212020,#212020,83.9,1
+1438,#3C442C,#2c4434,100.0,6
+1439,#212530,#212430,100.0,9
+1440,#909995,#909599,70.5,8
+1441,#2F3033,#2f2f33,55.6,9
+1442,#464B2F,#2f4b34,100.0,5
+1443,#2C2F3D,#2c2e3d,88.6,9
+1444,#E8E8DF,#dfe8df,100.0,5
+1445,#AAB2B4,#aaaeb4,76.4,8
+1446,#394244,#393d44,94.8,8
+1447,#242424,#242424,100.0,13
+1448,#19283D,#19233d,100.0,8
+1449,#E8E8E1,#e1e8e1,99.8,5
+1450,#474D50,#474a50,64.9,8
+1451,#232323,#232323,100.0,13
+1452,#3868A4,#3859a4,98.6,8
+1453,#B8A7D2,#b8a7d2,100.0,10
+1454,#E8EAE4,#e4eae6,89.5,6
+1455,#C0C1BC,#bcc1bd,88.4,5
+1456,#24252A,#24242a,78.5,9
+1457,#ABBFB3,#abb9bf,100.0,8
+1458,#BFB2CC,#bfb2cc,100.0,10
+1459,#EDEDDB,#dbeddb,89.7,5
+1460,#292929,#292929,100.0,13
+1461,#E2BEB1,#e2c2b1,100.0,2
+1462,#2A3E70,#2a3970,100.0,9
+1463,#E9E6DC,#dfe9dc,92.4,5
+1464,#B3B6B2,#b2b6b5,47.9,7
+1465,#1E1E1E,#1e1e1e,99.8,13
+1466,#DDB7AA,#ddbbaa,93.6,2
+1467,#CFB085,#bacf85,100.0,4
+1468,#EBECE8,#e8ece9,99.2,6
+1469,#B9BEBB,#b9bcbe,47.1,8
+1470,#292929,#292929,100.0,13
+1471,#F39B87,#f39f87,98.8,1
+1472,#8F7759,#848f59,97.5,3
+1473,#6890B4,#6882b4,51.4,8
+1474,#2C2F3E,#2c2e3e,100.0,9
+1475,#EAEBE7,#e7ebe8,94.0,6
+1476,#272727,#272727,95.9,13
+1477,#D6686B,#d6686b,100.0,1
+1478,#273A4B,#27334b,97.5,8
+1479,#F0F1EC,#ecf1ed,86.4,5
+1480,#292A2E,#29292e,72.7,9
+1481,#AAC8C0,#aabbc8,98.8,8
+1482,#263441,#262f41,66.7,8
+1483,#E6D9C8,#dee6c8,100.0,4
+1484,#1D1D1D,#1d1d1d,100.0,13
+1485,#DBBB6B,#97db6b,100.0,4
+1486,#4581C5,#456dc5,100.0,8
+1487,#EDEADF,#e2eddf,86.4,5
+1488,#BBBDB8,#b8bdba,35.7,6
+1489,#CEB6A3,#cec5a3,99.8,3
+1490,#E15D69,#e15d69,100.0,1
+1491,#957C36,#579536,98.3,4
+1492,#1F313F,#1f2a3f,100.0,8
+1493,#E3E3DC,#dce3dc,72.7,5
+1494,#A8BCB0,#a8b6bc,95.9,8
+1495,#293443,#293043,51.7,8
+1496,#E6E5DB,#dce6db,57.6,5
+1497,#E9E9DC,#dce9dc,39.7,5
+1498,#242227,#242227,63.8,10
+1499,#444C4F,#44484f,50.8,8
+1500,#ECEDE9,#e9edea,96.7,6
+1501,#BFC6C7,#bfc2c7,41.5,8
+1502,#292929,#292929,92.1,13
+1503,#F3D9E6,#f3d9e6,92.8,12
+1504,#737F73,#737f7f,100.0,7
+1505,#5A7C9D,#5a709d,71.7,8
+1506,#282E3C,#282c3c,100.0,9
+1507,#E9EAE5,#e5eae6,78.9,5
+1508,#B2B7B8,#b2b4b8,77.3,8
+1509,#272727,#272727,86.2,13
+1510,#E6C6D3,#e6c6d3,98.1,12
+1511,#E9E1B8,#c1e9b8,93.4,5
+1512,#697366,#667370,100.0,7
+1513,#B0B5D2,#b0b4d2,100.0,9
+1514,#313444,#313344,99.6,9
+1515,#EDEDE0,#e0ede0,64.3,5
+1516,#AFB8B1,#afb6b8,58.9,7
+1517,#22211E,#1f221e,100.0,5
+1518,#CE7762,#ce7c62,97.7,1
+1519,#75A0BB,#758fbb,76.2,8
+1520,#202734,#202534,100.0,9
+1521,#EBEBE3,#e3ebe3,99.2,5
+1522,#B3B4AE,#aeb4af,60.5,5
+1523,#20201C,#1c201c,95.5,5
+1524,#D07663,#d07a63,93.8,1
+1525,#6599B9,#6585b9,92.6,8
+1526,#2A2A34,#2a2a34,100.0,9
+1527,#EAEAE3,#e3eae3,99.4,5
+1528,#AEB4AE,#aeb4b4,67.8,7
+1529,#24231F,#20241f,100.0,5
+1530,#E38B79,#e38e79,80.0,1
+1531,#EEE3A5,#b1eea5,80.4,5
+1532,#74A3BD,#7490bd,100.0,8
+1533,#175C79,#173f79,99.6,8
+1534,#242A38,#242838,100.0,9
+1535,#B4B5DE,#b4b4de,100.0,9
+1536,#9E2568,#9e2568,78.1,12
+1537,#EAEAE1,#e1eae1,100.0,5
+1538,#A1A6A0,#a0a6a5,30.2,7
+1539,#1C1C1B,#1b1c1b,74.4,5
+1540,#D75960,#d75960,100.0,1
+1541,#B49778,#b0b478,64.0,3
+1542,#5D8CAD,#5d7aad,71.5,8
+1543,#025A7B,#02347b,100.0,8
+1544,#1F2434,#1f2334,100.0,9
+1545,#D9C8A9,#c3d9a9,23.3,4
+1546,#25272E,#25262e,27.3,9
+1547,#E9E9E4,#e4e9e4,72.1,5
+1548,#DFCBB0,#d2dfb0,62.0,4
+1549,#202937,#202637,41.3,8
+1550,#EEEEE0,#e0eee0,94.4,5
+1551,#A01834,#a01834,96.1,1
+1552,#1D2330,#1d2130,100.0,9
+1553,#E9E8D7,#d8e9d7,94.8,5
+1554,#8A1329,#8a1329,100.0,1
+1555,#EAE7D6,#d9ead6,57.4,5
+1556,#1E211F,#1e2021,85.1,8
+1557,#DFB59D,#dfc29d,99.8,2
+1558,#BF102F,#bf102f,100.0,1
+1559,#162E40,#162540,97.5,8
+1560,#E6E0D1,#d9e6d1,95.9,4
+1561,#1E201F,#1e1f20,100.0,8
+1562,#045D8E,#043a8e,89.7,8
+1563,#F2EFE2,#e5f2e2,55.4,5
+1564,#959792,#929794,69.6,6
+1565,#4575C6,#4567c6,81.6,8
+1566,#1C2230,#1c2030,100.0,9
+1567,#B2B3AF,#afb3b0,73.8,6
+1568,#DA6167,#da6167,100.0,1
+1569,#ECE8DF,#e4ecdf,52.5,4
+1570,#E8AD9E,#e8b09e,97.7,1
+1571,#E9E9DE,#dee9de,68.0,5
+1572,#201F27,#201f27,100.0,9
+1573,#E7E7E1,#e1e7e1,87.0,5
+1574,#DBDCD6,#d6dcd7,94.4,5
+1575,#252528,#252528,54.8,9
+1576,#ECECE3,#e3ece3,99.4,5
+1577,#D6D7D1,#d1d7d2,96.1,5
+1578,#222423,#222324,88.4,8
+1579,#E14320,#e14a20,74.2,1
+1580,#272941,#272841,100.0,9
+1581,#ECE8D7,#dbecd7,98.6,5
+1582,#1D1E19,#191e1a,95.0,5
+1583,#C24122,#c24822,100.0,1
+1584,#393E2A,#2a3e2f,100.0,6
+1585,#2A6A7B,#2a4d7b,82.0,8
+1586,#D0D3CC,#ccd3cf,53.3,6
+1587,#20221F,#1f2221,73.3,6
+1588,#E8CB98,#c5e898,86.4,4
+1589,#152F3F,#15253f,94.4,8
+1590,#E9E9E2,#e2e9e2,99.4,5
+1591,#C5C7C5,#c5c7c7,45.9,7
+1592,#1A1A1A,#1a1a1a,96.5,13
+1593,#A0A3D1,#a0a2d1,65.9,9
+1594,#EBECE3,#e3ece4,99.2,5
+1595,#C5C6C3,#c3c6c4,72.1,6
+1596,#CA7461,#ca7861,86.8,1
+1597,#191E2E,#191d2e,100.0,9
+1598,#ABAFDA,#abaeda,95.7,9
+1599,#232323,#232323,100.0,13
+1600,#DE9948,#c7de48,100.0,3
+1601,#3D3F31,#313f33,92.4,5
+1602,#C23E27,#c24227,91.1,1
+1603,#B49F84,#a9b484,86.0,3
+1604,#242A37,#242837,100.0,9
+1605,#CBCEC7,#c7ceca,87.8,6
+1606,#ECD09E,#c9ec9e,91.3,4
+1607,#1A2D43,#1a2643,79.3,8
+1608,#EAEAE3,#e3eae3,69.2,5
+1609,#EAC7BE,#eac9be,79.1,2
+1610,#183272,#182c72,67.6,9
+1611,#24242C,#24242c,82.4,9
+1612,#D6C8AE,#c3d6ae,66.5,4
+1613,#BFA176,#a8bf76,60.3,4
+1614,#1E1F26,#1e1e26,85.1,9
+1615,#E6E1D0,#d6e6d0,95.5,4
+1616,#262827,#262728,84.1,8
+1617,#C2032E,#c2032e,100.0,1
+1618,#EBEBE4,#e4ebe4,99.4,5
+1619,#DD3C26,#dd3f26,100.0,1
+1620,#78B7AE,#7899b7,96.7,8
+1621,#222F50,#222c50,96.5,9
+1622,#212735,#212535,100.0,9
+1623,#ECEBE6,#e7ece6,91.9,5
+1624,#DC3D27,#dc4027,100.0,1
+1625,#273657,#273257,53.9,9
+1626,#222834,#222634,100.0,9
+1627,#E8E8E3,#e3e8e3,83.5,5
+1628,#1E1E1E,#1e1e1e,100.0,13
+1629,#7DBDB4,#7d9fbd,100.0,8
+1630,#243051,#242d51,94.4,9
+1631,#E5DFCE,#d6e5ce,98.8,4
+1632,#9C9E9A,#9a9e9c,44.2,6
+1633,#BA866A,#ba956a,93.8,2
+1634,#80817D,#7d817e,52.7,6
+1635,#DDDAD0,#d3ddd0,64.5,5
+1636,#18273A,#18223a,83.9,8
+1637,#72A1C3,#728fc3,27.1,8
+1638,#D11135,#d11135,28.5,1
+1639,#EEEEE8,#e8eee8,56.6,5
+1640,#980E20,#980e20,66.1,1
+1641,#151F2C,#151b2c,59.1,8
+1642,#E4DECA,#d1e4ca,50.0,4
+1643,#1A222E,#1a1f2e,50.0,9
+1644,#EDEDE3,#e3ede3,81.6,5
+1645,#C5CEC7,#c5ccce,100.0,7
+1646,#282827,#272827,62.0,5
+1647,#E9C9B4,#e9d6b4,64.0,2
+1648,#EECC7B,#abee7b,100.0,4
+1649,#EDEDE5,#e5ede5,99.8,5
+1650,#1D1D1D,#1d1d1d,69.6,13
+1651,#E7CAB5,#e7d9b5,65.1,2
+1652,#EACD82,#aaea82,100.0,4
+1653,#EBDDCA,#e2ebca,82.2,4
+1654,#162937,#162237,53.3,8
+1655,#212628,#212328,42.8,8
+1656,#DAA155,#b8da55,32.4,4
+1657,#282725,#262825,98.1,4
+1658,#ACBBCC,#acb6cc,51.7,8
+1659,#51627C,#515d7c,98.3,8
+1660,#525F83,#525c83,99.8,9
+1661,#3A3331,#3a3331,100.0,1
+1662,#A29C9D,#a29c9d,59.1,1
+1663,#4D5B77,#4d5777,87.0,9
+1664,#B5C7CC,#b5bfcc,100.0,8
+1665,#B8C8CC,#b8c0cc,100.0,8
+1666,#CAD3DA,#cacfda,95.2,8
+1667,#D7DAD7,#d7dada,56.6,7
+1668,#A2B0BD,#a2abbd,50.4,8
+1669,#272426,#272426,76.7,12
+1670,#282425,#282425,57.6,1
+1671,#ACBECE,#acb7ce,84.9,8
+1672,#37466D,#37426d,90.3,9
+1673,#2B293B,#2b293b,89.9,9
+1674,#4E4647,#4e4647,79.8,1
+1675,#DEDEE0,#dedee0,76.4,9
+1676,#353436,#353436,93.8,10
+1677,#8C9AB4,#8c96b4,46.7,9
+1678,#232537,#232437,100.0,9
+1679,#27272F,#27272f,100.0,9
+1680,#ECEDE9,#e9edea,79.1,6
+1681,#232429,#232329,70.2,9
+1682,#252932,#252832,75.6,9
+1683,#617DA4,#6174a4,61.4,8
+1684,#E9EAE5,#e5eae6,75.6,5
+1685,#2E2E2B,#2b2e2b,87.8,5
+1686,#5E7AA2,#5e71a2,69.8,8
+1687,#4E6083,#4e5b83,98.8,9
+1688,#403E4A,#403e4a,88.2,9
+1689,#FDE9E2,#fdebe2,100.0,2
+1690,#FAF1D5,#e0fad5,98.6,4
+1691,#9A9782,#859a82,69.2,5
+1692,#D4D6E1,#d4d5e1,97.9,9
+1693,#E4E4E4,#e4e4e4,100.0,13
+1694,#333136,#333136,89.7,10
+1695,#7789B3,#7784b3,67.8,9
+1696,#515265,#515165,43.4,9
+1697,#413F4F,#413f4f,59.5,9
+1698,#7789B3,#7784b3,74.0,9
+1699,#F8F7F9,#f8f7f9,38.2,10
+1700,#9EB0C0,#9ea9c0,74.4,8
+1701,#41495D,#41475d,42.6,9
+1702,#40414C,#40404c,78.7,9
+1703,#C7CFD4,#c7cbd4,99.8,8
+1704,#A2B9D3,#a2b1d3,40.1,8
+1705,#657C9C,#65759c,77.9,8
+1706,#354863,#354263,78.9,8
+1707,#3D3635,#3d3635,100.0,1
+1708,#90ACD1,#90a3d1,44.6,8
+1709,#B1BED4,#b1bad4,100.0,8
+1710,#5E5962,#5e5962,51.0,10
+1711,#606B86,#606886,61.8,9
+1712,#515D7A,#515a7a,88.6,9
+1713,#394669,#394369,94.0,9
+1714,#555767,#555667,88.6,9
+1715,#3A4147,#3a3e47,66.5,8
+1716,#4D657C,#4d5c7c,57.4,8
+1717,#2A313B,#2a2e3b,63.4,9
+1718,#202020,#202020,100.0,13
+1719,#566987,#566387,94.0,8
+1720,#324462,#323f62,93.2,8
+1721,#2C2E45,#2c2d45,100.0,9
+1722,#262222,#262222,93.4,1
+1723,#454F6B,#454c6b,66.7,9
+1724,#31364C,#31354c,73.8,9
+1725,#E7E7E0,#e0e7e0,100.0,5
+1726,#252525,#252525,98.3,13
+1727,#ED6C5C,#ed6d5c,100.0,1
+1728,#497C97,#496797,94.2,8
+1729,#243544,#242f44,76.7,8
+1730,#4E6B95,#4e6295,99.0,8
+1731,#39415E,#393f5e,81.6,9
+1732,#333136,#333136,88.2,10
+1733,#61789A,#61719a,78.7,8
+1734,#2C2C36,#2c2c36,76.4,9
+1735,#312E2E,#312e2e,56.0,1
+1736,#526A87,#526287,100.0,8
+1737,#333749,#333649,40.5,9
+1738,#23222A,#23222a,82.4,9
+1739,#454B65,#454a65,70.2,9
+1740,#4B5D83,#4b5883,99.4,9
+1741,#43403F,#43403f,96.3,2
+1742,#F3EEEB,#f3efeb,95.0,2
+1743,#58708D,#58688d,75.2,8
+1744,#2C2C37,#2c2c37,95.5,9
+1745,#EDEBE9,#edede9,81.0,3
+1746,#403B3C,#403b3c,77.9,1
+1747,#B3C0C7,#b3bac7,42.4,8
+1748,#6E7783,#6e7483,30.8,8
+1749,#7C97B9,#7c8eb9,50.8,8
+1750,#2A3D5F,#2a375f,76.0,9
+1751,#2E324A,#2e314a,93.8,9
+1752,#1C2A3E,#1c253e,71.5,8
+1753,#434262,#434262,98.1,9
+1754,#EBE7DD,#e2ebdd,80.8,4
+1755,#222423,#222324,86.0,8
+1756,#406680,#405780,100.0,8
+1757,#E5E5DC,#dce5dc,99.6,5
+1758,#222328,#222228,100.0,9
+1759,#DB6159,#db6159,99.6,1
+1760,#275475,#274375,83.1,8
+1761,#536D9A,#53669a,84.3,8
+1762,#EFEBE2,#e7efe2,57.0,4
+1763,#1D262D,#1d222d,99.8,8
+1764,#E6E5D3,#d4e6d3,93.2,5
+1765,#262F35,#262b35,85.7,8
+1766,#49749B,#49659b,46.7,8
+1767,#CAA27D,#cac47d,75.6,3
+1768,#6B846A,#6a8483,100.0,7
+1769,#343C50,#343a50,100.0,9
+1770,#DBC0A9,#dbd3a9,100.0,3
+1771,#BD7853,#bd8b53,100.0,2
+1772,#746B54,#607454,98.1,4
+1773,#3F4052,#3f3f52,92.1,9
+1774,#23241F,#1f2420,100.0,5
+1775,#DCC2B4,#dcc9b4,100.0,2
+1776,#0E4B44,#0e2e4b,73.8,8
+1777,#2A303E,#2a2e3e,99.8,9
+1778,#E8E7E6,#e8e8e6,65.1,3
+1779,#DFDFDF,#dfdfdf,100.0,13
+1780,#2D323E,#2d303e,64.3,9
+1781,#DAE1FE,#dadffe,100.0,9
+1782,#EAE8DA,#dceada,83.5,5
+1783,#242625,#242526,93.8,8
+1784,#223340,#222c40,91.3,8
+1785,#1D1D1D,#1d1d1d,100.0,13
+1786,#D5846F,#d5896f,100.0,2
+1787,#A28969,#95a269,74.4,3
+1788,#6E85A3,#6e7ea3,99.4,8
+1789,#292D38,#292c38,100.0,9
+1790,#F0EDE9,#eef0e9,99.0,4
+1791,#232323,#232323,100.0,13
+1792,#F9957A,#f99c7a,100.0,2
+1793,#E8CDB3,#e8e6b3,100.0,3
+1794,#20211C,#1c211d,100.0,5
+1795,#C5AE8D,#b4c58d,100.0,4
+1796,#0C5239,#0c3652,72.1,8
+1797,#203343,#202c43,100.0,8
+1798,#2E2E2E,#2e2e2e,100.0,13
+1799,#B69324,#52b624,100.0,4
+1800,#226A9E,#224f9e,69.4,8
+1801,#F1F0EE,#eff1ee,96.3,4
+1802,#E7DED0,#dee7d0,100.0,4
+1803,#282828,#282828,100.0,13
+1804,#F3E3E6,#f3e3e6,100.0,1
+1805,#F2ECC0,#c6f2c0,90.3,5
+1806,#888769,#6a8869,81.0,5
+1807,#B0CEDA,#b0c1da,100.0,8
+1808,#F0EDE9,#eef0e9,91.1,4
+1809,#312D32,#312d32,62.2,11
+1810,#AE3936,#ae3936,82.6,1
+1811,#D1AC83,#c9d183,97.3,3
+1812,#78767F,#78767f,99.0,9
+1813,#6A9BDD,#6a8cdd,95.0,8
+1814,#ECEADD,#dfecdd,82.6,5
+1815,#2C2C29,#292c29,50.8,5
+1816,#39383E,#39383e,99.8,9
+1817,#2B2A27,#282b27,100.0,5
+1818,#DED5D3,#ded5d3,100.0,1
+1819,#8A4B63,#8a4b63,88.0,12
+1820,#373739,#373739,93.8,9
+1821,#3D3D43,#3d3d43,97.3,9
+1822,#E2914E,#e2c84e,100.0,3
+1823,#716959,#657159,77.1,4
+1824,#21212A,#21212a,55.6,9
+1825,#69307D,#69307d,94.0,10
+1826,#2B3548,#2b3248,73.3,9
+1827,#49282F,#49282f,100.0,1
+1828,#E0E0DD,#dde0dd,49.8,5
+1829,#AFA39C,#afa79c,80.2,2
+1830,#2A2926,#272a26,98.3,5
+1831,#F6595F,#f6595f,100.0,1
+1832,#ECC36E,#aaec6e,100.0,4
+1833,#727460,#607462,100.0,5
+1834,#6F8AB0,#6f82b0,79.1,8
+1835,#26283D,#26273d,99.8,9
+1836,#E9E9E0,#e0e9e0,72.5,5
+1837,#646978,#646878,46.9,9
+1838,#CCC9C2,#c6ccc2,43.2,4
+1839,#D0C0B7,#d0c5b7,56.4,2
+1840,#6E7678,#6e7278,99.6,8
+1841,#28292E,#28282e,95.0,9
+1842,#292B3A,#292a3a,100.0,9
+1843,#797F41,#417f47,40.3,5
+1844,#7DA5D2,#7d98d2,46.1,8
+1845,#6A6E7F,#6a6d7f,81.4,9
+1846,#314A6E,#31426e,48.3,8
+1847,#232325,#232325,100.0,9
+1848,#272729,#272729,100.0,9
+1849,#7B8081,#7b7d81,53.7,8
+1850,#292A2F,#29292f,100.0,9
+1851,#2A3141,#2a2f41,100.0,9
+1852,#57605F,#575b60,95.5,8
+1853,#242424,#242424,100.0,13
+1854,#E9E8E4,#e5e9e4,53.5,5
+1855,#E0D9CE,#d9e0ce,100.0,4
+1856,#2A2A27,#272a27,97.9,5
+1857,#89896A,#6a896a,57.6,5
+1858,#EAEBE8,#e8ebe9,47.5,6
+1859,#262525,#262525,62.2,1
+1860,#DEB585,#d1de85,100.0,3
+1861,#232740,#232640,99.8,9
+1862,#1E1E2A,#1e1e2a,100.0,9
+1863,#C4C4D1,#c4c4d1,100.0,9
+1864,#AAB0C5,#aaaec5,86.4,9
+1865,#EDEDEB,#ebedeb,51.4,5
+1866,#F12E26,#f12e26,100.0,1
+1867,#323139,#323139,100.0,9
+1868,#EEEFEA,#eaefeb,61.2,5
+1869,#DBC5AB,#d3dbab,100.0,3
+1870,#1E5D4A,#1e435d,99.0,8
+1871,#3C3C48,#3c3c48,100.0,9
+1872,#D0162E,#d0162e,100.0,1
+1873,#DDCCB7,#d5ddb7,100.0,3
+1874,#B3A089,#abb389,62.4,3
+1875,#292934,#292934,68.4,9
+1876,#BA8B51,#a6ba51,99.8,3
+1877,#EFF0EC,#ecf0ed,59.1,6
+1878,#F5D4CD,#f5d5cd,93.0,1
+1879,#29375A,#29335a,62.8,9
+1880,#EDEDEB,#ebedeb,41.5,5
+1881,#1F1F1F,#1f1f1f,78.9,13
+1882,#E0DFCE,#cfe0ce,96.5,5
+1883,#C3A099,#c3a199,85.7,1
+1884,#3F4F66,#3f4a66,75.6,8
+1885,#202633,#202433,100.0,9
+1886,#E1D8C6,#d3e1c6,100.0,4
+1887,#2A2A26,#262a26,100.0,5
+1888,#064C42,#062b4c,86.2,8
+1889,#1B293D,#1b243d,93.4,8
+1890,#605D5C,#605d5c,66.1,2
+1891,#3C3937,#3c3a37,99.6,2
+1892,#2E2D29,#2a2e29,100.0,5
+1893,#42404E,#42404e,100.0,9
+1894,#413F50,#413f50,49.2,9
+1895,#635F5E,#635f5e,94.2,1
+1896,#3E3938,#3e3938,99.0,1
+1897,#2F2D29,#2c2f29,100.0,4
+1898,#3F3F50,#3f3f50,52.1,9
+1899,#535350,#505350,43.2,5
+1900,#3B3B39,#393b39,80.6,5
+1901,#353430,#313530,82.6,5
+1902,#36363D,#36363d,100.0,9
+1903,#E8E7D5,#d6e8d5,96.1,5
+1904,#2A3139,#2a2e39,37.6,8
+1905,#C9C5BF,#c5c9bf,46.9,4
+1906,#374870,#374470,38.6,9
+1907,#232A34,#232734,91.9,9
+1908,#812F51,#812f51,72.3,12
+1909,#998A59,#6c9959,75.6,4
+1910,#EFEFE9,#e9efe9,99.2,5
+1911,#2C2E2B,#2b2e2d,98.1,6
+1912,#C48C5C,#c4b55c,100.0,3
+1913,#014C2D,#01304c,100.0,8
+1914,#C5C6C8,#c5c5c8,61.2,9
+1915,#2C2E2B,#2b2e2d,100.0,6
+1916,#DDB678,#b7dd78,100.0,4
+1917,#BFC1BC,#bcc1be,87.0,6
+1918,#1C1D18,#181d19,100.0,5
+1919,#D92F3C,#d92f3c,100.0,1
+1920,#1C202A,#1c1f2a,100.0,9
+1921,#D1D1D5,#d1d1d5,76.0,9
+1922,#C1B699,#a8c199,98.1,4
+1923,#5C90BF,#5c7ebf,100.0,8
+1924,#2E2F39,#2e2e39,58.1,9
+1925,#4D1E28,#4d1e28,68.0,1
+1926,#33497F,#33447f,93.0,9
+1927,#3A2024,#3a2024,90.1,1
+1928,#5F5F5F,#5f5f5f,100.0,13
+1929,#3B3B3B,#3b3b3b,100.0,13
+1930,#252525,#252525,100.0,13
+1931,#32323E,#32323e,99.4,9
+1932,#3A3B48,#3a3a48,91.9,9
+1933,#595F62,#595c62,100.0,8
+1934,#393939,#393939,77.3,13
+1935,#333333,#333333,100.0,13
+1936,#383840,#383840,100.0,9
+1937,#5B5D5C,#5b5c5d,40.9,8
+1938,#3C4043,#3c3e43,73.1,8
+1939,#2A2F32,#2a2d32,96.1,8
+1940,#2E3441,#2e3241,77.1,9
+1941,#F1EDDE,#e3f1de,70.0,4
+1942,#2A2929,#2a2929,55.6,1
+1943,#F5D8C4,#f5e5c4,100.0,2
+1944,#363C51,#363a51,82.2,9
+1945,#DCD7CE,#d5dcce,100.0,4
+1946,#C5C5C5,#c5c5c5,53.7,13
+1947,#EDECEA,#ebedea,62.4,4
+1948,#9C9C9C,#9c9c9c,99.8,13
+1949,#252525,#252525,100.0,13
+1950,#DDC8CA,#ddc8ca,100.0,1
+1951,#E1C9B6,#e1d8b6,100.0,3
+1952,#383B48,#383a48,99.0,9
+1953,#B5B1B0,#b5b1b0,81.0,1
+1954,#5B595F,#5b595f,92.4,10
+1955,#262521,#222621,100.0,5
+1956,#D7BFA8,#d7d5a8,100.0,3
+1957,#383948,#383848,66.7,9
+1958,#2C3134,#2c2f34,100.0,8
+1959,#EFF0EB,#ebf0ec,53.9,5
+1960,#E4D7CD,#e4decd,96.9,2
+1961,#32303D,#32303d,50.0,9
+1962,#30344C,#30334c,93.2,9
+1963,#ECEBE9,#eaece9,77.7,4
+1964,#B1B1B1,#b1b1b1,70.9,13
+1965,#DDE0E5,#dddfe5,98.6,9
+1966,#5E3A56,#5e3a56,57.2,11
+1967,#E5E3E0,#e3e5e0,55.4,4
+1968,#A09EA5,#a09ea5,77.7,10
+1969,#2C2C2C,#2c2c2c,100.0,13
+1970,#F7D890,#bcf790,100.0,4
+1971,#D8DAE6,#d8d9e6,100.0,9
+1972,#34343A,#34343a,100.0,9
+1973,#B8BFC0,#b8bbc0,84.7,8
+1974,#1F2120,#1f2021,96.1,8
+1975,#2D2F38,#2d2e38,68.8,9
+1976,#B7B9B3,#b3b9b5,84.1,6
+1977,#2A2220,#2a2220,99.6,1
+1978,#374E5E,#37455e,81.8,8
+1979,#232C33,#232833,100.0,8
+1980,#D95536,#d95c36,66.5,1
+1981,#E0CBB2,#d8e0b2,100.0,3
+1982,#BFA057,#83bf57,100.0,4
+1983,#333648,#333548,86.2,9
+1984,#EFEFED,#edefed,84.3,5
+1985,#387465,#385a74,100.0,8
+1986,#2E2D38,#2e2d38,95.5,9
+1987,#EBEBE9,#e9ebe9,53.7,5
+1988,#292623,#292923,100.0,3
+1989,#FCDFD4,#fce3d4,100.0,2
+1990,#6C5F4C,#616c4c,100.0,4
+1991,#363733,#333734,99.0,6
+1992,#272728,#272728,44.4,9
+1993,#E9D2C8,#e9d6c8,100.0,2
+1994,#B09B7D,#a0b07d,100.0,4
+1995,#292D37,#292c37,95.0,9
+1996,#434945,#434749,100.0,8
+1997,#1E1E1E,#1e1e1e,100.0,13
+1998,#2C323D,#2c303d,63.8,9
+1999,#BBB5CE,#bbb5ce,100.0,9
+2000,#D4CEC9,#d4d2c9,96.9,3
+2001,#66613E,#43663e,94.0,5
+2002,#2F3142,#2f3042,99.6,9
+2003,#B9BDB9,#b9bdbd,72.9,7
+2004,#E78822,#d9e722,99.8,3
+2005,#253C52,#253452,77.5,8
+2006,#E3DDCD,#d5e3cd,100.0,4
+2007,#2E2E2E,#2e2e2e,100.0,13
+2008,#DD8B63,#dd9e63,100.0,2
+2009,#B09B7D,#a0b07d,100.0,4
+2010,#292D37,#292c37,95.0,9
+2011,#434945,#434749,100.0,8
+2012,#1E1E1E,#1e1e1e,100.0,13
+2013,#2C323D,#2c303d,63.8,9
+2014,#BBB5CE,#bbb5ce,100.0,9
+2015,#D4CEC9,#d4d2c9,96.9,3
+2016,#66613E,#43663e,94.0,5
+2017,#2F3142,#2f3042,99.6,9
+2018,#B9BDB9,#b9bdbd,72.9,7
+2019,#E78822,#d9e722,99.8,3
+2020,#253C52,#253452,77.5,8
+2021,#E3DDCD,#d5e3cd,100.0,4
+2022,#2E2E2E,#2e2e2e,100.0,13
+2023,#DD8B63,#dd9e63,100.0,2

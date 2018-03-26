@@ -2,26 +2,21 @@ require 'rest_client'
 require 'base64'
 require 'json'
 require 'csv'
+require 'yaml'
+require 'cloudinary'
 
 def write_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
-  writer <<['product_id', 'color in hex', 'color name', 'percentage of clothes', 'hue_level']
+  writer <<['product_id', 'rgb hex', 'ryb hex', 'percentage of clothes', 'hue_level']
   arr_hlv = Array.new(13, 0) # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
 
-    percentage = color[17].to_f      # 圖片主色佔圖片面積比
-
-    clothes_color = color[14]
-    name_id = 16
-    # 如果顏色接近，則將佔色比相加
-    for j in 1..4 do
-      percentage += color[17+4*j].to_f if color[15] == color[15+4*j]
-    end
-    hlv = get_hue_level(clothes_color)
+    c = Color.new(color[1])
+    hlv = get_hue_level(color[1])
     arr_hlv[hlv-1] += 1 
-    writer << [i, clothes_color, color[name_id], percentage.to_i, hlv]
+    writer << [i, color[1], c.to_ryb_hex, color[2], hlv]
   end
 
   arr_hlv.each_with_index do |n, i|
@@ -29,7 +24,7 @@ def write_color
   end
 end
 
-def get_color(keys, secrets)
+def get_color
   in_arr = CSV.read("./products0_renamed.txt")
 
   # -------content of in_arr -----------
@@ -43,32 +38,33 @@ def get_color(keys, secrets)
   # in_arr[i][7] = type_of_category_id
   # in_arr[i][8] = style_of_type_id
   # ------------------------------------
-  # puts in_arr[0][2]
-  used_auth = 0
-  img_count = 0
 
-  writer = CSV.open("./color.txt", "wt")
-  writer << ["product_id", "color"]
+  auth = get_cloudinary_auth
+
+  writer = CSV.open("./color.txt", "a+")
+  # writer << ["product_id", "color"]
   in_arr.each_with_index do |product, i|
-    next if i == 0  # skip first row  
-    puts "get color of product #{i} "
-    str = product[4].split('/')
-    # uniqlo每件衣服都有所謂的color chip，可以代表該衣服的顏色。用color chip會比用整張圖判斷更準    
-    color_chip_link = 'http://im.uniqlo.com/images/tw/uq/pc/goods/' + str[-3] + '/chip/' + str[-1].sub!('.jpg', '') + '.gif'
-
-    api_key = keys[used_auth]
-    api_secret = secrets[used_auth]    
-    result_arr = call_api(color_chip_link, api_key, api_secret)
-
-    img_count += 1
-    used_auth = 1 if img_count > 30
-    if result_arr.nil?
-      writer << [i, -1]
-    else
-      result_arr[0] = i
-      writer << result_arr
-    end   
+    next if i == 0 || i != 1537 # skip first row
+    puts "get color of product #{i-1} "
+    colors = get_cloudinary_color(auth, '/chip/uniqlo' + (i-1).to_s).unshift(i) unless product[1] == '-1'
+    colors = [i, -1] if product[1] == '-1'
+    writer << colors
   end
+end
+
+def get_cloudinary_color(auth, public_id)
+  # auth[:public_id] = public_id
+  auth[:colors] = true
+  colors = []
+
+  result = Cloudinary::Api.resource(public_id, auth)
+  result_colors = result['colors']
+  result_colors.each_with_index do |rc, i|
+    colors.push(rc[0])
+    colors.push(rc[1])
+    # puts "#{i}, #{rc[0]}, #{rc[1]}"
+  end
+  colors
 end
 
 def call_api(image_url, api_key, api_secret)
@@ -123,92 +119,153 @@ def call_api(image_url, api_key, api_secret)
   
 end
 
+
+def upload_color_chips
+  in_arr = CSV.read("./products0_renamed.txt")
+
+  auth = get_cloudinary_auth
+
+  writer = CSV.open("./color_chip.txt", "wt")
+  writer << ["product_id", "cloudinary_url"]
+  in_arr.each_with_index do |product, i|
+    next if i == 0  # skip first row
+
+    if product[1] != '-1'
+      file_name = 'chip/uniqlo' + (i-1).to_s
+      str = product[4].split('/')
+      color_chip_link = 'http://im.uniqlo.com/images/tw/uq/pc/goods/' + str[-3] + '/chip/' + str[-1].sub!('.jpg', '') + '.gif'
+      url = upload_cloudinary(auth, color_chip_link, file_name)
+      puts "#{i-1}, #{file_name}"
+      puts "uploaded!"
+      writer << [i-1, url]
+    else
+      writer << [i-1, -1]    
+    end
+    
+  end
+end
+
+def upload_cloudinary(auth, image, public_id)
+  auth[:public_id] = public_id
+  result = Cloudinary::Uploader.upload(image, auth)
+  result['url']
+end
+
+def get_cloudinary_auth
+  content = YAML.load_file("../../config/cloudinary.yml")
+  config = {}
+  config[:cloud_name] = content['development']['cloud_name']
+  config[:api_key] = content['development']['api_key']
+  config[:api_secret] = content['development']['api_secret']
+  config
+end
+
 class Color
 
-  attr_reader :r, :g, :b, :h, :s, :l, :v, :hsv
+  attr_reader :rgy_r, :ryb_y, :ryb_b, :h, :s, :v
 
-  def initialize(hex)
-    @r = hex[1, 2].to_i(16)
-    @g = hex[3, 2].to_i(16)
-    @b = hex[5, 2].to_i(16)
+  def initialize(rgb_hex)
+    @rgb_r = rgb_hex[1, 2].to_i(16)
+    @rgb_g = rgb_hex[3, 2].to_i(16)
+    @rgb_b = rgb_hex[5, 2].to_i(16)
 
-    ri = @r / 255.0
-    gi = @g / 255.0
-    bi = @b / 255.0
+    ryb = self.to_ryb
+    @ryb_r = ryb[0]
+    @ryb_y = ryb[1]
+    @ryb_b = ryb[2]
 
-    cmax = [ri, gi, bi].max
-    cmin = [ri, gi, bi].min
+    hsv = self.to_ryb_base_hsv
+    @h = hsv[0]
+    @s = hsv[1]
+    @v = hsv[2]
+  end
+
+  def to_ryb
+    # Remove the white from the color
+
+    iWhite = [@rgb_r, @rgb_g, @rgb_b].min.to_f
+    
+    iRed   = @rgb_r.to_f - iWhite
+    iGreen = @rgb_g.to_f - iWhite
+    iBlue  = @rgb_b.to_f - iWhite
+    
+    iMaxGreen = [iRed, iGreen, iBlue].max
+    
+    # Get the yellow out of the red+green
+    
+    iYellow = [iRed, iGreen].min
+    
+    iRed   -= iYellow
+    iGreen -= iYellow
+    
+    # If this unfortunate conversion combines blue and green, then cut each in half to
+    # preserve the value's maximum range.
+    if iBlue > 0 && iGreen > 0
+      iBlue  /= 2
+      iGreen /= 2
+    end
+    
+    # Redistribute the remaining green.
+    iYellow += iGreen
+    iBlue   += iGreen
+    
+    # Normalize to values.
+    iMaxYellow = [iRed, iYellow, iBlue].max
+    
+    if iMaxYellow > 0
+      iN = iMaxGreen / iMaxYellow;
+      
+      iRed    *= iN
+      iYellow *= iN
+      iBlue   *= iN
+    end
+    
+    # Add the white back in.
+    iRed    += iWhite
+    iYellow += iWhite
+    iBlue   += iWhite
+    
+    [iRed.floor, iYellow.floor, iBlue.floor]
+  end
+
+  def to_ryb_hex
+    ryb = self.to_ryb
+    "##{@ryb_r.to_s(16).rjust(2, '0')}#{@ryb_y.to_s(16).rjust(2, '0')}#{@ryb_b.to_s(16).rjust(2, '0')}"
+  end
+
+  def to_ryb_base_hsv
+    ri = @ryb_r / 255.0
+    yi = @ryb_y / 255.0
+    bi = @ryb_b / 255.0
+
+    cmax = [ri, yi, bi].max
+    cmin = [ri, yi, bi].min
     delta = cmax - cmin
-
-    @l = (cmax + cmin) / 2.0
-
-    if delta == 0
-      @h = 0
-    elsif cmax == ri
-      @h = 60 * (((gi - bi) / delta) % 6)
-    elsif cmax == gi
-      @h = 60 * (((bi - ri)/ delta) + 2)
-    elsif cmax == bi
-      @h = 60 * (((ri - gi)/ delta) + 4)
-    end
-
-    if (delta == 0)
-      @s = 0
-    else
-      @s = delta / ( 1 - (2*@l -1).abs )
-    end
-
-    @h = @h.round(2)
-    @s = (@s * 100).round(2)
-    @l = (@l * 100).round(2)
 
     # HSV Calculation
     # Hue calculation
     if delta == 0
-      @hsv = [0]
+      h = 0
     elsif cmax == ri
-      @hsv = [60 * (((gi - bi) / delta) % 6)]
-    elsif cmax == gi
-      @hsv = [60 * (((bi - ri)/ delta) + 2)]
+      h = 60 * (((yi - bi) / delta) % 6)
+    elsif cmax == yi
+      h = 60 * (((bi - ri)/ delta) + 2)
     elsif cmax == bi
-      @hsv = [60 * (((ri - gi)/ delta) + 4)]
+      h = 60 * (((ri - yi)/ delta) + 4)
     end
 
     # Saturation calculation
     if (cmax == 0)
-      @hsv  << 0
+      s = 0
     else
-      @hsv << delta / cmax
+      s = delta / cmax * 100
     end
 
     # Value calculation
-    @hsv << cmax
-    @v = (cmax * 100).round(2)
+    v = cmax * 100
 
-    @hsv = [@hsv[0].round(2), (@hsv[1] * 100).round(2), (@hsv[2] * 100).round(2)]
+    [h.round(2), s.round(2), v.round(2)]
   end
-
-  def to_s
-    "red=#{r} green=#{g} blue=#{b} hue=#{h} saturation=#{s} lightness=#{l}"
-  end
-
-  def to_hex
-    "##{r.to_s(16).rjust(2, '0')}#{g.to_s(16).rjust(2, '0')}#{b.to_s(16).rjust(2, '0')}"
-  end
-
-  def distance(color)
-    [(self.h - color.h) % 360, (color.h - self.h) % 360].min
-  end
-
-  def extract_rgb(color_hash)
-    color_hash = color_hash[0..6]
-    color_hash = color_hash[1..6] if color_hash[0] == '#'
-    r = color_hash[0..1].to_i(16)
-    g = color_hash[2..3].to_i(16)
-    b = color_hash[4..5].to_i(16)
-    [r, g, b]
-  end
-
 end
 
 # turn a color hex string to an array of RGB value
@@ -217,27 +274,11 @@ def hex2ints(hex)
   [hex[1, 2].to_i(16), hex[3, 2].to_i(16), hex[5, 2].to_i(16)]
 end
 
-def get_hue_level(color_hex)
-  c = Color.new(color_hex)
+def get_hue_level(rgb_hex)
+  c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
-  # v1 = 23.0  # lativ藏青的v=23.1
-  # v2 = 80.0
-  # s1 = 10.0  # 5
-  # s2 = 3.0
-  # a = (100 - v2) / (s2 - s1)
-  # b = 100 - (s2 * a)
-  # return 13 if c.hsv[2] <= v1
-  # return 13 if (c.hsv[2] > v1 && c.hsv[2] < v2) && c.hsv[1] < s1
-  # return 13 if (c.hsv[2] >= v2 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
   
-  v1 = 23  # lativ藏青的v=23.1
-  v2 = 13  # v1
-  s1 = 30
-  s2 = 3
-  a = (100 - v2) / (s2 - s1)
-  b = 100 - (s2 * a)
-  return 13 if c.hsv[2] <= v1
-  return 13 if (c.hsv[2] >= v1 && c.hsv[2] <= 100) && c.hsv[1] <= (c.hsv[2] - b) / a
+  return 13 if c.s == 0
 
   # ---- chromatic ----
   # hue_level,  hue range
@@ -248,7 +289,7 @@ def get_hue_level(color_hex)
   # 11,         285 <= hue < 315
   # 12,         315 <= hue < 345
   for hue_level in 2..12 do
-    return hue_level if c.hsv[0] >= 15 + 30 * (hue_level - 2) && c.hsv[0] < 45 + 30 * (hue_level - 2)
+    return hue_level if c.h >= 15 + 30 * (hue_level - 2) && c.h < 45 + 30 * (hue_level - 2)
   end
 
   return 1
@@ -257,5 +298,6 @@ keys = ['acc_457c0ba47a89fc7', 'acc_ae57afa9be2771d']
 secrets = ['57490716966db483020da088096cfffd', 'cfbe9e0d9dc43d1ce14364beb8c8a62e']
 
 # ok
-# get_color(keys, secrets)
+# get_color
 write_color
+# upload_color_chips

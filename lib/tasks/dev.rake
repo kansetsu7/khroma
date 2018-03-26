@@ -136,7 +136,7 @@ namespace :dev do
         )
       end
     end
-    puts "- lativ products created!"
+    puts "- lativ colors created!"
 
 
     # uniqlo products ------
@@ -150,7 +150,7 @@ namespace :dev do
         )
       end
     end
-    puts "- uniqlo products created!"
+    puts "- uniqlo colors created!"
 
     puts "Have created #{Color.count} colors!"
     puts
@@ -173,7 +173,7 @@ namespace :dev do
       style.destroy
       counter += 1
     end
-    puts "- #{counter} useless style products removed!"
+    puts "- #{counter} useless style removed!"
 
     # destroy types that don't have any prdoucts -----
     @types = Type.all
@@ -183,7 +183,7 @@ namespace :dev do
       type.destroy
       counter += 1
     end
-    puts "- #{counter} useless type products removed!"
+    puts "- #{counter} useless type removed!"
 
     puts "All useless data have been removed!"
     puts
