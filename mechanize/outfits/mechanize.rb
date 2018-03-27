@@ -19,13 +19,13 @@ def get_outfit_product
   in_arr = CSV.read("./outfit_link.txt")
 
   op_writer = CSV.open("./outfit_product.txt", "a+")
-  op_writer << ['outfit_id', 'product_id']
+  # op_writer << ['outfit_id', 'product_id']
 
   ovp_writer = CSV.open("./outfit_virtual_product.txt", "a+")
-  ovp_writer << ['outfit_id', 'category', 'link', 'color_chip_id']
+  # ovp_writer << ['outfit_id', 'category', 'link', 'color_chip_id']
 
   in_arr.each_with_index do |outfit_link, i|
-    next if i == 0
+    next if i == 0 || i < 408
     puts "outfit #{outfit_link[0]}"
     link = 'http://www.uniqlo.com/tw/stylingbook' + outfit_link[1][1..-1]
     products = get_page(link, 'div.itemArea>dl', false).search('div.itemArea>dl')
@@ -86,10 +86,16 @@ def get_uniqlo_outfit_links
   $genders_arr.each do |gender|
     outfit_links = get_page("http://www.uniqlo.com/tw/stylingbook/#/#{gender}/", 'div#modelWrap>ul>li>a', true).search('div#modelWrap>ul>li>a')
     outfit_links.each_with_index do |outfit_link, i|
-      writer << [id, outfit_link['href']]
+      writer << [id, outfit_link['href'], get_img_link(outfit_link.search('img').first['src'])]
       id += 1
     end
   end
+end
+
+def get_img_link(thumb_link)
+  file_name = thumb_link.split('/').last
+  xxm_file_name = file_name.split('-')[0] + '-xxm.jpg'
+  'http://www.uniqlo.com' + thumb_link.sub!(file_name, xxm_file_name)
 end
 
 def get_page(link, check_content, scroll)
