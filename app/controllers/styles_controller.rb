@@ -2,7 +2,7 @@ class StylesController < ApplicationController
   before_action :set_type, except: [:change_color]
 
   def index
-    @styles = Style.where(type_id: params[:type_id]).includes(:products, :colors)
+    @styles = Style.where(type_id: params[:type_id]).includes(:products, :colors).order(created_at: :desc).page(params[:page]).per(20)
   end
 
   def price_order_asc
