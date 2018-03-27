@@ -13,7 +13,16 @@ class CartsController < ApplicationController
     cart =current_user.carts.where(product_id: params[:id])
     cart.destroy_all
     redirect_back(fallback_location: root_path)
+  end
 
+  def index
+    @user = User.find(params[:user_id])
+    if @user == current_user
+      @products = current_user.cart_products.includes(style: :type)
+    else
+      #只有本人能看到自己的配色車
+      redirect_to root_path
+    end
   end
 
 end
