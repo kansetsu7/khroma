@@ -22,11 +22,13 @@
       </div>
     </div> 
     <div class="product-link">
-      <% if current_user.carts %>
-        <% if current_user.cart_products.include?(product) %>
-          <%= link_to "移出配裝車", cart_path(product), method: :delete %>
-        <% else %>
-          <%= link_to "加入配裝車", carts_path(product_id: product), method: :post %>
+      <% if current_user %>
+        <% if current_user.carts %>
+          <% if current_user.cart_products.include?(product) %>
+            <%= link_to "移出配裝車", cart_path(product), method: :delete %>
+          <% else %>
+            <%= link_to "加入配裝車", carts_path(product_id: product), method: :post %>
+          <% end %>
         <% end %>
       <% end %>
       <a href="<%= product.link %>" target="_blank">
