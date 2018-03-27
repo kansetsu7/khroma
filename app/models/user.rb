@@ -6,6 +6,9 @@ class User < ApplicationRecord
   
   mount_uploader :avatar, UserImageUploader  
 
+  has_many :carts, dependent: :destroy
+  has_many :cart_products, through: :carts , source: :product
+
   def admin?
     self.role == "admin"
   end

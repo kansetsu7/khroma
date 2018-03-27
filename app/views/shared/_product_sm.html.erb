@@ -24,6 +24,11 @@
       </div>
     </div> 
     <div class="product-link">
+      <% if current_user.cart_products.include?(style.products.first) %>
+        <%= link_to "移出配裝車", cart_path(style.products.first), method: :delete %>
+      <% else %>
+        <%= link_to "加入配裝車", carts_path(product_id: style.products.first), method: :post %>
+      <% end %>
       <a href="<%= style.products.first.link %>" target="_blank">
         <button class="btn btn-sm btn-warning">去購買</button>
       </a>

@@ -11,7 +11,7 @@
       </div>
       <div class="card-body">
         <div class="card-deck styles-panel">
-            <%= render partial: "shared/product_sm", collection: type.styles.order("RANDOM()").limit(4).includes(:products, :colors), as: :style %>
+            <%= render partial: "shared/product_sm", collection: type.styles.limit(4).includes(:products, :colors), as: :style %>
         </div>
       </div>
     </div>    
