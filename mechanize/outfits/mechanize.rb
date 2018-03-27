@@ -2,6 +2,9 @@ require 'mechanize'
 require 'watir'
 require 'watir-scroll'
 require 'csv'
+require 'yaml'
+require 'cloudinary'
+
 # gender(男裝) > category(上衣) > type(襯衫) > style(款式) > product
 # ===== gender 不用抓，自己設定 =====
 $genders_arr = ["men", "women"]
@@ -10,7 +13,64 @@ $n_genders = $genders_arr.size
 def get_uniqlo_data
   # get_uniqlo_outfit_links
   # get_outfit_product
-  get_virtual_product_color
+  # get_virtual_product_color
+upload_color_chips
+end
+
+def upload_color_chips
+  color_links = CSV.read("./outfit_color.txt")
+  v_products = CSV.read("./outfit_virtual_product.txt")
+
+  auth = get_cloudinary_auth
+
+  writer = CSV.open("./outfit_virtual_product.txt", "w")
+  writer << ['outfit_id', 'category', 'link', 'color_chip_id', 'cloudinary chip link','RGB hex']
+  
+  v_products.each_with_index do |v_product, i|
+    next if i == 0
+    puts "#{i} ====="
+    if color_links[i][1] == '-1'
+      writer << v_products[i].push('-1')
+    else
+      url = upload_cloudinary(auth, color_links[i][1], 'vp'+color_links[i][0])
+      puts "image uploaded!"
+      color = get_cloudinary_color(auth, 'vp'+color_links[i][0])
+      puts "got color!"
+      v_products[i].push(url)
+      v_products[i].push(color)
+      writer << v_products[i]
+    end
+  end
+end
+
+def get_cloudinary_color(auth, public_id)
+  auth[:colors] = true
+  colors = []
+
+  result = Cloudinary::Api.resource(public_id, auth)
+  result_colors = result['colors']
+  result_colors.first[0]
+  # result_colors.each_with_index do |rc, i|
+  #   colors.push(rc[0])
+  #   colors.push(rc[1])
+  #   puts "#{i}, #{rc[0]}, #{rc[1]}"
+  # end
+  # colors
+end
+
+def upload_cloudinary(auth, image, public_id)
+  auth[:public_id] = public_id
+  result = Cloudinary::Uploader.upload(image, auth)
+  result['url']
+end
+
+def get_cloudinary_auth
+  content = YAML.load_file("../../config/cloudinary.yml")
+  config = {}
+  config[:cloud_name] = content['development']['cloud_name']
+  config[:api_key] = content['development']['api_key']
+  config[:api_secret] = content['development']['api_secret']
+  config
 end
 
 def get_virtual_product_color
