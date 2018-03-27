@@ -9,7 +9,40 @@ $n_genders = $genders_arr.size
 
 def get_uniqlo_data
   # get_uniqlo_outfit_links
-  get_outfit_product
+  # get_outfit_product
+  get_virtual_product_color
+end
+
+def get_virtual_product_color
+  v_products = CSV.read("./outfit_virtual_product.txt")
+  outfits = CSV.read("./outfit_link.txt")
+  writer = CSV.open("./outfit_color.txt", "a+")
+  # writer << ['virtual_product_id','color_chip_link']
+
+  v_products.each_with_index do |v_product, i|
+    next if i == 0 || i <= 1969
+    puts "#{i} ===="
+    if skip_color(v_product[1], outfits[v_product[0].to_i+1][1])
+      writer << [i-1, -1]
+    else
+      color = get_page(v_product[2], '', true, false).search("li[color='#{v_product[3]}'] img")
+      if color.count == 0
+        writer << [i-1, -1]
+      else
+        writer << [i-1, color.first['src']]
+      end
+    end
+  end
+end
+
+def skip_color(category, link)
+  category = category.to_i
+  return true if category == -1
+  gender = link.split('%2F')[1]
+  # puts "#{gender} #{category}"
+  return true if gender == 'men' && category > 1
+  return true if gender == 'women' && category < 2
+  false
 end
 
 def get_outfit_product
@@ -28,7 +61,7 @@ def get_outfit_product
     next if i == 0 || i < 408
     puts "outfit #{outfit_link[0]}"
     link = 'http://www.uniqlo.com/tw/stylingbook' + outfit_link[1][1..-1]
-    products = get_page(link, 'div.itemArea>dl', false).search('div.itemArea>dl')
+    products = get_page(link, 'div.itemArea>dl', false, false).search('div.itemArea>dl')
 
     products.each_with_index do |product, j|
       unless product.search('img').count == 0
@@ -84,7 +117,7 @@ def get_uniqlo_outfit_links
   id = 0
 
   $genders_arr.each do |gender|
-    outfit_links = get_page("http://www.uniqlo.com/tw/stylingbook/#/#{gender}/", 'div#modelWrap>ul>li>a', true).search('div#modelWrap>ul>li>a')
+    outfit_links = get_page("http://www.uniqlo.com/tw/stylingbook/#/#{gender}/", false, 'div#modelWrap>ul>li>a', true).search('div#modelWrap>ul>li>a')
     outfit_links.each_with_index do |outfit_link, i|
       writer << [id, outfit_link['href'], get_img_link(outfit_link.search('img').first['src'])]
       id += 1
@@ -98,7 +131,7 @@ def get_img_link(thumb_link)
   'http://www.uniqlo.com' + thumb_link.sub!(file_name, xxm_file_name)
 end
 
-def get_page(link, check_content, scroll)
+def get_page(link, check_content, skip_check, scroll)
   puts "goto #{link}"
   timeout = 0
   no_content = 0
@@ -118,7 +151,7 @@ def get_page(link, check_content, scroll)
   end
 
   loop do
-    break unless Nokogiri::HTML.fragment(browser.html).search(check_content).size == 0
+    break if skip_check || Nokogiri::HTML.fragment(browser.html).search(check_content).size != 0
     if no_content < 4
       sleep(2)
       no_content += 1
