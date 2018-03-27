@@ -43,6 +43,15 @@
   color: #FFF;
 }
 
+#styles-spinner {
+  margin-top: 50px;
+  color: var(--gray);
+}
+
+#paginate-panel {
+  display: none;
+}
+
 /* RWD */
 
 @media (max-width: 900px) {
