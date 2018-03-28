@@ -12,10 +12,11 @@ $n_genders = $genders_arr.size
 
 def get_uniqlo_data
   # get_uniqlo_outfit_links
+  get_outfit_images
   # get_outfit_product
   # get_virtual_product_color
   # upload_color_chips
-  write_hue_level
+  # write_hue_level
 end
 
 def write_hue_level
@@ -121,6 +122,22 @@ def skip_color(category, link)
   return true if gender == 'men' && category > 1
   return true if gender == 'women' && category < 2
   false
+end
+
+def get_outfit_images
+  in_arr = CSV.read("./outfit_link.txt")
+  writer = CSV.open("./outfit_link.txt", "a+")
+  writer << ['=========================']
+  in_arr.each_with_index do |outfit, i|
+    next if i == 0
+    puts "outfit #{outfit[0]}"
+    link = 'http://www.uniqlo.com/tw/stylingbook' + outfit[1][1..-1]
+    image = get_page(link, 'div.modelArea>img', false, false).search('div.modelArea>img')
+    outfit[2] = image.first['src']
+    writer << outfit
+    # puts image.first['src']
+
+  end
 end
 
 def get_outfit_product
