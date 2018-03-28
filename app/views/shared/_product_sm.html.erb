@@ -24,13 +24,9 @@
       </div>
     </div> 
     <div class="product-cart-link-row">
-      <% if current_user %>
-        <% if current_user.carts %>
-        <div class="product-cart">
+      <div class="product-cart">
           <%= render partial: "shared/cart_button", locals: {product: style.products.first} %>
-        </div>
-        <% end %>  
-      <% end %>
+      </div>
       <div class="product-link">
         <a href="<%= style.products.first.link %>" target="_blank">
           <button class="btn btn-sm btn-warning">去購買</button>
