@@ -279,7 +279,7 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s == 0
+  return 13 if c.s < 5
 
   # ---- chromatic ----
   # hue_level,  hue range
