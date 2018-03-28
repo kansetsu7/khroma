@@ -8,7 +8,10 @@ Rails.application.routes.draw do
   
   root "khroma#index"
 
-  resources :users, only: [:edit, :update]
+  resources :users, only: [:edit, :update] do
+    resources :carts, only: [:index]
+  end
+
   resources :carts, only: [:create, :destroy]
 
   #genders interface routes

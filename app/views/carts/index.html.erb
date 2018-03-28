@@ -1,0 +1,8 @@
+<h1>個人cart</h1>
+
+<% @products.each do |product| %>
+  <li>
+    <h3><%= product.style.type.name %></h3>
+    <p><%= product.name %></p>
+  </li>
+<% end %>
