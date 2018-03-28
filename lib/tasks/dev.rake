@@ -166,7 +166,7 @@ namespace :dev do
       celebrity_id = uniqlo_outfit[1].split('%2F')[1] == 'men' ? 1 : 2
       Outfit.create!(
         celebrity_id: celebrity_id,
-        image: uniqlo_outfit[2]
+        image: 'http://www.uniqlo.com' + uniqlo_outfit[2]
       )
       # puts "#{i}, #{celebrity_id}, #{uniqlo_outfit[2]}"
     end
