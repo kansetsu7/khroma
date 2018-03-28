@@ -80,7 +80,7 @@ color_name.each_with_index do |name, i|
     hex:  hex[i]
   )
 end
-puts "have created #{HueLevel.count} hue_levels."
+puts "Have created #{HueLevel.count} hue_levels."
 
 
 # ===== Principle ===============================
@@ -103,18 +103,23 @@ principle_names.each_with_index do |name, i|
     image: File.open(File.join(Rails.root, "/public/principle_img/principle#{i+1}.jpeg"))
   )
 end
-puts "have created #{Principle.count} principles."
+puts "Have created #{Principle.count} principles."
 
 # ===== PrincipleColors ===============================
 # 詳細內容請看google sheets : color 
 PrincipleColor.destroy_all
+def create_pinciple_color(principle_id, hue_level_id, hue_match1, hue_match2)
+  PrincipleColor.create!(
+    principle_id: principle_id,
+    hue_level_id: hue_level_id,
+    hue_match1:   hue_match1,
+    hue_match2:   hue_match2,
+  )
+end
+
 # ---- 1. Monochromatic ----
 for i in 1..13 do
-  PrincipleColor.create(
-    principle_id: 1,
-    hue_level_id: i,
-    hue_match1:   i,
-  )
+  create_pinciple_color(1, i, i, -1)
 end
 
 # ---- 2. Analogous ----
@@ -123,23 +128,22 @@ for i in 1..12 do
   h2 = i - 1
   h1 -= 12 if h1 > 12
   h2 += 12 if h2 < 1
-  PrincipleColor.create(
-    principle_id: 2,
-    hue_level_id: i,
-    hue_match1:   h1,
-    hue_match2:   h2,
-  )
+  create_pinciple_color(2, i, h1, h2)
+  h2 = i + 2
+  h2 -= 12 if h2 > 12
+  create_pinciple_color(2, i, h1, h2)
+  h1 = i - 1
+  h2 = i - 2
+  h1 += 12 if h1 < 1
+  h2 += 12 if h2 < 1
+  create_pinciple_color(2, i, h1, h2)
 end
 
 # ---- 3. Complementary ----
 for i in 1..12 do
   h1 = i + 6
   h1 -= 12 if h1 > 12
-  PrincipleColor.create(
-    principle_id: 3,
-    hue_level_id: i,
-    hue_match1:   h1,
-  )
+  create_pinciple_color(3, i, h1, -1)
 end
 
 # ---- 4. Split Complementary ----
@@ -148,12 +152,7 @@ for i in 1..12 do
   h2 = i + 7
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  PrincipleColor.create(
-    principle_id: 4,
-    hue_level_id: i,
-    hue_match1:   h1,
-    hue_match2:   h2,
-  )
+  create_pinciple_color(4, i, h1, h2)
 end
 
 # ---- 5. Triad ----
@@ -162,27 +161,28 @@ for i in 1..12 do
   h2 = i + 8
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  PrincipleColor.create(
-    principle_id: 5,
-    hue_level_id: i,
-    hue_match1:   h1,
-    hue_match2:   h2,
-  )
+  create_pinciple_color(5, i, h1, h2)
 end
 
 # ---- 6. Achromatic ----
 for i in 1..12 do
-  PrincipleColor.create(
-    principle_id: 6,
-    hue_level_id: i,
-    hue_match1:   13,
-  )
+  create_pinciple_color(6, i, 13, -1)
 end
 
 for i in 1..12 do
-  PrincipleColor.create(
-    principle_id: 6,
-    hue_level_id: 13,
-    hue_match1:   i,
-  )
+  create_pinciple_color(6, 13, i, -1)
 end
+
+puts "Have created #{PrincipleColor.count} principle colors."
+
+# ===== Celebrity ================
+Celebrity.create!(
+  name: 'Uniqlo 男model',
+  gender_id: 1
+)
+
+Celebrity.create!(
+  name: 'Uniqlo 女model',
+  gender_id: 2
+)
+puts "Have created #{Celebrity.count} celebrities."
