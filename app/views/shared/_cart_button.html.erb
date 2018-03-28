@@ -1,11 +1,17 @@
 <% if current_user %>
   <% if current_user.carts %>
+  <div id="product-<%= product.id %>">
     <% if current_user.cart_products.include?(product) %>
-      <%= link_to "已加入收藏", cart_path(product), method: :delete, class: "following-state" %>
+      <%= link_to "已加入收藏", cart_path(product), method: :delete, remote: true, class: "following-state" %>
     <% else %>
-      <%= link_to "", carts_path(product_id: product), method: :post %>
+      <%= link_to carts_path(product_id: product),remote: true , method: :post do %>
+        加入收藏&#8594;
+      <% end %>
     <% end %>
+  </div>
   <% end %>
 <% else %>
-  <%= link_to '加入收藏', new_user_session_path, remote: true %>
+  <%= link_to new_user_session_path, remote: true do %>
+    加入收藏&#8594;
+  <% end %>
 <% end %>

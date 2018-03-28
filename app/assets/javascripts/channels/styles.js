@@ -1,5 +1,5 @@
 $(window).on("scroll", debounce(function(){
-  if (($(window).height() + $(window).scrollTop()) >= $(document).height()) {
+  if (($(window).height() + $(window).scrollTop()) >= $(document).height()-100) {
 
     var nextSelector = $('nav.pagination a[rel=next]').attr('href');
     if ( typeof nextSelector === 'undefined') {
@@ -28,7 +28,7 @@ $(document).on('turbolinks:load', function(){
 
   $(document).on('mouseenter', '.product-cart .following-state', function(){
     $(this).css('color', 'var(--red)');
-    $(this).html('移出收藏');
+    $(this).html('移出收藏品');
   });
 
    $(document).on('mouseleave', '.product-cart .following-state', function(){

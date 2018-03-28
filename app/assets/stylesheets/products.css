@@ -62,7 +62,7 @@
 
 .product-cart {
   justify-self: start;
-  align-self: center;
+  align-self: end;
 }
 
 .product-cart a {

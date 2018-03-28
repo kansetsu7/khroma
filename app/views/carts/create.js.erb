@@ -1,0 +1,3 @@
+var html = '<%= j render partial: "shared/cart_button", locals: {product: @product} %>'
+
+$('#product-<%= @product.id %>').parent().html(html);
