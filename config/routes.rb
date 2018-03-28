@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   
   root "khroma#index"
 
-  resources :users, only: [:edit, :update] do
+  resources :users, only: [:edit, :update, :show] do
     resources :carts, only: [:index]
   end
 

@@ -1,8 +1,32 @@
-<h1>個人cart</h1>
+<% color = ["var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--cyan)", "var(--blue)", "var(--indigo)"] %>
+<div class="container">
+  <div id="cart-panel">
+    <div class="">
+      <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
+        <%= link_to user_cart_path(current_user %>%>
+          <p>我的收藏配色車</p>
+        <% end %>
+        <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
+          <%= link_to user_cart_path(current_user %>%>
+          <p>個人檔案</p>
+        <% end %>
+      </div>
+    </div>
+    <h1></h1>
+    <% @types.each do |type| %>
+      <div class="cart-type-title shadow-box-light">
+        <%= type %>
+      </div>
+      <div class="styles-panel">
+        <% @products.each do |product| %>
+          <% if product.style.type.name == type %>    
+            <%= render partial: "shared/product_basic", locals: { product: product} %>
+          <% end %>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
 
-<% @products.each do |product| %>
-  <li>
-    <h3><%= product.style.type.name %></h3>
-    <p><%= product.name %></p>
-  </li>
-<% end %>
+
+
