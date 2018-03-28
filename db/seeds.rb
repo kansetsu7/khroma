@@ -129,14 +129,17 @@ for i in 1..12 do
   h1 -= 12 if h1 > 12
   h2 += 12 if h2 < 1
   create_pinciple_color(2, i, h1, h2)
+  create_pinciple_color(2, i, h2, h1)
   h2 = i + 2
   h2 -= 12 if h2 > 12
   create_pinciple_color(2, i, h1, h2)
+  create_pinciple_color(2, i, h2, h1)
   h1 = i - 1
   h2 = i - 2
   h1 += 12 if h1 < 1
   h2 += 12 if h2 < 1
   create_pinciple_color(2, i, h1, h2)
+  create_pinciple_color(2, i, h2, h1)
 end
 
 # ---- 3. Complementary ----
@@ -153,6 +156,7 @@ for i in 1..12 do
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
   create_pinciple_color(4, i, h1, h2)
+  create_pinciple_color(4, i, h2, h1)
 end
 
 # ---- 5. Triad ----
@@ -162,6 +166,7 @@ for i in 1..12 do
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
   create_pinciple_color(5, i, h1, h2)
+  create_pinciple_color(5, i, h2, h1)
 end
 
 # ---- 6. Achromatic ----
