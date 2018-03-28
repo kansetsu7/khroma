@@ -156,6 +156,128 @@ namespace :dev do
     puts
   end
 
+  task fake_outfits: :environment do
+    puts "=== Start fake outfits"
+    uniqlo_outfits  = CSV.read(Rails.root.to_s+"/mechanize/outfits/outfit_link.txt")
+    lativ_products_count = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0_renamed.txt").count - 1
+
+    uniqlo_outfits.each_with_index do |uniqlo_outfit, i|
+      next if i == 0
+      celebrity_id = uniqlo_outfit[1].split('%2F')[1] == 'men' ? 1 : 2
+      Outfit.create!(
+        celebrity_id: celebrity_id,
+        image: uniqlo_outfit[2]
+      )
+      # puts "#{i}, #{celebrity_id}, #{uniqlo_outfit[2]}"
+    end
+
+    puts "Have created #{Outfit.count} outfits!"
+    puts
+  end
+
+  task fake_virtual_products: :environment do
+    puts "=== Start fake virtual porducts"
+    v_products  = CSV.read(Rails.root.to_s+"/mechanize/outfits/outfit_virtual_product.txt")
+    # v_products[i][0]: outfit_id,
+    # v_products[i][1]: category,
+    # v_products[i][2]: link,
+    # v_products[i][3]: color_chip_id,
+    # v_products[i][4]: cloudinary chip link,
+    # v_products[i][5]: RGB hex,
+    # v_products[i][6]: hue_level
+    
+    virtual_product_id = 1
+    v_products.each_with_index do |v_product, i|
+      next if i == 0 || v_product[4] == '-1'
+      VirtualProduct.create!(
+        category_id: v_product[1].to_i + 1
+      )
+      
+      Color.create!(
+        virtual_product_id: virtual_product_id,
+        hue_level_id: v_product[6].to_i,
+        hex: v_product[5]
+      )
+      
+      OutfitClothing.create!(
+        outfit_id: v_product[0].to_i + 1,
+        virtual_product_id: virtual_product_id
+      )
+      # puts '-------'
+      # puts "virtual_product_id: #{virtual_product_id}, category_id: #{v_product[1].to_i + 1}"
+      # puts "hue_level_id: #{v_product[6]}, hex: #{v_product[5]}"
+      # puts "outfit_id: #{v_product[0].to_i + 1}"
+
+      virtual_product_id += 1
+    end
+
+    puts "Have created #{VirtualProduct.count} virtual porducts!"
+    puts
+  end
+
+  task fake_outfit_clothings: :environment do
+    puts "=== Start fake outfit clothings"
+    lativ_product_count = CSV.read(Rails.root.to_s + "/mechanize/lativ/products0_renamed.txt").count - 1
+    outfit_products  = CSV.read(Rails.root.to_s + "/mechanize/outfits/outfit_product.txt")
+    outfit_products.each_with_index do |outfit_product, i|
+      next if i == 0
+      OutfitClothing.create!(
+        outfit_id: outfit_product[0].to_i + 1,
+        product_id: outfit_product[1].to_i + lativ_product_count + 1
+      )
+      # puts "outfit_id: #{outfit_product[0].to_i + 1}, product_id: #{outfit_product[1].to_i + lativ_product_count + 1}"
+    end
+
+    puts "Have created #{OutfitClothing.count} outfit clothings!"
+    puts
+
+    # Remove outfits that don't have any outfit clothings
+    puts "=== Remove usless outfits"
+    counter = 0
+    @outfits = Outfit.all
+    @outfits.each do |outfit|
+      next unless outfit.outfit_clothings.count <= 1
+      outfit.destroy
+      counter += 1
+    end
+
+    puts "- #{counter} useless outfits removed!"
+    puts
+  end
+
+  task fake_outfit_principle_colors: :environment do
+    puts "=== Start fake outfit principle colors"
+    @outfits = Outfit.all
+    @outfits.each_with_index do |outfit, i|
+      hue_levels = []
+      outfit.product_colors.each_with_index do |pc, j|
+        hue_levels.push(pc.hue_level.id)
+      end
+      outfit.virtual_product_colors.each_with_index do |vpc, j|
+        hue_levels.push(vpc.hue_level.id)
+      end
+
+      hue_levels.each_with_index do |hue_level, j|
+        principle_colors = PrincipleColor.where(hue_level_id: hue_level)
+        principle_colors.each do |principle_color|
+          for k in (j + 1)...hue_levels.count
+            match1_hue_level = principle_color.match1_hue_level.id
+            match2_hue_level = principle_color.match2_hue_level.nil? ? nil : principle_color.match2_hue_level.id
+            if match1_hue_level == hue_levels[k] || match2_hue_level == hue_levels[k]
+              OutfitPrincipleColor.create!(
+                principle_color_id: principle_color.id,
+                outfit_id: outfit.id
+              )
+            end
+          end
+        end
+      end
+    end 
+
+    puts "Have created #{OutfitPrincipleColor.count} outfit principle colors!"
+    puts
+  end
+
   task remove_useless_data: :environment do
     puts "== Removing useless data..."
     counter = 0
@@ -184,14 +306,25 @@ namespace :dev do
       counter += 1
     end
     puts "- #{counter} useless type removed!"
+    
+    # Remove outfits that don't have any outfit principle colors -----
+    counter = 0
+    @outfits = Outfit.all
+    @outfits.each do |outfit|
+      next unless outfit.outfit_principle_colors.count == 0
+      outfit.destroy
+      counter += 1
+    end
+
+    puts "- #{counter} useless outfits removed!"
+    puts
 
     puts "All useless data have been removed!"
     puts
   end
 
   task test: :environment do
-    p = Product.first
-    puts p.color.hue_level.id
+    outfit = Outfit.find()
   end
 
   task fake_all: :environment do
@@ -202,6 +335,11 @@ namespace :dev do
     Rake::Task['dev:fake_styles'].execute
     Rake::Task['dev:fake_products'].execute
     Rake::Task['dev:fake_colors'].execute
+    Rake::Task['dev:fake_outfits'].execute
+    Rake::Task['dev:fake_virtual_products'].execute
+    Rake::Task['dev:fake_outfit_clothings'].execute
+    Rake::Task['dev:fake_outfit_principle_colors'].execute
     Rake::Task['dev:remove_useless_data'].execute
+    # Rake::Task['dev:test'].execute
   end
 end
