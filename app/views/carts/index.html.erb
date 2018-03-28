@@ -1,18 +1,18 @@
-<% color = ["var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--cyan)", "var(--blue)", "var(--indigo)"] %>
 <div class="container">
-  <div id="cart-panel">
-    <div class="">
-      <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
-        <%= link_to user_cart_path(current_user %>%>
+  <div id="user-panel">
+    <div class="user-pill-panel shadow-box-light">
+      <div class="user-pill" style="border-bottom: 3px solid var(--red);">
+        <%= link_to user_carts_path(current_user) do %>
           <p>我的收藏配色車</p>
         <% end %>
-        <div class="type-pill" style="border-bottom: 3px solid <%= color[index%7] %>">
-          <%= link_to user_cart_path(current_user %>%>
-          <p>個人檔案</p>
-        <% end %>
+      </div>
+        <div class="user-pill">
+          <%= link_to user_path(current_user) do %>
+            <p>個人檔案</p>
+          <% end %>
+        </div>
       </div>
     </div>
-    <h1></h1>
     <% @types.each do |type| %>
       <div class="cart-type-title shadow-box-light">
         <%= type %>

@@ -1,0 +1,45 @@
+.user-pill-panel {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.user-pill {
+  background: #FFF;
+  text-align: center;
+}
+
+.user-pill a {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.cart-type-title {
+  background: var(--lblack);
+  color: #FFF;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 20px 0 10px 0; 
+}
+
+.user-profile-panel {
+  width: 300px;
+  background: #FFF;
+  margin-top: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: 20px;
+  font-size: 16px;
+}
+
+.user-title {
+  color: var(--gray);
+  justify-self: end;
+}
+
+.user-button-panel {
+  grid-column: 1 / -1;
+  justify-self: center;
+}

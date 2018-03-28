@@ -1,0 +1,36 @@
+<div class="container">
+  <div id="user-panel">
+    <div class="user-pill-panel shadow-box-light">
+      <div class="user-pill">
+        <%= link_to user_carts_path(current_user) do %>
+          <p>我的收藏配色車</p>
+        <% end %>
+      </div>
+        <div class="user-pill" style="border-bottom: 3px solid var(--orange);">
+          <%= link_to user_path(current_user) do %>
+            <p>個人檔案</p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <h1></h1>
+      <div class="user-profile-panel shadow-box-light">
+        <div class="user-title">用戶名稱</div>
+        <div class="user-name">
+          <%= current_user.name %>
+        </div>
+        <div class="user-title">Email</div>
+        <div class="user-email">
+          <%= current_user.email %>
+        </div>
+        <div class="user-button-panel">
+          <%= link_to edit_user_path(current_user), remote: true do %>
+            <button class="btn btn-primary btn-sm">修改資料</button>
+          <% end %>
+          <%= link_to edit_user_registration_path, remote: true do %>
+            <button class="btn btn-primary btn-sm">修改密碼</button>
+          <% end %>
+        </div>
+      </div>
+  </div>
+</div>
