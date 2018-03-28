@@ -108,45 +108,64 @@ puts "Have created #{Principle.count} principles."
 # ===== PrincipleColors ===============================
 # 詳細內容請看google sheets : color 
 PrincipleColor.destroy_all
-def create_pinciple_color(principle_id, hue_level_id, hue_match1, hue_match2)
+def create_pinciple_color(principle_id, hue_level_id, hue_match1, hue_option1 = -1, hue_option2 = -1)
   PrincipleColor.create!(
     principle_id: principle_id,
     hue_level_id: hue_level_id,
     hue_match1:   hue_match1,
-    hue_match2:   hue_match2,
+    hue_option1:  hue_option1,
+    hue_option2:  hue_option2
   )
 end
 
 # ---- 1. Monochromatic ----
 for i in 1..13 do
-  create_pinciple_color(1, i, i, -1)
+  create_pinciple_color(1, i, i)
 end
 
 # ---- 2. Analogous ----
 for i in 1..12 do
   h1 = i + 1
-  h2 = i - 1
-  h1 -= 12 if h1 > 12
-  h2 += 12 if h2 < 1
-  create_pinciple_color(2, i, h1, h2)
-  create_pinciple_color(2, i, h2, h1)
   h2 = i + 2
+  h3 = i - 1
+  h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  create_pinciple_color(2, i, h1, h2)
+  h3 += 12 if h3 < 1
+  create_pinciple_color(2, i, h1, h2, h3)
   create_pinciple_color(2, i, h2, h1)
+
   h1 = i - 1
   h2 = i - 2
+  h3 = i + 1
   h1 += 12 if h1 < 1
   h2 += 12 if h2 < 1
-  create_pinciple_color(2, i, h1, h2)
+  h3 -= 12 if h3 > 12
+  create_pinciple_color(2, i, h1, h2, h3)
   create_pinciple_color(2, i, h2, h1)
+
+  # h1 = i + 1
+  # h2 = i - 1
+  # h1 -= 12 if h1 > 12
+  # h2 += 12 if h2 < 1
+  # create_pinciple_color(2, i, h1, h2)
+  # create_pinciple_color(2, i, h2, h1)
+  # h2 = i + 2
+  # h2 -= 12 if h2 > 12
+  # create_pinciple_color(2, i, h1, h2)
+  # create_pinciple_color(2, i, h2, h1)
+  # h1 = i - 1
+  # h2 = i - 2
+  # h1 += 12 if h1 < 1
+  # h2 += 12 if h2 < 1
+  # create_pinciple_color(2, i, h1, h2)
+  # create_pinciple_color(2, i, h2, h1)
 end
 
 # ---- 3. Complementary ----
 for i in 1..12 do
   h1 = i + 6
   h1 -= 12 if h1 > 12
-  create_pinciple_color(3, i, h1, -1)
+  create_pinciple_color(3, i, h1)
 end
 
 # ---- 4. Split Complementary ----
@@ -171,11 +190,11 @@ end
 
 # ---- 6. Achromatic ----
 for i in 1..12 do
-  create_pinciple_color(6, i, 13, -1)
+  create_pinciple_color(6, i, 13)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, 13, i, -1)
+  create_pinciple_color(6, 13, i)
 end
 
 puts "Have created #{PrincipleColor.count} principle colors."
