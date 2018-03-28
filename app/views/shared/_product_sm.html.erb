@@ -23,19 +23,19 @@
         $<%= style.products.first.price.round %>
       </div>
     </div> 
-    <div class="product-link">
+    <div class="product-cart-link-row">
       <% if current_user %>
         <% if current_user.carts %>
-          <% if current_user.cart_products.include?(style.products.first) %>
-            <%= link_to "移出配裝車", cart_path(style.products.first), method: :delete %>
-          <% else %>
-            <%= link_to "加入配裝車", carts_path(product_id: style.products.first), method: :post %>
-          <% end %>
+        <div class="product-cart">
+          <%= render partial: "shared/cart_button", locals: {product: style.products.first} %>
+        </div>
         <% end %>  
       <% end %>
-      <a href="<%= style.products.first.link %>" target="_blank">
-        <button class="btn btn-sm btn-warning">去購買</button>
-      </a>
+      <div class="product-link">
+        <a href="<%= style.products.first.link %>" target="_blank">
+          <button class="btn btn-sm btn-warning">去購買</button>
+        </a>
+      </div>
     </div>
   </div>
 </div>

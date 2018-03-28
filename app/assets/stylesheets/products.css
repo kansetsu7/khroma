@@ -55,10 +55,32 @@
   color: var(--red);
   justify-self: end;
 }
+.product-cart-link-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-cart {
+  justify-self: start;
+  align-self: center;
+}
+
+.product-cart a {
+  color: var(--gray);
+}
+
+.product-cart a:hover {
+  color: var(--info);
+}
+
+.product-cart .following-state {
+  color: var(--info);
+}
 
 .product-link {
   justify-self: end;
 }
+
 
 /* product show, product-panel-lg */
 

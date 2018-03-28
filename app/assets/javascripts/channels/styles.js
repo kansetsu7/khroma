@@ -25,6 +25,16 @@ $(document).on('turbolinks:load', function(){
     $(this).parent().children('a').removeClass('color-locked');
     $(this).addClass('color-locked');
   });
+
+  $(document).on('mouseenter', '.product-cart .following-state', function(){
+    $(this).css('color', 'var(--red)');
+    $(this).html('移出收藏');
+  });
+
+   $(document).on('mouseleave', '.product-cart .following-state', function(){
+    $(this).css('color', 'var(--info)');
+    $(this).html('已加入收藏');
+  });
 });
 
 

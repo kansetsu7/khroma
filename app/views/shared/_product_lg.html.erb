@@ -38,18 +38,18 @@
   <div class="product-price">
     NT$<%= product.price.round %>
   </div>
-  <div class="product-link">
+  <div class="product-cart-link-row">
     <% if current_user %>
       <% if current_user.carts %>
-        <% if current_user.cart_products.include?(product) %>
-          <%= link_to "移出配裝車", cart_path(product), method: :delete %>
-        <% else %>
-          <%= link_to "加入配裝車", carts_path(product_id: product), method: :post %>
-        <% end %>
+        <div class="product-cart">
+          <%= render partial: "shared/cart_button", locals: {product: product} %>
+        </div>
       <% end %>
     <% end %>
-    <a href="<%= product.link %>" target="_blank">
-      <button class="btn btn-warning">去購買</button>
-    </a>
+    <div class="product-link">
+      <a href="<%= product.link %>" target="_blank">
+        <button class="btn btn-sm btn-warning">去購買</button>
+      </a>
+    </div>
   </div>
 </div>
