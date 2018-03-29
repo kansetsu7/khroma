@@ -1,5 +1,5 @@
 module KhromaHelper
-  def show_optional1_colors(optional_colors)
+  def show_optional_colors(optional_colors)
 
     return nil if optional_colors[0].nil?
     color_name = optional_colors[0].name.split(' ')[1]
