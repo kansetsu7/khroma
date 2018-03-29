@@ -37,8 +37,6 @@ Rails.application.routes.draw do
 
   #styles%products interface routes
   resources :styles, only: [] do
-    resources :products, only: [:index]
-
     member do
       get :change_color
     end
