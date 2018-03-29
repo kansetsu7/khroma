@@ -32,6 +32,7 @@ class Match
     @optional_colors = []
     @top_products = []
     @bottom_products = []
+    @outfits = []
 
     set_attributes
   end
@@ -65,24 +66,26 @@ class Match
     if @no_params['top_hue_level'] || @no_params['bottom_hue_level']  # 有個hue_level沒給 => 提供使用者顏色、該顏色衣服以及配色法則
       # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, match_hue2以及principle_id
       # 可用來提供使用者顏色、該顏色衣服以及配色法則
-      if @no_params['top_hue_level']  # 
+      if @no_params['top_hue_level']
         hue_level = @bottom_hue_level.to_i
-        type_with_hue_level = @bottom_type
-        type_without_hue_level = @no_params['top_type'] ? -1 : @top_type
+        type_with_color = @bottom_type
+        type_without_color = @no_params['top_type'] ? -1 : @top_type
       else
         hue_level = @top_hue_level.to_i 
-        type_with_hue_level = @top_type
-        type_without_hue_level = @no_params['bottom_type'] ? -1 : @bottom_type         
+        type_with_color = @top_type
+        type_without_color = @no_params['bottom_type'] ? -1 : @bottom_type         
       end
+      
       @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
 
       @principle_colors.each do |principle_color|
         set_principles(principle_color.principle)
         set_colors_with_one_hue(hue_level, principle_color)
-        set_products_with_one_hue(type_with_hue_level, type_without_hue_level, hue_level, principle_color)
+        set_products_with_one_hue(type_with_color, type_without_color, hue_level, principle_color)
       end
+
     else
-      # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, match_hue2以及principle_id
+      # 找出hue_level_id符合的PrincipleColor資料, 可得match_hue1, option1_hue_level, option2_hue_level以及principle_id
       # 依照狀況提供使用者顏色、該顏色衣服以及配色法則（或是提示沒有符合的法則）
               
       # rel_table參考資料: https://stackoverflow.com/questions/3639656/activerecord-or-query
@@ -107,21 +110,24 @@ class Match
         end
       end
     end
-
-    
-    
   end
 
-  def set_products_with_one_hue(type_with_hue_level, type_without_hue_level, hue_level, principle_color)
-    product_of_given_color = Type.find(type_with_hue_level).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
-    if type_without_hue_level == -1  # 沒給type -> 從category找products
+  # def set_outfits(principle_color)
+  #   principle_color.outfits.joins(:celebrity).where()
+  #   # @outfits
+  # end
+
+  def set_products_with_one_hue(type_with_color, type_without_color, hue_level, principle_color)
+    product_of_given_color = Type.find(type_with_color).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
+    if type_without_color == -1  # 沒給type -> 從category找products
       # 從有給type的category反推找出沒給的category
-      category_id = Type.find(type_with_hue_level).category.id  # 有給type的category
+      category_id = Type.find(type_with_color).category.id  # 有給type的category
       category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
       product_of_match_color = Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', principle_color.match1_hue_level.id).limit(10)
     else  # 有給type
-      product_of_match_color = Type.find(type_without_hue_level).products.joins(:color).where('colors.hue_level_id = ?', principle_color.match1_hue_level.id).limit(10)             
+      product_of_match_color = Type.find(type_without_color).products.joins(:color).where('colors.hue_level_id = ?', principle_color.match1_hue_level.id).limit(10)             
     end
+
     if @no_params['top_hue_level']
       @top_products.push(product_of_match_color)  # 上半身的衣服
       @bottom_products.push(product_of_given_color)  # 下半身的衣服
@@ -132,8 +138,25 @@ class Match
   end
 
   def set_products_with_two_hue
-    @top_products.push(Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level).limit(10))
-    @bottom_products.push(Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level).limit(10))
+    if @no_params['top_type']
+
+      category_id = Type.find(@bottom_type).category.id  # 有給type的category
+      category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
+      @top_products.push(Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level).limit(10))
+      @bottom_products.push(Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level).limit(10))
+
+    elsif @no_params['bottom_type']
+      category_id = Type.find(@top_type).category.id  # 有給type的category
+      category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
+      @bottom_products.push(Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level).limit(10))
+      @top_products.push(Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level).limit(10))
+
+    else
+
+      @top_products.push(Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level).limit(10))
+      @bottom_products.push(Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level).limit(10))
+    
+    end
   end
 
   def set_colors_with_one_hue(hue_level, principle_color)
@@ -179,11 +202,11 @@ class Match
   #     # 可用來提供使用者顏色、該顏色衣服以及配色法則
   #     if @no_params['top_hue_level']  # 
   #       hue_level = @bottom_hue_level.to_i
-  #       type_with_hue_level = @bottom_type
+  #       type_with_color = @bottom_type
   #       type_without_hue_level = @no_params['top_type'] ? -1 : @top_type
   #     else
   #       hue_level = @top_hue_level.to_i 
-  #       type_with_hue_level = @top_type
+  #       type_with_color = @top_type
   #       type_without_hue_level = @no_params['bottom_type'] ? -1 : @bottom_type         
   #     end
   #     @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
@@ -224,10 +247,10 @@ class Match
   #       #  - result_arr[2][0] = 上半身的衣服
   #       #  - result_arr[2][1] = 下半身的衣服
   #       products = []
-  #       product_of_given_color = Type.find(type_with_hue_level).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
+  #       product_of_given_color = Type.find(type_with_color).products.joins(:color).where('colors.hue_level_id = ?', hue_level)
   #       if type_without_hue_level == -1  # 沒給type -> 從category找products
   #         # 從有給type的category反推找出沒給的category
-  #         category_id = Type.find(type_with_hue_level).category.id  # 有給type的category
+  #         category_id = Type.find(type_with_color).category.id  # 有給type的category
   #         category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
   #         product_of_match_color = Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', principle_color.match1_hue_level.id).limit(10)
   #       else  # 有給type
