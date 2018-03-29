@@ -1,7 +1,54 @@
 <section id="home-page">
   <div class="home-bg">
-    <div class="home-page-overlay">
+    <div class="home-page-overlay"></div>  
       <div class="container">
+        <div class="match-choice-panel">
+        <h2 id="question1">今天想幫什麼衣服配色呢？</h2>
+        <div id="gender-choice">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active btn-warning">
+              <input value="2" type="radio" name="options" id="option2" autocomplete="off" checked="checked"> 女
+            </label>
+            <label class="btn btn-secondary btn-warning">
+              <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 男
+            </label>
+          </div>
+        </div>
+        <div id="type-choice-panel">
+          <span id="up-type-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
+            </div>
+            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, { selected: 1 }, {class: "custom-select"}) %>
+          </span>
+          <span id="down-type-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("pants.png") %></span>
+            </div>
+            <%= grouped_collection_select(:type, :type_id,  @categories_init[1], :types, :name, :id, :name, {}, {class: "custom-select"}) %>
+          </span>
+          
+        </div>
+        <h2 id="question2">選擇想要的顏色吧！</h2>
+        <div id="hue-choice-panel">
+          <span id="up-hue-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
+            </div>
+            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  { selected: 9 }, {class: "custom-select"}) %>
+          </span>
+          <span id="down-hue-choice" class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text"><%= image_tag("pants.png") %></span>
+            </div>
+            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {}, {class: "custom-select"}) %>
+          </span>
+        </div>
+      <div id="kroma-index-match">
+        <%= render partial: "shared/match_btn" %>
+      </div>
+  </div>
+      <!-- <div class="container">
         <div class="home-page-panel">
           <h2>一種配色，等一個人</h2>
           <h3>Let color do the magic.</h3>
@@ -14,7 +61,7 @@
             <% end %>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -52,60 +99,12 @@
   </div>
 </section>
 <section id='match'>
-  <div class="container">
-    <div class="match-choice-panel">
-      <div class="left-match-col">
-        <div id="gender-choice">
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input value="1" type="radio" name="options" id="option1" autocomplete="off" checked> 男
-            </label>
-            <label class="btn btn-secondary">
-              <input value="2" type="radio" name="options" id="option2" autocomplete="off"> 女
-            </label>
-          </div>
-        </div>
-        <div id="up-choice-panel">
-          <span id="up-type-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
-            </div>
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select"}) %>
-          </span>
-          <span id="up-hue-choice">
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select"}) %>
-          </span>
-        </div>
-        <div id="down-choice-panel">
-          <span id="down-type-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("pants.png") %></span>
-            </div>
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[1], :types, :name, :id, :name, {prompt: '選擇種類'}, {class: "custom-select"}) %>
-          </span>
-          <span id="down-hue-choice">
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {prompt: '選擇顏色'}, {class: "custom-select"}) %>
-          </span>
-        </div>
-      </div>
-      <div id="kroma-index-match">
-        <%= render partial: "shared/match_btn" %>
-      </div>
-    </div>    
-  </div>
+  
 </section>
 <section id="match-result">
   <div class="container">
     <!-- match 結果 -->
     <div id="match-result-panel">
-      <!-- Original -->
-      <!-- <h3>上身 Result</h3>
-      <div id="up-result"></div>
-      <h3>下身 Result</h3>
-      <div id="down-result"></div> -->
-      <!-- END of Original -->
-    
-
     </div>
   </div>
 </section>
