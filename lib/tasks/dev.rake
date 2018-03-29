@@ -262,8 +262,7 @@ namespace :dev do
         principle_colors.each do |principle_color|
           for k in (j + 1)...hue_levels.count
             match1_hue_level = principle_color.match1_hue_level.id
-            match2_hue_level = principle_color.match2_hue_level.nil? ? nil : principle_color.match2_hue_level.id
-            if match1_hue_level == hue_levels[k] || match2_hue_level == hue_levels[k]
+            if match1_hue_level == hue_levels[k]
               OutfitPrincipleColor.create!(
                 principle_color_id: principle_color.id,
                 outfit_id: outfit.id
