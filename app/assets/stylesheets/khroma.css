@@ -111,6 +111,11 @@
   grid-template-columns: 1fr;
 }*/
 
+/*#question1, #gender-choice, #type-choice-panel, 
+#question2, #hue-choice-panel {
+  transition: 0.5s linear;
+}
+*/
 #gender-choice {
   grid-area: question1;
   justify-self: end;
@@ -121,6 +126,7 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
 }
 
 #question2 {
@@ -139,6 +145,8 @@
   padding: 0.3rem 0.75rem;
 }
 
+
+
 #match-btn {
   height: 150px;
   width: 150px;
@@ -147,8 +155,9 @@
   grid-template-areas: "btn";
   border-radius: 50%;
   cursor: pointer;
-  justify-self: center;
   background: #FFF;
+  text-align: center;
+  margin: 10px auto;
 }
 
 #match-btn:active {
