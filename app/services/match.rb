@@ -1,7 +1,7 @@
 class Match
 
   attr_reader :errors, :principles, :top_colors, :bottom_colors, :optional_colors,
-              :top_products, :bottom_products
+              :top_products, :bottom_products, :outfits
   
   def initialize(top_type, top_hue_level, bottom_type, bottom_hue_level)
     @top_type        = top_type
@@ -51,6 +51,11 @@ class Match
     puts "@optional_colors #{@optional_colors.count}"
     puts "@top_products #{@top_products.count}"
     puts "@bottom_products #{@bottom_products.count}"
+    @outfits.each_with_index do |outfit, i|
+      outfit.each do |oft|
+        puts "i: #{i}, outfit_id: #{oft.id}"
+      end
+    end
     puts '====================================='
   end
 
@@ -82,6 +87,7 @@ class Match
         set_principles(principle_color.principle)
         set_colors_with_one_hue(hue_level, principle_color)
         set_products_with_one_hue(type_with_color, type_without_color, hue_level, principle_color)
+        set_outfits(principle_color)
       end
 
     else
@@ -99,7 +105,7 @@ class Match
         pc[:hue_match1].eq(@bottom_hue_level).or(pc[:hue_option1].eq(@bottom_hue_level)))
 
       if @principle_colors.count == 0  # 沒有符合的配色法則(兩色都給的時候可能會發生)
-        set_principles(nil)
+        set_principles(Principle.find(7))
         set_colors_with_two_hue
         set_products_with_two_hue
       else
@@ -107,15 +113,73 @@ class Match
           set_principles(principle_color.principle)
           set_colors_with_two_hue(principle_color.option1_hue_level, principle_color.option2_hue_level)
           set_products_with_two_hue
+          set_outfits(principle_color)
         end
       end
     end
   end
 
-  # def set_outfits(principle_color)
-  #   principle_color.outfits.joins(:celebrity).where()
-  #   # @outfits
-  # end
+  def set_outfits(principle_color)
+
+    ok_outfits = []
+
+    if @no_params['top_type']
+      bottom_category_id = Type.find(@bottom_type).category.id  # 有給type的category
+      top_category_id = bottom_category_id - 1
+      gender_id = Type.find(@bottom_type).gender.id  # 有給type的gender
+    elsif @no_params['bottom_type']
+      top_category_id = Type.find(@top_type).category.id  # 有給type的category
+      bottom_category_id = top_category_id + 1
+      gender_id = Type.find(@top_type).gender.id  # 有給type的gender
+    else
+      top_category_id    = Type.find(@top_type).category.id
+      bottom_category_id = Type.find(@bottom_type).category.id
+      gender_id          = Type.find(@top_type).gender.id  # 有給type的gender
+    end
+
+    if @no_params['top_hue_level']
+      top_hue_level    = principle_color.hue_level_id
+      bottom_hue_level = principle_color.hue_match1
+    elsif @no_params['bottom_hue_level']
+      top_hue_level    = principle_color.hue_match1
+      bottom_hue_level = principle_color.hue_level_id
+    else
+      top_hue_level    = @top_hue_level.to_i
+      bottom_hue_level = @bottom_hue_level.to_i
+    end
+    puts "principle_color #{principle_color.id}"
+    puts "top: #{top_category_id}, #{top_hue_level}"
+    puts "bottom: #{bottom_category_id}, #{bottom_hue_level}"
+
+    @outfits.push(principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id))
+
+    # outfits = principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id)
+    # puts "=== principle_color #{principle_color.principle.name} ============"
+    # outfits.each_with_index do |outfit, i|
+    #   got_top = false
+    #   got_bottom = false
+    #   outfit.products.each_with_index do |product, j|
+    #     got_top    = true if product.color.hue_level_id == top_hue_level && product.category.id == top_category_id
+    #     got_bottom = true if product.color.hue_level_id == bottom_hue_level && product.category.id == bottom_category_id
+    #     puts "#{product.color.hue_level_id}, #{top_hue_level}, #{product.category.id}, #{top_category_id}"
+    #     puts "#{product.color.hue_level_id}, #{bottom_hue_level}, #{product.category.id}, #{bottom_category_id}"
+    #     puts "#{got_top}, #{got_bottom}"
+    #   end
+
+    #   outfit.virtual_products.each_with_index do |product, j|
+    #     got_top    = true if product.color.hue_level_id == top_hue_level && product.category.id == top_category_id
+    #     got_bottom = true if product.color.hue_level_id == bottom_hue_level && product.category.id == bottom_category_id
+    #     puts "#{product.color.hue_level_id}, #{top_hue_level}, #{product.category.id}, #{top_category_id}"
+    #     puts "#{product.color.hue_level_id}, #{bottom_hue_level}, #{product.category.id}, #{bottom_category_id}"
+    #     puts "#{got_top}, #{got_bottom}"
+    #   end
+
+    #   if got_top && got_bottom
+    #     ok_outfits.push(outfit)
+    #   end
+    # end
+    # @outfits.push(ok_outfits)
+  end
 
   def set_products_with_one_hue(type_with_color, type_without_color, hue_level, principle_color)
     product_of_given_color = Type.find(type_with_color).products.joins(:color).where('colors.hue_level_id = ?', hue_level)

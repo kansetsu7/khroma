@@ -28,7 +28,7 @@ class KhromaController < ApplicationController
     render json: {
       productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {principles: @matches.principles,
         top_colors: @matches.top_colors, bottom_colors: @matches.bottom_colors, optional_colors: @matches.optional_colors,
-        top_products: @matches.top_products, bottom_products: @matches.bottom_products})
+        top_products: @matches.top_products, bottom_products: @matches.bottom_products, outfit_collections: @matches.outfits})
     }
 
     # no_params = {'up_type' => params[:up_type_id] == '',

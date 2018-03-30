@@ -19,10 +19,17 @@
       <div class="match-principle-lbl">
         <div>配色法則: <%= principle.name %>
           <div class="match-principle-panel shadow-box">
-            <%= image_tag principle.image unless principle.image == '' %>
+            <%= image_tag principle.image unless image_path(principle.image) == '' %>
           </div>
         </div> 
       </div>
+    </div>
+    <div>
+      <% unless outfit_collections[i].nil? %>
+        <% outfit_collections[i].each do |outfit| %>
+          <%= image_tag(outfit.image) %>
+        <% end %>
+      <% end %>
     </div>
     <div class="styles-panel up-products-panel">
       <% puts top_products[i].count %>
@@ -47,7 +54,7 @@
         <button class="match-right"><i class="fa fa-caret-right"></i></button>
       <% end %> 
     </div>  
-    <%= show_optional_colors(optional_colors[i]) %>
+    <%= show_optional_colors(optional_colors[i]) %>  <!-- helper: app/helpers/khroma_helper -->
   </div>
 <% end %>
 
@@ -64,12 +71,4 @@ matches[i][1][5]: 額外可選顏色1的hex <=> optional_colors[i][0].hex
                   額外可選顏色2的hex <=> optional_colors[i][1].hex
 matches[i][2][0]: 上半身的衣服       <=> top_products[i]
 matches[i][2][1]: 下半身的衣服       <=> bottom_products[i]
-
-@principles = []
-@top_colors = []
-@bottom_colors = []
-@optional1_colors = []
-@optional2_colors = []
-@top_products = []
-@bottom_products = []
 -->
