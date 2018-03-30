@@ -12,11 +12,29 @@ $n_genders = $genders_arr.size
 
 def get_uniqlo_data
   # get_uniqlo_outfit_links
-  get_outfit_images
+  # get_outfit_images
   # get_outfit_product
   # get_virtual_product_color
   # upload_color_chips
   # write_hue_level
+  change_hue_level
+end
+
+def change_hue_level
+  v_products = CSV.read("./outfit_virtual_product.txt")
+  writer = CSV.open("./outfit_virtual_product.txt", "w")
+  writer << ['outfit_id', 'category', 'link', 'color_chip_id', 'cloudinary chip link','RGB hex', 'hue_level']
+
+  v_products.each_with_index do |v_product, i|
+    next if i == 0
+    puts "#{i} ===== #{v_products[i]}"
+    if v_product[4] == '-1'
+      writer << v_products[i]
+    else
+      v_product[6] = get_hue_level(v_product[5])
+      writer << v_products[i]
+    end
+  end
 end
 
 def write_hue_level
@@ -383,7 +401,7 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s == 0
+  return 13 if c.s < 5
 
   # ---- chromatic ----
   # hue_level,  hue range
