@@ -8,7 +8,7 @@ class KhromaController < ApplicationController
         type_names = []
         type_names << @category_list[i][j][:name]          
       end
-      @categories_init[i] = Category.where(gender_id: 1, name: type_names)
+      @categories_init[i] = Category.where(gender_id: 2, name: type_names)
     end
   end
 

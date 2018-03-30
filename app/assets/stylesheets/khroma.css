@@ -1,6 +1,7 @@
 /* khroma index */
 
 #home-page {
+  height: 550px;
   margin-top: -30px;
 }
 .home-bg {
@@ -11,15 +12,24 @@
   background-attachment: fixed;
   width: 100%;
   height: 100%;
+  position: relative;
+  display: grid;
+  align-items: center;
 }
 
 .home-page-overlay {
   background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
-.home-page-panel {
+
+/*.home-page-panel {
   height: 550px;
-  color: white;
+  color: red;
   vertical-align: middle;
   display: grid;
   grid-gap: 5px;
@@ -42,7 +52,7 @@
 
 .home-page-panel button:hover {
   background: #ffab26;
-}
+}*/
 .promote-panel {
   height: 80px;
   display: grid;
@@ -67,30 +77,64 @@
 
 /* match */
 
-#match {
+/*#match {
   background: #000;
   padding: 100px 0;
-}
+}*/
 .match-choice-panel {
   width: 70%;
   margin: 0 auto;
+  color: #FFF;
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: 1fr 200px;
+  grid-gap: 20px;
+  text-align: center;
+  grid-template-areas: 
+  "question1"
+  "type"
+  "question2"
+  "hue"
+  "btn"
 }
 
-.left-match-col {
+.match-choice-panel h2 {
+  grid-column: 1 / -1
+}
+
+#question1 {
+  grid-area: question1;
+}
+/*.left-match-col {
   width: 100%;
   text-align: center;
   justify-self:end;
   display: grid;
   grid-template-columns: 1fr;
+}*/
+
+/*#question1, #gender-choice, #type-choice-panel, 
+#question2, #hue-choice-panel {
+  transition: 0.5s linear;
+}
+*/
+#gender-choice {
+  grid-area: question1;
+  justify-self: end;
 }
 
-#up-choice-panel, #down-choice-panel {
+#type-choice-panel, #hue-choice-panel {
+  grid-column: 1 / -1;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+#question2 {
+  display: none;
+} 
+
+#hue-choice-panel {
+  display: none;
 }
 
 .input-group-prepend {
@@ -101,15 +145,19 @@
   padding: 0.3rem 0.75rem;
 }
 
+
+
 #match-btn {
   height: 150px;
   width: 150px;
   object-fit: cover;
-  display: grid;
+  display: none;
   grid-template-areas: "btn";
   border-radius: 50%;
   cursor: pointer;
-  justify-self:start;
+  background: #FFF;
+  text-align: center;
+  margin: 10px auto;
 }
 
 #match-btn:active {
@@ -127,6 +175,7 @@
   justify-self: center;
   font-weight: 900;
   font-size: 18px;
+  color: #000;
 }
 
 /* result */

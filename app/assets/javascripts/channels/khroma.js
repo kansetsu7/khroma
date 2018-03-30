@@ -1,5 +1,16 @@
 $(document).on('turbolinks:load', function(){
-  $('#gender-choice .btn').on('click', function(){ 
+  $("#up-type-choice #type_type_id").append('<option value="99" disabled>讓Khroma推薦！</option>');
+  $("#up-hue-choice #hue_level_id").append('<option value="99" disabled>讓Khroma推薦！</option>');
+  $("#down-type-choice #type_type_id").append('<option value="99" selected="selected">讓Khroma推薦！</option>');
+  $("#down-hue-choice #hue_level_id").append('<option value="99" selected="selected">讓Khroma推薦！</option>');
+
+  window.sr = ScrollReveal();
+
+  sr.reveal('#question1, #type-choice-panel, #gender-choice',{origin:'bottom', duration: 2000, distance: '50px'});
+
+  // $('#question1, #type-choice-panel, #gender-choice').fadeIn();
+
+  $('#gender-choice .btn').on('click', function(){
     $.ajax({
       url: 'khroma/pop_choices',
       method: 'get',
@@ -9,7 +20,24 @@ $(document).on('turbolinks:load', function(){
         $('#up-type-choice').html(data['typesUpHtml']);
         $('#down-type-choice').html(data['typesDownHtml']);
       }
-    });
+    }).done(function(){
+      $("#up-type-choice #type_type_id").append('<option value="99" disabled>讓Khroma推薦！</option>');
+      $("#down-type-choice #type_type_id").append('<option value="99" selected="selected">讓Khroma推薦！</option>');
+      }
+    );   
+  });
+
+  $('#type-choice-panel').on('change', function(){
+    // $(this, '#question1', '#gender-choice').css('transform', 'translateY(-200)');
+    $('#question2').show();
+    $('#hue-choice-panel').css('display', 'grid');
+    sr.reveal('#question2, #hue-choice-panel',{origin:'bottom', duration: 2000, distance: '50px'});
+    // $('#question2, #hue-choice-panel').fadeIn();
+  });
+
+  $('#hue-choice-panel').on('change', function(){
+    $('#match-btn').css('display', 'grid');
+    sr.reveal('#match-btn',{origin:'bottom', duration: 1000, distance: '50px'});
   });
 
   $('#kroma-index-match #match-btn').click(function(){

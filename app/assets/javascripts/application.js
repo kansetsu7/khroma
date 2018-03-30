@@ -20,9 +20,12 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+//= require scrollReveal
 
 
 $(document).on('turbolinks:load', function() {
+
+
   $(document).on('turbolinks:click', function() {
    $('#spinner-overlay').css('display', 'grid');
   });
