@@ -69,7 +69,7 @@ puts "\"Admin\" created!"
 
 # color_name = ["Red", "Orange", "Yellow", "Chartreuse", "Green", "Spring Green", 
 #               "Cyan", "Azure Radiance", "Blue", "Electric Violet", "Magenta", "Rose", "achromatic(black, gray, white)"]
-color_name = ["1. 紅色系", "2. 橘紅系", "3. 橘色系", "4. 橘黃色系", "5. 黃色系", "6. 黃綠色系",
+color_name = ["1. 紅色系", "2. 橘紅色系", "3. 橘色系", "4. 橘黃色系", "5. 黃色系", "6. 黃綠色系",
               "7. 綠色系", "8. 藍綠色系", "9. 藍色系", "10. 藍紫色系", "11. 紫色系", "12. 紫紅色系", "13. 無色彩(黑、白、灰)"]
 hex = ['#FF0000', '#FF5500', '#FF7F00', '#FFA900', '#FFFF00', '#7FFF00',
        '#00FF00', '#00FFFD', '#0000FF', '#8000FF', '#FF00FF', '#FF0080', '#000000']
@@ -92,6 +92,7 @@ puts "Have created #{HueLevel.count} hue_levels."
 # 4,  分離互補,     Split Complementary
 # 5,  三角法,      Triad
 # 6,  無色彩,      Achromatic
+# 7,  沒有符合的配色法則
 # google sheets : color 內也有
 
 
@@ -103,6 +104,12 @@ principle_names.each_with_index do |name, i|
     image: File.open(File.join(Rails.root, "/public/principle_img/principle#{i+1}.jpeg"))
   )
 end
+
+Principle.create(
+  name: '沒有符合的配色法則',
+  image: ''
+)
+
 puts "Have created #{Principle.count} principles."
 
 # ===== PrincipleColors ===============================
