@@ -1,0 +1,15 @@
+<% if categories.first.name == "上衣類" %>
+  <div class="input-group-prepend">
+    <span class="input-group-text">
+      <%= image_tag("cloth.png") %>
+    </span>
+  </div>
+  <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇上衣款式" }, {class: "custom-select"}) %>
+<% elsif categories.first.name == "下身類" %>
+  <div class="input-group-prepend">
+    <span class="input-group-text">
+      <%= image_tag("pants.png") %>
+    </span>
+  </div>
+  <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式" }, {class: "custom-select"}) %>
+<% end %>
