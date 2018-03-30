@@ -8,4 +8,4 @@
     <% end %>
   </span>
 </div>
-<%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, {}, {class: "custom-select"}) %>
+<%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇上衣款式" }, {class: "custom-select"}) %>

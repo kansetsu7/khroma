@@ -20,7 +20,7 @@
             <div class="input-group-prepend">
                <span class="input-group-text"><%= image_tag("cloth.png") %></span>
             </div>
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, { selected: 1 }, {class: "custom-select"}) %>
+            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, { prompt: "請選擇上衣款式", required: true }, {class: "custom-select"}) %>
           </span>
           <span id="down-type-choice" class="input-group">
             <div class="input-group-prepend">
@@ -36,7 +36,7 @@
             <div class="input-group-prepend">
                <span class="input-group-text"><%= image_tag("cloth.png") %></span>
             </div>
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  { selected: 9 }, {class: "custom-select"}) %>
+            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  {  prompt: "請選擇上衣顏色" }, {class: "custom-select"}) %>
           </span>
           <span id="down-hue-choice" class="input-group">
             <div class="input-group-prepend">
