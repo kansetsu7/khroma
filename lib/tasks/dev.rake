@@ -246,32 +246,56 @@ namespace :dev do
   end
 
   task fake_outfit_principle_colors: :environment do
+    # hue_level_id為上身顏色，match1_hue_level為下身顏色
+    
     puts "=== Start fake outfit principle colors"
     @outfits = Outfit.all
     @outfits.each_with_index do |outfit, i|
-      hue_levels = []
-      outfit.product_colors.each_with_index do |pc, j|
-        hue_levels.push(pc.hue_level.id)
+      top_hue_levels = []
+      bottom_hue_levels = []
+      outfit.products.each do |product|
+        product.category.id.odd? ? top_hue_levels.push(product.color.hue_level_id) : bottom_hue_levels.push(product.color.hue_level_id) 
       end
-      outfit.virtual_product_colors.each_with_index do |vpc, j|
-        hue_levels.push(vpc.hue_level.id)
+      outfit.virtual_products.each_with_index do |product, j|
+        product.category.id.odd? ? top_hue_levels.push(product.color.hue_level_id) : bottom_hue_levels.push(product.color.hue_level_id) 
       end
 
-      hue_levels.each_with_index do |hue_level, j|
-        principle_colors = PrincipleColor.where(hue_level_id: hue_level)
+      top_hue_levels.each do |thlv|
+        principle_colors = PrincipleColor.where(hue_level_id: thlv)
         principle_colors.each do |principle_color|
-          for k in (j + 1)...hue_levels.count
-            match1_hue_level = principle_color.match1_hue_level.id
-            match2_hue_level = principle_color.match2_hue_level.nil? ? nil : principle_color.match2_hue_level.id
-            if match1_hue_level == hue_levels[k] || match2_hue_level == hue_levels[k]
+          bottom_hue_levels.each do |bhlv|
+            if principle_color.match1_hue_level.id == bhlv
               OutfitPrincipleColor.create!(
                 principle_color_id: principle_color.id,
                 outfit_id: outfit.id
               )
             end
           end
-        end
+        end        
       end
+
+      # hue_levels = []
+      # outfit.product_colors.each_with_index do |pc, j|
+      #   hue_levels.push(pc.hue_level.id)
+      # end
+      # outfit.virtual_product_colors.each_with_index do |vpc, j|
+      #   hue_levels.push(vpc.hue_level.id)
+      # end
+
+      # hue_levels.each_with_index do |hue_level, j|
+      #   principle_colors = PrincipleColor.where(hue_level_id: hue_level)
+      #   principle_colors.each do |principle_color|
+      #     for k in (j + 1)...hue_levels.count
+      #       match1_hue_level = principle_color.match1_hue_level.id
+      #       if match1_hue_level == hue_levels[k]
+      #         OutfitPrincipleColor.create!(
+      #           principle_color_id: principle_color.id,
+      #           outfit_id: outfit.id
+      #         )
+      #       end
+      #     end
+      #   end
+      # end
     end 
 
     puts "Have created #{OutfitPrincipleColor.count} outfit principle colors!"
@@ -324,7 +348,21 @@ namespace :dev do
   end
 
   task test: :environment do
-    outfit = Outfit.find()
+    # results = Array.new(13)
+    # results.each_with_index do |result, i|
+    #   results[i] = 0
+    # end
+    outfits = Outfit.joins(:celebrity).where('celebrities.gender_id = ?', 1)
+    outfits.each do |outfit|
+      outfit.principle_colors.each do |opc|
+        if opc.hue_level_id == 1
+          puts "outfit #{outfit.id}, #{opc.hue_level_id} x #{opc.hue_match1}"
+        end
+      end
+    end
+    # results.each_with_index do |result, i|
+    #   puts "#{i}, #{result}"
+    # end
   end
 
   task fake_all: :environment do

@@ -3,4 +3,6 @@ class Type < ApplicationRecord
   belongs_to :category
 
   has_many :products, through: :styles
+
+  delegate :gender, :to => :category
 end
