@@ -1,5 +1,11 @@
 {
   "name": "khroma",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "google-cloud": "^0.57.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
