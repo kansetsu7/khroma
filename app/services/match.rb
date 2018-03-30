@@ -8,11 +8,11 @@ class Match
     @top_hue_level   = top_hue_level
     @bottom_type      = bottom_type
     @bottom_hue_level = bottom_hue_level
-
-    @no_params = {'top_type' => top_type == '',
-                  'top_hue_level' => top_hue_level == '',
-                  'bottom_type' => bottom_type == '',
-                  'bottom_hue_level' => bottom_hue_level == ''
+    puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
+    @no_params = {'top_type' => top_type == '99',
+                  'top_hue_level' => top_hue_level == '99',
+                  'bottom_type' => bottom_type == '99',
+                  'bottom_hue_level' => bottom_hue_level == '99'
                  }
     # matches[i][0][0]: 配色法則名稱
     # matches[i][0][1]: 配色法則圖片
