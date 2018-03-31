@@ -54,7 +54,8 @@ Rails.application.routes.draw do
   resources :khroma, only: [:index] do
     collection do
       get :navbar
-      get :pop_choices
+      get :pop_gender_choices
+      get :pop_category_choices
       get :match
     end
   end

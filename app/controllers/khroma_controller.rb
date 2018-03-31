@@ -1,23 +1,15 @@
 class KhromaController < ApplicationController
-  before_action :set_category_list, only: [:index ,:pop_choices]
+  before_action :set_category_list, only: [ :pop_gender_choices, :pop_category_choices]
 
   def index
-    @categories_init = []
-    for i in 0...@category_list.length do
-      for j in 0...@category_list[i].length
-        type_names = []
-        type_names << @category_list[i][j][:name]          
-      end
-      @categories_init[i] = Category.where(gender_id: 2, name: type_names)
-    end
   end
 
   def navbar
-    categories = Category.includes(:types).where(gender_id: params[:id])
+  	categories = Category.includes(:types).where(gender_id: params[:id])
 
-    render json: {
-      html: render_to_string(partial: 'shared/navbar', locals: {categories: categories})
-    }
+  	render json: {
+  	  html: render_to_string(partial: 'shared/navbar', locals: {categories: categories})
+  	}
   end
 
   def match
@@ -32,27 +24,38 @@ class KhromaController < ApplicationController
     }
   end
 
-  def pop_choices
-    categories = []
-    for i in 0...@category_list.length do
-      for j in 0...@category_list[i].length
-        type_names = []
-        type_names << @category_list[i][j][:name]          
-      end
-      categories[i] = Category.where(gender_id: params[:gender_id], name: type_names)
+  def pop_gender_choices
+  	render json:{
+  	  typesUpHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[0]}),
+  	  typesDownHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[1]})
+  	}  
+  end
+
+  def pop_category_choices
+    if params[:up_or_down] == "0" 
+      q2 = 1
+    else 
+      q2 = 0
     end
 
-    render json:{
-      typesUpHtml: render_to_string(partial: 'shared/pop_choices', locals: {categories: categories[0]}),
-      typesDownHtml: render_to_string(partial: 'shared/pop_choices', locals: {categories: categories[1]})
-    }
+  	render json: {
+      q1Html: render_to_string(partial: 'shared/pop_q1_choices', locals: {categories: @categories[params[:up_or_down].to_i]}),
+  		q2Html: render_to_string(partial: 'shared/pop_q2_choices', locals: {categories: @categories[q2]})
+  	}	
   end
 
   private
 
   def set_category_list
-    @category_list = [ [{name: '上衣類'}], [{name: '下身類'}] ]
+	 category_list = [ [{name: '上衣類'}], [{name: '下身類'}] ]
+
+    @categories = []
+    for i in 0...category_list.length do
+      for j in 0...category_list[i].length
+        type_names = []
+        type_names << category_list[i][j][:name]          
+      end
+    @categories[i] = Category.where(gender_id: params[:gender_id], name: type_names)
+    end
   end
-
-
 end

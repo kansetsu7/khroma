@@ -5,45 +5,33 @@
         <div class="match-choice-panel">
           
         <h2 id="question1">今天想幫什麼衣服配色呢？</h2>
-        <div id="gender-choice">
-          <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active btn-warning">
-              <input value="2" type="radio" name="options" id="option2" autocomplete="off" checked="checked"> 女
-            </label>
-            <label class="btn btn-secondary btn-warning">
-              <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 男
-            </label>
+        <div>
+          <div id="gender-choice">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active btn-warning">
+                <input value="2" type="radio" name="options" id="option2" autocomplete="off"> 女
+              </label>
+              <label class="btn btn-secondary btn-warning">
+                <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 男
+              </label>
+            </div>
+          </div>
+          <div id="category-choice">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn active btn-primary">
+                <input value="0" type="radio" name="options" id="option2" autocomplete="off"> 幫我的上衣搭配
+              </label>
+              <label class="btn btn-primary">
+                <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 幫我的下身搭配
+              </label>
+            </div>
           </div>
         </div>
-        <div id="type-choice-panel">
-          <span id="up-type-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
-            </div>
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[0], :types, :name, :id, :name, { selected: 1 }, {class: "custom-select"}) %>
+        <div id="q1-choice-panel">
           </span>
-          <span id="down-type-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("pants.png") %></span>
-            </div>
-            <%= grouped_collection_select(:type, :type_id,  @categories_init[1], :types, :name, :id, :name, {}, {class: "custom-select"}) %>
-          </span>
-          
         </div>
-        <h2 id="question2">選擇想要的顏色吧！</h2>
-        <div id="hue-choice-panel">
-          <span id="up-hue-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("cloth.png") %></span>
-            </div>
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  { selected: 9 }, {class: "custom-select"}) %>
-          </span>
-          <span id="down-hue-choice" class="input-group">
-            <div class="input-group-prepend">
-               <span class="input-group-text"><%= image_tag("pants.png") %></span>
-            </div>
-            <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, {}, {class: "custom-select"}) %>
-          </span>
+        <h2 id="question2">想讓khroma推薦什麼款式呢？</h2>
+        <div id="q2-choice-panel">
         </div>
       <div id="kroma-index-match">
         <%= render partial: "shared/match_btn" %>
