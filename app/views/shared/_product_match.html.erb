@@ -1,35 +1,7 @@
-<% if i < 4 %>
-  <% show_item = "show-item" %>
-<% else %>
-  <% show_item = "" %>
-<% end %> 
-<div class="style-item shadow-box-light <%= show_item %>">
+<div class="style-item shadow-box-light">
   <div class="product-img">
     <%= link_to product_path(product.id) do %>
       <%= image_tag(product.image) %>
     <% end %>
-  </div>
-  <div class="product-info">
-    <div class="product-title">
-      <%= product.name %>
-    </div>
-    <div class="product-brand-price-row">
-      <div class="product-brand">
-          <%= image_tag("#{product.brand}-logo.png", class: "product-brand-img") %>
-      </div>
-      <div class="product-price">
-        $<%= product.price.round %>
-      </div>
-    </div> 
-    <div class="product-cart-link-row">
-      <div class="product-cart">
-        <%= render partial: "shared/cart_button", locals: {product: product} %>
-      </div>
-      <div class="product-link">
-        <a href="<%= product.link %>" target="_blank">
-          <button class="btn btn-sm btn-warning">去購買</button>
-        </a>
-      </div>
-    </div>
   </div>
 </div>

@@ -44,7 +44,6 @@ $(document).on('turbolinks:load', function(){
   });
 
   $('#q1-choice-panel').on('change', 'span:nth-child(2)', function(){
-    console.log('hi');
     // $(this, '#question1', '#gender-choice').css('transform', 'translateY(-200)');
     $('#question2').show();
     $('#q2-choice-panel').css('display', 'grid');
@@ -87,9 +86,47 @@ $(document).on('turbolinks:load', function(){
     });
   });
 
+  $('#match-result-panel').on('click', '.match-principle-pill', function(){
+    console.log($(this).attr('id'));
+    $('#spinner-overlay').css('display', 'grid');
+
+    var up_hue_level;
+    var down_hue_level;
+    var principle_color_id;
+
+    if (typeof $('#up-hue-choice #hue_level_id').val() == 'undefined') {
+      up_hue_level = "99";
+      down_hue_level = $('#down-hue-choice #hue_level_id').val();
+    } else if (typeof $('#down-hue-choice #hue_level_id').val() == 'undefined') {
+      down_hue_level = "99";
+      up_hue_level = $('#up-hue-choice #hue_level_id').val();
+    }
+
+    $.ajax({
+      url: 'khroma/match',
+      method: 'get',
+      dataType: 'json',
+      data: { 
+        up_type_id: $('#up-type-choice #type_type_id').val(),
+        up_hue_level: up_hue_level,
+        down_type_id: $('#down-type-choice #type_type_id').val(),
+        down_hue_level: down_hue_level,
+        principle_color_id: $(this).attr('id')
+      },
+      success: function(data){
+        $('#match-result-panel').html(data['productsMatchHtml']);
+      }
+    });
+  });
+
   $(document).ajaxStop(function(){
     $('#spinner-overlay').hide();
   });
+
+  
+  // $('.carousel').slick({ setting-name: setting-value });
+
+
 
   $(document).on('click','.gender-btn', function(){
     $.ajax({
@@ -135,3 +172,5 @@ $(document).on('turbolinks:load', function(){
     }
   });
 });
+
+
