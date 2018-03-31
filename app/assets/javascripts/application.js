@@ -17,6 +17,7 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require_tree .
+//= require jquery.slick
 
 
 $(document).on('turbolinks:load', function() {

@@ -1,7 +1,6 @@
-<div class="style-item shadow-box-light">
+
   <div class="product-img">
     <%= link_to product_path(product.id) do %>
-      <%= image_tag(product.image) %>
+      <%= image_tag(product.image, class: "shadow-box") %>
     <% end %>
   </div>
-</div>

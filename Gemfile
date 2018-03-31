@@ -58,7 +58,8 @@ gem 'carrierwave'
 # Use kaminari https://github.com/kaminari/kaminari 
 gem 'kaminari', '~>1.1.1'
 
-
+# User slick for carousel animation https://github.com/bodrovis/jquery-slick-rails
+gem "jquery-slick-rails"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

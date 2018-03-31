@@ -83,16 +83,49 @@ $(document).on('turbolinks:load', function(){
       success: function(data){
         $('#match-result-panel').html(data['productsMatchHtml']);
       }
+    }).done(function(){
+      $('#promote').hide();
+      $('.match-principle-pill:first-of-type').addClass('active');
+
+       $('.carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    }).done(function(){
+      $('html, body').animate({
+        scrollTop: $('#match-result').offset().top
+      }, 500);
+      return false;
     });
   });
 
   $('#match-result-panel').on('click', '.match-principle-pill', function(){
-    console.log($(this).attr('id'));
     $('#spinner-overlay').css('display', 'grid');
 
     var up_hue_level;
     var down_hue_level;
-    var principle_color_id;
+    var principle_color_id = $(this).attr('id');
 
     if (typeof $('#up-hue-choice #hue_level_id').val() == 'undefined') {
       up_hue_level = "99";
@@ -111,20 +144,51 @@ $(document).on('turbolinks:load', function(){
         up_hue_level: up_hue_level,
         down_type_id: $('#down-type-choice #type_type_id').val(),
         down_hue_level: down_hue_level,
-        principle_color_id: $(this).attr('id')
+        principle_color_id: principle_color_id
       },
       success: function(data){
         $('#match-result-panel').html(data['productsMatchHtml']);
       }
+    }).done(function(){
+      $('.match-principle-pill.active').removeClass('active');
+      $('.match-principle-pill#' + principle_color_id).addClass('active');
+      console.log($('.match-principle-pill#' + principle_color_id));
+       $('.carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    }).done(function(){
+      $('html, body').animate({
+        scrollTop: $('#match-result').offset().top
+      }, 500);
+      return false;
     });
   });
 
   $(document).ajaxStop(function(){
     $('#spinner-overlay').hide();
   });
-
-  
-  // $('.carousel').slick({ setting-name: setting-value });
 
 
 
@@ -154,23 +218,7 @@ $(document).on('turbolinks:load', function(){
       $(this).find('.match-principle-panel').hide(0);
   });
 
-  $('#match-result-panel').on('click', '.match-right', function(){
-    $(this).siblings('.match-left').prop('disabled', false);
-    $(this).siblings('.show-item').eq(3).next().addClass('show-item');
-    $(this).siblings('.show-item').eq(0).removeClass('show-item');
-    if ($(this).siblings('.show-item').eq(3).is(':nth-last-child(2)') ){
-      $(this).prop('disabled', true);
-    }
-  });
-
-  $('#match-result-panel').on('click', '.match-left', function(){
-    $(this).siblings('.match-right').prop('disabled', false);
-    $(this).siblings('.show-item').eq(3).removeClass('show-item');
-    $(this).siblings('.show-item').eq(0).prev().addClass('show-item');
-    if ($(this).siblings('.show-item').eq(0).is(':nth-child(2)') ){
-      $(this).prop('disabled', true);
-    }
-  });
+  
 });
 
 
