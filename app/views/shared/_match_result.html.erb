@@ -1,74 +1,62 @@
-<% principles.each_with_index do |principle, i| %>
-  <div class="match-result-item">
-    <div class="match-principle-title shadow-box">
-      <div class="result-count">
-        <% if top_colors[i].hex == "#000000"%>
-          <% first_black_label = "black-label" %>
-        <% else %>
-          <% first_black_label = "" %>
-        <% end %>
-        <% if bottom_colors[i].hex == "#000000"%>
-          <% second_black_label = "black-label" %>
-        <% else %>
-          <% second_black_label = "" %>
-        <% end %>
-        <div class="hex-lbl <%= first_black_label %>" style="background: <%= top_colors[i].hex %>; opacity: 0.8;"><%= top_colors[i].name.split(' ')[1] %></div>
-        <div class="hex-lbl second-hex-lbl <%= second_black_label %>" style="background: <%= bottom_colors[i].hex %>; opacity: 0.8;"><%= bottom_colors[i].name.split(' ')[1] %></div>
-        <div class="count-lbl">上身: <%= top_products[i].count %> 件 &nbsp;&nbsp; 下身: <%= bottom_products[i].count %> 件</div>
-      </div>
-      <div class="match-principle-lbl">
-        <div>配色法則: <%= principle.name %>
-          <div class="match-principle-panel shadow-box">
-            <%= image_tag principle.image unless image_path(principle.image) == '' %>
-          </div>
-        </div> 
-      </div>
-    </div>
-    <div>
-      <% unless outfit_collections[i].nil? %>
-        <% outfit_collections[i].each do |outfit| %>
-          <%= image_tag(outfit.image) %>
-        <% end %>
-      <% end %>
-    </div>
-    <div class="styles-panel up-products-panel">
-      <% puts top_products[i].count %>
-      <% if top_products[i].count > 4 %>
-        <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
-      <% end %>  
-      <% top_products[i].each_with_index do |product, j| %>
-        <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
-      <% end %>
-      <% if top_products[i].count > 4 %>
-        <button class="match-right"><i class="fa fa-caret-right"></i></button>
-      <% end %> 
-    </div> 
-    <div class="styles-panel down-products-panel" style="margin-top: 20px;">
-      <% if bottom_products[i].count > 4 %>
-        <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
-      <% end %>  
-      <% bottom_products[i].each_with_index do |product, j| %>
-          <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
-      <% end %>
-      <% if bottom_products[i].count > 4 %>
-        <button class="match-right"><i class="fa fa-caret-right"></i></button>
-      <% end %> 
-    </div>  
-    <%= show_optional_colors(optional_colors[i]) %>  <!-- helper: app/helpers/khroma_helper -->
-  </div>
-<% end %>
+<!-- tab比照 khroma配一下 的功能，多送一個params[:principle_color_id] = principle_color_id 進controller -->
+<%# principle_colors.each_with_index do |principle_color, i| %>
+  <div><%#= "principle_color_id: #{principle_color.id} - #{principle_color.principle.name}: #{principle_color.hue_level.name} x #{principle_color.match1_hue_level.name}" %></div>  
+<%# end %>
 
-<!-- 
-matches[i][0][0]: 配色法則名稱       <=> principles[i].name
-matches[i][0][1]: 配色法則圖片       <=> principles[i].image
-matches[i][1][0]: 上半身的顏色       <=> top_colors[i].name
-matches[i][1][1]: 下半身的顏色       <=> bottom_colors[i].name
-matches[i][1][2]: 額外可選的顏色1    <=> optional_colors[i][0].name
-                  額外可選的顏色2    <=> optional_colors[i][1].name
-matches[i][1][3]: 上半身顏色的hex    <=> top_colors[i].hex
-matches[i][1][4]: 下半身顏色的hex    <=> bottom_colors[i].hex
-matches[i][1][5]: 額外可選顏色1的hex <=> optional_colors[i][0].hex
-                  額外可選顏色2的hex <=> optional_colors[i][1].hex
-matches[i][2][0]: 上半身的衣服       <=> top_products[i]
-matches[i][2][1]: 下半身的衣服       <=> bottom_products[i]
--->
+<div class="match-result-item">
+  <div class="match-principle-title shadow-box">
+    <div class="result-count">
+      <% if top_color.hex == "#000000"%>
+        <% first_black_label = "black-label" %>
+      <% else %>
+        <% first_black_label = "" %>
+      <% end %>
+      <% if bottom_color.hex == "#000000"%>
+        <% second_black_label = "black-label" %>
+      <% else %>
+        <% second_black_label = "" %>
+      <% end %>
+      <div class="hex-lbl <%= first_black_label %>" style="background: <%= top_color.hex %>; opacity: 0.8;"><%= top_color.name.split(' ')[1] %></div>
+      <div class="hex-lbl second-hex-lbl <%= second_black_label %>" style="background: <%= bottom_color.hex %>; opacity: 0.8;"><%= bottom_color.name.split(' ')[1] %></div>
+      <div class="count-lbl">上身: <%= top_products.count %> 件 &nbsp;&nbsp; 下身: <%= bottom_products.count %> 件</div>
+    </div>
+    <div class="match-principle-lbl">
+      <div>配色法則: <%= target_principle.name %>
+        <div class="match-principle-panel shadow-box">
+          <%= image_tag target_principle.image unless image_path(target_principle.image) == '' %>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div>
+    <% unless outfits.nil? %>
+      <% outfits.each do |outfit| %>
+        <%= image_tag(outfit.image) %>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="styles-panel up-products-panel">
+    <% puts top_products.count %>
+    <% if top_products.count > 4 %>
+      <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
+    <% end %>  
+    <% top_products.each_with_index do |product, j| %>
+      <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
+    <% end %>
+    <% if top_products.count > 4 %>
+      <button class="match-right"><i class="fa fa-caret-right"></i></button>
+    <% end %> 
+  </div> 
+  <div class="styles-panel down-products-panel" style="margin-top: 20px;">
+    <% if bottom_products.count > 4 %>
+      <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
+    <% end %>  
+    <% bottom_products.each_with_index do |product, j| %>
+        <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
+    <% end %>
+    <% if bottom_products.count > 4 %>
+      <button class="match-right"><i class="fa fa-caret-right"></i></button>
+    <% end %> 
+  </div>  
+  <%= show_optional_colors(optional_colors) %>  <!-- helper: app/helpers/khroma_helper -->
+</div>
