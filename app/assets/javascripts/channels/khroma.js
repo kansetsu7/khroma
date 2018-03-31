@@ -59,7 +59,8 @@ $(document).on('turbolinks:load', function(){
   $('#kroma-index-match #match-btn').click(function(){
 
     $('#spinner-overlay').css('display', 'grid');
-
+    $('#match-result').show();
+    
     var up_hue_level;
     var down_hue_level;
 

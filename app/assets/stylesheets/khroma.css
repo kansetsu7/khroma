@@ -77,10 +77,6 @@
 
 /* match */
 
-/*#match {
-  background: #000;
-  padding: 100px 0;
-}*/
 .match-choice-panel {
   width: 70%;
   margin: 0 auto;
@@ -92,19 +88,6 @@
   justify-content: center;
 }
 
-/*.left-match-col {
-  width: 100%;
-  text-align: center;
-  justify-self:end;
-  display: grid;
-  grid-template-columns: 1fr;
-}*/
-
-/*#question1, #gender-choice, #type-choice-panel, 
-#question2, #hue-choice-panel {
-  transition: 0.5s linear;
-}
-*/
 #gender-choice {
   display: inline-block;
 }
@@ -154,13 +137,17 @@
   height: 150px;
   width: 150px;
   object-fit: cover;
-  display: none;
+  display: grid;
   grid-template-areas: "btn";
   border-radius: 50%;
   cursor: pointer;
   background: #FFF;
   text-align: center;
   margin-top: 20px;
+}
+
+#kroma-index-match #match-btn {
+  display: none;
 }
 
 #match-btn:active {
@@ -186,6 +173,7 @@
 #match-result {
   background: #FFF;
   padding: 20px 0;
+  display: none;
 }
 
 .match-principle-pills {
