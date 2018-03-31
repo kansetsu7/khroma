@@ -22,9 +22,7 @@ class KhromaController < ApplicationController
 
   def match
     # 'Match' is a service object, app/service/match.rb
-    @matches = Match.new(params[:up_type_id], params[:up_hue_level], params[:down_type_id], params[:down_hue_level])
-    # @matches = Match.new(params[:up_type_id], params[:up_hue_level], params[:down_type_id], params[:down_hue_level], params[:principle_color_id])
-    @matches.puts_attributes_count
+    @matches = Match.new(params[:up_type_id], params[:up_hue_level], params[:down_type_id], params[:down_hue_level], params[:principle_color_id])
 
     render json: {
       productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {principle_colors: @matches.principle_colors,

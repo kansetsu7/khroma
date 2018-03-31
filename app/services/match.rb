@@ -4,12 +4,12 @@ class Match
               :top_products, :bottom_products, :outfits, :target_principle_color,
               :target_principle
   
-  def initialize(top_type, top_hue_level, bottom_type, bottom_hue_level, principle_color_id = -1)
-    @top_type               = top_type
-    @top_hue_level          = top_hue_level
-    @bottom_type            = bottom_type
-    @bottom_hue_level       = bottom_hue_level
-    @principle_color_id = principle_color_id
+  def initialize(top_type, top_hue_level, bottom_type, bottom_hue_level, principle_color_id)
+    @top_type           = top_type
+    @top_hue_level      = top_hue_level
+    @bottom_type        = bottom_type
+    @bottom_hue_level   = bottom_hue_level
+    @principle_color_id = principle_color_id == '' ? nil : principle_color_id
 
     puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
     @no_params = {'top_type' => top_type == '99',
@@ -17,16 +17,6 @@ class Match
                   'bottom_type' => bottom_type == '99',
                   'bottom_hue_level' => bottom_hue_level == '99'
                  }
-    # matches[i][0][0]: 配色法則名稱
-    # matches[i][0][1]: 配色法則圖片
-    # matches[i][1][0]: 上半身的顏色
-    # matches[i][1][1]: 下半身的顏色
-    # matches[i][1][2]: 額外可選的顏色
-    # matches[i][1][3]: 上半身顏色的hex
-    # matches[i][1][4]: 下半身顏色的hex
-    # matches[i][1][5]: 額外可選顏色的hex
-    # matches[i][2][0]: 上半身的衣服
-    # matches[i][2][1]: 下半身的衣服
 
     @errors = []
     @top_color
@@ -38,12 +28,15 @@ class Match
 
     set_principle_colors
     set_attributes
+    puts_attributes_count
   end
 
   # 至少要給一個category的type+hue_level才能進行配對
   def enough_params?   
     (!@no_params['top_type'] && !@no_params['top_hue_level']) || (!@no_params['bottom_type'] && !@no_params['bottom_hue_level']) ? true : false
   end
+
+  private
 
   def puts_attributes_count
     puts '====================================='
@@ -63,8 +56,6 @@ class Match
     puts '====================================='
   end
 
-  private
-
   def set_principle_colors
     unless enough_params?
       @errors = ['參數不足，無法配色。至少要給半身的服裝與顏色才能進行配對']
@@ -73,7 +64,7 @@ class Match
 
     hue_level = @no_params['top_hue_level'] ? @bottom_hue_level.to_i : @top_hue_level.to_i 
     @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
-    @target_principle_color = @principle_color_id == -1 ? @principle_colors.first : PrincipleColor.find(@principle_color_id)
+    @target_principle_color = @principle_color_id.nil? ? @principle_colors.first : PrincipleColor.find(@principle_color_id)
     @target_principle = @target_principle_color.principle
   end
 
@@ -88,12 +79,12 @@ class Match
 
     if @no_params['top_type']
       bottom_category_id = Type.find(@bottom_type).category.id  # 有給type的category
-      top_category_id = bottom_category_id - 1
-      gender_id = Type.find(@bottom_type).gender.id  # 有給type的gender
+      top_category_id    = bottom_category_id - 1
+      gender_id          = Type.find(@bottom_type).gender.id  # 有給type的gender
     elsif @no_params['bottom_type']
-      top_category_id = Type.find(@top_type).category.id  # 有給type的category
+      top_category_id    = Type.find(@top_type).category.id  # 有給type的category
       bottom_category_id = top_category_id + 1
-      gender_id = Type.find(@top_type).gender.id  # 有給type的gender
+      gender_id          = Type.find(@top_type).gender.id  # 有給type的gender
     else
       top_category_id    = Type.find(@top_type).category.id
       bottom_category_id = Type.find(@bottom_type).category.id
