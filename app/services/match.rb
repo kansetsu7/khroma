@@ -140,7 +140,7 @@ class Match
 
   def set_colors
     @top_color = @no_params['top_hue_level'] ? @target_principle_color.match1_hue_level : HueLevel.find(@top_hue_level.to_i)
-    @bottom_color = @no_params['top_hue_level'] ? HueLevel.find(@top_hue_level.to_i) : @target_principle_color.match1_hue_level
+    @bottom_color = @no_params['top_hue_level'] ? @target_principle_color.match1_hue_level : HueLevel.find(@top_hue_level.to_i)
     optional_hlv1 = @target_principle_color.option1_hue_level  # 可能為nil
     optional_hlv2 = @target_principle_color.option2_hue_level  # 可能為nil
     @optional_colors = [optional_hlv1, optional_hlv2]
