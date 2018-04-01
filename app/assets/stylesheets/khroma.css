@@ -77,10 +77,6 @@
 
 /* match */
 
-/*#match {
-  background: #000;
-  padding: 100px 0;
-}*/
 .match-choice-panel {
   width: 70%;
   margin: 0 auto;
@@ -92,19 +88,6 @@
   justify-content: center;
 }
 
-/*.left-match-col {
-  width: 100%;
-  text-align: center;
-  justify-self:end;
-  display: grid;
-  grid-template-columns: 1fr;
-}*/
-
-/*#question1, #gender-choice, #type-choice-panel, 
-#question2, #hue-choice-panel {
-  transition: 0.5s linear;
-}
-*/
 #gender-choice {
   display: inline-block;
 }
@@ -154,13 +137,17 @@
   height: 150px;
   width: 150px;
   object-fit: cover;
-  display: none;
+  display: grid;
   grid-template-areas: "btn";
   border-radius: 50%;
   cursor: pointer;
   background: #FFF;
   text-align: center;
   margin-top: 20px;
+}
+
+#kroma-index-match #match-btn {
+  display: none;
 }
 
 #match-btn:active {
@@ -183,47 +170,43 @@
 
 /* result */
 
-.match-principle-title {
+#match-result {
+  background: #FFF;
+  padding: 20px 0;
+  display: none;
+}
+
+.match-principle-pills {
   width: 100%;
-  background: var(--lblack);
-  color: #FFF;
-  padding-right: 10px;
-  margin: 20px 0;
   display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  padding: 30px 0;
+}
+.match-principle-pill {
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  background: #000;
+  opacity: 0.5;
 }
 
-.result-count {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+.match-principle-pill.active {
+  opacity: 1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px rgba(0, 0, 0, .12);
 }
 
-.result-count .hex-lbl {
-  color: #000;
-  padding: 7px 10px;
+.match-principle-pill .hex-lbl {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  opacity: 0.9;
 }
 
-.second-hex-lbl {
-  position: relative;
-}
-
-.match-result-item  .match-principle-title .black-label  {
-  color: #FFF;
-}
-
-.second-hex-lbl:before {
-  content: "X";
-  position: absolute;
-  top: 7px;
-  left: -5px;
-  color: #FFF;
-  font-weight: 400;
-}
-
-.count-lbl {
-  align-self: center;
-  margin-left: 20px;
+.slash {
+  border-style: solid;
+  border-width: 15px 10px 15px 10px;
+  opacity: 0.9;
 }
 
 .match-principle-lbl {
@@ -255,45 +238,98 @@
   border-color: transparent transparent #FFF transparent;
 }
 
-.up-products-panel, .down-products-panel  {
-  position: relative;
+.match-result-item {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.match-left, .match-right {
+.left-match-col {
+  max-width: 600px;
+}
+
+.right-match-col {
+  max-width: 600px;
+}
+
+.up-products-panel {
+  margin-top: 30px;
+}
+
+.carousel {
+  max-width: 500px;
+  max-height: 350px;
+}
+
+.carousel img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.slick-list {
+  width: 500px;
+  text-align: center;
+}
+
+.slick-slide {
+  padding: 0 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+  color: black;
+  left: -10px;
   position: absolute;
-  top: 186px;
-  font-size: 36px;
 }
 
-.match-left {
-  left: -30px;
+.carousel .product-img {
+
+}
+/*
+.match-result-item .carousel > * {
+  flex: 0 0 auto;
 }
 
-.match-right {
-  right: -30px;
+
+.match-result-item .carousel .figure {
+  margin: 0;
+  width: 40%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
 }
 
-#match-result-panel .product-info {
-  grid-template-rows: 20px 20px 1fr;
+.match-result-item .carousel .figure img {
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  padding: 0 0 / 2;
 }
 
-#match-result-panel .styles-panel .style-item {
-  display: none;
+.match-result-item .carousel .figure img:not(:first-of-type) {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-#match-result-panel .styles-panel .show-item {
-  display: block;
+.match-result-item nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
 }
 
-.match-right, .match-left {
-  border: none;
-  background: transparent;
+.match-result-item nav button {
+  flex: 0 0 auto;
+  margin: 0 5px;
+  
   cursor: pointer;
+  
+  color: #333;
+  background: none;
+  border: 1px solid;
+  letter-spacing: 1px;
+  padding: 5px 10px;
 }
-
-.match-right:hover, .match-left:hover {
-  color: var(--red);
-}
+*/
 
 /*  RWD */
 

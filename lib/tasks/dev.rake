@@ -62,6 +62,9 @@ namespace :dev do
     lativ_products  = CSV.read(Rails.root.to_s+"/mechanize/lativ/products0_renamed.txt")
     uniqlo_products = CSV.read(Rails.root.to_s+"/mechanize/uniqlo/products0_renamed.txt")
 
+    lativ_color_chips  = CSV.read(Rails.root.to_s+"/mechanize/lativ/color_chip.txt")
+    uniqlo_color_chips = CSV.read(Rails.root.to_s+"/mechanize/uniqlo/color_chip.txt")
+
     lativ_styles  = CSV.read(Rails.root.to_s+"/mechanize/lativ/styles0_renamed.txt")
     uniqlo_styles = CSV.read(Rails.root.to_s+"/mechanize/uniqlo/styles0_renamed.txt")
     lativ_style_count = lativ_styles.count - 1
@@ -79,6 +82,7 @@ namespace :dev do
           image: '',
           link: '',
           price: -1,
+          color_chip: ''
         )
       else
         Product.create!(
@@ -88,6 +92,7 @@ namespace :dev do
           image: product[2],
           link: get_lativ_product_link(lativ_styles[product[0].to_i+1][3], product[2]),
           price: lativ_styles[product[0].to_i+1][2],
+          color_chip: lativ_color_chips[i][1]
         )
       end   
     end
@@ -103,6 +108,7 @@ namespace :dev do
         image: product[4],
         link: product[2],
         price: uniqlo_styles[product[0].to_i+1][2],
+        color_chip: uniqlo_color_chips[i][1]
       )
     end
     puts "- uniqlo products created!"
