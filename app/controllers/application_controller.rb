@@ -14,6 +14,6 @@ class ApplicationController < ActionController::Base
 
   def store_user_location!
     # :user is the scope we are authenticating
-    store_location_for(:user, request.fullpath)
+    store_location_for(:user, request.fullpath) unless request.xhr?
   end
 end
