@@ -19,7 +19,7 @@ $(document).on('turbolinks:load', function(){
     }
 
     $('#spinner-overlay').css('display', 'grid');
-    $('#product-match-result').show();
+    
     
     $.ajax({
       url: '/khroma/match',
@@ -35,7 +35,8 @@ $(document).on('turbolinks:load', function(){
         $('#match-result-panel').html(data['productsMatchHtml']);
       }
     }).done(function(){
-      $('.match-principle-pill:first-of-type').addClass('active');
+      $('#product-match-result').show();
+      $('.match-principle-pill:first-of-type .color-panel').addClass('active');
 
        $('.carousel').slick({
         centerMode: true,
@@ -77,7 +78,7 @@ $(document).on('turbolinks:load', function(){
     var up_hue_level;
     var down_type_id;
     var down_hue_level;
-    var principle_color_id = $(this).attr('id');
+    var principle_color_id = $(this).find('.color-panel').attr('id');
 
     if ($('.product-info-lg .up-type').length == 0) {
       up_type_id = "99";
@@ -107,8 +108,7 @@ $(document).on('turbolinks:load', function(){
       }
     }).done(function(){
       $('.match-principle-pill.active').removeClass('active');
-      $('.match-principle-pill#' + principle_color_id).addClass('active');
-      console.log($('.match-principle-pill#' + principle_color_id));
+      $('.match-principle-pill .color-panel#' + principle_color_id).addClass('active');
        $('.carousel').slick({
         centerMode: true,
         centerPadding: '60px',
