@@ -39,7 +39,7 @@ Devise.setup do |config|
   # config.authentication_keys = [:email]
   fb_config = Rails.application.config_for(:facebook)
 
-  config.omniauth :facebook, fb_config["app_id"], fb_config["secret"], scope: "public_profile,email", info_fields: "email,name", callback_url: "http://https://khroma-0401.herokuapp.com/users/auth/facebook/callback"
+  config.omniauth :facebook, fb_config["app_id"], fb_config["secret"], scope: "public_profile,email", info_fields: "email,name", callback_url: "http://khroma-0401.herokuapp.com/users/auth/facebook/callback"
 
   require "omniauth-google-oauth2"
 
