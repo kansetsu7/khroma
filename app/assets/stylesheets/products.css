@@ -162,6 +162,14 @@
   justify-self: center;
 }
 
+#product-match-result {
+  display: none;
+  background: #FFF;
+}
+
+#product-match-result #match-result-panel {
+  padding: 20px 0;
+}
 /* RWD */ 
 
 @media (max-width: 550px) {

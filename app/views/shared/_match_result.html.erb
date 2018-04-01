@@ -1,62 +1,41 @@
 <!-- tab比照 'khroma配一下' 的功能，多送一個params[:principle_color_id] = principle_color_id 進controller -->
-<%# principle_colors.each_with_index do |principle_color, i| %>
-  <div><%#= "principle_color_id: #{principle_color.id} - #{principle_color.principle.name}: #{principle_color.hue_level.name} x #{principle_color.match1_hue_level.name}" %></div>  
-<%# end %>
+<div class="match-principle-pills">
+  <% principle_colors.each_with_index do |principle_color, i| %>
+      <div id="<%= principle_color.id %>" class="match-principle-pill shadow-box-light">
+        <div class="hex-lbl" style="background: <%= principle_color.hue_level.hex %>;"></div>
+        <div class="slash" style="border-color:  <%= principle_color.hue_level.hex %> <%= principle_color.match1_hue_level.hex %>  <%= principle_color.match1_hue_level.hex %> <%= principle_color.hue_level.hex %>;"></div>
+        <div class="hex-lbl" style="background: <%= principle_color.match1_hue_level.hex %>;"></div>
+      </div>
+  <% end %>
+</div>
+
+  <div class="match-principle-lbl">
+    <div>
+      <div class="match-principle-panel shadow-box">
+        配色法則: <%= target_principle.name %>
+        <%= image_tag target_principle.image unless image_path(target_principle.image) == '' %>
+      </div>
+    </div> 
+  </div>
 
 <div class="match-result-item">
-  <div class="match-principle-title shadow-box">
-    <div class="result-count">
-      <% if top_color.hex == "#000000"%>
-        <% first_black_label = "black-label" %>
-      <% else %>
-        <% first_black_label = "" %>
+  <div class="left-match-col">
+    <div class="up-products-panel carousel">
+        <% top_products.each do |product| %>
+          <%= render partial: "shared/product_match", locals: {product: product} %>
+        <% end %>
+    </div> 
+    <div class="down-products-panel carousel" style="margin-top: 20px;">
+      <% bottom_products.each do |product| %>
+          <%= render partial: "shared/product_match", locals: {product: product} %>
       <% end %>
-      <% if bottom_color.hex == "#000000"%>
-        <% second_black_label = "black-label" %>
-      <% else %>
-        <% second_black_label = "" %>
-      <% end %>
-      <div class="hex-lbl <%= first_black_label %>" style="background: <%= top_color.hex %>; opacity: 0.8;"><%= top_color.name.split(' ')[1] %></div>
-      <div class="hex-lbl second-hex-lbl <%= second_black_label %>" style="background: <%= bottom_color.hex %>; opacity: 0.8;"><%= bottom_color.name.split(' ')[1] %></div>
-      <div class="count-lbl">上身: <%= top_products.count %> 件 &nbsp;&nbsp; 下身: <%= bottom_products.count %> 件</div>
-    </div>
-    <div class="match-principle-lbl">
-      <div>配色法則: <%= target_principle.name %>
-        <div class="match-principle-panel shadow-box">
-          <%= image_tag target_principle.image unless image_path(target_principle.image) == '' %>
-        </div>
-      </div> 
-    </div>
+    </div>  
+<!--     <%= show_optional_colors(optional_colors) %>  --> <!-- helper: app/helpers/khroma_helper -->
   </div>
-  <div>
-    <% unless outfits.nil? %>
-      <% outfits.each do |outfit| %>
-        <%= image_tag(outfit.image) %>
-      <% end %>
+    <div class="right-match-col">
+    <% unless outfits == [] %>
+        <%= image_tag(outfits.first.image) %>
     <% end %>
   </div>
-  <div class="styles-panel up-products-panel">
-    <% puts top_products.count %>
-    <% if top_products.count > 4 %>
-      <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
-    <% end %>  
-    <% top_products.each_with_index do |product, j| %>
-      <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
-    <% end %>
-    <% if top_products.count > 4 %>
-      <button class="match-right"><i class="fa fa-caret-right"></i></button>
-    <% end %> 
-  </div> 
-  <div class="styles-panel down-products-panel" style="margin-top: 20px;">
-    <% if bottom_products.count > 4 %>
-      <button class="match-left" disabled><i class="fa fa-caret-left"></i></button>
-    <% end %>  
-    <% bottom_products.each_with_index do |product, j| %>
-        <%= render partial: "shared/product_match", locals: {product: product, i: j} %>
-    <% end %>
-    <% if bottom_products.count > 4 %>
-      <button class="match-right"><i class="fa fa-caret-right"></i></button>
-    <% end %> 
-  </div>  
-  <%= show_optional_colors(optional_colors) %>  <!-- helper: app/helpers/khroma_helper -->
+  
 </div>
