@@ -37,7 +37,7 @@ $(document).on('turbolinks:load', function(){
       success: function(data){
         $('#up-type-choice').html(data['typesUpHtml']);
         $('#down-type-choice').html(data['typesDownHtml']);
-      }
+      },
     }).done(function(){
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       });   
@@ -57,9 +57,8 @@ $(document).on('turbolinks:load', function(){
   });
 
   $('#kroma-index-match #match-btn').click(function(){
-
+    $('.error-msg').html('');
     $('#spinner-overlay').css('display', 'grid');
-    
     
     var up_hue_level;
     var down_hue_level;
@@ -83,6 +82,9 @@ $(document).on('turbolinks:load', function(){
       },
       success: function(data){
         $('#match-result-panel').html(data['productsMatchHtml']);
+      },      
+      error: function() {
+        $('#kroma-index-match .error-msg').append('<p class="text-center" style=" color: var(--yellow)">選單皆為必填</p>');
       }
     }).done(function(){
       $('#promote').hide();
