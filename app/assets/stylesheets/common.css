@@ -89,7 +89,10 @@ button[disabled] {
   cursor: pointer;
 }
 
-
+/*[data-sr] {
+  visibility: hidden;
+}
+*/
 /* navbar */
 header {
   width: 100%;
