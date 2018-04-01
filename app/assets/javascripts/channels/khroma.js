@@ -59,7 +59,7 @@ $(document).on('turbolinks:load', function(){
   $('#kroma-index-match #match-btn').click(function(){
 
     $('#spinner-overlay').css('display', 'grid');
-    $('#match-result').show();
+    
     
     var up_hue_level;
     var down_hue_level;
@@ -86,7 +86,8 @@ $(document).on('turbolinks:load', function(){
       }
     }).done(function(){
       $('#promote').hide();
-      $('.match-principle-pill:first-of-type').addClass('active');
+      $('#match-result').show();
+      $('.match-principle-pill:first-of-type .color-panel').addClass('active');
 
        $('.carousel').slick({
         centerMode: true,
@@ -126,7 +127,7 @@ $(document).on('turbolinks:load', function(){
 
     var up_hue_level;
     var down_hue_level;
-    var principle_color_id = $(this).attr('id');
+    var principle_color_id = $(this).find('.color-panel').attr('id');
 
     if (typeof $('#up-hue-choice #hue_level_id').val() == 'undefined') {
       up_hue_level = "99";
@@ -152,8 +153,7 @@ $(document).on('turbolinks:load', function(){
       }
     }).done(function(){
       $('.match-principle-pill.active').removeClass('active');
-      $('.match-principle-pill#' + principle_color_id).addClass('active');
-      console.log($('.match-principle-pill#' + principle_color_id));
+      $('.match-principle-pill .color-panel#' + principle_color_id).addClass('active');
        $('.carousel').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -211,12 +211,12 @@ $(document).on('turbolinks:load', function(){
   });
 
 
-  $('#match-result-panel').on('mouseenter', '.match-principle-lbl', function() {
-      $(this).find('.match-principle-panel').show(0);
+  $('#match-result-panel').on('mouseenter', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'grid');
   }); 
 
-  $('#match-result-panel').on('mouseleave', '.match-principle-lbl', function() {
-      $(this).find('.match-principle-panel').hide(0);
+  $('#match-result-panel').on('mouseleave', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'none');
   });
 
   
