@@ -63,9 +63,18 @@ class Match
     end
 
     hue_level = @no_params['top_hue_level'] ? @bottom_hue_level.to_i : @top_hue_level.to_i 
-    @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
+    # @principle_colors = PrincipleColor.where(hue_level_id: hue_level)  # 從提供的hue_level找到多筆對應PrincipleColor
+
+    gender_id = @no_params['top_type'] ? Type.find(@bottom_type).gender.id : Type.find(@top_type).gender.id
+    pcs = PrincipleColor.where(hue_level_id: hue_level)
+    @principle_colors = []
+    pcs.each_with_index do |principle_color, i|  # 只留有outfits的principle_colors
+      @principle_colors.push(principle_color) unless principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id) == []
+    end
+
     @target_principle_color = @principle_color_id.nil? ? @principle_colors.first : PrincipleColor.find(@principle_color_id)
     @target_principle = @target_principle_color.principle
+
   end
 
   def set_attributes
@@ -76,35 +85,7 @@ class Match
   end
 
   def set_outfits
-
-    if @no_params['top_type']
-      bottom_category_id = Type.find(@bottom_type).category.id  # 有給type的category
-      top_category_id    = bottom_category_id - 1
-      gender_id          = Type.find(@bottom_type).gender.id  # 有給type的gender
-    elsif @no_params['bottom_type']
-      top_category_id    = Type.find(@top_type).category.id  # 有給type的category
-      bottom_category_id = top_category_id + 1
-      gender_id          = Type.find(@top_type).gender.id  # 有給type的gender
-    else
-      top_category_id    = Type.find(@top_type).category.id
-      bottom_category_id = Type.find(@bottom_type).category.id
-      gender_id          = Type.find(@top_type).gender.id  # 有給type的gender
-    end
-
-    if @no_params['top_hue_level']
-      top_hue_level    = @target_principle_color.hue_level_id
-      bottom_hue_level = @target_principle_color.hue_match1
-    elsif @no_params['bottom_hue_level']
-      top_hue_level    = @target_principle_color.hue_match1
-      bottom_hue_level = @target_principle_color.hue_level_id
-    else
-      top_hue_level    = @top_hue_level.to_i
-      bottom_hue_level = @bottom_hue_level.to_i
-    end
-    puts "target_principle_color #{@target_principle_color.id}"
-    puts "top: #{top_category_id}, #{top_hue_level}"
-    puts "bottom: #{bottom_category_id}, #{bottom_hue_level}"
-    
+    gender_id = @no_params['top_type'] ? Type.find(@bottom_type).gender.id : Type.find(@top_type).gender.id    
     @outfits = @target_principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id)
   end
 
