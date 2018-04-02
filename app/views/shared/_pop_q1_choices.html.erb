@@ -6,16 +6,16 @@
     <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇上衣款式", required: true }, {class: "custom-select"}) %>
   </span>
   <span id="up-hue-choice" class="input-group">
-    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  {  prompt: "請選擇上衣顏色" }, {class: "custom-select"}) %>
+    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  {  prompt: "請選擇上衣顏色",required: true }, {class: "custom-select"}) %>
   </span>
 <% elsif categories.first.name == "下身類" %>
   <span id="down-type-choice" class="input-group">
   <div class="input-group-prepend">
        <span class="input-group-text"><%= image_tag("pants.png") %></span>
     </div>
-    <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式"}, {class: "custom-select"}) %>
+    <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式",required: true}, {class: "custom-select"}) %>
   </span>
   <span id="down-hue-choice" class="input-group">
-    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, { prompt: "請選下身顏色" }, {class: "custom-select"}) %>
+    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, { prompt: "請選下身顏色", required: true }, {class: "custom-select"}) %>
   </span>
 <% end %>

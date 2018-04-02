@@ -4,6 +4,7 @@ $(document).on('turbolinks:load', function(){
   window.sr = ScrollReveal();
 
   sr.reveal('#question1, #gender-choice, #category-choice',{origin:'bottom', duration: 500, distance: '50px'});
+  // sr.destroy('#question1, #gender-choice, #category-choice');
 
   // $('#question1, #type-choice-panel, #gender-choice').fadeIn();
 
@@ -25,6 +26,7 @@ $(document).on('turbolinks:load', function(){
       $('#q1-choice-panel').css('display', 'grid');
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       sr.reveal('#q1-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
+      // sr.destroy('#q1-choice-panel');
     });  
   });
 
@@ -37,7 +39,7 @@ $(document).on('turbolinks:load', function(){
       success: function(data){
         $('#up-type-choice').html(data['typesUpHtml']);
         $('#down-type-choice').html(data['typesDownHtml']);
-      }
+      },
     }).done(function(){
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       });   
@@ -48,18 +50,19 @@ $(document).on('turbolinks:load', function(){
     $('#question2').show();
     $('#q2-choice-panel').css('display', 'grid');
     sr.reveal('#question2, #q2-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
+    // sr.destroy('#question2, #q2-choice-panel');
     // $('#question2, #hue-choice-panel').fadeIn();
   });
 
   $('#q2-choice-panel').on('change', 'span', function(){
     $('#match-btn').css('display', 'grid');
     sr.reveal('#match-btn',{origin:'bottom', duration: 500, distance: '50px'});
+    // sr.destroy('#match-btn');
   });
 
   $('#kroma-index-match #match-btn').click(function(){
-
+    $('.error-msg').html('');
     $('#spinner-overlay').css('display', 'grid');
-    
     
     var up_hue_level;
     var down_hue_level;
@@ -83,6 +86,9 @@ $(document).on('turbolinks:load', function(){
       },
       success: function(data){
         $('#match-result-panel').html(data['productsMatchHtml']);
+      },      
+      error: function() {
+        $('#kroma-index-match .error-msg').append('<p class="text-center" style=" color: var(--yellow)">選單皆為必填</p>');
       }
     }).done(function(){
       $('#promote').hide();

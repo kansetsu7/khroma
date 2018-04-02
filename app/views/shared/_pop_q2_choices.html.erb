@@ -10,6 +10,6 @@
     <div class="input-group-prepend">
        <span class="input-group-text"><%= image_tag("pants.png") %></span>
     </div>
-    <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式"}, {class: "custom-select"}) %>
+    <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式",required: true }, {class: "custom-select"}) %>
   </span>
 <% end %>

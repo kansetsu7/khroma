@@ -19,18 +19,20 @@
 //= require_tree .
 //= require jquery.slick
 
+// $(window).bind("pageshow", function() {
+//   $('#spinner-overlay').hide();
+// });
+
+
+
+$(document).on('turbolinks:click', function() {
+   $('#spinner-overlay').css('display', 'grid');
+});
+
 
 $(document).on('turbolinks:load', function() {
-
-
-  $(document).on('turbolinks:click', function() {
-   $('#spinner-overlay').css('display', 'grid');
-  });
-
-  $(document).on('turbolinks:load', function() {
-    $('#spinner-overlay').hide();
-  });
-
+  jQuery('[data-sr-id]').removeAttr('data-sr-id').removeAttr('style');
+  $('#spinner-overlay').hide();
 
   var timeout;
   $('#user-center-lbl').hover(function() {
