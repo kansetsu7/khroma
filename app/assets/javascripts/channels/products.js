@@ -71,7 +71,7 @@ $(document).on('turbolinks:load', function(){
     });
   });
 
-  $('#match-result-panel').on('click', '.match-principle-pill', function(){
+  $('#product-match-result #match-result-panel').on('click', '.match-principle-pill', function(){
     $('#spinner-overlay').css('display', 'grid');
 
     var up_type_id;

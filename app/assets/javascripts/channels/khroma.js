@@ -128,7 +128,7 @@ $(document).on('turbolinks:load', function(){
     });
   });
 
-  $('#match-result-panel').on('click', '.match-principle-pill', function(){
+  $('#match-result #match-result-panel').on('click', '.match-principle-pill', function(){
     $('#spinner-overlay').css('display', 'grid');
 
     var up_hue_level;
