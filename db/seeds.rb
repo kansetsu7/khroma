@@ -94,7 +94,6 @@ puts "Have created #{HueLevel.count} hue_levels."
 # 4,  分離互補,     Split Complementary
 # 5,  三角法,      Triad
 # 6,  無色彩,      Achromatic
-# 7,  沒有符合的配色法則
 # google sheets : color 內也有
 
 
@@ -103,33 +102,28 @@ Principle.destroy_all
 principle_names.each_with_index do |name, i|
   Principle.create(
     name: principle_names[i],
-    image: File.open(File.join(Rails.root, "/public/principle_img/principle#{i+1}.jpeg"))
   )
 end
-
-Principle.create(
-  name: '沒有符合的配色法則',
-  image: ''
-)
 
 puts "Have created #{Principle.count} principles."
 
 # ===== PrincipleColors ===============================
 # 詳細內容請看google sheets : color 
 PrincipleColor.destroy_all
-def create_pinciple_color(principle_id, hue_level_id, hue_match1, hue_option1 = -1, hue_option2 = -1)
+def create_pinciple_color(principle_id, hue_level_id, hue_match1, file_num, hue_option1 = -1, hue_option2 = -1)
   PrincipleColor.create!(
     principle_id: principle_id,
     hue_level_id: hue_level_id,
     hue_match1:   hue_match1,
     hue_option1:  hue_option1,
-    hue_option2:  hue_option2
+    hue_option2:  hue_option2,
+    image: File.open(File.join(Rails.root, "/public/principle_color_img/pc#{file_num}.jpg"))
   )
 end
 
 # ---- 1. Monochromatic ----
 for i in 1..13 do
-  create_pinciple_color(1, i, i)
+  create_pinciple_color(1, i, i, i)
 end
 
 # ---- 2. Analogous ----
@@ -140,8 +134,8 @@ for i in 1..12 do
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
   h3 += 12 if h3 < 1
-  create_pinciple_color(2, i, h1, h2, h3)
-  create_pinciple_color(2, i, h2, h1)
+  create_pinciple_color(2, i, h1, 14 + (i - 1) * 4, h2, h3)
+  create_pinciple_color(2, i, h2, 15 + (i - 1) * 4, h1)
 
   h1 = i - 1
   h2 = i - 2
@@ -149,32 +143,16 @@ for i in 1..12 do
   h1 += 12 if h1 < 1
   h2 += 12 if h2 < 1
   h3 -= 12 if h3 > 12
-  create_pinciple_color(2, i, h1, h2, h3)
-  create_pinciple_color(2, i, h2, h1)
-
-  # h1 = i + 1
-  # h2 = i - 1
-  # h1 -= 12 if h1 > 12
-  # h2 += 12 if h2 < 1
-  # create_pinciple_color(2, i, h1, h2)
-  # create_pinciple_color(2, i, h2, h1)
-  # h2 = i + 2
-  # h2 -= 12 if h2 > 12
-  # create_pinciple_color(2, i, h1, h2)
-  # create_pinciple_color(2, i, h2, h1)
-  # h1 = i - 1
-  # h2 = i - 2
-  # h1 += 12 if h1 < 1
-  # h2 += 12 if h2 < 1
-  # create_pinciple_color(2, i, h1, h2)
-  # create_pinciple_color(2, i, h2, h1)
+  file_num = i == 1 ? 58 : 14 + (i - 2) * 4
+  create_pinciple_color(2, i, h1, file_num, h2, h3)
+  create_pinciple_color(2, i, h2, 14 + 4 * i, h1)
 end
 
 # ---- 3. Complementary ----
 for i in 1..12 do
   h1 = i + 6
   h1 -= 12 if h1 > 12
-  create_pinciple_color(3, i, h1)
+  create_pinciple_color(3, i, h1, 61 + i)
 end
 
 # ---- 4. Split Complementary ----
@@ -183,8 +161,8 @@ for i in 1..12 do
   h2 = i + 7
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  create_pinciple_color(4, i, h1, h2)
-  create_pinciple_color(4, i, h2, h1)
+  create_pinciple_color(4, i, h1, 72 + i * 2, h2)
+  create_pinciple_color(4, i, h2, 72 + i * 2, h1)
 end
 
 # ---- 5. Triad ----
@@ -193,17 +171,17 @@ for i in 1..12 do
   h2 = i + 8
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  create_pinciple_color(5, i, h1, h2)
-  create_pinciple_color(5, i, h2, h1)
+  create_pinciple_color(5, i, h1, 96 + i * 2, h2)
+  create_pinciple_color(5, i, h2, 96 + i * 2, h1)
 end
 
 # ---- 6. Achromatic ----
 for i in 1..12 do
-  create_pinciple_color(6, i, 13)
+  create_pinciple_color(6, i, 13, 121 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, 13, i)
+  create_pinciple_color(6, 13, i, 121 + i)
 end
 
 puts "Have created #{PrincipleColor.count} principle colors."
