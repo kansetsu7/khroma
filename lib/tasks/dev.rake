@@ -354,21 +354,15 @@ namespace :dev do
   end
 
   task test: :environment do
-    # results = Array.new(13)
-    # results.each_with_index do |result, i|
-    #   results[i] = 0
-    # end
-    outfits = Outfit.joins(:celebrity).where('celebrities.gender_id = ?', 1)
-    outfits.each do |outfit|
-      outfit.principle_colors.each do |opc|
-        if opc.hue_level_id == 1
-          puts "outfit #{outfit.id}, #{opc.hue_level_id} x #{opc.hue_match1}"
-        end
-      end
+    outfit = Outfit.find(455)
+    outfit.products.each_with_index do |product, i|
+      puts "product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
     end
-    # results.each_with_index do |result, i|
-    #   puts "#{i}, #{result}"
-    # end
+    outfit.virtual_products.each_with_index do |product, i|
+      puts "virtual_product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
+    end
+
+
   end
 
   task fake_all: :environment do
