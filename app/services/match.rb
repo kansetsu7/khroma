@@ -1,6 +1,6 @@
 class Match
 
-  attr_reader :errors, :principle_colors, :top_color, :bottom_color, :optional_colors,
+  attr_reader :error, :principle_colors, :top_color, :bottom_color, :optional_colors,
               :top_products, :bottom_products, :outfits, :target_principle_color,
               :target_principle
   
@@ -19,7 +19,7 @@ class Match
                   'bottom_hue_level' => bottom_hue_level == '99'
                  }
 
-    @errors = []
+    @error = []
     @top_color
     @bottom_color
     @optional_colors = []
@@ -28,6 +28,7 @@ class Match
     @outfits = []
 
     set_principle_colors
+    return unless error == ''
     set_attributes
     puts_attributes_count
   end
@@ -41,7 +42,7 @@ class Match
 
   def puts_attributes_count
     puts '====================================='
-    puts "@errors #{@errors.count}"
+    puts "@error #{@error.count}"
     puts "principle_colors #{@principle_colors.count}"
     puts "@principle_color_id #{@principle_color_id}"
     puts "@target_principle_color #{@target_principle_color.id}"
@@ -57,7 +58,7 @@ class Match
 
   def set_principle_colors
     unless enough_params?
-      @errors = ['參數不足，無法配色。至少要給半身的服裝與顏色才能進行配對']
+      @error = '參數不足，無法配色。至少要給半身的服裝與顏色才能進行配對'
       return
     end
 
@@ -75,14 +76,17 @@ class Match
       @principle_colors.push(principle_color) unless principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id) == []
     end
 
-    puts "#{@principle_colors.count} @principle_colors--------"
+    if @principle_colors.count == 0
+      @error = '哎呀！找不到相關的穿搭圖...'
+      return
+    end
     @target_principle_color = @principle_color_id.nil? ? @principle_colors.first : PrincipleColor.find(@principle_color_id)
     @target_principle = @target_principle_color.principle
 
   end
 
   def set_attributes
-    return unless enough_params?
+    return unless error == ''
     set_colors
     set_products
     set_outfits

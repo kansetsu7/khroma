@@ -1,4 +1,5 @@
-<!-- tab比照 'khroma配一下' 的功能，多送一個params[:principle_color_id] = principle_color_id 進controller -->
+<%= error unless error == '' %>
+<% if error == '' %>
 <div class="match-principle-pills">
   <% principle_colors.each do |principle_color| %>
     <div class="match-principle-pill shadow-box-light">
@@ -9,7 +10,7 @@
       </div>
       <div class="match-principle-panel shadow-box">
         <div class="text-center">配色法則: <%= principle_color.principle.name %></div>
-        <%= image_tag principle_color.principle.image unless image_path(principle_color.principle.image) == '' %>
+        <%= image_tag principle_color.image %>
       </div>
     </div>
   <% end %>
@@ -38,6 +39,6 @@
     <% unless outfits == [] %>
         <%= image_tag(outfits.first.image) %>
     <% end %>
-  </div>
-  
+  </div>  
 </div>
+<% end %>

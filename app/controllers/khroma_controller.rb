@@ -20,7 +20,7 @@ class KhromaController < ApplicationController
       productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {principle_colors: @matches.principle_colors,
         top_color: @matches.top_color, bottom_color: @matches.bottom_color, optional_colors: @matches.optional_colors,
         top_products: @matches.top_products, bottom_products: @matches.bottom_products, outfits: @matches.outfits,
-        target_principle: @matches.target_principle})
+        target_principle: @matches.target_principle, error: @matches.error})
     }
   end
 
