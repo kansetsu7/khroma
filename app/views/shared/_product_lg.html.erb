@@ -35,6 +35,7 @@
     <div class="product-brand">
         <%= image_tag("#{@product.brand}-logo.png", class: "product-brand-img") %>
     </div>
+    <%= link_to "類似產品" , family_product_path(@product) %>
   <div class="product-price">
     NT$<%= product.price.round %>
   </div>

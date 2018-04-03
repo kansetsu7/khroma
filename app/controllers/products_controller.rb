@@ -1,10 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_current_style, only: [:change_style_previous, :change_style_next]
 
-  def index
-    @style = Style.find(params[:style_id])
-    @products = @style.products
-  end
 
   def show
     @product = Product.find(params[:id])
@@ -33,6 +29,11 @@ class ProductsController < ApplicationController
     @product = previous_style.products.first
 
     render file: "products/change_color.js.erb" 
+  end
+
+  def family
+    @product = Product.find(params[:id])
+    @family = @product.style.type.products.joins(:color).where("colors.hue_level_id = ?", @product.color.hue_level_id).includes(color: :hue_level, style: :type)
   end
 
   private

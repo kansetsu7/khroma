@@ -1,0 +1,7 @@
+<% @family.each do |product| %>
+  <li>
+    <%= product.name %>
+    <%= product.color.hue_level.name %>
+    <%= product.style.type.name %>
+  </li>
+<% end %>
