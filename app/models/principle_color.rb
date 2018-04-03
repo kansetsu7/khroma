@@ -1,4 +1,5 @@
 class PrincipleColor < ApplicationRecord
+  mount_uploader :image, PrincipleColorImageUploader
   belongs_to :principle
   belongs_to :hue_level
   belongs_to :match1_hue_level, class_name: "HueLevel", foreign_key: "hue_match1"
