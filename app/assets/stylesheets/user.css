@@ -48,3 +48,15 @@
   grid-column: 1 / -1;
   justify-self: center;
 }
+
+/* RWD */
+
+@media (max-width: 550px) {
+
+  .user-pill-panel, .user-profile-panel {
+    margin: 0 auto;
+  }
+  .user-profile-panel {
+    margin-top: 20px;
+  }
+}
