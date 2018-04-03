@@ -1,44 +1,44 @@
 <%= error unless error == '' %>
 <% if error == '' %>
-<div class="match-principle-pills">
-  <% principle_colors.each do |principle_color| %>
-    <div class="match-principle-pill shadow-box-light">
-      <div id="<%= principle_color.id %>" class="color-panel">
-        <div class="hex-lbl" style="background: <%= principle_color.hue_level.hex %>;"></div>
-        <div class="slash" style="border-color:  <%= principle_color.hue_level.hex %> <%= principle_color.match1_hue_level.hex %>  <%= principle_color.match1_hue_level.hex %> <%= principle_color.hue_level.hex %>;"></div>
-        <div class="hex-lbl" style="background: <%= principle_color.match1_hue_level.hex %>;"></div>
+  <div class="match-principle-pills">
+    <% principle_colors.each do |principle_color| %>
+      <div class="match-principle-pill shadow-box-light">
+        <div id="<%= principle_color.id %>" class="color-panel">
+          <div class="hex-lbl" style="background: <%= principle_color.hue_level.hex %>;"></div>
+          <div class="slash" style="border-color:  <%= principle_color.hue_level.hex %> <%= principle_color.match1_hue_level.hex %>  <%= principle_color.match1_hue_level.hex %> <%= principle_color.hue_level.hex %>;"></div>
+          <div class="hex-lbl" style="background: <%= principle_color.match1_hue_level.hex %>;"></div>
+        </div>
+        <div class="match-principle-panel shadow-box">
+          <div class="text-center">配色法則: <%= principle_color.principle.name %></div>
+          <%= image_tag principle_color.image %>
+        </div>
       </div>
-      <div class="match-principle-panel shadow-box">
-        <div class="text-center">配色法則: <%= principle_color.principle.name %></div>
-        <%= image_tag principle_color.image %>
-      </div>
+    <% end %>
+  </div>
+  <div class="match-result-item">
+    <div class="left-match-col">
+      <div class="up-products-panel carousel">
+          <% if top_products.length == 0 %>
+            <em style="align-self:center, justify-self:center">上衣沒有搜尋到符合商品</em>
+          <% end %>
+          <% top_products.each do |product| %>
+            <%= render partial: "shared/product_match", locals: {product: product} %>
+          <% end %>
+      </div> 
+      <div class="down-products-panel carousel" style="margin-top: 20px;">
+        <% if bottom_products.length == 0 %>
+            <em style="align-self:center, justify-self:center">下身沒有搜尋到符合商品</em>
+          <% end %>
+        <% bottom_products.each do |product| %>
+            <%= render partial: "shared/product_match", locals: {product: product} %>
+        <% end %>
+      </div>  
+  <!--     <%= show_optional_colors(optional_colors) %>  --> <!-- helper: app/helpers/khroma_helper -->
     </div>
-  <% end %>
-</div>
-<div class="match-result-item">
-  <div class="left-match-col">
-    <div class="up-products-panel carousel">
-        <% if top_products.length == 0 %>
-          <em style="align-self:center, justify-self:center">上衣沒有搜尋到符合商品</em>
-        <% end %>
-        <% top_products.each do |product| %>
-          <%= render partial: "shared/product_match", locals: {product: product} %>
-        <% end %>
-    </div> 
-    <div class="down-products-panel carousel" style="margin-top: 20px;">
-      <% if bottom_products.length == 0 %>
-          <em style="align-self:center, justify-self:center">下身沒有搜尋到符合商品</em>
-        <% end %>
-      <% bottom_products.each do |product| %>
-          <%= render partial: "shared/product_match", locals: {product: product} %>
+      <div class="right-match-col">
+      <% unless outfits == [] %>
+          <%= image_tag(outfits.first.image) %>
       <% end %>
     </div>  
-<!--     <%= show_optional_colors(optional_colors) %>  --> <!-- helper: app/helpers/khroma_helper -->
   </div>
-    <div class="right-match-col">
-    <% unless outfits == [] %>
-        <%= image_tag(outfits.first.image) %>
-    <% end %>
-  </div>  
-</div>
 <% end %>

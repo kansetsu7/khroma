@@ -19,7 +19,7 @@ class Match
                   'bottom_hue_level' => bottom_hue_level == '99'
                  }
 
-    @error = []
+    @error = ''
     @top_color
     @bottom_color
     @optional_colors = []
@@ -42,7 +42,6 @@ class Match
 
   def puts_attributes_count
     puts '====================================='
-    puts "@error #{@error.count}"
     puts "principle_colors #{@principle_colors.count}"
     puts "@principle_color_id #{@principle_color_id}"
     puts "@target_principle_color #{@target_principle_color.id}"
@@ -86,7 +85,6 @@ class Match
   end
 
   def set_attributes
-    return unless error == ''
     set_colors
     set_products
     set_outfits
