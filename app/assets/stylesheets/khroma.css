@@ -325,6 +325,10 @@
 }
 
 @media (max-width: 768px) {
+
+  .match-choice-panel {
+    width: 100%;
+  }
   .promote-panel {
     display: none;
   }
@@ -345,11 +349,33 @@
 }
 
 @media (max-width: 550px) {
+  .match-choice-panel  {
+    grid-gap: 10px;
+  }
+  .match-choice-panel h2 {
+    font-size: 22px;
+  }
+  #q1-choice-panel {
+    grid-template-columns: 1fr;
+  }
 
   .slick-slide {
     width: 50%;
   }
   .slick-slide img {
     display: inline-block;
+  }
+
+  #q2-choice-panel {
+    width: 100%;
+  }
+
+  #match-btn {
+    height: 130px;
+    width: 130px;
+  }
+
+  .match-btn-word {
+    font-size: 16px;
   }
 }
