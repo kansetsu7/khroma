@@ -97,25 +97,30 @@ $(document).on('turbolinks:load', function(){
 
        $('.carousel').slick({
         centerMode: true,
-        centerPadding: '60px',
         slidesToShow: 1,
         responsive: [
           {
             breakpoint: 768,
             settings: {
               arrows: true,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 590,
             settings: {
               arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 425,
+            settings: {
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              arrows: false,
             }
           }
         ]
@@ -162,25 +167,30 @@ $(document).on('turbolinks:load', function(){
       $('.match-principle-pill .color-panel#' + principle_color_id).addClass('active');
        $('.carousel').slick({
         centerMode: true,
-        centerPadding: '60px',
         slidesToShow: 1,
         responsive: [
           {
             breakpoint: 768,
             settings: {
               arrows: true,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 590,
             settings: {
               arrows: false,
-              centerMode: true,
-              centerPadding: '40px',
-              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 425,
+            settings: {
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              arrows: false,
             }
           }
         ]

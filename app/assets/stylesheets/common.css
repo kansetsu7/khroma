@@ -449,9 +449,37 @@ footer {
 /* RWD */
 
 
-@media (max-width: 768px) {
-  
+@media (min-width: 992px){
+  .container{
+    max-width:100%;
+  }
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 1110px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*@media (max-width: 1110px) {
+  .container {
+    width: 90%;
+  }
+}*/
 
 @media (max-width: 550px) {
   .container {
