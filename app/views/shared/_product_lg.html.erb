@@ -1,52 +1,58 @@
-<div class="previous-product-btn">
-  <%= link_to change_style_previous_product_path(product.id), remote: true do %>
-    <i class="fa fa-caret-left"></i>
-  <% end %>
-</div>
-<div class="product-img shadow-box-light">
-  <%= image_tag(product.image) %>
-</div>
-<div class="next-product-btn">
-  <%= link_to change_style_next_product_path(product.id), remote: true do %>
-    <i class="fa fa-caret-right"></i>
-  <% end %>
-</div>
-<div class="product-info-lg shadow-box-light">
-  <% if product.style.type.category.name == "上衣類" %>
-    <% category_name = "up-type" %>
-  <% elsif product.style.type.category.name == "下身類" %>
-    <% category_name = "down-type" %>
-  <% end %>     
-  <div id="<%= product.style.type.id %>" class="product-title text-center <%= category_name %>">
-    <%= product.name %>
-  </div>
-  <div class="row-title">選擇顏色</div>
-  <div class="product-color-panel">  
-    <% product.style.colors.includes(:hue_level).each do |color| %>
-      <% if product.color.id == color.id %>
-        <% css_class = "color-locked" %>
-      <% end %>
-      <%= link_to change_color_product_path(color.id), remote: true, class: "#{css_class}" do %>
-        <div id="<%= color.id %>" class="product-color" style="background-color: <%= color.hex %>"><span id="<%= color.hue_level.id %>"></span></div>
-      <% end %>
+<div class="product-lg-left">
+  <div class="previous-product-btn">
+    <%= link_to change_style_previous_product_path(product.id), remote: true do %>
+<!--       <i class="fa fa-caret-left"></i> -->
+  <div class="slick-arrow">←</div>
     <% end %>
   </div>
-  <div class="row-title">品牌</div>
-    <div class="product-brand">
-        <%= image_tag("#{@product.brand}-logo.png", class: "product-brand-img") %>
-    </div>
-    <%= link_to "類似產品" , family_product_path(@product) %>
-  <div class="product-price">
-    NT$<%= product.price.round %>
+  <div class="product-img shadow-box-light">
+    <%= image_tag(product.image) %>
   </div>
-  <div class="product-cart-link-row">
-    <div class="product-cart">
-      <%= render partial: "shared/cart_button", locals: {product: product} %>
+  <div class="next-product-btn">
+    <%= link_to change_style_next_product_path(product.id), remote: true do %>
+      <!-- <i class="fa fa-caret-right"></i> -->
+      <div class="slick-arrow" >→</div>
+    <% end %>
+  </div>
+</div>
+<div class="product-lg-right"> 
+  <div class="product-info-lg shadow-box-light">
+    <% if product.style.type.category.name == "上衣類" %>
+      <% category_name = "up-type" %>
+    <% elsif product.style.type.category.name == "下身類" %>
+      <% category_name = "down-type" %>
+    <% end %>     
+    <div id="<%= product.style.type.id %>" class="product-title text-center <%= category_name %>">
+      <%= product.name %>
     </div>
-    <div class="product-link">
-      <a href="<%= product.link %>" target="_blank">
-        <button class="btn btn-sm btn-warning">去購買</button>
-      </a>
+    <div class="row-title">選擇顏色</div>
+    <div class="product-color-panel">  
+      <% product.style.colors.includes(:hue_level).each do |color| %>
+        <% if product.color.id == color.id %>
+          <% css_class = "color-locked" %>
+        <% end %>
+        <%= link_to change_color_product_path(color.id), remote: true, class: "#{css_class}" do %>
+          <div id="<%= color.id %>" class="product-color" style="background-color: <%= color.hex %>"><span id="<%= color.hue_level.id %>"></span></div>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="row-title">品牌</div>
+      <div class="product-brand">
+          <%= image_tag("#{@product.brand}-logo.png", class: "product-brand-img") %>
+      </div>
+      <%= link_to "類似產品" , family_product_path(@product) %>
+    <div class="product-price">
+      NT$<%= product.price.round %>
+    </div>
+    <div class="product-cart-link-row">
+      <div class="product-cart">
+        <%= render partial: "shared/cart_button", locals: {product: product} %>
+      </div>
+      <div class="product-link">
+        <a href="<%= product.link %>" target="_blank">
+          <button class="btn btn-sm btn-warning">去購買</button>
+        </a>
+      </div>
     </div>
   </div>
 </div>
