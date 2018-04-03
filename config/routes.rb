@@ -45,6 +45,7 @@ Rails.application.routes.draw do
   #link to product::id not style/style:id/products
   resources :products, only: [:show] do
     member do
+      get :family
       get :change_color
       get :change_style_next
       get :change_style_previous
