@@ -33,7 +33,7 @@ class ProductsController < ApplicationController
 
   def family
     @product = Product.find(params[:id])
-    @family = @product.style.type.products.joins(:color).where("colors.hue_level_id = ?", @product.color.hue_level_id)
+    @family = @product.style.type.products.joins(:color).where("colors.hue_level_id = ?", @product.color.hue_level_id).includes(color: :hue_level, style: :type)
   end
 
   private
