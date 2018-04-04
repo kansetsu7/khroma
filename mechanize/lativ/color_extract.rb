@@ -331,7 +331,7 @@ class Color
   end
 
   def is_achromatic?
-    s < 5 || v <= 20 ? true : false
+    s < 7 || v <= 20 ? true : false
   end
 end
 
@@ -345,7 +345,7 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 5 || c.v <= 20
+  return 13 if c.s < 7 || c.v <= 20
 
   # ---- chromatic ----
   # hue_level,  hue range

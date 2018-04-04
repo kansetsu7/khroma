@@ -31,15 +31,15 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 20,0,http://www.uniqlo.com/tw/store/goods/400328,69,-1
 20,-1,http://www.uniqlo.com/tw/store/goods/404888,58,-1
 21,0,http://www.uniqlo.com/tw/store/goods/407638,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137450/vp31.gif,#444A49,8
-21,1,http://www.uniqlo.com/tw/store/goods/406707,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137453/vp32.gif,#444944,7
+21,1,http://www.uniqlo.com/tw/store/goods/406707,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137453/vp32.gif,#444944,13
 21,-1,http://www.uniqlo.com/tw/store/goods/404889,69,-1
 22,0,http://www.uniqlo.com/tw/store/goods/404361,24,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137456/vp34.gif,#FD7301,3
-23,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137459/vp35.gif,#6F756E,6
-23,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137462/vp36.gif,#686A64,6
+23,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137459/vp35.gif,#6F756E,13
+23,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137462/vp36.gif,#686A64,13
 24,0,http://www.uniqlo.com/tw/store/goods/400518,69,-1
 24,0,http://www.uniqlo.com/tw/store/goods/400335,00,-1
-25,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137465/vp39.gif,#6F756E,6
-25,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137468/vp40.gif,#686A64,6
+25,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137465/vp39.gif,#6F756E,13
+25,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137468/vp40.gif,#686A64,13
 25,-1,http://www.uniqlo.com/tw/store/goods/404907,09,-1
 25,-1,http://www.uniqlo.com/tw/store/goods/404889,09,-1
 27,0,http://www.uniqlo.com/tw/store/goods/406483,69,-1
@@ -63,7 +63,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 37,1,http://www.uniqlo.com/tw/store/goods/403993,56,-1
 38,-1,http://www.uniqlo.com/tw/store/goods/404876,53,-1
 39,0,http://www.uniqlo.com/tw/store/goods/404167,17,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137509/vp63.gif,#BE3640,1
-39,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137512/vp64.gif,#686A64,6
+39,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137512/vp64.gif,#686A64,13
 40,0,http://www.uniqlo.com/tw/store/goods/404354,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137514/vp65.gif,#293241,9
 40,0,http://www.uniqlo.com/tw/store/goods/404382,63,-1
 41,0,http://www.uniqlo.com/tw/store/goods/406148,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137517/vp67.gif,#EDEFEC,13
@@ -87,7 +87,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 52,0,http://www.uniqlo.com/tw/store/goods/404361,57,-1
 52,-1,http://www.uniqlo.com/tw/store/goods/404888,16,-1
 54,0,http://www.uniqlo.com/tw/store/goods/407638,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137559/vp87.gif,#444A49,8
-54,1,http://www.uniqlo.com/tw/store/goods/406707,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137562/vp88.gif,#444944,7
+54,1,http://www.uniqlo.com/tw/store/goods/406707,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137562/vp88.gif,#444944,13
 54,-1,http://www.uniqlo.com/tw/store/goods/404889,69,-1
 55,0,http://www.uniqlo.com/tw/store/goods/404167,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137565/vp90.gif,#BEC6C8,13
 56,0,http://www.uniqlo.com/tw/store/goods/406483,69,-1
@@ -101,7 +101,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 62,0,http://www.uniqlo.com/tw/store/goods/404410,42,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137577/vp99.gif,#F4E9DA,3
 63,0,http://www.uniqlo.com/tw/store/goods/405194,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137580/vp100.gif,#262C3A,10
 63,1,http://www.uniqlo.com/tw/store/goods/407033,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137583/vp101.gif,#242E3A,9
-64,1,http://www.uniqlo.com/tw/store/goods/406708,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137586/vp102.gif,#9B9D95,5
+64,1,http://www.uniqlo.com/tw/store/goods/406708,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137586/vp102.gif,#9B9D95,13
 64,-1,http://www.uniqlo.com/tw/store/goods/404872,09,-1
 66,0,http://www.uniqlo.com/tw/store/goods/404362,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137588/vp104.gif,#292929,13
 66,-1,http://www.uniqlo.com/tw/store/goods/405413,09,-1
@@ -112,11 +112,11 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 70,0,http://www.uniqlo.com/tw/store/goods/400501,58,-1
 70,0,http://www.uniqlo.com/tw/store/goods/405194,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137597/vp111.gif,#262C3A,10
 70,1,http://www.uniqlo.com/tw/store/goods/407033,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137599/vp112.gif,#242E3A,9
-71,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137603/vp113.gif,#6F756E,6
+71,0,http://www.uniqlo.com/tw/store/goods/407638,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137603/vp113.gif,#6F756E,13
 71,0,http://www.uniqlo.com/tw/store/goods/400500,69,-1
-71,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137605/vp115.gif,#686A64,6
+71,1,http://www.uniqlo.com/tw/store/goods/406707,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137605/vp115.gif,#686A64,13
 71,-1,http://www.uniqlo.com/tw/store/goods/404889,09,-1
-72,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137608/vp117.gif,#868F90,8
+72,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137608/vp117.gif,#868F90,13
 72,1,http://www.uniqlo.com/tw/store/goods/403996,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137611/vp118.gif,#292E34,9
 72,-1,http://www.uniqlo.com/tw/store/goods/407545,09,-1
 72,-1,http://www.uniqlo.com/tw/store/goods/404889,69,-1
@@ -135,9 +135,9 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 80,0,http://www.uniqlo.com/tw/store/goods/400500,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137638/vp133.gif,#515B5C,8
 81,-1,http://www.uniqlo.com/tw/store/goods/402804,09,-1
 82,0,http://www.uniqlo.com/tw/store/goods/400502,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137641/vp135.gif,#545C5F,9
-82,1,http://www.uniqlo.com/tw/store/goods/405637,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137643/vp136.gif,#ECEBDF,5
+82,1,http://www.uniqlo.com/tw/store/goods/405637,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137643/vp136.gif,#ECEBDF,13
 83,1,http://www.uniqlo.com/tw/store/goods/406729,31,-1
-84,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137646/vp138.gif,#868F90,8
+84,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137646/vp138.gif,#868F90,13
 84,1,http://www.uniqlo.com/tw/store/goods/403996,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137649/vp139.gif,#292E34,9
 84,-1,http://www.uniqlo.com/tw/store/goods/407545,09,-1
 84,-1,http://www.uniqlo.com/tw/store/goods/404889,69,-1
@@ -148,7 +148,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 90,-1,http://www.uniqlo.com/tw/store/goods/407592,09,-1
 91,0,http://www.uniqlo.com/tw/store/goods/182571,09,-1
 92,0,http://www.uniqlo.com/tw/store/goods/400500,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137658/vp148.gif,#515B5C,8
-92,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137661/vp149.gif,#868F90,8
+92,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137661/vp149.gif,#868F90,13
 92,-1,http://www.uniqlo.com/tw/store/goods/406401,08,-1
 93,0,http://www.uniqlo.com/tw/store/goods/400500,34,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137664/vp151.gif,#7D684A,3
 93,1,http://www.uniqlo.com/tw/store/goods/403971,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137667/vp152.gif,#EDEEE7,13
@@ -375,7 +375,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 170,0,http://www.uniqlo.com/tw/store/goods/400510,33,-1
 170,-1,http://www.uniqlo.com/tw/store/goods/402128,69,-1
 171,0,http://www.uniqlo.com/tw/store/goods/400493,16,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137740/vp375.gif,#B80A2E,1
-171,0,http://www.uniqlo.com/tw/store/goods/400504,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137743/vp376.gif,#363639,10
+171,0,http://www.uniqlo.com/tw/store/goods/400504,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137743/vp376.gif,#363639,13
 171,0,http://www.uniqlo.com/tw/store/goods/401843,15,-1
 171,-1,http://www.uniqlo.com/tw/store/goods/400042,03,-1
 172,0,http://www.uniqlo.com/tw/store/goods/403138,09,-1
@@ -554,7 +554,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 240,0,http://www.uniqlo.com/tw/store/goods/400500,19,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137801/vp552.gif,#5E4042,1
 240,1,http://www.uniqlo.com/tw/store/goods/400342,09,-1
 240,-1,http://www.uniqlo.com/tw/store/goods/402078,19,-1
-241,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137804/vp555.gif,#868F90,8
+241,0,http://www.uniqlo.com/tw/store/goods/404354,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137804/vp555.gif,#868F90,13
 241,2,http://www.uniqlo.com/tw/store/goods/403249,68,-1
 241,1,http://www.uniqlo.com/tw/store/goods/403971,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137807/vp557.gif,#242B35,9
 241,-1,http://www.uniqlo.com/tw/store/goods/404889,09,-1
@@ -581,7 +581,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 249,0,http://www.uniqlo.com/tw/store/goods/401382,09,-1
 249,0,http://www.uniqlo.com/tw/store/goods/400643,58,-1
 249,1,http://www.uniqlo.com/tw/store/goods/401756,08,-1
-250,0,http://www.uniqlo.com/tw/store/goods/400506,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137818/vp582.gif,#363433,2
+250,0,http://www.uniqlo.com/tw/store/goods/400506,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137818/vp582.gif,#363433,13
 250,1,http://www.uniqlo.com/tw/store/goods/400483,09,-1
 250,-1,http://www.uniqlo.com/tw/store/goods/401581,09,-1
 251,0,http://www.uniqlo.com/tw/store/goods/400634,02,-1
@@ -685,7 +685,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 286,1,http://www.uniqlo.com/tw/store/goods/401756,08,-1
 286,-1,http://www.uniqlo.com/tw/store/goods/402127,69,-1
 288,0,http://www.uniqlo.com/tw/store/goods/400512,09,-1
-288,0,http://www.uniqlo.com/tw/store/goods/400484,04,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137859/vp686.gif,#79817B,7
+288,0,http://www.uniqlo.com/tw/store/goods/400484,04,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137859/vp686.gif,#79817B,13
 288,0,http://www.uniqlo.com/tw/store/goods/400634,69,-1
 288,1,http://www.uniqlo.com/tw/store/goods/400483,69,-1
 289,0,http://www.uniqlo.com/tw/store/goods/400504,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137862/vp689.gif,#5E6869,8
@@ -748,7 +748,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 308,0,http://www.uniqlo.com/tw/store/goods/400624,09,-1
 308,1,http://www.uniqlo.com/tw/store/goods/401756,08,-1
 308,-1,http://www.uniqlo.com/tw/store/goods/401630,08,-1
-309,0,http://www.uniqlo.com/tw/store/goods/400506,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137878/vp749.gif,#363433,2
+309,0,http://www.uniqlo.com/tw/store/goods/400506,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137878/vp749.gif,#363433,13
 309,0,http://www.uniqlo.com/tw/store/goods/400325,09,-1
 309,1,http://www.uniqlo.com/tw/store/goods/400483,09,-1
 309,0,http://www.uniqlo.com/tw/store/goods/180713,07,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137881/vp752.gif,#626A6D,9
@@ -858,7 +858,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 349,2,http://www.uniqlo.com/tw/store/goods/407489,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137928/vp856.gif,#282C37,10
 350,2,http://www.uniqlo.com/tw/store/goods/407388,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137931/vp857.gif,#262D3B,10
 350,3,http://www.uniqlo.com/tw/store/goods/405974,69,-1
-353,2,http://www.uniqlo.com/tw/store/goods/404634,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137934/vp859.gif,#CCC7BE,3
+353,2,http://www.uniqlo.com/tw/store/goods/404634,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137934/vp859.gif,#CCC7BE,13
 353,3,http://www.uniqlo.com/tw/store/goods/404502,32,-1
 353,-1,http://www.uniqlo.com/tw/store/goods/406847,38,-1
 354,2,http://www.uniqlo.com/tw/store/goods/407010,30,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137937/vp862.gif,#DACAB4,3
@@ -876,7 +876,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 361,2,http://www.uniqlo.com/tw/store/goods/406751,42,-1
 361,-1,http://www.uniqlo.com/tw/store/goods/405412,00,-1
 363,2,http://www.uniqlo.com/tw/store/goods/404233,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137950/vp876.gif,#E9EAE5,13
-363,2,http://www.uniqlo.com/tw/store/goods/406493,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137952/vp877.gif,#C0C8CB,9
+363,2,http://www.uniqlo.com/tw/store/goods/406493,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137952/vp877.gif,#C0C8CB,13
 363,-1,http://www.uniqlo.com/tw/store/goods/404901,56,-1
 363,-1,http://www.uniqlo.com/tw/store/goods/407592,00,-1
 364,2,http://www.uniqlo.com/tw/store/goods/406489,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522137955/vp880.gif,#252726,13
@@ -930,7 +930,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 403,3,http://www.uniqlo.com/tw/store/goods/407287,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138024/vp928.gif,#DEDED6,13
 403,2,http://www.uniqlo.com/tw/store/goods/404014,27,-1
 404,2,http://www.uniqlo.com/tw/store/goods/405019,41,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138026/vp930.gif,#F9EEB3,4
-405,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138029/vp931.gif,#474643,4
+405,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138029/vp931.gif,#474643,13
 405,2,http://www.uniqlo.com/tw/store/goods/404005,01,-1
 406,3,http://www.uniqlo.com/tw/store/goods/404504,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138032/vp933.gif,#747E93,10
 407,2,http://www.uniqlo.com/tw/store/goods/400711,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138035/vp934.gif,#E3DFD2,4
@@ -946,7 +946,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 417,2,http://www.uniqlo.com/tw/store/goods/405289,14,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138060/vp944.gif,#E9282C,1
 418,3,http://www.uniqlo.com/tw/store/goods/407294,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138063/vp945.gif,#2A2A29,13
 421,2,http://www.uniqlo.com/tw/store/goods/405009,31,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138065/vp946.gif,#E4CBAF,3
-424,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138068/vp947.gif,#474643,4
+424,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138068/vp947.gif,#474643,13
 424,2,http://www.uniqlo.com/tw/store/goods/404005,01,-1
 426,2,http://www.uniqlo.com/tw/store/goods/406650,12,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138071/vp949.gif,#772E45,1
 426,2,http://www.uniqlo.com/tw/store/goods/405064,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138074/vp950.gif,#262626,13
@@ -986,7 +986,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 457,2,http://www.uniqlo.com/tw/store/goods/404210,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138126/vp984.gif,#BAB6B6,13
 458,-1,http://www.uniqlo.com/tw/store/goods/405164,39,-1
 459,-1,http://www.uniqlo.com/tw/store/goods/405164,09,-1
-459,2,http://www.uniqlo.com/tw/store/goods/404208,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138129/vp987.gif,#6E6B71,11
+459,2,http://www.uniqlo.com/tw/store/goods/404208,05,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138129/vp987.gif,#6E6B71,13
 460,2,http://www.uniqlo.com/tw/store/goods/405009,31,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138132/vp988.gif,#E4CBAF,3
 460,2,http://www.uniqlo.com/tw/store/goods/403645,06,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138135/vp989.gif,#C1C3BE,13
 462,-1,http://www.uniqlo.com/tw/store/goods/404117,31,-1
@@ -1012,7 +1012,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 476,2,http://www.uniqlo.com/tw/store/goods/404207,10,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138180/vp1010.gif,#FDDCD0,2
 476,-1,http://www.uniqlo.com/tw/store/goods/404876,68,-1
 476,2,http://www.uniqlo.com/tw/store/goods/404008,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138183/vp1012.gif,#B1B6AE,13
-477,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138186/vp1013.gif,#474643,4
+477,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138186/vp1013.gif,#474643,13
 477,-1,http://www.uniqlo.com/tw/store/goods/409892,15,-1
 478,2,http://www.uniqlo.com/tw/store/goods/404210,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138189/vp1015.gif,#BAB6B6,13
 478,-1,http://www.uniqlo.com/tw/store/goods/409724,09,-1
@@ -1044,7 +1044,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 497,2,http://www.uniqlo.com/tw/store/goods/404086,51,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138226/vp1042.gif,#B7D4C7,7
 497,2,http://www.uniqlo.com/tw/store/goods/405387,08,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138229/vp1043.gif,#676D70,9
 499,2,http://www.uniqlo.com/tw/store/goods/405289,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138233/vp1044.gif,#2D2D2D,13
-499,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138235/vp1045.gif,#474643,4
+499,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138235/vp1045.gif,#474643,13
 501,2,http://www.uniqlo.com/tw/store/goods/400347,16,-1
 503,3,http://www.uniqlo.com/tw/store/goods/408799,01,-1
 504,-1,http://www.uniqlo.com/tw/store/goods/404255,51,-1
@@ -1065,7 +1065,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 518,-1,http://www.uniqlo.com/tw/store/goods/405119,32,-1
 519,-1,http://www.uniqlo.com/tw/store/goods/404117,31,-1
 519,3,http://www.uniqlo.com/tw/store/goods/406131,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138252/vp1065.gif,#262A34,10
-520,2,http://www.uniqlo.com/tw/store/goods/404210,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138255/vp1066.gif,#EFEBE2,4
+520,2,http://www.uniqlo.com/tw/store/goods/404210,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138255/vp1066.gif,#EFEBE2,13
 521,2,http://www.uniqlo.com/tw/store/goods/403645,70,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138258/vp1067.gif,#C8D2E4,9
 522,-1,http://www.uniqlo.com/tw/store/goods/409724,09,-1
 523,2,http://www.uniqlo.com/tw/store/goods/404210,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138261/vp1069.gif,#2B2B39,10
@@ -1126,7 +1126,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 577,3,http://www.uniqlo.com/tw/store/goods/407295,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138340/vp1123.gif,#283A4E,9
 578,-1,http://www.uniqlo.com/tw/store/goods/404117,31,-1
 578,2,http://www.uniqlo.com/tw/store/goods/404634,68,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138343/vp1125.gif,#132A53,9
-578,3,http://www.uniqlo.com/tw/store/goods/407950,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138346/vp1126.gif,#CCCDC2,5
+578,3,http://www.uniqlo.com/tw/store/goods/407950,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138346/vp1126.gif,#CCCDC2,13
 582,3,http://www.uniqlo.com/tw/store/goods/409024,46,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138349/vp1127.gif,#C7A63C,4
 584,2,http://www.uniqlo.com/tw/store/goods/404197,71,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138352/vp1128.gif,#D8D9F7,10
 585,-1,http://www.uniqlo.com/tw/store/goods/409892,15,-1
@@ -1146,7 +1146,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 597,2,http://www.uniqlo.com/tw/store/goods/405514,54,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138375/vp1143.gif,#676B45,5
 597,2,http://www.uniqlo.com/tw/store/goods/403645,00,-1
 597,-1,http://www.uniqlo.com/tw/store/goods/404874,68,-1
-599,2,http://www.uniqlo.com/tw/store/goods/408789,14,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138378/vp1146.gif,#E1DBD5,3
+599,2,http://www.uniqlo.com/tw/store/goods/408789,14,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138378/vp1146.gif,#E1DBD5,13
 600,2,http://www.uniqlo.com/tw/store/goods/404210,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138380/vp1147.gif,#BAB6B6,13
 600,-1,http://www.uniqlo.com/tw/store/goods/409724,31,-1
 601,2,http://www.uniqlo.com/tw/store/goods/400712,76,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138383/vp1149.gif,#823B5D,1
@@ -1158,7 +1158,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 605,-1,http://www.uniqlo.com/tw/store/goods/404876,02,-1
 605,-1,http://www.uniqlo.com/tw/store/goods/406056,70,-1
 608,2,http://www.uniqlo.com/tw/store/goods/404550,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138395/vp1157.gif,#E5E5E5,13
-609,2,http://www.uniqlo.com/tw/store/goods/404634,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138398/vp1158.gif,#CCC7BE,3
+609,2,http://www.uniqlo.com/tw/store/goods/404634,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138398/vp1158.gif,#CCC7BE,13
 612,2,http://www.uniqlo.com/tw/store/goods/407570,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138400/vp1159.gif,#EBECE3,13
 613,3,http://www.uniqlo.com/tw/store/goods/404837,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138403/vp1160.gif,#272622,13
 613,3,http://www.uniqlo.com/tw/store/goods/404504,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138406/vp1161.gif,#747E93,10
@@ -1292,7 +1292,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 672,3,http://www.uniqlo.com/tw/store/goods/408670,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138620/vp1289.gif,#DAD3C3,4
 672,-1,http://www.uniqlo.com/tw/store/goods/405118,64,-1
 675,2,http://www.uniqlo.com/tw/store/goods/405009,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138623/vp1291.gif,#27314A,10
-676,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138626/vp1292.gif,#BDBFC9,10
+676,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138626/vp1292.gif,#BDBFC9,13
 677,3,http://www.uniqlo.com/tw/store/goods/404607,56,-1
 677,2,http://www.uniqlo.com/tw/store/goods/404210,03,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138629/vp1294.gif,#BAB6B6,13
 677,-1,http://www.uniqlo.com/tw/store/goods/405164,01,-1
@@ -1304,9 +1304,9 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 683,3,http://www.uniqlo.com/tw/store/goods/406069,60,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138640/vp1301.gif,#95B1CC,9
 685,2,http://www.uniqlo.com/tw/store/goods/404005,71,-1
 685,-1,http://www.uniqlo.com/tw/store/goods/406268,30,-1
-687,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138643/vp1304.gif,#BDBFC9,10
+687,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138643/vp1304.gif,#BDBFC9,13
 688,3,http://www.uniqlo.com/tw/store/goods/404607,56,-1
-689,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138645/vp1306.gif,#474643,4
+689,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138645/vp1306.gif,#474643,13
 690,2,http://www.uniqlo.com/tw/store/goods/403645,00,-1
 690,3,http://www.uniqlo.com/tw/store/goods/406430,60,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138648/vp1308.gif,#A8B2CF,10
 691,2,http://www.uniqlo.com/tw/store/goods/407720,34,-1
@@ -1331,7 +1331,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 702,3,http://www.uniqlo.com/tw/store/goods/404607,56,-1
 702,2,http://www.uniqlo.com/tw/store/goods/405019,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138671/vp1329.gif,#ECECEB,13
 705,2,http://www.uniqlo.com/tw/store/goods/406682,09,-1
-706,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138673/vp1331.gif,#BDBFC9,10
+706,3,http://www.uniqlo.com/tw/store/goods/404504,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138673/vp1331.gif,#BDBFC9,13
 707,2,http://www.uniqlo.com/tw/store/goods/404005,71,-1
 709,2,http://www.uniqlo.com/tw/store/goods/404200,32,-1
 709,2,http://www.uniqlo.com/tw/store/goods/404008,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138676/vp1334.gif,#B1B6AE,13
@@ -1370,7 +1370,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 730,-1,http://www.uniqlo.com/tw/store/goods/406053,31,-1
 731,3,http://www.uniqlo.com/tw/store/goods/406430,60,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138715/vp1368.gif,#A8B2CF,10
 732,2,http://www.uniqlo.com/tw/store/goods/400716,01,-1
-732,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138718/vp1370.gif,#474643,4
+732,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138718/vp1370.gif,#474643,13
 734,2,http://www.uniqlo.com/tw/store/goods/404223,66,-1
 734,-1,http://www.uniqlo.com/tw/store/goods/403681,18,-1
 735,3,http://www.uniqlo.com/tw/store/goods/404505,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138721/vp1373.gif,#23241F,13
@@ -1385,7 +1385,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 740,2,http://www.uniqlo.com/tw/store/goods/406126,51,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138737/vp1382.gif,#C9E6DC,8
 740,2,http://www.uniqlo.com/tw/store/goods/405199,00,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138741/vp1383.gif,#E2E3D9,13
 741,2,http://www.uniqlo.com/tw/store/goods/405289,14,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138743/vp1384.gif,#E9282C,1
-741,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138746/vp1385.gif,#474643,4
+741,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138746/vp1385.gif,#474643,13
 742,3,http://www.uniqlo.com/tw/store/goods/406984,57,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138749/vp1386.gif,#676B53,5
 743,2,http://www.uniqlo.com/tw/store/goods/407720,34,-1
 743,2,http://www.uniqlo.com/tw/store/goods/400711,01,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138751/vp1388.gif,#E3DFD2,4
@@ -1403,7 +1403,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 751,2,http://www.uniqlo.com/tw/store/goods/400716,60,-1
 752,2,http://www.uniqlo.com/tw/store/goods/404008,50,-1
 753,2,http://www.uniqlo.com/tw/store/goods/404005,11,-1
-754,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138767/vp1403.gif,#474643,4
+754,2,http://www.uniqlo.com/tw/store/goods/404207,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138767/vp1403.gif,#474643,13
 755,3,http://www.uniqlo.com/tw/store/goods/404505,09,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138770/vp1404.gif,#23241F,13
 756,3,http://www.uniqlo.com/tw/store/goods/406069,16,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138773/vp1405.gif,#A31525,1
 756,-1,http://www.uniqlo.com/tw/store/goods/406343,09,-1
@@ -1983,7 +1983,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 951,2,http://www.uniqlo.com/tw/store/goods/402951,09,-1
 951,2,http://www.uniqlo.com/tw/store/goods/191239,08,-1
 951,3,http://www.uniqlo.com/tw/store/goods/403587,69,-1
-951,2,http://www.uniqlo.com/tw/store/goods/400697,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138822/vp1983.gif,#9BA3A6,9
+951,2,http://www.uniqlo.com/tw/store/goods/400697,02,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138822/vp1983.gif,#9BA3A6,13
 952,0,http://www.uniqlo.com/tw/store/goods/402216,01,-1
 952,-1,http://www.uniqlo.com/tw/store/goods/402176,03,-1
 953,2,http://www.uniqlo.com/tw/store/goods/400476,01,-1
