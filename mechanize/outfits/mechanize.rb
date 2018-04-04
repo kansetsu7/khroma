@@ -17,10 +17,10 @@ def get_uniqlo_data
   # get_virtual_product_color
   # upload_color_chips
   # write_hue_level
-  change_hue_level
+  change_vp_hue_level
 end
 
-def change_hue_level
+def change_vp_hue_level
   v_products = CSV.read("./outfit_virtual_product.txt")
   writer = CSV.open("./outfit_virtual_product.txt", "w")
   writer << ['outfit_id', 'category', 'link', 'color_chip_id', 'cloudinary chip link','RGB hex', 'hue_level']
@@ -448,13 +448,17 @@ class Color
     return mapRange(in_hue, 240.0, 300.0, 275.0, 330.0) if in_hue < 300.0
            mapRange(in_hue, 300.0, 360.0, 330.0, 360.0)
   end
+
+  def is_achromatic?
+    s < 5 || v <= 20 ? true : false
+  end
 end
 
 def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 5 || c.v <= 10
+  return 13 if c.s < 5 || c.v <= 20
 
   # ---- chromatic ----
   # hue_level,  hue range
@@ -465,7 +469,7 @@ def get_hue_level(rgb_hex)
   # 11,         285 <= hue < 315
   # 12,         315 <= hue < 345
   for hue_level in 2..12 do
-    return hue_level if c.h >= 15 + 30 * (hue_level - 2) && c.h < 45 + 30 * (hue_level - 2)
+    return hue_level if c.kh >= 15 + 30 * (hue_level - 2) && c.kh < 45 + 30 * (hue_level - 2)
   end
 
   return 1
