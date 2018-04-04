@@ -11,9 +11,9 @@ class Match
     @bottom_hue_level   = bottom_hue_level
     @principle_color_id = principle_color_id
 
-    @no_params = {'top_type' => top_type == '' || top_type == '',
+    @no_params = {'top_type' => top_type == '99' || top_type == '',
                   'top_hue_level' => top_hue_level == '99' || top_hue_level == '',
-                  'bottom_type' => bottom_type == '' || bottom_type == '',
+                  'bottom_type' => bottom_type == '99' || bottom_type == '',
                   'bottom_hue_level' => bottom_hue_level == '99' || bottom_hue_level == ''
                  }
 
@@ -35,8 +35,8 @@ class Match
 
   # 至少要給一個category的type+hue_level才能進行配對
   def enough_params?   
-    (!@no_params['top_type'] && !@no_params['top_hue_level'] && !@no_params['bottom_type'] ) || 
-    (!@no_params['bottom_type'] && !@no_params['bottom_hue_level'] && !@no_params['top_type']) ? true : false
+    (!@no_params['top_type'] && !@no_params['top_hue_level'] && (!@no_params['bottom_type'] || @bottom_type == '99') ) || 
+    (!@no_params['bottom_type'] && !@no_params['bottom_hue_level'] && !@no_params['top_type'] || @top_type == '99') ? true : false
   end
 
   private
