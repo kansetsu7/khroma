@@ -1,5 +1,5 @@
-<%= error unless error == '' %>
-<% if error == '' %>
+<%= error[:message] unless error[:message].nil? %>
+<% if error[:message].nil? %>
   <div class="match-principle-pills">
     <% principle_colors.each do |principle_color| %>
       <div class="match-principle-pill shadow-box-light">

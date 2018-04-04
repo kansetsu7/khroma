@@ -10,16 +10,15 @@ class Match
     @bottom_type        = bottom_type
     @bottom_hue_level   = bottom_hue_level
     @principle_color_id = principle_color_id
-    puts 
 
     puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
-    @no_params = {'top_type' => top_type == '99',
-                  'top_hue_level' => top_hue_level == '99',
-                  'bottom_type' => bottom_type == '99',
-                  'bottom_hue_level' => bottom_hue_level == '99'
+    @no_params = {'top_type' => top_type == '99' || top_type == '',
+                  'top_hue_level' => top_hue_level == '99' || top_hue_level == '',
+                  'bottom_type' => bottom_type == '99' || bottom_type == '',
+                  'bottom_hue_level' => bottom_hue_level == '99' || bottom_hue_level == ''
                  }
 
-    @error = ''
+    @error = {}
     @top_color
     @bottom_color
     @optional_colors = []
@@ -28,14 +27,15 @@ class Match
     @outfits = []
 
     set_principle_colors
-    return unless error == ''
+    return if error.any?
     set_attributes
     puts_attributes_count
   end
 
   # 至少要給一個category的type+hue_level才能進行配對
   def enough_params?   
-    (!@no_params['top_type'] && !@no_params['top_hue_level']) || (!@no_params['bottom_type'] && !@no_params['bottom_hue_level']) ? true : false
+    (!@no_params['top_type'] && !@no_params['top_hue_level'] && !@no_params['bottom_type'] ) || 
+    (!@no_params['bottom_type'] && !@no_params['bottom_hue_level'] && !@no_params['top_type']) ? true : false
   end
 
   private
@@ -57,7 +57,7 @@ class Match
 
   def set_principle_colors
     unless enough_params?
-      @error = '參數不足，無法配色。至少要給半身的服裝與顏色才能進行配對'
+      @error = {code: 1, message: '參數不足，選單皆為必填'}
       return
     end
 
@@ -76,7 +76,7 @@ class Match
     end
 
     if @principle_colors.count == 0
-      @error = '哎呀！找不到相關的穿搭圖...'
+      @error = {code: 2, message: '哎呀！找不到相關的穿搭圖...'}
       return
     end
     @target_principle_color = @principle_color_id.nil? ? @principle_colors.first : PrincipleColor.find(@principle_color_id)

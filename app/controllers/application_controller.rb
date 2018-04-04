@@ -16,4 +16,8 @@ class ApplicationController < ActionController::Base
     # :user is the scope we are authenticating
     store_location_for(:user, request.fullpath) unless request.xhr?
   end
+
+  def params_not_enough
+    raise '選單皆為必填'
+  end
 end

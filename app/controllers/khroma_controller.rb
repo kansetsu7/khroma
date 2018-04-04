@@ -15,6 +15,14 @@ class KhromaController < ApplicationController
   def match
     # 'Match' is a service object, app/service/match.rb
     @matches = Match.new(params[:up_type_id], params[:up_hue_level], params[:down_type_id], params[:down_hue_level], params[:principle_color_id])
+      puts "error = #{@matches.error}"
+      puts @matches.error.any?
+      puts @matches.error[:message].nil?
+    if @matches.error.any?
+      puts "yo error!"
+      params_not_enough if @matches.error[:code] == 1
+    end
+    
 
     render json: {
       productsMatchHtml: render_to_string(partial: 'shared/match_result', locals: {principle_colors: @matches.principle_colors,
