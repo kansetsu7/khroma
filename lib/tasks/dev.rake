@@ -11,7 +11,7 @@ namespace :dev do
       Type.create!(
         category_id: type[0].to_i + 1,
         name: type[2]
-      )     
+      )   
     end
     puts "Have created #{Type.count} fake types!"
     puts
