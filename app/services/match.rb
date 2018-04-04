@@ -11,13 +11,14 @@ class Match
     @bottom_hue_level   = bottom_hue_level
     @principle_color_id = principle_color_id
 
-    puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
-    @no_params = {'top_type' => top_type == '99' || top_type == '',
+    @no_params = {'top_type' => top_type == '' || top_type == '',
                   'top_hue_level' => top_hue_level == '99' || top_hue_level == '',
-                  'bottom_type' => bottom_type == '99' || bottom_type == '',
+                  'bottom_type' => bottom_type == '' || bottom_type == '',
                   'bottom_hue_level' => bottom_hue_level == '99' || bottom_hue_level == ''
                  }
 
+    puts "#{@no_params['top_type']}, #{@no_params['top_hue_level']} x #{@no_params['bottom_type']}, #{@no_params['bottom_hue_level']}"
+    puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
     @error = {}
     @top_color
     @bottom_color
@@ -96,7 +97,7 @@ class Match
   end
 
   def get_product_of_match_color(type_with_color, type_without_color, match_hue_level_id)
-    return Type.find(type_without_color).products.joins(:color).where('colors.hue_level_id = ?', match_hue_level_id).limit(10) if type_without_color == -1
+    return Type.find(type_without_color).products.joins(:color).where('colors.hue_level_id = ?', match_hue_level_id).limit(10) unless type_without_color == '99'
 
     # 沒給type -> 從有給type的category反推找出沒給的category
     category_id = Type.find(type_with_color).category.id  # 有給type的category
@@ -108,11 +109,9 @@ class Match
   def set_products
     if @no_params['top_hue_level']
       @bottom_products = Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level.to_i)
-      type_without_color = @no_params['top_type'] ? -1 : @top_type
       @top_products = get_product_of_match_color(@bottom_type, @top_type, @target_principle_color.hue_level_id)
     else # no bottom_hue_level
       @top_products = Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level.to_i)
-      type_without_color = @no_params['bottom_type'] ? -1 : @bottom_type
       @bottom_products = get_product_of_match_color(@top_type, @bottom_type, @target_principle_color.hue_match1)
     end
   end
