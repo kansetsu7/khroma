@@ -14,9 +14,18 @@ def write_color
     next if i == 0  # skip first row 
 
     c = Color.new(color[1])
-    hlv = get_hue_level(color[1])
+    if c.is_achromatic?
+      main_color = color[3].nil? ? color[1] : color[3]
+      percentage = color[3].nil? ? color[2] : color[4]
+    else  
+      main_color = color[1]
+      percentage = color[2]
+    end
+
+    c = Color.new(main_color)
+    hlv = get_hue_level(main_color)
     arr_hlv[hlv-1] += 1 
-    writer << [i, color[1], c.to_ryb_hex, color[2], hlv]
+    writer << [i, main_color, c.to_ryb_hex, percentage, hlv]
   end
 
   arr_hlv.each_with_index do |n, i|
@@ -174,7 +183,8 @@ class Color
     @ryb_y = ryb[1]
     @ryb_b = ryb[2]
 
-    hsv = self.to_ryb_base_hsv
+    # hsv = self.to_ryb_base_hsv
+    hsv = self.to_rgb_base_hsv
     @h = hsv[0]
     @s = hsv[1]
     @v = hsv[2]
@@ -266,6 +276,62 @@ class Color
 
     [h.round(2), s.round(2), v.round(2)]
   end
+
+  def to_rgb_base_hsv
+    ri = @rgb_r / 255.0
+    gi = @rgb_g / 255.0
+    bi = @rgb_b / 255.0
+
+    cmax = [ri, gi, bi].max
+    cmin = [ri, gi, bi].min
+    delta = cmax - cmin
+
+    # HSV Calculation
+    # Hue calculation
+    if delta == 0
+      h = 0
+    elsif cmax == ri
+      h = 60 * (((gi - bi) / delta) % 6)
+    elsif cmax == gi
+      h = 60 * (((bi - ri)/ delta) + 2)
+    elsif cmax == bi
+      h = 60 * (((ri - gi)/ delta) + 4)
+    end
+
+    # Saturation calculation
+    if (cmax == 0)
+      s = 0
+    else
+      s = delta / cmax * 100
+    end
+
+    # Value calculation
+    v = cmax * 100
+    [kuler_hue(h), s, v]    
+  end
+
+  def mapRange(value, fromLower, fromUpper, toLower, toUpper)
+    (toLower + (value - fromLower) * ((toUpper - toLower) / (fromUpper - fromLower)))
+  end
+
+  def kuler_hue(in_hue)
+    # mapping RGB hue to adobe kuler's color wheel's hue
+    # scientificToArtisticSmooth
+    # source: https://github.com/benknight/kuler-d3/blob/master/colorwheel.js
+    # UI http://benknight.github.io/kuler-d3/
+
+    return in_hue * (60.0 / 35.0) if in_hue < 35.0
+    return mapRange(in_hue, 35.0,  60.0, 60.0,  122.0)  if in_hue < 60.0
+    return mapRange(in_hue, 60.0,  120.0, 122.0, 165.0) if in_hue < 120.0
+    return mapRange(in_hue, 120.0, 180.0, 165.0, 218.0) if in_hue < 180.0
+    return mapRange(in_hue, 180.0, 240.0, 218.0, 275.0) if in_hue < 240.0
+    return mapRange(in_hue, 240.0, 300.0, 275.0, 330.0) if in_hue < 300.0
+           mapRange(in_hue, 300.0, 360.0, 330.0, 360.0)
+  end
+
+  def is_achromatic?
+    s < 5 || v <= 10 ? true : false
+  end
 end
 
 # turn a color hex string to an array of RGB value
@@ -278,7 +344,7 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 5
+  return 13 if c.s < 5 || c.v <= 10
 
   # ---- chromatic ----
   # hue_level,  hue range

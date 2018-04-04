@@ -144,8 +144,9 @@ for i in 1..12 do
   h2 += 12 if h2 < 1
   h3 -= 12 if h3 > 12
   file_num = i == 1 ? 58 : 14 + (i - 2) * 4
+  file_num2 = i > 2 ? 15 + (i - 3) * 4 : 51 + 4 * i
   create_pinciple_color(2, i, h1, file_num, h2, h3)
-  create_pinciple_color(2, i, h2, 14 + 4 * i, h1)
+  create_pinciple_color(2, i, h2, file_num2, h1)
 end
 
 # ---- 3. Complementary ----
