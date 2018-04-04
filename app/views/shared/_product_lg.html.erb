@@ -5,7 +5,7 @@
   <div class="slick-arrow">←</div>
     <% end %>
   </div>
-  <div class="product-img shadow-box-light">
+  <div id="<%= product.id %>" class="product-img shadow-box-light">
     <%= image_tag(product.image) %>
   </div>
   <div class="next-product-btn">
@@ -40,14 +40,16 @@
       <div class="product-brand">
           <%= image_tag("#{@product.brand}-logo.png", class: "product-brand-img") %>
       </div>
-      <%= link_to "類似產品" , family_product_path(@product) %>
-    <div class="product-price">
-      NT$<%= product.price.round %>
-    </div>
-    <div class="product-cart-link-row">
+    <div class="product-cart-price-row">
       <div class="product-cart">
         <%= render partial: "shared/cart_button", locals: {product: product} %>
       </div>
+      <div class="product-price">
+        NT$<%= product.price.round %>
+      </div>
+    </div>
+    <div class="product-cart-link-row">
+      <button class="btn btn-outline-info btn-sm family-btn">查看相似商品</button>
       <div class="product-link">
         <a href="<%= product.link %>" target="_blank">
           <button class="btn btn-sm btn-warning">去購買</button>

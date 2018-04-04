@@ -12,6 +12,10 @@
   box-shadow: 0 2px 2px 0 rgba(41,48,59,.24), 0 0 2px 0 rgba(41,48,59,.12);
 }
 
+.styles-panel hr {
+  display: none;
+}
+
 #order-selection {
   margin-bottom: 20px;
 }

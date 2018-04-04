@@ -1,5 +1,55 @@
 $(document).on('turbolinks:load', function(){
 
+  $('.product-panel-lg').on('click', '.family-btn', function(){
+
+    var ProductId = $('.product-lg-left .product-img').attr('id');
+    console.log(ProductId);
+
+    $.ajax({
+      url:  ProductId + '/family',
+      method: 'get',
+      dataType: 'json',
+      success: function(data){
+        $('.product-family-items').html('');
+        $('#product-family-panel').show();
+        $('.product-family-items').html(data['familyHtml']);
+      }
+    }).done(function(){
+      $('.carousel-family').not('.slick-initialized').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+    });
+  });
+
   $('#product-match #match-btn').click(function(){
     var up_type_id;
     var up_hue_level;
