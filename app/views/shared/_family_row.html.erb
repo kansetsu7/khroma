@@ -1,0 +1,5 @@
+<div class="carousel-family">
+  <% @products.each do |product| %>
+    <%= render partial: "shared/product_basic", locals: { product: product} %>
+  <% end %>
+</div>

@@ -1,9 +1,9 @@
-<%= error[:message] unless error[:message].nil? %>
+<div class="text-center"><%= error[:message] unless error[:message].nil? %></div>
 <% if error[:message].nil? %>
   <div class="match-principle-pills">
     <% principle_colors.each do |principle_color| %>
-      <div class="match-principle-pill shadow-box-light">
-        <div id="<%= principle_color.id %>" class="color-panel">
+      <div class="match-principle-pill">
+        <div id="<%= principle_color.id %>" class="color-panel shadow-box-light">
           <div class="hex-lbl" style="background: <%= principle_color.hue_level.hex %>;"></div>
           <div class="slash" style="border-color:  <%= principle_color.hue_level.hex %> <%= principle_color.match1_hue_level.hex %>  <%= principle_color.match1_hue_level.hex %> <%= principle_color.hue_level.hex %>;"></div>
           <div class="hex-lbl" style="background: <%= principle_color.match1_hue_level.hex %>;"></div>

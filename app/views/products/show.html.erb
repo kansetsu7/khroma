@@ -1,10 +1,15 @@
 <div class="container">
-    <div class="product-panel-lg">
-      <%= render partial: "shared/product_lg", locals: { product: @product} %>
+  <div class="product-panel-lg">
+    <%= render partial: "shared/product_lg", locals: { product: @product} %>
+  </div>
+  <div id="product-family-panel">
+    <div class="product-family-items">
+ 
     </div>
-    <div id="product-match">
-      <%= render partial: "shared/match_btn" %>
-    </div>
+  </div>
+  <div id="product-match">
+    <%= render partial: "shared/match_btn" %>
+  </div>
 </div>
 <div id="product-match-result">
   <div class="container">

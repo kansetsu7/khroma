@@ -32,8 +32,10 @@ class ProductsController < ApplicationController
   end
 
   def family
-    @product = Product.find(params[:id])
-    @family = @product.style.type.products.joins(:color).where("colors.hue_level_id = ?", @product.color.hue_level_id).includes(color: :hue_level, style: :type)
+    product = Product.find(params[:id])
+    @products = product.style.type.products.joins(:color).where("colors.hue_level_id = ?", product.color.hue_level_id).includes(color: :hue_level, style: :type).limit(10)
+
+    render json: { familyHtml: render_to_string( partial: "shared/family_row", local: {products: product} ) }
   end
 
   private

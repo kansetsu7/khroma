@@ -1,6 +1,64 @@
 $(document).on('turbolinks:load', function(){
 
+  $('.product-panel-lg').on('click', '.family-btn', function(){
+    if ($('#product-family-panel').css('display') == 'block' ) {
+      $('#product-family-panel').hide();
+      $('.family-btn').html('查看相似商品');
+    } else {
+      $('#spinner-overlay').css('display', 'grid');
+      var ProductId = $('.product-lg-left .product-img').attr('id');
+
+      $.ajax({
+      url:  ProductId + '/family',
+      method: 'get',
+      dataType: 'json',
+      success: function(data){
+        $('.product-family-items').html('');
+        $('#product-family-panel').show();
+        $('.product-family-items').html(data['familyHtml']);
+        $('.family-btn').html('關閉相似商品');
+      }
+      }).done(function(){
+        $('.carousel-family').not('.slick-initialized').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      });
+    }
+    
+  });
+
   $('#product-match #match-btn').click(function(){
+    $('#product-family-panel').hide();
+
     var up_type_id;
     var up_hue_level;
     var down_type_id;
