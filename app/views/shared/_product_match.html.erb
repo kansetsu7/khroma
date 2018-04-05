@@ -1,6 +1,9 @@
 
-  <div class="product-img">
+  <div class="product-img shadow-box-light">
     <%= link_to product_path(product.id) do %>
-      <%= image_tag(product.image, class: "shadow-box") %>
+      <%= image_tag(product.image, class: "") %>
     <% end %>
+    <div class="product-match-overlay">
+      <span>View Details</span>
+    </div>
   </div>

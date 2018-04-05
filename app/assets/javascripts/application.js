@@ -16,12 +16,11 @@
 //= require jquery_ujs
 //= require popper
 //= require bootstrap-sprockets
+//= require bootstrap-select
+//= require bootstrap/alert
+//= require bootstrap/dropdown
 //= require_tree .
 //= require jquery.slick
-
-// $(window).bind("pageshow", function() {
-//   $('#spinner-overlay').hide();
-// });
 
 
 

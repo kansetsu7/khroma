@@ -1,4 +1,6 @@
 $(document).on('turbolinks:load', function(){
+  
+
   $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
 
   window.sr = ScrollReveal();
@@ -20,6 +22,7 @@ $(document).on('turbolinks:load', function(){
       },
       success: function(data){
         $('#q1-choice-panel').html(data['q1Html']);
+        // $('.selectpicker').selectpicker();
         $('#q2-choice-panel').html(data['q2Html']);
       }
     }).done(function(){
@@ -41,6 +44,7 @@ $(document).on('turbolinks:load', function(){
         $('#down-type-choice').html(data['typesDownHtml']);
       },
     }).done(function(){
+      $('.selectpicker').selectpicker();
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       });   
   });
