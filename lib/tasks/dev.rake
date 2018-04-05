@@ -101,15 +101,27 @@ namespace :dev do
     # uniqlo products ------
     uniqlo_products.each_with_index do |product, i|
       next if i == 0  # skip first row
-      Product.create!(
-        style_id: product[0].to_i + lativ_style_count + 1,
-        name: product[1],
-        brand: 'uniqlo',
-        image: product[4],
-        link: product[2],
-        price: uniqlo_styles[product[0].to_i+1][2],
-        color_chip: uniqlo_color_chips[i][1]
-      )
+      if (product[1].include?('褲') && product[6].to_i.even?) || product[1].include?('袖') && product[6].to_i.odd?
+        Product.create!(
+          style_id: product[0].to_i + lativ_style_count + 1,
+          name: '',
+          brand: '',
+          image: '',
+          link: '',
+          price: -1,
+          color_chip: ''
+        )
+      else
+        Product.create!(
+          style_id: product[0].to_i + lativ_style_count + 1,
+          name: product[1],
+          brand: 'uniqlo',
+          image: product[4],
+          link: product[2],
+          price: uniqlo_styles[product[0].to_i+1][2],
+          color_chip: uniqlo_color_chips[i][1]
+        )
+      end
     end
     puts "- uniqlo products created!"
 
@@ -279,29 +291,6 @@ namespace :dev do
           end
         end        
       end
-
-      # hue_levels = []
-      # outfit.product_colors.each_with_index do |pc, j|
-      #   hue_levels.push(pc.hue_level.id)
-      # end
-      # outfit.virtual_product_colors.each_with_index do |vpc, j|
-      #   hue_levels.push(vpc.hue_level.id)
-      # end
-
-      # hue_levels.each_with_index do |hue_level, j|
-      #   principle_colors = PrincipleColor.where(hue_level_id: hue_level)
-      #   principle_colors.each do |principle_color|
-      #     for k in (j + 1)...hue_levels.count
-      #       match1_hue_level = principle_color.match1_hue_level.id
-      #       if match1_hue_level == hue_levels[k]
-      #         OutfitPrincipleColor.create!(
-      #           principle_color_id: principle_color.id,
-      #           outfit_id: outfit.id
-      #         )
-      #       end
-      #     end
-      #   end
-      # end
     end 
 
     puts "Have created #{OutfitPrincipleColor.count} outfit principle colors!"
@@ -354,9 +343,9 @@ namespace :dev do
   end
 
   task test: :environment do
-    outfit = Outfit.find(455)
+    outfit = Outfit.find(377)
     outfit.products.each_with_index do |product, i|
-      puts "product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
+      puts "product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex} #{product.link}"
     end
     outfit.virtual_products.each_with_index do |product, i|
       puts "virtual_product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
