@@ -343,19 +343,15 @@ namespace :dev do
   end
 
   task test: :environment do
-    id = 393
+    id = 385
     outfit = Outfit.find(id)
     puts "=== outfit#{id} ==="
     outfit.products.each_with_index do |product, i|
-      puts "product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex} #{product.link}"
+      puts "product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex} #{product.link} #{product.color_chip}"
+      puts "#{product.image}"
     end
     outfit.virtual_products.each_with_index do |product, i|
       puts "virtual_product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
-    end
-
-    ps = Product.where('name = ?', 'IDLF 牛仔襯衫 (長袖)')
-    ps.each do |p|
-      puts "#{p.id}, #{p.style.id} #{p.style.name}, #{p.style.type.id} #{p.style.type.name}, #{p.category.id}"
     end
   end
 

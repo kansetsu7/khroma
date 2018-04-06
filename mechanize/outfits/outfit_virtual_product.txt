@@ -2536,7 +2536,7 @@ outfit_id,category,link,color_chip_id,cloudinary chip link,RGB hex,hue_level
 1139,2,http://www.uniqlo.com/tw/store/goods/400716,11,-1
 1139,2,http://www.uniqlo.com/tw/store/goods/405167,01,-1
 1139,3,http://www.uniqlo.com/tw/store/goods/402688,05,-1
-1140,3,http://www.uniqlo.com/tw/store/goods/404504,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138881/vp2536.gif,#747E93,10
+1140,2,http://www.uniqlo.com/tw/store/goods/404504,69,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138881/vp2536.gif,#747E93,10
 1141,2,http://www.uniqlo.com/tw/store/goods/404198,69,-1
 1141,2,http://www.uniqlo.com/tw/store/goods/400711,32,http://res.cloudinary.com/dupaat0x2/image/upload/v1522138884/vp2538.gif,#9D8B77,3
 1142,2,http://www.uniqlo.com/tw/store/goods/400710,01,-1

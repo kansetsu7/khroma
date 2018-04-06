@@ -37,7 +37,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 36,#414762,#414662,65.9,10
 37,#6E88C5,#6e82c5,52.7,10
 38,#BA8480,#ba8480,13.4,1
-39,#C2C2D3,#c2c2d3,63.2,10
+39,#C2C2D3,#c2c2d3,63.2,13
 40,#87838F,#87838f,18.8,11
 41,#6D6D70,#6d6d70,80.0,14
 42,#868789,#868689,33.3,14
@@ -48,7 +48,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 47,#393B6E,#393a6e,18.4,10
 48,#E0E0E0,#e0e0e0,36.6,13
 49,#323A5F,#32385f,84.9,10
-50,#EFDDDC,#efdddc,57.4,1
+50,#EFDDDC,#efdddc,57.4,13
 51,#EAEAE8,#e8eae8,56.2,13
 52,#B6C3D9,#b6bfd9,65.5,9
 53,#DFE1E7,#dfe0e7,40.3,13
@@ -110,7 +110,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 109,#E6E6E6,#e6e6e6,69.2,13
 110,#DAD9D9,#dad9d9,85.7,13
 111,#F9DFEA,#f9dfea,100.0,1
-112,#D9D9EC,#d9d9ec,100.0,10
+112,#D9D9EC,#d9d9ec,100.0,13
 113,#323B51,#323851,96.7,10
 114,#E8E9E5,#e5e9e6,87.6,13
 115,#E9E9EC,#e9e9ec,46.5,13
@@ -183,7 +183,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 182,#FDDFE6,#fddfe6,100.0,1
 183,#CCD4E8,#ccd2e8,100.0,10
 184,#D8D6DB,#d8d6db,99.0,13
-185,#EEDCE3,#eedce3,87.2,1
+185,#EEDCE3,#eedce3,87.2,13
 186,#D5D8E5,#d5d7e5,100.0,13
 187,#CBCAD0,#cbcad0,100.0,13
 188,#F1D1DC,#f1d1dc,100.0,1
@@ -192,7 +192,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 191,#FDDEE3,#fddee3,100.0,1
 192,#C8D6F0,#c8d2f0,100.0,10
 193,#D9D6DD,#d9d6dd,100.0,13
-194,#EBD9E4,#ebd9e4,57.4,12
+194,#EBD9E4,#ebd9e4,57.4,13
 195,#CDCDDB,#cdcddb,100.0,13
 196,#CECED0,#ceced0,83.3,13
 197,#F4D7E1,#f4d7e1,100.0,1
@@ -262,11 +262,11 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 261,#C0D0FC,#c0ccfc,94.2,10
 262,#42485B,#42465b,88.8,10
 263,#E4E4E4,#e4e4e4,52.9,13
-264,#E0E2F1,#e0e1f1,100.0,10
+264,#E0E2F1,#e0e1f1,100.0,13
 265,#8589CC,#8588cc,56.4,10
-266,#ECDDEE,#ecddee,52.3,12
+266,#ECDDEE,#ecddee,52.3,13
 267,#EDEEEE,#ededee,64.9,13
-268,#DDE0F0,#dddff0,100.0,10
+268,#DDE0F0,#dddff0,100.0,13
 269,#8789CC,#8788cc,57.2,10
 270,#D6C4E9,#d6c4e9,97.5,11
 271,#E9EAE4,#e4eae5,99.2,13
@@ -315,7 +315,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 314,#E9E9E9,#e9e9e9,74.4,13
 315,#BBBBBD,#bbbbbd,38.0,14
 316,#F4D9E3,#f4d9e3,100.0,1
-317,#D6D6E8,#d6d6e8,100.0,10
+317,#D6D6E8,#d6d6e8,100.0,13
 318,#33343F,#33333f,80.0,10
 319,#ECEBEA,#ececea,69.2,13
 320,#E0DFDF,#e0dfdf,49.0,13
@@ -331,7 +331,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 330,#EEECEB,#eeeceb,70.5,13
 331,#C6D9F7,#c6d3f7,98.6,9
 332,#D5DDF0,#d5dbf0,97.9,10
-333,#E7D6E6,#e7d6e6,98.8,12
+333,#E7D6E6,#e7d6e6,98.8,13
 334,#CFD7EA,#cfd5ea,91.5,10
 335,#CEC3E3,#cec3e3,80.0,11
 336,#D6CFCD,#d6cfcd,98.3,13
@@ -718,7 +718,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 717,#931528,#931528,100.0,1
 718,#4F4B37,#3b4f37,92.8,4
 719,#243448,#242f48,84.9,9
-720,#EAE8D9,#dbead9,62.6,4
+720,#EAE8D9,#dbead9,62.6,13
 721,#818C94,#818794,83.7,9
 722,#EBEBE3,#e3ebe3,99.2,13
 723,#929894,#929698,95.2,14
@@ -980,7 +980,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 979,#F8DEDF,#f8dedf,100.0,1
 980,#EF7A66,#ef7d66,73.1,2
 981,#F8EFDA,#e6f8da,85.7,4
-982,#D2E3D9,#d2dee3,100.0,7
+982,#D2E3D9,#d2dee3,100.0,13
 983,#D7DDF5,#d7dcf5,100.0,10
 984,#262631,#262631,51.7,15
 985,#ECECE7,#e7ece7,91.9,13
@@ -1014,13 +1014,13 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1013,#D5DEEC,#d5dbec,100.0,9
 1014,#345199,#344a99,100.0,10
 1015,#292E40,#292d40,100.0,10
-1016,#E1D4E5,#e1d4e5,26.9,12
+1016,#E1D4E5,#e1d4e5,26.9,13
 1017,#CAC4C2,#cac4c2,96.9,14
 1018,#F4CD7D,#b7f47d,78.1,3
 1019,#7D9593,#7d8995,27.7,8
 1020,#212640,#212540,27.3,10
 1021,#E8D1D0,#e8d1d0,47.3,1
-1022,#C7C5D4,#c7c5d4,45.0,10
+1022,#C7C5D4,#c7c5d4,45.0,13
 1023,#F5807E,#f5807e,100.0,1
 1024,#2B4367,#2b3c67,62.8,9
 1025,#EDEEE9,#e9eeea,98.1,13
@@ -1055,7 +1055,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1054,#194DA1,#193ea1,24.0,9
 1055,#5A7EB7,#5a73b7,17.4,9
 1056,#4A66A0,#4a5fa0,31.6,10
-1057,#E9E8D7,#d8e9d7,16.5,5
+1057,#E9E8D7,#d8e9d7,16.5,13
 1058,#E79A87,#e79e87,90.3,2
 1059,#273244,#272e44,100.0,9
 1060,#F0F2EC,#ecf2ee,65.7,13
@@ -1134,9 +1134,9 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1133,#DFA091,#dfa391,82.4,2
 1134,#CBDAE6,#cbd4e6,99.6,9
 1135,#C6C1CE,#c6c1ce,94.2,13
-1136,#EFDEE9,#efdee9,100.0,12
+1136,#EFDEE9,#efdee9,100.0,13
 1137,#DDE2E0,#dde0e2,76.7,13
-1138,#CCCFDD,#cccedd,86.8,10
+1138,#CCCFDD,#cccedd,86.8,13
 1139,#E7E7E7,#e7e7e7,100.0,13
 1140,#31302E,#2f312e,65.9,15
 1141,#F4C670,#b6f470,100.0,3
@@ -1177,7 +1177,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1176,#1F2D3F,#1f283f,47.1,9
 1177,#F2F1ED,#eef2ed,89.7,13
 1178,#B8C6D9,#b8c1d9,95.0,9
-1179,#F2EFE0,#e3f2e0,34.1,4
+1179,#F2EFE0,#e3f2e0,34.1,13
 1180,#E2BBA8,#e2c4a8,65.9,2
 1181,#CD2138,#cd2138,100.0,1
 1182,#1F3044,#1f2a44,67.1,9
@@ -1314,7 +1314,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1313,#EAE6C8,#cceac8,50.0,4
 1314,#EACAB6,#ead6b6,49.8,2
 1315,#03486F,#032d6f,50.0,9
-1316,#E2E0D0,#d2e2d0,57.6,5
+1316,#E2E0D0,#d2e2d0,57.6,13
 1317,#1B1B1B,#1b1b1b,100.0,15
 1318,#BE2F2A,#be2f2a,84.9,1
 1319,#BCA487,#b2bc87,53.1,3
@@ -1457,11 +1457,11 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1456,#24252A,#24242a,78.5,15
 1457,#ABBFB3,#abb9bf,100.0,7
 1458,#BFB2CC,#bfb2cc,100.0,11
-1459,#EDEDDB,#dbeddb,89.7,5
+1459,#EDEDDB,#dbeddb,89.7,13
 1460,#292929,#292929,100.0,15
 1461,#E2BEB1,#e2c2b1,100.0,2
 1462,#2A3E70,#2a3970,100.0,10
-1463,#EBE8DA,#ddebda,7.6,4
+1463,#EBE8DA,#ddebda,7.6,13
 1464,#B3B6B2,#b2b6b5,47.9,14
 1465,#1E1E1E,#1e1e1e,99.8,15
 1466,#DDB7AA,#ddbbaa,93.6,2
@@ -1551,7 +1551,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1550,#EEEEE0,#e0eee0,94.4,13
 1551,#A01834,#a01834,96.1,1
 1552,#1D2330,#1d2130,100.0,15
-1553,#E9E8D7,#d8e9d7,94.8,5
+1553,#E9E8D7,#d8e9d7,94.8,13
 1554,#8A1329,#8a1329,100.0,1
 1555,#EAE7D6,#d9ead6,57.4,4
 1556,#1E211F,#1e2021,85.1,15
@@ -1561,7 +1561,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1560,#E6E0D1,#d9e6d1,95.9,4
 1561,#1E201F,#1e1f20,100.0,15
 1562,#045D8E,#043a8e,89.7,9
-1563,#F3F0E1,#e4f3e1,44.6,4
+1563,#F3F0E1,#e4f3e1,44.6,13
 1564,#959792,#929794,69.6,14
 1565,#4575C6,#4567c6,81.6,9
 1566,#1C2230,#1c2030,100.0,15
@@ -1664,7 +1664,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1663,#4D5B77,#4d5777,87.0,10
 1664,#B5C7CC,#b5bfcc,100.0,9
 1665,#B8C8CC,#b8c0cc,100.0,9
-1666,#CAD3DA,#cacfda,95.2,9
+1666,#CAD3DA,#cacfda,95.2,13
 1667,#D7DAD7,#d7dada,56.6,13
 1668,#A2B0BD,#a2abbd,50.4,9
 1669,#272426,#272426,76.7,15
@@ -1760,7 +1760,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1759,#DB6159,#db6159,99.6,1
 1760,#275475,#274375,83.1,9
 1761,#536D9A,#53669a,84.3,9
-1762,#F2EFE1,#e4f2e1,43.0,4
+1762,#F2EFE1,#e4f2e1,43.0,13
 1763,#1D262D,#1d222d,99.8,15
 1764,#E6E5D3,#d4e6d3,93.2,5
 1765,#262F35,#262b35,85.7,9
@@ -1853,7 +1853,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1852,#57605F,#575b60,95.5,8
 1853,#242424,#242424,100.0,15
 1854,#E9E8E4,#e5e9e4,53.5,13
-1855,#E0D9CE,#d9e0ce,100.0,3
+1855,#E0D9CE,#d9e0ce,100.0,13
 1856,#2A2A27,#272a27,97.9,15
 1857,#89896A,#6a896a,57.6,5
 1858,#EAEBE8,#e8ebe9,47.5,13
@@ -1861,7 +1861,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1860,#DEB585,#d1de85,100.0,3
 1861,#232740,#232640,99.8,10
 1862,#1E1E2A,#1e1e2a,100.0,15
-1863,#C4C4D1,#c4c4d1,100.0,13
+1863,#C4C4D1,#c4c4d1,100.0,9
 1864,#AAB0C5,#aaaec5,86.4,10
 1865,#EDEDEB,#ebedeb,51.4,13
 1866,#F12E26,#f12e26,100.0,1
@@ -1880,7 +1880,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1879,#29375A,#29335a,62.8,10
 1880,#EDEDEB,#ebedeb,41.5,13
 1881,#1F1F1F,#1f1f1f,78.9,15
-1882,#E0DFCE,#cfe0ce,96.5,5
+1882,#E0DFCE,#cfe0ce,96.5,13
 1883,#C3A099,#c3a199,85.7,2
 1884,#3F4F66,#3f4a66,75.6,9
 1885,#202633,#202433,100.0,15
@@ -1939,7 +1939,7 @@ product_id,rgb hex,ryb hex,percentage of clothes,hue_level
 1938,#3C4043,#3c3e43,73.1,9
 1939,#2A2F32,#2a2d32,96.1,15
 1940,#2E3441,#2e3241,77.1,10
-1941,#F1EDDE,#e3f1de,70.0,4
+1941,#F1EDDE,#e3f1de,70.0,13
 1942,#2A2929,#2a2929,55.6,15
 1943,#F5D8C4,#f5e5c4,100.0,2
 1944,#363C51,#363a51,82.2,10

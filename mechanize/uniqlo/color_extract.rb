@@ -349,7 +349,9 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 7 && c.v >= 80  # white, uniqlo's white is more grayish than lativ
+  # uniqlo's white is more grayish than lativ
+  # OFF-White #E0DFCE v=8.04
+  return 13 if c.s < 8.1 && c.v >= 80  # white
   return 14 if c.s < 7 && c.v < 80 && c.v > 20 # gray
   return 15 if c.v <= 20  # black
 
