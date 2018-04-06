@@ -130,6 +130,15 @@ for i in 1..13 do
   create_pinciple_color(1, i, i, i)
 end
 
+create_pinciple_color(1, 14, 14, 13)
+create_pinciple_color(1, 15, 15, 13)
+create_pinciple_color(1, 13, 14, 13)
+create_pinciple_color(1, 13, 15, 13)
+create_pinciple_color(1, 14, 13, 13)
+create_pinciple_color(1, 14, 15, 13)
+create_pinciple_color(1, 15, 13, 13)
+create_pinciple_color(1, 15, 14, 13)
+
 # ---- 2. Analogous ----
 for i in 1..12 do
   h1 = i + 1
@@ -138,8 +147,8 @@ for i in 1..12 do
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
   h3 += 12 if h3 < 1
-  create_pinciple_color(2, i, h1, 14 + (i - 1) * 4, h2, h3)
-  create_pinciple_color(2, i, h2, 15 + (i - 1) * 4, h1)
+  create_pinciple_color(2, i, h1, 22 + (i - 1) * 4, h2, h3)
+  create_pinciple_color(2, i, h2, 23 + (i - 1) * 4, h1)
 
   h1 = i - 1
   h2 = i - 2
@@ -147,8 +156,8 @@ for i in 1..12 do
   h1 += 12 if h1 < 1
   h2 += 12 if h2 < 1
   h3 -= 12 if h3 > 12
-  file_num = i == 1 ? 58 : 14 + (i - 2) * 4
-  file_num2 = i > 2 ? 15 + (i - 3) * 4 : 51 + 4 * i
+  file_num = i == 1 ? 66 : 22 + (i - 2) * 4
+  file_num2 = i > 2 ? 23 + (i - 3) * 4 : 59 + 4 * i
   create_pinciple_color(2, i, h1, file_num, h2, h3)
   create_pinciple_color(2, i, h2, file_num2, h1)
 end
@@ -157,7 +166,7 @@ end
 for i in 1..12 do
   h1 = i + 6
   h1 -= 12 if h1 > 12
-  create_pinciple_color(3, i, h1, 61 + i)
+  create_pinciple_color(3, i, h1, 69 + i)
 end
 
 # ---- 4. Split Complementary ----
@@ -166,8 +175,8 @@ for i in 1..12 do
   h2 = i + 7
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  create_pinciple_color(4, i, h1, 72 + i * 2, h2)
-  create_pinciple_color(4, i, h2, 72 + i * 2, h1)
+  create_pinciple_color(4, i, h1, 80 + i * 2, h2)
+  create_pinciple_color(4, i, h2, 80 + i * 2, h1)
 end
 
 # ---- 5. Triad ----
@@ -176,45 +185,34 @@ for i in 1..12 do
   h2 = i + 8
   h1 -= 12 if h1 > 12
   h2 -= 12 if h2 > 12
-  create_pinciple_color(5, i, h1, 96 + i * 2, h2)
-  create_pinciple_color(5, i, h2, 96 + i * 2, h1)
+  create_pinciple_color(5, i, h1, 104 + i * 2, h2)
+  create_pinciple_color(5, i, h2, 104 + i * 2, h1)
 end
 
 # ---- 6. Achromatic ----
 for i in 1..12 do
-  create_pinciple_color(6, i, 13, 121 + i)
+  create_pinciple_color(6, i, 13, 129 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, 13, i, 121 + i)
+  create_pinciple_color(6, 13, i, 129 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, i, 14, 145 + i)
+  create_pinciple_color(6, i, 14, 153 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, 14, i, 145 + i)
+  create_pinciple_color(6, 14, i, 153 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, i, 15, 169 + i)
+  create_pinciple_color(6, i, 15, 177 + i)
 end
 
 for i in 1..12 do
-  create_pinciple_color(6, 15, i, 169 + i)
+  create_pinciple_color(6, 15, i, 177 + i)
 end
-
-create_pinciple_color(1, 13, 14, 13)
-create_pinciple_color(1, 13, 15, 13)
-create_pinciple_color(1, 14, 13, 13)
-create_pinciple_color(1, 14, 15, 13)
-create_pinciple_color(1, 15, 13, 13)
-create_pinciple_color(1, 15, 14, 13)
-
-# ---- 1. Monochromatic ----
-create_pinciple_color(1, 14, 14, 13)
-create_pinciple_color(1, 15, 15, 13)
 
 
 puts "Have created #{PrincipleColor.count} principle colors."
