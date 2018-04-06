@@ -23,11 +23,15 @@
       </tbody>
     </table>
 
-  <h2>編輯區</h2>
-  <%= form_for [:admin,@gender] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-  <% end %>
+    <h3>編輯區</h3>
+    <br>
+    <%= form_for [:admin,@gender] do |f| %>
+      <div class = "form-group">
+        <%= f.label :name, "Name" %>
+        <%= f.text_field :name %>
+      </div>
 
-</div>
+      <%= f.submit "確認", class: "btn btn-primary btn-sm" %>
+    <% end %>
+
+  </div>
