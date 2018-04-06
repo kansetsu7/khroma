@@ -51,30 +51,34 @@ puts "\"Admin\" created!"
 # ===== hue_level ===============================
 # 目前用RYB系統
 # 
-# id, hue in RYB(deg),  hex(RGB), hex(RYB)
-# 1,  0,                #FF0000,  #FF0000,
-# 2,  30,               #FF8000,  #FF5500,
-# 3,  60,               #FFFF00,  #FF7F00,
-# 4,  90,               #80FF00,  #FFA900,
-# 5,  120,              #00FF00,  #FFFF00,
-# 6,  150,              #00FF80,  #7FFF00,
-# 7,  180,              #00FFFF,  #00FF00,
-# 8,  210,              #0080FF,  #00FFFD,
-# 9,  240,              #0000FF,  #0000FF,
-# 10, 270,              #8000FF,  #8000FF,
-# 11, 300,              #FF00FF,  #FF00FF,
-# 12, 330,              #FF0080,  #FF0080,
-# 13, 0,                #000000,  #000000,
+# id, hue in RYB(deg),  hex(RGB), 
+# 1,  0,                #FF0000,  
+# 2,  30,               #FF8000,  
+# 3,  60,               #FFFF00,  
+# 4,  90,               #80FF00,  
+# 5,  120,              #00FF00,  
+# 6,  150,              #00FF80,  
+# 7,  180,              #00FFFF,  
+# 8,  210,              #0080FF,  
+# 9,  240,              #0000FF,  
+# 10, 270,              #8000FF,  
+# 11, 300,              #FF00FF,  
+# 12, 330,              #FF0080,  
+# 13, 0,                #FFFFFF,  
+# 14, 0,                #808080,  
+# 15, 0,                #000000,  
 # color name source: https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%88%97%E8%A1%A8
 
 # color_name = ["Red", "Orange", "Yellow", "Chartreuse", "Green", "Spring Green", 
 #               "Cyan", "Azure Radiance", "Blue", "Electric Violet", "Magenta", "Rose", "achromatic(black, gray, white)"]
 color_name = ["1. 紅色系", "2. 橘紅色系", "3. 橘色系", "4. 橘黃色系", "5. 黃色系", "6. 黃綠色系",
-              "7. 綠色系", "8. 藍綠色系", "9. 藍色系", "10. 藍紫色系", "11. 紫色系", "12. 紫紅色系", "13. 無色彩(黑、白、灰)"]
+              "7. 綠色系", "8. 藍綠色系", "9. 藍色系", "10. 藍紫色系", "11. 紫色系", "12. 紫紅色系",
+              "13. 無色彩(白)", "14. 無色彩(灰)", "15. 無色彩(黑)"]
 # hex = ['#FF0000', '#FF5500', '#FF7F00', '#FFA900', '#FFFF00', '#7FFF00',
 #        '#00FF00', '#00FFFD', '#0000FF', '#8000FF', '#FF00FF', '#FF0080', '#000000']
 hex = ['#FF0000', '#FF4000', '#FF8000', '#FFBF00', '#FFFF00', '#81D41A',
-       '#00A933', '#158466', '#2A6099', '#55308D', '#800080', '#BF0041', '#000000']
+       '#00A933', '#158466', '#2A6099', '#55308D', '#800080', '#BF0041',
+       '#FFFFFF', '#808080', '#000000']
 HueLevel.destroy_all
 color_name.each_with_index do |name, i|
   HueLevel.create(
@@ -184,6 +188,34 @@ end
 for i in 1..12 do
   create_pinciple_color(6, 13, i, 121 + i)
 end
+
+for i in 1..12 do
+  create_pinciple_color(6, i, 14, 145 + i)
+end
+
+for i in 1..12 do
+  create_pinciple_color(6, 14, i, 145 + i)
+end
+
+for i in 1..12 do
+  create_pinciple_color(6, i, 15, 169 + i)
+end
+
+for i in 1..12 do
+  create_pinciple_color(6, 15, i, 169 + i)
+end
+
+create_pinciple_color(1, 13, 14, 13)
+create_pinciple_color(1, 13, 15, 13)
+create_pinciple_color(1, 14, 13, 13)
+create_pinciple_color(1, 14, 15, 13)
+create_pinciple_color(1, 15, 13, 13)
+create_pinciple_color(1, 15, 14, 13)
+
+# ---- 1. Monochromatic ----
+create_pinciple_color(1, 14, 14, 13)
+create_pinciple_color(1, 15, 15, 13)
+
 
 puts "Have created #{PrincipleColor.count} principle colors."
 
