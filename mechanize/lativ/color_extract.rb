@@ -9,7 +9,7 @@ def write_color
   in_arr = CSV.read("./color.txt")
   writer = CSV.open("./clothes_color.txt", "wt")
   writer <<['product_id', 'rgb hex', 'ryb hex', 'percentage of clothes', 'hue_level']
-  arr_hlv = Array.new(13, 0)  # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
+  arr_hlv = Array.new(15, 0)  # array for count hue levels arr_hlv[0] stands for hue_level 1 etc.
   
   in_arr.each_with_index do |color, i| 
     next if i == 0  # skip first row 
@@ -20,8 +20,13 @@ def write_color
 
     c = Color.new(color[1])
     if c.is_achromatic?
-      main_color = color[3].nil? ? color[1] : color[3]
-      percentage = color[3].nil? ? color[2] : color[4]
+      if color[3].nil? || Color.new(color[3]).is_achromatic?
+        main_color = color[1]
+        percentage = color[2]
+      else
+        main_color = color[3]
+        percentage = color[4]
+      end      
     else  
       main_color = color[1]
       percentage = color[2]
@@ -345,7 +350,9 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 7 || c.v <= 20
+  return 13 if c.s < 7 && c.v >= 95  # white
+  return 14 if c.s < 7 && c.v < 95 && c.v > 20 # gray
+  return 15 if c.v <= 20  # black
 
   # ---- chromatic ----
   # hue_level,  hue range

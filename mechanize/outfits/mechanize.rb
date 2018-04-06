@@ -27,7 +27,6 @@ def change_vp_hue_level
 
   v_products.each_with_index do |v_product, i|
     next if i == 0
-    puts "#{i} ===== #{v_products[i]}"
     if v_product[4] == '-1'
       writer << v_products[i]
     else
@@ -458,7 +457,9 @@ def get_hue_level(rgb_hex)
   c = Color.new(rgb_hex)
   # ---- achromatic 無色彩 ----
   
-  return 13 if c.s < 7 || c.v <= 20
+  return 13 if c.s < 7 && c.v >= 80  # white
+  return 14 if c.s < 7 && c.v < 80 && c.v > 20 # gray
+  return 15 if c.v <= 20  # black
 
   # ---- chromatic ----
   # hue_level,  hue range

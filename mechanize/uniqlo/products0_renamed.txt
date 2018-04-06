@@ -1740,9 +1740,9 @@ style_id,name,link,color,img_link,gender_id,category_of_gender_id,type_of_catego
 556,孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404122,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404122/item/68_404122.jpg,1,1,0,33
 557,孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404492,66-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404492/item/66_404492.jpg,1,1,0,34
 558,孕婦包腹特級彈性牛仔褲,http://www.uniqlo.com/tw/store/goods/404493,09-BLACK,http://im.uniqlo.com/images/tw/uq/pc/goods/404493/item/09_404493.jpg,1,1,0,35
-559,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/01_404204.jpg,1,1,0,36
-559,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/64_404204.jpg,1,1,0,36
-559,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/68_404204.jpg,1,1,0,36
+425,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,01-OFF WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/01_404204.jpg,1,0,0,87
+425,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,64-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/64_404204.jpg,1,0,0,87
+425,牛仔外套,http://www.uniqlo.com/tw/store/goods/404204,68-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404204/item/68_404204.jpg,1,0,0,87
 560,高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,00-WHITE,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/00_404702.jpg,1,1,0,37
 560,高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,08-DARK GRAY,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/08_404702.jpg,1,1,0,37
 560,高腰牛仔短褲,http://www.uniqlo.com/tw/store/goods/404702,63-BLUE,http://im.uniqlo.com/images/tw/uq/pc/goods/404702/item/63_404702.jpg,1,1,0,37
