@@ -29,37 +29,21 @@
       </tbody>
     </table>
 
-  <div class = "row">
-    <div class = "col-4">
-      <h3>創造新type</h3>
-      <%= form_for [:admin,@type] do |f| %>
-        <div class = "form-group">
-          <%= f.label :name, "Name" %>
-          <%= f.text_field :name, class: "form-control" %>
-        </div>
-        <div class = "form-group">
-          <%= f.label :category_id, "type_id" %>
-          <%= f.text_field :category_id, class: "form-control" %>
-        </div>
-        <%= f.submit %>
-      <% end %>
-    </div>
-    <div class = "col-8">
-      <h3>可用的category id</h3>
-      <br>
-      <div class = "row">
-      <% @categories.each do |category| %>
-        <div class = "col-2">
-          <span class="badge badge-pill badge-success my-badge">
-            <%= category.name %>
-            <%= category.id %>
-          </span>
-        </div>
-      <% end %>
+    <div class = "row">
+      <div class = "col-4">
+        <h3>創造新type</h3>
+        <br>
+        <%= form_for [:admin,@type] do |f| %>
+          <div class = "form-group">
+            <%= f.label :name, "Name" %>
+            <%= f.text_field :name, class: "form-control" %>
+          </div>
+            <%= f.collection_select :category_id, @categories, :id , :id_with_name, option = {prompt: "選個分類"}, {class: "form-control"} %>
+            <br>
+          <%= f.submit "確認", class: "btn btn-primary" %>
+        <% end %>
       </div>
     </div>
-
-  </div>
   <br>
 
 </div>

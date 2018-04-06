@@ -23,14 +23,18 @@
         <% end %>
       </tbody>
     </table>
-
-    <h3>編輯區</h3>
-    <br>
-    <%= form_for [:admin,@gender] do |f| %>
-      <div class = "form-group">
-        <%= f.label :name, "Name" %>
-        <%= f.text_field :name %>
+    <hr>
+    <div class = "row">
+      <div class = "col-4">
+        <h3>創造新gender</h3>
+        <br>
+        <%= form_for [:admin,@gender] do |f| %>
+          <div class = "form-group">
+            <%= f.label :name, "Name" %>
+            <%= f.text_field :name, class: "form-control" %>
+          </div>
+          <%= f.submit"確認", class: "btn btn-primary btn-sm" %>
+        <% end %>
       </div>
-      <%= f.submit"確認", class: "btn btn-primary btn-sm" %>
-    <% end %>
+    </div>
   </div>
