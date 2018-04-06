@@ -8,16 +8,18 @@
           <% @product.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
- 
+          <th scope="col">顏色hex</th>
+          <th scope="col">hue level</th>
         </tr>
       </thead>
       <tbody>
        
           <tr>
             <% @product.attributes.each do |key,value|  %>
-              <td class = "td-width"><%= value %></td>
+              <td class = "td-width"><%= show_product_attribute(value) %></td>
             <% end %>
-
+            <td><%= @product.color.hex %> <div class="chip-color" style="background-color: <%= @product.color.hex %>;"></div> </td>
+            <td><%= @product.color.hue_level.name %></td>
           </tr>
      
       </tbody>
