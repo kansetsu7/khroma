@@ -41,6 +41,10 @@
         <%= f.label :price, "Price" %>
         <%= f.text_field :price %>
       </div>
+      <%#= f.fields_for :color do |c| %>
+        <%#= c.text_field :hue_level_id %>
+        <%#= c.text_field :hex %>
+      <%# end %>
     </div>
     <div class="form-group">
       <%= f.label :image, "Image" %>
@@ -50,7 +54,12 @@
       <%= f.label :link, "Link" %>
       <%= f.text_field :link, class: "form-control" %>
     </div>
+    <div class="form-group">
+      <%= f.label :color_chip, "Color chip" %>
+      <%= f.text_field :color_chip, class: "form-control" %>
+    </div>
     <br>
+    <%= render partial: "shared/color_info" %>
     <%= f.submit %>
   <% end %>
 

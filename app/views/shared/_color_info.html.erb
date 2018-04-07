@@ -1,0 +1,46 @@
+<div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <% @chip_colors.each_with_index do |color, i| %>
+          <th>顏色 <%= i + 1 %></th>
+        <% end %>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>色塊</th>
+        <% @chip_colors.each do |color| %>
+          <th><div class="chip-color" style="background-color: <%= color[0] %>;"></div>
+            <div><%= color[0] %></div></th>
+        <% end %>
+      </tr>
+      <tr>
+        <th>面積</th>
+        <% @chip_colors.each do |color| %>
+          <th><%= color[1] %>%</th>
+        <% end %>
+      </tr>
+      <tr>
+        <th>飽和度(s)</th>
+        <% @chip_colors.each do |color| %>
+          <th><%= color[2].s %></th>
+        <% end %>
+      </tr>
+      <tr>
+        <th>明度(v)</th>
+        <% @chip_colors.each do |color| %>
+          <th><%= color[2].v %></th>
+        <% end %>
+      </tr>
+      <tr>
+        <th>hue level</th>
+        <% @chip_colors.each do |color| %>
+          <th><%= color[2].hue_level %></th>
+        <% end %>
+      </tr>
+    </tbody>
+
+  </table>
+</div>

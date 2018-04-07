@@ -17,6 +17,16 @@ class Admin::ProductsController < Admin::AdminController
   def edit
     @product = Product.find(params[:id])
     @style = Style.find(params[:style_id])
+    public_id = 'chip/'+@product.color_chip.split('/').last.split('.').first
+    result = Cloudinary::Api.resource(public_id, :colors => true)
+    puts "#{public_id}"
+    puts result.inspect
+    @chip_colors = result['colors']
+    @chip_colors.each_with_index do |cc, i|
+      clothes_color = ClothesColor.new(cc[0])
+      cc.push(clothes_color)
+      # puts "#{i}, #{rc[0]}, #{rc[1]}"
+    end
   end
 
   def update
