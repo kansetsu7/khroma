@@ -1,6 +1,5 @@
-<div class = "container">
-
-  <%= render partial: "shared/admin_nav" %>
+  <div class = "container">
+    <%= render partial: "shared/admin_nav" %>
 
     <table class="table table-hover table-dark">
       <thead>
@@ -24,14 +23,18 @@
         <% end %>
       </tbody>
     </table>
-
-
-  <%= form_for [:admin,@gender] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-  <% end %>
-
-
-
-</div>
+    <hr>
+    <div class = "row">
+      <div class = "col-4">
+        <h3>創造新gender</h3>
+        <br>
+        <%= form_for [:admin,@gender] do |f| %>
+          <div class = "form-group">
+            <%= f.label :name, "Name" %>
+            <%= f.text_field :name, class: "form-control" %>
+          </div>
+          <%= f.submit"確認", class: "btn btn-primary btn-sm" %>
+        <% end %>
+      </div>
+    </div>
+  </div>

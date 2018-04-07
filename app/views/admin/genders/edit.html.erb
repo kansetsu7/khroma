@@ -12,22 +12,25 @@
         </tr>
       </thead>
       <tbody>
-       
-          <tr>
-            <% @gender.attributes.each do |key,value|  %>
-              <td><%= value %></td>
-            <% end %>
-
-          </tr>
-     
+        <tr>
+          <% @gender.attributes.each do |key,value|  %>
+            <td><%= value %></td>
+          <% end %>
+        </tr>
       </tbody>
     </table>
-
-  <h2>編輯區</h2>
-  <%= form_for [:admin,@gender] do |f| %>
-    <%= f.label :name, "Name" %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-  <% end %>
-
-</div>
+    <hr>
+    <h3>編輯區</h3>
+    <br>
+    <div class = "row">
+      <div class = "col-4">
+        <%= form_for [:admin,@gender] do |f| %>
+          <div class = "form-group">
+            <%= f.label :name, "Name" %>
+            <%= f.text_field :name, class: "form-control" %>
+          </div>
+          <%= f.submit "確認", class: "btn btn-primary btn-sm" %>
+        <% end %>
+      </div>
+    </div>
+  </div>

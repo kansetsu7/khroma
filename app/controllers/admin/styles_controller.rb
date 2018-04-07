@@ -13,7 +13,7 @@ class Admin::StylesController < Admin::AdminController
   def create
     @style = Style.new(style_params)
     @style.save
-    redirect_to admin_styles_path
+    redirect_to admin_type_styles_path(@style.type)
   end
 
   def edit
@@ -26,7 +26,7 @@ class Admin::StylesController < Admin::AdminController
     @style = Style.find(params[:id])
     @style.update(style_params)
     @style.save
-    redirect_to admin_styles_path
+    redirect_to admin_type_styles_path(@style.type)
   end
 
   def destroy
