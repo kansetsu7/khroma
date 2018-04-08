@@ -29,7 +29,7 @@
 
 
 .user-profile-panel {
-  width: 300px;
+  width: 50%;
   background: #FFF;
   margin-top: 20px;
   padding: 20px;
@@ -50,6 +50,12 @@
 }
 
 /* RWD */
+
+@media (max-width: 890px) {
+  .user-profile-panel {
+    width: 100%;
+  }
+}
 
 @media (max-width: 550px) {
 

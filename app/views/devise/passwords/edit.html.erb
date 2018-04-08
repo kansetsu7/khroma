@@ -3,27 +3,25 @@
     <div class="card">
       <div class="card-header">
         <h6>密碼重設</h6>
-        <div class="close-btn pull-right">&#10005;</div>
       </div>
       <div class="card-body">
-        <%= render "devise/shared/links" %>
-        <p>或</p>
-        <% if flash[:alert] %>
-          <span style="color: red" ><%= flash[:alert] %></span>
-        <% end %> 
-
         <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
-          <%= devise_error_messages! %>
           <%= f.hidden_field :reset_password_token %>
           <div class="field">
             <% if @minimum_password_length %>
-              <em>(<%= @minimum_password_length %> characters minimum)</em><br />
+              <em>(<%= 至少@minimum_password_length %>字元密碼)</em><br />
             <% end %>
-            <%= f.password_field :password, autofocus: true, autocomplete: "off", placeholder: "新密碼",class: "form-control" %>
+            <%= f.password_field :password, autofocus: true, autocomplete: "off", placeholder: "新密碼(",class: "form-control" %>
+            <% if resource.errors[:password].any? %>
+              <span style="color: red" >Password <%=  resource.errors[:password].to_sentence %></span>
+            <% end %>
           </div>
           <br>
           <div class="field">
             <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "確認新密碼",class: "form-control" %>
+            <% if resource.errors[:password_confirmation].any? %>
+              <span style="color: red" >Confirmation password <%=  resource.errors[:password_confirmation].to_sentence %></span>
+            <% end %>
           </div>
           <br>
           <div class="actions">

@@ -6,19 +6,24 @@
         <div class="close-btn pull-right">&#10005;</div>
       </div>
       <div class="card-body">
-        <% if devise_error_messages!.present? %>
-          <span style="color: red" ><%= flash[:devise] %></span>
-        <% end %> 
         <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-          
           <div class="field form-group">
             <%= f.email_field :email, autocomplete: "email", required: true, placeholder: "電子郵件", class: "form-control" %>
+            <% if resource.errors[:email].any? %>
+              <span style="color: red" >Email <%=  resource.errors[:email].to_sentence %></span>
+            <% end %>
           </div>
           <div class="field form-group">
             <%= f.password_field :password, autocomplete: "off", required: true, placeholder: "密碼（ 至少#{@minimum_password_length}位 ）",class: "form-control" %>
+            <% if resource.errors[:password].any? %>
+              <span style="color: red" >Password <%=  resource.errors[:password].to_sentence %></span>
+            <% end %>
           </div>
           <div class="field form-group">
             <%= f.password_field :password_confirmation, autocomplete: "off", required: true, placeholder: "密碼確認",class: "form-control" %>
+            <% if resource.errors[:password_confirmation].any? %>
+              <span style="color: red" >Confirmation password <%=  resource.errors[:password_confirmation].to_sentence %></span>
+            <% end %>
           </div>
           <div class="actions">
                <%= f.submit "註冊",class: "btn btn-primary sign-btn" %>

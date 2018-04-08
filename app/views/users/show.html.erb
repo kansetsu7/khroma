@@ -21,7 +21,7 @@
         </div>
         <div class="user-title">Email</div>
         <div class="user-email">
-          <%= current_user.email %>
+          <%= simple_format(current_user.email) %>
         </div>
         <div class="user-button-panel">
           <%= link_to edit_user_path(current_user), remote: true do %>

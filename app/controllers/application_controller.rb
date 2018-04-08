@@ -14,7 +14,9 @@ class ApplicationController < ActionController::Base
 
   def store_user_location!
     # :user is the scope we are authenticating
-    store_location_for(:user, request.fullpath) unless request.xhr?
+    if request.get? && is_navigational_format? && !devise_controller? && !request.xhr? 
+      store_location_for(:user, request.fullpath)
+    end
   end
 
   def params_not_enough

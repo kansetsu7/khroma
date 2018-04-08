@@ -6,24 +6,23 @@
         <div class="close-btn pull-right">&#10005;</div>
       </div>
       <div class="card-body">
-        <%= render "devise/shared/links" %>
-        <p>或</p>
-        <% if flash[:alert] %>
-          <span style="color: red" ><%= flash[:alert] %></span>
-        <% end %> 
-
         <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-          <%= devise_error_messages! %>
-
           <div class="field">
-    
             <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "郵箱",class: "form-control" %>
           </div>
+          <% if resource.errors[:email].any? %>
+            <span style="color: red" >Email <%=resource.errors[:email].to_sentence %></span>
+          <% end %>
           <br>
           <div class="actions">
             <%= f.submit "寄送重設密碼郵件", class: "btn btn-primary sign-btn" %>
           </div>
         <% end %>
+        <hr />
+        <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
+          <p>還沒有帳戶嗎？<%= link_to "註冊", new_registration_path(resource_name), remote: true %></p>
+        <% end -%>
+        <p>已經擁有帳戶？<%= link_to "登入", new_session_path(resource_name),remote: true  %></p>
       </div>
     </div>
   </div>
