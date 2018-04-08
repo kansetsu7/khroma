@@ -3,7 +3,32 @@
     <%= link_to product_path(product.id) do %>
       <%= image_tag(product.image, class: "") %>
     <% end %>
-    <div class="product-match-overlay">
-      <span>View Details</span>
+    <div class="product-match-overlay-1">
+      <span class="view-detail-btn">View Details</span>
+    </div>
+    <div class="product-match-overlay-2 shadow-box">
+      <div class="product-info">
+        <div class="product-title">
+          <%= product.name %>
+        </div>
+        <div class="product-brand-price-row">
+          <div class="product-brand">
+              <%= image_tag("#{product.brand}-logo.png", class: "product-brand-img") %>
+          </div>
+          <div class="product-price">
+            $<%= product.price.round %>
+          </div>
+        </div> 
+        <div class="product-cart-link-row">
+          <div class="product-cart">
+            <%= render partial: "shared/cart_button", locals: {product: product} %>
+          </div>
+          <div class="product-link">
+            <a href="<%= product.link %>" target="_blank">
+              <button class="btn btn-sm btn-warning">去購買</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>

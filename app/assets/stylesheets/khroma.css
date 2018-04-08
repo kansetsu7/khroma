@@ -274,7 +274,8 @@ select option[value="2"] { /* value not val */
   object-fit: cover;
 }
 
-.slick-slide  .product-img  .product-match-overlay {
+.slick-slide  .product-img  .product-match-overlay-1,
+.slick-slide  .product-img  .product-match-overlay-2 {
   display: none;
 }
 
@@ -284,7 +285,8 @@ select option[value="2"] { /* value not val */
   overflow: hidden;
 }
 
-.slick-current  .product-img  .product-match-overlay {
+.slick-current  .product-img  .product-match-overlay-1,
+.slick-current  .product-img  .product-match-overlay-2 {
   display: grid;
   position: absolute;
   bottom: 0;
@@ -292,17 +294,13 @@ select option[value="2"] { /* value not val */
   right: -2px;
   height: 50px;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 500;
+  z-index: 450;
   align-items: center;
   transform: translateY(50px);
-}
-
-.slick-current  .product-img:hover  .product-match-overlay {
-  transform: translateY(0);
   transition: 0.2s;
 }
 
-.slick-current .product-img .product-match-overlay span {
+.slick-current .product-img .product-match-overlay-1 span {
   display: inline-block;
   width: 40%;
   margin: 2px auto;
@@ -310,6 +308,15 @@ select option[value="2"] { /* value not val */
   border: 2px solid #000;
   background: rgba(255, 255, 255, 0.7);
   font-weight: 900;
+  cursor: pointer;
+}
+
+.slick-current  .product-img .product-match-overlay-2 {
+  z-index: 500;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  height: 144px;
+  transform: translateY(144px);
 }
 
 .up-products-panel {
