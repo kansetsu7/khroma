@@ -8,10 +8,12 @@
           <% @products.first.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
+          <th scope="col">顏色hex</th>
+          <th scope="col">hue level</th>
           <th scope="col">edit</th> 
           <th scope="col">delete</th>
           <% else %>
-            <h1>佔無products</h1>
+            <h1>暫無products</h1>
         <% end %>
       </tr>
     </thead>
@@ -19,8 +21,10 @@
       <% @products.each do |product| %>
         <tr>
           <% product.attributes.each do |key,value|  %>
-            <td class = "td-width"><%= value %></td>
+            <td class = "td-width"><%= show_product_attribute(value) %></td>
           <% end %>
+          <td><%= product.color.hex %> <div class="chip-color" style="background-color: <%= product.color.hex %>;"></div> </td>
+          <td><%= product.color.hue_level.name %></td>
           <td><%= link_to "編輯", edit_admin_style_product_path(@style, product) %></td>
           <td><%= link_to "刪除", admin_style_product_path(@style, product), method: :delete %></td>
         </tr>
@@ -53,7 +57,23 @@
       <%= f.label :link, "Link" %>
       <%= f.text_field :link, class: "form-control" %>
     </div>
+    <div class="form-group">
+      <%= f.label :color_chip, "Color chip" %> <div class="btn admin-btn btn-default" id="get-color">取得顏色</div>
+      <%= f.text_field :color_chip, class: "form-control" %>
+    </div>
+    <div id="color-info-panel">
+    </div>  
+    <div id="error-box">
+      <% if @product.errors.any? %>
+        <h4>We have some errors here!</h4>
+        <ul>
+          <% @product.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
     <br>
-    <%= f.submit %>
+    <%= f.submit "Create product!", id: 'submit-btn', disabled: true %>
   <% end %>
 </div>

@@ -1,3 +1,26 @@
 // Place all the styles related to the admin::products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.table-product-img{
+  width: 100px;
+  height: auto;
+}
+
+.table-dark a{
+  color: white;
+}
+
+.chip-color {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#get-color{
+  border-color: black;
+}
+
+#error-box li{
+  color: red;
+}

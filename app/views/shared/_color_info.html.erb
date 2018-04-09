@@ -1,0 +1,43 @@
+<div>
+  <%= image_tag(chip_url, :class => "table-product-img") %>
+  <h3>請選擇衣服代表色與hue level</h3><h5>飽和度小於7且明度小於20會被判定為無色彩(黑白灰)</h5>
+  <table class="table table-striped table-dark">
+    <thead>
+      <tr>
+        <th></th>
+        <th>色塊</th>
+        <th>面積</th>
+        <th>飽和度(s)</th>
+        <th>明度(v)</th>
+        <th>非無色彩時的<br>hue level</th>
+        <th>請選擇<br>hue level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% chip_colors.each_with_index do |color, i| %>
+        <tr>
+          <td>
+            <input type="radio" name="colorRadios" id="color_radio<%= i %>" value=<%= color[0] %> <%= 'checked' if i == target_index %> onclick="changeColorColumn()"> 顏色 <%= i + 1 %>
+          </td>
+          <td><div class="chip-color" style="background-color: <%= color[0] %>;"></div>
+            <div><%= color[0] %></div>
+          </td>
+          <th><%= color[1] %>%</td>
+          <td><%= color[2].s %></td>
+          <td><%= color[2].v %></td>
+          <td><%= hue_levels[color[2].not_achromatic_hue_level - 1].name %></td>
+          <td>
+            <select id="color_select<%= i %>" name="color_select" <%= 'disabled' unless i == target_index %>>
+              <% hue_levels.each_with_index do |hue_level, j| %>
+                <option <%= 'selected' if j + 1 == color[2].hue_level %>><%= hue_level.name %></option>
+              <% end %>
+            </select>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+
+    
+
+  </table>
+</div>

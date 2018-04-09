@@ -50,6 +50,8 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 #Use bootstrap-select-rails https://github.com/silviomoreto/bootstrap-select
 gem 'bootstrap-select-rails'
 
+gem 'cloudinary'
+
 gem 'csv'
 
 # Use carrierwave

@@ -121,7 +121,7 @@ def create_pinciple_color(principle_id, hue_level_id, hue_match1, file_num, hue_
     hue_match1:   hue_match1,
     hue_option1:  hue_option1,
     hue_option2:  hue_option2,
-    image: File.open(File.join(Rails.root, "/public/principle_color_img/pc#{file_num}.jpg"))
+    image: "pc#{file_num}.jpg"
   )
 end
 

@@ -8,16 +8,18 @@
           <% @product.attributes.each do |key,value|  %>
             <th scope="col"><%= key %></th>
           <% end %>
- 
+          <th scope="col">顏色hex</th>
+          <th scope="col">hue level</th>
         </tr>
       </thead>
       <tbody>
        
           <tr>
             <% @product.attributes.each do |key,value|  %>
-              <td class = "td-width"><%= value %></td>
+              <td class = "td-width"><%= show_product_attribute(value) %></td>
             <% end %>
-
+            <td><%= @product.color.hex %> <div class="chip-color" style="background-color: <%= @product.color.hex %>;"></div> </td>
+            <td><%= @product.color.hue_level.name %></td>
           </tr>
      
       </tbody>
@@ -47,6 +49,13 @@
     <div class="form-group">
       <%= f.label :link, "Link" %>
       <%= f.text_field :link, class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.label :color_chip, "Color chip" %> <div class="btn admin-btn btn-default" id="get-color">取得顏色</div>
+      <%= f.text_field :color_chip, class: "form-control" %>
+    </div>
+    <div id="color-info-panel">
+      <%= render partial: "shared/color_info", locals: {chip_url: @chip_url, chip_colors: @chip_colors, target_index: @target_index, hue_levels: @hue_levels} %>
     </div>
     <br>
     <%= f.submit %>

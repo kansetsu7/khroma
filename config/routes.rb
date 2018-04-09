@@ -80,7 +80,11 @@ Rails.application.routes.draw do
     resources :styles, except: [:show, :new] do
       resources :products, except: [:show, :new]
     end
-    resources :products, only: [:edit, :update, :destroy]
+    resources :products, only: [:edit, :update, :destroy] do
+      collection do
+        get :get_chip_colors
+      end
+    end
   end
   
 end

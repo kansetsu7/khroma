@@ -77,12 +77,12 @@ namespace :dev do
       if product[1] == '-1'  # sold out products
         Product.create!(
           style_id: product[0].to_i + 1,
-          name: '',
-          brand: '',
-          image: '',
-          link: '',
+          name: '-',
+          brand: '-',
+          image: '-',
+          link: '-',
           price: -1,
-          color_chip: ''
+          color_chip: '-'
         )
       else
         Product.create!(
@@ -104,12 +104,12 @@ namespace :dev do
       if (product[1].include?('褲') && product[6].to_i.even?) || product[1].include?('袖') && product[6].to_i.odd?
         Product.create!(
           style_id: product[0].to_i + lativ_style_count + 1,
-          name: '',
-          brand: '',
-          image: '',
-          link: '',
+          name: '-',
+          brand: '-',
+          image: '-',
+          link: '-',
           price: -1,
-          color_chip: ''
+          color_chip: '-'
         )
       else
         Product.create!(
@@ -353,6 +353,23 @@ namespace :dev do
     outfit.virtual_products.each_with_index do |product, i|
       puts "virtual_product #{product.id}, category #{product.category.name}, hlv #{product.color.hue_level_id} #{product.color.hex}"
     end
+  end
+
+
+  task test2: :environment do
+    # PrincipleColor.create!(
+    #   principle_id: 1,
+    #   hue_level_id: 1,
+    #   hue_match1:   1,
+    #   # hue_option1:  nil,
+    #   # hue_option2:  hue_option2,
+    #   image: 
+    # )   
+
+    # PrincipleColor.last.image = 'https://res.cloudinary.com/dec3rgj55/image/upload/v1523149267/pc140.jpg'
+    puts Cloudinary::Uploader.explicit('pc140', :type => 'upload')
+    # puts PrincipleColor.last.image
+    # puts PrincipleColor.last.inspect
   end
 
   task fake_all: :environment do
