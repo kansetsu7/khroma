@@ -25,9 +25,9 @@
           <th><%= color[1] %>%</td>
           <td><%= color[2].s %></td>
           <td><%= color[2].v %></td>
-          <td><%= color[2].not_achromatic_hue_level %></td>
+          <td><%= hue_levels[color[2].not_achromatic_hue_level - 1].name %></td>
           <td>
-            <select id="color_select<%= i %>" name="color_select" <%= 'disabled' unless i == target_index  %>>
+            <select id="color_select<%= i %>" name="color_select" <%= 'disabled' unless i == target_index %>>
               <% hue_levels.each_with_index do |hue_level, j| %>
                 <option <%= 'selected' if j + 1 == color[2].hue_level %>><%= hue_level.name %></option>
               <% end %>
