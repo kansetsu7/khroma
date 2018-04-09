@@ -355,6 +355,23 @@ namespace :dev do
     end
   end
 
+
+  task test2: :environment do
+    # PrincipleColor.create!(
+    #   principle_id: 1,
+    #   hue_level_id: 1,
+    #   hue_match1:   1,
+    #   # hue_option1:  nil,
+    #   # hue_option2:  hue_option2,
+    #   image: 
+    # )   
+
+    # PrincipleColor.last.image = 'https://res.cloudinary.com/dec3rgj55/image/upload/v1523149267/pc140.jpg'
+    puts Cloudinary::Uploader.explicit('pc140', :type => 'upload')
+    # puts PrincipleColor.last.image
+    # puts PrincipleColor.last.inspect
+  end
+
   task fake_all: :environment do
     Rake::Task['db:drop'].execute
     Rake::Task['db:migrate'].execute

@@ -1,43 +1,53 @@
 <div>
+  <%= image_tag(chip_url, :class => "table-product-img") %>
   <table class="table">
     <thead>
       <tr>
-        <th></th>
-        <% @chip_colors.each_with_index do |color, i| %>
-          <th>顏色 <%= i + 1 %></th>
+        <th>請選擇衣服代表色</th>
+        <% chip_colors.each_with_index do |color, i| %>
+          <th>
+            <input type="radio" name="colorRadios" id="color_radio<%= i %>" value=<%= color[0] %> <%= 'checked' if i == target_index %> onclick="changeColorColumn()"> 顏色 <%= i + 1 %>
+          </th>
         <% end %>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th>色塊</th>
-        <% @chip_colors.each do |color| %>
+        <% chip_colors.each_with_index do |color, i| %>
           <th><div class="chip-color" style="background-color: <%= color[0] %>;"></div>
-            <div><%= color[0] %></div></th>
+            <div><%= color[0] %></div>
+          </th>
         <% end %>
       </tr>
       <tr>
         <th>面積</th>
-        <% @chip_colors.each do |color| %>
+        <% chip_colors.each do |color| %>
           <th><%= color[1] %>%</th>
         <% end %>
       </tr>
       <tr>
         <th>飽和度(s)</th>
-        <% @chip_colors.each do |color| %>
+        <% chip_colors.each do |color| %>
           <th><%= color[2].s %></th>
         <% end %>
       </tr>
       <tr>
         <th>明度(v)</th>
-        <% @chip_colors.each do |color| %>
+        <% chip_colors.each do |color| %>
           <th><%= color[2].v %></th>
         <% end %>
       </tr>
       <tr>
         <th>hue level</th>
-        <% @chip_colors.each do |color| %>
-          <th><%= color[2].hue_level %></th>
+        <% chip_colors.each_with_index do |color, i| %>
+          <th>
+            <select id="color_select<%= i %>" name="color_select" <%= 'disabled' unless i == target_index  %>>
+              <% hue_levels.each_with_index do |hue_level, j| %>
+                <option <%= 'selected' if j + 1 == color[2].hue_level %>><%= hue_level.name %></option>
+              <% end %>
+            </select>
+          </th>
         <% end %>
       </tr>
     </tbody>
