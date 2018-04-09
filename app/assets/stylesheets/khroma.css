@@ -333,7 +333,6 @@ select option[value="2"] { /* value not val */
 }
 
 .slick-list {
-/*  max-width: 500px;*/
   text-align: center;
   vertical-align: middle;
 }
@@ -387,7 +386,7 @@ select option[value="2"] { /* value not val */
     max-height: 300px;
   }
 
-  .slick-current .product-img .product-match-overlay span {
+  .slick-current .product-img .product-match-overlay-1 span {
     font-size: 12px;
   }
 }
@@ -454,7 +453,7 @@ select option[value="2"] { /* value not val */
     display: inline-block;
   }
 
-  .slick-current .product-img .product-match-overlay span {
+  .slick-current .product-img .product-match-overlay-1 span {
     width: 70%;
     font-size: 12px;
   }
