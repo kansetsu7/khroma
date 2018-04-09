@@ -1,5 +1,6 @@
 $(document).on('turbolinks:load', function(){
   $('#get-color').click(function(){
+    $('#spinner-overlay').css('display', 'grid');
     var chip_url = $('#product_color_chip').val();
     $.ajax({
       url: '/admin/products/get_chip_colors',
