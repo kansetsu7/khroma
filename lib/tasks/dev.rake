@@ -77,12 +77,12 @@ namespace :dev do
       if product[1] == '-1'  # sold out products
         Product.create!(
           style_id: product[0].to_i + 1,
-          name: '',
-          brand: '',
-          image: '',
-          link: '',
+          name: '-',
+          brand: '-',
+          image: '-',
+          link: '-',
           price: -1,
-          color_chip: ''
+          color_chip: '-'
         )
       else
         Product.create!(
@@ -104,12 +104,12 @@ namespace :dev do
       if (product[1].include?('褲') && product[6].to_i.even?) || product[1].include?('袖') && product[6].to_i.odd?
         Product.create!(
           style_id: product[0].to_i + lativ_style_count + 1,
-          name: '',
-          brand: '',
-          image: '',
-          link: '',
+          name: '-',
+          brand: '-',
+          image: '-',
+          link: '-',
           price: -1,
-          color_chip: ''
+          color_chip: '-'
         )
       else
         Product.create!(
