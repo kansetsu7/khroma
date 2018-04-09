@@ -54,10 +54,10 @@
       <%= f.label :color_chip, "Color chip" %> <div class="btn admin-btn btn-default" id="get-color">取得顏色</div>
       <%= f.text_field :color_chip, class: "form-control" %>
     </div>
-    <br>
     <div id="color-info-panel">
       <%= render partial: "shared/color_info", locals: {chip_url: @chip_url, chip_colors: @chip_colors, target_index: @target_index, hue_levels: @hue_levels} %>
     </div>
+    <br>
     <%= f.submit %>
   <% end %>
 

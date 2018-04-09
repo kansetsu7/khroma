@@ -1,6 +1,6 @@
 class ClothesColor
 
-  attr_reader :rgy_r, :ryb_y, :ryb_b, :h, :s, :v, :hue_level
+  attr_reader :rgy_r, :ryb_y, :ryb_b, :h, :s, :v, :hue_level, :not_achromatic_hue_level
 
   def initialize(rgb_hex)
     @rgb_r = rgb_hex[1, 2].to_i(16)
@@ -13,7 +13,8 @@ class ClothesColor
     @s = round_down(hsv[1], 100)
     @v = round_down(hsv[2], 100)
 
-    @hue_level = get_hue_level
+    @hue_level = get_hue_level(false)
+    @not_achromatic_hue_level = get_hue_level(true)
   end
 
   def to_rgb_base_hsv
@@ -76,14 +77,17 @@ class ClothesColor
     s < 7 || v <= 20 ? true : false
   end
 
-  def get_hue_level
+  def get_hue_level(skip_achromatic)
     # ---- achromatic 無色彩 ----
     
     # uniqlo's white is more grayish than lativ
     # OFF-White #E0DFCE v=8.04
-    return 13 if self.s < 8.1 && self.v >= 80  # white
-    return 14 if self.s < 7 && self.v < 80 && self.v > 20 # gray
-    return 15 if self.v <= 20  # black
+    unless skip_achromatic
+      puts "skip_achromatic #{skip_achromatic}"
+      return 13 if self.s < 8.1 && self.v >= 80  # white
+      return 14 if self.s < 7 && self.v < 80 && self.v > 20 # gray
+      return 15 if self.v <= 20  # black
+    end    
 
     # ---- chromatic ----
     # hue_level,  hue range
