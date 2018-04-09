@@ -33,9 +33,11 @@ class KhromaController < ApplicationController
   end
 
   def pop_gender_choices
+    @hue_levels = HueLevel.all
+
   	render json:{
-  	  typesUpHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[0]}),
-  	  typesDownHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[1]})
+  	  typesUpHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[0], hue_levels: @hue_levels}),
+  	  typesDownHtml: render_to_string(partial: 'shared/pop_gender_choices', locals: {categories: @categories[1], hue_levels: @hue_levels})
   	}  
   end
 
@@ -45,9 +47,10 @@ class KhromaController < ApplicationController
     else 
       q2 = 0
     end
+    @hue_levels = HueLevel.all
 
   	render json: {
-      q1Html: render_to_string(partial: 'shared/pop_q1_choices', locals: {categories: @categories[params[:up_or_down].to_i]}),
+      q1Html: render_to_string(partial: 'shared/pop_q1_choices', locals: {categories: @categories[params[:up_or_down].to_i], hue_levels: @hue_levels}),
   		q2Html: render_to_string(partial: 'shared/pop_q2_choices', locals: {categories: @categories[q2]})
   	}	
   end

@@ -6,9 +6,6 @@ $(document).on('turbolinks:load', function(){
   window.sr = ScrollReveal();
 
   sr.reveal('#question1, #gender-choice, #category-choice',{origin:'bottom', duration: 500, distance: '50px'});
-  // sr.destroy('#question1, #gender-choice, #category-choice');
-
-  // $('#question1, #type-choice-panel, #gender-choice').fadeIn();
 
   $('#category-choice .btn').click(function(){
 
@@ -22,14 +19,13 @@ $(document).on('turbolinks:load', function(){
       },
       success: function(data){
         $('#q1-choice-panel').html(data['q1Html']);
-        // $('.selectpicker').selectpicker();
         $('#q2-choice-panel').html(data['q2Html']);
+
       }
     }).done(function(){
       $('#q1-choice-panel').css('display', 'grid');
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       sr.reveal('#q1-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
-      // sr.destroy('#q1-choice-panel');
     });  
   });
 
@@ -49,19 +45,33 @@ $(document).on('turbolinks:load', function(){
       });   
   });
 
-  $('#q1-choice-panel').on('change', 'span:nth-child(2)', function(){
-    // $(this, '#question1', '#gender-choice').css('transform', 'translateY(-200)');
+  
+  // Animation
+  $('#q1-choice-panel').on('click', '.mm-dropdown .textfirst', function(){
+    var li = $('.mm-dropdown > ul > li.input-option');
+    li.toggle('fast');
+  });
+
+  // Insert Data
+  $('#q1-choice-panel').on('click', '.mm-dropdown > ul > li.input-option', function(){
+    var main = $('.mm-dropdown .textfirst');
+    var inputoption = $(".mm-dropdown .option");
+    var li = $('.mm-dropdown > ul > li.input-option');
+
+    li.toggle('fast');
+    var livalue = $(this).data('value');
+    var lihtml = $(this).html();
+    main.html(lihtml);
+    inputoption.val(livalue);
+
     $('#question2').show();
     $('#q2-choice-panel').css('display', 'grid');
     sr.reveal('#question2, #q2-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
-    // sr.destroy('#question2, #q2-choice-panel');
-    // $('#question2, #hue-choice-panel').fadeIn();
   });
 
   $('#q2-choice-panel').on('change', 'span', function(){
     $('#match-btn').css('display', 'grid');
     sr.reveal('#match-btn',{origin:'bottom', duration: 500, distance: '50px'});
-    // sr.destroy('#match-btn');
   });
 
   $('#kroma-index-match #match-btn').click(function(){

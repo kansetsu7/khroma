@@ -6,43 +6,18 @@
     <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇上衣款式", required: true }, {class: "custom-select"}) %>
   </span>
   <span id="up-hue-choice">
-<!--     <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        請選擇上衣顏色
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li class="dropdown-item" value="1">紅色系</li>
-        <li class="dropdown-item" value="2">橘紅色系</li>
-        <li class="dropdown-item" value="3">橘色系</li>
-        <li class="dropdown-item" value="4">橘黃色系</li>
-        <li class="dropdown-item" value="5">黃色系</li>
-        <li class="dropdown-item" value="6">黃綠色系</li>
-        <li class="dropdown-item" value="7">綠色系</li>
-        <li class="dropdown-item" value="8">藍綠色系</li>
-        <li class="dropdown-item" value="9">藍色系</li>
-        <li class="dropdown-item" value="10">藍紫色系</li>
-        <li class="dropdown-item" value="11">紫色系</li>
-        <li class="dropdown-item" value="12">紫紅色系</li>
-        <li class="dropdown-item" value="13">無色彩(黑、白、灰)<li>
-      </div>
-    </div> -->
-<!--       <select class="selectpicker" name="hue_level[id]" id="hue_level_id ">
-        <option value="">請選下身顏色</option>
-        <option value="1">紅色系</option>
-        <option value="2">橘紅色系</option>
-        <option value="3">橘色系</option>
-        <option value="4">橘黃色系</option>
-        <option value="5">黃色系</option>
-        <option value="6">黃綠色系</option>
-        <option value="7">綠色系</option>
-        <option value="8">藍綠色系</option>
-        <option value="9">藍色系</option>
-        <option value="10">藍紫色系</option>
-        <option value="11">紫色系</option>
-        <option value="12">紫紅色系</option>
-        <option value="13">無色彩(黑、白、灰)</option>
-      </select> -->
-    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name,  {  prompt: "請選擇上衣顏色",required: true }, {class: "custom-select"}) %>
+    <div class="mm-dropdown">
+      <div class="textfirst">請選擇上衣顏色<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png" style="width:10px; height: 10px" class="down" /></div>
+      <ul>
+        <% hue_levels.each do |hue_level| %>
+          <li class="input-option" data-value="<%= hue_level.id %>">
+            <%= image_tag("color.png", width: 40, height: 20, style: "background: #{hue_level.hex}" ) %>
+            &nbsp;&nbsp;<%= hue_level.name.split(' ')[1] %>
+          </li>
+        <% end %>
+      </ul>
+      <input type="hidden" id="hue_level_id" class="option" name="namesubmit" value="" />
+    </div>
   </span>
 <% elsif categories.first.name == "下身類" %>
   <span id="down-type-choice" class="input-group">
@@ -52,6 +27,17 @@
     <%= grouped_collection_select(:type, :type_id,  categories, :types, :name, :id, :name, { prompt: "請選擇下身款式",required: true}, {class: "custom-select"}) %>
   </span>
   <span id="down-hue-choice" class="input-group">
-    <%= collection_select(:hue_level, :id, HueLevel.all , :id, :name, { prompt: "請選下身顏色", required: true }, {class: "custom-select"}) %>
+    <div class="mm-dropdown">
+      <div class="textfirst">請選擇下身顏色<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png" style="width:10px; height: 10px" class="down" /></div>
+      <ul>
+        <% hue_levels.each do |hue_level| %>
+          <li class="input-option" data-value="<%= hue_level.id %>">
+            <%= image_tag("color.png", width: 40, height: 20, style: "background: #{hue_level.hex}" ) %>
+            &nbsp;&nbsp;<%= hue_level.name.split(' ')[1] %>
+          </li>
+        <% end %>
+      </ul>
+      <input type="hidden" id="hue_level_id" class="option" name="namesubmit" value="" />
+    </div>
   </span>
 <% end %>
