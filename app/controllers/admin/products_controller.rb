@@ -1,7 +1,8 @@
 class Admin::ProductsController < Admin::AdminController
+  before_action :set_style ,only: [:index, :edit]
+  before_action :set_product ,only: [:edit, :update, :destroy]
 
   def index
-    @style = Style.find(params[:style_id])
     @products = @style.products
     @product = Product.new
 
@@ -10,13 +11,25 @@ class Admin::ProductsController < Admin::AdminController
   def create
     @product = Product.new(product_params)
     @product.style_id = params[:style_id]
-    @product.save
-    redirect_to admin_style_products_path
+    if @product.save
+      @color = Color.create!( product: Product.last,
+                              hue_level_id: color_params['hue_level_id'],
+                              hex: color_params['hex']
+                            )
+      flash[:notice] = '成功建立product!'
+      redirect_to admin_style_products_path
+    else
+      puts "failed!!!!!"
+      puts @product.errors.inspect
+      puts @product.errors.any?
+      flash[:alert] = '建立product失敗!'
+      @style = Style.find(params[:style_id])
+      @products = @style.products
+      render :index
+    end
   end
 
   def edit
-    @product = Product.find(params[:id])
-    @style = Style.find(params[:style_id])
     public_id = 'chip/'+@product.color_chip.split('/').last.split('.').first
     result = Cloudinary::Api.resource(public_id, :colors => true)
     @chip_url = @product.color_chip
@@ -31,7 +44,6 @@ class Admin::ProductsController < Admin::AdminController
 
   def update
     puts color_params.inspect
-    @product = Product.find(params[:id])
     @product.update(product_params)
     @product.save
 
@@ -43,7 +55,6 @@ class Admin::ProductsController < Admin::AdminController
   end
 
   def destroy
-    @product = Product.find(params[:id])
     @product.destroy
     redirect_to admin_style_products_path
   end
@@ -76,6 +87,13 @@ class Admin::ProductsController < Admin::AdminController
   end
 
   private
+  def set_style
+    @style = Style.find(params[:style_id])
+  end
+  def set_product
+    @product = Product.find(params[:id])
+  end
+
   def product_params
     params.require(:product).permit(:name, :image, :link, :price, :brand, :color_chip)
   end

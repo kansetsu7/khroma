@@ -14,7 +14,8 @@ $(document).on('turbolinks:load', function(){
       error: function() {
       }
     }).done(function(){
-      document.getElementById("product_color_chip").value = document.querySelector("#color-info-panel img").src
+      document.getElementById("product_color_chip").value = document.querySelector("#color-info-panel img").src;
+      document.getElementById("submit-btn").disabled = false;
     });
 
   });
