@@ -1,7 +1,6 @@
 <div class="product-lg-left">
   <div class="previous-product-btn">
     <%= link_to change_style_previous_product_path(product.id), remote: true do %>
-<!--       <i class="fa fa-caret-left"></i> -->
   <div class="slick-arrow">←</div>
     <% end %>
   </div>
@@ -10,7 +9,6 @@
   </div>
   <div class="next-product-btn">
     <%= link_to change_style_next_product_path(product.id), remote: true do %>
-      <!-- <i class="fa fa-caret-right"></i> -->
       <div class="slick-arrow" >→</div>
     <% end %>
   </div>

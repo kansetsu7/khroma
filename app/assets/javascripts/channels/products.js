@@ -53,8 +53,7 @@ $(document).on('turbolinks:load', function(){
         });
       });
     }
-    
-  });
+  }); // 查看相似商品按下ajax 對應商品
 
   $('#product-match #match-btn').click(function(){
     $('#product-family-panel').hide();
@@ -77,7 +76,6 @@ $(document).on('turbolinks:load', function(){
     }
 
     $('#spinner-overlay').css('display', 'grid');
-    
     
     $.ajax({
       url: '/khroma/match',
@@ -132,7 +130,7 @@ $(document).on('turbolinks:load', function(){
       }, 500);
       return false;
     });
-  });
+  }); //product show 頁面match btn按下 ajax 配對內容
 
   $('#product-match-result #match-result-panel').on('click', '.match-principle-pill', function(){
     $('#spinner-overlay').css('display', 'grid');
@@ -208,6 +206,5 @@ $(document).on('turbolinks:load', function(){
       }, 500);
       return false;
     });
-  });
-
+  }); //product show 頁面principle pills 按下 ajax 配對內容
 });

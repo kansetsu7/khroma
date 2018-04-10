@@ -1,14 +1,12 @@
 $(document).on('turbolinks:load', function(){
-  
 
   $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
 
   window.sr = ScrollReveal();
-
   sr.reveal('#question1, #gender-choice, #category-choice',{origin:'bottom', duration: 500, distance: '50px'});
+  // 首頁開頭動畫設定
 
   $('#category-choice .btn').click(function(){
-
     $.ajax({
       url: 'khroma/pop_category_choices',
       method: 'get',
@@ -27,7 +25,7 @@ $(document).on('turbolinks:load', function(){
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       sr.reveal('#q1-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
     });  
-  });
+  }); // 上下身按鈕換selector內容
 
   $('#gender-choice .btn').on('click', function(){
     $.ajax({
@@ -43,16 +41,14 @@ $(document).on('turbolinks:load', function(){
       $('.selectpicker').selectpicker();
       $("#q2-choice-panel #type_type_id").append('<option value="99">讓Khroma推薦！</option>');
       });   
-  });
+  }); // 男女按鈕換selector內容
 
   
-  // Animation
   $('#q1-choice-panel').on('click', '.mm-dropdown .textfirst', function(){
     var li = $('.mm-dropdown > ul > li.input-option');
     li.toggle('fast');
-  });
+  }); // Color selector animation
 
-  // Insert Data
   $('#q1-choice-panel').on('click', '.mm-dropdown > ul > li.input-option', function(){
     var main = $('.mm-dropdown .textfirst');
     var inputoption = $(".mm-dropdown .option");
@@ -67,12 +63,12 @@ $(document).on('turbolinks:load', function(){
     $('#question2').show();
     $('#q2-choice-panel').css('display', 'grid');
     sr.reveal('#question2, #q2-choice-panel',{origin:'bottom', duration: 500, distance: '50px'});
-  });
+  }); // 選完q1 show q2內容
 
   $('#q2-choice-panel').on('change', 'span', function(){
     $('#match-btn').css('display', 'grid');
     sr.reveal('#match-btn',{origin:'bottom', duration: 500, distance: '50px'});
-  });
+  }); // 選完q2 show match btn
 
   $('#kroma-index-match #match-btn').click(function(){
     $('.error-msg').html('');
@@ -145,7 +141,7 @@ $(document).on('turbolinks:load', function(){
       }, 500);
       return false;
     });
-  });
+  }); //match btn ajax 配對內容
 
   $('#match-result #match-result-panel').on('click', '.match-principle-pill', function(){
     $('#spinner-overlay').css('display', 'grid');
@@ -215,50 +211,31 @@ $(document).on('turbolinks:load', function(){
       }, 500);
       return false;
     });
-  });
+  }); //principle pills ajax 配對內容
+
+  $('#match-result-panel').on('mouseenter', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'grid');
+  }); // principle pills hover show配色法則圖
+
+  $('#match-result-panel').on('mouseleave', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'none');
+  }); // principle pills hover hide配色法則圖
 
   $(document).ajaxStop(function(){
     $('#spinner-overlay').hide();
-  });
+  }); // loading spinner 隱藏
 
   $('#match-result #match-result-panel, #product-match-result').on('click', '.product-match-overlay-1 .view-detail-btn', function(){
     $(this).parent().css('transform', 'translateY(50px)');
     $(this).parent().siblings('.product-match-overlay-2').css('transform', 'translateY(0)');
-  });
+  }); // view detail btn click show view deatail content
 
   $('#match-result #match-result-panel, #product-match-result').on('mouseenter', '.slick-current .product-img', function(){
     $(this).find('.product-match-overlay-1 ').css('transform', 'translateY(0)');
-  });
+  }); // 配對商品hover show view detail
 
   $('#match-result #match-result-panel, #product-match-result').on('mouseleave', '.slick-current .product-img ', function() {
       $(this).find('.product-match-overlay-1').css('transform', 'translateY(50px)');
       $(this).find('.product-match-overlay-2').css('transform', 'translateY(144px)');
-  });
-
-  $(document).on('click','.gender-btn', function(){
-    $.ajax({
-      url: '/khroma/navbar',
-      method: 'get',
-      dataType: 'json',
-      data: { id: $(this).val() },
-      success: function(data){
-        $('#lower-nav').css('transform', 'translateY(0)');
-        $('#lower-nav .container').html(data['html']);
-      }
-    });
-  });
-
-  $(document).on('click','.close-btn', function(){
-    $('#lower-nav').css('transform', 'translateY(-100%)');
-  });
-
-  $('#match-result-panel').on('mouseenter', '.match-principle-pill', function() {
-      $(this).find('.match-principle-panel').css('display', 'grid');
-  }); 
-
-  $('#match-result-panel').on('mouseleave', '.match-principle-pill', function() {
-      $(this).find('.match-principle-panel').css('display', 'none');
-  });
+  }); // 配對商品hover hide view detail
 });
-
-

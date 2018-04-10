@@ -1,54 +1,38 @@
 <section id="home-page">
   <div class="home-bg">
     <div class="home-page-overlay"></div>  
-      <div class="container">
-        <div class="match-choice-panel">
-          <h2 id="question1">今天想幫什麼衣服配色呢？</h2>
-          <div>
-            <div id="gender-choice">
-              <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active btn-warning">
-                  <input value="2" type="radio" name="options" id="option2" autocomplete="off"> 女
-                </label>
-                <label class="btn btn-secondary btn-warning">
-                  <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 男
-                </label>
-              </div>
-            </div>
-            <div id="category-choice">
-              <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn active btn-primary">
-                  <input value="0" type="radio" name="options" id="option2" autocomplete="off"> 幫我的上衣搭配
-                </label>
-                <label class="btn btn-primary">
-                  <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 幫我的下身搭配
-                </label>
-              </div>
+    <div class="container">
+      <div class="match-choice-panel">
+        <h2 id="question1">今天想幫什麼衣服配色呢？</h2>
+        <div>
+          <div id="gender-choice">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active btn-warning">
+                <input value="2" type="radio" name="options" id="option2" autocomplete="off"> 女
+              </label>
+              <label class="btn btn-secondary btn-warning">
+                <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 男
+              </label>
             </div>
           </div>
-          <div id="q1-choice-panel">
-          </div>
-          <h2 id="question2">想讓khroma推薦什麼款式呢？</h2>
-          <div id="q2-choice-panel">
-          </div>
-          <div id="kroma-index-match">
-            <%= render partial: "shared/match_btn" %>
-          </div>
-        </div>
-      <!-- <div class="container">
-        <div class="home-page-panel">
-          <h2>一種配色，等一個人</h2>
-          <h3>Let color do the magic.</h3>
-          <div>
-            <%= link_to "#match", data: { turbolinks: false } do %> 
-              <button class="btn" herf="#match">馬上試用</button>
-            <% end %>
-            <%= link_to new_user_registration_path, remote: true do %>
-              <button class="btn">註冊會員</button>
-            <% end %>
+          <div id="category-choice">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn active btn-primary">
+                <input value="0" type="radio" name="options" id="option2" autocomplete="off"> 幫我的上衣搭配
+              </label>
+              <label class="btn btn-primary">
+                <input value="1" type="radio" name="options" id="option1" autocomplete="off"> 幫我的下身搭配
+              </label>
+            </div>
           </div>
         </div>
-      </div> -->
+        <div id="q1-choice-panel"></div>
+        <h2 id="question2">想讓khroma推薦什麼款式呢？</h2>
+        <div id="q2-choice-panel"></div>
+        <div id="kroma-index-match">
+          <%= render partial: "shared/match_btn" %>
+        </div>
+      </div>
     </div>
   </div>
 </section>

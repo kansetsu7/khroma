@@ -81,7 +81,6 @@
   justify-self: end;
 }
 
-
 /* product show, product-panel-lg */
 
 .product-panel-lg {
@@ -219,11 +218,9 @@
   padding: 20px 0;
 }
 
-
 /* RWD */ 
 
 @media (max-width: 1110px) {
-
   .product-panel-lg {
     width: 100%;
   }
@@ -247,13 +244,6 @@
   }
 }
 
-
-@media (max-width: 650px) {
-  .product-panel-lg {
-   
-  }
-}
-
 @media (max-width: 550px) {
   .type-styles-panel .styles-panel hr {
     width: 90%;
@@ -264,5 +254,4 @@
   .type-styles-panel .styles-panel hr:nth-of-type(4) {
     display: none;
   }
-
 }
