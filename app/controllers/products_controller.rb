@@ -18,7 +18,7 @@ class ProductsController < ApplicationController
     next_style = Style.find(@styles_id[@current_index+1])
     @product = next_style.products.first
 
-    render file: "products/change_color.js.erb" 
+    render "change_color" 
   end
 
   def change_style_previous
@@ -28,7 +28,7 @@ class ProductsController < ApplicationController
     previous_style = Style.find(@styles_id[@current_index-1])
     @product = previous_style.products.first
 
-    render file: "products/change_color.js.erb" 
+    render "change_color" 
   end
 
   def family

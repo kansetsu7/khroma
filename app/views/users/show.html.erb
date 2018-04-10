@@ -14,23 +14,23 @@
       </div>
     </div>
     <h1></h1>
-      <div class="user-profile-panel shadow-box-light">
-        <div class="user-title">用戶名稱</div>
-        <div class="user-name">
-          <%= current_user.name %>
-        </div>
-        <div class="user-title">Email</div>
-        <div class="user-email">
-          <%= simple_format(current_user.email) %>
-        </div>
-        <div class="user-button-panel">
-          <%= link_to edit_user_path(current_user), remote: true do %>
-            <button class="btn btn-primary btn-sm">修改資料</button>
-          <% end %>
-          <%= link_to edit_user_registration_path, remote: true do %>
-            <button class="btn btn-primary btn-sm">修改密碼</button>
-          <% end %>
-        </div>
+    <div class="user-profile-panel shadow-box-light">
+      <div class="user-title">用戶名稱</div>
+      <div class="user-name">
+        <%= current_user.name %>
       </div>
+      <div class="user-title">Email</div>
+      <div class="user-email">
+        <%= simple_format(current_user.email) %>
+      </div>
+      <div class="user-button-panel">
+        <%= link_to edit_user_path(current_user), remote: true do %>
+          <button class="btn btn-primary btn-sm">修改資料</button>
+        <% end %>
+        <%= link_to edit_user_registration_path, remote: true do %>
+          <button class="btn btn-primary btn-sm">修改密碼</button>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>

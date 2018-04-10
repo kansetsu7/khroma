@@ -89,11 +89,8 @@ button[disabled] {
   cursor: pointer;
 }
 
-/*[data-sr] {
-  visibility: hidden;
-}
-*/
 /* navbar */
+
 header {
   width: 100%;
   height: 35px;
@@ -283,6 +280,7 @@ header {
 }
 
 /* sign up, sign in */
+
 .sign-overlay {
   position: fixed;
   top: 0;
@@ -448,7 +446,6 @@ footer {
 
 /* RWD */
 
-
 @media (min-width: 992px){
   .container{
     max-width:100%;
@@ -475,12 +472,6 @@ footer {
   }
 }
 
-/*@media (max-width: 1110px) {
-  .container {
-    width: 90%;
-  }
-}*/
-
 @media (max-width: 550px) {
   .container {
     width: 100%;
@@ -502,4 +493,3 @@ footer {
     grid-template-columns: 90px 1fr 120px;
   }
 }
-

@@ -1,6 +1,5 @@
 $(window).on("scroll", debounce(function(){
   if (($(window).height() + $(window).scrollTop()) >= $(document).height()-100) {
-
     var nextSelector = $('nav.pagination a[rel=next]').attr('href');
     if ( typeof nextSelector === 'undefined') {
       $('#styles-spinner').html('<em>沒有更多商品</em>')
@@ -17,7 +16,7 @@ $(window).on("scroll", debounce(function(){
       }
     });
   }
-}));
+})); // infinite scroll debounce設定
 
 $(document).on('turbolinks:load', function(){
   $('.product-color-panel a').on('click', function(){
@@ -35,10 +34,7 @@ $(document).on('turbolinks:load', function(){
     $(this).css('color', 'var(--info)');
     $(this).html('已加入收藏');
   });
-});
-
-
-// lodash debounce function https://lodash.com/docs/4.17.5#debounce
+}); // 加入收藏商品按鈕之 ajax
 
 function debounce(func, wait = 500, immediate = false) {
   var timeout;
@@ -54,4 +50,4 @@ function debounce(func, wait = 500, immediate = false) {
       timeout = setTimeout(later, wait);
       if (callNow) func.apply(context, args);
   }
-}
+} // lodash debounce function https://lodash.com/docs/4.17.5#debounce
