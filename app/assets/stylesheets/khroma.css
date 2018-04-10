@@ -79,7 +79,7 @@
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 20px;
-  z-index: 500; 
+  z-index: 100; 
 }
 
 .mm-dropdown {
@@ -283,6 +283,8 @@
 .left-match-col {
   grid-area: left;
   max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .right-match-col {
@@ -341,6 +343,12 @@
 
 .up-products-panel {
   margin-top: 10px;
+  align-self:center;
+  justify-self:center;
+}
+.down-products-panel {
+  align-self:center;
+  justify-self:center;
 }
 
 .carousel {
