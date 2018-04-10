@@ -103,10 +103,10 @@ class Match
 
   def set_products
     if @no_params['top_hue_level']
-      @bottom_products = Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level.to_i)
+      @bottom_products = Type.find(@bottom_type).products.joins(:color).where('colors.hue_level_id = ?', @bottom_hue_level.to_i).limit(10)
       @top_products = get_product_of_match_color(@bottom_type, @top_type, @target_principle_color.hue_level_id)
     else # no bottom_hue_level
-      @top_products = Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level.to_i)
+      @top_products = Type.find(@top_type).products.joins(:color).where('colors.hue_level_id = ?', @top_hue_level.to_i).limit(10)
       @bottom_products = get_product_of_match_color(@top_type, @bottom_type, @target_principle_color.hue_match1)
     end
   end
