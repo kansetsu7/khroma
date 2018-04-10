@@ -28,4 +28,4 @@ $ rails s
 ```
 
 ## ERD
-![alt text](https://res.cloudinary.com/dec3rgj55/image/upload/v1523328796/ERD_phase2.png)
+![alt text](https://res.cloudinary.com/dec3rgj55/image/upload/v1523349661/ERD_phase2.png)
