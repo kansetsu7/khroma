@@ -1,5 +1,6 @@
 module Admin::ProductsHelper
-
+  require 'net/http'
+  
   def show_product_attribute(value)
     return value unless value.is_a? String
     if value.include?('http')
