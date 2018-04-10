@@ -2,6 +2,12 @@
 ALPHA camp demo day project  
 An website with color matching algorithm to help user choose clothes.
 
+## User stories
+1. 使用者在選擇好需要配色的衣服款式及顏色後，按下配色按鈕可以獲得基於配色法則所搭配的穿搭圖案以及適合的衣服
+2. 使用者能夠在商品頁面查看同色系同款式的相似商品
+3. 管理者登入後可在後台新增或編修分類及商品資料
+
+
 ## How to run it on local
 
 1.  Install all required Ruby GEM
@@ -9,13 +15,7 @@ An website with color matching algorithm to help user choose clothes.
 $ bundle install
 ```
 
-2.  Manually add ./config/facebook.yml with app_id and secret. Content inside would be be as follows.
-```
-development:
-  app_id: YOUR_FB_APP_ID
-  secret: FB_APP_SECRET
-```
-Replace **YOUR_FB_APP_ID** and **FB_APP_SECRET** with what you got from [Facebook for developers ](https://developers.facebook.com)
+2.  Manually add facebook.yml, google.yml and cloudinary.yml with app_id and secret under config folder. 
 
 3.  Setup for database
 ```
@@ -26,3 +26,6 @@ $ rails dev:fake_all
 ```
 $ rails s
 ```
+
+## ERD
+![alt text](https://res.cloudinary.com/dec3rgj55/image/upload/v1523328796/ERD_phase2.png)
