@@ -18,10 +18,7 @@ class CartsController < ApplicationController
     @user = current_user
     @types= []
     @products = current_user.cart_products.includes(style: :type)
-    @products.each do |product|
-      @types << product.style.type.name
-      @types = @types.uniq
-    end
+    @types = @products.map{ |p| p.style.type.name }.uniq
   end
 
 end
