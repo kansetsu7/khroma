@@ -17,8 +17,6 @@ class Match
                   'bottom_hue_level' => bottom_hue_level == '99' || bottom_hue_level == ''
                  }
 
-    puts "#{@no_params['top_type']}, #{@no_params['top_hue_level']} x #{@no_params['bottom_type']}, #{@no_params['bottom_hue_level']}"
-    puts "#{top_type}, #{top_hue_level} x #{bottom_type}, #{bottom_hue_level}"
     @error = {}
     @top_color
     @bottom_color
@@ -30,8 +28,9 @@ class Match
     set_principle_colors
     return if error.any?
     set_attributes
-    puts_attributes_count
   end
+
+  private
 
   # 至少要給一個category的type+hue_level才能進行配對
   def enough_params?   
@@ -39,8 +38,7 @@ class Match
     (!@no_params['bottom_type'] && !@no_params['bottom_hue_level'] && !@no_params['top_type'] || @top_type == '99') ? true : false
   end
 
-  private
-
+  # Just for debug
   def puts_attributes_count
     puts '====================================='
     puts "principle_colors #{@principle_colors.count}"
@@ -71,15 +69,12 @@ class Match
       @hue_level = @top_hue_level.to_i 
       pcs = PrincipleColor.where(hue_level_id: @hue_level)
     end
+
     @principle_colors = []
     pcs.each_with_index do |principle_color, i|  # 只留有outfits的principle_colors
       @principle_colors.push(principle_color) unless principle_color.outfits.joins(:celebrity).where('celebrities.gender_id = ?', gender_id) == []
     end
 
-    if @principle_colors.count == 0
-      @error = {code: 2, message: '哎呀！找不到相關的穿搭圖...'}
-      return
-    end
     @target_principle_color = @principle_color_id.nil? ? @principle_colors.first : PrincipleColor.find(@principle_color_id)
     @target_principle = @target_principle_color.principle
 
@@ -102,7 +97,7 @@ class Match
     # 沒給type -> 從有給type的category反推找出沒給的category
     category_id = Type.find(type_with_color).category.id  # 有給type的category
     category_id = category_id.even? ? (category_id - 1) : (category_id + 1)  # 有給type的category.id是偶數 -> 沒給的是奇數
-    Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', match_hue_level_id).limit(10)
+    Category.find(category_id).products.joins(:color).where('colors.hue_level_id = ?', match_hue_level_id)
     
   end
 
@@ -123,6 +118,5 @@ class Match
     optional_hlv2 = @target_principle_color.option2_hue_level  # 可能為nil
     @optional_colors = [optional_hlv1, optional_hlv2]
   end
-
   
 end

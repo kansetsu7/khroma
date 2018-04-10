@@ -50,15 +50,16 @@ class ClothesColor
     [kuler_hue(h), s, v]    
   end
 
-  def mapRange(value, fromLower, fromUpper, toLower, toUpper)
-    (toLower + (value - fromLower) * ((toUpper - toLower) / (fromUpper - fromLower)))
-  end
+  # Distributed under the MIT License from the Open Source Initiative (OSI) - 
+  # http://www.opensource.org/licenses/mit-license.php
+  # 
+  # mapping RGB hue to adobe kuler's color wheel's hue
+  # 
+  # source: https://github.com/benknight/kuler-d3/blob/master/colorwheel.js
+  #         function: scientificToArtisticSmooth
+  # UI http://benknight.github.io/kuler-d3/
 
-  def kuler_hue(in_hue)
-    # mapping RGB hue to adobe kuler's color wheel's hue
-    # scientificToArtisticSmooth
-    # source: https://github.com/benknight/kuler-d3/blob/master/colorwheel.js
-    # UI http://benknight.github.io/kuler-d3/
+  def kuler_hue(in_hue)    
 
     return in_hue * (60.0 / 35.0) if in_hue < 35.0
     return mapRange(in_hue, 35.0,  60.0,  60.0,  122.0) if in_hue < 60.0
@@ -67,6 +68,10 @@ class ClothesColor
     return mapRange(in_hue, 180.0, 240.0, 218.0, 275.0) if in_hue < 240.0
     return mapRange(in_hue, 240.0, 300.0, 275.0, 330.0) if in_hue < 300.0
            mapRange(in_hue, 300.0, 360.0, 330.0, 360.0)
+  end
+
+  def mapRange(value, fromLower, fromUpper, toLower, toUpper)
+    (toLower + (value - fromLower) * ((toUpper - toLower) / (fromUpper - fromLower)))
   end
 
   def round_down(num, nk)
