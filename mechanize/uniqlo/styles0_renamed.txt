@@ -168,18 +168,18 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 2,Dry-EX 圓領T恤 (短袖),490,http://www.uniqlo.com/tw/store/goods/404484,0,0,2
 2,DRY EX 圓領T恤 (短袖),490,http://www.uniqlo.com/tw/store/goods/190223,0,0,2
 2,DRY EX 圓領T恤 (短袖) (迷彩),490,http://www.uniqlo.com/tw/store/goods/190240,0,0,2
-2,SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407772,0,0,2
-2,SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407773,0,0,2
-2,Dry-EX POLO衫 (短袖)(mapping),790,http://www.uniqlo.com/tw/store/goods/404157,0,0,2
-2,DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/19024700001,0,0,2
-2,DRY EX POLO衫 (短袖)(棉質),290,http://www.uniqlo.com/tw/store/goods/19025500001,0,0,2
-2,DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/190247,0,0,2
-2,SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,0,2
-2,SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,0,2
-2,Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,0,2
-2,Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,0,2
-2,DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,0,2
-2,DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,0,2
+4,SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407772,0,0,4
+4,SPRZ NY Dry-EX POLO衫(短袖),790,http://www.uniqlo.com/tw/store/goods/407773,0,0,4
+4,Dry-EX POLO衫 (短袖)(mapping),790,http://www.uniqlo.com/tw/store/goods/404157,0,0,4
+4,DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/19024700001,0,0,4
+4,DRY EX POLO衫 (短袖)(棉質),290,http://www.uniqlo.com/tw/store/goods/19025500001,0,0,4
+4,DRY EX POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/190247,0,0,4
+2,SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406537,0,1,5
+2,SPRZ NY Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/406892,0,1,5
+2,Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404152,0,1,5
+2,Dry-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/404485,0,1,5
+2,DRY-EX 五分短褲,590,http://www.uniqlo.com/tw/store/goods/190268,0,1,5
+2,DRY EX 短褲,590,http://www.uniqlo.com/tw/store/goods/180732,0,1,5
 2,AIRism 運動機能上衣(短袖),590,http://www.uniqlo.com/tw/store/goods/406364,0,0,2
 2,寬版圓領T恤 (短袖),290,http://www.uniqlo.com/tw/store/goods/196273,0,0,2
 2,寬版圓領T恤 (短袖) (surf knitted),290,http://www.uniqlo.com/tw/store/goods/180707,0,0,2
@@ -195,15 +195,15 @@ type_id,name,price,link,gender_id,category_of_gender_id,type_of_category_id
 2,SUPIMA COTTON V領T恤(短袖),390,http://www.uniqlo.com/tw/store/goods/404137,0,0,2
 2,SUPIMA COTTONN V領T恤(短袖),390,http://www.uniqlo.com/tw/store/goods/180704,0,0,2
 2,Supima Cotton V領T恤(短袖),190,http://www.uniqlo.com/tw/store/goods/16418000002,0,0,2
-2,DRY 網眼印花POLO衫 (短袖)(帆船),290,http://www.uniqlo.com/tw/store/goods/193640,0,0,2
-2,DRY 網眼印花POLO衫 (短袖)(船槳),290,http://www.uniqlo.com/tw/store/goods/193638,0,0,2
-2,DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404158,0,0,2
-2,DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/180719,0,0,2
-2,DRY 舒適襯衫領POLO衫 (短袖) (鈕釦領),290,http://www.uniqlo.com/tw/store/goods/193623,0,0,2
-2,針織POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408381,0,0,2
-2,寬版POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/197523,0,0,2
-2,寬版POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/197853,0,0,2
-2,U SUPIMA COTTON 開領POLO衫(短袖),990,http://www.uniqlo.com/tw/store/goods/406796,0,0,2
+4,DRY 網眼印花POLO衫 (短袖)(帆船),290,http://www.uniqlo.com/tw/store/goods/193640,0,0,4
+4,DRY 網眼印花POLO衫 (短袖)(船槳),290,http://www.uniqlo.com/tw/store/goods/193638,0,0,4
+4,DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/404158,0,0,4
+4,DRY 網眼POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/180719,0,0,4
+4,DRY 舒適襯衫領POLO衫 (短袖) (鈕釦領),290,http://www.uniqlo.com/tw/store/goods/193623,0,0,4
+4,針織POLO衫 (短袖),790,http://www.uniqlo.com/tw/store/goods/408381,0,0,4
+4,寬版POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/197523,0,0,4
+4,寬版POLO衫 (短袖),290,http://www.uniqlo.com/tw/store/goods/197853,0,0,4
+4,U SUPIMA COTTON 開領POLO衫(短袖),990,http://www.uniqlo.com/tw/store/goods/406796,0,0,4
 2,拼色T恤 (短袖),790,http://www.uniqlo.com/tw/store/goods/406792,0,0,2
 2,休閒上衣 (短袖),990,http://www.uniqlo.com/tw/store/goods/406800,0,0,2
 2,U 條紋T恤 (短袖),790,http://www.uniqlo.com/tw/store/goods/407045,0,0,2
