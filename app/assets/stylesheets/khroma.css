@@ -292,7 +292,7 @@
 }
 
 .right-match-col img {
-  object-fit: cover;
+  object-fit: cover !important;
 }
 
 .slick-slide  .product-img  .product-match-overlay-1,

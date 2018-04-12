@@ -2,8 +2,8 @@
   <div id="<%= type.name.delete('/').delete('(').delete(')') %>" style="padding-top: 40px">
     <div class="card shadow-box type-styles-card">
       <div class="card-header">
-        <h5><%= type.name %></h5>
-        <div class="go-more-btn">
+        <div><h5><%= type.name %></h5></div>
+        <div class="go-more-btn float-right">
           <%= link_to type_styles_path(type.id) do %>
             <button class="btn btn-sm btn-primary">去比較更多</button>
           <% end %>

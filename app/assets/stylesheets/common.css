@@ -118,7 +118,6 @@ header {
   height: 35px;
   display: grid;
   grid-template-areas: "logo";
-  align-items: center;
   justify-items: center;
   position: relative;
   cursor: pointer;
@@ -130,6 +129,7 @@ header {
   object-fit: cover;
   grid-area: logo;
   position: absolute;
+  top: -38px;
 }
 
 #logo:hover .logo-img{
@@ -487,6 +487,10 @@ footer {
 
   #logo a, #sign-menu a {
     font-size: 16px;
+  }
+
+  #logo .logo-img {
+    top: -27px;
   }
 
   #upper-nav {
