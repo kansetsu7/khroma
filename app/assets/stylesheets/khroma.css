@@ -436,6 +436,10 @@
     "right"
     "left"  
   }
+
+  .match-principle-panel {
+    display: none;
+  }
 }
 
 @media (max-width: 590px) {
@@ -462,14 +466,18 @@
     font-size: 16px;
   }
   
-    .carousel {
-    max-width: 320px;
+  .carousel {
+    max-width: 380px;
     max-height: 350px;
   }
 
   .carousel img {
-    max-width: 280px;
+    max-width: 240px;
     max-height: 350px;
+  }
+
+  .slick-slide {
+    padding: 1px 5px;
   }
   
   .slick-slide img {
@@ -479,5 +487,11 @@
   .slick-current .product-img .product-match-overlay-1 span {
     width: 70%;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 430px) {
+  .carousel {
+    max-width: 320px;
   }
 }
