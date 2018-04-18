@@ -28,6 +28,7 @@ class Match
     set_principle_colors
     return if error.any?
     set_attributes
+    puts_attributes_count
   end
 
   private
