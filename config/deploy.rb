@@ -5,12 +5,18 @@ lock "~> 3.11.2"
 
 set :application, "khroma"
 # set :repo_url, "git@github.com:kansetsu7/khroma.git"
-set :deploy_via, :copy
-set :use_sudo, false    
-set :scm, "git"
-set :repository, "."
-set :local_repository, "."
+# set :deploy_via, :copy
+# set :use_sudo, false    
+# set :scm, "git"
+# set :repository, "."
+# set :local_repository, "."
+# set :forward_agent, true
 set :branch, "master"
+# set :repo_url, 'file:///Users/smallword/Documents/Alpha\ camp/demo_day1/khroma'
+set :repository, 'file:///Users/smallword/Documents/Alpha\ camp/demo_day1/khroma'
+set :local_repository, "file://."
+set :scm, :git
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
