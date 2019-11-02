@@ -256,7 +256,7 @@ style_id,name,image_link,color_chip_link,gender_id,category_of_gender_id,type_of
 154,快乾網眼襯衫領polo衫,https://s3.lativ.com.tw/i/34109/34109011/3410901_500.jpg,https://s3.lativ.com.tw/i/34109/34109011/3410901_48.jpg,0,0,3,0
 154,快乾網眼襯衫領polo衫,https://s3.lativ.com.tw/i/34109/34109021/3410902_500.jpg,https://s3.lativ.com.tw/i/34109/34109021/3410902_48.jpg,0,0,3,0
 154,快乾網眼襯衫領polo衫,https://s3.lativ.com.tw/i/34109/34109031/3410903_500.jpg,https://s3.lativ.com.tw/i/34109/34109031/3410903_48.jpg,0,0,3,0
-155,快乾網眼徽章polo衫,https://s3.lativ.com.tw/i/34116/34116011/3411601_500.jpg,https://s3.lativ.com.tw/i/34116/34116011/3411601_48.jpg,0,0,3,1
+155,快乾網眼徽章polo衫,https://s3.lativ.com.tw/i/30086/30086041/3008604_500.jpg,https://s3.lativ.com.tw/i/30086/30086041/3008604_24.jpg,0,0,3,1
 155,快乾網眼徽章polo衫,https://s3.lativ.com.tw/i/34116/34116021/3411602_500.jpg,https://s3.lativ.com.tw/i/34116/34116021/3411602_48.jpg,0,0,3,1
 155,快乾網眼徽章polo衫,https://s3.lativ.com.tw/i/34116/34116031/3411603_500.jpg,https://s3.lativ.com.tw/i/34116/34116031/3411603_48.jpg,0,0,3,1
 155,快乾網眼徽章polo衫,https://s3.lativ.com.tw/i/34116/34116041/3411604_500.jpg,https://s3.lativ.com.tw/i/34116/34116041/3411604_48.jpg,0,0,3,1
@@ -299,7 +299,7 @@ style_id,name,image_link,color_chip_link,gender_id,category_of_gender_id,type_of
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086011/3008601_500.jpg,https://s3.lativ.com.tw/i/30086/30086011/3008601_24.jpg,0,0,3,6
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086021/3008602_500.jpg,https://s3.lativ.com.tw/i/30086/30086021/3008602_24.jpg,0,0,3,6
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086031/3008603_500.jpg,https://s3.lativ.com.tw/i/30086/30086031/3008603_24.jpg,0,0,3,6
-160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086041/3008604_500.jpg,https://s3.lativ.com.tw/i/30086/30086041/3008604_24.jpg,0,0,3,6
+160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/34116/34116011/3411601_500.jpg,https://s3.lativ.com.tw/i/34116/34116011/3411601_48.jpg,0,0,3,6
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086051/3008605_500.jpg,https://s3.lativ.com.tw/i/30086/30086051/3008605_24.jpg,0,0,3,6
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086061/3008606_500.jpg,https://s3.lativ.com.tw/i/30086/30086061/3008606_24.jpg,0,0,3,6
 160,Pima ​棉​polo衫,https://s3.lativ.com.tw/i/30086/30086071/3008607_500.jpg,https://s3.lativ.com.tw/i/30086/30086071/3008607_24.jpg,0,0,3,6

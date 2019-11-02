@@ -213,14 +213,6 @@ $(document).on('turbolinks:load', function(){
     });
   }); //principle pills ajax 配對內容
 
-  $('#match-result-panel').on('mouseenter', '.match-principle-pill', function() {
-      $(this).find('.match-principle-panel').css('display', 'grid');
-  }); // principle pills hover show配色法則圖
-
-  $('#match-result-panel').on('mouseleave', '.match-principle-pill', function() {
-      $(this).find('.match-principle-panel').css('display', 'none');
-  }); // principle pills hover hide配色法則圖
-
   $(document).ajaxStop(function(){
     $('#spinner-overlay').hide();
   }); // loading spinner 隱藏
@@ -234,6 +226,17 @@ $(document).on('turbolinks:load', function(){
     $(this).find('.product-match-overlay-1 ').css('transform', 'translateY(0)');
   }); // 配對商品hover show view detail
 
+
+  if ($(window).width() > 790 ) {
+    $('#match-result-panel').on('mouseenter', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'grid');
+    }); // principle pills hover show配色法則圖
+
+    $('#match-result-panel').on('mouseleave', '.match-principle-pill', function() {
+      $(this).find('.match-principle-panel').css('display', 'none');
+    }); // principle pills hover hide配色法則圖
+  }
+  
   $('#match-result #match-result-panel, #product-match-result').on('mouseleave', '.slick-current .product-img ', function() {
       $(this).find('.product-match-overlay-1').css('transform', 'translateY(50px)');
       $(this).find('.product-match-overlay-2').css('transform', 'translateY(144px)');
