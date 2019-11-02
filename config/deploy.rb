@@ -4,18 +4,18 @@
 lock "~> 3.11.2"
 
 set :application, "khroma"
-# set :repo_url, "git@github.com:kansetsu7/khroma.git"
+set :repo_url, "git@github.com:kansetsu7/khroma.git"
 # set :deploy_via, :copy
 # set :use_sudo, false    
 # set :scm, "git"
 # set :repository, "."
 # set :local_repository, "."
 # set :forward_agent, true
-set :branch, "master"
+# set :branch, "master"
 # set :repo_url, 'file:///Users/smallword/Documents/Alpha\ camp/demo_day1/khroma'
-set :repository, 'file:///Users/smallword/Documents/Alpha\ camp/demo_day1/khroma'
-set :local_repository, "file://."
-set :scm, :git
+# set :repository, 'file:///Users/smallword/Documents/Alpha\ camp/demo_day1/khroma'
+# set :local_repository, "file://."
+# set :scm, :git
 
 
 # Default branch is :master
@@ -36,7 +36,7 @@ set :deploy_to, '/home/deploy/khroma'
 # set :pty, true
 
 # Default value for :linked_files is []
-append:linked_files, 'config/database.yml', 'config/secrets.yml'
+append:linked_files, 'config/database.yml', 'config/secrets.yml', 'config/cloudinary.yml'
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
