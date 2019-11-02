@@ -4,7 +4,13 @@
 lock "~> 3.11.2"
 
 set :application, "khroma"
-set :repo_url, "git@github.com:kansetsu7/khroma.git"
+# set :repo_url, "git@github.com:kansetsu7/khroma.git"
+set :deploy_via, :copy
+set :use_sudo, false    
+set :scm, "git"
+set :repository, "."
+set :local_repository, "."
+set :branch, "master"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
