@@ -58,7 +58,7 @@ gem 'csv'
 gem 'carrierwave'
 
 # Use kaminari https://github.com/kaminari/kaminari 
-gem 'kaminari', '~>1.1.1'
+gem 'kaminari', '~>1.2.1'
 
 # User slick for carousel animation https://github.com/bodrovis/jquery-slick-rails
 gem "jquery-slick-rails"
